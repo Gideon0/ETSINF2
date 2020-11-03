@@ -1,0 +1,25 @@
+Practica 1 ETC 
+
+Ejercicio 1. 
+	- 4
+	- li $t0, 25 → ori $8, $0, 25
+	  li $t1, 30 → ori $9, $0, 30
+	- [0x0040000c]
+	- add $16, $9, $8
+	- li $t0, 75369 → lui $1, 1
+                 		      → ori $8, $1, 9833
+	  li $t1, 12976  → ori $9, $0, 12976
+	  Es debido a que 75369 tienes más de 4 cifras en hexadecimal (0x12669) 
+	                    
+Ejercicio 2.
+	- 4*3 = 12 bytes
+	- 3
+	- 0x10000008
+	- Porque la direcicón de la variable A tienes zeros en los 16 bits menos significativos(0x0000) y B no(0x0004).
+	- Para reservar los 4 bytes que ocupa un word
+	- No
+	- 0x10000004
+Ejercicio 3.
+	- 0x0000000c
+	- move $a0, $a1 → addu $4, $0, $5
+	-Salta un exepción porque sw no puede acceder a un direción que no es muiltiplo de 4
