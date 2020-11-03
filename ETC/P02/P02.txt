@@ -1,1 +1,19 @@
 Practia 02 ETC
+Ejercicio 1
+          - Leer un entreo por consola
+            Suma el contenido a $0
+            Imprimer $0
+            Imprime un salto de linea ('\n')
+          - bgez $0 -36 [loop-0x00400028] 
+            
+          - 1. 0x00400008 -> syscall
+          - 2. 0x0040000c -> addu $16, $16, $2
+          - 3. $a0 -> 0x0000000a
+               $v0 -> 0x00000000
+               $s0 -> 0x0001d460
+Ejercicio 2
+          - $v0 -> 0x0000000a 
+          - $s0 -> 0x0000121d 
+          - PC -> 0x0040034
+
+            
