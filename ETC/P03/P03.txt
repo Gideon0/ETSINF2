@@ -1,0 +1,14 @@
+Practica 3 ETC
+
+Ejercicio 1
+         - li &v0 , 10
+           systecall 
+         - jr $ra
+         - 1. Lee un entero 
+           2. Lee un entero 
+           3. Imprime un entreo
+           4. Acaba el proceso
+         - El buble se ejecuta $a1 veces
+         - Multiplicar
+         - 
+         
