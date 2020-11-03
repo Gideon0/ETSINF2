@@ -6,8 +6,9 @@ Ejercicio 1.
 	  li $t1, 30 → ori $9, $0, 30
 	- [0x0040000c]
 	- add $16, $9, $8
+	- 0x0000006e
 	- li $t0, 75369 → lui $1, 1
-                 		      → ori $8, $1, 9833
+		      	→ ori $8, $1, 9833
 	  li $t1, 12976  → ori $9, $0, 12976
 	  Es debido a que 75369 tienes más de 4 cifras en hexadecimal (0x12669) 
 	                    
