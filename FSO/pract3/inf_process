@@ -1,0 +1,9 @@
+#!/bin/bash
+# inf_process
+#Ejercicio 13 Pract3
+echo -e "PID\tPPID\tSTATE\tCOMMAND"
+pid=$(awk '/^Pid/ {print $2}' /proc/$1/status)
+ppid=$(awk '/^PPid/ {print $2}' /proc/$1/status)
+state=$(awk '/^State/ {print $2}' /proc/$1/status)
+cmd=$(cat /proc/$1/cmdline |  tr "\000" " ")
+echo -e "$pid\t$ppid\t$state\t$cmd"
