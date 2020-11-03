@@ -10,5 +10,7 @@ Ejercicio 1
            4. Acaba el proceso
          - El buble se ejecuta $a1 veces
          - Multiplicar
-         - 
          
+         - 0x0040001c
+         - move $a0,$v0
+
