@@ -8,7 +8,7 @@
 
 int main (int argc,char *argv[]) {
     int fd;
-    char *arch = "ls_output.txt";
+    char *arch = "ls_salida.txt";
     mode_t fd_mode = S_IRWXU;// file premissions
 
     fd = open(arch,O_RDWR | O_CREAT,fd_mode);
