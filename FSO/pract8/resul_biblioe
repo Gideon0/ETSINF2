@@ -1,0 +1,23 @@
+Process PID: 1700
+
+main function address: 0x80488d4 
+f function address: 0x80488a5 
+Initialiazed global variable i_glob address: 0x80da068
+Non initialized global variable ni_glob address 
+ 1st ni_glob element address: 0x80dbe20
+ Last ni_glob element address: 0x80dce1f
+Initialized local variable i_loc address: 0xffc13e40
+Non initialized local variable ni_loc address: 0xffc13e44
+Address of funcion f parameter: 0xffc13e30
+The mathematical operation result is: 0.707107
+
+ PROCESS MEMORY MAP /proc/1700/maps 
+08048000-080d8000 r-xp 00000000 08:01 306794                             /home/usuario/pract8/biblio_estatica
+080d8000-080dc000 rw-p 0008f000 08:01 306794                             /home/usuario/pract8/biblio_estatica
+080dc000-080de000 rw-p 00000000 00:00 0 
+08678000-0869a000 rw-p 00000000 00:00 0                                  [heap]
+f7fe1000-f7fe4000 r--p 00000000 00:00 0                                  [vvar]
+f7fe4000-f7fe5000 r-xp 00000000 00:00 0                                  [vdso]
+ffbf5000-ffc16000 rw-p 00000000 00:00 0                                  [stack]
+ ---------------
+

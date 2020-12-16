@@ -1,0 +1,33 @@
+Process PID: 1706
+
+main function address: 0x565d76ac 
+f function address: 0x565d767d 
+Initialiazed global variable i_glob address: 0x565d9008
+Non initialized global variable ni_glob address 
+ 1st ni_glob element address: 0x565d9040
+ Last ni_glob element address: 0x565da03f
+Initialized local variable i_loc address: 0xffab7660
+Non initialized local variable ni_loc address: 0xffab7664
+Address of funcion f parameter: 0xffab7650
+The mathematical operation result is: 0.707107
+
+ PROCESS MEMORY MAP /proc/1706/maps 
+565d7000-565d8000 r-xp 00000000 08:01 306796                             /home/usuario/pract8/biblio_dinamica
+565d8000-565d9000 r--p 00000000 08:01 306796                             /home/usuario/pract8/biblio_dinamica
+565d9000-565da000 rw-p 00001000 08:01 306796                             /home/usuario/pract8/biblio_dinamica
+565da000-565db000 rw-p 00000000 00:00 0 
+567ae000-567d0000 rw-p 00000000 00:00 0                                  [heap]
+f7d3f000-f7f11000 r-xp 00000000 08:01 293930                             /lib32/libc-2.27.so
+f7f11000-f7f12000 ---p 001d2000 08:01 293930                             /lib32/libc-2.27.so
+f7f12000-f7f14000 r--p 001d2000 08:01 293930                             /lib32/libc-2.27.so
+f7f14000-f7f15000 rw-p 001d4000 08:01 293930                             /lib32/libc-2.27.so
+f7f15000-f7f18000 rw-p 00000000 00:00 0 
+f7f39000-f7f3b000 rw-p 00000000 00:00 0 
+f7f3b000-f7f3e000 r--p 00000000 00:00 0                                  [vvar]
+f7f3e000-f7f3f000 r-xp 00000000 00:00 0                                  [vdso]
+f7f3f000-f7f65000 r-xp 00000000 08:01 269059                             /lib32/ld-2.27.so
+f7f65000-f7f66000 r--p 00025000 08:01 269059                             /lib32/ld-2.27.so
+f7f66000-f7f67000 rw-p 00026000 08:01 269059                             /lib32/ld-2.27.so
+ffa98000-ffab9000 rw-p 00000000 00:00 0                                  [stack]
+ ---------------
+
