@@ -1,0 +1,112 @@
+//Pract7
+
+Cuestión 2:
+¿Cuántos bloques ocupa el mapa de bits de nodos-i?
+    1
+¿Qué nodos-i se encuentran ocupados?
+    1
+¿A qué corresponden esos nodos-i?
+    Al direcitorio raiz "/"
+¿Cuántos bloques ocupa el mapa de bits de zonas?
+    2
+¿Cuántos bloques se encuentran ocupados por los
+nodos-i?
+    1
+Observe en el visor “Zone map” y compruebe que el
+primer bloque de la zona de datos se encuentra
+ocupado. ¿Qué fichero y qué nodo-i corresponde a
+este bloque?
+    Nodo i-1 -> Directorio raiz ("/")
+
+Cuestión 3:
+
+                Nodo-i 1
+    Modo        40755
+    UID         1000
+    Tamaño      32 
+    Instante    1544923363
+    GID         232
+    Enlaces     2
+    Zona 0      133
+    Zona 1      0
+    Zona 2      0
+    Zona 3      0
+    Zona 4      0
+    Zona 5      0
+    Zona        0
+    Zona SI     0
+    Zona DI     0
+
+    Justifique el valor del campo Tamaño  
+        Porque contiene dos nodos-i de 16 bits
+
+    Justifique el valor del campo Enlaces
+        Como es el direcotorio raiz, contiene el . y el .. 
+
+Cuestión 4:
+
+    ¿Han cambiado los datos del superbloque
+    después de crear la estructura de archivos?
+    Tanto si han cambiado como si no, justifique por
+    qué.
+
+        No porque la estructura de los datos es la misma aunque estos cambien
+
+    ¿Cuántos y cuáles nodos-i se encuentran
+    ocupados?
+
+        Del 1 al 14 
+
+    ¿Cuántos y cuáles son los bloques de datos que
+    se encuentran ocupados?
+
+        Ocupados de 133 al 693, un total de 560 bloques ocupados
+
+Cuestión 5:
+
+                Nodo-i 1
+    Modo        40755
+    UID         1000
+    Tamaño      96
+    Instante    1544923363
+    GID         232
+    Enlaces     5
+    Zona 0      133
+    Zona 1      0
+    Zona 2      0
+    Zona 3      0
+    Zona 4      0
+    Zona 5      0
+    Zona        0
+    Zona SI     0
+    Zona DI     0
+
+Cuestión 7: 
+
+    Directorio
+
+Cuestión 8:
+
+    users/felipe/mish
+        "Hola, soy cat"
+    usr/f1
+        "users/ana/f1"
+    bin/cat
+        "Hola, soy cat"
+    users/ana/f1
+        "hola soy f1"
+                                                usr/prac3       bin/usuarios      unix
+Tipos de direccionamiento a zonas
+utilizados en el nodo-i: directo, indirecto,
+doble indirecto                                 Directos        Directos          directo, indirecto,doble indirecto 
+
+Número de bloques ocupados con
+referencias a bloque                            0               0                 1 SI 2 DI = 3
+
+Tamaño en bytes del fichero                     5850            11                535316
+
+Número de bloques ocupados con la               
+información propia del fichero                  6               1                 522  -> 525 - 3 = 522
+
+Total de bloques ocupados                       6               1                 525
+
