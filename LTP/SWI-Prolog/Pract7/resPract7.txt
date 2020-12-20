@@ -1,0 +1,108 @@
+Ejercicio3
+    ?- model(clio,renault).
+    true.
+
+Ejercicio4
+    ?- model(clio,X).
+    X = renault. 
+
+Ejercicio5
+    ?- country(X,Y).
+    X = seat,
+    Y = españa ;
+    X = renault,
+    Y = francia ;
+    X = peugeot,
+    Y = francia ;
+    X = volkswagen,
+    Y = alemania ;
+    X = opel,
+    Y = alemania.   iio
+
+Ejercicio6
+    ?- isModelFrom(X,'alemania').
+    X = golf ;
+    X = touran ;
+    X = corsa.
+
+Ejercicio7
+    isCountryOf (C,A) :- isModelFrom (A,C).
+    isClasic (M) :- since(M,Y), Y=<1995.
+
+Ejercicio8
+    isRelated(A,B) :- isClasic (A), isClasic, A\==B.
+
+    Antes:
+        ?- isRelated(golf,X).
+        X = touran ;
+        X = altea ;
+        X = touran ;
+        X = mégane ;
+        X = scénic ;
+        X = '3008'.
+
+    Después:
+        ?- isRelated(golf,X).
+        X = touran ;
+        X = altea ;
+        X = touran ;
+        X = mégane ;
+        X = scénic ;
+        X = '3008' ;
+        X = ibiza ;
+        X = cordoba ;
+        X = clio ;
+        X = twingo ;
+        X = mégane ;
+        X = scénic ;
+        X = corsa.
+Ejercico9
+    ?- date(10,nov,2030) = date(X,nov,2030).
+    X = 10.
+
+    ?- model(time(Time,moment)) = moment(time(13,05)).
+    false.
+
+Ejercicio10 
+    ?- model(X,volkswagen) = model(golf,Y).
+    X = golf,
+    Y = volkswagen. 
+
+Ejercicio11 
+    ?- flight(valencia,london,DepartureDay,ArrivalDay,DepartureTime,ArrivalTime,Duration,Price).
+    DepartureDay = DepartureTime, DepartureTime = date(10, nov, 2030),
+    ArrivalDay = time(16, 5),
+    ArrivalTime = time(17, 35),
+    Duration = 90,
+    Price = 50.
+
+Ejercicio12
+    -
+    ?- flight(madrid,Destino,date(10,nov,2030),ArrivalDay,DepartureTime,ArrivalTime,Duration,Price).
+    Destino = london,
+    ArrivalDay = time(16, 5),
+    DepartureTime = date(10, nov, 2030),
+    ArrivalTime = time(17, 35),
+    Duration = 90,
+    Price = 140
+
+    -
+    ?- flight(Origen,Destino,DepartureDay,time(13,05),ArrivalDay,ArrivalTime,Duration,Price).
+    Origen = barcelona,
+    Destino = madrid,
+    DepartureDay = ArrivalDay, ArrivalDay = date(10, nov, 2030),
+    ArrivalTime = time(15, 5),
+    Duration = 120,
+    Price = 80  
+
+    -
+    ?- flight(Origen,Destino,DepartureDay,time(H,M),ArrivalDay,ArrivalTime,Duration,Price),H>=16.
+    Origen = madrid,
+    Destino = london,
+    DepartureDay = ArrivalDay, ArrivalDay = date(10, nov, 2030),
+    H = 16,
+    M = 5,
+    ArrivalTime = time(17, 35),
+    Duration = 90,
+    Price = 140
+
