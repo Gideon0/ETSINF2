@@ -20,5 +20,4 @@ module Ej5 where
     fromList :: [a] -> (Queue a)
     fromList x
         |null x = empty
-        |otherwise = enqueue (last x) (fromList (take ((length x) - 1) x))  --Revisar
-        -- |otherwise = enqueue (head x) (fromList (tail x))
+        |otherwise = enqueue (last x) (fromList (take ((length x) - 1) x))
