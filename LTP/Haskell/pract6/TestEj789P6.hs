@@ -2,7 +2,7 @@
 -- Test - Exercises 7,8,9 - Practice 6
 -- ***********************************
 
-import Ej789 -- if code of exercises 7,8,9 were in Ej789P6 module
+import Ej9 -- if code of exercises 7,8,9 were in Ej789P6 module
 -- Or not to import such a module and write here the code of exercises 7,8,9
 
 main = do
