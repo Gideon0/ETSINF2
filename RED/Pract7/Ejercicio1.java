@@ -17,7 +17,7 @@ public class Ejercicio1
             InetAddress ipServer = InetAddress.getByName(s);
             System.out.println(ipServer.toString());
         }catch(UnknownHostException e){
-            System.out.println("Errror al traducir el nombre" + e);
+            System.out.println("Error al traducir el nombre" + e);
         }
     }
 }
