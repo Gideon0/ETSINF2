@@ -11,9 +11,14 @@ public class LinkedQueue<E> implements InterfaceQueue<E>{
     protected Node<E> last;
     protected int size;
 
-    @Override
-       public void enqueue(E t) {
-        Node<E> aux = new Node<E>(t);
+    public LinkedQueue(){
+       first = null; 
+       last = null;
+       size = 0;
+    }
+    
+    public void enqueue(E t) {
+        Node<E> aux = new Node<>(t);
         if (isEmpty()){
             first = aux;
         }else {
@@ -24,7 +29,7 @@ public class LinkedQueue<E> implements InterfaceQueue<E>{
         
     }
 
-    @Override
+
     public E dequeue() {
         if (isEmpty())
             return null; 
@@ -39,7 +44,7 @@ public class LinkedQueue<E> implements InterfaceQueue<E>{
         return aux;
     }
 
-    @Override
+
     public E first() {
         if (isEmpty()){
             return null;
@@ -47,7 +52,6 @@ public class LinkedQueue<E> implements InterfaceQueue<E>{
         return first.data;
     }
 
-    @Override
     public boolean isEmpty() {
         return last == null;
     }
