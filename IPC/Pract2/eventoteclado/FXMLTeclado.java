@@ -48,24 +48,20 @@ public class FXMLTeclado implements Initializable {
         int columna = gridP.getColumnIndex(circulo);
         
         if (event.getCode().equals(KeyCode.RIGHT) && columna  < 4){
-            gridP.getChildren().remove(circulo);
-            gridP.add(circulo, columna + 1, fila);
+            gridP.setColumnIndex(circulo, columna +1); 
         }
         
         if (event.getCode().equals(KeyCode.LEFT) && columna  > 0){
-            gridP.getChildren().remove(circulo);
-            gridP.add(circulo, columna - 1, fila);
+            gridP.setColumnIndex(circulo, columna +1); 
         }
         
         
         if (event.getCode().equals(KeyCode.UP) && fila > 0){
-           gridP.getChildren().remove(circulo);
-            gridP.add(circulo, columna, fila - 1 );
+            gridP.setRowIndex(circulo, fila-1); 
         }
         
         if (event.getCode().equals(KeyCode.DOWN) && fila < 4){
-            gridP.getChildren().remove(circulo);
-            gridP.add(circulo, columna, fila + 1);
+            gridP.setRowIndex(circulo, fila+1); 
         
         }
     System.out.println("("+fila+" "+ columna+")");
