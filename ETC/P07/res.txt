@@ -1,0 +1,25 @@
+► Representación de los números en como flotante
+ - Comprovado 
+ - Porque reprenta la parte más alta del registo f2 de doble pecisión
+   0x4021800000000000 = 8.75 (Doble precisión)
+   0x40218000         = 2.5234375 (Simple precisión)
+ - 2 : 0x00000000 y 0x80000000
+ - 1 : 0x7f800000
+ - li.d $f2. 8.75  -> ori $1. $0. 0
+					  mtc1 $1. $f2
+					  lui $1. 16417
+					  ori $1. $1. -32768
+					  mtc1 $1. $f3
+- Simple : 0x429ca666
+  Doble  : 0x405394cccccccccd
+- 2^24 - 2	
+- Porque se necesitarían mas de 32 bits para poder tener el número y la instrucción de código.
+► Calculo de la media aridmética
+- Comprovado
+- Pasa el número 4 representado en decimal a coma flotante
+- Simple:  2.9   -> 0x4039999a	
+  Doble:   2.9   -> 0x4007333340000000
+- 4 suma
+  1 divisón
+- 5 / 5.0E-7 * (2 * 10E6) = 10E6 = 10 Millones de intruciones por segundo
+- 
