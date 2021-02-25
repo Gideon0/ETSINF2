@@ -12,11 +12,12 @@ import librerias.estructurasDeDatos.lineales.LEGListaConPIOrdenada;
  * @version Febrero 2019
  */
 
-public class ApuestaPrimitiva {
+public class ApuestaPrimitiva{
+
     // Una Primitiva TIENE UNA Lista con PI que almacena
     // una combinacion de 6 numeros de La Primitiva
     private ListaConPI<NumeroPrimitiva> combinacion;
-    
+
     /**
      * Crea una ApuestaPrimitiva, o una combinacion de  
      * seis numeros aleatorios con valores distintos y   
@@ -27,11 +28,22 @@ public class ApuestaPrimitiva {
      *                 (true) o no (false).           
      */
     public ApuestaPrimitiva(boolean ordenada) {
-        
-        /* COMPLETAR */
-        
+
+        if(ordenada){
+            combinacion = new LEGListaConPIOrdenada<NumeroPrimitiva>();
+        }
+        else{
+            combinacion = new LEGListaConPI<NumeroPrimitiva>();
+        }
+        while(combinacion.talla() != 6){
+            NumeroPrimitiva n = new NumeroPrimitiva();
+            if(posicionDe(n) == -1) {
+
+                combinacion.insertar(n);
+            }
+        }
     }
-    
+
     /**
      * Devuelve la posicion del numero n en una ApuestaPrimitiva, 
      * o -1 si n no forma parte de la combinacion. 
@@ -44,11 +56,21 @@ public class ApuestaPrimitiva {
      *          o -1 en caso contrario
      */
     protected int posicionDe(NumeroPrimitiva n) {
-        
+
         /* COMPLETAR */
-        return 0;
+
+        combinacion.inicio();
+        for(int i = 0; !combinacion.esFin() && i < 6; i++){
+            if(combinacion.recuperar().equals(n)){
+                return i;
+            }
+            else{
+                combinacion.siguiente();
+            }
+        }
+        return -1;
     }
-    
+
     /**
      * Devuelve el String que representa una ApuestaPrimitiva en el formato
      * texto que muestra el siguiente ejemplo: "16, 25, 28, 49, 9, 20"
@@ -56,8 +78,21 @@ public class ApuestaPrimitiva {
      * @return el String con la ApuestaPrimitiva en el formato texto dado. 
      */
     public String toString() {
-        
+
         /* COMPLETAR */
-        return "";
+        String resultado = "";
+        combinacion.inicio();
+        NumeroPrimitiva imprimir = new NumeroPrimitiva();
+        imprimir = combinacion.recuperar();
+        resultado += (imprimir.toString());
+        combinacion.siguiente();
+        while(!combinacion.esFin()){
+            imprimir = combinacion.recuperar();
+            resultado += (", " + imprimir.toString());
+            combinacion.siguiente();
+        }
+        //NumeroPrimitiva imprimir = combinacion.recuperar();
+        //resultado += ", " + imprimir.toString();
+        return resultado;
     }
 }

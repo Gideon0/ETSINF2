@@ -1,6 +1,7 @@
 package librerias.estructurasDeDatos.modelos;
 
-/* teres (PI), 
+/**
+ * Modelo de una Lista Con Punto de Interes (PI), 
  * o de Acceso Secuencial a los Elementos de una
  * Coleccion
  *  
