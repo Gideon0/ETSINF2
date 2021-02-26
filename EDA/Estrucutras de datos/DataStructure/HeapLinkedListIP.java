@@ -1,7 +1,7 @@
 package DataStructure;
 import Models.InterfaceHeap;
-public class HeapLinkedListPi<T> extends LinkedListIP<T> implements InterfaceHeap<T> {
-   public HeapLinkedListPi(){
+public class HeapLinkedListIP<T> extends LinkedListIP<T> implements InterfaceHeap<T> {
+   public HeapLinkedListIP(){
       super();
    }
    public void stack(T t){
