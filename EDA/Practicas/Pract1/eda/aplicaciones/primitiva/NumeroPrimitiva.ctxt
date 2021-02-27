@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=NumeroPrimitiva
+comment0.text=\ NumeroPrimitiva\:\ representa\ un\ numero\ entero\r\n\ \ entre\ el\ 1\ y\ el\ 49,\ elegido\ aleatoriamente.\r\n\r\n\ \ @version\ Febrero\ 2019\r\n
+comment1.params=
+comment1.target=NumeroPrimitiva()
+comment1.text=\r\n\ Crea\ un\ NumeroPrimitiva\ eligiendo\ aleatoriamente\ \ \r\n\ un\ numero\ del\ intervalo\ entero\ [1,\ 49].\r\n
+comment2.params=otro
+comment2.target=boolean\ equals(java.lang.Object)
+comment2.text=\r\n\ Comprueba\ si\ un\ (this)\ NumeroPrimitiva\ es\ igual\ a\ otro,\ \r\n\ i.e.\ si\ ambos\ tienen\ el\ mismo\ valor\r\n\ \r\n\ @param\ otro\ el\ otro\ NumeroPrimitiva.\r\n\ @return\ true\ si\ this\ y\ otro\ tienen\ el\ mismo\ valor\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ y\ false\ en\ caso\ contrario\r\n
+comment3.params=otro
+comment3.target=int\ compareTo(NumeroPrimitiva)
+comment3.text=\r\n\ Compara\ un\ (this)\ NumeroPrimitiva\ con\ otro.\r\n\ \r\n\ @param\ otro\ el\ NumeroPrimitiva\ a\ comparar\ con\ this.\r\n\ @return\ int\ <\ 0\ si\ this\ es\ menor\ que\ otro,\ \r\n\ \ \ \ \ \ \ \ \ int\ >\ 0\ si\ this\ es\ mayor\ que\ otro\r\n\ \ \ \ \ \ \ \ \ \ 0\ \ \ \ \ \ si\ this\ y\ otro\ son\ iguales\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Devuelve\ el\ String\ que\ representa\ un\ (this)\ NumeroPrimitiva\ \r\n\ en\ formato\ texto\r\n\ \r\n\ @return\ el\ String\ con\ el\ NumeroPrimitiva\ en\ formato\ texto.\ \r\n
+numComments=5
