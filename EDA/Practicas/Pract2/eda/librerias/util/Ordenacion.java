@@ -144,15 +144,11 @@ public class Ordenacion {
                                                              int i, int f) {
         
         if (f - i == 1 ){
-            T[] res = (T[])new Comparable[2];
             if (v[i].compareTo(v[f]) > 0){
-                res[0] = v[f];
-                res[1] = v[i];
+                retunr Comparable[]{v[f],v[i]};
             }else{
-                res[0] = v[i];
-                res[1] = v[f];
+                retunr Comparable[]{v[i],v[f]};
             }
-            return res;
         } else if (i < f) {
             int m = (f + i)/2;
             T[] v1 = mergeSort2(v,i, m);
