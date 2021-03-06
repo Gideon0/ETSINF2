@@ -1,0 +1,27 @@
+#BlueJ package file
+objectbench.height=88
+objectbench.width=444
+package.divider.horizontal=0.5997340425531915
+package.divider.vertical=0.8004201680672269
+package.editor.height=375
+package.editor.width=633
+package.editor.x=2364
+package.editor.y=493
+package.frame.height=568
+package.frame.width=784
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+readme.height=58
+readme.name=@README
+readme.width=47
+readme.x=10
+readme.y=10
+target1.height=50
+target1.name=ListaConPI
+target1.showInterface=false
+target1.type=InterfaceTarget
+target1.width=120
+target1.x=170
+target1.y=120
