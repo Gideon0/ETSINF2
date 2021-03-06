@@ -1,0 +1,89 @@
+1. ► ¿Cuántos elementos tienen los vectores del programa? ¿Cuántos bytes ocupa cada
+elemento?
+
+
+2. ► Complete la siguiente información del segmento de datos. Utilice el sistema hexadecimal
+para expresar las direcciones de memoria (haga igual a lo largo de toda la práctica).
+
+    Dirección inicial del vector A
+    Bytes ocupados por el vector A
+    Dirección inicial del vector B
+    Bytes ocupados por el vector B
+    Dirección de la variable k
+    Dirección de la variable dim
+
+
+3. ► Complete la siguiente información del segmento de código. En este caso no olvide tener
+en cuenta la traducción de las pseudoinstrucciones del programa en instrucciones máquina,
+ya que son estas últimas las únicas que hay que considerar. En este caso le será de utilidad 
+cargar el programa en el simulador (no hace falta ejecutarlo) para ver la dirección donde se
+encuentra la última instrucción del programa.
+
+    Dirección de la primera instrucción
+    Dirección de la última instrucción
+    Número de instrucciones del programa
+    Bytes ocupados por el código del programa (instrucciones
+
+4. ► Determine el número de accesos al sistema de memoria del programa.
+
+    Accesos al segmento de datos            
+    Accesos al segmento de código           8 + (2 + 8*8 + 1)
+
+
+5. ► Teniendo en cuenta las características anteriores, indique cuántas líneas hay en la
+memoria cache. 
+
+    Lineas = 128B / 4B = 32
+
+
+6. ► Indique cuál será la interpretación que esta memoria cache hará de las direcciones que
+reciba (campos de etiqueta, línea y desplazamiento).
+
+    desplazamiento -> 2  || Lineas -> 5 || etiqueta -> 25
+
+
+7. ► La instrucción del programa jal sax está almacenada en la dirección 0x0040001C
+del segmento de código. Indique en qué línea de la cache se ubicará y con qué etiqueta.
+
+    0x0040001C -> 0000 0000 0100 0000 0000 0000 0-001 11-00 => linea = 00111 = 7
+                                                                                    
+
+8. ► Calcule, para este caso, cuántos bits de control se almacenan por línea. Así mismo,
+calcule el volumen del directorio, esto es, el número total de bits de control contenidos en la
+memoria cache de código.
+
+    bits de control -> 25(etiqueta) + 1(valido) || volumen de directorio 
+
+9. ► Cargue el programa original y ejecútelo mediante la opción F10 (paso a paso) para poder
+seguir con detalle el efecto sobre la memoria cache de código. Observe que la lectura de
+cualquier instrucción afecta a la cache de código, pero la ejecución de las instrucciones de
+memoria (lw, sw, etc.) afecta, además, a la cache de datos que ahora no consideramos.
+Además, fíjese en que el procesamiento de las 18 primeras instrucciones solamente originan
+fallos (mensaje miss en el simulador) y que el primer acierto se produce en el decimonoveno
+acceso a la cache de instrucciones. Complete la siguiente tabla:
+
+            Accesos al segmento de código      154
+            Aciertos                           133
+            Fallos                              21
+            Tasa de aciertos (H)              0,86
+
+10. ► Confirme que la instrucción jal sax se almacena en la línea prevista y con la etiqueta
+calculada anteriormente.
+
+    Confirmado
+
+11. ► Suponga ahora que la memoria principal del MIPS R2000 está implementada con
+módulos cuyos chips funcionan a 50 MHz (periodo de 20 ns) y tienen como parámetros
+tCL=2 (latencia de CAS) y tRCD=3 (tiempo entre RAS y CAS); ambos parámetros están
+expresados en ciclos de reloj. Suponga además que el tiempo de acceso a la memoria cache
+es de 10 nanosegundos. Recuerde que este tiempo se puede calcular mediante la fórmula:
+                𝑇𝑇 = 𝐻𝐻 × Tacierto + (1 − 𝐻𝐻) × Tfallo
+
+                TT = 0.86 * 10ns + 0.14
+
+12. ► Use el simulador y configure la memoria cache de código con un tamaño de bloque de 16
+bytes y manteniendo el resto de parámetros como estaban. Cargue y ejecute ahora el
+programa original y complete la siguiente tabla:
+
+13. ► Como se aprecia, el número de fallos se ha visto reducido de forma considerable. ¿Cuál
+es la razón?
