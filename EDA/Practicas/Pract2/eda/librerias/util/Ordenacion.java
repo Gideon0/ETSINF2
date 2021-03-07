@@ -145,9 +145,9 @@ public class Ordenacion {
         
         if (f - i == 1 ){
             if (v[i].compareTo(v[f]) > 0){
-                retunr Comparable[]{v[f],v[i]};
+                return (T[]) new Comparable[]{v[f],v[i]};
             }else{
-                retunr Comparable[]{v[i],v[f]};
+                return (T[]) new Comparable[]{v[i],v[f]};
             }
         } else if (i < f) {
             int m = (f + i)/2;
@@ -155,7 +155,7 @@ public class Ordenacion {
             T[] v2 = mergeSort2(v,m+1,f);
             return merge2(v1,v2);
         }
-        return (T[])new Comparable[]{v[i]};
+        return (T[]) new Comparable[]{v[i]};
     }        
     
     /**
