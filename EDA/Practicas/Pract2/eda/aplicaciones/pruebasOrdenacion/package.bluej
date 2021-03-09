@@ -1,15 +1,18 @@
 #BlueJ package file
+dependency1.from=TestOrdenacion
+dependency1.to=GeneradorDeString
+dependency1.type=UsesDependency
 objectbench.height=66
-objectbench.width=926
+objectbench.width=1886
 package.divider.horizontal=0.6
-package.divider.vertical=0.8399122807017544
-package.editor.height=376
-package.editor.width=796
-package.editor.x=964
-package.editor.y=1632
-package.frame.height=522
-package.frame.width=950
-package.numDependencies=0
+package.divider.vertical=0.9255102040816326
+package.editor.height=900
+package.editor.width=1756
+package.editor.x=4
+package.editor.y=28
+package.frame.height=1046
+package.frame.width=1910
+package.numDependencies=1
 package.numTargets=2
 package.showExtends=true
 package.showUses=true
