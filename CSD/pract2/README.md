@@ -1,0 +1,1 @@
+Aqui podras encontrar toda la practica 2 de CSD correspondiente al PPhilo. Recuerda que lo unico que tienes que implementar en tu codigo se encuentra en las clases PPhilo (main), LefthandedPhilo, BothOrNonePhilo, LimitedPhilo, BothOrNoneTable, LimitedTable.
