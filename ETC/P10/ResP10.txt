@@ -48,8 +48,8 @@ reciba (campos de etiqueta, línea y desplazamiento).
 7. ► La instrucción del programa jal sax está almacenada en la dirección 0x0040001C
 del segmento de código. Indique en qué línea de la cache se ubicará y con qué etiqueta.
 
-    0x0040001C -> 0000 0000 0100 0000 0000 0000 0-001 11-00 => linea = 00111 = 7
-                                                                                    
+    0x0040001C -> |0000 0000 0100 0000 0000 0000 0|-|001 11|-|00            ==> linea = 00111 => 7
+                    Etiqueta                         Linea    Desplazamento
 
 8. ► Calcule, para este caso, cuántos bits de control se almacenan por línea. Así mismo,
 calcule el volumen del directorio, esto es, el número total de bits de control contenidos en la
