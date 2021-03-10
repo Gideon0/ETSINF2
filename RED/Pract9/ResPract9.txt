@@ -1,0 +1,30 @@
+Ejercicio 2
+
+Dir. física del adaptador Ethernet  
+     ->  Dir. física. . . . . . . . . . . . . : 20-79-18-7C-3F-0D
+
+Dirección IPv4                      
+     ->  Dirección IPv4. . . . . .. . . . . . : 192.168.1.142(Preferido)
+
+Mascara de subred                    
+    ->  Máscara de subred . .  . . . . . . . : 255.255.255.0 = /24
+    
+Dirección IP del router             
+     ->  Puerta de enlace predeterminada . . . . . : fe80::1%6 - 192.168.1.1
+
+Servidor DNS
+     ->  Servidores DNS. . . . . . . . . . . . . . : 2a0c:5a80:0:2::1
+                                       2a0c:5a84:0:2::1
+                                       fe80::1%6
+                                       100.90.1.1
+                                       100.100.1.1
+                                       192.168.1.1
+Servidor DHCP
+    ->   Servidor DHCP . . . . . . . . . . . . . . : 192.168.1.1
+
+    Cuál es la dirección IP de la red a la que está conectado tu equipo
+        -> 192.168.1.0 /24
+    Los servidoes DNS y DHCP, ¿están en la misma subred que tu ordenador? ¿cómo lo has avergundo?
+        ->
+
+
