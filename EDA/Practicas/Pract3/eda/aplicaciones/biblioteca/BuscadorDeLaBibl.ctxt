@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=BuscadorDeLaBibl
+comment0.text=\n\ BuscadorDeLaBibl\:\ clase\ que\ representa\ un\ Buscador\ eficiente,\ i.e.\ con\n\ un\ Indice,\ de\ una\ Biblioteca\ Digital\ (BD).\ Por\ ello,\ su\ funcionalidad\ \n\ basica\ es...\n\ 1.-\ INDEXAR\:\ crear\ el\ Indice\ de\ la\ biblioteca,\ representado\ mediante\ \ \n\ \ \ \ \ un\ Map\ implementado\ mediante\ una\ Tabla\ Hash\ Enlazada.\n\ 2.-\ BUSCAR\:\ recuperar\ del\ Indice\ de\ la\ biblioteca\ la\ informacion\ que\ \n\ \ \ \ \ exista\ sobre\ una\ palabra\ dada\ (Posting\ List)\ en\ ella.\n\ \n\ @author\ (EDA-QA)\ \n\ @version\ (Curso\ 2020-2021)\n
+comment1.params=
+comment1.target=BuscadorDeLaBibl()
+comment1.text=\ Crea\ el\ Buscador\ de\ la\ BD\ que\ forman\ los\ libros\ de\ listaLibros.\n\ \ Basicamente,\ ello\ supone\ crear\ el\ Indice\ de\ la\ biblioteca\ \n\ \ con,\ como\ maximo,\ maxTerminos.\ Si\ no\ encuentra\ (el\ fichero\ .txt\ \ \n\ \ de)\ un\ libroLanza\ FileNotFoundException\ para\ advertirlo.\n
+comment2.params=fichLibro
+comment2.target=boolean\ indexarLibro(java.lang.String)
+comment2.text=\ Devuelve\ true\ tras\ actualizar\ el\ Buscador\ de\ una\ BD\ con\ los\ terminos\n\ \ que\ contiene\ fichLibro\ (fichero\ .txt).\ Basicamente,\ ello\ supone\ actualizar\ \n\ \ el\ Indice\ de\ la\ biblioteca\ con\ los\ terminos\ de\ fichlibro.\n\ \ El\ metodo\ devuelve\ false\ si\ fichlibro\ no\ existe.\n
+comment3.params=unaPalabra
+comment3.target=java.lang.String\ buscar(java.lang.String)
+comment3.text=\n\ Devuelve\ en\ formato\ texto\ (String)\ el\ resultado\ de\ la\ busqueda\ del\ termino\n\ asociado\ a\ unaPalabra\ en\ el\ Indice\ de\ una\ BD\ (frecuencia\ de\ aparicion\ del\ \n\ termino\ y,\ en\ su\ caso,\ el\ listado\ que\ contiene\ los\ titulos\ y\ lineas\ de\ los\n\ libros\ de\ la\ bibiblioteca\ en\ los\ que\ aparece,\ i.e.\ su\ Posting\ List).\n
+comment4.params=unaPalabra
+comment4.target=boolean\ esTermino(java.lang.String)
+comment4.text=\ Comprueba\ si\ unaPalabra\ es\ un\ termino\ del\ Indice\ de\ una\ BD,\ i.e.\ \n\ \ si\ unaPalabra\ esta\ formada\ por\ letras\ del\ alfabeto\ castellano\ en\ \n\ \ minusculas.\n
+comment5.params=
+comment5.target=librerias.estructurasDeDatos.modelos.ListaConPI\ hapax()
+comment5.text=\ Devuelve\ una\ ListaConPI\ con\ aquellos\ terminos\ del\ Indice\ de\ una\ BD\ que\ \n\ \ solo\ aparecen\ solo\ una\ vez\ en\ sus\ libros,\ i.e.\ los\ llamados\ "hapax\ \n\ \ legomena"\ de\ la\ BD,\ o\ null\ si\ no\ existe\ ninguno.\n
+numComments=6

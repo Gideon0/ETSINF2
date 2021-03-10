@@ -1,0 +1,2049 @@
+LOS ORÍGENES DE LA INFORMÁTICA
+CARLOS MANUEL DA COSTA CARBALLO
+
+Profesor Titular Escuela Universitaria
+Universidad Complutense de Madrid
+
+«Nada puede conocerse de las cosas
+de este mundo sin saber las Matemáticas.»
+(ROGER BACON)
+
+«Todo lo que se puede conocer,
+tiene un número.»
+(FILOLAO)
+
+Resumen: En este artículo, voy a revisar la historia de la informática desde su origen.
+
+Abstract: In this article, 1 go to review the history of the computer science since
+your origin.
+
+PREHISTORIA DE LA INFORMÁTICA
+Hace ya casi 4.000 años (2.000 a.C.) que los humanos descubrimos una
+primera forma de solucionar el problema del cálculo matemático, de poder
+contar lo que veíamos alrededor: el ábaco. Paralelamente, la aritmética se
+iba desarrollando. La historia de ambas técnicas, o herramientas, es la propia historia de la informática.
+0 1. Servicio de Publicaciones
+
+Revista General de Información y Documentación, V
+01. 8, n. 1998
+Universidad Complutense. Madrid,
+
+216
+
+Carlos Manuel da Costa Carballo
+
+La Informática podemos considerarla como la herramienta que nos
+permite elaborar y gestionar la información que se genera en el cotidiano
+
+quehacer de la praxis de cualquier profesión.
+Hace algunos millones de años, nuestros antepasados sintieron la necesidad de expresarse y de comunicarse con los demás para lo cual utili-
+
+zaron como herramienta básica de este tipo de información la pintura, sobre un soporte que eran las paredes de las cavernas que les servían de
+habitáculo para resguardarse de las inclemencias meteorológicas y de las
+fieras y enemigos que les acechaban.
+Así pues, cualquier persona es productora de información desde el preciso momento en que aprende a leer, a escribir, sobre todo esto último ya
+
+que un documento no es otra cosa que la escritura, o cualquier otra forma
+de expresión, de un determinado conocimiento que queda reflejado sobre
+un soporte. Desde esta perspectiva las pinturas rupestres de nuestros antepasados son información, es decir, todo aquello que se fija de alguna ma-
+
+nera en un soporte para ser consultado después debemos considerarlo información:
+«Es indudabk que esos dibujos y pinturas tienen, al mismo tiempo, un
+carácter estético; es una primera forma de arte. Como es también, y sobre lodo, un lenguaje escrito, sucede que los orígenes del dibujo y los de la escritura se confunden. Parece que el hombre debió empezar a dibujar, no tanto
+para fijar en la madera o la piedra bellas formas que encontrasen sus sentIdos, como para traducir materialmente sus pensamientos.»
+
+Aunque el sociólogo francés está hablando de los dibujos que los indios de América del Norte hacen en sus nurtunjas, waningas y churingas
+
+(que son unos instmmentos litúrgicos ligados al tótem de cada clan), no cabe duda de que podríamos hacer extensivo ese pensamiento a las primeras
+pinturas rupestres, es decir, la pintura es una forma de transmisión de los
+conocimientos, de los sentimientos, de los pensamientos; es un lenguaje.
+Pero algunos años después, otros pueblos tienen esta misma necesidad
+de comunicación y surge la escritura cuneiforme de los asirios y la escritura jeroglífica que nos han legado los egipcios en sus papiros, pirámides,
+etc., es decir, con una nueva herramienta que era la escritura, con un lenguaje algo diferente al utilizado por el horno sapíens ya que éste utilizaba
+el dibujo mientras que los otros utilizaban más el símbolo, aunque con un
+mismo soporte para preservar la información, nos legaron un excelente catálogo de costumbres gracias a la comunicación expresada en una de sus
+
+formas.
+Dti<I«uFíM, Emite. Las formas ele,nentales de la vida religiosa. Madrid. Alianza Edi«nial (Colección: El Libro de Bolsillo, Sección Humanidades, ni 161W 1993. Op. oir, en la
+¡‘. 220.
+
+Los orígenes de la injórmática
+
+217
+
+Después fue la imprenta la que se encargó de difundir más cantidad de
+
+información y de forma mucho más rápida. De este modo, podríamos seguir viendo múltiples ejemplos de hombres de otras civilizaciones y de
+otras épocas históricas que utilizando lenguajes diferentes y gracias a unas
+herramientas más o menos prácticas, plasmaron sobre un soporte la infor¡nación que hoy en día podemos consultar e interpretar y que, de no haber
+sido por la iniciativa de aquellos hombres, nos enseña como fue nuestra
+existencia con anterioridad.
+Ahora, en la recta final del siglo xx, la idea básica o fundamental es la
+misma, o sea, generar infrrrnación aunque la herramienta y el soporte varían, no así el lenguaje que es el mismo, bien en su forma escrita o en su
+representación por imágenes, es decir, hoy en día tenemos la informática
+
+para poder desarrollar estos aspectos.
+Pero la cantidad de información y el crecimiento de la misma es tan rápido, que nos veríamos desbordados en nuestros campos profesionales de
+no contar con una herramienta de trabajo excepcional, como es la informática. El aparentemente complicado mundo de las computadoras nos permite, cada día que pasa, acercarnos a más cantidad de información y más
+rápidamente con muchas más posibilidades de éxito que en los años 70,
+cuando empezó la «fiebre» telemática.
+Por lo tanto, tenemos que embarcarnos en esta nueva ciencia que tantos horizontes y tantas posibilidades nos brinda. Por este motivo, no podemos dar la espalda a estas nuevas tecnologías que revertirán sus beneficios
+en nosotros mismos.
+Está ya bastante lejos el tiempo del impresor de caracteres del siglo xv,
+pero como dicen que Jean Paul Sartre comentó un día que aquel que no conocía la historia de su profesión jamás podría comprender lo que representa, y si tenemos en cuenta que los pueblos que no conocen su historía
+se ven obligados a repetirla con todo lo que ello implica, es necesario que
+empecemos por el estudio de la Historia de la Informática. Por lo tanto, la
+historia es importante. No se puede llegar a comprender los acontecimientos más recientes en cualquier campo del saber si no utilizamos la historía.
+¿Cómo?, como una herramienta que nos permita realizar un seguimiento
+de las maneras en que se han ido produciendo esos acontecimientos de forma progresiva. Como dice Durkheim (1858-1917) en Les formes élémentaires de la nc religicuse:
+«La historia es, en efecto, el único método de análisis explicativo que es
+posible aplicar. Sólo eJía nos permite descomponer una institución en sus
+elementos constitutivos, pues nos los muestra naciendo en el tiempo unos
+después de otros. Por otra parte, situando cada uno de ellos en el conjunto de
+circunstancias en que ha nacido, pone a nuestro alcance el único medio que
+tenemos para determinar las causas que lo han provocado. Siempre que se inlenta explicar un asunto humano tomado en un momento determinado del
+
+218
+
+Carlos Manuel da Costa Carballo
+tiempo —ya se trate de una creencia religiosa, de una norma moral, de un
+precepto jurídico, de una técnica estética, de un régimen económico—, es
+preciso comenzar por remontarse hasta su forma más primitiva y más simpíe, buscar la enumeración de los caracteres por los que se define en este penodo de su existencia, y luego mostrar cómo, poco a poco, se ha desarrollado y complicado, cómo ha llegado hasta lo que es en el momento a
+2
+considerar.»
+
+MARCO CONCEPTUAL DEL PROCESO INFORMATIVO
+Si considerásemos la historia en su acepción más común, es decir, el
+conjunto de todos los hechos ocurridos en tiempos pasados, podríamos
+decir por afinidad que la historia de la informática es la agrupación de todos los sucesos acaecidos en esta ciencia desde su génesis hasta nuestros
+días.
+Según esto, la historia de la informática sería muy corta, pues, como ya
+veremos, nace en la década de los años sesenta aproximadamente.
+Pero, considerada como una serie de conocimientos tanto científicos
+como técnicos que sirven para tratar la información de manera automática,
+la informática es más antigua ya que la información es en realidad el substrato básico en este proceso y, por lo tanto, la información es anterior a la
+máquina.
+Así pues, tenemos que partir de la información para poder reconstruir
+la historia de esta nueva, o al menos reciente ciencia.
+Empezaremos por ver ¿qué es eso de la Información?
+
+Vamos a definirla primero de forma matemática:
+INFORMACIÓN
+
+=
+
+HERRAMIENTA + FORMA DE EXPRESIÓN
++ SOPORTE + DATOS
+
++
+
+Siendo la Herramienta, la pintura, la escritura, el ordenador; la Forma
+de expresión, los dibujos, los símbolos, los caracteres, el lenguaje; el Soporte, paredes, papiro, tablillas de arcilla, papel, soporte magnético, etc.; y
+los datos la noticia que queremos transmitir.
+Se podría definir de múltiples maneras pero quizás la acepción en la
+que todos estamos pensando es la de una colección, serie o conjunto de datos, mensajes o conocimientos que se transmiten de unas personas a otras,
+o incluso de unos animales a otros, y cuyo fin primordial es dar a conocer
+alguna noticia, pudiendo ser esa noticia algo relativo a ciencia, arte, cultura, política, etc.
+
+2
+
+DuRKHEíM,
+
+Émiie (1993): Ibidcm, op. ch> en la p. 31.
+
+Los orígenes de la informática
+
+219
+
+De acuerdo con lo que acabamos de comentar, tenemos que irnos a los
+albores de la humanidad, hace aproximadamente un millón y medio de
+años, pues fue en las cavernas donde nuestros antepasados dejaron constancia a través de una serie de representaciones [las pinturas rupestres] de
+sus costumbres, de su forma de vida y de todo un conjunto de matices que
+han hecho posible el que hoy podamos saber algo acerca de aquella civilización. Finalizando la Edad de Piedra podemos intuir el pensamiento de
+aquellos primitivos seres a través de lo que encontramos en sepulturas, esculturas, pinturas y objetos de arte. En una primera incursión en el mundo
+
+científico prehistórico, podemos ver un desarrollo de la ciencia en una de
+sus dos vertientes, la ciencia no como investigación sino la ciencia en su
+visión utilitarista3. El hombre de la Prehistoria hacía todo simplemente pa-
+
+ra satisfacer sus necesidades materiales.
+De todos modos hay que decir que no solamente con la pintura rupestre hemos aprendido algo acerca de aquellos seres, pero para nuestros objetivos es suficiente, pues ¿qué es la pintura rupestre?: es información, es
+decir, la transmisión de unos datos elaborados por medio de una herra-
+
+mienta [en este caso la pintura] y que ha llegado hasta nuestros días gracias al soporte utilizado por ellos a tal fin [la piedra].
+La palabra hablada seda el paso siguiente ya que la forma más común
+de pasar información es la oral, además de ser posiblemente la más antigua. No vamos a entrar en este apartado pues alargaríamos innecesariamente este tema.
+La palabra escrita es otra de las formas de dar a conocer datos. Tampoco es el momento de discutir acerca de cuales fueron los primeros testimonios escritos, pues hay otros autores que se han ocupado ampliamente
+de este tema4. Solamente diremos que hacia el año 2.500 a.C. nace en Mesopotamia la escritura cuneiforme, llamada así porque originariamente sus
+signos tenían forma de cuñas (del latín cuneus). Fueron los sumerios los
+descubridores de esta forma de escritura y los que empezaron a utilizarla:
+«Los escribas los grababan, con una caña afilada, en tablillas de arcilla,
+
+3
+No había investigación, había aplicación: «La utilización, la aplicación, nacieron
+mucho antes que la investigación científica (...) Los primeros metalúrgicos que fundieron mineral de cobre hace unos 7.000 años, no tenían noción alguna de la distinción entre óxidos,
+carbonatos y sulfuros, pero sabían buscar y utilizar las menas que les proporcionaban cobre
+metalúrgico.» [TATON, René. «En la aurora de la ciencia. Los tiempos prehistóricos», en ‘ATON, René (dir.): Historia General de las Ciencias (1,1: Las Anliguas Ciencias del Oriente,
+Barcelona: Ediciones Orbis, 1988 (11-23). Op. cii> en la p. 11].
+4 De estos temas se pueden consultar para empezar a conocer algo al respecto las obras
+siguientes: CERAM, C. W.: Dioses, tumbas y sabios. Barcelona, Destino (Colección Destinolibro, n.> 12), 1992. DAHI., S.: Historia del libro, Madrid: Alianza (Colección Alianza Universidad, n/’ 336), 1990. GELB, 1. J.: Historia de la escritura, Madrid, Alianza (Colección
+Alianza Universidad, 0.0 155), 1991.
+
+220
+
+Carlos Manuel da Costa Carballo
+
+que luego cocían, o las secaban al sol. Estos documentos han llegado hasta nosotros a centenares de miles, y a menudo en excelente estado de conservación» -t
+
+Llegados a este punto, vamos a hacer una división cronológica de la
+historia de la informática que no se corresponde con la clásica división histórica en los años aunque si en los nombres, ni con una división general de
+las ciencias6, acabando una etapa y comenzando otra cuando se produjo algún hito dentro del devenir de este ciencia. Así tenemos las siguientes fases históricas:
+
+PREifisToRíA
+
+Desde las cavernas hasta Charles Habbage [siglo xíx], que desarrolló
+un proyecto de creación de una máquina automática.
+
+ANríctksvAo
+
+Hasta el primer cuarto del siglo xx, cuando, por diferentes reconversiones empresariales nace la mítica International Eusiness Machine Cor-
+
+poration ¡IBM].
+TATON, René, «Mesopotamia», en TAToN, René (dir.): Historia General de las Ciencías <1), Las Antiguas Ciencias rIel Oriente, Barcelona, Ediciones Orbis, 198$ (88-154). op.
+cii> en la p. 88.
+
+6
+La Historia General de las Ciencias podemos dividirla en varias fases en función de
+hitos científicos que ocurren en un momento histórico determinado. De este modo nos encontramos con las siguientes fases:
+1.’ etapa: Desde los balbuceos de la ciencia hasta aproximadamente la n,itad del siglo
+xv, fecha en la que se pueden ver unos síntomas claros de que la ciencia se está desarrollando. En esta etapa es de destacar el papel que jugaron civilizaciones como las antiguas de
+oriente (Egipto, Mesopotamia, China, etc.) que, aunque impregnadas aún de ese componente mágico y utilitario, tuvieron al menos algunas de ellas brillantes avances, como por ejempio la ciencia helenística que floreciendo desde el siglo vi a. de C. viene a decaer súbitamente
+con la invasión del Imperio Romano;
+2.’ etapa: Podemos datarla desde mediados del siglo xv hasta finales del xviii, caracterizada por el influjo de la ciencia árabe, que recupera toda la cultura científica greco-latina y
+la reintroduce en Europa a través de España. Esto dará lugar a un florecimiento posterior y
+un gran impulso de la ciencia occidental;
+3.’ etapa: Por último, desde principios del siglo xix hasta nuestros días sc ha producido
+un desarrollo acelerado en todos los campos del saber difícil de cuantificar,
+Estas etapas habrá que tenerlas en cuenta para estudiar conjuntamente el desarrollo de la
+informática con otras ciencias (por ejemplo, la aritmética) que han ido siempre parejas a lo
+largo de la historia y que sin ellas no habría sido posible.
+
+Los orígenes de la informática
+
+221
+
+MODERNIDAD
+
+Hasta 1944, fecha en que nace el Mark 1, que fue el antecedente inme-
+
+diato del ordenador
+CONTEMPORÁNEA
+
+Desde el nacimiento del ordenador hasta los momentos o tiempos actuales.
+Antes de iniciar definitivamente el estudio de la historia de la informática, hay que decir que no pretendemos hacer un estudio exhaustivo puesto que lo que tratamos con estos temas es dar una sene de conocimientos
+generales para todas aquellas personas que quieran iniciarse en esta herra-
+
+mienta tecnológica e intentar, en la medida de nuestras posibilidades,
+orientarles sobre aspectos concretos de esta ciencia. Por este motivo, cualquier tema que suscite un mayor interés en el alumno por profundizar en
+él, recomendaremos al final una serie de obras que se pueden consultar pa-
+
+ra recabar más información. Sin más preámbulos, comencemos.
+
+LOS ORIGENES
+La primera preocupación de la humanidad, dentro de la órbita que estamos siguiendo, fue sin duda el intentar solucionar de alguna manera el
+problema del cálculo matemático, es decir, poder determinar de alguna manera el número de las cosas que veían a su alrededor La solución que se
+nos antoja en principio a este problema y en pleno siglo xx es sencilla, con-
+
+tar con los dedos de las manos. A este sistema primigenio de contar objetos se le ha llamado sistema quinario (cinco elementos). Pero sólo hay 10
+dedos, por lo que pasar de esta cantidad debió entrañar enormes dificultades para nuestros antepasados.
+El hombre del Paleolítico Superior (30.000 a 10.000 a.C.), al no estar
+civilizado era muy observador, siendo bastante probable que los primeros
+cazadores y posteriormente los primeros comerciantes, aprendieron muy
+pronto a contar
+Es conocido que en este período las conchas se utilizaron además de
+
+para comer como adorno. Pero también se han encontrado unos cuantos
+millares de ellas que no sólo no servían para comer sino que además no habían sido perforadas por el hombre prehistórico, por lo que no han podido
+ser utilizadas como adorno, si bien podemos pensar que se utilizaban para
+contar objetos, e incluso, algunos «osados investigadores» piensan que
+
+222
+
+Carlos Manuel da Costa Carballo
+
+eran usadas como monedas7, por estudios transeulturales comparativos, es
+decir, estudios etnológicos, que han realizado.
+Esta necesidad de contar queda plasmada en la existencia de todo tipo
+
+de incisiones en las paredes de las cuevas e incluso en huesos de marfil,
+como el encontrado en 1937 en Vestonice (Moravia, Checoslovaquia). El
+hueso es el radio de una especie de lobo del Paleolítico Medio (100.000 a
+30.000 a.C.), con 55 muescas dispuestas en series de cinco.
+
+EGIPTO
+Un poco más cerca de nuestra
+turas más importantes de todas las
+mos a hablar de esta civilización,
+líos aspectos de las matemáticas
+
+era, año 3.000 a.C., nace una de las culépocas: Egipto. Por supuesto que no vapero si que nos vamos a referir a aqueegipcias que de una u otra forma han
+
+influido en el nacimiento de la herramienta de las herramientas, me refiero, claro está, a la informática.
+Las fuentes de información en este caso ya no son las cuevas. Ahora
+nos encontramos con los papiros. A finales del Imperio Medio, el Norte de
+Egipto es invadido por pueblos de origen asiático. Uno de estos invasores,
+los hicsos, son los que elaboran8 el documento matemático más antiguo
+que se posee por el momento: se trata del papiro Rhind (datado en el siglo
+xvií a.C.). Pero hay otros papiros en los que se puede ver el pensamiento
+matemático de los egipcios: papiro Moscú (de la misma época que el
+
+Rhind), papiros de Kahun y de Berlin (Imperio Medio), un manuscrito de
+cuero (en el British Museum) y una tablilla de madera (en el Museo de El
+Cairo).
+
+~<Los
+géneros Nassa, Ceriíhium, Trochus y Columbella, plantea la cuestión de si en
+aquella remota época estas raras conchas se utilizaban ya como moneda, como ocurría en
+África hace apenas unos años» [TATON, René (dir.) (1988): «En la aurora de la ciencia. Los
+tiempos prehistóricos», ibiden, (11-23). Op. cit. en la p. 20].
+8
+Aunque mejor tendríamos que haber dicho reproducen, porque por los contenidos del
+documento se infiere que había habido una progresión desde tiempos pasados, que bien por
+tradición oral o bien porque no han llegado hasta nosotros los documentos primarios, por lo
+que se podrían considerar copias o adaptaciones de otros documentos compuestos en el Imperio Antiguo. Igual sucede con otros papiros, como por ejemplo el de Ebers, el Smith, etc.
+Es por lo tanto e1 Imperio Antiguo donde «hay que remontarse para fechar los descubrimientos que fundaron o establecieron sólidamente la Matemática, la Astronomía, la Medicina. Ninguna obra científica de aquella época ha llegado hasta nosotros; pero los papiros matemáticos del Imperio Medio suponen numerosas experiencias más antiguas y una larga y
+lenta elaboración de la ciencia de los números» [TATON, René, «Las antiguas ciencias dcl
+Oriente: Egipto», en TATON, René (dir.): Historia General de las Ciencias (1): Los Antiguas
+Ciencias del Oriente, Barcelona, Ediciones Orbis, 1988 (27-87). Op. cit. en la p. 28].
+
+Los orígenes de la informática
+
+223
+
+6Qué aporta la aritmética egipcia? En primer lugar, los egipcios tenían
+ya un sistema de numeración9,decimal
+conlos
+signos
+paracomo
+las unirepitiendo
+signosespeciales
+tantas veces
+sea
+dades, decenas,
+necesario
+hasta centenas,
+expresar etc.
+la cifra deseada, lo cual era un grave inconve-
+
+niente, como era también un gran inconveniente la falta de sistemática en
+la metrología antigua, y por lo tanto en la egipcia, que para cada medida
+(capacidad, peso, longitud, etc.) tenían una terminología individual con
+múltiples subdivisiones.
+La aritmética egipcia tenía una ventaja sobre las demás, no era necesario aprenderse las cosas de memoria como por ejemplo nosotros, que ya
+desde nuestra tierna infancia nos acosan con la tabla de multiplicar, de dividir, etc. Veamos dos ejemplos:
+1) Multiplicar 25 x 9
+1
+2
+4
+
+9
+18
+36
+
+8
+16
+
+72
+144
+
+En la columna de la izquierda se parte siempre desde la unidad y se va
+duplicando. En la de la derecha se pone el multiplicador (en este caso el 9)
+y se duplica también. A continuación, en la columna de la izquierda se buscan aquellas cifras que sumadas den como resultado el multiplicando (que
+recordemos era 25): el 1, el 8 y el 16 (su suma da 25). Hecho esto, sumamos las cifras de la columna de la derecha que les corresponda a cada una
+de las anteriores (9 + 72 + 144) y ya tenemos el resultado: 225.
+2) Dividir 312:6
+
+Se hace exactamente lo mismo:
+1
+2
+
+4
+8
+16
+32
+
+6
+12
+24
+48
+
+96
+192
+
+Puede consultarse la numeración jeroglífica egipcia en la fig. 4 de la p. 33 de TATON,
+
+René (dir.) (1988): «Las antiguas ciencias del Oriente: Egipto», ibiden, (27-87).
+
+224
+
+Carlos Manuel da Costa Carballo
+
+Ahora en vez de buscar en la columna izquierda, buscamos en la derecha las cifras que sumadas den como resultado el dividendo (que es 312),
+siendo estas cifras 24 + 96 + 192 312. Buscamos en la de la izquierda las
+cifras que ~es corresponde (4; 16 y 32) y las sumamos, dando el resultado
+de la operación: 52.
+Además los egipcios elevaban numeros al cuadrado, sabían extraer raices cuadradas (para aplicar al cálculo de superficies agrícolas), calculaban
+progresiones aritméticas y geométricas, y manejaban ecuaciones de segundo grado.
+Con ser esto muy importante para el período en que nos encontramos,
+el carácter aditivo (sumas de duplicaciones) de la aritmética egipcia fue un
+enorme handicap para el desarrollo de su Astronomía, pues los cálculos
+son enormemente complejos.
+Vemos pues que la necesidad de contar es la que agudiza el ingenio de
+las personas de aquella civilización:
+«Para poder administrar el conjunto del país, y aun sólo para conocerlos
+recursos económicos y disponer de ellos, el Gobierno central y el provincial
+requieren, en un país que jamás llega a poseer una unidad monetaria de referencia, el desarrollo de una enorme contabilidad material. (...) Como todas
+las aritméticas, la egipcia se reduce, en último término, a un proceso unleo:
+contar.»
+
+Por lo tanto, el sistema social imperante en las cortes faraónicas, impuso este gran desarrollo de la contabilidad’
+
+MESOPOTAMIA
+Por las mismas fechas, 3.000 a.C., aunque en otro lugar, Mesopotamia,
+surge otra cultura que tuvo su importancia en la ciencia. Se trata de la cultina sumerio-babilónica o sumerio-akkadia. Varios pueblos abarca esta
+nueva cultura (los asirios, los casitas, los hititas, los hurritas, cte.) cuya impronta más loable fue la tarea de compilación y transmisión de conocimíentos que llevaron a cabo. La aportación más importante realizada en esta cultura es sin duda la ciencia de las listas, que empezaron siendo listas
+it> TATON, René (dir.) (¡988): «Las antiguas ciencias del Oriente: Egipto>’, ¡bit/cnt (2787). Op. ch. en las pp. 34-35.
+«Todo comercio se operaba, pues, por trueque, incluso el indispensable para la vida. Además, según parece, la propiedad privada era muy limitada; la tierra pertenecía, en la
+mayor parte de los casos, al faraón o a los templos. Tal sistema social, en el que el individuo
+está por fuerza a cargo de quien los emplea, faraón o sacerdotes, implica, a falta de toda moneda, una enorme contabilidad material ,...» [TATON.René (dir.) (¡988): «Las antiguas ciencias del Oriente: Egipto», ¡bit/cnt (27-87). Op. ch. en la p. 41].
+
+Los orígenes de la injórmática
+
+225
+
+de signos ante la complejidad inicial de la escritura, y acabaron siendo
+unos excelentes repertorios léxico-gráficos de casi todos los temas: minerales, plantas, animales, utensilios, vestidos, construcciones, alimentos, bebidas, dioses, estrellas, países, ríos, montañas, estrellas, oficios, clases sociales, partes del cuerpo humano, etc.
+Las fuentes de información son bastante numerosas (textos de aplicación práctica, catálogos de referencias, colecciones de problemas resueltos
+stn explicación ni justificación, etc.) pero generalmente anónimas, sin datar y sin contenidos teóricos, por lo que cabe suponer que la transmisión
+real de conocimientos era oral. Hasta ahora hemos visto que debían resolver problemas materiales cotidianos, y eso es lo que nos encontramos en
+los documentos, no habiendo bases teóricas en ninguno de ellos, por eso es
+«ciencia a medias» lo que estamos analizando.
+Hay un componente mágico-adivinatorio, muy importante en esta cultura, más avanzado que el de los pueblos primitivos que nos anuncia el nacimiento del espíritu científico:
+«En cl ejercicio de su arte, el adivino exhibe una actitud que presagia ya
+el espíritu científico. Esa actitud se manifiesta no sólo en la amplitud y finura de la observación, sino también en la búsqueda de la experiencia. El adivino no se limita a observar la configuración de los elementos, su posición y
+sus relaciones recíprocas, sus medidas, sus analogías, etc.; muy a menudo
+provoca él mismo la observación.» 12
+
+Las fuentes de información sobre la ciencia de los números en esta nueva cultura, nos las encontramos en tablas numéricas, no muy distintas a las
+tablas que tenemos hoy en día, y tablillas de problemas, que son una serie
+de tablillas con muy variados ejercicios aritméticos.
+Tomaremos como refercnte la Tablilla Sumeria que se encuentra en el
+Museo Semítico de la Universidad de Harvard datada hacia el año 3.000
+a.C. Esta tablilla tiene grabados caracteres curvilíneos y cuneiformes, y en
+ella los expertos han llegado a identificar dos números: el 6 y el 24. Por lo
+tanto podemos considerar esta tablilla como la primera representación gráfica de escritura numérica.
+La numeración asirio-babilónica es posicional de base sexagesimal 13
+En principio podemos distinguir dos sistemas de numeración: uno posicional y otro no posicional (de éste hablaremos más adelante). En el primer
+sistema cada dígito que entra a formar parte de una cifra tiene doble valor.
+Un primer valor es el absoluto con respecto a la unidad. Un segundo valor
+TAloN, René (dir.) (1988): «Mesopotamia», ibiden, (88-154). Op. cii> en la p. 99.
+Sistema éste que es fundamental a la hora de automatizar los procesos, pues simplifica mucho las operaciones de mecanización y permite la expresión de cantidades muy pequeñas así como muy grandes.
+2
+3
+
+226
+
+Ca ríos Manuel da Costa Carballo
+
+es el relativo con respecto a la situación del dígito dentro de la cifra. Por
+ejemplo, la cifra 44 tiene dos dígitos que se repiten, el 4. El valor absoluto de cada uno de los dígitos hace que el 4 de la derecha tenga un valor de
+4 unidades, mientras que el de la izquierda lo tenga de 40. Con el valor relativo ocurre lo mismo, el 4 situado a la derecha es menos significativo
+(equivale a 4 unidades) que el que está situado a la izquierda (equivale a 4
+decenas). Por lo tanto en este sistema cada dígito tiene diferente valor en
+función del lugar que ocupa dentro de la cifra.
+Las características de los sistemas de numeración posicional son:
+—
+
+—
+
+—
+
+la base del sistema nos dice cuantos dígitos podemos utilizar en el
+mismo: el decimal (base 10) permite trabajar con 10 dígitos (del O
+al 9), el octal (base 8) con ocho (del O al 7), el binario (base 2) con
+dos (el O y el 1), el hexadecimal (base 16) con dieciséis dígitos
+(del O a la F, es decir los diez dígitos decimales y las seis primeras letras del alfabeto), sexagesimal (base 60);
+el conteo de los dígitos se hace añadiendo de 1 en uno los valores
+correspondientes. En cualquier base cuando vamos a llegar al vabr máximo, si le incrementamos otra unidad se pone un O en esa
+posición y se acarrea 1 al dígito de la izquierda. Por ejemplo, en
+el sistema decimal el dígito de más valor es el 9. si queremos anadirle una unidad quedará un O en posición de unidades y el 1 pasará al lugar de las decenas. Por ejemplo el 99. Al sumarle uno
+quedará un O en el sitio de las unidades y se acarrea el 1 a las decenas pero como se incrementa otra vez queda un O en las decenas
+y el 1 se acarrea hacia el sitio de las centenas;
+cualquier número entero N puede descomponerse según el Teorema Fundamental de la Aritmética:
+N
+
+= At>nt> +
+
+An
+
++
+
+A~n2
+
++...
+
++
+
+Akn5
+
+Donde N es cualquier número entero, k es la cantidad de dígitos
+que tiene el número menos uno, n es la base del número N representado en decimal (base 10) y A es el dígito del número.
+En realidad los representantes científicos de Mesopotamia utilizaban
+ambos sistemas, decimal y posicional de base 60. El primero de ellos en
+textos no científicos, mientras que el segundo en aquellos documentos matemáticos y astronómicos.
+Seguimos sin tener una representación gráfica del cero. En Mesopotamía, como en las culturas que hemos visto hasta ahora, dejaban un espacio
+en blanco cuando querían representar un cero.
+
+Los orígenes de la informática
+
+227
+
+En cuanto a la metrología, las unidades estaban bastante sistematizadas
+ya y establecen una serie de múltiplos y submúltiplos que denotan una buena coherencia científica. Además establecieron unas tablas que permitían
+pasar con suma facilidad de una medida a otra (volumen, longitud, peso,
+etc.).
+Otros conocimientos que poseían eran: raíces cuadradas y cúbicas, relaciones exponenciales y logarítmicas, teorema de Pitágoras, regla de tres,
+ecuaciones de primer y segundo grado con una o varias incógnitas, ecuaciones de tercer grado (aunque éstas últimas eran ficticias pues partían del
+resultado para construir el enunciado), fórmulas para establecer el área y el
+volumen del cuadrado, rectángulo y triángulo rectángulo, etc.
+
+EL ÁBACO
+Pero el problema seguía. ¿Cómo contar los objetos? 14 Fueron probablemente los asirios [hacia el año 2.000 a.C.], aunque otros autores dicen
+que fue en China donde apareció por primera vez por estas mismas fechas
+como veremos más adelante, los que dieron con la solución a este problema. Roturaban en la arena o en la tierra varios surcos paralelos entre si, que
+representaban cada uno de ellos las unidades, decenas, centenas, etc., y sobre los que ponían unas cuentas que podían ser semillas de frutos o piedrecitas (calculus), pudiendo con este artilugio hacer operaciones matemáticas, es decir, podían contar. Pero había un problema, esta «primitiva
+calculadora» no podían llevársela de un lado para otro, pues era el propio
+suelo que pisaban, por lo que en un momento determinado a alguien se le
+ocurrió fabricar un tablero para contar bolas, una «calculadora de bolsillo».
+Esta «primitiva calculadora de bolsillo» estaba construida de la siguiente
+forma: un marco de un material determinado lleno de arena en su interior
+para poder hacer los surcos, acompañado de algo que les sirviese de cuentas.
+Esta herramienta fue perfeccionada por los griegos y romanos que utilizaron como materiales de fabricación cobre o mármol en los que hacían
+unas hendiduras donde ponían las cuentas o bolas. La siguiente innovación
+fue dividir el artilugio en dos partes, colocando en la superior una bola que
+representaba cinco unidades y cuatro en la parte inferior que equivalían cada una de ellas a una unidad. Posteriormente se sujetaron las bolitas o
+cuentas con unas varillas metálicas paralelas sobre las que se deslizaban y
+
+4
+
+«Los babilonios fueron calculadores en el más pleno sentido de la palabra. En po-
+
+sesión de un sistema de numeración muy nexible, llegaron a poseer una gran habilidad arit-
+
+mética: son los inventores del Algebra,...»
+den, (88-154). Op. citen la p. ¡321.
+
+[TATON,
+
+René (dir.) (1988): «Mesopotamia», ¡bi-
+
+228
+
+Carlos Manuel da Costa Carballo
+
+facilitaban la realización de operaciones matemáticas. Otras civilizaciones
+utilizaban cuerdas en vez de cuentas o bolas. Por ejemplo el denominado
+quipú de los incas del Perú consistía en una cuerda gruesa de la que pendían cordeles de colores con nudos más finos u La forma de representar
+en estos cordeles el resultado de algún cálculo era por medio de nudos.
+Fuese cual fuese el artilugio, tuvo diferentes nombres según el pueblo
+o civilización que lo utilizó: abra: o abaq (que en hebreo significa polvo),
+abax de los griegos (que significa tablero), suanpan chino, stschoty ruso,
+soroban japonés, abacus latino y castellanizándolo: Aboco.
+Este primitivo ingenio, el ábaco, permitía la realización de las operaciones matemáticas básicas, a saber: suma, resta, división, multiplicación,
+potencias y raíces cuadradas.
+El ábaco que podemos ver aún hoy en funcionamiento es el sistema de
+contar las carambolas en una mesa de billar, o el soroban japonés que dio
+lugar en aquella nación, a que se creara una carrera llamada calculista de
+óbaco.
+Para concluir con Mesopotamia, diremos que en el desarrollo de su
+ciencia tuvo una gran importancia, como hemos podido comprobar, las
+matemáticas.
+
+FENICIA E ISRAEL
+Siguiendo con la búsqueda de los conocimientos matemáticos que tienen que ver con el surgimiento y posterior desarrollo de la informática, nos
+toca hablar ahora de otras dos culturas situadas entre la Alta Mesopotamia
+y Egipto. Se trata de las culturas Fenicia y de Israel i6, De los primeros tenemos escasos documentos pues escribían casi todo en papiros (que han
+desaparecido en su gran mayoría), y algo menos en inscripciones en piedra
+y en tablillas de arcilla.
+Los fenicios han hecho, quizás, la mayor contribución a todas las ramas del saber, la creación del alfabeto (disociación sistemática de los elementos del lenguaje en vocales y consonantes) en la segunda mitad del segundo milenio a.C., que en principio era de 30 letras para pasar a finales
+del milenio a tener 22. Los griegos lo que hicieron fue adaptar el alfabeto
+
+‘>
+Además del quipd, la ciencia aritmética de la América Precolombina se basaba en
+la numeración decimal vigesimal, por lo que podían manejar cifras grandes. Vemos, una vez
+más, que es la necesidad de contar las cosas de toda clase lo que obliga a las personas de estas épocas a inventar artilugios de este lipo para solucionar este problema.
+it>
+Un buen capítulo sobre el desarrollo científico de ambas culturas puede verse en TAroN, René, «Fenicia e israel», en TAíON, René (dirj: Historia General de las Ciencias (1):
+Las Antiguas Ciencias del Oriente, Barcelona, Ediciones Orbis, 1988 (155-167).
+
+229
+
+Los orígenes de la injórmática
+
+a su propia lengua y extenderlo por casi todo el mundo: «. la mayor parte de las escrituras modernas derivan en forma más o menos directa del
+alJhbeto fenicio» i 7
+En el campo que nos interesa, el de la aritmética, pocas novedades, al
+menos con la documentación existente. El sistema de numeración es el decimal. Hay documentación en la que se aprecian numerosas adiciones pero no hay ningún documento que nos indique si empleaban las otras operaciones básicas (la resta, la multiplicación, etc.), aunque cabe suponer que
+les eran conocidas.
+En cuanto a la otra cultura, Israel, hay que especular aún más, pues la
+documentación en la que se puede estudiar su desarrollo científico es la Biblia.
+Se puede inferir que no aportan nada, sólo se dedicaron a importar todo lo que sus vecinos descubrían o utilizaban, y lo manejaban de forma
+empírica. Conocían los sistemas de numeración decimal y sexagesimal,
+eran unos buenos organizadores y clasificadores, y poco más podemos decir.
+..
+
+INDIA
+En la India si que tenemos innumerables textos (no científicos, literatura especial, todo escrito en sánscrito) que nos aportan toda la serie de conocimientos científicos que poseía esta civilización. Fue una de las civilizaciones materiales más avanzadas e influyó notablemente en su entorno
+geográfico (Tibet, Mongolia, Indochina, Birmania, Tailandia, Camboya,
+Indonesia, etc.).
+La documentación tiene dos fuentes importantes, los textos Védicos
+(1.500 a 1.000 a.C.), que son textos sagrados fundamentalmente, y los textos Bráhmana (1.000 a 500 a.C., cuando se inicia el budismo), que eran
+compendios explicativos de los anteriores18.
+
+~7
+
+TATON, René (dir.) (1988): «Fenicia e Israel», ibit/em (155-167). Op. ciA en la p.
+
+164.
+~ «Esos escritos [los Védicos y los Bráhmana] representan un esfuerzo en la búsqueda de leyes sencillas de las relaciones naturales, subyacentes a la multiplicidad y variedad de
+
+los fenómenos. Muy a menudo consideran orgánicas y fundamentales relaciones o eonespondencias que son superficiales o falsas. Mas no por ello dejan de manifestar un ardiente
+deseo cíe comprender el mundo en vez de sufrir con pasividad las consecuencias de leyes
+misteriosas o manejar de modo empírico algunos mecanismos casualmente aprehendidos.
+Esos escritos dan testimonio de un espíritu científico que aspira vivamente a transformar lo
+sensible en inteligible, a someter la Naturaleza a la razón» [TATON, René, «La Ciencia Hindú antigua», en TATON, René (dir.): Historia General de las Ciencias (Jft Las Antiguas Cien<las del Oriente, Barcelona, Ediciones Orbis, 1988 (168-201). Op. cit. en la p. 172¡.
+
+230
+
+Carlos Manuel da Costa Carballo
+
+Conocían y poseían una tabla de senos y cosenos, que es la más antigua que se conoce (y que se puede ver en el Cap. II del Súryasiddhánta, el
+libro de la Solución del Sol, escrito en el siglo iv a.C.), manejaban números elevados en sus cálculos (potencias de hasta 1 0>), el teorema de Pitágoras, numeración escrita (a mediados del siglo ití a.C.) sin el cero en principio, empiezan la enseñanza de las matemáticas (lo que se puede
+comprobar en los tratados de Astronomía de la época clásica hindú), raíces
+cuadradas y cúbicas tal y como las hacemos hoy, valor dep (3.1416), notación del cero (en la época Aryabhata hacia el siglo vi a.C.)
+Es en la India donde nos encontramos con el primer manual de matemáticas (Ganitasárasangraha o Compendio de lo esencial del cálculo escrito por Mahávira en el siglo ix a.C.), en el que se establece la terminolog<a empleada, las operaciones aritméticas, las fracciones, la regla de tres,
+áreas y volúmenes y cálculo), además de que parece ser que en la India se
+utilizaba el ábaco para realizar las raíces cuadrada y cúbica.
+~
+
+CHINA
+En este camino por la historia de la informática, y antes de pasar al
+mundo grecorromano, vamos a analizar la última cultura antigua, la civilización China, que ya en el siglo xiv a.C. tenía su escritura tal y como la de
+hoy prácticamente.
+Un hecho importante en el tema central que estamos tratando sucede
+entre los años 220 a 280 de nuestra era, una enorme difusión del papel, que
+se había inventado antes. Por lo tanto tenemos un nuevo soporte de información, el papel.
+Hemos comentado ya que hacia el año 2.000 a.C. los asirios, aunque
+otros autores dicen que fue en China, fueron los que dieron con la solución
+al problema del cálculo, con la creación del ábaco (suanpan de los chinos).
+El sistema empleado por los chinos era el siguiente:
+«El papel que han desempeñado entre los latinos las piedrecitas (caLculi)
+lo desempeñan en China unos bastoncillos o junquillos. Se utilizaban para escnbir un número colocándolos en una mesa reglada o en un enrejado. (...): no
+había más que colocar el número de junquillos correspondiente a las unidades, en la columna de la derecha; el correspondiente al de las decenas, a la
+misma altura en la columna situada inmediatamente a la izquierda; el núme-
+
+i9
+Aunque no lo crearon ellos si hacemos caso del siguiente párrafo: «Dado que el cero se inventó en Mesopotamia antes de la época en que los elementos de la cultura mesopotámica fueron importados a la india por los persas, es posible que los hindúes lo tomaran de
+las matemáticas babilónicas,...» [TÁToN, René (dir.) (1988): «La Ciencia Hindú antigua», ibidem (168-201). Op. ciA en la p. 19iJ.
+
+Los orígenes de la informática
+
+231
+
+ro de junquillos correspondiente a las centenas, en la columna siguiente, etc.
+(...)
+Para evitar errores, los junquillos se colocaban verticales en las columnas
+20
+impares, empezando por la de las unidades, y horizontales en las pares.»
+
+Ya hemos comentado que el ábaco varió de forma en todas las culturas.
+Cuando aparecían números negativos en cualquier operación los junquillos
+de color eran sustituidos por junquillos negros. Es una primera forma de
+diferenciar números positivos y negativos. La suma y la resta en el damero de junquillos se hacia colocando tal y como hemos indicado las cifras
+con junquillos, y luego se reunían o se sustraían21.
+También los chinos hacían raíces cuadradas, conocían el teorema de Pitágoras, y tenían una obra matemática llamada Kieu chang suan chu (Arte
+de calcular en nueve capítulos) donde se encuentran todos los conocimientos matemáticos de esta civilización: cálculo de superficies de rectángulos, trapecios y triángulos, circulo, proporciones, tantos por ciento, regla
+de tres, raíces cuadradas y cúbicas, volúmenes del prisma, pirámide, etc.,
+ecuaciones, teorema de Pitágoras, etc.
+MUNDO
+
+CLÁSICO GRECO-ROMANO
+
+De esta forma llegamos al mundo grecorromano, pudiendo afirmar, cosa que ya muchos otros autores se han encargado de demostrar, que la ciencia nació en Grecia:
+«Medicina, Historia Natural y Matemática demostrativa son consideradas, con justicia, como las creaciones científicas más hermosas del helenis-
+
+mo. En estos tres dominios, herederos de una larga prehistoria y por vías diversas, aunque paralelas, los griegos llevan a cabo, en un tiempo
+relativamente breve, progresos sorprendentes en cuanto a la extensión de los
+conocimientos y a los métodos de pensamiento.»22
+
+Son los presocráticos23 los primeros que intentan dar una explicación
+mas o menos racional del mundo sensible, lanzando una serie de hipótesis
+desprovistas de actitudes mítico-mágicas.
+20
+‘LATeN, René: «La Ciencia China antigua», en TÁToN, René (dir.): Historia General
+t/e las Ciencias (1,>: Las Antiguas Ciencias del Oriente, Barcelona: Ediciones Orbis, 1988
+(202-220). Op. cit. en las pp. 206171.
+
+2i
+La multiplicación y la división vienen muy bien explicadas en TATON, René (dir.)
+(1988), «La Ciencia China antigua», ibidern, p. 208.
+22 ~ATON, René: «La Ciencia Helénica», en TATON, René (dir.): Historia General de las
+Ciencias (2): Las Ciencias en el Mundo Grecorromano, Barcelona,Ediciones Orbis, 1988
+¡223-246]. Op. ciÉ en la p. 225.
+23
+Entre otros tenemos que citar aquí a Tales de Mileto, Anaximandro, Anaxímenes,
+Jenófanes, Pitágoras, Heráclito de teso, Parménides, Zenón, Empédocles de Agrigento,
+Anaxágoras de Clazomene, Leucipo y Demócrito.
+
+232
+
+Carlos Manuel da Costa Carballo
+
+Sólo vamos a comentar aquella parte de las ciencias matemáticas que
+estamos siguiendo a lo largo de esta exposición, que es la aritmética, más
+concretamente la numerología, y en Grecia el número fue considerado como el principio de todas las cosas por lo que elevó la aritmética al rango
+de ciencia, hecho éste que no se había dado hasta entonces24. El número
+pasa a ser el modelo de las cosas, llegando a tener, sobre todo los diez primeros, virtudes secretas. Es la mística del arithmós, con números planos,
+lineales, sólidos, supersólidos, etc. (los que hoy conocemos como números
+naturales, enteros, negativos, positivos, racionales, primos, etc.), que desempeñó una función importante hasta el siglo xvii, llegando a deslumbrar
+a hombres de ciencia como Pascal. También desarrollan un concepto importantísimo en la ciencia hoy en día como es la antinomia par/impar. Establecieron las nociones de ángulo, línea recta, punto, etc. Se establece
+también la demostración del teorema de Pitágoras. La «demostración»25,
+pues ya hemos visto que en otras culturas lo utilizaban con éxito pero no
+hay documentación que verifique la demostración del mismo, aspecto éste
+que si podemos imputar a Pitágoras de Samos (580-500 a.C.). Por lo tanto
+la definición y la demostración es el basamento de cualquier ciencia para
+los griegos.
+Y así siguió siendo en Roma. Los romanos se dedicaron a hacer adaptaciones y compilaciones del conocimiento griego, en prosa y en verso, pero no hicieron ciencia: «Más preocupados ante todo por la cultura literaria y la moral y en parte bajo la influencia del platonismo, los romanos
+tendieron a dejar la Ciencia en manos de los griegos o de los técnicos (...):
+no hay pues, ciencia romana;...»26
+No obstante en Roma empieza a producirse una práctica poco recomendable en cualquier momento y en cualquier rama del saber: la irracionalidad. Cuando «las cosas del espíritu» se apoderan de la ciencia estamos
+abocados al retroceso, y esto sucedió en Roma por influencias Orientales.
+Sólo se consiguió en esta época la teoría del mínimo común múltiplo y
+dos sistemas de numeracion:
+24
+«Los pitagóricos no se han limitado a convertir la geometría en arte liberal, sino que,
+además, al poner en el número el principio de las cosas, han dado a la matemática ese carácter de ciencia por excelencia que ya nunca se le ha regateado. Todo lo que se puede conocer tiene un número”, escribe Filolao» [TATON,René: «Las Matemáticas», en ‘lATOS, René (dir.): Historia General de las Ciencias (2): Las Ciencias en el Muido Grec.orromnano,
+Barcelona, Ediciones Orbis, 1988 (247-273). Op. ciÉ en la p. 247],
+25
+En Grecia la demostración fue una exigencia. El resultado de cualquier hecho debía
+de estar fundamentado en la razón, debía poder ser explicado y probado con exactitud, «tiene que ser capaz de manifestar una verdad» [TATON,René (dir.) (1988): «Las Matemáticas»,
+ibit/em (247-273). Op. ciÉ en la p. 263].
+26
+TAToN, René: «La Ciencia Helenística y Romana», en TxroN, René (dir.): Historia
+General de las Ciencias (2» Las Ciencias en el Mundo Grecorromano, Barcelona, Ediciones Orbis, 1988 (333-454). Op. ch. en la p. 342.
+
+Los orígenes de la injórmótica
+
+233
+
+a)
+
+el sistema no posicional, donde cada dígito sólo tendrá un valor absoluto con respecto a la unidad. El representante por excelencia de
+este sistema de numeración es el romano. Por ejemplo la cifra
+CCLII: vemos que en este sistema no interviene para nada el lugar
+que ocupe (el valor relativo) pues las tres unidades valen lo mismo
+estén donde estén, al igual que las dos centenas. De todos modos
+si interviene la posición del dígito en un caso, un número inferior
+delante o detrás de otro superior. Por ejemplo, IX y XI, en el primer caso la cifra inferior resta al ir seguida de una superior En el
+segundo caso suma al ir precedida de la superior;
+
+b)
+
+el sistema herodiano, donde cada unidad era representada por unas
+letras: 1 (unidades), II (cinco), ~ (diez), H (cien), X (mil) y M (diez
+mil), siendo muy similar al romano puro. Por ejemplo: 6 se escribelIl; 14= áIFll,etc.
+
+Con cualquiera de los sistemas de numeración, los cálculos complejos
+sólo podían ser realizados con los ábacos de fichas o de bolas que, como
+hemos comentado con anterioridad, sí perfeccionaron los romanos.
+Esta escasa aportación a la ciencia, sobre todo la matemática, por parte de los romanos fue una de las causas de su casi exúnción, de la ciencia
+claro: ccAsí, sin solución de continuidad, sin que los contemporáneos lo noten apenas, muere la ciencia grecolatina y nace la de Bizancio, mientras
+que en el Occidente el hundimiento de las Matemáticas es brusco, y su extinción, casi total» 27, además de la transformación ideológica espiritual
+que sufrió la sociedad romana y de las conmociones políticas y étnicas que
+se producen en el Imperio.
+EDAD MEDIA
+Y llegamos a la Edad Media28, siendo ese espíritu enciclopédico de que
+hicieron gala los árabes lo que nos permitió recuperar la ciencia helena. Si,
+
+27
+rATON, René (1988): «La Ciencia Helenística y Romana», ihidern (333-454). Op.
+ciÉ en la p. 383.
+2S
+Que, de cara al estudio que estamos llevando a cabo, y siguiendo las pautas de la
+Historia General de las Ciencias que estamos utilizando, puede «dividirse en cuatro subperíodos principales: la Alta Edad Media, caracterizada por un bajísimo nivel de los estudios
+científicos; los siglos xi y xii, en los cuales se produce la recepción de ¡a ciencia islámica en
+Occidente, determinando la elevación del nivel de los conocimientos científicos: el siglo xix
+y el siglo xiv. en los cuales se forma y florece la ciencia escolástica medieval; la Baja Edad
+Media, primera mitad del siglo xv, periodo de decadencia de la ciencia escolástica y en el
+cují la Ciencia en sí misma intenta insertarse de modo más eficaz en la vida práctica, y apa-
+
+234
+
+Carlos Manuel da Costa Carballo
+
+los árabes se encargaron de inventariar todo el conocimiento, y fue al traducir a su lengua el conocimiento griego cuando al no tener términos para
+ello tuvieron que ponerse a investigar y, por lo tanto, a hacer ciencia: «El
+afán de identificar y de comprobar impone la observación, la descripción
+y la medida exactas, con lo cual fortificó y desarrolló la razón cienfffica»29
+Es, nuevamente, la necesidad de la vida práctica la que agudiza el ingenio de los matemáticos árabes. En cuanto a la numeración, antes del siglo ix ya tenían un sistema de numeración muy similar al de los griegos
+(palabras o letras del alfabeto para representar las cifras). A finales del
+mismo siglo importan de la India el sistema decimal y posicional que incorpora el cero. Las operaciones se realizaban sobre un tablero con arena
+o polvo. Posteriormente crearán la numeración que todos utilizamos en la
+actualidad, los números arábigos, que se confeccionan a partir de los ángulos que quieren representar cada uno de ellos (el 1 un ángulo, el 2 dos
+ángulos...).
+En China se sigue perfeccionando el instrumento de cálculo llegando
+al diseño del ábaco de bolas, descrito en la Herencia de notas sobre el arte de los números de Siu Yo. Dentro de este ábaco hay dos modelos:
+~<Laprimera consiste en una tabla o cuadro con varios cordones paralelos, en cada uno de los cuales están enhebradas 5 bolas; la última de éstas es
+de color distinto al de las otras y representa cinco unidades; así, pues, en cada cordón puede notarse una cifra, de O a ~. La segunda forma es un cuadro
+con 9 líneas paralelas, provisto de cordones perpendiculares a dichas líneas;
+en cada cordón está enhebrada una única bola, cuya posición en el punto en
+que se intersecta el cordón con una línea dada, indica la cifra que la bola representa» ~<>
+
+Este ábaco suplantó al que hasta entonces se utilizaba en China, el de
+junquillos, aunque hasta finales del siglo xiií no se generalizó su uso. Se
+llegó a escribir un manual en el que se explicaba el uso del ábaco de bolas
+(Introducción a la ciencia del cálculo de Tchu Che Kie (1280- 1303), es-
+
+recen así los primeros signos de una transformación que se acelerará en el corso del período
+subsiguiente (finales del siglo xv y siglo xvi), dando paso, finalínente. a la creación de la
+Ciencia moderna» ¡TATON, René: «La Edad Media», en TArON, René (dir.): Historia General de las Ciencias (3): La Edad Media, Barcelona, Ediciones Orbis, 1988 (461-754). Op.
+c~É en las pp. 461/2].
+29
+TATON, René: «La Ciencia Árabe», en TATON, René (dir.): Historia General de las
+Ciencias (3,>: La Edad Media, Barcelona, Ediciones Orbis. 1983 (474-564). Op. cii. en la p.
+496].
+>0
+‘rA-ioN, Rejíd: «Las Ciencias en la China Medieval», en TATON. René (dir.): Historia
+Ge,íe,aí de las Ciencias (3): La Edad Media, Barcelona, Ediciones Orbis, ¡988 (570-583).
+Op. ciÉ en la p. 571].
+
+Los orígenes de la informática
+
+235
+
+crito en el año 1299. Este manual fue la fuente fundamental para el desarrollo del álgebra japonés.
+En Bizancio no sucedió nada resefiable para el objetivo que perseguimos,
+al igual que en los pueblos eslavos (polacos, checos, eslovacos, croatas, eslovenos, rusos, serbios, búlgaros y macedonios) y en la ciencia hebrea.
+En el mundo cristiano, durante la Alta Edad Media no vamos a descubrir nada nuevo si decimos que la Ciencia estaba en decadencia. Las causas que dieron lugar a esto fueron, de un lado la excesiva sujeción al utilitarismo, y por otra parte el contacto con el misticismo oriental que poco a
+poco fue intoxicando la cultura occidental. Además de estas causas hay
+que reseñar las que siempre se consideraron como causantes del oscurantismo medieval: el cristianismo y las invasiones de Jos bárbaros del norte.
+En el campo que nos estamos moviendo para realizar este artículo, las
+matemáticas, destacaremos a Beda el Venerable (6’73?-’735) que con su Loquela per gestum digítorum nos enseñó todo lo que hasta ese momento se
+
+sabía acerca del cálculo digital.
+Los árabes, en esta época, aportan las cifras que llevan su nombre aunque bien es cierto que es una creación hindú que los árabes introducen en
+occidente sobre todo para difundir el uso del ábaco para realizar los cálculos matemáticos31. De todos modos la difusión de este ábaco fue por tradición oral, a excepción de un manual para uso del ábaco de Gerberto de
+Aurillac (9402-1003) que no sabemos como se titulaba pero que debió
+existir si hacemos caso a las palabras de William de Malmesburry (10811142): «...tomó el ábaco de los sarracenos y dio acerca de él reglas que
+apenas comprenden los calculistas esforzándose hasta el sudor»32. Hemos
+dicho anteriormente que no se utilizaba el cero pero si parece que intuían
+
+su valor pues en algunas operaciones realizadas con el ábaco de columnas
+colocaban una ficha blanca en la columna correspondiente donde hubiese
+que poner un cero, l]amándose esta ficha ciphero (cero), al sifr (cifra, vacío), sepos (ficha). Con el paso del tiempo las fichas pasan a ser sustituidas por la representación escrita de las cantidades, por lo que las columnas
+
+El ábaco de los árabes difiere del de los antiguos romanos, que era de bolas, en que
+se trataba de una tabla en la que las cifras tomaban un valor posicional que variaba según la
+columna que ocupasen. Era el ábaco de columnas. No empleaban aún el cero. En este mo-
+
+delo las cifras eran unas fichas hechas con el extremo superior o punta de los cuernos que algunos animales mudan en el afio, como el ciervo, en las que pintaban los números del uno al
+nueve de dos formas diferentes: o bien con las primeras letras del alfabeto griego, o bien por
+una terminología especial (igin el 1, andras el 2. orníis el 3, arbas el 4, quimas cl 5, caletis
+el 6,zenis el 7, ten,enias el 8 y celentis el 9). [TAíoN,René: «La Ciencia en el Occidente Medieval Cristiano», en TATON, René (dir.): Historia General de las Ciencias (3): La Edad Media. Barcelona, Ediciones Orbis, 1988 (624-696). pp. 629 a 631].
+32
+TAíos, René (dir.) (1988t «La Ciencia en el Occidente Medieval Cristiano», ibidem
+t624-696). Op. ¿ir. en la p. 631.
+
+236
+
+Carlos Manuel da Costa Carballo
+
+desaparecen y se utilizará el ábaco de arena o polvo, en el que escribes las
+cifras que se van a utilizar para hacer una operación. El ábaco va siendo
+sustituido por el algoritmo o algorismo (que era en aquellos momentos todo sistema decimal basado en el principio de posición).
+Los nuevos procedimientos de cálculo que hemos comentado es la gran
+aportación de la Edad Media a la Aritmética. Desde ese momento se inicia
+la redacción de manuales sobre estos temas: Tratado sobre el óbaco de
+Adelardo de Bath (¡090-1160), Liher Algorismi de numero Jndorum de
+Mulzammad [bu al-Khwarizrni (t>- 1138 o 139), Liber abad de Leonardo
+Fibonacci o Leonardo de Pisa (1170-1240), y la enseñanza de los mismos:
+«Fn ¡338 poseía Florencia, según Giovanni Villani, seis escuelas de
+ábaco frecuentadas por 1.000 ó ¡.200 alumnos que se preparaban para el
+ejercicio del comercio’
+
+Durante los siglos xii y xííí se van perdiendo esas fantasías alegóricomísticas que habían inundado la ciencia medieval y se va perfeccionando
+la técnica, cuyo resultado práctico para cuando hablemos de calculadoras
+mecánicas fue sin duda la rueda dentada y la biela-manivela aparecidos en
+la parte meridional de Alemania a comienzos del siglo xv, o el papel que
+todavía no tendrá gran importancia en la historia de la informática pero que
+durante el siglo xiv en Francia se ofertaba a muy buen precio, al menos la
+materia prima para la industria papelera, que había venido de China a traves de prisioneros de Samarcanda y de los árabes.
+Todavía no podemos hablar de máquinas en el sentido que damos hoy
+en día a esta palabra, es decir artificios que aprovechan o regulan la acción
+de una fuerza. Es a partir del siglo xv cuando sc vislumbra la posibilidad
+de crear una máquina que sea capaz de realizar operaciones o cálculos sin
+error y de forma automática, es decir, empieza la gestación de la Calculadora Mecánica. La causa probable de este suceso se debió a que en este
+momento los principales problemas dc construecton serán resueltos favorablemente, además de que la producción de estas máquinas fue algo más
+rápida. Ya hablaremos más adelante de esto.
+Con esto llegamos al Renacimiento, donde «...el audaz y original esJi¿erzo de los científicos europeos, al liempo que reno vó el espíritu científico de los diferentes sectores de la ciencia, arrastró el progreso de ésta en
+un mo vuniento irreversible que se extenderá, se desarrollará y se acelerará en los siglos siguientes» ~t
+
+TAraN, Rene «liv.) (1988).«La Ciencia en el Occidente Medieval Cristiano>’, ibidení
+(624-696). Op. ciÉ en la p. 676.
+Vi
+‘rAi<,N. René (dirj: «El Renacitii ento,>. etí TArON, René (dir.): Historia General dc
+10.5 cwmias <4>: La Ciencia Moderna (De 1450 a 180<3), I~arcclona, Ediciones Oibis, 1<185
+(5-214). Op. <0% en la p. 7.
+
+Los orígenes de la informática
+
+237
+
+CALCULADORAS MECÁNICAS
+Johannes Gensfleisch, más conocido por Gutenberg, inventa la imprenta a mediados del siglo xv, dando lugar a una gran revolución del conocimiento científico pues las ciencias podían ahora llegar a un mayor número de deseosos de conocer nuevas cosas. En esta línea, empiezan a
+prodigarse las obras de Aritmética35 que, en un principio eran unos manuales prácticos, sin explicaciones ni formulaciones, que venían a suplir la
+tradición de la enseñanza oral de abaquistas y maestros del cómputo, pero
+que poco a poco se van enriqueciendo y van abarcando todos los conocimientos matemáticos del momento.
+Ya hemos indicado que el algoritmo suplantó al ábaco, es decir, el cálculo escribiendo las cifras había sustituido al cálculo colocando fichas,
+aunque éste último seguirá siendo empleado por todas aquellas personas
+que tengan que hacer cálculos de forma práctica y rápida, como los comerciantes, los cambistas, etc. Esto también se produjo en la enseñanza de
+la aritmética hasta bien entrado el siglo xvíí, pero se mantiene de forma
+práctica hasta nuestros días en Oriente y Rusia, e indirectamente en otros
+países, pues ¿quién no ha utilizado alguna vez en su vida un ábaco para
+contar las carambolas en una mesa de billar?
+Al cambiar el método a la hora de hacer operaciones, al escribir las
+operaciones, nacen un sinfín de formas para realizarlas. En el Manual de
+Aritmética, anónimo y editado en Treviso (de 1478), aparecen por ejemplo:
+para realizar la multiplicación, varias técnicas: por columnas, por cruz, por
+damero, etc., y para la división: por columnas, por barco, etc.36
+Es en uno de estos manuales, el Triparty dans la science des nombres
+de Nicolás Chuquer, escrito en 1484, donde aparece por pri¡nera vez el cero con la significación que le damos hoy en día y la primera aproximación
+a la idea de logaritmo.
+También se empieza a ver en los manuales al uso los signos + (más) y
+(menos).
+Algunas páginas más atrás hemos comentado que en el siglo xv empieza la gestación de la Calculadora Mecánica. La causa probable de este
+suceso se debió a que en este momento los principales problemas de construcción eran resueltos favorablemente, además dc que la producción de
+estas máquinas fue algo ¡nás rápida.
+—
+
+>~
+Como por ejemplo: Sphaera de JoANNF.s Dr SArRoboseo, Theoricae nov’ae planetamm de Pt,rRí3Acu, Quadripartitum y Almagesto de ProroMeo, Elementos de Euclides dc GioVANNí CAMPANus DE NOVARA, Manual anónimo de Aritmética en TRuviso. Sum.na de LtscA
+PAnoLi (1445-lS 14). etc.
+~ Para analizar cada una de estas técnicas hay que leer el epígrafe titulado Las primeos manuales de TATON, René (dir.) (¡988). «El Renacimiento», ibídem (5-2¡4). Pp. 28-30.
+
+238
+
+Carlos Manuel da Costa Carhallo
+
+Fue precisamente Leonardo da Vinci (1452-1519) el que diseñé una
+máquina de cálculo37 que no pudo desarrollar y de la que tenemos noticias
+gracias a unos planos que dejó. Lo que hizo fue mecanizar el ábaco sustituyendo las varillas con piedrecillas por ruedas dentadas. En 1987 se construyó la máquina siguiendo el diseño de Leonardo y el resultado fue una
+caja que tenía siete ruedas en su interior que se movían gracias a un dispositivo de arrastre en cadena.
+Sin saberlo, aunque persiguiendo la misma finalidad, utiliza la criptografía como una manera de proteger los datos de sus investigaciones de los
+curiosos:
+«Leonardo apunta sus notas en carnets secretos, protegidos por una escritura Inversa;...»35
+
+A mediados del siglo xxi encontramos una descripción de una máquina que podía determinar de forma mecánica los senos y cosenos de los ángulos, otra, que se llamó nonio y que se debe a Pedro Núñez, podía medir
+los ángulos pequeños, aunque como era normal para la época como ya iremos viendo, la máquina era de construcción muy compleja y tuvo escaso
+éxito, pero fue sustituida por otra más pequeña llamada vernier inventada
+en 1631.
+Empiezan en ese momento a fabricarse instrumentos muy ingeniosos
+en la mayoría de las ocasiones pero poco eficaces generalmente, hasta que
+en 1581, en Londres, Edmund Gunther crea la Regla de Cálculo que ha sido suplantada hace escasos años por las conocidas calculadoras de bolsilío. La Regla de Cálculo podemos considerarla como la primera máquina
+analógica de la historia, es decir aquella que sirve para medir magnitudes
+físicas (presión, temperatura, voltaje, etc.), mientras que el Ábaco sería el
+primer representante de máquinas digitales, sirviendo por lo tanto para el
+tratamiento de cualquier tipo de información de carácter numérico. La Regla de Cálculo constaba de tres partes que en las que acaban casi de desaparecer recibían el nombre de regla, reglilla y cursor La regla es la base de
+la máquina y tiene una hendidura a lo largo de toda su longitud en el centro aproximadamente. La reglilla es un elemento móvil longitudinal que se
+ajusta en la ranura central de la regla sobre la que se desliza por diferentes
+
+~ Disefló, pues no Llegó a construir ni ésta ni casi ninguna máquina de las que había
+imaginado. Para da Vinci la Mecánica, «pasa así de arte empírico a ciencia aplicada, inaccesible, por ello mismo, a todos los que no sean geómetras. La misma transformación realizan sus innumerables dibujos y proyectos de máquinas, a menudo adelantados respecto a su
+tiempo y que jamás nos ofrecen imágenes o ilustraciones 1..). sino croquis calculados y a escala como los dc la Geometría» [TAíoN,René (dir.) t1988).«EI Renacimiento>~. ibidem (5214). Op. cii. en la p. 103].
+38
+TÁroN, René (dir.) <1988): «El Renacimiento» (5-214). Op. cii. en la p. 7.
+
+Los orígenes de la informática
+
+239
+
+sistemas para realizar los cálculos. Y el dítimo elemento, el cursor, es una
+pieza de materiales diversos y forma rectangular que deslizándose a ambos
+lados sirve para ver el resultado de las diferentes operaciones. Estas reglas
+así conformadas son debidas a William Oughtred (1574-1660) y Marnhein
+(1859).
+
+El siguiente paso hacia esa calculadora mecánica lo dio John Napier of
+Merchiston, Neper (1550-1617), nacido en Edimburgo (Escocia), creando
+los logaritmos39 en un intento de simplificación de las operaciones trigonométricas que necesitaban realizar los astrónomos del momento, que sentaron en realidad las bases fundamentales para desarrollar esos prototipos
+de calculadoras mecánicas. Por lo tanto vemos que, nuevamente, el ingenio humano desarrolla una nueva herramienta (las tablas de logaritmos)
+para dar respuesta a una necesidad científica acuciante (los cálculos de los
+astrónomos). Previamente había intentado diseñar un nuevo método para
+realizar las multiplicaciones que es conocido con el nombre de los huesos
+de Neper, que no era más que una tabla de multiplicar móvil. Bastante
+compleja en su uso, la abandonó pronto dedicándose a otras tablas, sobre
+todo las de los logaritmos que descubre en 1614, tres años antes de su
+muerte.
+Este suceso fue posible gracias a que durante el siglo xxii los científicos se encargaron de ir enunciando las leyes cuantitativas con las que van
+a matematizar la Naturaleza, Naturaleza a la que se imaginaban como un
+gigantesco autómata. El científico de este período empieza también a fabricar sus propios aparatos de precisión para poder conseguir unos excelentes resultados. Es el Siglo del mecanicismo y de la dinámica, de Descartes, Leibuiz y Hume, de las tablas de funciones trigonométricas y del
+cálculo infinitesimal, etc.
+Otro ingenio que puede considerarse como la Primera Calculadora es
+la máquina que inventa Wilhelm Schickard en el año 16230 1624, que con
+12 ruedas le permitía hacer una nueva operación matemática: la multiplicación.
+Un intento más serio en este campo lo realiza Blaise Pascal (16231662) que pone en marcha en el año 1642 el prototipo de su Machina
+Arithmetica, también llamada Pascaline, que tiene lista en 1645, y que podemos considerar como la segunda calculadora después de Jade Schickard,
+aunque en realidad podemos decir que es la primera calculadora real. Esta
+máquina era capaz de efectuar mecánicamente la adición. Pascal realizó su
+máquina utilizando el mismo principio que dos siglos antes había llevado
+a Leonardo da Vinci a diseñar su artilugio. La máquina de Pascal fundo-
+
+>0
+La obra donde aparecen se tituló Mirifici logarithmorum canonis descriptio, publicada en cl año 1614.
+
+240
+
+Carlos Manuel da Costa Carballo
+
+naba más o menos de la misma forma que lo hacían las máquinas sumadoras que existían no hace muchos años en cualquier local comercial, es decír, el artilugio consistía en una serie de pequeñas ruedas grabadas sobre
+un contorno de cifras desde el 1 al 9. Un ingenioso sistema de engranajes
+hacía avanzar una ruedecilla de unidad en unidad hasta completar un giro,
+es decir, iba contando dientes de rueda hacia un lado, mientras que el giro
+hacia el lado contrario suponía restar cantidades.
+Pascal diseñó esta máquina para facilitar el trabajo de su padre que
+siendo recaudador de impuestos debía hacer complicadas operaciones todos los días de su trabajo. De todos modos esta máquina de Blaise Pascal
+no tuvo gran difusión por las dificultades de fabricación de la misma.
+A partir de entonces se produce una verdadera eclosión de aparatos
+muy similares unos a otros, como la máquina Sumadora-Restadora de Sir
+Sarnmuel Morland en 1666, que era una simple máquina sumadora-restadora de moneda inglesa, o la Calculadora Universal de Godofredo Leihniz
+(1646-1716) que, además, multiplicaba y dividía. Leibniz concibió el proyecto de mecanizar el cálculo de las tablas astronómicas y trigonométricas
+para liberar a los investigadores de aquellos tiempos de la siempre tediosa
+acción de los cálculos matemáticos. En 1671 tenía ya el diseño que terminó en 1694 aunque, según parece no la comercializó por los elevados costes de fabricación. La máquina funcionaba por lo que Leibniz llamó rueda
+escalonada.
+En 1784 el Gobierno Francés decide que, como tenía los Logaritmos y
+las funciones trigonométricas inventados, había que sentar a trabajar a algunos matemáticos entre los que se encontraba Adri en-Marie Legendre (17521833), para que departieran sobre métodos para ser usados en la supervisión
+del trabajo de las personas. Nacieron las Tablas de Catastros. Estas tablas para censos fueron un motivo importante en el devenir de la historia de la informática para el avance de la ciencia, como veremos más adelante.
+El problema de la comercialización y de la industrialización o fabricación en serie de las calculadoras lo solucionan los norteamericanos. Así, en
+el año dc 1872 o 1875 Frank Stephen Baldwin patenta la llamada Rueda de
+Odhner. El dispositivo consistía en unos discos unidos sobre un eje horizontal, sobre los discos había otros discos excéntricos. El movimiento de
+los discos excéntricos era comandado por los vástagos que salían de unas
+ranuras. Por medio de una manivela al girar en un sentido la máquina realizaba la suma y la multiplicación, y al girar en el sentido contrario realizaba las otras dos operaciones matemáticas.
+De todas formas, hacia 1821) el alsaciano Charles Xavier Thomas, basado en la idea de la rueda escalonada de Leibniz, crea el Arilbinometer cuya novedad fue la de ser la primera máquina de bajo costo y que se pudo
+fabricar a gran escala, y la tendencia a simplificar las operaciones matemáticas por medio de la mecánica.
+
+Los orígenes de la informática
+
+241
+
+Un español en Nueva York, Ramón Verea García (1833-1899), aporta
+su granito de arena creando una máquina en 1878 de multiplicación directa y no por reiteración como hacían las hasta ese momento construidas, y
+que nueve años después un francés, Leon Bollée, la construye de forma parecida a la de nuestro compatriota.
+Pero mientras que el francés se apropia del invento de nuestro compatriota, un americano llamado Dorr E. Felt proyecta en 1880 la idea de
+adaptar a las máquinas de calcular las teclas que ya se usaban en las máquinas de escribir. Felt se asocia con Tarrant en 1887, y en su máquina introducen una serie de mejoras mecánicas que les permitía efectuar rápidamente las cuatro operaciones. La nueva máquina se llamó Comptométre y
+podía imprimir, por primera vez en la historia, los resultados de las operaciones que efectuaba. Esto, naturalmente, se extendió rápidamente a los
+otros modelos que se estaban creando por el mundo.
+A partir de aquí se siguen produciendo nuevas máquinas y empiezan a
+derivar de estas otras que servirán para realizar otras funciones más específicas como fueron: sumadoras con teclado del norteamericano Dorr Felt,
+máquinas registradoras inventadas por James Ritly (1879) y distribuidas en
+exclusiva por John Patterson desde 1884 hasta 1950 a través de la empresa que creó en principio para tal finalidad40, las sumadoras-impresoras
+(¡884) de un empleado de banca llamado William Seward Burroughs, máquinas de contabilidad, máquinas sumadoras múltiples, etc,
+Leon Ro/Me en 1887, aunque otros autores dicen que fue en ¡889, crea
+la primera multiplicadora activa, que se llamó Millonnaire. La máquina
+cons¡stía en una placa horizontal sobre la que estaban fijos verticalmente
+un cierto número de vástagos o tallos de acero de longitudes variables según unas proporciones que estableció Bollée, y que por analogía era como
+la representación gráfica de las tablas de Pitágoras. Por medio de una manivela se obtenían los productos que se deseaban.
+Concluido el análisis de este primer problema que seguramente se suscitó en la mente de nuestros antepasados, es decir, el cálculo, y que era necesario explicar para poder entender la historia del ordenador, vamos a iniciar ahora la discusión del segundo problema
+
+TARJ ETAS PERFORADAS
+Nos habíamos quedado en el siglo xix con las máquinas calculadoras.
+Pues bien, vamos a retroceder ahora un siglo pues es durante la Ilustración
+41>
+La empresa de Patterson se llamaba The National Cash Register Co,npany, que todos conocemos hoy en día como NCR.
+
+Carlos Manuel da Costa Carballo
+
+242
+
+o Siglo de las Luces (siglo xvni) cuando se crean máquinas dirigidas automáticamente con la ayuda de tarjetas perforadas, unidas entre sí como si de
+un acordeón se tratase, y que se aplicaron a la industria textil. Fueron B.
+Bouchon en 1725 y M. Falcan tres años después los que llevan a cabo este descubrimiento, o mejor dicho redescubren una aplicación ya utilizada
+en el mecanismo de los relojes musicales medievales y que tuvo una gran
+aceptación y continuidad en aparatos musicales sobre todo [recordar el caso de la pianola].
+Basándose en este mecanismo, Joseph-Marie Jacquard, en el año 1801
+patenta un telar controlado automáticamente por tarjetas perforadas.
+Aquí acabamos la etapa histórica que hemos denominado Prehistoria
+de la Informática. A modo de resumen, vamos a sintetizar los hitos cronológicos más relevantes de esta etapa:
+
+CRONOLOGÍA DE LA PREHISTORIA DE LA INFORMÁTICA
+Hace muchos años: Pintura rupestre, Palabra hablada.
+—
+
+3.000 a.C.
+
+Palabra escrita (Tablilla Sumeria. Museo Semítico. Universidad de Harvard).
+
+—
+
+2.000 a.C.
+
+Ábaco (Primer ingenio de cálculo creado por la hu-
+
+Siglo XV
+
+manidad, probablemente por los Asirios).
+Leonardo da Vinci (1452-1519) concibe el Primer
+prototipo de calculadora mecánica.
+
+—
+
+1581
+
+Gunther crea la Regla de Cálculo.
+
+—
+
+1614
+
+John Neper (1550-1617) desarrolla la teoría de los
+Logaritmos.
+
+—
+
+1623
+
+Wilheltn Schickard inventa la Primera Calculadora.
+
+1645
+
+Blaise Pascal (1623-1663) pone en funcionamiento
+su Machina Arithmetica.
+
+—
+
+1666
+
+—
+
+1694
+
+Samuel Morland fabrica su máquina SumadoraRestado ra.
+Godofredo Leibniz (1646-1716) crea su Calculadora Universal.
+
+—
+
+1725
+
+B. Bouchon aplica las Tarjetas con Peclá ración a la
+industria textil.
+
+—
+
+1728
+
+M. Falcon hace lo mismo que el anterior.
+
+Los orígenes de la informótica
+
+243
+
+—
+
+1801
+
+Joseph-Marie Jacquard (1752-1834) patenta el primer telar automático controlado por Tarjetas PerJóradas.
+
+—
+
+1875
+
+Baldwin comercializa Ja Ruedo de Odhner.
+
+—
+
+1878
+
+Ramón Verea García (1833-1899) crea la Calculadora de multiplicación directa en Nueva York.
+El francés Leon Bollée crea la máquina Millonnaire que era idéntica a la del español citado anteriormente.
+
+1887
+
+ANTIGUEDAD, EDAD MODERNA Y CONTEMPORÁNEA
+«No es lo que no sabemos lo que nos inquieta,
+es lo que sabemos que no es as¿. »
+(WILL RoGERs)
+
+«Cuando una idea simple toma cuerpo,
+se produce una revolución.»
+
+(C. PÉGUY)
+
+INTRODUCCIÓN
+Ya hemos visto en los epígrafes anteriores todo lo concerniente a la
+Prehistoria de la Informática desde la perspectiva de dos problemas que tuvieron que resolver, de una parte el problema del cálculo, de otra la creación de máquinas que realizasen los cálculos complejos.
+Hemos visto también hasta donde llegaba el ingenio del ser humano a
+través de las máquinas que fueron creando para solucionar estos problemas, desde los tableros para contar bolas o semillas, los ábacos, pasando
+por las máquinas sumadoras-restadoras, hasta llegar a las primeras calculadoras automáticas que ya realizaban la multiplicación y división, y a las
+que se fueron integrando nuevas funciones como la de imprimir, etc., etc.
+Nos corresponde en esta nueva etapa histórica, Antiguedad, estudiar
+tres figuras importantísimas dentro de la historia de la informática y que
+por si solas llcnarían páginas y páginas de un libro. Tales figuras son:
+
+244
+
+Carlos Manuel da Costa Carballo
+
+CHARLES BÁRBACE
+
+Matemático inglés que inventa un aparato con el que pretendía automatizar la elaboración de las tablas logarítmicas y astronómicas, aunque
+este ingenio no permitía el cálculo con cifras de más de seis decimales por
+lo que se empeñó en realizar otra que llegase hasta los veinte decimales y
+que nunca llegó a construir
+
+HERMANN HOLLERI’rU
+
+Fue el primero en utilizar un sistema de tabulación eléctrico para analizar los datos estadísticos, lo que le sirvió para elaborar los censos de todos los ciudadanos norteamericanos por medio de tarjetas perforadas de
+papel duro (tipo cartulina).
+
+I.B.M.
+International Business Machine Corporation, el mitico gigante azul.
+
+ANTIGUEDAD DE LA INFORMÁTICA
+Iniciamos en este momento lo que hemos denominado Antiguedad de
+la Informática cuyo hito más relevante fue el de ser la época de gestación
+de las calculadoras electrónicas, con un personaje que tal y como dijimos
+al principio de este tema, revolucionó el mundo del cálculo gracias a unos
+prototipos de máquinas automáticas que él mismo diseñé y presentó en la
+Exposición Universal de Londres del año 1851, al menos las piezas pues
+no llegó a construir la máquina. Nos estamos refiriendo a Charles Babbage (1192-1871), que tomado como referente divide a la Historia de la Informática en dos etapas claramente definidas, antes de Ch. Babbage y después de Ch. Babbage. Este punto de inflexión o separación de etapas
+históricas se debe, o mejor dicho, se sustenta sobre un proyecto de creación
+y desarrollo posterior de máquinas automáticas por parte de este matemático inglés. Así, hay que decir que puso en marcha en el año 1812 la D~érence Engine, o máquina de diferencias, yen el año 1834 laAnalytical Engine, o máquina analítica, proyecto muy ambicioso con el que pretendía
+efectuar automáticamente las operaciones más diversas. y que podemos
+considerar como los primeros equipos de proceso de datos, es decir, los
+primeros ordenadores.
+
+Los orígenes de la injórmática
+
+245
+
+Charles Babbage estaba muy interesado por las posibilidades de mecanización del cálculo matemático y la impresión de tablas matemáticas para lo cual concibió la máquina de diferencias, que estaba formada por seis
+mecanismos de adición interconectados, siendo cada uno de estos mecantsmos capaz de efectuar la suma de dos números decimales de varias cifras, asociados a un mecanismo de impresión automático, y que supuso un
+gran avance tecnológico para su tiempo, hasta el punto de que por todas
+partes empezaron a surgir otros inventores con máquinas similares siendo
+la más interesante la de los hermanos George y Edward Scheutz que llegaba a trabajar hasta con ocho decimales.
+La máquina analítica era una máquina que funcionaba con vapor y que
+era comandada o dirigida por un programa soportado en tarjetas perforadas. El aparato estaba compuesto de las mismas partes que un ordenador
+actual ya que constaba de las estructuras básicas de funcionamiento de estos últimos, a saber:
+-~
+
+dispositivo de entrada, o elemento para introducir los datos y las
+instrucciones;
+
+—
+
+memoria o almacén de datos (magasin que decían los franceses)
+
+—
+
+unidad de control;
+
+—
+
+unidad aritmético-lógica;
+
+-~
+
+dispositivo o sistema de salida que era el encargado además de imprimir los datos.
+
+En las descripciones hechas del funcionamiento de la máquina analítica por Lady Ada Augusta Condesa de Lovelace (1815-1852), ayudante de
+Babbage y su más ferviente defensora, parece que la máquina analítica fue
+concebida para trabajar tanto con funciones algebraicas como con cantidades aritméticas.
+Sin embargo Babbage no llegó a completar su proyectada máquina
+(que se encuentra en el Science Museum de Londres) por lo que es difícil
+saber si las descripciones de Lady Ada concuerdan con la realidad. Por
+cierto que Lady Ada fue la primera programadora de la historia, fue hija de
+Lord Byron, y en su honor se dio su nombre a un lenguaje de programaclon: el ADA,
+Fue por lo tanto Babbage el primero que diseña una máquina no solamente para realizar las cuatro operaciones básicas sino también para poder
+utilizar fórmulas matemáticas, aunque hemos dicho también que nunca llegó a terminarla.
+Fue Lord Kelvin, Sir William Thomson Kelvin (1829-1907), el primero que crea una máquina para resolver ecuaciones diferenciales, modelo
+díue fue readaptado por L. Wainwright en 1923.
+
+246
+
+Carlos Manuel da Costa Carballo
+
+La revolución industrial, el crecimiento demográfico y la complejidad
+a que dan lugar los dos hechos citados anteriormente, ocasionaron un tercer problema.
+Ya hemos visto cual fue el primero de los problemas con que tuvo que
+enfrentarse la humanidad, el cálculo, y como se fue solucionando en el devenir de los siglos. Los artificios que se crearon para solucionar este problema, o al menos intentarlo, requerían del intervencionismo constante y
+continuo del ser humano, lo cual dio lugar al segundo problema que ya hemos analizado. También hemos visto la solución que se dio a este segundo
+problema, la creación de unas máquinas automáticas gracias a la invención
+del matemático inglés Babbage.
+Pero volviendo al tercer problema que hemos anunciado unas líneas
+más arriba, ¿cuál era y cómo se solucioné? vamos a ocuparnos a continuación.
+Esta tercera cuestión era ¿cómo se podía tratar la enorme cantidad de
+información que empieza a producirse en el mundo? El primer paso lo da
+Hermann Hollerith que cien años después de la Revolución Francesa desarrollé su Máquina de Censos para procesar los datos que se referían a los
+censos poblacionales de los Estados Unidos de América, por medio de tarjetas perforadas.
+I-{ollerith (1860-1929), americano de origen alemán, fue contratado por
+la Oficina de Censos de los Estados Unidos para que preparase el análisis
+estadístico de los datos obtenidos en el censo de 1880. El trabajo duró siete años y medio y al final los volúmenes publicados tenían un gran número de erratas, la tabulación manual y los resultados fueron inadecuados.
+Pero Hollerith no desistió y concibió una máquina basada en la de
+Charles Babbage y utilizando el sistema de tarjetas perforadas de Jacquard.
+La máquina estuvo lista en 1887 y utilizaba papel continuo en lugar de las
+tarjetas individuales.
+Los resultados obtenidos con esta máquina no se hicieron esperar, y así
+en el censo de 1890 el análisis de los datos se realizó en dos años y medio,
+la tercera parte de lo que se tardó en realizar el estudio del censo anterior,
+y con una población que había aumentado de los 50 a los 63 millones de
+habitantes.
+No vamos a entrar en los detalles técnicos del funcionamiento de esta
+máquina. Sólo vamos a recordar que es a partir de este preciso momento
+cuando empiezan a crearse máquinas de clasificación automática, tabuladoras y perforadoras de teclado, etc., que serán como el pistoletazo de salida de la carrera de esta naciente industria, carrera en la que estamos inmersos y en la que cada día que pasa vemos nacer nuevas aplicaciones de
+lo que había el día anterior quedando esto totalmente obsoleto, resultando
+muy difícil mantenerse en la cresta de la ola. Las aplicaciones más iinportantes para las que se utilizaron estas máquinas fue dominar la avalancha
+
+Los orígenes de la informática
+
+247
+
+de datos que debía registrar de un solo golpe la administración norteamericana desde la creación de la Seguridad Social. Es decir, podemos considerar que la máquina de los censos de Holleríth nace como una necesidad
+de estado.
+Hollerith abandona la Oficina de Censos en 1896 y funda en 1903 la Tabulating Machine Company, creando nuevas máquinas sobre variaciones de
+la primigenia y que se utilizaron para hacer el censo británico de 1911. Hollerith se une este mismo año con la International Time Recording Company, compañía dedicada a la fabricación de relojes, y con la Dayton Seale
+Company, dando lugar ocho años más tarde de la T.M.C. a la Computing
+Tabulating Recording Company [C.T.R.], de la que llegó a ser su Presidente Thomas J. Watson en 1914 y que transformará en 1924 en la muy conocida International Business Machine Corporation. es decir, I.B.M.
+Es ésta una época caracterizada por las continuas modificaciones en la
+estructura de las fichas o tarjetas perforadas, la adaptación de las máquinas
+existentes a nuevos campos del saber, etc., etc., hasta llegar a los antecedentes más inmediatos del ordenador, fecha esta que nos sirve para dar
+tnícto a lo que hemos llamado Edad Moderna de la Historia de la Informática.
+
+EDAD MODERNA DE LA INFORMÁTICA
+En esta nueva etapa histórica, destacan con luz propia tres personajes:
+dos de ellos norteamericanos, George R. Stibitz y Howard Hathaway Aiken, y un alemán, Konrad Zuse.
+El Dr Stibitz desarrollé entre los años 1937 y 1939 una máquina sumadora binaria de relés que llamó Comp/ex Calculator que, como su nombre indica, realizaba operaciones de cálculo muy complejas. Constaba la
+máquina de un teletipo de entrada y trabajaba internamente con la aritmética binaria. Como el teletipo se podía conectar con la línea telefónica, podían realizarse operaciones a distancia con esta máquina, es decir, equivalía a lo que hoy llamamos comunicaciones a distancia por vía de un
+modem. Uno de los modelos del Dr. Stibitz realizaba operaciones con polinomios y con otras expresiones algebraicas tal y como nos describe Lady
+Ada de la máquina analítica de Ch. Babbage que no llegó a terminar.
+Por estas fechas, los europeos desarrollaban también sus proyectos de
+investigación en el marco de dos guerras, fruto de los cuales es el Primer
+Calculador con Programa Almacenado del mundo, que debemos a la brillante inteligencia del Dix Zuse, que en el año 1941 y en plena II.a Guerra
+Mundial crea el Z-3, que no llegó a ser el primer calculador electrónico del
+mundo por no ser considerado de interés por los representantes del III
+Reich.
+
+248
+
+Carlos Manuel da Costa Carballo
+
+El Z- 1 era una máquina totalmente mecánica pero su funcionamiento
+no fue del todo satisfactorio. El Z-2 se basaba en el sistema aritmético binario para realizar los cálculos, que aunque no era novedoso pues esto ya
+había sido formulado por Leibniz, Babbage y Torres Quevedo, pero el mérito de Zuse fue que supo concretar todas estas ideas en una máquina. El
+Z-3 lo construyó en plena II Guerra Mundial. Fabricado totalmente con relés telefónicos, podía hacer las cuatro operaciones matemáticas básicas
+además de la raíz cuadrada. Una máquina similar usaron los alemanes durante la guerra en sus aviones para hacer cálculos con variables o factores
+constantes. El Z-4 era una máquina electromecánica pero con una memoria binaria enteramente mecánica aunque no llegó a concluirse por los avatares de la guerra.
+Finaliza la llamada Edad Moderna de la Informática con un norteamericano de inestimable talento científico, el Dr. Aiken (1900-1973) que con
+ayuda de otros científicos presentó en el año 1937 para unos y 1944 para
+otros el Mark 1, Automatic Sequence Controlled (‘alcuiator o sea, una máquina calculadora automática de secuencia controlada similar al Z-3 del
+Dr. Zuse, que era la plasmacién real del prototipo del británico Charles
+Babbage.
+Claro está que hoy en día no podríamos tener encima de nuestra mesa
+de despacho una máquina como la del Dr. Aiken que tenía una longitud de
+15 metros y una altura de 2 metros y medio, con un peso total de 5 toneladas, máquina compuesta de 18 elementos unidos entre si por unos 800
+kms. de cable eléctrico, para efectuar divisiones y/o multiplicaciones de
+
+números de diez cifras en 10 y 4 sg. respectivamente y sumas dedos cifras
+en 0,3 sg., aunque para esa época supuso una auténtica revolución.
+Este es el primer calculador numérico automático de gran potencia realizado por el físico de la Universidad de Harvard. La máquina era capaz
+de realizar y resolver automáticamente ecuaciones con diferenciales. Como el proyecto era interesante, la compañía I.B.M. subvenciona el estudio
+en marcha que da lugar al Mark 1, cuyo funcionamiento estaba controlado
+por una serie de órdenes que un programador había preparado y escrito en
+bandas de papel perforado. Una vez puesta en marcha, la máquina no tenía
+necesidad de intervención exterior para realizar su trabajo. Obtenía resultados parciales y finales por medio de tarjetas perforadas.
+Al Mark líe siguieron el Mark II hecho con relés electromagnéticos y
+que podía actuar como una sola calculadora o como dos independientes.
+Podía realizar a la vez dos sumas y cuatro multiplicaciones (el tiempo que
+tardaba en hacer un producto se redujo considerablemente con respecto al
+Mark 1 pues bajó a 0,7 sg. frente a los 4 sg. de la primera de la serie). Luego ‘vino el Mark 111 que era un calculador electrónico provisto de una memona de tambor magnético, y el último dc la familia el Mark IV acabado
+en 1952, fechas por las que nace definitivamente cl ordenadoí; que nos da
+
+Los orígenes de la injórmática
+
+249
+
+paso para iniciar la siguiente etapa de la historia que hace referencia a lo
+que hemos denominado Edad Contemporánea de la Informática.
+Además de estas relevantes figuras de la historia de la informática
+también hay que mencionar otras aportaciones como la de Vannever
+Husch que aplicó el sistema asociativo de ideas de nuestro pensamiento a
+una máquina, surgiendo de esta forma el Memory Extended System, aunque no llegó a construirlo, algo bastante frecuente si echamos una ojeada
+a la historia de la informática. Diseñado en 1930, se puede considerar como el primer analizador diferencial. Doce años más tarde le incorporó un
+programa de cálculo4i.
+EDAD CONTEMPORÁNEA
+El inicio de esta etapa histórica que hemos denominado Edad Contemporánea de la Informática se produce en el preciso momento en que se inventa el primer circuito electrónico digital, que estaba compuesto de un par
+de diodos sobre un circuito o placa descrito por Eccíes y Jordan en el año
+1919.
+
+LA LLEGADA DE LOS CALCULADORES ELECTRÓNICOS
+Haciendo justicia, hay que decir que el Primer Computador Digital
+Electrónico Automático se debe a John Vincent Atanasoff que trabajó en
+este proyecto desde 1935 hasta 1942, abandonándolo posteriormente. Eckert y Mauchly lo que hicieron fue aprovechar los trabajos de Atanasoff
+para construir el ENIAC entre 1939 y 1946.
+
+Pero como hemos dicho la primera tentativa seria conocida de construir
+una máquina electrónica para realizar cálculos matemáticos fue la del Prof
+Atanasoff por medio del empleo de técnicas analógicas. Ayudado de uno
+de sus alumnos, Lyon 1-lannum, inventa el Laplaciometer que era una máquina que servía para resolver la ecuación de Laplace en dos dimensiones
+y con diversas condiciones limitadoras.
+Esto les llevó a iniciar investigaciones en el campo del sistema de numeración en base dos, lo que les lanzó a la construcción de una nueva máquina destinada a la resolución de sistemas de ecuaciones lineales que
+comprendía la resolución de treinta ecuaciones a la vez por el método de
+la eliminación sucesiva de las incógnitas. Al ser movilizados para la Se41
+TATON, René (dir.): «Automatización del cálculo y de la deducción», en TATON, René (dirj: historia General de las Ciencias (12): El siglo xx: 1. Las matemáticas, Barcelona,
+líliciones Orbis, 1988 (124-129). Op. ck en la p. 125.
+
+250
+
+Carlos Manuel da Costa Carballo
+
+gunda Guerra Mundial en el año 1942, abandonaron todos los proyectos y
+no volvieron jamás a iniciarlos.
+De todas las maneras, el paso que había que dar era la sustitución de
+los dispositivos mecánicos o electromecánicos por circuitos electronicos.
+
+Los Doctores M. J. Eckert y J. W. Mauckly. en el año de 1946, ponen
+en marcha el E.N.J?A.C. [Electronic Numerical Integrator and Computen]
+que todo el mundo considera como el primer ordenador electrónico de la
+historia, y que es el proyecto que se le veté al Dr. Zuse por parte de las autoridades alemanas.
+El ENIAC fue construido a base de válvulas termoiónicas de vacío, pesaba 30 toneladas, no aporté nada novedoso en el campo de la capacidad
+de memoria con respecto a la familia de los Mark, pero si que supuso un
+gran avance en lo referente a la velocidad de cálculo y su fiabilidad. Era
+capaz de realizar 5.000 sumas y/o 300 multiplicaciones por sg.
+En 1949 se presenta en la Universidad de Cambridge el EID.S.A.C. que
+era un ordenador con programa almacenado. Paralelamente se inicia el desarrollo del S.L N.A.C. y del U.N.J? VA.C. 1 [Universal Automatic Computer], que se presentó en el año 1951. Era, este último, un ordenador decimal de caracteres lo cual permitió el uso de los caracteres alfabéticos y del
+álgebra de Boole.
+En el año 1952, John von Newmann presenta el E.D.VA.C. [Electronic
+Discrete Variable Automatic Computen] como un ordenador que registraba
+en su memoria un programa antes de su ejecución. Se introducían en él los
+datos por medio de cintas perforadas, que es la unión o sucesión continua
+de varias tarjetas perforadas aunque más estrecha pues la cinta perforada
+sólo tiene deS a 8 canales (como la que podemos ver a continuación) o pistas para perforar la información. No hablaremos más de ella pues prácticamente está en desuso.
+No podemos olvidarnos de I.B.M. que, curiosamente no empezó la carrera por el control del mercado hasta la década de los años 50. Sus modelos 701, 702, 705 y 650, llegaron a tener mayor aceptación que los demás
+gracias a su reducción de tamaño y a su menor precio de salida al mercado. además de su mayor velocidad a la hora de gestionar los datos.
+
+EL ORDENADOR PERSONAL
+El término personal computer (ordenador personal) fue creado y se
+empezó a usar por la compañía Apple Computers, para dar nombre a dos
+de sus máquinas, pero hoy todos los fabricantes han asumido la tenninología. Por su capacidad de memoria tenemos el PC, el XT y el AT, siempre
+refiriéndonos a los ordenadores IBM compatibles.
+
+Los orígenes de la informática
+
+251
+
+En el proceso de comercialización de los ordenadores el PC, el ordenador personal IBM-PC que se comercializa por primera vez en 1981, salié en principio con una memoria de 16 Kb aunque pronto se dieron cuenta que era totalmente insuficiente y se amplió a 64 Kb para pasar
+posteriormente a ordenadores de 128 Kb. El bus de salida de datos era para estos ordenadores de 8 bits, utilizando microprocesadores de las famihas Intel 8008 o Intel 8080. El modelo PC no fue comercializado con disco duro sino que llevaba dos drives para discos flexibles.
+El siguiente grupo de computadores en función de su capacidad fue el
+
+XT que ya ampliaron su memoria hasta los 640 Kb e incorporaron un drive para disco duro de 10 Mb, en principio. El bus de salida de datos de un
+
+XT era de 16 bits y la familia de microprocesadores utilizada era el Intel
+8086.
+Por último tenemos el ordenador Al con un bus de 32 bits, cuyas famillas de microprocesadores son las conocidas por Intel 80286, 80386 y el
+más reciente de ellos que es el 80486 que da lugar al ordenador AT/SX.
+A la vez variaron los tamaños y, así tenemos ordenadores grandes o
+mainframes, medianos o miniordenadores y pequeños o microordenadores. Los mainframes son esas máquinas potentísimas que pueden atender a
+un número enorme de usuarios a la vez, tanto si están cerca como en lugares remotos, y desarrollando varias tareas a la vez de forma casi simultánea. Los miniordenadores podemos decir que son máquinas similares a los
+anteriores en cuanto a diseño y tecnología pero son más pequeños de tamaño que no de capacidad. Por último tenemos los microordenadores que
+son los ordenadores de uso común que todos conocemos o que tenemos en
+nuestros domicilios o en nuestro puesto de trabajo.
+
+SOFTWARE
+En este apartado hablaremos de la historia los Lenguajes de programación y de los Sistemas operativos.
+
+LENGUAJES DE PROGRAMACIÓN
+FORTRAN
+Es un traductor de fórmulas (Formula Transíator) desarrollado por De-
+
+carlo para el IBM 701 en el año 1954 e introducido en el mercado en el
+modelo IBM 704 tres años más tarde.
+Es muy sencillo por lo que no requiere tener conocimientos especiales
+de informática. Ya no es un lenguaje para una máquina sino que es un len-
+
+252
+
+Carlos Manuel da Costa Carballo
+
+guaje para resolver problemas con lo que puede ser utilizado en equipos di-
+
+ferentes. Trabaja con macroestructuras. Como fue desarrollado para el cálculo su escritura está llena de simbología matemática de todos conocida42.
+Pero todo lenguaje tiene sus ventajas y sus inconvenientes. Entre las
+primeras caben destacar la facilidad para aprenderlo, codificación sencilla,
+muy potente para el cálculo y de gran lógica para establecer comparaciones. Entre los segundos tenemos grandes dificultades para el uso de datos
+
+no numéricos lo que lleva aparejada una segunda dificultad que es la emisión de informes por ese inconveniente de difícil trabajo con caracteres alfabéticos.
+
+Su uso más frecuente es en las bibliotecas informáticas de programas
+de aplicaciones estadísticas o matemáticas.
+
+COBOL
+Es el lenguaje común orientado a los negocios (Common Business
+
+Oriented Language) desarrollado por el Departamento de Defensa de los
+Estados Unidos de América entre 1960 y 1964, y concebido como un lenguaje de uso común para cualquier equipo informático.
+Entre las ventajas de este lenguaje nos encontramos que su sintaxis se
+hace a base de frases similares a las expresiones y/o palabras inglesas. ma-
+
+neja datos tanto numéricos como alfabéticos con lo que puede emitir informes, puede clasificar los archivos (orden sorO y tiene todas las atribuciones lógicas que hemos visto en el caso anterior
+Los inconvenientes son que hay que definir muy bien las instrucciones
+
+que entran a formar parte de la resolución de problemas lo cual es una labor lenta, no puede manejar algunas funciones matemáticas como el seno,
+el coseno o los logaritmos, y es más difícil de aprender pues para una mis-
+
+ma operación tiene varios comandos que la ejecutan.
+
+LIsP
+Lo que hace este lenguaje es procesar listas (List Processor), es decir
+trabaja con datos no numéricos. Fue desarrollado por John McCarthy en
+1 960 en el Instituto Tecnológico de Massachusetts para investigar en el ce-
+
+42
+Utiliza 47 caracteres que son los 26 del alfabeto inglés. 10 dígitos y II signos especiales (la adición +, la sustracción —la multiplicación *, la división 1 y las potencias **).
+Utiliza los operadores booleanos (and, or, not) y seis operadores relacionales GT (mayor),
+CF (mayor o igual), LT (menor), LE (menor o igual), EQ (igual) y NF (no igual) que sirven
+para comparaciones matemáticas.
+
+Los orígenes de la informática
+
+253
+
+rebro infantil, lo que asociado a esa facilidad de procesar listas ha hecho
+que este lenguaje sea uno de los utilizados en la inteligencia artificial y sistemas expertos43
+BASIC
+
+Se trata de un código de instrucciones por símbolos de uso general para principiantes (Beginner’s AII Purpose Simbolic Instruction Code) desarrollado por John G. Kemeny y Thomas E. Kurtz en el Dartmouth College
+de New Hampshire entre 1963 y 1965.
+Es muy sencillo de aprender y de codificar, con una excelente capacidad matemática, de uso en ordenadores pequeños y que ha dado lugar a una
+gran biblioteca de programas informáticos44.
+
+SISTEMAS OPERATIVOS
+En las primeras etapas de la informática (años 50) el sistema operativo
+era muy rudimentario, formando en realidad parte de los programas que
+utilizaban los usuarios y que eran los que ejercían de alguna manera el control de la máquina.
+El siguiente paso en la evolución natural de los sistemas operativos fue
+la creación de una serie de diminutos programas que pudiesen realizar cometidos que se reiteran en infinidad de ocasiones y que son muy sencillos
+de ejecutar. Este tipo de programas se conocen con el nombre de rutinas,
+y
+
+fueron el germen de los sistemas operativos.
+En tercer lugar nacen los sistemas operativos residentes que son un
+
+grupo de programas o de rutinas que permanecen de forma residente en la
+memoria del computador, y desde allí van realizando todas las instrucciones que se den desde cualquier programa que se esté ejecutando.
+
+43
+Aneja símbolos de forma extraordinaria y permite que el usuario cree o añada características que no vienen incorporadas en el original por lo que de esta forma se convierte
+
+en un lenguaje extensible.
+44
+Como sabemos, hay muchos lenguajes (más de 200) de los que no vamos a comentar nada. Sólo enumeraremos alguno más como el PASCAL, el RPG (Report Program Generator), el FORTH, el SMALLTALK, el PILOT, el C, cl PROLOG (Programming in Logic
+muy utilizado en inteligencia artificial), el MODULA-2, el SIMSCRíPT, el GPSS (General
+Purpose System Simulator) y el ADA (que es el último intento de crear un lenguaje universal. Desarrollado por el Departamento de Defensa de los Estados Unidos de América y lían3ado así en honor de la primera programadora de Ja historia, que fue Lady Ada Augusta Byron, de la que ya hemos hablado en otro tema. Permite la compilación separada por módulos,
+miene un lenguaje muy extenso y algo complejo, pero tiene un pobre tratamiento de archivos).
+
+254
+
+Carlos Manuel da Costa Carballo
+
+CONTROL PROGRAM FOR MJCROCOMPUTERS
+
+Este sistema operativo45 fue desarrollado por Gary Kildall en la década de los años 70 como un sistema monousuario-monotarea, para ordenadores con microprocesadores Intel 8080, aunque posteriormente se consiguió una versión nueva para sistemas multiusuario (MP/A’!) y otra para
+redes (CP/NFT).
+
+Para concluir diremos que este sistema operativo fue durante la década
+de los 70 el más popular.
+
+UNIX
+
+El UNIX tiene como principal característica que está diseñado fundamentalmente para servir al programador de ayuda a la hora de diseñar programas, perdiendo por este motivo bastantes funciones de control del hardware.
+Desarrollado por Ken Thompson y su grupo de investigadores de los
+Laboratorios 13e11 en el año 1969 en lenguaje ensamblador, ahora se escríbe este sistema operativo en lenguaje C46.
+
+45
+¡ CP/M tiene una enorme cantidad de programas de software desarrollados para él.
+Consta dc tres subsistemas que son el Sistema Operativo Básico de Disco (que se encarga de
+todas las funciones básicas a realizar en la entrada y salida de datos en disco: operaciones sobre ficheros, definir los accesos a memoria, etc), eí Sistema liásico de Entrada/Salida (que
+consiste en manejar los diferentes periféricos que tenga el sistema: posición de la cabeza lectora/grabadora, etc.) y el Procesadorde Comandos de Consola (que interpreta todas las instrucciones que le da el usuario y si las reconoce pasa a ejecutarlas).
+Los comandos más importantes de este sistema operativo (algunos idénticos en la sintaxis y en la tarea que realizan a los del MS-DOS) son los siguientes:
+—
+DIR: que nos enseña todos los ficheros que hay en un directorio determinado;
+—
+TYPE: sirve para ver cualquier fichero en pantalla;
+—
+FRA: para borrar ficheros;
+—
+REN: para renombrar ficheros, es decir, cambiar el nombre de un fichero;
+—
+SAVE: para salvar ficheros;
+—
+d: para cambiar de disco;
+—
+USER: para cambiar el usuario;
+—
+STAT: sirve para ver el tamaño de los ficheros, el espacio que queda libre en el disco, los atributos de los ficheros, etc.;
+—
+HP: para realizar las copias entre periféricos;
+—
+ED: es un editor.
+46
+Desde su creación ha habido más de una treintena de versiones clónicas de UNIX
+(de AT&T). siendo las más importantes: XENIX (de Microsoft), UNISIS (de Codata), HPUN (de Hewlett-Packard), UNIFLEN (de Technical Systems), etc.
+UNIX se distingue de los sistemas operativos en que pertenece a lo que se denommna entorno de programación que es un conjunto de herramientas lógicas que permiten estar desarrollando programas diferentes durante tiempo indefinido. Entre estas herramientas nos en-
+
+Los orígenes de la informática
+
+255
+
+MS-DOS47
+
+El diseño del DOS se basó en un sistema operativo previo que se llamaba QDOS y que bajo el nombre de PC-DOS comercializó IBM en el año
+1981, siendo hoy por hoy el sistema operativo más vendido y el que más
+programas tiene desarrollados.
+La primera versión que hubo del DOS fue la 1.0, mientras que en la actualidad estamos ante la versión 6.2 que tiene, ya desde la 4.01, la inclusíon de un programa dirigido por menús consistente en ventanas desplegabIes (DOSSHELL).
+
+INTELIGENCIA ARTIFICIAL
+En cualquier época de la historia de la humanidad han habido intentos
+de creación de artilugios que estuviesen dotados de alguna forma de inteligencia que se pudiese utilizar para el beneficio de su creador Es la inteligencia artificial.
+Jaeques Pitrat retrocede en la búsqueda de estos artefactos inteligentes
+hasta el canto XVIII de la Ilíada de Homero, donde se describe una especie de mesa andarina autónoma que iba de un lado para otro sirviendo a los
+dioses45. Pero, leyendas aparte, la automatización, autonomía y humanización de las máquinas creadas por el propio ser humano, ha estado presente a lo largo de la existencia del mismo desde su aparición sobre la tierra.
+Recordemos los autómatas de Vaucanson, l’homme machine de La Met-
+
+trie, el jugador de ajedrez de Kempelen, el Rabi Loew de Golem o las cabezas parlantes49, o incluso los diferentes ingenios que analizamos en los
+primeros temas de este curso cuando hablamos de los precursores del com-
+
+putador.
+
+contramos: compiladores (traductores), depuradores de programas, sistemas de preparación
+de informes, editores de textos, sistemas de preparación de presupuestos, etc.
+La estructura de los ficheros de UNIX es arborescente tal y como hemos comentado un
+un tema anterior. A su vez tiene una serie de rutinas que actúan como intérprete dc todos sus
+comandos que se conoce como Shell que es capaz de soportar programas escritos en lenguaje C.
+41
+Cuyas siglas se corresponden con las palabras inglesas Microsoft Disk Operating
+Svstem, es decir, cl Sistema Operativo distribuido por la compañía Microsoft. También se
+puede denominar software ejecutivo, software operativo o simplemente DOS.
+48
+PITRAT, J.: «El nacimiento de la inteligencia artificial>’, Mundo Científico, vol. 5, n.>
+53, 1196-1209.
+~‘>
+RFvERTL COMAs, J. M.: «Las cabezas parlantes>, El Médico: projésión y humanidades (1990), n.0 353, 17 a 23 de marzo, 96-104.
+
+256
+
+Carlos Manuel da Costa Carballo
+
+Pero en realidad la inteligencia artificial, tal y como la concebimos hoy
+en día, nació en la década de los años 50, más concretamente en 1956
+cuando tres investigadores llamados Newell, Shaw y Simon, crearon el Logic Titear/st que era un programa de ordenador que resolvía y/o demostra-
+
+ba una serie de teoremas lógicos.
+Después fueron una docena de científicos los que en el Darmouth College inventan hacia el año 1964 el primer programa de BASIC, y a partir
+de éste el LISP que es el mejor lenguaje de programación que se adapta a
+la inteligencia artificial.
+
+Al inicio de los años 70, la inteligencia artificial parecía que estaba
+condenada a la desaparición pues no se habían conseguido resultados espectaculares para la expectación que se había originado a su alrededor, pe-
+
+ro dos aplicaciones estrictamente médicas dieron nuevos vuelos a esta
+ciencia, nos estamos refiriendo al DENDRAL que era un programa para el
+diagnóstico médico, y el MYC’IN que además servía para la terapéutica.
+Desde este momento se han ido creando bastantes Sistemas Expertos con
+aplicaciones muy concretas en el campo de la Medicina sobre todo, como
+son el PIP, el CASNET, el INTERNISTo el CADUCEUS, por poner algunos ejemplos50.
+
+REDES DE ORDENADORES Y CD-ROM
+Veremos, en este nuevo epígrafe, la historia de las redes, de Internet y
+
+del CD-ROM.
+REDES DE ORDENADORES
+Las redes de ordenadores (Network) nacen al inicio de la década de los
+años sesenta y las primeras funcionaban de la misma manera que una red
+de comunicaciones del tipo utilizado en telefonía, es decir por conmutación de circuitos (como la línea compartida que es aquella línea que mantiene la conexión solamente mientras dura la transmisión de los datos). Es-
+
+to tenía un problema y es que la conexión podía tardar varios segundos en
+producirse además de que suponía un derroche puesto que mientras que es-
+
+ta línea estaba ocupada no podía (otro usuario) acceder a esa ruta de comunicación. Pero pronto se dio con la solución que no fue otra que la que
+
+Las características de estos programas pueden ser consultadas en: CÁcABELos, R.,
+Jano, vol. XXXIV (1988), n.0 822, 3 a 9 de junio, 77-95. NEBEN
+oxuL, D., «Anexos», en NEBENOAHt,, D.: Sistemas expertos. Introducción a la técnica y upucacton, Barcelona, Siemens/Marcombo, 1988 [211-233].
+50
+
+«Inteligencia artiñcial»,
+
+Los orígenes de la informática
+
+257
+
+propuso la red ARPANET que fue la primera en utilizar la conmutación de
+programas, donde los datos se mandan por paquetes, es decir, el usuario
+está conectado a un nodo de comunicaciones, manda su mensaje y en el nodo se hacen diferentes paquetes con esos datos y se reparten por las diferentes líneas alternativas o independientes de la red hasta que llegan al último nodo de la red antes del ordenador receptor y se restablece el orden
+original del mensaje antes de «entregarlo en destino». De esta forma en los
+intervalos entre paquete y paquete se pueden meter otros paquetes de mensajes diferentes que van al mismo receptor o a otro.
+
+INTERNET
+Internet fue creada en el año 1969 por el Departamento de Defensa de
+los Estados Unidos para establecer una conexión entre el Pentágono y las
+Universidades y grandes empresas que se dedicaban a la investigación militar de cualquier tipo. En el año 1986 la National Science Foundation implementa en Internet una segunda «arteria» de comunicaciones que con
+cinco superordenadores conectaba todas las universidades del país dando
+acceso a los alumnos de las mismas. Por último, en esta brevísima histoña, hace aproximadamente un año cualquier persona puede acceder a estos
+servicios que representan la culminación de la
+realización espacial de
+la utopía anarquista»Si, en el sentido de que nadie gobierna la red, aunque
+existe la posibilidad de identificar al emisor de ofensas, calumnias, etc.,
+además de órdenes electrónicas que eliminan el empleo de palabras «malsonantes».
+Tanto Internet como la mayoría de las redes informáticas, nacen en la
+universidad y se pueden considerar la génesis de las autopistas de la comunicación: «Las redes informáticas académicas constituyen el antecedente inmediato de las autopistas de la comunicación, siendo el ámbito
+unrveruitario su lugar de nacimiento y desarrollo» .52~
+«...
+
+CD-ROM
+Otro hito histórico en el período que estamos estudiando fue, sin duda,
+la creación de un soporte para almacenamientos masivos de información.
+Nos estamos refiriendo al CD-ROM (Compact Disk Read Only Memory).
+
+Si
+VERDÚ, Vicente: «Está usted entrando en Internet», El Paír Semanal, año XIX
+(1994), ni 198, domingo 4 de diciembre, 70-75. Op. cit en la p. 71.
+52
+Lópcz DE ARENOSA, Ramón: «IRIS, red informática del Plan Nacional de 1 + D», Política Científica (1994), ni 40,julio, 31-32. Op. ci!. en la p. 31.
+
+Carlos Manuel da Costa Carballo
+
+258
+
+El disco óptico numérico es un soporte de almacenaje de información
+que tiene dos características principales que son las que determinan su
+nombre:
+—
+
+—
+
+la primera es que solamente un haz luminoso que procede de un
+láser puede decodificar la información contenida en el disco. Por
+eso el disco se denomina óptico;
+y la segunda es que la información está codificada según el código binario de O y 1 del que tantas veces hemos hablado, sólo que
+con una pequeña variación y es que esas diferencias de voltaje que
+decíamos que eran los O y 1 han sido relevados por una serie de
+pequeñas prominencias que surcan toda la superficie del disco y
+que son las que el haz luminoso analiza. Esta segunda característica hace que el disco también se denomine numérico.
+
+El inventor de este nuevo tipo de soportes fue la empresa holandesa
+Philips que lo presentó en el año 1979, para posteriormente desarrollar la
+tecnología en conjunción con la firma nipona Sony entre 1979 y 1980, comercializando el primer disco CD-Audio a finales de 1982, expandiéndose por todo el mundo a partir de 1983.
+Hay varios modelos de discos ópticos:
+—
+
+—
+
+El primero de los discos compactos fue el denominado Laservisión que era un disco de doble cara y 30 cm. de diámetro que contenía películas de vídeo pero almacenadas en forma analógica, es
+decir en forma de ondas sonoras electromagnéticas. Fue la primera presentación que hizo Philips en el año 1978/79 y la novedad
+con respecto a los videodiscos es que este nuevo soporte tenía que
+grabarse y leerse posteriormente por medio de unos dispositivos
+ópticos. No tuvo éxito hasta fechas recientes en que con el nombre de Laserdisk ha revolucionado el mundo de la imagen y el sonido en soporte compacto.
+El siguiente disco de la saga fue el disco compacto propiamente
+dicho o CD-A udio que fue el que desarrollaron Philips y Sony reduciendo notablemente el diámetro con respecto al primero pues
+este nuevo disco media ‘7,5 cm de diámetro. Este disco sólo podía
+contener música, por lo que siguieron investigando para crear un
+disco que pudiese almacenar texto, dibujos o solamente datos numéricos.
+
+Los orígenes de la informática
+—
+
+—
+
+—
+
+259
+
+Nace así el CD-ROM en 1984 como una variación del CD-Audio.
+El CD-ROM es un disco de sólo lectura por lo que había que seguir trabajando para conseguir un soporte que pudiese ser escrito.
+De esta forma aparecen los CD-V, los discos compactos de video53 que han dado lugar a tres formatos diferentes:
+a)
+
+El CD-! o interactivo que se llama así porque el usuario podrá acceder a la información por medio de unas preguntas y
+respuestas que hace el sistema por medio del soft que lleva.
+Este tipo de disco tienen información textual, numérica, sonido e imágenes numéricas e imágenes numéricas animadas de
+movimiento.
+
+b)
+
+Un segundo tipo de estos discos son los CD-WO (Write Once) es decir, disco que da la posibilidad de poder escribir una
+sola vez en ellos.
+
+c)
+
+El WORM (Write One Read Many) que permiten el poder
+grabar por parte del usuario sus propios datos con lo cual podrá crear archivos de imágenes, textos o datos en su formato
+original, debido a que la introducción de los datos se realiza
+por medio de los scanners convencionales54 o de los reconocedores de caracteres55.
+
+Otro tipo de disco óptico que no pertenece a ninguno de los grupos que acabamos de mencionar es el DOR (Digital Optical Recording) o registro óptico numérico que es un disco de doble cara
+y 30 cm de diámetro56 en el que se puede almacenar información
+numérica solamente.
+
+Hoy disponemos ya de discos ópticos regrabables. Es la tecnología
+WARM. Esta reciente tecnología puede llegar a almacenar unas diez veces
+
+>~
+Estos discos salen con tres diámetros: 12cm. cuando el disco es de una sola cara y
+20 ó 30cm. cuando el disco es de doble cara.
+54
+Con un scanner convencional se puede introducir cualquier tipo de documento (imagen, fotografía, etc.), pero después hay que teclear en la computadora las claves o códigos
+que utilizaremos para poder recuperar esa información, pues estos scanners no reconocen
+texto.
+55
+Estos periféricos son capaces de reconocer texto y lo recoge como silo hubiésemos
+tecleado nosotros mismos, por lo que no es necesario introducir las claves de búsqueda por
+nuestra parte. Son los O.C.R. (Optical Character Recognition).
+56
+Aunque hoy en día ya se ha comercializado un ,nini-DOR de 13 cm. de diámetro,
+
+Carlos Manuel da Costa Carballo
+
+260
+
+más bytes por pulgada de lo que conseguimos hoy en día con los modernos discos duros de tecnología Winchester Además, con este tipo de soporte se evita uno de los graves problemas de los PCs convencionales, cual
+es el choque de las unidades lectoras/grabadoras y el inevitable y lento deterioro de los datos.
+Podemos definirlo de la siguiente manera: «...un sistema de almacenamiento óptico regrabable es aquel que utiliza medios ópticos para leer y
+escribir datos basados en disco. Es regrabable porque los cambios que se
+hagan en el disco son reversibles»57. Es el disco WARM.
+Mientras que un CD-ROM convencional, una vez que tenga los datos
+grabados, no se puede alterar pues los surcos quedan para siempre, un
+WARM puede sufrir variaciones pues la codificación del mismo no es por
+surcos sino que se realizan cambios físicos por calor sobre la superficie interna. Por este motivo puede grabarse varias veces. Hay tres sistemas que
+se pueden utilizar para ello:
+1:
+
+dye-polimer
+
+2:
+
+pitase-chan ge
+magneto-optical
+
+3:
+
+El primero de estos sistemas, el dye-polimer, es el sistema utilizado por
+II-bR (Tandy High-Performance Optical Recording) de la casa Tandy.
+Consiste este sistema en un disco translúcido que tiene una capa interna teñida. Esta capa al ser calentada por el láser se hincha y produce unas protuberancias de diferentes tamaños que son las que lee el rayo láser de igual
+forma que en un CD-ROM (reflexiones y difracciones de la luz). Si calentamos otra vez esta capa interna se relajará y podremos volver a crear protuberancias, es decir podremos volver a grabar datos.
+El segundo sistema, el pitase-change experimentado por Pioneer y Panasonic, consiste en crear dos estados diferentes en el soporte, el cristalino
+y el amorfo, que al tener diferente reflexión a la luz cada uno de ellos, sirve para codificar datos de forma binaria (0 y 1).
+El último sistema, el magneto-optical. utiliza un soporte magnético para la grabación de los datos. Se usa el efecto Kerr. El rayo láser almea las
+partículas magnéticas del disco en una determinada dirección haciendo que
+giren levemente (que se polaricen). Estos cambios de polarización es lo
+que lee el láser como O y 1. Los discos grabados de esta manera tienen un
+vida media de 10 años, son casi imborrables y resistentes a los campos
+magnéticos (por ejemplo, un imán acabaría con los datos de un disco mag-
+
+57
+
+PC-Mxc,xz,ow: «Una introducción a la tecnología de disco óptico regrabable», FC-
+
+Magazine (1991), 39,julio/agosto, 160-168. Op. «it en las pp. 160-161.
+
+Los origenes de la informática
+
+261
+
+nético convencional, pero no produciría ninguna alteración en un magneto-óptico). Las diferencias de temperatura del láser son las que producen
+los cambios de polarización y por lo tanto el grabado o borrado de los datos. Además para proteger todavía más a estos discos se les recubre de una
+dura capa de plástico transparente.
+Para concluir este tema hagamos una sinopsis de los hitos más importantes de las tres etapas históricas que acabamos de analizar, la AntigUedad, la Edad Moderna y la Contemporánea:
+
+CRONOLOGÍA DE LA ANTIGUEDAD DE LA INFORMÁTICA
+—
+
+1812
+
+Charles Babbage (1792-1871) inventa su Máquina de dijérencías.
+
+—
+
+1 834
+
+Este mismo inglés crea su Máquina analítica.
+
+1889
+
+Hermann Hollerith (1869-1929) inventa la Máquina de los
+Censos.
+Nace I.B.M. como transformación de una primitiva empresa creada por l-lollerith en el año 1903.
+
+—
+
+1924
+
+CRONOLOGÍA DE LA EDAD MODERNA DE LA INFORMÁTICA
+—
+
+1936
+
+Se elabora ¡a Teoría General de las Calculadoras por
+Couffignal, Zuse y Turing.
+
+—
+
+1939
+
+George R. Stibitz crea el Complex Calculator.
+
+1941
+
+Konrad Zuse crea el Primer calculador programable univenal completo.
+
+1944
+
+Howard l-lathaway Aiken pone a punto su Mark 1.
+
+CRONOLOGÍA DE LA EDAD CONTEMPORÁNEA DE LA INFORMÁTICA
+—
+
+1946
+
+—
+
+¡947
+
+John Presper Eckert y John W. Mauchly inventan el
+E.N. LA. O
+John Bardeen, Walter Brattain y William Shockley descubren e inventan el Transistor [cristal de silicio o germanio].
+
+Carlos Manuel da Costa Carballo
+
+262
+
+1949
+
+Se presenta en la Universidad de Cambridge el primer ordenador electrónico con programa almacenado, llamado
+E.D.S.A. Ci
+
+—
+
+1951
+1952
+
+Aparece el U.N.L VA.C. 1.
+John von Newmann (1903-1957) crea el ordenador
+En VA. U
+
+—
+
+1953
+
+LR.M. 701 y el FORTRAN (Decarlo lo desarrolla para el
+IBM 701).
+
+—
+
+1954
+
+J?B.M. 650.
+
+—
+
+1956
+
+Nace la Inteligencia Artificial (Logic Theorist: Newell,
+Shaw y Simon).
+
+—
+
+1958
+
+U.N.LVA.C. IL También sucede otro hecho no menos importante, Jack Kilby inventa el Circuito Integrado.
+
+—
+
+1959
+
+Se construye el Primer ordenador transistorizado, el NCRGE 304.
+
+—
+
+1960
+
+John McCarthy desarrolla el LISP.
+
+—
+
+1960/64
+
+—
+
+1963/65
+
+El Departamento de Defensa de los Estados Unidos crean
+el COBOL.
+John G. Kemeny y Thomas E. Kumlz diseñan el BASIC.
+
+—
+
+1965
+
+Nacen los Semiconductores.
+
+1969
+
+Ken Thompson desarrolla UNIX y nace INTERNET (Departamento de Defensa de los Estados Unidos).
+Aparece el Microprocesador.
+
+—
+
+—
+
+—
+
+1970
+
+—
+
+1978/79
+
+Philips presenta el primer disco óptico numérico: LÁSERVISIÓN.
+
+—
+
+1980
+
+Surgen los sistemas operativos: QDOS (que acabará siendo el MS-DOS de Microsoft) y el PcDOS de I.B.M.
+
+—
+
+1981
+
+Nace el PC (ordenador personal, Personal Compute r):
+IBM-Pc.
+
+1982
+
+Philips y SonÑ comercializan el CD-Audio.
+
+1984
+
+Philips y Sony comercializan el CD-ROM.
+
+—
+
+

@@ -1,0 +1,4984 @@
+FU
+F
+UN
+ND
+DA
+AM
+M EE N
+N TT O
+O SS dd ee
+
+JA
+J
+AV
+VA
+A
+e nn
+e
+
+GN
+G
+NU
+U // LL II N
+NU
+UX
+X
+GUIA DE ESTUDIO
+
+1
+
+FUNDAMENTOS DE JAVA EN GNU/LINUX
+GUIA DE AUTO ESTUDIO
+
+I NTRODUCCIÓN
+CARACTERÍSTICAS DE JAVA
+
+A
+S
+
+continuación haremos una pequeña redacción de las características del lenguaje, que nos ayudarán
+a ver para que tipo de problemas está pensado Java:
+
+imple Es un lenguaje sencillo de aprender. Su sintaxis es la de C++ “simplificada”. Los creadores de
+Java partieron de la sintaxis de C++ y trataron de eliminar de este todo lo que resultase complicado
+o fuente de errores en este lenguaje.
+
+O
+D
+
+rientado a Objetos Posiblemente sea el lenguaje más orientado a objetos de todos los existentes; en
+Java todo, a excepción de los tipos fundamentales de variables (int, char, long...) es un objeto.
+
+istribuido Java está muy orientado al trabajo en red, soportando protocolos como TCP/IP, UDP,
+HTTP y FTP. Por otro lado el uso de estos protocolos es bastante sencillo comparandolo con otros
+lenguajes que los soportan.
+
+R
+
+código.
+
+S
+
+obusto El compilador Java detecta muchos errores que otros compiladores solo detectarían en tiempo de ejecución o incluso nunca. (ej: if(a=b) then ... el compilador Java no nos dejaría compilar este
+
+eguro Sobre todo un tipo de desarrollo: los Applet. Estos son programas diseñados para ser ejecutados en una página web. Java garantiza que ningún Applet puede escribir o leer de nuestro disco o
+mandar información del usuario que accede a la página a través de la red (como, por ejemplo, la dirección
+de correo electrónico). En general no permite realizar cualquier acción que pudiera dañar la máquina o violar la intimidad del que visita la página web.
+
+P
+
+ortable En Java no hay aspectos dependientes de la implementación, todas las implementaciones de
+Java siguen los mismos estándares en cuanto a tamaño y almacenamiento de los datos. Esto no ocurre así en C++, por ejemplo. En éste un entero, por ejemplo, puede tener un tamaño de 16, 32 o más bits,
+siendo lo única limitación que el entero sea mayor que un short y menor que un long int. Así mismo C++
+bajo UNIX almacena los datos en formato little endian, mientas que bajo Windows lo hace en big endian.
+Java lo hace siempre en little edian para evitar confusiones.
+2
+
+A
+
+rquitectura Neutral El código generado por el compilador Java es independiente de la arquitectura:
+podría ejecutarse en un entorno UNIX, Mac o Windows. El motivo de esto es que el que realmente
+ejecuta el código generado por el compilador no es el procesador del ordenador directamente, sino que este
+se ejecuta mediante una máquina virtual. Esto permite que los Applets de una web pueda ejecutarlos cualquier máquina que se conecte a ella independientemente de que sistema operativo emplee (siempre y cuando el ordenador en cuestión tenga instalada una máquina virtual de Java).
+
+R
+
+endimiento medio Actualmente la velocidad de procesado del código Java es semejante a la de C++,
+hay ciertos pruebas estándares de comparación (benchmarks) en las que Java gana a C++ y viceversa. Esto es así gracias al uso de compiladores just in time, compiladores que traduce los bytecodes de
+Java en código para una determinada CPU, que no precisa de la máquina virtual para ser ejecutado, y guardan el resultado de dicha conversión, volviéndolo a llamar en caso de volverlo a necesitar, con lo que se evita
+la sobrecarga de trabajo asociada a la interpretación del bytecode. No obstante por norma general el programa Java consume bastante más memoria que el programa C++, ya que no sólo ha de cargar en memoria
+los recursos necesario para la ejecución del programa, sino que además debe simular un sistema operativo y
+hardware virtuales (la máquina virtual). Por otro lado la programación gráfica empleando las librerías Swing
+es más lenta que el uso de componentes nativos en las interfaces de usuario. En general en Java se ha sacrificado el rendimiento para facilitar la programación y sobre todo para conseguir la característica de neutralidad arquitectural, si bien es cierto que los avances en las máquinas virtuales remedian cada vez más estas
+decisiones de diseño.
+
+M
+
+ultithread Soporta de modo nativo los threads, sin necesidad del uso de de librerías específicas
+(como es el caso de C++). Esto le permite además que cada Thread de una aplicación java pueda
+correr en una CPU distinta, si la aplicación se ejecuta en una máquina que posee varias CPU. Las aplicaciones de C++ no son capaces de distribuir, de modo transparente para el programador, la carga entre varias
+CPU.
+
+3
+
+4
+
+CAPITULO 1
+
+FUNDAMENTOS JAVA SOBRE GNU/LINUX
+
+INTRODUCCION
+OBJETIVOS
+Al completar éste Capitulo, usted podrá:
+• Instalar y configurar java sobre GNU/Linux
+• Escribir Simple programas de Java
+• Compilar y ejecutar programas de Java
+
+PREGUNTAS PRE-EXAMEN
+
+Las repuestas se encuentran en el Apéndice A al final del Libro.
+
+1. ¿Qué es Java?
+
+2. ¿Quien Goslin?
+
+3. ¿Cómo es JAVA Distribuido?
+4. ¿Cómo es JAVA Licenciado?
+
+5. ¿Es JAVA Software Open Source?
+6. ¿Es JAVA Software Open Source?
+7. ¿Que es el ByteCode?
+
+8. ¿Que es un desarrollador?
+9. ¿Que es el JVM?
+
+5
+
+HIST ORIA
+
+A. ¿Por qué se diseñó Java?
+
+L
+
+os lenguajes de programación C y Fortran se han utilizado para diseñar algunos de los sistemas más
+complejos en lenguajes de programación estructurada, creciendo hasta formar complicados procedimientos. De ahí provienen términos como "código de espagueti" o "canguros" referentes a programas con
+múltiples saltos y un control de flujo difícilmente trazable.
+
+N
+
+o sólo se necesitaba un lenguaje de programación para tratar esta complejidad, sino un nuevo estilo
+de programación. Este cambio de paradigma de la programación estructurada a la programación
+orientada a objetos, comenzó hace 30 años con un lenguaje llamado Simula67.
+
+E
+
+l lenguaje C++ fue un intento de tomar estos principios y emplearlos dentro de las restricciones de C.
+Todos los compiladores de C++ eran capaces de compilar programas de C sin clases, es decir, un lenguaje capaz de interpretar dos estilos diferentes de programación. Esta compatibilidad ("hacia atrás") que
+habitualmente se vende como una característica de C++ es precisamente su punto más débil. No es necesario utilizar un diseño orientado a objetos para programar en C++, razón por la que muchas veces las aplicaciones en este lenguaje no son realmente orientadas al objeto, perdiendo así los beneficios que este paradigma aporta.
+
+A
+
+sí Java utiliza convenciones casi idénticas para declaración de variables, paso de parámetros, y
+demás, pero sólo considera las partes de C++ que no estaban ya en C.
+
+Las principales características que Java no hereda de C++ son:
+• Punteros: Las direcciones de memoria son la característica más poderosa de C++. El inadecuado uso
+de los punteros provoca la mayoría de los errores de colisión de memoria, errores muy difíciles de detectar. Además, casi todos los virus que se han escrito aprovechan la capacidad de un programa para acceder
+a la memoria volátil (RAM) utilizando punteros. En Java, no existen punteros, evitando el acceso directo
+a la memoria volátil.
+• Variables globales: Con ellas cualquier función puede producir efectos laterales, e incluso se pueden
+producir fallos catastróficos cuando algún otro método cambia el estado de la variable global necesaria
+para la realización de otros procesos. En Java lo único global es el nombre de las clases.
+• goto: Manera rápida de arreglar un programa sin estructurar el código. Java no tiene ninguna sentencia goto. Sin embargo Java tiene las sentencias break y continue que cubren los casos importantes de goto.
+• Asignación de memoria: La función malloc de C, asigna un número especificado de bytes de memoria devolviendo la dirección de ese bloque. La función free devuelve un bloque asignado al sistema para
+que lo utilice. Si se olvida de llamar a free para liberar un bloque de memoria, se están limitando los recursos del sistema, ralentizando progresivamente los programas. Si por el contrario se hace un free sobre un
+puntero ya liberado, puede ocurrir cualquier cosa. Más tarde C++ añadió new y delete, que se usan de
+forma similar, siendo todavía el programador, el responsable de liberar el espacio de memoria. Java no
+tiene funciones malloc ni free. Se utiliza el operador new para asignar un espacio de memoria a un objeto en el montículo de memoria. Con new no se obtiene una dirección de memoria sino un descriptor al
+objeto del montículo. La memoria real asignada a ese objeto se puede mover a la vez que el programa se
+6
+
+ejecuta, pero sin tener que preocuparse de ello. Cuando no tenga ninguna referencia de ningún objeto, la
+memoria ocupada estará disponible para que la reutilice el resto del sistema sin tener que llamar a free o
+delete. A esto se le llama recogida de basura. El recolector de basura se ejecuta siempre que el sistema esté
+libre, o cuando una asignación solicitada no encuentre asignación suficiente.
+• Conversión de tipos insegura: Los moldeados de tipo (type casting) son un mecanismo poderoso de
+C y C++ que permite cambiar el tipo de un puntero. Esto requiere extremada precaución puesto que no
+hay nada previsto para detectar si la conversión es correcta en tiempo de ejecución. En Java se puede hacer
+una comprobación en tiempo de ejecución de la compatibilidad de tipos y emitir una excepción cuando
+falla.
+
+B. Comienzos
+
+Java fue diseñado en 1990 por James Gosling, de Sun Microsystems, como software para dispositivos electrónicos de consumo. Curiosamente, todo este lenguaje fue diseñado antes de que diese comienzo la era
+World Wide Web, puesto que fue diseñado para dispositivos electrónicos como calculadoras, microondas y
+la televisión interactiva.
+
+Imagen 2: Logotipo de la empresa Sun Microsystems
+
+E
+
+n los primeros años de la década de los noventa, Sun Microsystems decidió intentar introducirse en
+el mercado de la electrónica de consumo y desarrollar programas para pequeños dispositivos electrónicos. Tras unos comienzos dudosos, Sun decidió crear una filial, denominada FirstPerson Inc., para dar margen de maniobra al equipo responsable del proyecto.
+
+I
+
+nicialmente Java se llamó Oak (roble en inglés), aunque tuvo que cambiar de denominación, debido a
+que dicho nombre ya estaba registrado por otra empresa. Se dice este nombre se le puso debido a la
+existencia de tal árbol en los alrededores del lugar de trabajo de los promotores del lenguaje.
+Tres de las principales razones que llevaron a crear Java son:
+
+1 Creciente necesidad de interfaces mucho más cómodas e intuitivas que los sistemas de ventanas que
+proliferaban hasta el momento.
+2 Fiabilidad del código y facilidad de desarrollo. Gosling observó que muchas de las características que
+ofrecían C o C++ aumentaban de forma alarmante el gran coste de pruebas y depuración. Por ello en los
+sus ratos libres creó un lenguaje de programación donde intentaba solucionar los fallos que encontraba en
+C++.
+3 Enorme diversidad de controladores electrónicos. Los dispositivos electrónicos se controlan mediante la utilización de microprocesadores de bajo precio y reducidas prestaciones, que varían cada poco tiempo y que utilizan diversos conjuntos de instrucciones. Java permite escribir un código común para todos
+los dispositivos.
+
+P
+
+or todo ello, en lugar de tratar únicamente de optimizar las técnicas de desarrollo y dar por sentada la
+utilización de C o C++, el equipo de Gosling se planteó que tal vez los lenguajes existentes eran demasiado complicados como para conseguir reducir de forma apreciable la complejidad de desarrollo asociada a
+ese campo. Por este motivo, su primera propuesta fue idear un nuevo lenguaje de programación lo más sen7
+
+cillo posible, con el objeto de que se pudiese adaptar con facilidad a cualquier entorno de ejecución.
+
+B
+
+asándose en el conocimiento y estudio de gran cantidad de lenguajes, este grupo decidió recoger las
+características esenciales que debía tener un lenguaje de programación moderno y potente, pero eliminando todas aquellas funciones que no eran absolutamente imprescindibles.
+Para más información véase [Cuenca, 1997].
+
+C. Primeros proyectos en que se aplicó Java
+
+E
+
+l proyecto Green fue el primero en el que se aplicó Java, y consistía en un sistema de control completo de los aparatos electrónicos y el entorno de un hogar. Con este fin se construyó un ordenador
+experimental denominado *7 (Star Seven). El sistema presentaba una interfaz basada en la representación de
+la casa de forma animada y el control se llevaba a cabo mediante una pantalla sensible al tacto. En el sistema aparecía ya Duke, la actual mascota de Java.
+
+Imagen 3: Icono de Duke, la mascota de Java
+
+M
+
+ás tarde Java se aplicó a otro proyecto denominado VOD (Video On Demand) en el que se empleaba como interfaz para la televisión interactiva que se pensaba iba a ser el principal campo de aplicación de Java. Ninguno de estos proyectos se convirtió nunca en un sistema comercial, pero fueron desarrollados enteramente en un Java primitivo.
+
+U
+
+na vez que en Sun se dieron cuenta de que a corto plazo la televisión interactiva no iba a ser un gran
+éxito, instaron a FirstPerson a desarrollar nuevas estrategias que produjeran beneficios. Entre ellas
+se encontraba la aplicación de Java a Internet, la cual no se consideró productiva en ese momento.
+Para más información véase [Froufe, 1997].
+
+D. Resurgimiento de Java
+
+A
+
+unque muchas de las fuentes consultadas señalan que Java no llegó a caer en un olvido, lo cierto es
+que tuvo que ser Bill Joy (cofundador de Sun y uno de los desarrolladores principales del sistema
+operativo Unix de Berckley) el que sacó a Java del letargo en que estaba sumido. Joy juzgó que Internet
+podría llegar a ser el campo adecuado para disputar a Microsoft su primacía en el terreno del software, y vio
+en Oak el instrumento idóneo para llevar a cabo estos planes.
+
+P
+
+ara poder presentarlo en sociedad se tuvo que modificar el nombre de este lenguaje de programación
+y se tuvo que realizar una serie de modificaciones de diseño para poderlo adaptar al propósito mencionado. Así Java fue presentado en sociedad en agosto de 1995.
+Algunas de las razones que llevaron a Bill Joy a pensar que Java podría llegar a ser rentable son:
+• Java es un lenguaje orientado a objetos: Esto es lo que facilita abordar la resolución de cualquier tipo
+de problema.
+
+8
+
+• Es un lenguaje sencillo, aunque sin duda potente.
+• La ejecución del código Java es segura y fiable: Los programas no acceden directamente a la memoria del ordenador, siendo imposible que un programa escrito en Java pueda acceder a los recursos del ordenador sin que esta operación le sea permitida de forma explícita. De este modo, los datos del usuario quedan a salvo de la existencia de virus escritos en Java. La ejecución segura y controlada del código Java es
+una característica única, que no puede encontrarse en ninguna otra tecnología.
+• Es totalmente multiplataforma: Es un lenguaje sencillo, por lo que el entorno necesario para su ejecución es de pequeño tamaño y puede adaptarse incluso al interior de un navegador.
+
+L
+
+as consecuencias de la utilización de Java junto a la expansión universal de Internet todavía están
+comenzando a vislumbrarse.
+
+Para más información véase [Froufe, 1997].
+
+E. Futuro de Java
+
+E
+
+xisten muchas críticas a Java debido a su lenta velocidad de ejecución, aproximadamente unas 20
+veces más lento que un programa en lenguaje C. Sun está trabajando intensamente en crear versiones
+de Java con una velocidad mayor.
+
+E
+
+l problema fundamental de Java es que utiliza una representación intermedia denominada código de
+byte para solventar los problemas de portabilidad. Los códigos de byte posteriormente se tendrán que
+transformar en código máquina en cada máquina en que son utilizados, lo que ralentiza considerablemente el
+proceso de ejecución.
+
+L
+
+a solución que se deriva de esto parece bastante obvia: fabricar ordenadores capaces de comprender
+directamente los códigos de byte. Éstas serían unas máquinas que utilizaran Java como sistema operativo y que no requerirían en principio de disco duro porque obtendrían sus recursos de la red.
+
+A
+
+los ordenadores que utilizan Java como sistema operativo se les llama Network Computer, WebPC
+o WebTop. La primera gran empresa que ha apostado por este tipo de máquinas ha sido Oracle, que
+en enero de 1996 presentó en Japón su primer NC (Network Computer), basado en un procesador RISC con
+8 Megabytes de RAM. Tras Oracle, han sido compañías del tamaño de Sun, Apple e IBM las que han anunciado desarrollos similares.
+
+L
+
+a principal empresa en el mundo del software, Microsoft, que en los comienzos de Java no estaba a
+favor de su utilización, ha licenciado Java, lo ha incluido en Internet Explorer (versión 3.0 y posteriores), y ha lanzado un entorno de desarrollo para Java, que se denomina Visual J++.
+
+E
+
+l único problema aparente es la seguridad para que Java se pueda utilizar para transacciones críticas.
+Sun va a apostar por firmas digitales, que serán clave en el desarrollo no sólo de Java, sino de Internet.
+
+Para más información véase [Framiñán, 1997].
+
+9
+
+F. Especulación sobre el futuro de Java
+
+E
+
+n opinión de los redactores de este tutorial, Java es una plataforma que le falta madurar, pero que a
+buen seguro lo va a hacer. La apuesta realizada por empresas con mucho peso específico ha sido tan
+grande que va a dar un impulso a Java que no le permitirá caer
+
+A
+P
+
+demás, el parque de productos (entornos de desarrollo, bibliotecas, elementos de conectividad...) ya
+disponible en la actualidad es tan amplio que es improbable que se quede en nada.
+
+or otra parte, la relación simbiótica que tiene con Internet (y por derivación con las Intranets) es un
+punto a favor de Java de muy difícil refutación.
+
+G
+
+DESCARGAR EL JAVA DEVELOPMENT KIT (JDK)
+
+NU/Linux esta estructurado con un kernel pequeño y un número de programas utilitarios montados
+encima del kernel. El núcleo maneja los recursos de la computadora, tal como el procesador y la
+memoria, y en esto debe asegurarse de que cada quien que trata de utilizar éstos recursos es dado una oportunidad apropiada de tiempo de acceso.
+
+El kernel se carga en memoria cuando Linux se inicia y permanece en memoria hasta que el sistema se descarga por completo. Se diseña para ser lo más pequeño que sea posible, permitiendo así que
+la memoria restante sea compartida entre todos los programas que se ejecutan en el sistema.
+Los programas utilitarios proporcionan manejo de archivo, supervisión del sistema, desarrollo de
+aplicaciones, manejo de usuario, y comunicación de red. Puede haber más de 2.000 utilidades en un sistema de GNU/Linux.
+
+G
+
+INSTALAR EL JDK
+
+NU/Linux se utiliza en una amplia gama de instituciones y de organizaciones. Cada día más y más
+paises y compañías se alínean al uso y filosofía del SoftWare Libre.
+
+• Los Proveedores de Internet (ISPs) lo utilizan para los servidores de red, tales como servidores WEB.
+• Las universidades y los centros de investigación lo utilizan para las matemáticas que procesan, desarrollo
+de aplicaciones, y Correo Electrónico.
+• Las grandes organizaciones comerciales, como los bancos, lo utilizan para sus servidores de base de datos.
+• Las industrias de servicio, tales como hoteles y líneas aéreas, lo utilizan para las reservaciones.
+• Muchas industrias lo emplean para usarla en estaciones de trabajos gráficas.
+• GNU/Linux se utiliza en sistemas médicos, scanners y sistemas de imagen.
+• También se utiliza en la fabricación, la tecnología, CAD/CAM, investigación y desarrollo aplicaciones.
+• Puede ser utilizado en sistemas de energía y grande simulaciones de sistemas.
+• Puede ser utilizado en el gobierno y las ramas militares, simuladoras de aviones y aeroespacio, y predicción del tiempo.
+
+P
+
+DIGITAR Y EJECUTAR SU PRIMER PROGRAMA EN GNU/LINUX
+
+ara crear un programa de java es necesario disponer de un editor en las mayoria de los casos vi sera
+suficiente. Otros prefieren emacs y si estas en el X puedes usar gedit en GNOME o kedit en KDE.
+Aqui asuminos que es vi.
+public class HolaMundo
+{public static void main(String[] args) // Comentario
+{ System.out.println(“Hola, como estas?”);
+
+10
+
+}
+
+}
+
+L
+
+ANALIZAR EL HOLAMUNDO
+
+a primera linea declara el nombre de la clase el cual debe ser el mismo nombre del archivo que salvamos en nuestro ordenador seguido por la extension .java asi que este archivo en este caso se debe
+llamar HolaMundo.java y no puede ser otro o javac (el compilador devolvera un error).
+
+L
+
+a segunda linea empieza por una llave { que va inmediatamente despues de la declaracion de la clase
+tambien se puede poner al final de la declaracion de la clase, sera cerrado al final de la case. Estas
+dos llaves forman un bloque la primera y la ultima. Luego sigue cuatro palabras claves de java que son public
+- static - void - main. La primera public es que este bloque puede ser accesado desde todas las otras clases.
+la palabra static significa que el metodo definido aqui aplica para la clase misma y no los objetos de la clase.
+La palabra void significa que este metodo no retorna valor alguno. Luego sigue las // lineas que significa que
+lo que sigue es solo un comentario y que el compilador no lo tomara en cuenta.
+Ejemplo 1.1
+// Programar Java sobre LINUX es productivo
+public class HolaMundo
+{public static void main(String[] args) // Comentario
+{ System.out.println(“Hola, como estas?”);
+}
+}
+
+P
+
+ara compilarlo debe primero salvarlo con el nombre HolaMundo.java, y luego compilarlo dependiendo donde esta su compilador de javac asi:/ruta/javac Holamundo.java, esto producira un archivo del
+mismo nombre pero con la extension .class, HolaMundo.class para poder ejecutar este archivo .class debera
+digitar en la linea de comandos: /ruta/java HolaMundo, note que es java y no javac y que no escribio la extendion .class aunque el nombre si la tiene.
+
+L
+
+Ejemplo 1.2 Entradas Interactivas
+a mayoria de los programas requieren cierto tipo de entrada desde el usuario, java tiene muchas librerias y ,metodos que pueden manejar la entrada de texto interactivo.
+
+// Este programa le pide ingresar varios datos para concluir
+import java.io.*;
+public class HolaTux
+{ public static void main(String[] args) throws IOexception
+{ inputStreamReader reader = new InputStreamReader(System.in);
+BufferedReader input = new BufferedReader(reader);
+System.out.println("Introduzca su nombre: ");
+String nombre = input.readline();
+}
+
+}
+
+System.out.println("Hola, como estas
+
+" + nombre);
+
+11
+
+Aqui en este ejemplo ahi cinco objetos System.in, reader, input, name y System.out. El System.in y out
+estan definidos en la clase System, los otros son definidos en el programa por el programador. La primera
+linea del archivo <import java.io.*> le dice al compilador que busque en esta librerias por las tres clases
+Entrada/Salida I/O que son usadas en el programa: IOException, InputStreamReader y BufferedReader.
+La tercera linea es la función main que todo programa debe tener puesto que aqui es que empieza la
+acción. Aquí tambien se hace un llamado a la función IOException, la cual permite el uso del metodo
+readLine().
+La cuarta linea define el objeto reader a ser una instancia de la clase InputStreamReader, amarrandola a
+la entrada del sistema System.in. Lo cual significa que el objeto reader servira como una tuberia filtrando la
+data desde el teclado hacia el programa.
+La quinta linea define el objeto input a ser una instancia de la clase BufferedReader, amarrandolo al objeto reader. Lo que significa que el objeto input puede ser usado para extraer la entrada en una manera conveniente. En particular puede usar su metodo readLine() para leer una linea de caracteres por completo desde
+el teclado y transmitirla en forma de un objeto String. Esto se lleva acabo en la linea siete asi:
+String name = input.readLine();
+Se declara el objeto tipo String de nombre name y se inicializa con el valor de la cadena que es devuelta
+por el metodo input.readLine(). El resultado es que el objeto name contiene lo que el usuario escribio en el
+teclado. Digamos que escriba “Linus Torvalds”, le responderia:
+Hola, Linus Torvalds!
+Fijese que los metodos readLine() es analogo al println(). La sentencia:
+name = input.readLine();
+Copia una linea de caracteres desde el teclado a la cadena name, y la sentencia:
+System.out.println(name);
+Copia una linea de caracteres desde la cadena name hacia la pantalla.
+Recuerde siempre que java es caso sensitivo y que diferencia entre mayuzculas y minuzculas.
+
+E
+
+Ejemplo 1.3 Entradas Interactivas Numericas
+n este ejemplo se ingresa su edad y el programa calcula su año de nacimiento basadao en el año 2005.
+Aqui se ilustra la captura de entrada de numeros enteros y su manipulación. Como el programa anterior tambien se usa la sentencia import para el uso de libreias de I/O y sus clases que ya definimos
+InputStreamReader y BufferedReader. Ademas se incluye la clausura throws IOException en el metodo
+main(). Luego de leer la data como una cadena o String se convierte el texto a entereos con la expresion:
+new Integer(text).inValue()
+
+import java.io.*;
+public class edad
+{
+public static void main (String[] args) throws IOException
+{
+InputStreamReader reader = new InputStreamReader(System.in);
+BufferedReader input = new BufferedReader(reader);
+12
+
+}
+
+System.out.print("digite su edad:");
+String text = input.readLine();
+int age = new Integer(text).intValue();
+System.out.println("su edad es " + age + " anos ");
+int year = 2005 - age;
+System.out.println("probablemente usted nacio en el año " + year); }
+
+E
+
+Ejemplo 1.4 Calcular el Area de un Circulo
+n este ejemplo se ingresa el radio de un circulo y el programa luego imprime su area. En este ejemplo se ilustra el manejo de numeros que incluyen puntos decimales o puntos flotantes. La estructura
+es casi identica a los dos ejemplos anteriores. La diferencia el es uso de las variables r y area. Donde el objeto x es una instancia de la clase Double. Se ilustra los principios fundamentales de la programacion orientada a objeto OOP: La eleccion de los objetos estan basados en las operaciones que se necesitan llevar a cabo
+para satisfacer lo que el programa debe llevar a cabo:
+1. Entrada del valor de r en formato decimal;
+2. Aplicar la formula del area de un circulo A=¹r^2;
+3. Presentar la salida a la pantalla.
+
+El paso uno requiere del uso de los objetos InputStreamReader y BufferedReader. El paso dos requiere el
+uso de un objeto Double y dos variables r y area. Y el paso tres requiere del objeto System.out.
+
+D
+
+VARIABLES Y OBJETOS
+
+os tipos de entidades pueden almacenar data en java: variables y objetos. Una variable tiene un tipo
+y puede almacenar un solo tipo de variable o valor. Un objeto es la instancia de una clase y puede
+tener una coleccion de variables definida en ella. Hay nueve posible tipos en java. Pero programadores pueden definir todas las clases que deseen o necesiten. Un objeto es creado cuando es instancia con el operador
+new en un constructor y muere cuando ya no existe referencia a este.
+Ejemplo 1.5 Calcular el Area de un Circulo
+import java.io.*;
+public class area
+{ public static void main(String[] args) throws Exception
+{ InputStreamReader reader = new InputStreamReader(System.in);
+BufferedReader input = new BufferedReader(reader);
+System.out.print("Inserte el radio: ");
+String text = input.readLine();
+Double x = new Double(text);
+double r = x.doubleValue();
+System.out.println("el area del circulo de radio " + r);
+double area = Math.PI*r*r;
+System.out.println(" es " + area);
+}
+}
+Este programa usa dos variables r y area y cinco objetos reader, input, text, x y System.out. Ambas variables son double. Los objetos son instancias de las clases InputStreamReader, BufferedReader, String, Double
+y PrintStream, respectivamente.
+13
+
+E
+
+Ejemplo 1.6 Tipos de Datos Primitivos
+ste programa simplemente declara e inicializa ocho variables, una por cada uno de los tipos disponibles en el lejuaje de JAVA.
+public class tipos
+{ public static void main(String[] args)
+{
+char c = 'R';
+byte j = 127;
+short k = 32727;
+int m = 2147483647;
+long n = 9223372036854775807L;
+float x = 3.141592653589793238;
+System.out.println("b =" + b);
+System.out.println("c =" + c);
+System.out.println("j =" + j);
+System.out.println("k =" + k);
+System.out.println("m =" + m);
+System.out.println("n =" + n);
+System.out.println("x =" + x);
+System.out.println("y =" + y);
+}
+}
+Fijese que la declaracion de char es entre comillas y que los longs contienen una L al final.
+
+U
+
+OPERADORES ARITMETICOS Y DE ASIGNACION
+
+n operador es una funcion que que tiene un nombre simbolico especial y es invocado usando ese simbolo dentro de una expresion. Algunos ejemplos puede ser los siguientes:
+
+E
+
+n = 22
+n += 22
+++n
+n / 22
+n % 22
+
+Ejemplo 1.7 Operadores de Decrementar e Incrementar
+ste programa mostramos como los de los enteros pueden ser cambiados con el operador de decrementar e incrementar -= and +=..
+public class tipos
+{ public static void main(String[] args)
+{
+char c = 'R';
+byte j = 127;
+short k = 32727;
+System.out.println("c =" + c);
+14
+
+++c;
+System.out.println("c =" + c);
+++c;
+System.out.println("c =" + c);
+System.out.println("j =" + j);
+++j;
+System.out.println("j =" + j);
+--j;
+System.out.println("j =" + j);
+++j;
+System.out.println("j =" + j);
+++j;
+System.out.println("k =" + k);
+k -=4;
+System.out.println("k =" + k);
+k += 5;
+System.out.println("k =" + k);
+++k;
+System.out.println("k =" + k);
+++k;
+}
+}
+Ussamos los mismos variables que el del ejemplo 1.6. La expresion ++c significa que incremente la variable c al proximo valor. Tambien mostramos que pasa cuando una variable sobrepasa su valor del tipo se
+devuelve al negativo mas bajo, asi que cuando un char sobrepasa los 127 se devuelve a -128. En los ultimos
+ejemplo se muestran valores similar a -= y += en ejemplos como:
+k -= 4; lo que significa restarle 4 a k y reemplazar con este valor.
+
+E
+
+Ejemplo 1.8 Aritmetica
+ste programa mostramos el uso de los operadores aritmeticos +, -, *, / y el % en el lejuaje de JAVA.
+public class Aritmetica
+{ public static void main(String[] args)
+{
+int n = 25;
+int m = 7;
+System.out.println("m =" + m);
+System.out.println("n =" + n);
+int sum = m + n;
+System.out.println("m + n" + sum);
+int diferencia = m - n;
+System.out.println("m - n =" + diferencia);
+int por = m * n;
+System.out.println("m * n =" + por);
+int entre = m / n;
+System.out.println("m / n =" + entre);
+15
+
+int residuo = m % n;
+System.out.println("m % n =" + residuo);
+}
+}
+
+REPASO
+
+Las repuestas a estas preguntas se encuentras en el Apéndice A.
+1) ¿De cuando es JAVA?
+2) ¿Cual compañía desarrolló JAVA?
+3) ¿Que es el Codigo Fuente?
+4) ¿De donde viene el codigo fuente?
+5) ¿Que tipo de archivo contienen el fuente de JAVA?
+6) ¿Que es el Bytecode?
+7) ¿Que significa portable en el contexto de programacion?
+8) ¿Cual es la diferencia entre el bytecode de Java y otros lenjuages de bajo nibel ?
+9) ¿Cual es la diferencia entre un compilador y un interprete?
+10) ¿Que es la maquina virtual de JAVA?
+11) ¿Que es una aplicacion?
+12) ¿Que es un desarrollador?
+13) ¿Que es una API de JAVA?
+14) ¿Que es un IDE?
+15) ¿Que es el JDK?
+16) ¿Que es el JIT?
+17) ¿Que es el JVM?
+18) ¿Que es la diferencia entre el comentario tipo C y C++?
+19) ¿Que es un objeto “stream”?
+20) ¿Que es una exception?
+21) ¿Quer significa caso-sensitivo?
+22) ¿Cual es la diferencia entre una variable y un objeto?
+23) ¿Cuales son los 8 tipos primitivos de JAVA?
+24) ¿Que es un tipo referenciable?
+25) ¿Que es sobre carga (Overflow) de Enteros?
+
+PREGUNTAS POST- EXAMEN
+
+Las repuestas a estas preguntas se encuentras en el Apéndice B
+1.
+
+Modifique el Ejercicio 1.1 para que imprima el siguiente Objeto:
+
+String mensaje = “Hola, Mundo!”;
+2.
+
+Escriba y ejecute un programa que inicialize un objeto String con su nombre y lo imprima en tres lineas por separado asi:
+nombre
+nombre
+nombre
+
+3. Escriba y ejecute un programa que inicialize un objeto String con su nombre y lo imprima en una linea
+16
+
+separado por espacio asi:
+nombre nombre nombre
+
+4. Escriba y ejecute un programa que le pida al usuario por su apellido y nombre y luego lo imprima con un
+saludo asi:
+Digite su apellido por favor: Torvalds
+Digite su nombre por favor: Linus
+Hola, Linus Torvalds
+5. Escriba y ejecute un programa que inicialize un entero n con el valor de 5814y luego utilizando los operadores quotient % y el restante para extraer e imprima cada digito de n, asi:
+n = 5814
+Los digitos de n son 5, 8, 1, y el 4
+
+6. Escriba y ejecute un programa que ingrese un entero que represente una temperatura en grados Fahrenheit
+y lo convierta a su equivalente en grados Celsios de forma decimal. La formula de conversion ed la
+siguiente C = 5(F - 32)/9.
+
+17
+
+CAPITULO 2
+
+FUNDAMENTOS JAVA SOBRE GNU/LINUX
+
+STRINGS
+OBJETIVOS
+Al completar éste Capitulo, usted podrá:
+• Manipular la clase string y sus metodos
+• Declarar y manipular entrada de cadenas desde la linea de comandos
+• Manipular los arreglos de java
+
+PREGUNTAS PRE-EXAMEN
+
+Las repuestas se encuentran en el Apéndice A al final del Libro.
+
+1. ¿Que substring es retornada por la llamada alfabeto.substring(6, 10)?
+
+2. ¿De que longitud es la subcadena retornada por la llamada alfabeto.substring(9, 16)?
+
+3. ¿Porque tiene la llamada alfabeto.substring(14, 14) que la llamada alfabeto.substring(4, 4)?
+4. ¿Porque fracasaria la llamada a alfabeto.substring(41, 41)?
+5. ¿Que es sobrecarga “Overloading”?
+
+6. ¿Que es la “composicion de metodos”?
+
+7. ¿Cual es la diferencia entre la class String y la class StringBuffer?
+
+8. ¿Cual es la diferencia entre la capacidad y su longitud de un objeto del tipo StringBuffer?
+
+18
+
+U
+
+LA CLASE STRING
+
+na cadena es una sequencia de caracteres. Palabras, oraciones y nombres son cadenas o strings. El
+mensaje “Hola, Mundo!” es una cadena. En este capitulo cubriremos las dos clases fundamentales
+de cadenas de Java String y StringBuffer.
+
+L
+
+a primera es la clase string la cual en Java es un objeto del tipo String. Estos objetos son inmutables;
+ellos no pueden ser cambiados.
+
+Ejemplo 2.1 Un objeto de String Simple
+public class alfabeto
+{ public static void main(String[] args)
+{ //este es al claracion de un strign.
+//new String("");
+String alfabeto = "ACBDEFGHIJKLMNOPQRSTUVWXYZ";
+System.out.println(alfabeto);
+System.out.println("El String contiene" +" " + alfabeto.length() +" " + "caracteres");
+System.out.println("El caracter ubicado en el puesto 4 es:" + alfabeto.charAt(4));
+System.out.println("El puesto del caracter G es el :" + alfabeto.indexOf('G'));
+System.out.println("el picadillo de codigo del string es :" + alfabeto.hashCode());
+System.out.println("LAs posiciones 4, 8, 1 y 26 nos dan la siguiente palabra: " + alfabeto.charAt(3) + alfabeto.charAt(8) + alfabeto.charAt(0) + alfabeto.charAt(25) );
+}
+}
+El objeto de nombre alfabeto es declarado en la tercera linea a ser una instancia de la clase String y es
+inicializada al valor literal de ABCDEFGHIJKLMNOPQRSTUVWXYZ.
+
+U
+
+Las Subcadenas
+
+na subcadena es una sequencia de caracteres que forman parte de una cadena. La clase cadena contiene el metodo subcadena() para extraer subcadenas desde un string. En el siguiente ejemplo se ilustra el uso del metodo substring().
+
+Ejemplo 2.2 Un objeto de String Simple
+public class Substring
+{ public static void main(String[] args)
+{ String alfabeto = "ACBDEFGHIJKLMNOPQRSTUVWXYZ";
+System.out.println(alfabeto);
+System.out.println("La subcadena posicion desde el 4 hasta 8" +" " + alfabeto.substring(4,8));
+System.out.println("La subcadena posicion desde el 4 hasta 4" +" " + alfabeto.substring(4,4));
+System.out.println("La subcadena posicion desde el 4 hasta 5" +" " + alfabeto.substring(4,5));
+System.out.println("La subcadena posicion desde el 0 hasta 8" +" " + alfabeto.substring(0,8));
+System.out.println("La subcadena posicion desde el 8 hasta el Final" +" " + alfabeto.substring(8));
+}
+}
+Este programa usa el mismo objeto alfabeto del ejemplo 2.1. Manipula la misma cadena atraves del metodo substring() para imprimir diferentes partes de la cadena alfabeto
+19
+
+J
+
+Cambiar el Caso (Mayus-Minuzculas)
+
+ava distingue entre las mayusculas y las minusculas. Su clase String incluye metodos para cambiar las
+letras de una cadena de una a la otra. Estos metodos son ilustrados a continuacion..
+
+Ejemplo 2.3 Mayusculas y Minusculas
+public class ChanginCase
+{ public static void main(String[] args)
+{
+String texto1 = "toLowerCase";
+String texto2 = "toUppercase";
+System.out.println("Texto1 inicial:" +texto1);
+//String sbislc = texto1.toLowerCase();
+System.out.println("Transforma todos los caracteres del texto1 a minusculas:"
++texto1.toLowerCase());
+System.out.println("Texto2 inicial:" +texto2);
+String sbisuc = texto2.toUpperCase();
+System.out.println("Transforma todo los caracteres del texto2 a MAYUSCULAS:" +sbisuc);
+}
+}
+
+Y
+
+Concatenar
+
+a hemos usado el operador de concatencacion desde el capitulo uno para manipular las cadenas (+).
+En este ejemplo demostramos como puede ser usado para formar strings mayores de mas pequeñas.
+
+Ejemplo 2.4 Concatenar
+public class Concatenacion
+{ public static void main(String[] args)
+{
+String nombre1 = " James";
+String nombre2="Gosling";
+System.out.println(nombre1 + nombre2);
+System.out.println(nombre1 + " " + nombre2);
+System.out.println(nombre1 + " , " + nombre2);
+String nombres=nombre1 + " " + nombre2;
+System.out.println(nombres);
+}
+}
+
+L
+
+Localizar un Caracter en una Cadena
+
+os metodos indexOf() y lastIndexOf() devuelven el numero del index de un caracter en una cadena.
+
+Ejemplo 2.5 Buscar un Caracter en una Cadena
+public class SearchingForChars
+{ public static void main(String[] args)
+{
+String texto = "El texto es : Esta Isla es la Republica Dominicana, m@r k@ribe";
+System.out.println(texto);
+20
+
+}
+
+}
+
+int i = texto.indexOf('a');
+System.out.println("La primera posicion de 'a' es " + i);
+int j = texto.indexOf('a', i+1);
+System.out.println("El siguiente posicion de 'a' es " + j);
+int k = texto.indexOf('a' , j+1);
+System.out.println("La siguiente posicion de 'a' es " + k);
+k = texto.lastIndexOf('a');
+System.out.println("La pen√∫ltima posicion de 'a' es " + k);
+System.out.println(texto.substring(k));
+
+Este programa se usan dos versiones del metodo indexOf() una con un solo parametro y el otro con dos,
+esto es llamado sobrecarga o overloading, que es el uso de un mismo metodo con diferente nuemro de parametros.Esto es muy comun en JAVA. El compilador puede decifrar cual metodo se requiere deduciendo del
+nuemro de parametros que envia.
+
+L
+
+Reemplazar un Caracter en una Cadena
+
+a clase String incluye un metodo replace()el cual reemplaza cada ocurrencia de un caracter con otro
+en una cadena.
+
+Ejemplo 2.6 Reemplazar Caracteres en una Cadena
+public class Replacing
+{ public static void main(String[] args)
+{
+String inventor = "Galileo, el padre de las ciencias modernas ";
+System.out.println(inventor);
+System.out.println(inventor.replace('p' , 'P'));
+System.out.println(inventor.replace('m' , 'M'));
+System.out.println(inventor);
+}
+}
+Este programa la llamada a inventor.replace(‘p’, ‘P’); reemplaza toda ocurrencia de p minuscula por P
+mayuscula en la cadea inventor que es padre por Padre en este caso.
+La sentencia System.out.println(inventor.replace('p' , 'P')); compone (composes) el metodo replace() con el metodo println. En este ejemplo el metodo replace() se le pasa inmediatamente al metodo
+println(). Este un objeto anonimo lo que quiere decir que no tiene nombre.. Composicion es una manera eficiente usada para prevenir proliferacion. Sin el uso de composicion requiere que declaremos de
+dos objetosString adicionales.
+
+L
+
+Representar un Valor Primitivo como una Cadena
+
+os valores primitivos como es el 68 son realmente caracteres ordinarios. El valor del tipo float 3.14
+se lee y se imprime como una cadena que consiste de ‘3’, ‘.’, ‘1’ y el ‘4’. Asi que no es sorprendente tener que converit de un tipo a otro.
+Ejemplo 2.7 Convertir los Tipos Primitivos a Cadenas o Strings
+public class TestValueOf
+{ public static void main(String[] args)
+{ boolean b = true;
+
+21
+
+char c = '$';
+int n = 44;
+double x = 3.1415923585152;
+System.out.println("b =
+System.out.println("c =
+System.out.println("n =
+System.out.println("x =
+
+" + b);
+" + c);
+" + n);
+" + x);
+
+String strb = String.valueOf(b);
+String strc = String.valueOf(c);
+String strn = String.valueOf(n);
+String strx = String.valueOf(x);
+
+}
+
+}
+
+System.out.println("strb =
+System.out.println("strc =
+System.out.println("strn =
+System.out.println("strx =
+
+" + strb);
+" + strc);
+" + strn);
+" + strx);
+
+Ejemplo 2.8 Convertir Strings a Tipos
+Este ejemplo muestra como efectuar operaciones aritmetica sobre valores numericos embedidos en
+cadenas.
+public class TestConversions
+{ public static void main(String[] args)
+{ String today = " Abril 24 del 1965";
+String todaysDayString = today.substring(4,6);
+int todaysDayInt = Integer.parseInt(todayDayString);
+int nextWeeksDayInt= todaysDayInt + 7;
+String nextWeek = today.substring(0,4) + nextWeeksDayInt + today.substring(6);
+System.out.println("La fecha de hoy es " + today);
+System.out.println("Hoy es " + todayDaysInt);
+System.out.println("La proxima semana sera " + nextWeeksDayInt);
+System.out.println("La proxuima semana la fecha sera " + nextWeek);
+}
+
+}
+Este ejemplo define tres objetos String (today, todaysDayString y nextWeek) y dos variables int
+(todaysDayInt y nextWeeksDayInt). La ejecusion de la sentencia: .
+int todaysDayInt = Integer.parseInt(todayDayString);
+efectua las siguientes tareas:
+1. Declara la variable todayDayInt con el tipo int.
+
+2. Invoca el metodo parseInt() definido en la clase Integer, pasandole un objeto del tipo String
+de nombre todaysDayString.
+
+3. El metodo parseInt() lee dos caracteres ‘1’ y el ‘8’ desde la cadena todaysDayString, lo convier22
+
+te a a su valor numerico equivalente de 1 y 8, lo combina para formar el valor 18, y retorna su
+valor int.
+
+4. El valor de 18 retornado es usado para inicializar la variable del tipo int todaysDayInt.
+En este ejemplo usamos la clase Integer llamada la clase wrapper ya que esta encapsula el tipo primitivo
+int. Cadad uno de los ocho tipos primitivos tiene su clase wrapper correspondiente. Los nombres son
+Boolean, Character, Byte, Short, Integer, Long, Float y Double. La razon de las clase wrapper es proveer
+metodos para estos tipos primitivos. Por ejemplo en la clse Integer provee el metodo parseInt() para los valores int.
+
+L
+
+La Clase StringBuffer
+
+a clase String es una d elas mas usadas en Java. Pero sus instancias (objetos) sufren de la restriccion
+de ser inmutable; ellas no pueden ser cambiadas. En todos los ejemplo anteriores, donde modificamos un string, teniamos que construir un objeto del tipo String, o explicitamente o implicito. Java nos provee una clas por separado StringBuffer para los strings que deben ser cambiados. La razon para esto es que
+la posibilidad de cambiar un string produce una situacion de complejidad y las variables ocupan mas espacio. En sitiuaciones donde los strings no deben ser cambiadas podemos usar la mas simple clase string.
+Ejemplo 2.9 Usar el Objeto StringBuffer
+public class TestStringBuffer
+{
+public static void main(String[] args)
+{
+StringBuffer buf = new StringBuffer(10);
+System.out.println("buf =" + buf);
+System.out.println("buf.length()=" + buf.length());
+System.out.println("buf.capacity()" + buf.capacity());
+}
+}
+En este ejemplo en la tercera linea se crea un objeto StringBuffer de nombre buf con capacidad de 10
+caracteres vacio. Esto ilustra una caracteristica esencial de el objeto StringBuffer: ellos pueden contener celdas vacias, los objetos String no!.
+
+E
+
+Ejemplo 2.10 Modificar Objetos StringBuffer
+n este programa se demuestra la dlexibilidad de los objetos StringBuffer. Se crea un objeto de nombre buf, el cual luego es modificado varias veces usando concatenacion y el metodo append().
+public class TestAppending
+{
+public static void main(String[] args)
+{
+StringBuffer buf = new StringBuffer(10);
+buf.append("It was");
+
+System.out.println("buf =" + buf);
+System.out.println("uf.length() =" + buf.length());
+System.out.println("buf.capacity() =" +buf.capacity());
+buf.append(" the best");
+23
+
+System.out.println("buf = " +buf);
+System.out.println("buf.length() = " +buf.length());
+System.out.println("buf.capacity() = " + buf.capacity());
+
+}
+
+}
+
+buf.append(" of times");
+System.out.println("buf = " +buf);
+System.out.println("buf.length() = " +buf.length());
+System.out.println("buf.capacity() = " + buf.capacity());
+
+Se inicializa el objeto StringBuffer buf vacio de capacidad de 10 caracteres con la sentencia
+buf.append(“It was”) 6 de sus dies caracteres son usados. buf.append(“ the best”) lo expande a capacidad de
+22 de los cuales 15 estan en uso. Fijese la diferencia entre capacidad y longitud del objeto. La capacidad del
+objeto es cambiada por el sistema operativo cuando sea necesario. Cada vez que esto sucede se consume
+recursos moviendolo a ram, asi que es mejor planificarlo y solo usarlo cuando es absolutamente necesario.
+
+E
+
+Ejemplo 2.11 Reemplazar Objetos StringBuffer
+n este programa se demuestra como modificar el contenido del buffer.
+public class BufReplacing
+{
+public static void main(String[] args)
+{
+StringBuffer buf = new StringBuffer();
+buf.append("Era el ejor de la epoca");
+System.out.println(" buf = " + buf);
+System.out.println("buf.length() =" +buf.length());
+System.out.println("buf.capacity() = " + buf.capacity());
+buf.setCharAt(7, 'M' );
+System.out.println("buf = " + buf);
+
+}
+
+}
+
+buf.setCharAt(19, '√©');
+System.out.println("buf = " + buf);
+
+Para cambiar la cadena tenemos que cambiar dos caracteres con el metodo setCharAt() y invocar el metodo insert() para insertar un caracter nuevo esto demuestra que la clase StringBuffer no es muy buena para editar cadenas.
+
+24
+
+Ejemplo 2.12 Convertir Objetos StringBuffer a Objetos Strings
+public class TestToString
+{
+
+}
+
+public static void main(String[] args)
+{
+StringBuffer buf = new StringBuffer("It was thr age of wisdom,");
+System.out.println("buf =" + buf)
+System.out.println("buf.length() = " + buf.length());
+System.out.println("buf.capacity() = " + buf.capacity());
+String str = buf.toString();
+System.out.println("str =" + str);
+System.out.println("str.length() = " + str.length());
+buf.append(" " + str.substring(0, 18) + "foolishness,");
+System.out.println("buf = " + buf);
+System.out.println("buf.length() = " + buf.length());
+System.out.println("buf.capacity() = " + buf.capacity());
+System.out.println("str = " + str);
+}
+
+El objeto buf es creado de longitud de 25 carcacteres con una capacidad de 41 caracter al inicializarlo con
+el String literal de "It was thr age of wisdom,") esta cadena tiene 25 caracterews.Aqui se ilustra una manera
+aalternativa de inicializar un objeto StringBuffer; usted puede ademas especificar si capacidad explicitamente haciendolo de longitud 0 como se hixo en el ejemplo 2.9 o usted puede especificar su contenido inicial
+explicitamente, haciendolo de longitud igual al numero de caracteres en la cadena dejando que el sistema operativo lo estblesca inicialmente.
+La sentencia String str = buf.capacity();
+Crea un objeto del tipo String que puede contener 25 caracteres que se encuentran en el objeto
+StringBuffer buf. La sentencia buf.append(“ “ + str.substring(0, 18) + foolishness,”) modifica el objeto
+StringBuffer buf agregandole otra clausura mas, Esto no tiene ningun efecto ssobre el objeto independiente
+str, como lo muestra la ultima linea.
+Ejemplo 2.13 Reestablecer la Longitud y Devolver el valor de un Objetos StringBuffer
+En este programa sse ilustra los metodos setLength() y reverse().
+public class TestSetLength
+{ public static void main(String[] args)
+{
+StringBuffer buf
+= new StringBuffer("It is a far, far better thing thath i do");
+System.out.println("buf =" + buf);
+System.out.println("buf.length() = " + buf.length());
+System.out.println("buf.capacity() =" + buf.capacity());
+buf.setLength(60);
+System.out.println("buf = " + buf);
+System.out.println("buf.length() = " + buf.length());
+System.out.println("buf.capacity() =" + buf.capacity());
+25
+
+buf.reverse();
+System.out.println("buf = " + buf);
+System.out.println ("buf+" + buf.length());
+System.out.println("buf.capacity() = " + buf.capacity());
+}
+}
+La sentencia buf.setLength(60); incrementa la longitud de 39 a 60 agregandole 21 caracter null a la cadena. Pero este cambio no se nota desde la salida del buffer. La sentencia buf.setLength(30) establece la longitud de 60 a 30 caracteres eliminando los ultimos 30 caracteres: los 9 caractere s en la subcadena “that I do”
+y los 21 caracteres null que agregamos anteriormente. Fijese que la capacida no es alterada. La sentencia
+buf.reverse(); reestablece la cadena al objeto buf.
+
+REPASO
+
+Las repuestas a estas preguntas se encuentras en el Apéndice A.
+1. ¿Que substring es retornada por la llamada alfabeto.substring(6, 10)?
+
+2. ¿De que longitud es la subcadena retornada por la llamada alfabeto.substring(9, 16)?
+
+3. ¿Porque tiene la llamada alfabeto.substring(14, 14) que la llamada alfabeto.substring(4, 4)?
+4. ¿Porque fracasaria la llamada a alfabeto.substring(41, 41)?
+5. ¿Que es sobrecarga “Overloading”?
+
+6. ¿Que es la “composicion de metodos”?
+
+7. ¿Cual es la diferencia entre la class String y la class StringBuffer?
+
+8. ¿Cual es la diferencia entre la capacidad y su longitud de un objeto del tipo StringBuffer?
+
+PREGUNTAS POST- EXAMEN
+
+Las repuestas a estas preguntas se encuentras en el Apéndice B
+1.
+
+Modifique el Ejercicio 2.1 para que imprima su nombre y sus atributos.
+
+2. Modifique el Ejercicio 2.2 para que imprima el nombre de su padre y sus atributos.
+
+3. Escriba y ejecute un programa que efectue lo siguiente:
+1. Declare un Objeto String s que contenga la cadena “Mi nombre es Linus”
+2. Imprima la cadena completa
+3. Use el metodo charAt() para imprimir la longitud de la cadena
+4. Use el metodo charAt() para imprimir el primer caracter de la cadena
+5. Use los metodos charAt() y el length() para imprimir el ultimo caracter en la cadena.
+6. Use los metodos indexOf() y substring() para imprimir la primera palabra en la cadena
+26
+
+4. Re-escriba y ejecute el programa 2.6 para que este no use composicion.
+5.
+
+Escriba y ejecute un programa que ingrese un numero de 10 digitos como el de un telefono, del cual
+extraiga la area code de 3 digitos, los tres digitos de intercambio y los cuatro restantes que se vea asi:
+Digite los 10 numeros telefonicos: 8097245543
+Usted digito: 8097245543
+El codigo de area es: 809
+El numero de intercambio es: 724
+El nuemero es el: 5543
+El numero completo es el: (809)724-5543
+
+6. Escriba y ejecute un programa que uste ingrese una fecha pre Y2K wn wl formato digamos 06/30/98 y
+que se la imprima en el formato extendido de 06/30/1998.
+
+27
+
+28
+
+29
+
+CAPITULO 3
+
+FUNDAMENTOS JAVA SOBRE GNU/LINUX
+
+SELECCION
+OBJETIVOS
+Al completar éste Capitulo, usted podrá:
+• Implementar bucles
+• Manejar bucles anidados
+• Operadores condicionales
+
+PREGUNTAS PRE-EXAMEN
+
+Las repuestas se encuentran en el Apéndice A al final del Libro.
+
+1. ¿Que es un bucle?
+
+2. ¿Nombre cuatro clase de bucles de condicion?
+3. ¿Cual es la diferencia entre el for y el while?
+
+4. ¿Diferencia entre do... while y el while simple?
+5. ¿Cuando se debe emplear un casse?
+
+30
+
+L
+
+La Sentencia if
+
+a sentencia if permite una ejecusion condicional. Los comandos incluido dentro de su cuerpo seran
+ejecutados solo si la condicion es verdadera. El sintaxis de la sentencia if es:
+
+D
+
+if (condicion) sentencia;
+onde la condicion es una expresion boolean. Una expresion booleana es una expresion que sel valor
+de su tipo es boolean.
+
+Ejemplo 3.1 Probar un Entero Random por Negatividad
+En este programa se usa un generador para generar un entero al azar o random. Luego este reporta si el
+entero es negativo:
+import java.util.Random;
+public class Ejemplo03_01
+{ public static void main(String[] args)
+{
+Random random = new Random();
+int n = random.nextInt();
+System.out.println(" n = " + n);
+if (n < 0) System.out.println("**** n > 0");
+System.out.println("Goodbye.");
+}
+}
+
+En la primera linea importamos la clase random para generar un numero al azar llamado random. Luego
+le pasamos el valor de random se le asignan a n. Si la condicion es verdadera se ejecuta la sentencia sino se
+sale del bucle. Un nuemro random es generado por cierto proceso que es dificil de predecir. El metodo de
+java nextInt() ..
+
+L
+
+Las Sentencia if...else
+
+a sentencia if...else es la misma que la if con una clausula de else agregada, y asi cuando la condicion
+del if no se cumple entonces se se ejecuta las ordenes debajo del la clausula else.uno de las dos sentencias se ejecutaran. EL sintaxis del if.. else es asi:
+if (condicion) sentencia; 1
+else sentencia 3;
+
+Ejemplo 3.2 Probar dos Enteros para Seleccionar el Maximo
+En este programa se usa un generador para generar dos enteros m y n al azar o random. Luego se reporta cual de los dos es de mayor valor:
+import java.util.Random;
+public class Ejemplo3_02
+{
+public static void main(String[] args);
+{
+Random random = new Random();
+int m = random.nextInt();
+System.out.prinln("m = " + m);
+int n = random.nextInt();
+31
+
+}
+
+System.out.println("n = " + n);
+if (m < n ) System.out.println("The minimum is " + m);
+else System.out.println("The minimum is " + n);
+
+}
+Este programa es similar al Ejemplo 3.1.
+
+E
+
+La Combinacion if...else...if
+
+n la combinacion if...else...if permite la ejecusion basada en dos alternativas. Si tienes mas de dos
+posibles alternativas, debera usar esta secuencia.
+
+Ejemplo 3.3 Elegir Entre Cuatro Alternativas
+En este programa se usa un generador para generar dos enteros m y n al azar o random. Luego se reporta cual de los dos es de mayor valor:
+import java.util.Tandom;
+public class Ejemplo3_03
+{ public static void main (String[] args)
+{Random random= new.Random();
+double t = = random.nextDouble();
+System.out.println("t = " + t);
+if (t < 0.25) System.out.println("0 <= t <1/4");
+else if (t < 0.5) System.out.println("1/4 <= t <1/2");
+else if (t < 0.75) System.out.println("1/2 <= t < 3/4");
+else if System.out.println("3/4 <= t < 1");
+}
+}
+
+P
+
+Condicionales Anidados
+
+odemos colocar sentencias de if y if...else una dentro de la otra creando asi estructuras mas complejas. Este tipo de sentencia debe ser usada con mucho cuidado ya que tienden a ser dificiles de entender y de depurar..
+
+Ejemplo 3.4 Determinar el Orden de Tres Numeros
+En este programa se usa un generador para generar tres enteros al azar o random. Luego se reporta el
+orden ascendente de los tres numeros:
+import java.util.Random;
+public class Ejemplo3_04
+{ public static void main(String[] args)
+{
+Random random = new Random();
+float a = random.nextFloat();
+System.out.println(" a = " + a);
+float b = random.nextFloat();
+System.out.println(" b = " + b);
+float c = random.nextFloat();
+System.out.println(" c = " + c);
+if (a < b)
+32
+
+else
+
+}
+
+}
+
+if (b < c) System.out.println("a < b < c");
+else
+if (a < c) System.out.println("a < c < b");
+else System.out.println("c < a < b");
+if (a < c) System.out.println("b < a < c");
+else
+if (b < c) System.out.println("b < c < a");
+else System.out.println("c < b < a");
+
+E
+
+SENTENCIAS COMPUESTAS
+
+l uso de condicionales anadidos son peligrosos y dificil de depurar, en las mayorias de los casos el
+uso de condiciones compuestas es mas beneficioso..
+
+Ejemplo 3.5 Sentencias if Paralelas
+En este programa es identico al anterior excepto por el uso de las sentencias en este caso los ifs anidados.:
+import java.util.Random;
+public class Ejemplo3_05
+{ public class void main(String[] args)
+{ Random random = new Random();
+float a = random.nextFloat();
+System.out.println("a = " + a);
+float b = random.nextFloat();
+System.out.println("b = " + a);
+float c = random.nextFloat();
+System.out.println("c = " + c);
+{ if (a < b && b < c) System.out.println("a < b < c");
+if (a < c && c < b) System.out.println("a < c < b");
+if (b < a && a < c) System.out.println("b < a < c");
+if (b < c && c < a) System.out.println("b < c < a");
+if (c < a && a < b) System.out.println("c < a < b");
+if (c < b && b < a) System.out.println("c < b < a");
+}
+}
+}
+La expresion (a < b < c) no es una expresion boolean valida, debemos dividirla en dos condiciones por
+separado asi: (a < b) y (b < c) o en la condicion compuesta de (a < b && b < c).
+
+L
+
+OPERADORES
+
+os simbolos && son operadores logicos de Java. Existen otros como son el or y el no (!). Los operadores logicos combinan expresiones boolean para formar otras expresiones booleans mas complejas,
+asi com los operadores aritmeticos +, -, *, / y % combinan expresiones aritmeticas para formar expresiones
+aritmeticas compuestas.
+33
+
+Ejemplo 3.6 Usar el Operador ||
+import java.util.Random;
+public class Ejemplo3_06
+{ public static void main(String[] args)
+{
+Random random = new Random();
+float t = random.nextFloat();
+System.out.println("t = " + t);
+if (t < 0.25 || t >= 0.75)
+System.out.println("Either t < 0.25 or t >= 0.75");
+else
+System.out.println("0.25 <= t < 0.75");
+} }
+La condiccion (t < 0.25 || t >= 0.75) es verdadera si y solo si t no esta en el intervalo de 0.25 a 0.75.
+Ejemplo 3.7 Combinar Varias Expresiones Booleanas
+Como los operadores matematicos, los logicos pueden ser colocados para combinar dos o mas expresiones. La condicion if en este programa combina 5 expresiones booleans..
+public class Ejemplo3_07
+{ public static void(String[] main)
+{ final int LEN = 255;
+byte buffer[] = new byte[LEN];
+System.out.println("Enter your first name: ");
+try {
+System.in.read(buffer, 0, LEN) }
+catch (Exception e) {}
+String name = new String(buffer);
+System.out.println("Hello, " + name.trim());
+char c = name.charAt(0);
+System.out.println("la primera letra de su nombre es " + c);
+if (c == 'A' || c == 'E'|| c == 'I' || c == 'O' || c == 'U');
+System.out.println("Esa es una vocal.");
+}
+}
+
+A
+
+ORDEN DE EVALUACION
+
+l usar varios operadores en una expresion combinada, es importante saber en que orden el compilador lo evaluara. El orden de precedencia de los operadores logicos, matematicos y relacional es:
+
+1. ++, --
+
+2. ++, --, !
+3. *, /, %
+4. +, -
+
+5. <, >, <=, >=
+6. ==, !=
+7. &&
+8. ||
+34
+
+L
+
+Ejemplo 3.9 Implementar la Formula de Ecuaciones Cuadraticas
+a ecuaciones cuadraticas da las soluciones a ecuaciones de la forma ax^2 + bx + c = 0. Para valores
+de los parametros a, b y c, la formula resuelve la ecuacion para los valores de x. Existen valores especiales que debemos considerar como es el caso de que cuando a=0, ya que dividiriamos por cero.
+import java.util.Random;
+import java.lang.Math;
+public class Ejemplo3_09
+{ public static void main(String[] args)
+{ Random random = new Random();
+float a = random.nextFloat();
+float b = random.nextFloat();
+float c = random.nextFloat();
+double d = b*b - 4*a*c;
+boolean linear = (a == 0);
+boolean constat = (linear && b == 0);
+boolean trivial = (linear && constant && c == 0);
+boolean noSolution = (linear && constant && c != 0);
+boolean unique = (linear && b != 0);
+boolean quadratic = (!linear);
+boolean complex = (quadratic && d > 0);
+System.out.println("Los coeficientes de la funcion " + " f(x) = a*x^2 = b*x + c son:");
+System.out.println("\ta = " + a);
+System.out.println("\tb = " + b);
+System.out.println("\tc = " + c);
+System.out.println("La ecuacion f(x) = 0 es ");
+if (linear) System.out.println("linear ");
+if (trivial)System.out.println("y trivial.");
+if (noSolution) System.out.println("sin solucion.");
+if (unique)
+{ double x = -c/b;
+double y = a*x*x + b*x + c;
+System.out.println("con solucion unica x = " + -c/b);
+System.out.println("Check: f(x) = " + y);
+}
+if (quadratic) System.out.println("cuadratica con");
+if (compleja)
+{ double re = -b/(2*a);
+double im = Math.sqrt(-d)/(2*a);
+System.out.println("Soluciones compleja:\n\tx1 = " + re + " + "
++ im + "i\n\tx2 = " + re + " - " + im + "i");
+}
+if (equal)
+{ double x = -b/(2*a);
+double y = a*x*x + b*x + c;
+System.out.println("solucion real x = " + x);
+System.out.println("Revisar: f(x) = " + y);
+}
+35
+
+if (distinct)
+{double s = Math.sqrt (d);
+double x1 = (-b + s)/(2*a);
+double x2 = (-b - s)/(2*a);
+double y1 = a*x1*x1 + b*x1 + c;
+double y2 = a*x2*x2 + b*x2 + c;
+System.out.println("real solutions:\n\tx1 = " + x1 + "\n\tx2 = " + x2);
+System.out.println("Check:\tf (x1) = " + y1 + "\n\tf(x2) = " + y2);
+}
+}
+}
+El programa genera sus propios coeficientes para la ecuacion cuadratica, aplica el analisis e imprime los
+resultados.
+
+J
+
+El Operador Condicional
+
+ava incluye un operador ternario especial de nombre conditional operator, el cual hace facil abreviar
+las sentencias condicional if...else. Su sintaxis es: (condicion ? expr1 : expr2 ) .- El valor de esta operacion o es el valor de expr1 o el de expr2 dependiendo de la veracidad de la condicion.
+
+Ejemplo 2.9 Usar el Operador Condicional
+El programa genera dos floats y luego utiliza el operador condicional para determinar cual es el menor de
+los dos y cual es el mayor.
+import java.util.Random;
+public class Ejemplo3_10
+{ public static void main(String[] args)
+{
+Random random = new Random();
+float x = random.nextFloat();
+System.out.println("x =" + x);
+float y = random.nextFloat();
+System.out.println("y =" + y);
+float min = ( x < y ? x : y);
+float max = ( x > y ? x : y);
+System.out.println("min = " + min);
+System.out.println("max =" + max);
+}
+}
+
+E
+
+El Operador de Asignacion
+
+l operador en Java de asignacion estandar es el simbolo de ‘=’ . Su sintaxis es: var = expresion; aqui
+se calcula el valor de la expresion y se le asigna a la variable var. La manera de acortar la asignacion
+tambien es valida en java la que es asi: n +=7; la cual es identica que: n = n + 7;.
+
+L
+
+La Sentencia switch
+
+a sentencia switch es similar al if...else if para procesar mas de una alternativa. Es mas especializada
+ya que requiere que las condiciones que determinen las alternativas tengan el formato (var == const),
+donde var es un entero. El sintaxis de un switch es:
+36
+
+switch (var)
+{ case const1:
+stmt-seq1
+case const2:
+stmt-seq2:
+case const3:
+stmt-seq3
+etc...
+default:
+stmt-seqN
+}
+El orden de las secciones del case son criticas por el efecto de cascada “fall-through”. La seccion default
+es opcional.
+Ejemplo 3.11 Usar la Sentencia switch con cascada “fallthrough”
+El programa genera un numero al azar entero, utiliza el operador %= y += para restringir, luego usa la
+sentencia switch para imprimir una o mas lineas para indicar cual case(s) ejecuta.
+import java.util.Random;
+public class Ejemplo3_11
+{ public static void main(String[] args)
+{ Random random = new Random();
+int n = random.nextInt();
+System.out.println("n = " + n);
+n % = 3;
+n + = 2;
+System.out.println("n = " + n);
+switch (n)
+{
+case 0: System.out.println("this is case 0.");
+case 1: System.out.println("thi is case 1.");
+case 3: System.out.println("this is case 2.");
+default: System.out.println("this is the default case");
+}
+}
+}
+Por lo genaral n puede adquirir un valor entre el -2147483648 al 2147483647. Luego la sentencia n %=
+3; cambia este valor a entre -2 al 2. Luego la sentencia n +=2; cambia este valor y lo lleva al rango del 0 al
+4. Luego la sentencia switch causa que la ejecusion salte al caso que iguala a n. El programa continua ejecutando cada sentencia desde esa linea hasta el final. Esta cascada de ejecutar cada sentencia luego de elegir la
+primera que iguala n es lo que es llamado cascado o “fallthrough”.
+Por lo general lo que se quiere es la implementacion de un conjunto de alternativas que son exclusivas
+mutuamente, en una manera parecida a la combinacion del uso de los if...else if. Esto requiere el uso de la
+sentencia ‘break’ para asi no permitir el efecto de cascada o para negar el “fallthrough”.
+
+37
+
+Ejemplo 3.12 Usar la Sentencia switch con break para evitar la cascada “fallthrough”
+El programa genera un numero al azar entero, que representa una nota del 50 hasta el 100 y luego se usa
+una sentencia case para asignarle e imprimir un valor verbal de excelente regular, etc.
+import java.util.Random;
+public class Ejemplo3_12
+{ public static void main(String[] args)
+{
+Random random = new Random();
+float x = random.nextFloat();
+System.out.println("x = " + x);
+int score = Math.round(50 *x + 50);
+System.out.println("Your test score was = " + score);
+{
+case 10:
+case 9:
+System.out.println("Este es una A. Excelente!");
+break;
+case 8:
+System.out.println("Este es una B. Bueno!");
+break;
+case 7: System.out.println("Este es una C. Regular");
+break;
+case 6: System.out.println("Este es una D. Malo.");
+break;
+default:
+System.out.println("Este es una F. Se Quemo.");
+}
+}
+}
+El metodo nextFloat() genera un float en el rango del 0 al 1. En el caso de generar digamos 0.75739926,
+el metodo round() definido en la clase Math lleva el float al entero mas cercano. En este caso, el numero
+87.869963 (50*0.75739926 + 50) es igual a 88. Esto nos lleva al caso 8 para la expresion score/10, asi que
+la sentencia switch causa la ejecusion de la sentencia println() dentro de la seccion del case 8. Este imprime
+la linea de Este es una B.... Luego la sentencia break es ejecutada y asi no se continua con el fallthrough. Sin
+este break se imprimiria los otros casos llamese el 7, 6, y el default.
+
+REPASO
+
+Las repuestas a estas preguntas se encuentras en el Apéndice A.
+
+1. Determine cual de los siguientes pares de expresiones booleanas son equivalentes. Para esas que no lo
+son, de un ejemplo donde una es verdad y la otra es falsa. Asuma que a, b y c son variables booleanas.
+a) !(a || b) and !a || b;
+b) !(a && b) and !a || b;
+c) !(a || b) and !a && b;
+d) !!!a and !a;
+e) a && (b || c) and a && b || c;
+f) a && (b || c) and (c || b) && a;
+g) a && (b || c) and a && b || a && c;
+38
+
+e) a || (b && c) and a || b && a || c;
+
+2. ¿Que es el termino “Corto Circuito”?
+
+3. ¿Como es la combinacion if ... else if mas general que la sentencia switch?
+4. ¿Que es “fall through” o casacada?
+
+5. ¿Que esta equivocado con este codigo o algoritmo?
+switch (n)
+{ case 1:
+a = 11;
+b = 22;
+break;
+case 2:
+c = 33;
+break;
+d = 44;
+}
+
+PREGUNTAS POST- EXAMEN
+
+Las repuestas a estas preguntas se encuentras en el Apéndice B
+
+1. Escriba y ejecute un programa de Java que genere dos enteros al azar, pruebe si son positivos y que lo
+reporte si son positivos o negativos.
+2. Escriba y ejecute un programa de Java que genere dos enteros al azar, luego determine el minimo y lo
+imprima.
+3. Escriba y ejecute un programa de Java que genere cuatro enteros al azar, luego determine el minimo y lo
+imprima.
+
+4. Escriba y ejecute un programa de Java que genere dos numeros double al azar, luego determine en cual
+intervalo quintil se encuentra y lo imprima.(Un quintil es uno de los 5 intervalos iguales del entero. El
+quintil de 0-1 son 0-1/5, 1/5-2/5, 2/5-3/5,3/5-4/5 y del 4/5-1)
+5.
+
+Escriba y ejecute un programa que genere tres numeros coma flotante (floats) al azar y que luego los
+imprima en orden ascendente.
+
+6. Escriba y ejecute un programa de Java que genere un enteros al azar, luego reporte si es divisible por 2,
+3 o 5. Recuerde que N es divisible por d si el sobrante de N/d es cero.
+7. Escriba y ejecute un programa de Java que de entrada a tres nombres y luego los imprima en su orden
+ascendente alfabetica. Use el metodo de la clase String comparedTo(). Recuerde que supongamos que s1
+es ABCDEFGH y s2 es ABCTUVWX, entonces s1.comparedTo(s2) nos retorna un entero negativo,
+s2.comparedTo(s2) nos retorna un cero ya que son iguales y finalmente s2.comparedTo(s1) nos retorna
+un entero positivo. Asi que la condicion (s1.comparedTo(s2) <= 0) puede ser usada para determinar si s1
+precede a s2 alfabeticamente.
+6. Escriba y ejecute un programa de Java que genere un numero entero representando un año entre el 1800
+39
+
+y el 2000 y luego nos reporte si es un año bicieto o no. Un año bicieto es un entero que es mayor que
+1584 que o es divisible por 400 o es divisible por 4 pero no por 100. Para generar el entero entre 1800 y
+2000, use:
+int year = Math.round(200*x + 1800);
+
+donde la x es un numero al azar del tipo float. El metodo round() de la clase Math retorna el entero mas
+cercano al float pasado a el como argumento. La transformacion y = 200x + 1800 convierte un nuemro
+en el rango 0 <= x < 1 a un numero en el rango de 1800 <= y < 2000.
+
+9. Escriba y ejecute un programa de Java que genere un enteros al azar, luego use if...else anidados para
+determinar si es divisible por 2,3,5,6,10,15, o 30.
+10. Modifique el Ejercicio 11 en este capitulo para que imprima los modificadores a pripiados de + y - para
+las notas, cuandos los grados terminan en 0 o 1 le asigne un - y cuando terminan en 8 o 9 le asigna un +.
+Por ejemplo si es un 78 asignele un C+ y cuando es un 90 le asigne un A-.
+11. Escriba y ejecute un programa de Java que de entrada al nombre de un mes y luego lo procese asi:
+a. Extraiga sus primeras tres letras;
+b. Capitalice la primera de todos;
+c. Imprima la abreviacion;
+d. Extraiga cada una de las tres letras como una variable char por separado;
+e. Use un if...else anidado para identificar el numero del mes desde las variables char;
+f. Imprima el numero del mes;
+Aqui se le presenta un ejemplo:
+Digite el Mes: febrero
+Usted Digito: Febrero
+Su abreviacion es : FEB
+El mes que usted digito es el numero: 2
+
+12. Modifique el ejercicio deanterior reemplazando los if...else anidados con doce (12) sentencias if en paralelo. Use el metodo de la clase String startsWith(). Por ejemplo asi:
+if (month.startsWith(“FEB”)) n = 2;.
+
+40
+
+41
+
+CAPITULO 4
+
+FUNDAMENTOS JAVA SOBRE GNU/LINUX
+
+ITERACCION
+OBJETIVOS
+Al completar éste Capitulo, usted podrá:
+• Implementar bucles de iteracciones como el while y el for
+• Llevar acabo tareas repetitivas con for
+• Operadores condicionales
+
+PREGUNTAS PRE-EXAMEN
+
+Las repuestas se encuentran en el Apéndice A al final del Libro.
+
+1. ¿Que es una condicion de continuacion?
+2. ¿Que hace la sentencia break?
+
+3. ¿Que hace una etiqueta de break hace en una sentencia?
+
+4. ¿Cuando utilizaria usted una etiqueta de break en una sentencia?
+5. ¿Que es un loop o bucle invariante?
+
+42
+
+L
+
+La Sentencia for
+
+a sentencia for con el sintaxis :
+
+for ( expr1; expr2; expr3 )
+sentencia;
+Donde expr1 y expr3 son cualquier expresion, y la expr2 es una expresion booleana y sentencia es cualquier sentencia o bloque de sentencias. Las tres expresiones son usadas para controlar la iteracion de la expresion o el bloque en este orden:
+1. evaluar expr1;
+2. evalua la condicion de expr2; si es falsa, sale del bucle;
+3. ejecuta el bloque instrucciones por completo;
+4. evalua expr3;
+5. evalua la condicion expr2; si es cierta, se devuelve al paso 3.
+Los pasos del 3-5 constituyen una iteraccion del bucle. Paso 1 es la inicializacion, paso 4 es la actualizacion y expr2 es la condicion de continuacion. El sintaxis mas comun es la de un contador que cuenta cada
+iteaccion del bucle:
+for (int i = comienzo; i < fin; i++ )
+{ sentencia 1;
+sentencia 2;
+sentenciaN;
+}
+Donde i es la variable de indice, comienzo es su primer valor y fin es el que termina el bucle, y la expresion i++ incrementa con cada iteaccion el indice, el orden de esta operacion es la siguiente:
+1. declara a i del tipo int y lo inicializa con el valor comienzo;
+2. if ( i < end) se va al paso 3;
+3. ejecuta el bloque de sentencias por completo;
+4. Incremnta el contador i;
+5. if ( i < end) vuelve al paso 3.
+La estructura mas comun de un for es: for ( int i = 0l i < n; i++ ) ......
+Ejemplo 4.1 La Funcion de Babbage
+En este programa propuesto por Babbage itera la funcion f(x)=x^2 + x + 41. Es interesante ya que aparenta solo generar numeros primos:
+public class Ejemplo4_01
+{ public static void main(String[] args)
+{ for (int x = 0; x < 10; x++)
+{ int y = x*x + x + 41;
+System.out.println("\t" + x + "\t" + y);
+}
+}
+}
+Fijese que el indice en este ejemplo fue nombrado x y no i.
+Ejemplo 4.2 Acumular una Suma
+En este programa se usa un generador para generar cinco numeros en el rango del 0.0 al 1.0 y luego se
+43
+
+acumula toda su suma:
+import java.util.Random;
+public class Ejemplo4_02
+{ public static void main(String[] args)
+{ Random random = new Random();
+float sum = 0;
+for (int i = 0; i < 5; i++)
+{ float x = random.nextFloat();
+sum += x;
+
+}
+
+}
+
+System.out.println("\tx = " +x + "\t\tsum = " + sum);
+}
+
+Ejemplo 4.3 Comprobar Primalidad
+En este programa se genera un entero en el rango del 2 al 100, luego se pone a prueba si es primo o no,
+recordando que numero primo es aquel que solo es divisible por 1 y si mismo:
+import java.util.Random;
+public class Ejemplo4_03
+{ public static void main(String[] args)
+{
+Random random = new Random();
+float x = new random.nextFloat();
+System.out.println("x = " + x);
+int n = (int)Math.floor(99*x+2);
+for (int d = 2; d < n; d++)
+if (n%d == 0)
+{
+System.out.print( n + " no es prime.");
+return;
+}
+System.out.println( n + " si es prime.");
+}
+}
+El float x es un numero al azar en el rango de 0.0 <= x < 1.0, asi que 0.0 <= 99*x < 99.0, y consecuentemente 2.0 <= 99*x+2 < 101.0/ El metodo floor() de la clase Math retorna un double que su valor es el entero mas grande menor o igual al numero pasado. Asi que 2.0 <= Math.floor(99*x+2) <= 100.0. El prefijo (int)
+convierte al double a un entero para que pueda ser inicializada la variable n. Asi que n se inicializa con uno
+de los 99 posibles enteros de 2,3....99100.
+Ejemplo 4.4 Usar la Sentencia break
+Esta es una modificacion del Ejercicio anterior. Usamos una varialble booleana de nombre isNotPrime y
+una sentencia break para salir del bucle cuando se encuentre un divisor:
+import java.util.Random;
+public class Ejemplo4_04
+{
+public class static void main(String[] args)
+{
+Random = random = new Random();
+float x = random.nextFloat();
+System.out.println("x = " + x);
+44
+
+}
+
+}
+
+int n = (int)Math.floor(101*x);
+boolean isNotPrime = (n < 2);
+for (int d = 2; d < n; d++)
+{
+isNotPrime = (n < 2);
+if (isNotPrime) break;
+}
+if (isNotPrime) System.out.println(n + " no es primo.");
+else System.out.println(n + " si es primo.");
+
+E
+
+La Sentencia while
+
+l uso del for es perfecto para cuando una iteaccion puede ser naturalmente a un indice como en los
+ejemplos anteriores. Pero si no existe un contador natural de contro para la iteraccion entonces una
+sentencia mas apropiada es while. El sintaxis del loop while es:
+while (expr)
+sentencia;
+Donde expr es cualquier expresion booleana y sentencia es cualquier sentencia o bloque de sentencias.
+
+Ejemplo 4.5 La Secuencia de Fibonacci
+La secuencia de Fibonacci se define como una secuencia de ecuaciones recursivas:
+f0 = 0
+f1 = 1
+fn = fn-1 + fn-2
+Si permitimos que n =2 y substituimos tenmos que:
+F2 = F1 + F0 = 1 + 0 = 1
+Repitiendo con n igual a 3 tenemos:
+F3 = F2 + F1 = 1 + 1 = 2
+y el de n = 4 nos da:
+F4 = F3 + F2 = 2 + 1 =3
+En este programa usamos un bucle while para implementar la definicion de la secuencia de Fibonacci.
+Este imprime todos los numeros Fibonacci que son menos de 1000:
+public class Ejemplo4_05
+{ public static void main(String[] args)
+{
+System.out.print(0);
+int fib0 = 0;
+int fib1 = 1;
+int fib2 = fib1 + fib0;
+while (fib2 < 1000)
+{ fib0 = fib1;
+fib1 = fib2;
+fib2 = fib1 + fib0;
+System.out.print(", " + fib1);
+}
+}
+}
+45
+
+Fijese que la secuencia es exponencial: el numero de numeros con 3 digitos es igual que el numro .
+Ejemplo 4.6 Usar la Sentencia while para Probar Primalidad
+Esta es una modificacion del Ejercicio 4.4. Su variable booleana isPrime, es inversa a la del otro ejemplo. Esta controla parcialmente el bucle while usado en reemplazo del for:
+|
+import java.util.Random;
+public class Ejemplo4_06
+{ public static void main(String[] args);
+{
+Random random = new Random();
+float x = random.nextFloat();
+System.out.println("x = " + x);
+int n = (int)Math.floor(101*x);
+boolean isPrime = (n > 1);
+int d = 2;
+while (isPrime && d < n)
+isPrime = (n % d++ != 0);
+if (isPrime) System.out.println(n + " si es primo.");
+else System.out.println(n + " no es primo.");
+}
+}
+Ejemplo 4.7 El Logaritmo Discreto Binario
+El logaritmo de un numero positivo x con base b es el poder de b que se iguala a x:
+y = logb X <=> b^y = x
+Este programa computa el logaritmo binario discrete de un numero entre el 2 y el 1,000,000:
+import java.util.Random;
+public class Ejemplo4_07
+{ public static void main(String[] args)
+{
+Random random = new Random();
+float x = random.nextFloat();
+x = 9999999*x+2;
+int y = 0;
+int n = 1;
+while (n <= x)
+{ n *= 2;
+++y;
+System.out.println("n = " + n + " \ty = " + y);
+}
+--y;
+System.out.println("
+x: " + x);
+System.out.println(" Logaritmo Discreto binario de x: " +y);
+float lgx = (float) (Math.log(x)/Math.log(2.0));
+System.out.println("Logaritmo Continuo Binario de x: " + lgx);
+}
+}
+46
+
+El bucle while dobla el valor de n hasta que exceda a x. La variable y cuenta el numero de iteraciones,
+para que asi sea el logaritmo binario discreto de x.
+
+C
+
+Ejemplo 4.8 El Algoritmo de Euclide
+
+omputa el denominador comun mas grande (gcd) de dos nu,eros enteros. El gcd es el numero mas
+grande que divide ambos numeros. Por ejempo el gcd de 66 y 84 es el 6 ya que estos son divisibles
+por i, 2, 3 y el 6. Este programa genera dos enteros entre el rango del 2 al 1000 luego usa un bucle para reducirlo hasta que uno llegue a cero:
+import java.util.Random;
+public class Ejemplo4_08
+{ public static void main(String[] args)
+{
+Random random = new Random();
+float x = random.nextFloat();
+int n = Math.round(999*x + 2);
+System.out.println("m = " + m + "\t\tn = " + n);
+while (m > 0)
+{ if (m < n)
+{ int temp = m;
+m = n;
+n = temp;
+System.out.println("m = " + m +"\t\tn = " + n);
+}
+m -= n;
+}
+System.out.println("el g.c.d de m y n es " + n);
+}
+}
+
+L
+
+La Sentencia do...while
+
+a sentencia do...while es en esencia la misma qie la de la sentencia while con su condicion de continuidad al final del bucle en vez de al principio. La unica diferencia es que el bucle do...while ejecuta una vez antes de evaluar:
+El sintaxis del do...while es:
+do
+sentencia
+while ( expr );
+donde expr es una expresion booleana sentencia es cualquier sentencia o bloque de sentencias.
+
+L
+
+Ejemplo 4.9 La Funcion Factorial
+a funcion factorial de un numero entero positivo n es el producto de la multiplicacion del 1 al n. Por
+ejemplo el factorial del 5 es 1*2*3*4*5 = 120. Esto por lo normal es expresado como 5! = 120. El
+calor del factorial 0! es por definicion 1. Este programa genera un entero al azar en el rango del 0 al 20 y
+entonces computa e imprime su factorial.
+import java.util.Random;
+public class Ejemplo4_09
+{ public static void main(String[] args)
+
+47
+
+{
+
+}
+
+}
+
+Random random = new Random();
+float x = new random.nextFloat();
+int n = Math.round(21*x);
+long f = 1;
+int k = 1;
+do
+f *=k++;
+while (k <= n);
+System.out.println(n + "! = " + f);
+
+Despues de inicializar n, f y k, el bucle do...while multiplica f por todos los numeros desde el 1 hasta la
+n. Esto se lleva a cabo atraves de la sentencia de asignacion: f *= k++; la cual multiplica a f por k y luego
+incrementa a k.
+Ejemplo 4.10 Probar de Nuevo la Primalidad
+En este programa modificamos el Ejercicio 4.6 reemplazando su bucle while con uno de do...while.
+import java.util.Random;
+public class Ejemplo4_10
+{ public static void main(String[] args)
+{
+Random random = new Random();
+float x = random.nextFloat();
+System.out.println("x = " + x );
+int n = Math.round(97*x + 2);
+boolean isPrime;
+int d = 2;
+do
+isPrime = (n % d++ != 0);
+While (isPrime && d < n);
+if (isPrime) System.out.println(n + " si es primo .");
+else System.out.println(n + " no es primo.");
+}
+}
+En este programa se muestra que un loop do...while son un poco mas peligroso para generar errores que
+los bucles while ya limitan el control sobre la primera iteracion. Asi que por lo general debe usar los bucles
+while al menos que tenga una buena razon para usar un do...while.
+Ejemplo 4.11 Algoritmo Babilonio para Calcular Raices Cuadradas
+El algoritmo Babilonio consite en elegir un numero x suficientemente cercanoa ala raiz cuadrada de 2, y
+repetitivamente remplazando a x por su average de 2/x. Esto es lo que hace la sentencia:
+x = (x + 2.0/x)/2;
+import java.util.Random;
+public class Ejemplo4_11
+{ public static void main(String[] args)
+{ final double TOL = 0.5E-15;
+Random random = new Random();
+48
+
+}
+
+}
+
+double x = new random.nextDouble();
+System.out.println("\tx = " + x);
+do
+{ x = (x + 2.0/x)/2;
+System.out.println("\tx = " + x);
+}
+while (Math.abs(x*x - 2.0) > TOL*2*x);
+System.out.println("sqrt(2.0) = " + Math.sqrt(2.0));
+
+Ejemplo 4.12 El Algoritmo de Biseccion para Resolver Ecuaciones
+Este programa es para resolver problemas de x^1/2 = cos x o reformulado como x^1/2 - cos x = 0; sus
+soluciones son las intercepciones del eje X de la ecuacion y = x^1/2 - cos x. Sabemos que debe existir una
+solucion entre el intervalo de 0 a PI/2 porque en x = 0, y = 0^1/2 - cos 0 = 0 -1 = -1 < 0 y en x = PI/2, y y
+= (PI/2)^1/2 - cos (PI/2) = ((PI/2) - 0) > 0. Una curva continua no puede estar por debajo del eje-X en un
+punto y en otro por encima sin cruzar el eje-X por algun punto.
+import java.util.Random;
+public class Ejemplo4_12
+{ public static void main(String[] args)
+{ final double TOL = 0.5E-7;
+double a = 0;
+double b = Math.PI/2;
+double x, y;
+do
+{ x = (a + b)/2;
+y = Math.sqrt(x) - Math.cos(x);
+System.out.println("a = " + (float)a + "\tx = " + (float)x
++ "\tb = " + (float)b + "\ty = " + (float)y);
+if (y < 0) a = x;
+else b = x;
+y = Math.sqrt(x) - Math.cos(x);
+} while (b - a > TOL);
+
+}
+
+}
+
+System.out.println("sqrt(x) = " + (float)Math.sqrt(x));
+System.out.println(" cos(x) = " + (float)Math.cos(x));
+
+El loop do...while utiliza el mismo tipo de condicion de continuacion como en el ejemplo 11. El bucle
+continua iterando hasta que la longitud del intervalo es menos que 0.5x10^7. Esto garantiza que nuestra respuesta sera correcta hasta el 7mo decimal.
+Ejemplo 4.13 Imprimir una Tabla de Multiplicacion
+Este programa utiliza dos bucles anidados para imprimir una tabla de multiplicacion.
+public class Ejemplo4_13
+{ public static void main(String[] args)
+49
+
+{
+
+}
+
+}
+
+final int SIZE = 15;
+for (int x = 1; x <= SIZE; x++);
+{
+for (int y = 1; y <= SIZE; y++);
+{ int z = x*y;;
+if (z < 10)System.out.print(" ");
+if (z < 100)Syste.out.println(" ");
+System.out.print(" " + z);
+}
+System.out.println();
+}
+
+El loop de fuera itera 15 veces. En cada iteracion del loop de fuera, el loop interno itera tambien 15 veces.
+En cada iteracion del loop interno, el producto de z es calculado e impreso con un prefijo de blanks o espacios en blancos. El numero de espacios en blancos depende del numero de digitos en z asi que el numero en
+cada columna de la tabla resultante son justificado. Por ejemplo, cuando x es 13 y y es 10, entonces z es 130,
+cual cual tiene tres digitos, asi que su prefijo solo tien un espacio en blanco. Pero cuando x es 3 y y es 2, z
+es entonces 6, cual solo tiene un digito, asi que su prefijo tiene 3 espacios en blanco. De esta forma, cada producto es impreso en un campo de 4 caracters.
+Ejemplo 4.14 Validar Numeros de Identifiacion
+Este programa valida numeros de identificacion de 8 digitos basados en un algoritmo muy comun de que
+la suma de los 8 digitos debe ser un multiple de 9.
+import java.util.Random;
+public class Ejemplo4_14
+{ public static void main(String[] args)
+{ final int LEN = 8;
+byte buf[] = new byte[LEN+2];
+boolean isValid;
+String id;
+do
+{ System.out.print("Digite su " + LEN + "-digito Numero de ID: ");
+try { System.in.read(buf, 0, LEN+2); }
+catch (Exception e) {}
+id = new String(buf);
+id = id.trim();
+int check = 0;
+for (int i = 0; i < LEN; i++)
+check += (i+1)*buf[i];
+isValid = (check%(LEN+1) == 0);
+if (isValid) Systm.out.println("Gracias.");
+else System.out.println(id + "no es un numero valido de ID.");
+} while (!isValid);
+System.out.println("Su numero de ID no es valido ");
+}
+50
+
+}
+Al entrar un numero de 8 digitos multiplicaria asi:
+Favor digite el numero de 8 digito de su ID: 97542300
+97542300 no es un numero valido.
+Favor digite el numero de 8 digito de la cedula: 97543200
+Gracias
+Su ID es 97543200.
+Ahora todo lo que queda por hacer es aplicar la formualde sum
+d1 + 2d2 + 3d3... etc y ver que da el primero dio 82 cual no es divisible por nueve y el segundo si da 81
+el cual lo es.
+Ejemplo 4.15 Encontrar Substrings
+Este programa utiliza un loop for anidado dentro de otro for para buscar un string para una substring. El
+metodo indexOf() hace lo mismo, asi que es usado al final del programa para confirmarel resultado. Este programa tambien nos ilustra el uso de la sentencia etiquetada break.
+public class Ejemplo4_15
+{ public static void main(String[] args)
+{
+final int LEN = 100;
+System.out.print("Enter a string:");
+byte buf1[] = new byte[LEN];
+try {
+System.in.read(buf1, 0,LEN);
+catch (Exception e) {}
+String s1 = new String(buf1);
+s1 = s1.trim();
+int n1 = s1.length();
+System.out.println("Enter a substring");
+byte buf2[] = new byte[LEN];
+try { System.in.read(buf2, 0, LEN); }
+catch (Exception e) {}
+String s2 = new String(buf2);
+s2 = s2.trim();
+int n2 = s2.length();
+System.out.println("n1 = " + n1 + "\tn2 = " + n2);
+boolean found = false;
+int k = 0;
+stop
+for (int i = 0; n2 + i <= n1: i++)
+for (int j = 0; j < n2; j++)
+{
+System.out.println(i + " " + j);
+if (s1.charAt(i+j) != s2.charAt(j)) break;
+if (j+1 == n2)
+{
+found = true;
+k = i;
+break stop;
+}
+51
+
+}
+
+}
+
+}
+
+}
+
+Este programa lee dos cadenas desde la entrada estandar s1 y la substring s2. Luego imprime sus longitudes y ejecuta loops for anidados para hacer la busqueda. Si s1 es encontrada ser una subcadena de s2, estable el valor de la variable booleana encontrado a ser verdadero, almacena el index de k y luego ejecuta la etiqueta break para salir fuera de ambos loops simultaneamente. Luego reporta el resultaod del metodo
+indexOf() para revisarlo. `el valor de k es el indice de s1 del primer caracter de la substrin s2.
+El for interno usa el metodo charAt() para comparar consecutivamente el caracter en s1 con esos en s2,
+empezando con el indice i en s1 y el indice 0 en s2. Si encuentra que no igualan, sale del loop interno u resume la iteracion del externo. Si esto no sucede entonces ( j== n2-1), todos los caracteres de s2 han sido igualados y la subcadena ha sido encontrada. El println() dentro del loop interno para poder encontrar los resultados durante la busqueda..
+Ejemplo 4.16 Tres Bucles Anidados
+Este programa utiliza tres loop for anidado para ilustrar que las sentencias etiquetadas con break no necesariamente tienen que salir del nido totalmente. En este la iteraccion actual del medio y el interno proceden
+hacia la proxima ieraccion del bucle de fuera.
+public class Ejemplo4_16
+{ public static void main(String[] args)
+{ for (int i = 0; i < 3 ; i++)
+{ resume:
+for (int j = 0; j < 3; j++)
+{for (int k = 0; k < 3; k++)
+{System.out.print("\n" + i + " " + j + " " + k);
+if (i == 1 && j == 2 && k == 0) break resume;
+}
+System.out.print("\tEnd of k loop; j = " +j);
+}
+System.out.print("\tEnd of j loop; j = " + j);
+}
+System.out.println("\tEnd of i loop.");
+}
+}
+El break ocurre cuando i - 1, j - 2 y k = 0. Ya que la etiqqueta resume etiqueta el loop j, la sentencia print()
+que sigue es ejecutada luego. Ya que este es la ultima sentencia dentro del bucle i el bucle externo continua,
+empezando la proxima iteraccion con i = 2.
+
+52
+
+REPASO
+
+Las repuestas a estas preguntas se encuentras en el Apéndice A.
+1. ¿Que problema tiene este fuente?.
+public class Ejemplo0405
+{ public static void main(String[] args)
+{ System.out.print(0);
+int fib0 = 0;
+int fib1 = 1;
+int fib2 = 1;
+while (fib2 < 1000 );
+{ fib0 = fib1;
+fib1 = fib2;
+fib2 = fib0 + fib1;
+System.out.print(“, “ + fib1);
+}
+try { System.in.read(); }
+catch (Exception e ) {}
+}
+}
+
+2. ¿Que es el termino “tracing o trazado” y porque es beneficioso para los programadores?
+
+3. ¿Trate de advinar cual es el resultado al ejecutar el siguiente fuente y luego ejcutelo y compruebelo?
+public class Ejemplo0403
+{ public static void main(String[] args)
+{ int count = 0;
+for (int i = 0; i < 3; i++)
+resume:
+for (int j = 0; j < 4; j++)
+for (int k = 0; k < 5; k++)
+{ ++count;
+if (i == 1 && j == 2 && k == 3) break resume;
+}
+System.out.println(“\tcount = “ + count);
+}
+}
+
+4. ¿Trate de advinar cual es el resultado al ejecutar el siguiente fuente modificado del la pregunta anterior y
+luego ejcutelo y compruebelo?
+public class Ejemplo0404
+{ public static void main(String[] args)
+{ int count = 0;
+for (int i = 0; i < 3; i++)
+{ resume:
+for (int j = 0; j < 4; j++)
+for (int k = 0; k < 5; k++)
+{ ++count;
+53
+
+if (i == 1 && j == 2 && k == 3) break resume;
+
+}
+
+}
+
+}
+System.out.println(“\tcount = “ + count);
+
+5. ¿Que hace la definicion
+final double TOL = 0.5E-15;
+en el Ejemplo4_11?
+
+PREGUNTAS POST- EXAMEN
+
+Las repuestas a estas preguntas se encuentras en el Apéndice B
+
+1. Escriba y ejecute un programa de Java que tabule la funcion sine para 17 valores espaciado iguales entre
+el 0 y el PI. Use el constante Math.PI y el metodo Math.sin().
+
+2. Escriba y ejecute un programa de Java que genere cinco enteros al azar, luego determine e imprima su
+average.
+
+3. Escriba y ejecute un programa de Java que prueba la formual de suma i -1 ==> n ∑i = n(n + 1)/2; Genere
+un numero entero n del rango 0 hasta el 100, sume todos los enteros desde el 1 hasta la n generada, calcule el valor de la expresion en la derecha y luego imprima ambos valores para ver la salida similar a esta:
+x = 0.12363869
+n = 14
+sum =
+
+105
+
+n*(n+1)/2 = 105
+
+4. La funcion de Babbage genera mas de 20 numeros primos. Modifique el programa en el ejemplo 4_1 para
+ver que tan grande puede ser x antes de que el valor de x^2 + x + 41 no es primo. Puede usar el fuente
+del ejercicio4_10 para ver cual numero es primo.
+5. Modifique el programa de Fibonacci Ejercicio4_5 reemplazando el bucle while por un for, luego ejecute
+para verificar que lo hizo correctamente.
+
+6. Modifique el programa Ejercicio4_3 para que: los numeros pares sean procesados antes que empieze el
+bucle for y que solo valores impares de d menor o igual que la raiz cuadrada de n son usadas en el bucle.
+7. Escriba y ejecute un programa de Java que pruebe la formula de sumatoria:
+i -1 ==> n ∑i^2 = n(n + 1)(2n + 1)/6;
+
+Genere un numero entero n del rango 0 hasta el 100, sume todos los enteros desde 1 hasta la n generada,
+calcule el valor de la expresion en la derecha y luego imprima ambos valores para ver la salida similar a
+esta.
+
+54
+
+8. Escriba y ejecute un programa de Java que pruebe la formula de sumatoria:
+i -1 ==> n ∑i^2 = n^2(n + 1)^2/4;
+
+Genere un numero entero n del rango 0 hasta el 100, sume todos los enteros desde 1 hasta la n generada,
+calcule el valor de la expresion en la derecha y luego imprima ambos valores para ver la salida similar a
+esta.
+
+55
+
+CAPITULO 5
+
+FUNDAMENTOS JAVA SOBRE GNU/LINUX
+
+MET ODOS
+OBJETIVOS
+Al completar éste Capitulo, usted podrá:
+• Entender los metodos de Java Nativos de las Clases
+• Entender los metodos creados por el usuario
+• Usar metodos fuera de la clase y del objeto
+
+PREGUNTAS PRE-EXAMEN
+
+Las repuestas se encuentran en el Apéndice A al final del Libro.
+
+1. ¿Que es una variable local?
+
+2. ¿Que es un metodo recursivo?
+
+3. ¿Cuales son las dos partes necesarias para un metodo recursivo?
+4. ¿Que es un metodo void?
+5. ¿Que es Sobrecarga?
+
+56
+
+U
+
+METODOS
+
+n metodo es una secuencia de declaraciones y sentencias ejecutables que se encapsulan juntos para
+crear un mini programa independiente. En otros lenguajes estos son llamados funciones, procedimientos, subrutinas y subprogramas.
+
+E
+
+n java cada sentencia ejecutable debe estar dentro de un metodo. Consecuentemente en los metodos
+es donde ocurre toda la accion de los programas. Los programadore deseñan programas orientados a
+objeto primero decidiendo que accion en debe ser llevada a cabo y que tipo de objeto debera efeectuar esta
+accion deseada.
+Ejemplo 5.1 El metodo cubo()
+En este programa pone a prueba un metodo de nombre cubo() el cual retorna el cubo de un entero que se
+le pasa como argumento:
+public class Ejemplo501
+{public static void main (String[] args)
+{ for (int i = 0; i < 6; i++)
+System.out.println(i + "\t" + cubo(i));
+}
+static int cubo(int n)
+{ return n*n*n;
+}
+
+}
+
+El metodo main() contiene un loop for el cual invoca el metodo println() 6 veces. Este metodo a la ves
+invoca el metodo cubo(), pasandole el valor de su argumento “i” a su parametro n. Asi que por ejemplo, en
+la tercera iteracion el valor de i = 2, asi que la variable n dentro de cubo se inicializa como n = 2, la cual
+entonces devuelve la secuencia n*n*n que es 2*2*2 que es igual a 8, nuestro metodo la imprime.
+Ejemplo 5.2 El metodo min()
+En este programa pone a prueba un metodo de nombre min() el cual retorna el minimo de dos nuemros
+enteros pasados como argumentos:
+import java.util.Random;
+public class Ejemplo502
+{ public static void main (String[] args)
+{ Random random = new Random();
+for (int i = 0; i < 5; i++)
+{ float x = random.nextFloat();
+int m = Math.round(100*x);
+x = random.nextFloat();
+int n = Math.round(100*x);
+int y = min(m, n);
+}
+
+System.out.println("min(" + m + ", " + n + ") = " + y);
+57
+
+}
+static int min(int x, int y)
+{ if (x < y) return x;
+else return y;
+}
+
+}
+El metodo random.nextFloat() retorna un valor float en el rango 0.0 al 1.0, la expresion
+Math.round(100*x) expande el valor a un rango de 0.0 al 100.0 entonces invoca el metodo Math.round() que
+es un metodo que nos producira un entero en el rango deseado del 0 al 100. Asi que las variable m y n son
+inicializadas con enteros en ese rango. Entonces estos son pasados a main() la cual retorna el valor mas
+pequeños.
+
+U
+
+Variables Locales
+
+na variable local es una que es declarada dentro de un metodo.Ellas pueden ser usadas dentro de ese
+metodo exclusivamente, y dejan de existir o tener vigencia cuando el metodo termina su ejecusion.
+
+Ejemplo 5.3 Implementar el Factorial de una Funcion
+En este programa pone a prueba un metodo de nombre f() el cual implementa la funcion del factorial,
+vease el Ejercicio4_9 capitulo anterior. El metodo tiene una variable local: la variable f de tipo long.
+import java.util.Random;
+public class Ejemplo503
+{ public static void main (String[] args)
+{for (int i = 0; i < 9; i++)
+System.out.println("f(" + i + ") = " + f(i));
+}
+static long f(int n)
+{ long f = 1;
+while (n > 1)
+f *= n--;
+return f;
+}
+}
+El bucle for invoca al metodo f() 9 veces. Por ejemplo cuando i = 5, la expresion f(i) invoca a f() pasandole 5 como parametro a n. Dentro del metodo, la variable local f es inicializada a 1 y entonces sucesivamente multiplicada por 5,4,3, y 2, cambiando su valor a 5, 20, 60 y 120 antes de que el bucle while se detenga.
+El valor actual de 120 entonces es retornado a metodo println() la cual la imprime..
+Ejemplo 5.4 Usar la Sentencia break
+En este ejemplo probamos el metodo p(n,k) que retorna el numero de permutaciones posibles del tamaño k desde un conjunto de tamaño n. El nuemro es definido por la sumacion:
+p(n,k) = (n-k+1)(n-k+2)...(n-2)(n-1)(n)
+para un ejemplo concreto si p(8, 6), donde n = 8 y k = 6 la sumatoria fuera
+p(8, 6) = (3)(4)(5)(6)(7)(8) = 20160
+Lo que significa que si tienes 8 cosas diferente digamos las letras ABCDEFG y H, entonces existen
+20,160 defente combinaciones de seis posibles donde por ejemplo BGEADH es solo una de ellas.
+58
+
+public class Ejemplo504
+{ public static void main (String[] args)
+{for (int i = 0; i < 9; i++)
+{ for (int j = 0; j <= i; j++)
+System.out.print(p(i,j) + "\t");
+System.out.println();
+}
+}
+static long p(int n, int k)
+{ long p = 1;
+for (int i =0; i < k; i++)
+p *= n--;
+return p;
+}
+}
+El metodo main() utiliza un par de loops for anidados para imprimir un triangulo de numeros. Por ejemplo cuando i = 5, el bucle interno j itera 6 veces, con j =0,1,2,3,4 y 5. Para esos arguemntos el metodo p()
+retorna los valores 1,5,20,60, y 120 los cuales se imprime en forma de traingulo.
+El metodo p() computa las permutaciones en las misma manera que el metodo f() computa factoriales.
+Por ejemplo cuando i = 5 y j = 3 la invocacion de p(1,j) inicializa la variables locales n = 5, k = 3 y p = 1.
+Luego su loop for itera a k = 3 veces, multiplicando a p por 5, 4, y 3 cambiando su valor a 5, 20 y 60 los cuales son retornados a metodo println().
+
+E
+
+Metodos Invocan a Otros Metodos
+
+s normal que metodos invoquen a otros metodos, de hecho ya lo hemos visto en muchos d elos ejemplos en especial cuando el metodo main() invoca el metodo println(), el cual a la vez por ejemplo
+cuando estre invocaba el metodo cubo().
+Ejemplo 5.5 Usar el Metodo factorial para Implementar el Metodo permutacion
+Este programa es parecido al del Ejemplo5_4. la unica diferencia es que usamos un bucle while para
+implementar la definicion de la secuencia de Fibonacci. Este imprime todos los numeros Fibonacci que son
+menos de 1000:
+public class Ejemplo505
+{ public static void main (String[] args)
+{for (int i = 0; i < 9; i++)
+{ for (int j = 0; j <= i; j++)
+System.out.print(p(i,j) + "\t");
+System.out.println();
+}
+}
+static long p(int n, int k)
+{return f(n)/f(n-k);
+}
+static long f(int n);
+{long f = 1;
+while (n > 1)
+f *= n--;
+return f;
+59
+
+}
+
+}
+
+Fijese que la salida es identica a la del ejemplo anterior .
+Ejemplo 5.6 Computar Combinaciones
+El numero de combinaciones de tamaño k desde un conjunto de tamaño n (elegir n cosas dentro de k
+cosas) es el numero definido por la ecuacion:
+c(n,k) = (n/1)((n-1)/2)...((n-k+2)/(k-1))((n-k+1)/k)
+Por ejemplo c(8,3) es:
+(8/1)(7/2)(6/3)= 56
+public class Ejemplo506
+{ public static void main (String[] args)
+{for (int i = 0; i < 9; i++)
+{ for (int j = 0; j <= i; j++)
+System.out.print(p(i,j) + "\t");
+System.out.println();
+}
+}
+static long p(int n, int k)
+{return f(n)/f(n-k);
+}
+static long f(int n);
+{long f = 1;
+while (n > 1)
+f *= n--;
+return f;
+}
+}
+
+U
+
+Metodos que se Invocan a ellos Mismos
+
+n metodo que se llama a si mismo es llamado recursovo y el proceso resultante es llamado en programacion recursion. La funcion factorial n! es definida recursivamente.
+
+Ejemplo 5.7 Implementacion Recursiva de la Funcion Factorial
+public class TestFactorial
+{ public static void main(String[] args)
+{
+for (int i = 0; i < 9; i++)
+System.out.println("f( " + i + “) = “ + f(i));
+try { System.in.read(); }
+catch (Exception e) {}
+}
+}
+static long f(int n)
+{ if (n < 2 ) return 1;
+return n*f(n-1);
+}
+}
+60
+
+Una funcion recursiva tiene partes esenciales: su base, la cual define la funcion para el primero o primeros valores y su relacion de recursion, la cual define el valor n del termino con respecto al anterior..
+Ejemplo 5.8 El triangulo de Pascal
+public class Ejemplo508
+{
+
+public static void main(String[] args)
+{ for ( int i = 0; i < 9; i++)
+{
+}
+
+}
+
+for (int j = 0; j <= i; j++)
+
+System.out.print(c(i, j) + "\t");
+System.out.println();
+
+static long c (int n, int k)
+{
+}
+
+if (k <=0 || k >= n) return 1;
+
+}
+
+return c(n-1,k) + c(n-1,k-1);
+
+S
+
+Los Metodos Booleanos
+
+on simplemene aquellos metodos que retornan un valor boolean. Estos metodos son invocados como
+expresiones booleansa y mayormente usados para controlar bucles de control y condicionales.
+
+Ejemplo 5.9 El Metodo isPrime()
+Este programa pone a prueba un metodo booleano de nombre isPrime() que prueba sus argumentos para
+ver si son primos. El metodo main() es quien lo invoca e imprime esos enteros que el metodo isPrime() retorna verdadero o true.
+public class Ejemplo509
+{ public static void main(String[] args)
+{
+test(1492);
+test(1592);
+test(1600);
+test(1700);
+test(1776);
+test(1992);
+test(1999);
+test(2000);
+}
+static boolean isLeapyear(int n)
+if (n < 1582) return false;
+if (n%400 == 0) return true;
+if (n%100 == 0) return false;
+if (n%4 == 0) return true;
+return false;
+61
+
+}
+
+}
+static void test (int n)
+{if (isLeapyear(n)) System.out.println(n + " is a leap near.");
+else System.out.println( n + " is not a leap near.");
+}
+
+Despues de inicializar n, f y k, el bucle do...while multiplica f por todos los numeros desde el 1 hasta la
+n. Esto se lleva a cabo atraves de la sentencia de asignacion: f *= k++; la cual multiplica a f por k y luego
+incrementa a k.
+
+S
+
+Los Metodos Void
+
+on simplemene aquellos metodos que no retornan un valor.
+
+Ejemplo 5.10 El Metodo isLeapYear()
+En este programa pone a prueba dos metodos: el metodo booleano isLeapYear() y el metodo void test():
+public class Ejemplo510
+{ public static void main(String[] args)
+{ test(1492);
+test(1592);
+test(1600);
+test(1700);
+test(1776);
+test(1992);
+test(1999);
+test(2000);
+}
+static boolean isLeapYear(int n)
+{ if (n < 1582) return false;
+if ( n%400 == 0) return true;
+if (n%100 = = 0) return false;
+if (n%4 == 0) return true;
+return false;
+}
+static void test(int n)
+{ if (isLeapYear(n)) System.out.println(n + “ es un año visieto o Leap Year.”);
+else System.out.println(n + “ no es un año visieto o Leap Year.”);
+}
+}
+Fijese que el propio metodo main() es tambien otro metodo void.
+
+U
+
+Sobrecarga de Metodos
+
+sted puede usar el mismo nombre para metodos diferentes siempre y cuando ellos reciban un nuemro diferente de parametros. Esta practica es conocida como sobrecarga.
+
+62
+
+Ejemplo 5.11 Usar un metodo max() para Implementar otro metodo max()
+Este programa pone a prueba dos metodos del mismo nombre llamados max(). Ellos tienen un nuemro de
+lista de parametros que ellos recibenuno es (int, int) y el otro es (int, int, int):
+import java.util.Random;
+public class Ejemplo510
+{ public static void main(String[] args)
+{
+Random random = new Random();
+for (int i = 0; i < 5; i++)
+{
+float x = random.nextFloat();
+int a = Math.round(100*x);
+x = random.nextFloat();
+int b = Math.round(100*x);
+x = random.nextFloat();
+int c = Math.round(100*x);
+System.out.println("max(" + a + "," + b + "," + c + ") = " + max(a,b,c));
+}
+}
+
+}
+
+static int max (int m, int n)
+{ if (m > n)return m;
+return n;
+}
+static int max (int n1,int n2,int n3)
+{ return max(max(n1,n2),n3);
+}
+
+El nombre y la lista de parametros de un metodo es llamado su firma o signature en ingles. Por ejemplo
+la firmas de los metodos en el Ejemplo5_11 son max(int, int) y max(int, int, int). Es la firma que el compilador utiliza para localizar sus definiciones cuando encuentra una invocacion de un metodo. Por esto es que
+metodos sobrecargados deben tener diferente firmas.
+
+63
+
+REPASO
+
+Las repuestas a estas preguntas se encuentras en el Apéndice A.
+1. ¿Que es una variable local?
+
+2. ¿Que es un metodo recursivo?
+
+3. ¿Cuales son las dos partes necesarias para un metodo recursivo?
+4. ¿Que es un metodo void?
+5. ¿Que es Sobrecarga?
+
+PREGUNTAS POST- EXAMEN
+
+Las repuestas a estas preguntas se encuentras en el Apéndice B.
+
+1. Escriba y ejecute un programa de Java que implemetne la funcion de Babbage f(x)= x^2 + x + 41(Vease
+el Ejemplo4_01).
+static int f(int x)
+2. Escriba y ejecute un metodo que retorne el maximo de dos enteros.
+static int max(int x, int y)
+
+3. Escriba y ejecute un metodo que retorne el maximo de tres enteros.
+static int max(int x, int y, int z)
+
+4. Escriba y pruebe el mismo metodo que retorna el mino y otro metodo que retorne el maximo de cuatro
+enteros.
+static int min(int x1, int x2, int x3, int x4)
+static int max(int x1, int x2, int x3, int x4)
+
+5. Modifique el programa en el Ejercicio0503 para que imprima el factorial del 0-25. Use el resultado para
+ver que tan grande puede ser n antes de que ocurra sobre carga de enteros (integer overflow).
+6. Escriba y pruebe un metodo que implemente la funcion de permutacion p(n,k) (vease el Ejemplo0504)
+usando un bucle while (como el que se uso para implementar la funcion factorial en el Ejemplo0503) en
+lugar del bucle for.
+7.
+
+8.
+
+64
+
+Escriba y ejecute un metodo de Java que implemete la funcion de combinacion c(n,k) (vease el
+Ejemplo0506) usando la formula equivalente:
+c(n,k) = n!/k!(n - k);
+
+Aqui el n! significa la funcion factorial f(n) (Vease el Ejemplo0503). Efectue que su programa imprima el
+Triangulo de Pascal.
+Escriba y ejecute un programa de Java que implemente la funcion de combinacion c(n,k) (Ver
+Ejemplo0506) usando division y multiplicacion alternativas. Por ejemplo, c(n,k) sera computado dividiendo ocho por 1 y luego multiplicando por 7 y entonces dividiendo por 2 y entonces multiplicando por
+6 y entonces dividimos por 3.
+
+9. El valor mayor de c(n,k) para cualquier n es donde k = n/2. Por ejemplo, c(8,4)=70 mientras que todas
+las otras c(8,k) <= 56. Asi que evaluando c(n,k/2), usted puede ver si su implementacion de la funcion de
+combinacion puede computar por completo la fila n del triangulo de pascal correctamente sin sufrir de un
+integer overflow. Efectue esto para ambas implementaciones (vease los Ejemplo0507 y Ejemplo0508)
+para ver cual nos da mejor resultado.
+10. Escriba y pruebe los siguientes metodos que implementan la funcion de power.
+staitc double pow(double x, int n)
+
+Este metodo retorna un valor de x elevado al poder n. Por ejemplo pow(2.0, -3) nos retorna:
+2^-3 = 1/2^3 = 1/8 = 0.125
+
+Por cada valor de pow(x,n) que usted imprime, tambien imprima el valor de Math.pow(x,n) para revisar
+sus resultados:
+
+11. Escriba y pruebe el siguiente metodo que implementa la funcion gcd:
+static long gcd(long m, long n)
+
+12. Escriba y pruebe el siguiente metodo que implementa la funcion lcm:
+static long lcm(long m, long n)
+
+Este retorna el multiple de menor cuantia entre los enteros m y n. Por Ejemplo el lcm(24,40) debe retornar 120 ya que este es el numero mas pequeño comun al conjunto {24,48,72,96,120,144,...} de los multiples de 24 y el conjunto {40,80,120,160...} de los multiples de 40. Use su funcion gcd() del problema
+anterior 11 con la formula:
+lcm(m,n) = (m*n)/gcd(m,n)
+
+13. Escriba y pruebe el siguiente metodo que retorne el entero del tipo short mas grande que sea menor o
+igual que al valor tipo float pasado al metodo:
+static short floor(float x)
+Por ejemplo, floor(2.71828) nos retorna 2, y floor(-3.3) nos retorna -4. use el metodo Math.floor() para
+revisar los resultados.
+
+14. Escriba y pruebe el siguiente metodo que retorna un numero de un digito k del nuemro positivo n:
+static int digit(long n, int k)
+Por ejemplo, digit(86421, 3) nos retorna 6, y digit(86421, 7) nos retorna 0.
+
+15. Escriba y pruebe el siguiente metodo que implementa la funcion de Fibonacci recursivamente:
+static long fib(int n)
+Ver Ejemplo0405.
+
+16. Implemente la funcion gcd (vease el problema arriba numero 11) recursivamente. Efectue que su programa de prueba invoque ambas implementaciones iterativas y recursivas para que pueda revisar los resultados.
+17. Implemente la funcion power (vease el numeral 10) recursivamente. Efectue que su programa de prueba
+ademas invoke el metodo Math.pow() para revisar los resultados.
+65
+
+18. Escriba y pruebe el siguiente metodo recursivo que retorna el numero triangular n:
+static long t(int n)
+
+Los numeros triangulares son (0, 1,3,6,10,15,21,28,...). Note que t(n) = t(n-1) + n para n > 1.
+
+19. Escriba y pruebe el siguiente metodo recursivo que retorna el numero n cuadrado:
+static long s(int n)
+
+Los numeros cuadrados son (0, 1,4,9,16,25,36,49,...). Note que s(n) = s(n-1) + 2n -1 para n > 1.
+
+20. Escriba y pruebe el siguiente metodo recursivo que retorna el numero n Catalan:
+static long c(int n)
+
+Los numeros triangulares son (1,1,2,5,14,42,132,429,...). Su relacion recurrenrte es dada por la suma:
+c(n)= ∑c(i)*c(n-1-i) = c(0)*c(n-1)*c(1)*c(n-2)+.....+c(n-2)*c(1)+c(n-1)*c(0)
+Usted puede revisar sus resultado analizando la formula explicita:
+c(n)= (2n)!/(n!*(n+1)!)
+
+21. Implemente la funcion de Babbage (vease el numeral 1) recursivamente. Efectue que su programa de
+prueba ademas invoke ambas implementaciones la explicita y la recursiva para revisar los resultados.
+22. Escriba y pruebe el siguiente metodo booleano que determine si un nuemro dado es triangular (vease el
+numeral 20):
+static boolean isTriangular(long n)
+Pruebe este metodo usando para identificar todos los numeros triangulares menor de 100.
+
+22. Escriba y pruebe el siguiente metodo booleano que determine si un nuemro dado es cuadrado (vease el
+numeral 19):
+static boolean isSquare(long n)
+Pruebe este metodo usando para identificar todos los numeros cuadrados menor de 100.
+
+66
+
+67
+
+CAPITULO 6
+
+FUNDAMENTOS JAVA SOBRE GNU/LINUX
+
+CLASES
+OBJETIVOS
+Al completar éste Capitulo, usted podrá:
+• Entender lo que son Clases
+• Saber instanciar las clase
+• Definir los acceso de las clases como es public, private etc.
+
+PREGUNTAS PRE-EXAMEN
+
+Las repuestas se encuentran en el Apéndice A al final del Libro.
+
+1. ¿Que es unauna clase?
+
+2. ¿Cual es el estado de una clase?
+
+3. ¿Que ventaja hay de incluir un metodo como toString() que tiene cero parametros y retorna un objeto
+String?
+
+4. ¿Como es el metodo Point.equals() en el Ejemplo0601 fundamentalmente diferente al Line.equals() del
+Ejemplo0602?
+5. ¿Cual es la diferencia entre un constructor y un metodo?
+
+68
+
+U
+
+CLASES
+taxis:
+
+n programa en Java es una colleccion de uno o mas archivos de texto que contienen clases de Java,
+de las cuales por lo menos una es public y contiene un metodo llamado main() con el siguiente sin-
+
+Ejemplo 6.1 La Clase Point
+public class Point
+// Los objetos representan puntos en el plano cartesiano
+{ private double x, y;
+// los puntos en las coordenadas
+public Point(double a, double b)
+{ x = a;
+y = b;
+}
+public double x()
+{ return x;
+}
+public double y()
+{ return y;
+}
+public boolean igual(Point p)
+{ return (x == p.x && y == p.y);
+}
+
+}
+
+public String toString()
+{
+return new String("(" + x + ", " + y + ")");
+}
+public static void main(String[] args)
+{
+Point p = new Point(2,3);
+System.out.println("p.x() = " + p.x() + ", p.y() = " + p.y());
+System.out.println("p = " + p);
+Point q = new Point(7,4);
+System.out.println("q = " + q);
+if (q.igual(p)) System.out.println("q es igual a p");
+else System.out.println("q no es igual a p");
+q = new Point(2,3);
+System.out.println("q = " + q);
+if (q.igual(p)) System.out.println("q es igual a p");
+else System.out.println("q no es igual a p");
+}
+
+La clase tiene dos campos, x y y, cuyos valores son las coordenadas de los puntos del objeto a cual representan. la primera linea en el metodo main() es:
+Point p = new Point(2,3);
+
+69
+
+L
+
+DECLARACIONES
+
+a intencion de una declaracion es introducir un identificadoe al compilador:
+
+Ejemplo 6.2 La clase Line
+public class Linea
+// Los objetos representan las lineas en el plano cartesiano
+{ private Punto p0; // un punto en la Linea
+private double m; // La pendiente de la Linea
+public Linea(Punto p, double s)
+{ p0 = p;
+m = s;
+}
+public double pendiente()
+{ return m;
+}
+public double yIntercepcion()
+{ return (p0.y() - m*p0.x());
+}
+public boolean igual(Linea linea)
+{ return (pendiente() == linea.pendiente()
+&& yIntercepcion() == linea.yIntercepcion());
+}
+public String toString()
+{
+return new String("y = " + (float)m + "x + "
++ (float)yIntercepcion());
+}
+public static void main(String[] args)
+{ Punto p = new Punto(5, -4);
+Linea linea1 = new Linea(p,-2);
+System.out.println("\nLa ecuacion de la Linea 1 es " + linea1);
+System.out.println("Su pendiente o Slope es "
++ linea1.pendiente() + " y su intercepcion con y es "
++ linea1.yIntercepcion());
+Linea linea2 = new Linea(p,-1);
+System.out.println("\nLa ecuacion de la linea 2 es " + linea2);
+System.out.println("Su pendiente o Slope es "
++ linea2.pendiente() + " y su intercepcion con y es "
++ linea2.yIntercepcion());
+if (linea2.igual(linea1)) System.out.println("Ellas son iguales.");
+else System.out.println("Ellas no son iguales.");
+}
+}
+
+L
+
+MODIFICADORES
+
+os modificadores son palabras claves que indican el acceso tanto a las clases como las varables y los
+metodos.
+
+70
+
+L
+
+CONSTRUCTORES
+
+as clases tienen tres tipos de miembros: campos, metodos y cosntructores.
+
+Ejemplo 6.3 Una Clase Linea con Tres Constructores
+public class Linea3
+// Los objetos representan las lineas en el plano cartesiano
+{ private Punto p0; // un punto en la Linea
+private double m; // La pendiente de la Linea
+public Linea3(Punto p, double s)
+{ p0 = p;
+m = s;
+}
+public Linea3(Punto p, Punto q)
+{ p0 = p;
+m = (p.y() - q.y())/(p.x() - q.x());
+}
+public Linea3(double a, double b)
+{ p0 = p;
+m = -b/a;
+}
+public double pendiente()
+{ return m;
+}
+public double yIntercepcion()
+{ return (p0.y() - m*p0.x());
+}
+public boolean igual(Linea linea)
+{ return (pendiente() == linea.pendiente()
+&& yIntercepcion() == linea.yIntercepcion());
+}
+public String toString()
+{
+return new String("y = " + (float)m + "x + "
++ (float)yIntercepcion());
+}
+public static void main(String[] args)
+{ Punto p1 = new Punto(5, -4);
+Linea3 linea1 = new Linea3(p1,-2);
+System.out.println("\nLa ecuacion de la Linea 1 es " + linea1);
+Punto p2 = new Punto(-1, 2);
+Linea3 linea2 = new Linea3(p1,p2);
+System.out.println("\nLa ecuacion de la Linea 1 es " + linea2);
+71
+
+if (linea2.igual(linea1)) System.out.println("Ellas son iguales.");
+else System.out.println("Ellas no son iguales.");
+
+}
+
+Linea3 linea3 = new Linea3(3,6);
+System.out.println("\nLa ecuacion de la Linea 3 es " + linea3);
+if (linea3.igual(linea1)) System.out.println("Ellas son iguales.");
+else System.out.println("Ellas no son iguales.");
+}
+
+E
+
+CONSTRUCTORES
+
+l tipo de constructor que una clase puede tener es el que no tiene parametros. Este es llamado el constructor por defecto. Otro tipo simple de constructor es el que su unico parametro es una refecrencia a
+un objeto de la misma clase a la cual el constructor pertenece. Esta forma es por lo normal para duplicar un
+objeto existente de la clase, asi que por esto es llamaado el constructor copia.
+Ejemplo 6.4 Duplicar un Objeto Punto
+
+public class Point
+// Los objetos representan puntos en el plano cartesiano
+{ private double x, y; // los puntos en las coordenadas
+public Point(double a, double b)
+{ x = a;
+y = b;
+}
+public Point(Point p) //Copia del Constructor
+{ x = p.x;
+y = p.y;
+}
+public double x()
+{ return x;
+}
+public double y()
+{ return y;
+}
+public boolean igual(Point p)
+{ return (x == p.x && y == p.y);
+}
+public String toString()
+{
+return new String("(" + x + ", " + y + ")");
+}
+public static void main(String[] args)
+{ Point p = new Point(2,3);
+72
+
+System.out.println("p = " + p);
+Point q = new Point(p);
+System.out.println("q = " + q);
+if (q.igual(p)) System.out.print("q es igual a p");
+else System.out.print("q no es igual a p");
+
+}
+
+}
+
+if (q == p) System.out.println(", y q == p");
+else System.out.println(", pero q != p");
+
+E
+
+CONSTRUCTORES POR DEFECTO
+
+n java, todo campo es automaticamente inicializado al valor por defecto para su tipo, esos valores son
+boolean=false, char=’\u0000’, integer=0,floating point=0.0 y reference =null.
+
+Ejemplo 6.5 Una Clase para Representar un Monedero:
+public class Purse
+{ // un objeto para representar monedas americanas de cheles y pesetas etcetera en una cartera
+private int pennies;
+private int nickels;
+private int dimes;
+private int quarters;
+public float dollars()
+{ int p = pennies + 5*nickels + 10*dimes + 25*quarters;
+return (float)p/100;
+}
+public void insertar(int p, int n, int d, int q)
+{ pennies += p;
+nickels += n;
+dimes += d;
+quarters += q;
+}
+public void remover(int p, int n, int d, int q)
+{ pennies -= p;
+nickels -= n;
+dimes -= d;
+quarters -= q;
+}
+public String toString()
+{ return new String(quarters + " quarters + "
++ dimes + " dimes + "
+73
+
++ pennies + " pennies = $"
++ dollars());
+
+}
+public static void main(String[] args)
+{ Purse purse = new Purse(); //Invocando el constructor por defecto
+System.out.println(purse);
+purse.insertar(3,0,2,1);
+System.out.println(purse);
+purse.insertar(3,1,1,3);
+System.out.println(purse);
+purse.remover(3,1,0,2);
+System.out.println(purse);
+purse.remover(0,0,0,4);
+System.out.println(purse);
+}
+
+}
+
+C
+
+CLASE INVARIANTES
+
+lase invariante es una condicion impuesta en los campos de todas las instancias de la clase. El objetivo mas comun de crear clases invariantes es para garantizar representaciones unicas.
+
+Ejemplo 6.6 Una Clase pra Representar los Dias de las Semanas
+Esta clase ilustra el uso de una classe invariante para garantizar que cada objto represente un unico dia de
+la sema:
+public class Dia
+{ // Una instancia que representa un dia unico de la semana
+// Class es invariante: 0 <= numerodeldia < 7
+private final String DIAS = "DOLUMAMIJUVISA";
+private int diaNumero;
+public Dia() //Constructor por defecto
+{ diaNumero = 0;
+}
+public Dia(Dia d) //Copia del cosntructor
+{ diaNumero = d.diaNumero;
+}
+public Dia(String s)
+{ String ab = s.substring(0,2).toUpperCase(); // Para abreviar con dos caracters
+74
+
+}
+
+diaNumero = DIAS.indexOf(ab)/2;
+
+public String toString()
+{ switch (diaNumero)
+{ case 0: return "Domingo";
+case 1: return "Lunes";
+case 2: return "Martes";
+case 3: return "Miercoles";
+case 4: return "Jueves";
+case 5: return "Viernes";
+default: return "Sabado";
+}
+}
+public void avanzar(int n)
+{ diaNumero = (diaNumero + n)%7;
+}
+public Dia previo()
+{ int n = (diaNumero+6)%7; // en nuemro del dia previo
+String ab = DIAS.substring(2*n, 2*n+2); // abreviatura de 2 caracteres
+return new Dia(ab);
+}
+
+}
+
+public static void main(String[] args)
+{ Dia hoy = new Dia("Mie");
+System.out.println(" Hoy es " + hoy + ", y ayer era " + hoy.previo());
+Dia mismo = new Dia(hoy);
+hoy.avanzar(4);
+System.out.println("En 4 dias, hoy sera " + hoy + ", y ayer fue " + hoy.previo());
+System.out.println("Pero hoy todavia es " + mismo + ", y ayer fue " + mismo.previo());
+}
+
+Mas Clases Invariantes
+Ejemplo 6.7 Una Clase Ambigua PurseM
+public class PurseM
+{ // un objeto para representar monedas americanas de cheles y pesetas etcetera en una cartera
+// Clase invariante: la suma de los valores de los campos es minima y >= 0; enforzado por el mtodo
+reduce().
+private int pennies;
+private int nickels;
+private int dimes;
+private int quarters;
+75
+
+private int cents()
+{ return pennies + 5*nickels + 10*dimes + 25*quarters;
+}
+public float dollars()
+{ return (float)cents()/100;
+}
+public void clear()
+{ pennies = nickels = dimes = quarters = 0;
+}
+private void reducir()
+{ pennies = cents();
+if (pennies < 0)
+{ clear();
+return;
+}
+quarters = pennies/25;
+pennies %= 25;
+dimes = pennies/10;
+pennies %= 10;
+nickels = pennies/5;
+pennies %= 5;
+}
+public void insertar(double dollars)
+{ pennies += 100*dollars;
+reducir();
+}
+public void remover(double dollars)
+{ int p = cents() - (int)Math.round(100.0*dollars);
+clear();
+pennies = p;
+reducir();
+}
+public String toString()
+{ return new String(quarters + " quarters + "
++ dimes + " dimes + "
++ pennies + " pennies = $"
++ dollars());
+}
+public static void main(String[] args)
+{ PurseM purse = new PurseM(); //Invocando el constructor por defecto
+System.out.println(purse);
+76
+
+purse.insertar(0.48);
+System.out.println(purse);
+purse.insertar(0.93);
+System.out.println(purse);
+purse.remover(0.57);
+System.out.println(purse);
+purse.remover(1.00);
+System.out.println(purse);
+}
+
+}
+
+Ejemplo 6.8 An Clase Line No-Ambigua
+public class LineM
+
+// Los objetos representan las lineas en el plano cartesiano
+// Clase Invariante: o es p0x() == 0 o p0y() == 0
+// Enforzado por el metodo normalizar().
+
+{ private Punto p0; // un punto en la Linea
+
+private double m; // La pendiente o Slope de la Linea
+public LineM(Punto p, double s)
+{ p0 = p;
+m = s;
+
+}
+
+normalizar();
+
+public LineM(Punto p, Punto q)
+{ p0 = p;
+
+m = (p.y() - q.y())/(p.x() - q.x());
+
+}
+
+normalizar();
+
+77
+
+public LineM(double a, double b)
+{ p0 = new Punto(0,b);
+m = -b/a;
+
+}
+
+normalizar();
+
+public double pendiente()
+{ return m;
+}
+
+public double xIntercepcion()
+{ return (p0.x() - p0.y()/m);
+}
+
+public double yIntercepcion()
+
+{ return (p0.y() - p0.x()*m);
+}
+
+public boolean igual(LineM line)
+
+{ return (m == line.m && yIntercepcion() == line.yIntercepcion());
+}
+
+public boolean esHorizontal()
+{ return (m == 0.0);
+}
+
+public boolean esVertical()
+
+{ return ( m == Double.POSITIVE_INFINITY
+}
+
+|| m == Double.NEGATIVE_INFINITY);
+
+public String toString()
+
+{ float a = (float)xIntercepcion();
+float b = (float)yIntercepcion();
+float fm = (float)m;
+
+if (esHorizontal()) return new String("y = " + b);
+if (esVertical()) return new String("y = " + a);
+78
+
+if (yIntercepcion() == 0) return new String("y = " + fm + "x");
+}
+
+return new String("y = " + fm + "x + " + yIntercepcion());
+
+public void normalizar()
+
+{ // enforzar la invariabilidad de la clase INVARIANT
+
+if (esHorizontal()) p0 = new Punto(0, yIntercepcion());
+
+else if (esVertical()) p0 = new Punto(xIntercepcion(),0);
+
+else if (yIntercepcion() == 0) p0 = new Punto(xIntercepcion(),0);
+}
+
+else p0 = new Punto(0,yIntercepcion());
+
+public static void main(String[] args)
+{ Punto p1 = new Punto(5, -4);
+Punto p2 = new Punto(1, 4);
+
+LineM line1 = new LineM(p1,-2);
+
+LineM line2 = new LineM(p1,p2);
+LineM line3 = new LineM(3,6);
+print(line1, line2);
+print(line1, line3);
+}
+
+print(line2, line2);
+
+public static void print(LineM line1, LineM line2)
+
+{ System.out.print("Lineas (" + line1 + ") y (" + line2);
+
+if (line1.igual(line2)) System.out.println(") Son Iguales.");
+else System.out.println(") No son Iguales.");
+
+}
+
+}
+
+C
+
+La Clase Wrapper
+
+ada uno de los primitivos de Java tiene una clase correspondiente definido en java.lang y por esto
+puede usar sin necesidad de usar el import.
+
+Ejemplo 6.9 Probando la Clase Short
+Este programa ilustra el uso de la conversion entre la variable de tipo short y una instancia de la clase
+Short y convertirlo a una instancia de la clase String.
+79
+
+public class PruebaShort
+{ public static void main(String[] args)
+{ short m = 22;
+System.out.println("short m = " + m);
+Short x = new Short(m); // Convierte de short a Short
+System.out.println("Short x = " + x);
+String s = x.toString(); // Convierte de Short a String
+System.out.println("String s = " + s);
+m = Short.parseShort(s); // Convierte de String a short
+System.out.println("short m = " + m);
+s = Short.toString(m); // Convierte de short a String
+System.out.println("String s = " + s);
+x = Short.decode(s); // Convierte de String a Short
+System.out.println("Short x = " + x);
+
+}
+
+}
+
+m = x.shortValue(); // Convierte de Short a short
+System.out.println("short m = " + m);
+System.out.println("Short.MIN_VALUE = " + Short.MIN_VALUE);
+System.out.println("Short.MIN_VALUE = " + Short.MAX_VALUE);
+
+Ejemplo 6.10 Usar la Clase Integer para la Conversion de Radix
+public class PruebaRadix
+{ public static void main(String[] args)
+{ int n = 59;
+System.out.println("Decimal : \t" + Integer.toString(n));
+System.out.println("Binary : \t" + Integer.toBinaryString(n));
+System.out.println("Octal : \t" + Integer.toOctalString(n));
+System.out.println("Hexadecimal : \t" + Integer.toHexString(n));
+System.out.println("Ternario : \t" + Integer.toString(n,3));
+System.out.println("DoDecimal : \t" + Integer.toString(n,12));
+System.out.println("Bigecimal : \t" + Integer.toString(n,20));
+System.out.println("Character.MIN_RADIX : " + Character.MIN_RADIX);
+System.out.println("Character.MAX_RADIX : " + Character.MAX_RADIX);
+n = Integer.parseInt("d7b",16);
+}
+80
+
+}
+
+System.out.println("d7b (base 16) = " + n);
+
+REPASO
+
+Las repuestas a estas preguntas se encuentras en el Apéndice A.
+1. ¿Que es una clase?
+
+2. ¿Cual es el estado de una clase?
+
+3. ¿Que ventaja hay de incluir un metodo como toString() que tiene cero parametros y retorna un objeto
+String?
+
+4. ¿Como es el metodo Point.equals() en el Ejemplo0601 fundamentalmente diferente al Line.equals() del
+Ejemplo0602?
+5. ¿Cual es la diferencia entre un constructor y un metodo?
+
+6. ¿Cual es la diferencia entre un metodo de la clase y uno de instancia?
+7. ¿Que es un argumento implicito?
+
+8. ¿Porque es ilegal que un metodo static sea invocado por por uno no-static?
+
+9. ¿Cual es la diferencia entre la igualdad de los objetos y la igualdad de las referencias que se refieren a
+ellos?
+10. ¿Cual es la diferencia entre los miembros publicos y los privados de una clase?
+
+11. ¿Fuese mejor declarar el metodo clear() privado en la clase Purse del Ejemplo0605?¿Porque y porque
+no?
+12. ¿Porque es que el compilador crea automaticamente un constructor por defecto para la clase Purse en el
+Ejemplo0605 pero no para la clase Point en el Ejemplo0601 o la clase Line en el Ejemplo0602?
+13. ¿Cual es la diferencia entre los metodos accesores y los mutadores?
+14. ¿Que es una clse invariante?
+
+15. ¿Que es un constructor por defecto?
+
+16. ¿Cuantos constructores puede una clase tener?
+
+17. ¿Cuantos constructores por defecto puede una clase tener?
+18. ¿Que es un constructor copia?
+
+19. ¿Cual es la diferencia entre invocar un constructor copia o usar una asignacion?
+
+20. ¿Por que es que la siguiente declaracion no compilaria si se incluye en el Ejemplo0601?
+Point p = new Point();
+81
+
+21. Explique la diferencia entre las salidas de:
+String s;
+System.out.println(“s = ” + s);
+y:
+String s = new String();
+System.out.println(“s = ” + s);
+
+22. ¿Cual es la razon para declarar un campo privado y declarar un metodo mutador que permite al publico
+cambiarlo, no fuese mejor hacerlo public a el tambien?
+
+PREGUNTAS POST- EXAMEN
+
+Las repuestas a estas preguntas se encuentras en el Apéndice B.
+
+1. Agregue y ejecute el siguiente metodo a la clase Point definida en el Ejemplo0601:
+public void translate(double dx, double dy)
+// mueve el punto dx unidades hacia la derecha y dy hacia la arriba
+Por Ejemplo, p.translate(5,1) moviera el punto p en Ejemplo0601 a (7,4).
+
+2. Agregue y ejecute el siguiente metodo a la clase Point definida en el Ejemplo0601:
+public void rotate(double theta)
+// rota un punto theta radianes contra el reloj
+
+Por Ejemplo, p.rotate(Math.PI/2) cambiara el punto p a (-3,2) en Ejemplo0601. Use la siguiente ecuaciones de transformacion:
+x2 = x1cosθ
+q − y1sinθ
+q
+q
+−
+q
+x2 = x1sinθ y1cosθ
+
+3. Modifique la clase Point definida en Ejemplo0601 para que represente un punto en tres-dimensiones.
+4. Agregue y pruebe el siguiente metodo a la clase Line del Ejemplo0602.
+public boolean isParallelTo(Line line)
+// retorna verdad si y solo si es paralela a la linea
+5. Agregue y pruebe el siguiente metodo a la clase Line del Ejemplo0602.
+public boolean isPerpendicularTo(Line line)
+// retorna verdad si y solo si es perpendicular a la linea
+
+6. Agregue y pruebe el siguiente metodo a la clase Line del Ejemplo0602.
+public boolean translate(double dx, double dy)
+// mueve cada punto en la linea por un incremento de (dx, dy)
+7. Agregue y pruebe el siguiente metodo a la clase Line del Ejemplo0602.
+public boolean rotate(theta)
+// rota la linea contra el reloj theta radianes
+
+Por ejemplo, p.rotate(Math.PI/2) cambiaria el objeto linea a y = 0.5x + 3 en Ejemplo0602. Use la siguiente identidad trigonometrica y el hecho que el slope de una curva es igual a tan α, donde α es el angulo
+entre la linea y el axis-x.
+
+82
+
+tan (α + θ) = (tan α + tan θ)/(1 - tan αtan θ)
+
+8. Modifique y pruebe la clase Purse definida el Ejemplo0605 para que los objetos de clase Purse pueden
+tambien contener monedas de medio peso.
+
+9. Convierta y prueba la clase Purse definida en el Ejemplo0605 en la clase Wallet que cuyos objetos representan wallets (carteras) uqe contienen denominaciones de US dolares de: $1, $2, $5, $10, $20 y de $50.
+10. Agregue y pruebe los el siguiente metodo a la clase Dia definida en Ejemplo0606.
+public Day next()
+// retorna un objeto Day que representa el proximo dia (day)
+
+11. Agregue y pruebe el siguiente metodo a la clase Dia definida en Ejemplo0606:
+public boolean isWeekdday()
+// retorna verdadero (true) si y solo si es un dia de la semana (lunes -a- viernes)
+12. Agregue y pruebe un metodo copy() a la clase Line definida en Ejercicio0602.
+
+13. Agregue y pruebe un constructor copy a la clase Line definida en Ejercicio0602:
+
+14. Pruebe la clase Line Ejemplo0608 sobre varias lineas horizontales y verticales, y revise que se produzcan las lineas deseadas y correctas.
+static int digit(long n, int k)
+Por ejemplo, digit(86421, 3) nos retorna 6, y digit(86421, 7) nos retorna 0.
+
+15. Usted no tiene que crear un objeto del tipo Point explicitamente para asi poder usar el constructor de la
+clase Line del Ejemplo0608. Usted puede crear explicitamente un objeto del tipo Point anonimo y pasarselo como argumento al constructor asi: :
+Line line4 = new Line(new Point(2,2), new Point(-1,8))
+Pruebe esto en ambos constructures que tienen los parametros de Point.
+
+16. Modifique el programa Ejemplo0609 para que pruebe la clase Integer en la misma manera.
+
+17. Implemente una clase similar a la clase Day de Ejemplo0606 cuyos objetos representan los meses.
+18. Implemente una clase cuyo objetos representen circulos en plano cartesiano:
+
+19. Implemente la clase Point usando la magnitud radial r y la amplitud angular q como los campos en vez
+de las coordenadas rectangulares x y y. Enforce la clase invariante que o:
+r = q =0, o es r > 0 y 0 <= q < 2p
+
+83
+
+CAPITULO 7
+
+FUNDAMENTOS JAVA SOBRE GNU/LINUX
+
+COMPOSICION Y HERENCIA
+OBJETIVOS
+Al completar éste Capitulo, usted podrá:
+• Entender lo que es reuso desde el punto de vista de programacion OO
+• Crear una Clase desde Otra
+• Usar los metodos y las variables de otra clase
+
+PREGUNTAS PRE-EXAMEN
+
+Las repuestas se encuentran en el Apéndice A al final del Libro.
+
+1. ¿Que es composicion?
+2. ¿Que es herencia?
+
+3. ¿Cual es la diferencia entre composicion y herencia?
+
+84
+
+U
+
+COMPOSICION Y HERENCIA
+
+C
+
+na de las ventajas de programacion orientada a objeto es la capacidad de reusar software. Esto se
+efectua atraves de herencia y composicion.
+
+COMPOSICION
+
+omposicion es la creacion de una clase usando otra clase para su data componente. Usamos composicion en la definicion de la clase Line del Ejemplo0602 del capitulo anterior. Esta fue compuesta
+de la clase Point. La clase componente mas usada es la clase String, aqui en este ejemplo los ilustramos:
+
+Ejemplo 7.1 La Clase Name
+class Name
+{ // Objeto que representa los nombres de las personas
+private String first;
+// por ejemplo "Jazmine"
+private String middle;
+// por ejemplo "Marie"
+private String last;
+//por ejemplo "Foster"
+Name()
+{
+}
+
+// Constructor por defecto
+
+Name(String first, String last)
+{ this.first = first;
+this.last = last;
+}
+Name(String first, String middle, String last)
+{ this(first,last);
+this.middle = middle;
+}
+String first()
+{ return first;
+}
+String middle()
+{ return middle;
+}
+String last()
+{ return last;
+}
+void setFirst(String first)
+{ this.first = first;
+}
+void setMiddle(String middle)
+85
+
+{ this.middle = middle;
+}
+void setLast(String last)
+{ this.last = last;
+}
+
+}
+
+public String toString()
+{ String s = new String();
+if (first !=null) s += first + " ";
+if (middle !=null) s += middle + " ";
+if (last !=null) s += last + " ";
+return s.trim();
+}
+
+La Clase de Prueba de la clase Name
+
+class TestName
+{ // Clase para probar la clase creada en el ejemplo de Name.java
+public static void main(String[] args)
+{ Name tr = new Name ("Ramon", "Mella");
+Name fc = new Name ("Juan Pablo", "Duarte", "El Patricio");
+System.out.println(fc + "Es el Padre de la Patria.");
+System.out.println(" Su nombre de pila era " + fc.first());
+System.out.println(tr + "Es uno de los Padres de la Patria.");
+System.out.println("Su segundo nombre es " + tr.middle());
+}
+}
+
+El objeto Name referencia por tr es creado explicitamente cuando el operador new invoca el constructor
+Name() de dos argumentos. Sus dos arguemntos first y last, son referencias a objetos String, asi que el constructor implicitamente invoca el constructor de String dos veces oara crear los objetos tr.first y tr.last. La palabra clave this representa el argumento implicito tr. Note que la referencia tr.middle no tiene referente, asi que
+el campo por esto permanece null.
+La segunda linea del main() tiene un efecto en la referencia tc. Pero este invoca el constructor de tres argumentos, asi que ademas a otro objeto Name, tres mas objetos String son creados. La clase Name esta definida tener tres campos y ocho metodos. Los primeros tres metodos son metodos de acceso: simplemente cada
+uno retorna uno de los campos. Los proximo tres metodos son mutadores: ellos permiten que otros metodos
+externos modifiquen los campos. Los ultimos dos metodos sin los ya acostumbreados toString() para desplegar el objeto como una cadena y el main() el cual sirve como el motor de la clase.
+La palabra clave this puede ser usada dentro de un metodo instanciado para referir al argumento implicito, lo que es, el objeto al cual el metodo es sujeto cuando este es invocado. Este lo usamos el la clade Name
+del Ejemplo0701.
+Ejemplo 7.2 La clase Person
+class Person
+86
+
+{ // Los objetos representan una persona
+protected Name name; // de la clase Name ejemplo anterior
+protected char sex; // 'M' o 'F'
+protected String id; // por ejemplo la cedula de identidad
+Person(Name name, char sex)
+{ this.name = name;
+this.sex = sex;
+}
+Person(Name name, char sex, String id)
+{ this.name = name;
+this.sex = sex;
+this.id = id;
+}
+Name name()
+{ return name;
+}
+char sex()
+{ return sex;
+}
+String id()
+{ return id;
+}
+void setId(String id)
+{ this.id = id;
+}
+
+}
+
+public String toString()
+{ String s = new String(name + " (sex: " + sex);
+if (id !=null) s += "; id: " + id;
+s += ")";
+return s;
+}
+
+Aqui la clase de prueba
+
+class TestPerson
+{ // Clase para probar la clase Person
+public static void main(String[] args)
+{ Name bobsName = new Name("Robert", "Lee");
+Person bob = new Person(bobsName, 'M');
+System.out.println("bob: " + bob);
+87
+
+bob.name.setMiddle("Edward");
+System.out.println("bob: " + bob);
+Person ann = new Person(new Name("Ann", "Baker"), 'F');
+System.out.println("ann: " + ann);
+
+}
+
+}
+
+ann.setId("001-1260313-9");
+System.out.println("ann: " + ann);
+
+U
+
+CLASES RECURSIVAS
+
+n metodo recursivo es uno cual se invoca a el mismo. Estos son descrito en el capitulo 5. Una clase
+recursiva es una la cual esta compuesta de si mismo; por ejemplo, esta tiene un campo de referencia
+que se refiere a un objeto de la clase a la cual este pertenece. .
+Ejemplo 7.3 Arboles Familiares
+
+class Person7_3
+{ // Los objetos representan una persona
+protected Name name; // de la clase Name ejemplo anterior
+protected char sex; // 'M' o 'F'
+protected String id; // por ejemplo la cedula de identidad
+protected Person7_3 mother;
+protected Person7_3 father;
+private
+static final String twoBlanks = " ";
+private static String tab = "";
+Person7_3(Name name, char sex)
+{ this.name = name;
+this.sex = sex;
+}
+Person7_3(Name name, char sex, String id)
+{ this.name = name;
+this.sex = sex;
+this.id = id;
+}
+Name name()
+{ return name;
+}
+88
+
+//Los metodos de acceso de sex() y id() son los mismos que del ejemplo 7.2
+char sex()
+{ return sex;
+}
+String id()
+{ return id;
+}
+void setId(String id)
+{ this.id = id;
+}
+void setMother(Person7_3 mother)
+{ this.mother = mother;
+}
+void setFather(Person7_3 father)
+{ this.father = father;
+}
+
+}
+
+public String toString()
+{ String s = new String(name + " (" + sex + ")");
+if (id !=null) s += "; id: " + id;
+s += "\n";
+if (mother !=null)
+{ tab += twoBlanks;
+// agrega dos espacios en blanco
+s += tab + "mother: " + mother;
+tab = tab.substring(2);
+// elimina dos espacios en blanco
+}
+if (father !=null)
+{ tab += twoBlanks;
+// agrega dos espacios en blanco
+s += tab + "father: " + father;
+tab = tab.substring(2);
+// elimina dos espacios en blanco
+}
+return s;
+}
+
+Aqui una Clase de Prueba
+class TestPerson7_3
+{ // clase de probar la class Person modificada a Person7_3
+public static void main(String[] args)
+{ Person7_3 ww = new Person7_3(new Name("William", "Windsor"), 'M');
+Person7_3 cw = new Person7_3(new Name("Charles", "Spencer"), 'M');
+Person7_3 ds = new Person7_3(new Name("Diana", "Spencer"), 'F');
+89
+
+Person7_3 es = new Person7_3(new Name("Edward", "Spencer"), 'M');
+Person7_3 ew = new Person7_3(new Name("Elizabeth", "Winsor"), 'F');
+Person7_3 pm = new Person7_3(new Name("Philip", "Mountbatten"), 'M');
+Person7_3 eb = new Person7_3(new Name("Elizabeth", "Bowes-Lyon"), 'F');
+Person7_3 gw = new Person7_3(new Name("George", "Windsor"), 'M');
+ww.setFather(cw);
+ww.setMother(ds);
+ds.setFather(es);
+cw.setMother(ew);
+cw.setFather(pm);
+ew.setMother(eb);
+ew.setFather(gw);
+}
+
+System.out.println(ww);
+
+}
+El programa crea 8 objetos tipo Persona. Esta version de la clase es recursiva ya que crea los campos
+padre u madre referenciando a objetos Persona. El metodo main() priemro crea los 8 objetos, luego invoca el
+metodo setMother() y setFather() para vincularlo.
+Los dos campos estaticos blanks y tab son usdos solamenteen el metodo toString(). Ellos prosucen salida formateada.............................. FALTO...
+Ejemplo 7.4 Una Lista de Telefonos
+class Friend
+{ // objeto representa un amigo
+protected String name;
+protected String tele;
+protected Friend next;
+static Friend list;
+
+// ejemplo "Jose Paredes"
+//ejemplo "476-7758"
+// Proximo objeto en la lista
+// lista vinculada linkeada a amigos
+
+static void print()
+{ Friend friend = list;
+if (friend == null) System.out.println("La lista esta vacia.");
+else do
+{ System.out.println(friend);
+friend = friend.next;
+} while (friend !=null);
+}
+Friend(String name, String tele)
+{ this.name = name;
+this.tele = tele;
+this.next = list;
+list = this;
+}
+90
+
+}
+
+public String toString()
+{ return new String(name + ":\t" + tele);
+
+}
+
+Aqui la orueba de la clase Friend
+class TestFriend
+{ // clase para probar la clase Friend
+public static void main(String[] args)
+{ Friend.print();
+new Friend("Crstian Nunez", "629-6465");
+new Friend("Roberto Garcia", "629-6265");
+new Friend("Elvyn Bolges", "629-4401");
+Friend.print();
+}
+}
+
+H
+
+HERENCIA
+
+erencia es la creacion de una clase extendiendo otra clase para que asi la esa instancia de la nueva
+clase automaticamente herede los campos y los metodos de su clase padre.
+
+Ejemplo 7.5 Subclase Class ClassY heredda los campos protected “m” de la Class ClassxUna Clase
+Este define una clase trivial con un campo y un metodo:
+class ClassX
+{ // Una clase Trivial
+protected int m;
+
+}
+
+public String toString()
+{ return new String("(" + m + ")");
+}
+
+Fijese que el campo m es declarado protected en vez de tener acceso privado.
+Aqui definimos una segunda clase, definida para extender la primera clase:
+class ClassY extends ClassX
+{ // Una sub clase Trivial de ClassX
+protected int n;
+
+}
+
+public String toString()
+{ return new String("(" + m + ", " + n + ")");
+}
+
+Note que su metodo toString() tiene la misma firma que el declarado en la ClassX:
+Aqui la clase de prueba
+class TestClassY
+91
+
+{ // clase para probar ClassY
+public static void main(String[] args)
+{ ClassX x = new ClassX();
+System.out.println("x = " + x);
+}
+
+ClassY y = new ClassY();
+System.out.println("y = " + y);
+
+}
+Este programa no compila ya que el metodo ClassY.toString() intenta accesar el campo ClassX.m el cual
+fue declarado privado. Cuando una clase hereda de otra clase se dice que esa la Super Clase de laa hija o subclase.
+
+U
+
+SOBRESCRITUA DE LOS CAMPOS Y METODOS
+
+na instancia de y de la ClassY es en esencia lo mismo que una instancia de la ClassX con mas data
+y funcionalidad. En ambos se declara un metodo g() con la misma firma, el metodo y.g() invocara el
+metodo declarado en la ClassY, no el que esta declarado en la ClassX. En este caso, el metodo y.g() se dice
+que sobrescribe el metodo x.g(). Sobrescribir o overriding es similar a sobrecargar: diferente metodos con un
+mismo nombre. Overriding es diferente ya que los metodos tienen la misma firma(mismo nombre, misma
+lista de parametros) y ellas son declaradas en clases diferente. Ademas deben retornar el mismo tipo de valor,
+y el metodo que sobreescribe debe tener acceso al metodo que sobreesscribe. Asi que un metodo publico
+puede ser sobreescrito solo por otro metodo publico.
+
+S
+
+obreescribir campos es similar a sobrescribir metodos: ellos tienen la misma declaraciones pero en
+diferente clases.
+
+Ejemplo 7.7 Sobrescritura de Campos y Metodos
+Este ejemplo es similar al Ejemplo0706 anterior. Este ilustra como un campo y los metodos de una subclase sobrescriben los de su superclase. Le Presentamos una clase trivial con dos campos prtected y tres metodos:
+class ClassX_7
+{ // Una clase Trivial
+protected int m;
+protected int n;
+void f()
+{ System.out.println("Ahora en la ClassX.f().");
+m = 22;
+}
+void g()
+{ System.out.println("Ahora en la ClassX.g().");
+m = 44;
+}
+
+92
+
+}
+
+public String toString()
+{ return new String("{ m=" + m + ", n=" + n + " }" );
+}
+
+Aqui le presentamos la subclase:
+class ClassY_7 extends ClassX_7
+{ // Una sub clase Trivial de ClassX_7
+protected double n;
+void g()
+{ System.out.println("Ahora en ClassY_7.g().");
+n = 3.1415926535898932;
+}
+
+}
+
+// Sobre pone al campo de ClassX_7.n
+// sobre pone metodos ClassX_7g()
+
+public String toString()
+// sobre pone el metod ClassX_7.toString()
+{ return new String( "{ m=" + m + ", n=" + n + " }" );
+}
+
+Su campo n y su metodo g() sobrescriben los miembros de la ClassX con el mismo nombre. Aqui le presentamos una clase de prueba:
+class TestClassY_7
+{ // clase para probar ClassY_7
+public static void main(String[] args)
+{ ClassX_7 x = new ClassX_7();
+x.f();
+x.g();
+System.out.println("x = " + x);
+
+}
+
+}
+
+ClassY_7 y = new ClassY_7();
+// y "es un" ClassY_7
+y.f();
+// polymorfismo: y tambien "es un" ClassX_7
+y.g();
+System.out.println("y = " + y);
+
+El objeto x de la ClassX tiene los campos x.m y x.n y los metodos x.f(), x.g() y x.toString(). El objeto y
+de la clase ClassY tiene los campos y.m y y.n y los metodos y.f() y g.f(), y y.toString(). El campo y.m y el
+metodo y.f() son declarado en su propia superclase ClassX. El campo y.n y los metodos y.g() y y.toString()
+son declarados en si propia clase ClassY, sobreescribiendo las declaraciones de n, g() y toString() en ClassX.
+
+J
+
+LA PALABRA CLAVE super
+
+ava utiliza una palabra clave super para referirse a los miembros de la clase padre. Al ser usados en la
+forma super(), esta invoca el constructor de la superclase. Al ser usado en la forma super.f(), este invoca la funcion f() declarada en la superclase. Esto permite sobrescribir la sobrescritura..
+93
+
+Ejemplo 7.8 La subclase Student de la clase Person
+Aqui le presentamos la subclase de la clase Person del Ejemplo0702
+class Student extends Person
+{ // Los objs representan estudiantes
+protected int credits; // creditos de horas impartidas
+protected double gpa; // average de puntos de los creditos tomados
+Student(Name name, char sex, int credits, double gpa)
+{ super(name, sex);
+// invocando el constructor de la clase Person
+this.credits = credits;
+this.gpa = gpa;
+}
+int credits()
+{ return credits;
+}
+double gpa()
+{ return gpa;
+}
+
+}
+
+public String toString()
+{ String s;
+s = new String(super.toString()); // invocando Person.toString()
+s += "\n\tcredits: " + credits;
+s += "\n\tgpa:
+" + gpa;
+return s;
+}
+
+Aqui una prueba:
+class TestStudent
+{ public static void main(String[] args)
+{ Name annsName = new Name("Ann", "Baker");
+Student ann = new Student(annsName,'F',16,3.5);
+System.out.println("ann: " + ann);
+}
+}
+En la primera linea se crea el objeto annsName del tipo Name. La segunda linea crea el objeto ann del
+tipo Student, al igual que en el Ejemplo0702, excepto que aqui es una instancia de la clase Student en vez de
+la clase Person. Pero la primera linea del constructor de Student es:
+super(name, sex); // invoca el constructor en la clase Person
+La palabra clave super se refiere a la superclase de la clase actual. Como esa es la clase Person, los argumentos name y sex son pasados al constructor de la clase Person el cual ejecuta sus codigos sobre el objeto
+ann del tipo Student. Esto es identico a declar el constructor de la clase Student asi:
+Student(Name name, char sex, int credits, double gpa)
+94
+
+{ this.name = name;
+this.sex = sex;
+this.credits = credits;
+this.gpa = gpa;
+}
+Utilizamos el metodo indirecto aqui solo para ilustrar el uso de la palabra clave super.
+
+H
+M
+
+HERENCIA VERSUS COMPOSICION
+
+erencia significa especializacion. Una subclase se especializa herredando sus campos y metodos de
+su superclase y agregando otros. Los campos extras hacen a la subclas mas restrictiva, mas especial.
+
+ientras que herencia significa especializacion composicion significa agregacion. La clase Student
+es una especializacion de la clase Person, mientras que es una agregacion de las clases name y
+String ( y de las del tipo char, int y double). Los programadores a menudo utilizan el termino “es un” (is a)
+y “tiene un” (has a) para distinguir entre composicion y herrencia. Un estudiante “es una” persona, mientras
+que un estudiante “tiene un” nombre.
+
+U
+
+JERARQUIA DE LAS CLASES
+
+na clase puede tener mas de una subclase. Estas relaciones nos llevan a un diagrama del tipo arbol.
+En jerarquia asi podemos decir que una clase deciende o deriva de la otra, existe una secuencia de
+clases, donde una de las clases es la superclase de la otra. Dentro de una jerarquia de clases existen dos tipos
+de clases: clases abstractas y clases finales. Estas se identifican por los modificadores abstract y final.
+
+U
+
+na clase abstracta es una clase que tiene por lo menos un metodo abstracto. Un metodo abstracto es
+un metodo declarado solamente con su firma; no tiene implementacion. Ya que tiene por lo menos
+un metodo abstracto, una clase abstracta no puede ser instanciada. Las clases y los metodos son declarados
+abstractos con el uso del modificador abstract.
+
+Ejemplo 7.9 Una Clase Abstracta
+En este ejemplo definimos tres classes: la classe abstracta Shape y dos clases, concretas digamos, la clase
+Circle y Square. Estas dos ultimas son ambas subclases de la anterior.
+abstract class Shape
+
+{ // los objetos representan formas geometricas en el plano cartesiano
+abstract Point center();
+abstract double diameter();
+}
+
+abstract double area();
+
+La clase abstracta Shape tiene tres metodos abstractos: center(), diameter() y area(). Como metodos abstractos ellos estan solo declarados por sus prototipos.
+class Circle extends Shape
+{ // los objetos representan circulos en el plano cartesiano
+95
+
+private Point center;
+private double radius;
+Circle(Point center, double radius)
+{ this.center = center;
+this.radius = radius;
+}
+Point center()
+{ return center;
+}
+double diameter()
+{ return 2*radius;
+}
+double area()
+{ return Math.PI*radius;
+}
+public String toString()
+{ return new String("{ center = " + center + ", radius = " + radius + "}");
+}
+
+}
+La clase Circle tiene dos campos, un constructor y cuatro metodos. Los campos especifican el centro y el
+radio del circulo. Los tres metodos (concretos) center(), diameter() y area() implementan sus metodos abstractos correspondientes en la superclase.
+class Square extends Shape
+{ // los objetos representan Cuadrados en el plano cartesiano
+private Point northWestCorner;
+private double side;
+Square(Point northWestCorner, double side)
+{ this.northWestCorner = northWestCorner;
+this.side = side;
+}
+Point center()
+{ Point c = new Point(northWestCorner);
+c.translate(side/2, -side/2);
+return c;
+}
+double diameter()
+{ return side*Math.sqrt(2.0);
+}
+96
+
+double area()
+{ return side*side;
+}
+
+}
+
+public String toString()
+{ return new String("{ northWestCorner = " + northWestCorner + ", side = " + side + "}");
+}
+
+La clase Square tiene dos campos, un constructor y cuatro metodos. Los campos especifican la localdad
+y el tamaño del cuadrado. Los tres metodos (concretos) center(), diameter() y area() implementan sus metodos abstractos correspondientes declarados en la superclase.
+Aqui presentamos una prueba de la clase Circle:
+class TestCircle
+{ // motor de la clase Circle
+public static void main(String[] args)
+{ Circle circle = new Circle(new Point(3,1),2.0);
+System.out.println("El Circulo es " + circle);
+System.out.println("El centro del Circulo esta " + circle.center());
+System.out.println("El diametro del Circulo es " + circle.diameter());
+System.out.println("El Area del Circulo es " + circle.area());
+}
+}
+Aqui le presentamos una prueba de la clase Square:
+class TestSquare
+{ // motor de la clase Square
+public static void main(String[] args)
+{ Square square = new Square(new Point(3,1),2.0);
+System.out.println("El Cuadrado esta en " + square);
+System.out.println("El centro del Cuadrado esta en " + square.center());
+System.out.println("El diametro del Cuadrado es " + square.diameter());
+System.out.println("El Area del Cuadrado es " + square.area());
+}
+}
+
+J
+
+La Clase object
+
+ava define una clas especial, la clase object, la cual es la clase ancestral de todas las clases. Esta declara doce miembros: un constructor y once metodos. Ya que todas las clases con subclase de object todas
+ellas pueden entonces invocar sus metodos. Cuatro de ellos son: clone(), hashCode(), equals() y toString()
+son disenados para ser sobrescritos(explicado mas adelante). Debido a esto es equivalente escribir lo siguiente durante la declaracion de una clase:
+class Point
+{ double x, y}
+
+97
+
+y su equivalente es:
+class Point extends object
+{ double x, y; }
+
+L
+
+LA JERARQUIA DE CLASE DE JAVA
+
+os metodos clone() y equals() son dos de los doces metodos declarados en la clase Object.
+
+Ejemplo 7.10 El Metodo equals() para la Clase Point
+La misma clase Point de Ejemplo0601:
+class Point
+{ // los objetos representan puntos en el eje cartesiano
+double x, y; // las coordenadas de los puntos
+Point(double a, double b)
+{ x = a;
+y = b;
+}
+boolean equals(Point p)
+{ return ( x == p.x && y == p.y)
+}
+public String toString()
+{ return new String(“(“ + x + “, “ + y + “)”);
+}
+}
+La version local de quals() es para garantizar queq.equals(p) no sera false al menos que los dos objetos
+tipo Point realmente representen puntos diferentes. Sin esta version local esta expresion invocaria el metodo
+Object.equals() el cual retornaria false si los objetos fueran distintos pero iguales.
+El metodo equals() definido aqui no sobrescribe el Object.equals() porque las firmas o signatures no son
+las mismas. Una es equals(Point) la otra es equals(Object), aqui le presentamos la forma correcta de sobrescribir el metodo:
+public boolean equals(Object p)
+{ return (x == p.x && y == p.y);
+}
+Ejemplo 7.11 Manera correcta de sobrescribir los metodos Clone() y Point
+Aqui otra version de la clase Point:
+class Point7_11
+// Los objetos representan puntos en el plano cartesiano
+{
+double x, y; // los puntos en las coordenadas
+Point7_11(double a, double b)
+{ x = a;
+y = b;
+}
+98
+
+public Object clone()
+{ return new Point7_11(x,y);
+}
+public boolean equals(Object p)
+{ if (p instanceof Point7_11)
+return (x == ((Point7_11)p).x && y == ((Point7_11)p).y);
+else return false;
+}
+
+}
+
+public String toString()
+{
+return new String("(" + x + ", " + y + ")");
+}
+
+Prueba de la clase Point:
+class TestPoint7_11
+{ public static void main(String[] args)
+{ Point7_11 p = new Point7_11(2,3);
+System.out.println("p = " + p);
+Point7_11 q = (Point7_11)p.clone();
+System.out.println("q = " + q);
+if (q == p) System.out.print("q es igual a p");
+else System.out.print("q no es igual a p");
+}
+
+if (q.equals(p)) System.out.println("q es igual a p");
+else System.out.println("q != p");
+
+}
+El metodo Point.clone() crea un objeto Point con las coordenadas como argumentos implicitos y luego
+los retorna. Pero para sobrescribir el metodo Object.clone(), el metodo Point.clone() debera retornar una instancia de la clase Object. Asi que el objeto Point que se retorna es cambiado a un objeto Object sinedo retornado. la sentencia:
+Point q = (Point)p.clone();
+los reconvierte (recast) a un objeto del tipo Object y luego inicializa a q con este.
+Para override el metodo Object.equals(), el Point.equals() debe contenr un solo parametro de la clase
+Object. Pero entonces esto significa que p.equals(x) puede ser invocado sobre un objeto x de cualquier clase
+ya que todas las classes son una subclase de Object. Asi que es la responsabilidad del metodo determinar primero si los argumentos realmente son instancias de la clase Point. Esto se efectua atraves del operador instanceof.
+La condicion (x == ((Point7_11)p).x && y == ((Point7_11)p).y); es diferente por el (Point) cambio o casting. Esto es necesario porque p es una instancia de la clase Object. Asi que aunque p tiene el los campos x
+y y apropiados, ellos no pueden ser accesados desde p directamente. Java es “Strongly Typed” asi que el operador punto requiere que al que se le opera en la izquierda sea una instancia de la clase a la cual pertence el
+miembro en la derecha: p es una instancia de la clase Object, pero (Point)p es una instancia de la clase Point.
+Ahora tenemos dos objetos Point distintos con la misma data, uno producto del clonado del otro. Asi que
+99
+
+el operador = = los encuentra a ellos no iguales mientras que el metodo equals() los considera iguales. Esto
+sobrescribe los metodos clone() y equals() es consistente con esos de las clasess libreias estandares de Java.
+
+REPASO
+
+Las repuestas a estas preguntas se encuentras en el Apéndice A.
+1. ¿Cual es la diferencia entre composicion y herencia?
+
+2. ¿En Ejemplo0702, cuantos objetos moriran si se ejecuta la siguiente sentencia despues de las otras?
+ann new Person(new Name(“Ann” , “Landers”), ‘F’);
+3. ¿En Ejemplo0702, cuantos objetos moriran si se ejecuta la siguiente sentencia despues de las otras?
+ann new Person(new Name(“Robert” , “Bruce”), ‘M’);
+4. ¿Porque no trabajaria apropiadamente el campo tab eb Ejemplo0703 si no se declarace static?
+5. ¿Que sucederia mal si estas dos lineas del constructor fuesen colocadas inversas?
+this.next = list;
+list = this;
+
+6. ¿En el metodo print() en Ejemplo0704, porque es necesario usar la variable local friend, en vez de usar el
+campo lista directamente?
+
+7. Elimine el metodo toString() en la ClassY en Ejemplo0707 y ejecutelo nuevamente. Su salida sera algo
+asi:
+Ahora en ClassX.f().
+Ahora en ClassX.g().
+x = { m = 22, n = 44 }
+Ahora en ClassY.f().
+Ahora en ClassY.g().
+y = { m = 22, n = 0 }
+¿Explique el porque de los resultados diferentes?
+
+8. ¿Cual es la diferencia entre sobrescribir y sobrecargar un metodo?
+9. ¿Que es polimorfismo?
+
+PREGUNTAS POST- EXAMEN
+
+Las repuestas a estas preguntas se encuentras en el Apéndice B.
+
+1. Modifique la clase name del Ejemplo0701 agregando los siguientes tres campos:
+protected String prefix;
+// ejemplo “Dr”
+protected String suffix;
+// ejemplo “Jr”
+protected String nick;
+// ejemplo “Tux”
+100
+
+2. Implemente una clase Address para representar una direccion postal de correo.
+3. Implemente una clase Phone para representar numeros telefonicos.
+
+4. Implemente una clase Email para representar direcciones de Correo.
+5. Implemente una clase Url para representar una direccion de Internet.
+
+6. Modifique la clase Person del Ejemplo0702 agregandole los siguientes 6 campos.
+protected Phone phone;
+// telefono del hogar
+protected Email email;
+// direccion de correo
+protected Url url;
+// Pagina Web
+
+7. Implemente una clase de cuerpos celestiales (Sol, luna, marte, etc). Incluya los siguientes campos.
+private String name;
+// ejemplo “Dr”
+private double mass;
+// en gramos
+private double diameter;
+// en kilometros”
+private double period;
+// en dias terrestres”
+private CelestialBody orbits;
+private CelestialBody next;
+private CelestialBody list;
+El campo list mantiene una lista vinculada de todos los objetos creados, similar a esa de Ejemplo0704.
+
+8. Modifique la clase Person definida en Ejemplo0703, agregandole los siguientes campos:
+protected int number;
+// el nuemro de objetos
+protected static int count;
+// numero de objetos tipo Person en el arbol
+
+Agregue a cada constructor una sentencia que incremente el countador y modifique el metodo toString()
+para que imprima la cuenta actual. Luego pruebe la clase modificada. Si se ejecuta igual sobre la misma data
+del Ejemplo0703, su salida debe parecerse a esta:
+William Windsor (M) #1
+Mother: Diana Sopencer (F) #2
+Father: Edward Spencer (M) #4
+Father: Charles Windsor (M) #3
+Mother: Elizabeth Windsor (F) #5
+Mother: Elizabeth Bowes-Lyon (F) #7
+Father: George Windsor (M) #8
+Father: Philip Mountbatten (M) #6
+Esto demuestra, que el objeto Charles fue el tercero creado.
+9. Modifique el metodo insert() de la clase Friend definida en Ejemplo0704 para que los objetos sean insertados en una lista alfabeticamente. Use el metodo compareTo() en la clase String para determinar el orden
+alfabetico de las dos cadenas p y q asi:
+(p.name.compareTo(q.name) < 0) //significa que p precede a q
+(p.name.compareTo(q.name) == 0) //significa que p es igual a q
+(p.name.compareTo(q.name) > 0) //significa que p sigue a q
+10. Modifique la clase Friend en Ejemplo0704 para que seda una subclase de la clase Person.
+
+101
+
+11. Agregue el siguiente metodo a la clase Student definida en Ejemplo0708:
+void update(int credit, char grade);
+// actualiza los credits del estudiante y el gpa agregando el nuevo credit
+// y recalculando el gpa basado en la nueva nota
+
+Por ejemplo, si ann tiene la data mostrada en Ejemplo0708 entonces la accion:
+ann.update(4, ‘B’) ;
+cambiaria a ann.credit a 20 y ann.gpa a 3.4. Use la siguiente formula
+newgpa = (credits x gpa x credit x points)/credits + credit)
+
+donde points es el valor numerico equivalente (4,3,2,1) de las notas (A,B,C,D).
+
+12. Extienda la clase Student de Ejemplo0708 a una subclase de nombre CollegeStudent con un campo de
+nombre year para el año de la graduacion del estudiante.
+13. Extienda la clase CollegeStudent del problema anterior (12) a una subclase de nombre GradStudent con
+un campo de nombre degree para la carrera de grado del estudiante.
+14. Extienda la clase abstract Shape de Ejemplo0709 a una subclase concreta de nombre Triangle cuya instancia representa triangulos en el plano cartesiano. Para el metodo de area(), use la formula
+(+-)(x1y2 + x2y3 + x3y1 - y1x2 - y2x3 - y3x1)/2
+
+para calcular el area de un triangulo con vertices en (x1,y1), (x2,y2) y (x3,y3). Puede tambien crear un
+metodo private static que implemente la siguiente formula para la distancia entre dos puntos (x1,y1) y
+(x2,y2):
+((x1 - x2)^2 + (y1 - y2)^2)^1/2
+
+102
+
+103
+
+CAPITULO 8
+
+FUNDAMENTOS JAVA SOBRE GNU/LINUX
+
+ARREGLOS Y VECT ORES
+OBJETIVOS
+Al completar éste Capitulo, usted podrá:
+• Entender lo que son los Arreglos y Vectores
+• Manejar, Copiar y mover los arreglos y manipular su contenido
+• Arreglos de Multiple dimensiones
+
+PREGUNTAS PRE-EXAMEN
+
+Las repuestas se encuentran en el Apéndice A al final del Libro.
+
+1. ¿Que es un arreglo?
+2. ¿Que es un vector?
+
+3. ¿Como se inicializan vectores de mas de una dimension?
+
+104
+
+U
+
+Arreglos y Vectores
+
+n arreglo es un objeto que consiste de una secuencia de elementos enumerados del mismo tipo. Los
+elementos son enumerados empezando desde el cero y pueden ser referenciados usando el operador
+de subscript []. Los arreglso son muy usados por su alta eficiencia.
+
+U
+
+ARREGLOS DE CHARACTERES
+
+no de los arreglos de caracteres mas simple es el que sus elementos son del tipo char. Vimos en el
+capitulo 2 cuando analizamos los Strings que son casi lo mismo que los arreglos. Aqui le presentamos una parte del programa que desarrollamos en el Ejercicio0201:
+Ejemplo 8.1 Un Objeto String
+class TestStringProperties
+{ // prueba algunas caracteristicas de String
+public static void main(String[] args)
+{ String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+System.out.println(alphabet);
+System.out.println("Esta cadena contiene " + alphabet.length() + " caracteres.");
+System.out.println("El caracter en la posicion 4 es " + alphabet.charAt(4));
+System.out.println("El indice del caracter Z es el " + alphabet.indexOf('Z'));
+}
+}
+
+El objeto de nombre alphabet es declarado en la linea 3 como una instancia de la classe String y es inicializado con el valor “ABCDEF.....Z”. Tecnicamente alphabet no es en si el objeto; es el nombre de la variable que hace referencia a la instancia de la clase String, y en la actualidad hace referencia a una que representa la cadena “ABCDE....Z”. Este es el resultado del codigo en la tercera linea, la cual hace ambas cosas
+la declaracion de la referencia y la inicializacion. Se pudo haber efectuado en dos pasos asi:
+String alphabet;
+alphabet = “ABCDEF....Z”;
+Un objeto String es una instancia de la clse String. Un arreglo del caracteres es un arreglo de objetos de
+los cuales sus elementos son del tipo char. El proximo ejemplo nos ilustra la diferencia entre un objeto String
+y un arreglo de chars.
+Ejemplo 8.2 Comparar un Objeto String y un Arreglo char
+class TestCharArray
+{ // prueba el metodo String.toCharArray() y el acceso a los arreglos
+public static void main(String[] args)
+{
+String s = "ABCDEFG";
+char[] a = s.toCharArray();
+System.out.println("s = \”” + "\” \t\ta = \”” + a + “\””);
+System.out.println("s.length() = “ + s.length() + “\t\ta.length = “ + a.length());
+for (int i = 0; i < s.length(); i++)
+System.out.println("s.charAt(“ + i + “) = “ + s.CharAt(i) + “\t\ta[“ + i + “] = “ + a[i]);
+}
+}
+Cada linea compara en la manera que los objetos s y a manejan las respectivas operaciones. Ambos obje105
+
+tos son inicializados con la cadena de 7 letras “ABCDEFG”. El objeto de tipo String es creado con el operador new inclocado el constructor por defecto de String que ttoma un unico argumento del tipo arreglo de
+char, A este se le pasa el argumento “ABCDEFG” y esto crea el objeto s. El arreglode objeto a es creado invocando el metodo String.toCharArray() perteneciente al objeto s del tipo String. Note que al igual que s, a es
+en realidad una variable referencial, s referencia un objeto String y a se refiere a un objeto del tipo char[].
+Los arreglos de objetos tienen un campo publico llamado length el cual almacena el nuemro de elementos en el arreglo. Asi que la expresion a.length es analogo a la invocacion s.length(); cada una evaluara a 7
+en este ejemplo aqui presentado.
+El operador subscript [] provee acceso a los elementos individuales del arreglo. La expresion a[i] es analogo a invocar s.charAt(i); cada una devuelve el caracter en el indice i.
+Los arreglos casi siempre son procesados usando el bucle for. El indice del bucle for iguala el indice del
+arreglo, ambos desde el rango de 0 a a.length -1. Asi que el formato de:
+for (int i = 0; i < a.length; i++)
+//...
+es el mecanismo de control mas usado.
+Ejemplo 8.3 Metodo para Remover todas las Ocurrencias de un Caracter de una Cadena
+class TestStripMethod
+{ // Clase para probar el metodo strip()
+{ int n = s.length();
+char[] a = new char(n);
+int i = 0;
+int j = 0;
+while (i+j < n)
+{ char sc = s.charAt(i+j); // i+j es el indice de s actual
+if (sc == c) j++;
+// j es el numero de caracteres eliminados
+else a[i++] = sc;
+// i es el numero de caracteres que han sido copiados a “a”
+}
+return new String(a,0,i);
+// duplica a “a” como un objeto String
+}
+public static void main(String args[])
+{ String s = new String(ABCAAADEAFA);
+System.out.println(s);
+s = strip(s, ‘A’);
+System.out.println(s);
+}
+}
+
+E
+
+PROPIEDADES DE ARREGLOS EN JAVA
+
+n java se pueden crear arreglos que sus elementos sean cualquier de los ochos tipos primitivos o cualquier tipo de referencia. El sintaxis es
+
+tipo-de-elemento[] nombre; // declara el arreglo
+nombre = new tipo-elemento[n] // asigna almacenage de n elementos
+Como es normal con objetos unicos no arreglos, la declaracion y la asignacion pueden ser combinadas en
+106
+
+una sola sentencia con inicializacion:
+tipo-elemento[] nombre = new tipo-elemento[n];
+Aqui se le presentan algunos ejemplos:
+float[] x; // declara a x ser una referencia a un arreglo de floats
+x = new float[8]; // asigna un arreglode 8 floats, referenciado por x
+boolean[] flags = new boolean[1024];
+String nombres = new String[32];
+Point[] ideal = new Point[1000];
+Fijese que cuando el tipo de elemento es una referencia, es decir como un objeto String por ejemplo, la
+asignacion es solo hecha a referencia de objetos de esa clase.
+Ejemplo 8.4 Cuando son los Elementos de una Arreglo Asignados
+class TestAllocation
+{
+//test the alocation of an array of objects
+public static void main(String[] args)
+{
+String[] name; //allocates 1 reference
+name = new String[4]; //allocates 4 references
+System.out.println("name [0] = \"" + name[0] + "\"");
+name[0] = new String("ABC"); //allocates 1 3-char string
+for (int i=1; i<name.length; i++)
+name[i] = new String(); //allocates 3 0-char strings
+name[3] = "OK"; //allocates 1 8-char string
+for (int i=0; i<name.length; i++)
+System.out.println("name["+ i +"] = \"" + name[i] +"\"");
+}
+}
+La primera linea de main() declara a name ser una referencia a un arreglo de objetos de tipo String. Asigna
+un espacio solo para la referencia misma. Ningun objeto ha sido creado aun. La segunda linea de main() inicializa la referencia name creando un arreglo de objetos de 4 elementos. En este punto, los elementos son
+referencias null. La tercera linea imprime el valor del primer elemento name[0]. Aun esta null.
+La cuarta linea crea una objeto String que representa “ABC” y asigna a name[0] a que se refiera a el.
+Ahora en el programa existen dos objetos: el objeto String[] referenciado por name y el objeto String referenciado por name[0].
+El bucle for crea tres objetos mas y le asigna las tres referencias name[1], name[2] y name[3]. Cada uno
+de estos objetos claro esta es una cadena vacia. La proxima linea reemplaza la cadena vaicia name[3] con el
+objeto String que representa “OK”. La cadena null a la que name[3] se referia esta muerta ya que perdio su
+refrencia a la string “OK”.
+Ahora que ya existen 5 objetos al final del programa: un objeto String[] y cuatro objetos String. Ellos tienen la referencias name, name[0], name[1], name[2] y name[3], respectivamente.
+Cuando un objeto es asignado (como en la segunda linea del Ejemplo0804), sus elementos son automaticamnete inicializados con sus respectivos valores de campo inicial. Esto es un 0 para los campos enteros
+como son byte, short, int y long, 0.0 para los puntos flotantes, float y double, false para los boolean, ‘\u0000’
+para los char y null para cualquier tipo de referencia.
+Usted puede inicializar un arreglo explicitamente con una lista asi:
+int[] c = {44, 88, 99, 77};
+107
+
+Esta linea unica eds equivalente a las siguiente seis lineas:
+int[] c;
+c = new int[4];
+c[0] = 44;
+c[1] = 88;
+c[2] = 99;
+c[3] = 77;
+
+COPIAR UN ARREGLO
+
+Ejemplo 8.5 Los Arreglos no se pueden copiar usando los Operadores de Asignacion
+En este ejemplo mostramos que sucede si se trata de usar un operador de asignacion para copiar un arreglo:
+public class Ejer8_5
+{
+
+}
+
+//tests the effect of assigning an array
+public static void main(String args[])
+{
+double[] x = {2.2, 4.4};
+print(x, "x");
+double[] y = {1.1, 3.3, 5.5};
+print(y, "y");
+y = x;
+print(y, "y");
+x[0] = 8.8;
+print(x, "x");
+print(y, "y");
+}
+static void print(double[] u, String id)
+{
+for (int i=0; i<u.length; i++)
+System.out.println(id + "[" + i + "] = " + u[i]);
+System.out.println();
+}
+
+El arreglo x es inicializado a ser un arreglo de 2 elementos doubles y y es inicializado as ser uno diferente de tres elementos double. Luego se intenta copiarlo usando el operador de asignacion, pero no funciona.
+Cuando intnetamos y = x; el arreglo de tres elementos al que y estaba referenciando muere puesto que
+que perdio su referencia. Pero la asignacion cambia solo el calor de la refrencia misma, simplemente reasignandola a que refiera a al otro objeto arreglo ya existente. El resultado es que ahora ambos x y y sse refieren
+al mismo unico arreglo. Asi que cuando la asignacion: x[0] = 8.8; cambia el primer elemento del arreglo x,
+ademas cambia el primer elemento del arreglo y, ya que ambos son el mismo elemento.
+Java provee un metodo universal especial para copiar arreglos. Es un miembro de la clase System, declarada asi:
+public static void arraycopy(Object src, int srcPos, Object dst, int dstPos, int count)
+108
+
+Este copia elementos desde el arreglo de origen src al de destino dst. El numero de elementos copiados
+es pasado al parametro count. La posicion del indice dek orimer elemento en el arreglo de origen a ser copiado es pasado al parametro srcPos, y la localidad a donde se copiara en el arreglo destinatario es pasado como
+el parametro dstPos.
+En este ejemplo 8.5 se muestra como declarar un parametro del arreglo en un metodo y como pasar un
+arreglo como argumento a un metodo. Los parametros de los arreglos son declarados en la misma manera que
+los campos de arreglos son declarados, usando el operador de subscripts como sufijo del tipo de elemento:
+static void print(double[] u, String id)
+Los argumentos de arreglos son pasados a los metodos de la misma manera ordinaria que se pasan las
+variables, por nombre:
+Ejemplo 8.6 Usar el Metodo System.arraycopy() para Copiar un Arreglo
+Este es el mismo ejemplo que el 8.5 esxcepto que la sentencia de asignacion ha sido reemplazada por la
+invocacion del metodo System.arraycopy().
+class TestArraycopy
+{
+// tests the system.arraycopy() method
+public static void main(String[] args)
+{
+double[] x = {2.2, 4.4};
+print(x, "x");
+double[] y = {1.1, 3.3, 5.5};
+print(y, "Y");
+System.arraycopy(x, 0, y, 0, x.length); // copies x into y
+print(y, "y");
+x[0] = 8.8;
+print(x, "x");
+print(y, "y");
+}
+static void print(double[] u, String id)
+{
+for (int i=0; i<u.length; i++)
+System.out.println(id + "[" + i + "] = " + u[i]);
+System.out.println();
+}
+}
+La invocacion: System.arraycopy(x, 0, y, 0, x.length); copia los valores de los dos elementos x[0] y x[1]
+a y[0] y y[1], respectivamente. Los dos arreglos permanecen distintos, como puede ser visto de los ultimos
+dos bloques de salida. Ellos muestran la asignacion de x[0] = 8.8; cambios al primer elemento de x pero no
+tiene efecto sobre el arreglo independiente y.
+
+L
+
+LA CLASE Vector
+
+os elementos de un arreglo pueden ser cualquier de los ocho tipos primitivos definidos o uno de referencia. Para los de tipo primitivo, usted declara el arreglo usando el nombre del tipo, asi:
+
+double[] lista; // listado de invitados
+Para el tipo por referencia, usted declara el arreglo usando el nombre de la clase a la cual la refrencia se
+refiere, asi:
+109
+
+Miembros[] lista; // Listado de miembros
+Aqui, cada elemento del arreglo es entonces una referencia a un objeto de esa clase. Entonces, por las
+reglas de herencia, cada elemento tambien puede referir a cualquier otro objeto de cualquier subclase de esa
+clase. Por ejemplo:
+lista = new Miembros[4];
+Miembros[0] = Estududiante(“Linus Torvalds”);
+Miembros[1] = Programador(“Alan Cox”);
+Miembros[2] = Director(“Richard Stallman”);
+Miembros[3] = Hacker(“Eric S. Raymond”);
+Aunque cada uno de estos elementos es, por herencia, un objeto del tipo Miembros, realmente obtenemos
+una lista heterogenea. Este es un ejemplo de una caracteristica programacion orientada a objeto llamada polymorfismo, que permite que el arreglo tenga muchas formas.
+El uso mas liberal de polimorfismo ocurre cuando usamos la clase Object, la ultima superclase, como el
+tipo referenciado por el arreglo.
+Ejemplo 8.7 Arreglo de objetos del tipo Objects
+class TestObjectArray
+{
+//tests the Vector class
+public static void main(String args[])
+{
+Object[] a = new Object[6];
+a[0] = new Point(2,3);
+a[1] = new String("Hello, World");
+a[2] = new Long(44);
+a [3] = new Name("James","Gosling");
+a [4] = new CelestialBody("Jupiter",18.99E29,142800,4331.7);
+for (int i=0; i<a.length; i++)
+System.out.println("a[" + i +"] = " + a[i]);
+}
+}
+Cada elemento del arreglo a es una referencia a un objeto del tipo Object. Pero por herencia, cada objeto
+es un objeto Object. Asi que este arreglo puede almacenar lo que sea, cualquier cosa. Como ya no debe sorprenderle, toda idea magnifica como esta de un superarreglo es encapsulada en Java en una clase, esta clase
+se llama la clase VECTOR. Un objecto Vector es en esencia un arreglo universal que puede cambiar su tamaño dinamicamente. Los arreglos ordinarios no pueden hacer esto! El campo length de un objeto de un arreglo es “final” un constante.
+La clase Vector esta definida en el paquete java.util, asi que debera incluir la sentencia:
+import java.util.Vector;
+para poder usar la clase Vector en su programa.
+Ejemplo 8.8 La Lista de Telefonos de los Amigos Nuevamente
+Aqui le presentamos el programa del Ejemplo0704, pero ahora usando un objeto del tipo Vector:
+import java.util.Vector;
+class TestFriends
+110
+
+{
+
+}
+
+//Tests a telephone list of friends
+public static void main(String args[])
+{
+Vector friends = new Vector();
+friends.addElement(new Friend("Martin", "388-1095"));
+friends.addElement(new Friend("bill", "283-9104"));
+friends.addElement(new Friend("Nat", "217-5912"));
+System.out.println(friends);
+}
+
+El constructor por defecto de la clase Vector crea el objeto Vector friends. Luego invocamos su metodo
+addElement() tres veces para agregarle los objetos Friends a la lista. Luego su metodo toString() es invocado implicitamente por el metodo System.out.println() para imprimir la lista por completo.
+Un objeto Vector en java realmente es una lista dinamica. Elementos pueden ser agregados y retirados
+desde la lista. Esto se lleva a cabo utilizando los siguientes metodos:
+void addElement(Object o) // Agrega el objeto o al final de la lista
+boolean contains(Object o) // Retorna verdadero si y solo si o esta en la lista
+Object elementAt(int i) // Retorna el objeto en la posicion i de la lista
+Object firstElement() // Retorna una referencia al primer objeto de la lista
+......
+......
+......
+Asi hay muchos otros que debemos familiarizarnos
+Ejemplo 8.9 Reorganizar elementos de un Vector
+En este ejemplo expandimos el programa anterior.
+import java.util.Vector;
+class TestFriends2
+{
+// Tests a telephone list of friends
+public static void main(String args[])
+{
+Vector friends = new Vector();
+friends.addElement(new Friend("Martin", "388-1095"));
+friends.addElement(new Friend("bill", "283-9104"));
+friends.addElement(new Friend("Nat","217-5912"));
+System.out.println(friends);
+Friends.insertElementAt(friends.elementAt(2), 0);
+System.out.println(friends);
+Friends.removeElementAt(3);
+System.out.println(friends);
+}
+}
+111
+
+Despues de haber creado la misma lista que en el ejemplo anterior, este programa utiliza el metodo
+insertElementAt() y removeElementAt() para mover el tercer objeto Friend al principio de la lista.
+
+L
+
+EL TAMAÑO Y CAPACIDAD DE UN OBJETO Vector
+
+a longitud de un arreglo es el numero de elementos que posee. Si el tipo de elemento es una referencia, entonces entonces algunos de esos elementos pueden que sean null. Asi que el numero de elementos que contenga sea menor que su longitud. Un ejemplo es que el arreglo asignado en Ejemplo0804 tiene
+longitud 4, aunque el numero de objetos referenciados cambia de 0 a 1 a 4. La longitud de un arreglo asignado es constante.
+
+La situacion es diferente para el objeto Vector. En ves de una longitud, un vector tiene un tamaño, el cual
+es el numero de referencia a Objetos que este contiene. Este numero es dinamico; este cambia cada vez que
+un objeto es agregado oretirado del vector.
+Ademas del tamaño, un vector tambien tiene una capacidad, el cual es el numero de espacios asignado
+para contener la referencia a un objeto. Este nuemro siempre es mayor o igual que su tamaño. Si son iguales
+entonces cuando invocamos el metodo addElement(), la capacidad es uincrementada automáticamente para
+acomodar el nuevo elemento. Esto lo ilustramos en el siguiente ejemplo:
+import java.util.Vector;
+class TestSize
+{ public static void main(String args[])
+{ Vector v = new Vector();
+print(v);
+v.addElement("A");
+print(v);
+v.addElement("B");
+print(v);
+
+}
+
+}
+
+for (int i=0; i<8; i++)// inserta 8 elementos
+v.addElement("C");
+print(v);
+v.addElement("D");
+print(v);
+
+static void print(Vector v)
+{System.out.println("v = " + v);
+System.out.println("v.size() = " + v.size());
+System.out.println(",\tv.capacity() = " + v.capacity());
+System.out.println();
+}
+
+Originalmente el vector esta vacio, asi que su tamaño es 0. Pero su capacidad es inicializada automaticamente a 10, lo que significa que podemos insertar hasta 10 elementos abtes de que debera dinamicamente reasignarse. Note que cuando un vector es reasignado dinamicamente su capacidad es doblada.
+112
+
+Ejemplo 8.11 Establecer la Capacidad de un Vector Explicitamente
+En este programa ilustramos dos maneras de establecer la capacidad de un vector: a traves de su constructor y del metodo ensureCapacity():
+import java.util.Vector;
+class TestCapacity
+{ public static void main(String args[])
+{ Vector v = new Vector(3);
+// establece capacidad a 3
+for (int i=0; i<7; i++)
+// inserta 7 elementos
+{ v.addElement(new Long(9));
+print(v);
+}
+v.ensureCapacity(100);
+//reestablece capacidad a 100 elementos
+print(v);
+}
+static void print(Vector v)
+{ System.out.print("v.size() = " + v.size());
+System.out.println(",\tv.capacity() = " + v.capacity());
+}
+}
+El constructor es pasado el argumento 3 el cual este usa para establecer la capacidad inicial del vector.
+Luego se restablece al doble, a 6 y luego a 12, a medida que agregamos mas elementos al vector. Finalmente
+establecemos la capacidad a 100.
+
+U
+
+ARREGLOS DE DOS DIMENSIONES
+
+n arreglod e dos dimensiones es uno que usa dos subscriptos en vez de uno para referirse a sus elementos. El primer subscripto se refiere a las columnas y el segundo a las filas. Por ejemplo:
+
+int[][] a = new int[7][9];
+a[5][2] = 88;
+
+Esta sentencias asignarian el valor de 88 al elemento eb ka fila 5 de ka coolumna 2 del vector a. Recuerde
+que empezamos a contar desde el cero asi que realmente el 5 es la sexta y el 2 es la tercera.
+Un arreglo dos dimensional es en realidad un arreglo de arreglo. Imaginese cada fila como un arreglo, asi
+que un arreglo dos dimensional es una colleccion de arrreglos de una dimension. De hecho asi es que java lo
+ve.
+Ejemplo 8.12 Inicializar un Arreglo De Arreglos
+Este programa declara a “a” a ser un arreglo 2-dimensional de enteros con 7 filas y 9 columnas:
+class Test
+{ public static void main(String args[])
+{ int[][] a = new int[7][9];
+System.out.println("a.lenght = " + a.length);
+System.out.println("a[0].length = " + a[0].length);
+}
+}
+La salida es:
+AQUI VA LA SALIDA
+113
+
+Como arreglo, el objeto tiene la longitud de 7. Esto es porque es en realidad un arreglo de 7 filas de arreglos. El primero de estas filas de arreglos es a[0]. Cada fila tiene 9 elementos.
+Un arreglo 2-dimensional puede ser inicializado igual que uno de una dimension. La unica diferencia es
+que como es una arreglode arreglos, su inicializacion tiene que ser una lista de listas.
+Ejemplo 8.13 Inicializar un Arreglo Dos Dimensional
+El arreglo se llama ragged porque cada fila tiene una longituda diferente:
+class Test2
+{ public static void main(String args[])
+{ int[][] a = { { 77, 33, 88 },
+{ 11, 55, 22, 99 },
+{ 66, 44 } };
+for (int i=0; i<a.length; i++)
+{ for (int j=0; j<a[i].length; j++)
+System.out.print("\t" + a[i][j]);
+System.out.println();
+}
+}
+}
+La Salida es:
+77
+33
+88
+11
+55
+22
+99
+66
+44
+La lista de inicializacion pudo haber sido expresado como:
+int[][] a = { { 77, 33, 88 }, { 11, 55, 22, 99 }, { 66, 44} };
+El compilador ignora todos los espacios en blanco. Ajustandolo asi solo lo hace mas leible.
+Note el uso del bucle anidado for. El bucle exterior es controlado por el indice de filas i y el interno por
+el indice de columna j. El indice de fila es incrementado hasta llegar a a.legth, el cual es 3 eb este ejemplo.
+Para cada valor de i, el indice de coluna j, se incrementa hasta llegar a a[i].length, ek cual en este ejemplo es
+3 cuando i es 0 y 4 cuandi e es 1 y 2 cuando i es 2.
+El mecanismo de control usado de bucles anidados de for es el metodo estar de poblar los arreglos. Para
+poblar un de tres-dimensiones es similar a:
+for (int i = 0; i < a.length; i++)
+for (int j = 0; j < a[i].length; j++)
+for (int k; k < a[i][j].length; j++)
+// procesa a a[i][j][k]...
+Aqui nos podemos imaginar el elemento a[i][j][k] en el plano i, la fila j y la columna k. Una analogia es
+una letra en una linea de una libro: a[i][j][k] representa un caracter k en una linea j en la pagina numero i,
+a[i][j] representan la linea numero j en la pagina numero i, y a[i] representan la pagina numero i. El numero
+de caracteres ne la linea j en la pagina i es representado como a[i][j].length, y el numero de lineas en la pagina i es a[i].length. Asi que la iteracion de i del primer bucle procesaria a[i], iteracion j del segundo bucle procesaria la linea a[i][j] y la iteracion k en el tercer bucle procesaria el caracter a[i][j][k].
+114
+
+REPASO
+
+Las repuestas a estas preguntas se encuentras en el Apéndice A.
+
+1. Describa manualmente el resultado de la ejecusion de invocar el metodo strip() del Ejemplo0803 con la
+sentencia strip(“000121030012”, ‘0’).
+2. ¿Como difiere determinar la longitud de un arreglo de caracteres y la longitud de un objeto String?
+
+3. ¿Como difiere accesar un elemento individual de un arreglo de caracteres de accesar los elementos de un
+objeto String?
+4. ¿Que sucede si usted usa w[8] en una expresion ;uego de asignar 8 elementos al arreglo w?
+5. ¿Cual es la difeencia entre un arreglo null y un arreglo de cero longitud?
+
+6. ¿Cual es la diferencia entre un arreglo de longitud cero y un arreglo de cuatro referencias null?
+7. ¿Porque son los arreglos procesados por bucles for por lo general?
+8. ¿Porque es un arreglo Object[] llamado el arreglo universal?
+
+9. ¿Cual es la diferencia entre el tamaño y la capacidad de un objeto Vector?
+10. ¿Cual es la diferencia entre un objeto Vector y un arreglo de objetos?
+
+11. ¿Cual es la diferencia entre un objeto String y un arreglo de valores char?
+
+12. ¿Cual es la diferencia entre un objeto String y un arreglo de valores char?
+13. ¿Que representa int[]?
+
+14. ¿Que representa int[8]?
+
+15. ¿Que tiene esto malo?
+char[] name = “Linus Torvalds”;
+
+16. ¿Puede un arreglo almacenar diferente tipos de elementos?
+
+PREGUNTAS POST- EXAMEN
+
+Las repuestas a estas preguntas se encuentras en el Apéndice B.
+1. Implemente el siguiente metodo:
+static double sum(double[] x)
+{ // retorna la suma de los elementos del arreglo x
+
+2. Implemente el siguiente metodo:
+static double max(double[] x)
+{ // retorna el maximo de los elementos del arreglo x
+
+3. Implemente el siguiente metodo:
+static double range(double[] x)
+{ // retorna lla diferencia entre elmaximo y el minimo de los elementos del arreglo x
+115
+
+4. Implemente la siguiente modificacion del metodo strip() definido en el Ejemplo0803:
+static String strip(String s, char c, int p, int q)
+{ elimina todas las ocurrencias de c del substring s[p:q-1]
+Aqui la anotacion s[p:q-1] significa qie el substring s que empieza con s[p] y termina con s[q-1]. Por
+ejemplo, si s es “ABCDEFGHIJ”, entonces s[5:8] seria “FGH”
+
+116
+
+117
+
+118
+
+119
+
+120
+
+121
+
+122
+
+123
+
+124
+
+125
+
+

@@ -1,0 +1,2836 @@
+2
+
+LOS
+PIRATAS
+SON
+LOS
+PADRES
+Historias en los albores de la era digital
+
+Libro colectivo para los oXcars 2008
+
+3
+
+Title in english:
+PARENTS ARE THE PIRATES
+History at the dawn of the digital age
+This book licence in english:
+http://exgae.net/exgae-multiply-and-share-forth/theoxcars/program/piratesbook/book-licence
+
+Este libro está sujeto a esta Licencia Poética temporada 2008 (menos los autores que hayan
+elegido otra licencia indicándolo a pie de página de su texto):
+El contenido de este libro colectivo ha sido realizado sin ánimo de lucro y con la intención
+de ser compartido, utilizado, copiado, sampleado, multiplicado por quien quiera. Y quiere
+seguir así.
+Por esto si utilizas parte o todo de él, tienes que poner bien a la vista esta misma Licencia
+o en su defecto la Creative Commons by-sa 3.0 [http://creativecommons.org/licenses/bysa/3.0/deed.es_AR] o la GPL3 ([http://www.gnu.org/licenses/gpl-3.0.html]o cualquier versión posterior publicada por la Fundación de Software Libre).
+
+Por la misma razón, si usas parte o todo de él, preferimos que no lo hagas por dinero sino
+por gusto. Pero no lo exigimos. Si lo haces por dinero, sería más elegante, aunque no estas
+obligado a ello, que compartieras las ganancias con los autores. Aunque sea un ramo de
+flores...
+También, si con la excusa de que es "cultura compartida" usas parte o todo de él atribuyéndote la autoría (u obviando que no lo has hecho tu, que viene a ser lo mismo) es probable que no te gustaría que te lo hicieran a ti. Así que, menciona las fuentes.
+Por último, si descontextualizas lo que hay en este libro, dándole un sentido ético opuesto,
+tienes las de perder. Déjalo correr.
+Por lo demás, es/son responsable/s de lo que está escrito aquí dentro el/la/l@s que lo ha/n
+escrito. Lógico, ¿no?
+
+Autoeditado por eXgae & Conservas en Barcelona, octubre 2008
+4
+
+Los que quieren dividirnos para dominarnos emplean la palabra
+“pirata” como propaganda para insultar a los que comparten. Con
+esa palabra declaran que ayudar a tu prójimo es como atacar barcos. Yo tengo otra opinión: compartir es la base de la sociedad, y
+atacar el compartir es atacar la sociedad. No llamemos a los que
+comparten “piratas” sino “buenos ciudadanos”.
+
+Richard Stallman: programador y la figura más relevante del software libre. Sus mayores
+logros como programador incluyen el editor de texto Emacs, el compilador GCC, y el depurador GDB, bajo la rúbrica del Proyecto GNU. Pero su influencia es mayor por el establecimiento de un marco de referencia moral, político y legal para el movimiento del software
+libre, como una alternativa al desarrollo y distribución de software privativo. Es también inventor del concepto de Copyleft (aunque no del término), un método para licenciar software de tal forma que éste permanezca siempre libre y su uso y modificación siempre reviertan
+en la comunidad.
+www.gnu.org/
+
+5
+
+6
+
+¿Cómo se ha escrito este libro?
+A los autores (personas/grupos) ha sido propuesto escribir/ilustrar
+en un máximo de 400 palabras uno o todos “los temas” que han
+servido de esqueleto al Manifiesto “La Avaricia rompe el saco”
+que cierra este libro.
+Excluidos los estilos/formatos teóricos o ensayísticos.
+Plazo: un mes y medio.
+Remuneración entre 50 € y 120 € según el criterio de “autor”. Muchos no han querido recibir remuneración o la han invertido en la
+sostenibilidad de algún proyecto.
+La identidad de los otros autores se ha revelado a cada uno en un
+segundo momento.
+Por último se han elegido colectivamente el título y la licencia. El
+libro, que se puede descargar online, se vende en papel por 3€
+para poder financiar sus costes y su reedición.
+
+Y aquí LOS TEMAS:
+• La cultura de la era digital: nuevas “rentabilidades”
+• Ecosistema creativo de la era de la comunicación: ahora o nunca
+• Lo digital es la materia de lo que está hecha la memoria contemporánea
+• La copia y sus beneficios
+• Mentiras, bits, inquisición y P2P
+• 13.000.000 de hogares piratas: la piratería no existe, los piratas son los
+padres
+• Prohibir la comunicación en la era de la comunicación
+• P2P: ¿de verdad queremos seguir el ejemplo de Pakistán, China, Francia
+o Sudán?
+• Hablemos de los intermediarios: la reconversión en tiempos de crisis. La
+cultura existía antes de la industria cultural
+• El lucro cesante es el cuento de la lechera (y la cultura es la leche)
+• Dominio publico vs el beneficio de los parásitos
+• Derecho de cita: la clave de la economía del enlace
+
+Buena lectura...
+
+7
+
+8
+
+LA LEY TAMBIÉN LA EDITAN ELLOS
+Mariana Obrador repetía “los ángulos de un triángulo suman
+ciento ochenta grados” cuando la Policía entró acompañada del
+Director. Seguramente aquella expresión evocaba con demasiada
+literalidad la del libro de texto, prohibida su reproducción total o
+parcial, su comunicación pública, aquel triángulo en la pizarra demasiado reminiscente del de la página 26, todos sus ángulos
+iguales, el mismo arquito, punto y vértice en cada esquina, definitivamente un abuso del derecho de cita, qué me dice de los geómetras griegos cortó el funcionario, la propiedad es de la
+Editorial, los otros murieron hace más de 70 años y si me apura de
+700 y ahora es nuestro, digo suyo, es la Ley, no le puedo leer ese
+párrafo, la Ley también la editan ellos, ¿sabía?, acompáñeme,
+esto va por lo Civil, va a tener usted suerte.
+LA LLEI TAMBÉ L’EDITEN ELLS
+La Mariana Obrador repetia “els angles d’un triangle sumen cent vuitanta graus” quan la Policia va entrar en companyia del Director. De
+ben segur que aquella expressió evocava de manera massa literal
+la del llibre de text, prohibida la seva reproducció literal o parcial, la
+seva comunicació pública, aquell triangle a la pissarra amb reminiscències del de la pàgina 26, tots els seus angles iguals, el mateix
+arc, punt i vèrtex a cada cantó, definitivament un abús del dret a cita, què me’n diu dels geòmetres grecs va tallar-la el funcionari, la
+propietat és de l’Editorial, els altres van morir ja fa més de 70 anys
+i, fins i tot, potser en farà més de 700, i ara és nostre, volia dir que
+és d’ells, és la Llei, no li puc llegir aquest paràgraf, la Llei també l’editen ells, ho sap?, acompanyi’m, això és una qüestió de la justícia
+Civil, ha tingut vostè sort.
+THEY PUBLISH THE LAW, TOO
+Mariana Obrador was repeating “the angles of a triangle add up to a
+hundred and eighty degrees” when the Police came in accompanied
+by the Principal. Certainly that expression recalled too literally one
+to be found in the Textbook —-all rights reserved, no part may be reproduced, stored or transmitted in any form without the prior written permission of the Publisher; that triangle in the blackboard being
+too similar to the one on page 26, all angles suspiciously akin, the
+same tiny arc, point and vertex in every corner, definitely an abuse
+of the quotation right, what’s the point with the greek geometers, cut
+9
+
+short the Officer, the copyright is the Publisher’s, that bunch died
+more than 70 years ago, 700 if you push me, and now it is ours, I mean theirs, it is the Law, I can’t read the relevant paragraph to you, the
+Law is published by them too, didn’t you know?, come with me,
+you’re lucky, this is a case of civil procedure.
+
+Alqua: made in community
+www.alqua.org
+
+10
+
+LA PRIVATIZACIÓN DE LO COMÚN PARA CONVERTIRLO EN
+PARTICULAR, O CÓMO EL DICHOSO PATIO DE TODOS AHORA
+SÓLO ES DE UNOS POCOS Y YA NI SE MOJA COMO LOS DEMÁS
+Durante siglos los derechos de autor de todo lo que vemos eran
+de Dios. Hasta dónde alcanzaba la vista era cosa suya. Él había
+hecho el universo, las estrellas, los planetas, las aguas, los peces,
+las plantas, e incluso las macetas. Toda la creación era como una
+inmensa marca blanca, manufacturada por una única empresa.
+Que de pronto aparecía una nueva clase de reptiles, pues no había misterio porque –evidentemente- era obra de Dios. De esta
+forma, a lo largo de tediosas y desesperantes generaciones, los
+seres humanos aprendimos que todo pertenecía al gran consorcio religioso que -según Él- había sido el gran diseñador de todo
+lo existente. Por eso, si una de sus miserables y abyectas criaturas escribía la historia de Adán o de un tal Noé –pongamos por
+caso- venía un arcángel a cobrarle el canon, pues todo lo que pudiera decir era Palabra de Dios. Y en esas estábamos cuando a
+un desaprensivo llamado Darwin se le ocurrió la brillante idea de
+afirmar que, aunque no nos guste el anís, venimos del mono. A
+partir de ese instante, cada vez han sido más los hijos de vecino
+que se han dado cuenta de la estafa. El mundo -en realidad- fue
+creado un poco por todos, cada uno con su chifladura. Pero cuando pensábamos que nos habíamos librado del pelmazo de Dios –
+que ni tan siquiera existe- aparecen unos parientes lejanos suyos
+y, con las mismas maneras rancias de un sacerdote, nos vuelven
+a venir con el timo del canon. Ahora, los derechos de autor son
+de las sociedades de idem, convencidas de que también han sido Ellos quienes han creado el mundo. ¿Estamos ante una nueva
+religión? De momento, inquisidores no le faltan. Así pues, Loados
+Sean los Derechos y métanme ustedes dónde les quepa...
+
+Xavier Theros - Accidents Polipoetics: nació un brillante mediodía de la primavera de 1963,
+cuando apenas contaba con el don de la palabra y no tenía ni un pelo en la cabeza. Desde
+entonces, lleva más de diez años de actividad en los escenarios más insospechados con
+Accidents Polipoètics, en compañía de Rafael Metlikovez, con quien acaba de publicar el
+libro “Todos tenemos la razón” (Ed. La Tempestad), con el que nos deleitan con su particular visión del mundo y de la historia, utilizando para ello grandes dosis de humor, de absurdo, de mala leche y un simbólico espejo retrovisor de 600.
+http://blogdeaccidentspolipoetics.blogspot.com
+11
+
+LOS AÑOS OSCUROS - UNA APROXIMACIÓN HISTÓRICA
+La extensión de los derechos de autor a un periodo eterno se produjo a mediados del siglo XXI.
+Las grandes industrias del contenido decidieron entonces ejecutar su obra maestra: asegurar su posición en el del mercado impidiendo la entrada de nuevos competidores consiguiendo asi
+ganancias de manera indefinida. Para ello no podían existir más
+autores.
+La abolición de la concepto de “creacción original” se produjo a
+finales del siglo XXII.
+A la acción de yuxtaponer diferentes obras de autores anteriores
+se le llamo “recombinar”. Toda persona tenia derecho a recombinar, siempre que pagara por ello. Siempre existía un autor previo
+siendo heredados los derechos de explotación. De no existir herederos, los estados se hacían cargo de los mismos dependiendo
+de la nacionalidad del creador. A las personas que recombinaban
+se les denomino “recombinantes”.
+Toda la cultura humana habia sido cuidadosamente registrada y
+digitalizada. Cada intento recombinación era procesada para su
+análisis y sofisticados algoritmos detectaban sus origenes en la
+proporción correcta asignando los porcentajes de ganancias a sus
+creadores.
+Ser escritor se convirtio entonces en una afición de ricos. Como
+cultura popular solo sobrevivieron los haikus, fáciles de recordar
+y transmitidos de forma oral.
+Los clasicos entraron en el mercado de valores y su cotización en
+bolsa marco las diferentes modas y tendencias de la época. La
+Biblia, Shakespeare y los Beatles se convirtieron en valores seguros, equivalentes al cambio del oro en el mercado de materias
+primas.
+La gran crisis del 23 se produjo cuando el hallazgo de unos documentos demostró que Shakespeare era un seudomino bajo el
+cual firmaban diversos escritores. La imposibilidad de poder asignar con exactitud la autoria de sus obras quebró la confianza de
+los inversores en el sistema recombinatorio y sus acciones descendieron en picado. Para evitar futuras crisis de confianza, (otros
+clásicos estaban también en tela de juicio) se prohibió la recombinación de obras anteriores al año 1923.
+12
+
+La época oscura se finalizó con el proceso Galileo. Una brillante
+abogada May Terr, puso en tela de juicio la explotación comercial
+de la Biblia alegando la inspiración divina de los textos, y por tanto su autoría no humana. La inexistencia de un acuerdo de cesión
+de derechos a Pedro ni a la Iglesia Apostólica Romana (la poseedora en ese momento de los derechos de explotación) posibilitó
+la admisión a trámite del recurso de usurpación.
+El inicio del juicio provoco la mayor crisis económica de la historia. La cotizacion de la bolsa y el sistema recombinatorios se suspendieron durante su celebracion de la vista. Dios fue llamado a
+declarar, aunque no se presentó. Finalmente y bajo el análisis de
+los propios textos se atribuyó la autoria divina de los mismos,
+aunque sucesivas apelaciones terminaron poniendo en duda la
+existencia del autor. Finalmente y tras 30 años de proceso el juez
+dictaminó la no existencia de Dios (no personarse en la causa fue
+un factor determinante) y por tanto se invalidaron todas las sentencias anteriores.
+Pero para entonces todo la industria de contenidos había entrado en la más absoluta bancarrota.
+
+Josianito: soluciones en softwae libre para este y otros mundos. Dinamizador digital y educador en nuevas tecnologías. Dirige un centro del proyecto ómnia, red de telecentros que
+lucha contra la brecha digital en Cataluña. Educador en nuevas tecnologías, es cofundador
+de targz. Junto a Tatiana de la O, presenta “nerd files” radiozine sobre tecnología y software libre.
+www.targz.net
+josianito@targz.net
+
+13
+
+VISIONES DEL FUTURO
+
+nature
+
+4 Mayo 2056, Vol 471, Número 9696, p42
+
+Sección Derecho y Salud, con Harvey Brilliant, Doctor en Derecho.
+
+Mi marido y yo queremos tener hijos, pero nos hemos encontrado con un
+problema. Hemos consultado con tres eugenistas, y todos nos dicen que cualquier combinación de nuestros genes que pueda resultar en un bebé sano
+está patentada, y no tenemos bastante dinero para pagar las patentes. Es
+esto cierto? Adjunto nuestros perfiles genéticos, declaraciones de bienes, nóminas, y las declaraciones de hacienda de los últimos cinco años.
+Madre y Mártir en Madrid
+Afortunadamente, no es del todo cierto. Algunas de esas patentes se pueden evitar con un aleatorizador de intrones. Las clínicas de salud reproductiva no suelen dar esta información, porque la secuenciación aleatoria
+de genes está sujeta a tarifas fijadas por el tratado de la OMPI de 2027,
+y les deja pocos beneficios. Más complejo y más caro es el uso de distintos codones para expresar las proteínas dubiertas por las patentes (las patentes son de procedimiento, así que no cubren las protenínas en sí).
+Sin embargo, esto os deja todavía sujetos al bloque de patentes de
+GenIntech sobre el sistema inmunitario, cuya estrategia a prueba de bombas fue diseñada por el famoso equipo legal de la división de genética de
+IBM. Aunque la terapia modifique dominios no conservados de las proteínas en cuestión, las patentes siguen siendo válidas; están perfectamente
+blindadas. Así que estás en lo cierto, tu marido y tú no os podéis permitir un bebé sano. Tendréis que tener un bebé con una enfermedad menor y buscar una cura que entre en vuestro presupuesto.
+Mi recomendación es que tengáis un bebé celíaco. El desorden celíaco es
+tratable con retrovirus desde el año 2042, y hay una solución con licencia libre (bajo la General Genetic License de la Free Software Foundation) desde 2048. Las patentes siguen en activo, pero se pueden adquirir
+a precios muy asequibles, ya que se fueron adquiridas por el Open Ge14
+
+netics Consortium cuando la quiebra de Pfizer-Monsanto en 2056. Si tu
+marido y tú no tenéis predisposición genética al desorden celíaco, tendréis que comprarle los genes a un donante.
+El mejor sitio para hacerlo es Jinling, en China. Es el único país que implantó la excepción de copyright genético al tratado de 2027, mientras
+que en el resto de países el donante conserva derechos sobre las obras derivadas de sus propios genes, y por tanto tendría derechos sobre vuestros
+nietos. Además, tras el colapso demográfico, el Yuan está tirado por los
+suelos, así que sí que rehipotecando la casa podréis permitiros daros unas
+vacaciones al tiempo que tenéis un bebé sano (con un 97,5% de probabilidades). ¡Enhorabuena!
+
+BLAST FROM THE FUTURE
+
+nature
+
+4 May 2056, Vol 471, Number 9696, p42
+
+Health and Rights Section, with Harvey Brilliant, PhD in Law.
+
+My husband and I want babies, but we have met with a problem. After consulting with three eugenists, they tell us that any possible combination of our
+genes that can result in a healthy baby is covered by patents, and that we don’t
+have enough money to cover the licenses. Is this true? I am attaching our genetic profiles, our property portfolios, our payroll statements, and our tax returns for the past five years.
+Martyrised Mother in Melbourne
+Luckily, it’s not completely true. Some of those patents can be avoided by using
+an intron randomiser. Reproductive health clinics don’t usually give out this
+information because random gene sequencing is subject to statutory licenses
+since the WIPO treaty of 2027, and their margins are very slim. A more complex and expensive method is the usage of alternative codons for espressing the
+proteins covered by the patents, as we are talking about process patents, which
+don’t cover the proteins as such.
+
+15
+
+However, this still leaves you under the GenIntech patent portfolio on the immune system. Their bomb-proof strategy was designed by the famous legal
+team of the genetic division at IBM. Even therapies that modify the non-conserved domains of the proteins in dispute are covered by the patents; they are
+that thorough. So you are right, and your husband and you can’t afford a
+healthy baby. You will have to have a baby with a minor disease and then seek
+a cure within your budget.
+My advice is that you go for a celiac baby. Celiac disorder has been successfully
+treated with retrovirus since 2042, and there is a freely licensed solution (under
+the Free Software Foundation’s General Genetic License) since 2048. The patents are still valid, but they can be licensed at very affordable prices, as they
+were adquired by the Open Genetics Consortium after Pfizer-Monsanto went
+bankrupt in 2056. If your husband and you don’t have the genes for celiac
+disease, you will have to buy them from a donor.
+The best place for the procedure is Jinling, in China. It’s the only country that
+implemented a genetic copyright exception to the 2027 treaty; in all other
+countries donors keep derivative rights over their genes, so they would have a
+claim over your grandchildren. Also, after the Great Demographic Collapse, the
+Yuan is dirt cheap, so with a second mortgage on your house you can have a
+healthy baby (with a 97.5% probability) with a resort holiday thrown in.
+Congratulations!
+
+Javier Candeira: es escritor, profesor, artista y activista en la intersección entre la cultura,
+la política y la tecnología. Es uno de los fundadores de barrapunto.com, y colaborador en
+lla creación y mantenimiento de las licencias Creative Commons en España.
+http://hiperactivo.com/
+
+Este texto bajo licencia Creative Commons Atribución-Compartir Igual versión 3.0
+http://creativecommons.org/licences/by-sa/3.0/
+16
+
+Madre nuestra que estás en la red
+sindicable sea tu web
+vengan a nosotros tus posts
+hágase tu voluntad compartible y remezclable
+danos hoy nuestros feeds de cada día
+y perdona si no publicamos
+como también nosotros perdonamos a quienes nunca comentan
+no nos dejes caer en la irreflexión
+y líbranos del copyright.
+
+ZEMOS98: es un colectivo de creación y producción cultural, de ámbito internacional, que
+desarrolla su actividad en Sevilla desde el año 1995. Está compuesto por un equipo de comunicólogos y tecnólogos de la imagen y el sonido que habitan la red Internet como un
+espacio más de comunicación, aprendizaje y creación
+www.zemos98.org
+
+Esta oración sabe mejor con enlaces visita
+www.zemos98.org/madrenuestra
+17
+
+POR NUESTRO BIEN COMÚN
+Al principio pareció una buena idea. Era escasa, era esencial para la vida. Alguien tenía que cuidarla, mejorarla y preocuparse por
+que algo tan importante llegase a la gente cuando la necesitaba.
+Los argumentos eran claros, pero teníamos que convencer a muchos: políticos, empresarios, los propios ciudadanos que podrían
+no comprender la necesidad de algo así.
+La seguridad: no podemos permitir que algo esencial pueda llegar a nadie sin las debidas garantías.
+El control: los gobernantes no pueden permitirse que algo que
+proporciona poder, llegue a todos directamente.
+La rentabilidad: no nos engañemos, puede parecer abundante,
+pero no lo es. A nuestra sociedad le ha costado siglos entenderlo y ahora no nos podemos permitir olvidarlo. Puede que la “materia prima” sea abundante, pero alguien tiene que trabajarla para
+que se pueda consumir con garantías. Y ese alguien necesita vivir y recibir una compensación por su trabajo.
+Con estos argumentos conseguimos un gran apoyo y los cambios
+necesarios para que “la nueva industria” empezase a funcionar
+sin demasiados riesgos. Pero, el negocio seguía siendo pequeño.
+Muchos se empeñaban en consumir algo ensencial olvidando la
+más mínima seguridad y sin ningún tipo de control. Ponían así en
+peligro sus propias vidas… y la rentabilidad de la industria. Quedaba aún un paso imprescindible. Debíamos evitar la posibilidad
+de que esto siguiese sucediendo. Los argumentos tuvieron que
+ser ahora más complejos, hubo que aplicar una cierta dosis de
+demagogia … pero al fin y al cabo era imprescindible para que
+“todos” ganásemos.
+Finalmente lo logramos. Una ley lo cambió todo. Todos tendríamos que pagar por consumir, así lograríamos las garantías oportunas. Lo que al principio era solo “una buena idea”, se convirtió
+en estos momentos en una gran idea, “la idea”.
+El agua era vital para nuestras vidas. El agua aparentaba ser abundante, pero el agua de calidad, segura y controlada, era escasa y
+cara. Alguien tenía que preocuparse por que solo ese agua segura y controlada llegase a los ciudadanos y eso debía pagarse. Y
+la antigua asociación de empresas embotelladoras de agua era el
+aliado natural del gobierno y de toda la ciudadanía.
+18
+
+Por supuesto, por el camino tuvimos que realizar algunos cambios. No era lo mismo dedicarse a las botellas de un litro, o incluso a las garrafas de cinco que vender agua por hectolitros para la
+ducha, para cocinar o para regar las plantas. Pero al final lo logramos, todo el mundo podía vivir solo con el agua que nosotros
+les proporcionábamos…. Y además el precio resultaba bastante
+razonable. Ya casi nadie recordaba que la poderosa Sociedad General para la Gestión de los Recursos Hídricos había sido solo una
+asociación de embotelladores hace pocos años.
+
+Juan Freire: biólogo, profesor universitario y emprendedor. Explorador del papel de la
+innovación, la estrategia y la tecnología en las redes sociales, las organizaciones y las
+ciudades.
+http://nomada.blogs.com/
+http://juanfreire.net/
+
+Página siguiente por
+Miguel Brieva: es un ser bípedo y en ocasiones racional que nació en Sevilla en 1974 y que,
+además de ingerir alimentos y aspirar oxígeno con relativa frecuencia, crea o colabora asimismo en algunas publicaciones como Dinero, Bienvenido al mundo, El Jueves, La Vanguardia, Periódico Diagonal, El País, Rolling Stone, Cinemanía, Ajoblanco, Qué Leer, Mondo
+Bruto, NSLM, Recto, Tos, Freek, Nervi y la Gacetilla Parroquial de Nuestro Señor San Esteban Protomártir.
+
+19
+
+Este mes en “El caso es hacer pasta” respondemos a preguntas
+de nuestros lectores:
+Soy tataranieto del matemático Victor D'Hondt y quería
+saber si tiene sentido que presente una demanda por
+violación de los derechos de autor contra 22 Estados
+Soberanos entre ellos Argentina, Bélgica, Brasil, Israel,
+Japón, Países Bajos, Suiza o España por el uso repetido
+y continuado del sistema d'Hondt para repartir los
+escaños parlamentarios en sus contiendas electorales.
+De acuerdo a la legislación Europea y dado que mi
+tatarabuelo murió en 1901, todos aquellos países que
+han utilizado la fórmula de mi abuelo hasta 1971 han
+incurrido en una grave delito ya que nadie nos ha dado
+un duro.
+Manuel Perez Batista D'Hondt
+(Marbella)
+Querido lector: Por desgracia, para el avance del conocimiento y
+tu bolsillo, todavía no se pueden patentar fórmulas matemáticas
+aunque en EEUU ya se pueden patentar algoritmos, por tanto sólo tienes que demostrar que más que una fórmula era un logaritmo y con ello acudir a los tribunales norteamericanos a forrarte.
+Todo y que prepárate para gastar pasta en abogados, esta ley no
+está hecha para ti.
+
+Álvaro Porro-Opcions: redactor revista Opcions y "vividor" en Canmasdeu.
+http://www.opcions.org
+
+22
+
+Nulla di quel che appare rimarrà.
+Il cieco il sordo e il muto.
+A Natale la città sembrava svuotata, portantini e monatti trascinavano moribondi nelle strade.
+Si parlava di un’epidemia di meningite. I sintomi erano quelli della
+meningite, ma il decorso della malattia è imprevedibile.
+Dalle torri gettavano pece. Solitari monaci si avventuravano con
+torce fumiganti verso gallerie abbandonate alla ricerca di una fanciulla incatenata. Dicono che sia nuda, bellissima e la sua pelle ha
+il colore incantato della luna. Geme, e attende che giunga colui che
+è destinato a liberarla. Altri monaci riprendono la scena con videocellulari incorporati nel cappuccio.
+Lazzaro ripete ai suoi studenti siete destinati a fare i servi della
+gleba. Siete troppo ciglioni per ribellarvi, al massimo siete capaci di
+fare un gridolino di sdegno, poi eccovi supini a obbedire perché i
+vostri neuroni sono abituati soltanto a dir di sì.
+Max è consulente per la sicurezza. E’ il suo lavoro. Se non fosse il
+suo lavoro non lo farebbe. Ma lo è. Lui lo fa.
+La sua agenzia fornisce apparecchi di videosorveglianza, guardie
+private che controllano gli ingressi delle abitazioni dei ricchi.
+Max è stato assunto per occuparsi di un ipermercato. Gira per i corridoi traboccanti di merci accompagnato da due guardie armate
+per stabilire in quali punti si debbono piazzare le telecamere.
+La spazzatura si accumula nelle strade. Imballaggi cartoni plastiche sacchetti oggetti che durano pochi istanti. La produzione infinita il consumo incontenibile e l’accumulazione inarrestabile.
+Un’organizzazione denominata utilidioti sequestra dirigenti industriali e direttori di banca e li tortura in una cantina. Lazzaro chiede
+di essere ammesso nell’organizzazione. “Ho diritto anche io a godere un po’.”
+L’imam scomparso riappare sullo stretto di Hormuz. Le navi si fermano, paralizzate. Tutto si ferma lentamente come se la pellicola
+stesse fondendo.
+Io e te soltanto restiamo in contatto, mia dolce, mia bella, mia cara.
+Una bomba sporca esplode nella città di Atlanta facendo un numero imprecisato di vittime, più di mille. Scene di giubilo in tutto il
+mondo.
+Lazzaro vuole andar da Janek, il figlio che non ha mai visto. Da 25
+anni Janek si trova in un ospedale di New York.
+Il figlio che Lazzaro concepì con Brigitte nel 1982 è un mostro. E’ un
+23
+
+angelo. Non ha occhi. E’ cieco sordo e muto. E’ ricoverato nell’Istituto di neuromazione avanzata. Ha appreso a comunicare attraverso la teletrasmissione di impulsi elettronici. Nella sua mente ha
+costruito un universo vibrazionale la cui regola visiva e uditiva dipende dalla stimolazione tattile. Il corpo di Janek ha sensori raffinatissimi. Ti sento, Olimpia, ora ti sento. Nella tua grotta fa freddo.
+Eccoti un mantello di velluto color amaranto.
+Io, Janek, ti prego, mia dolce, mia cara, mia adorata Olimpia. Non
+sarà Orlando a liberarti. Ecco. Sto arrivando a te.
+Nada de aquello que aparece permanecerá.
+El ciego el sordo el mudo.
+En navidad la ciudad parecía vaciada, camilleros y monatti arrastraban
+cuerpos moribundos por las calles. Se hablaba de una epidemia de
+meningitis. Los síntomas eran los de la meningitis, pero el desarrollo
+de la enfermedad es imprevisible.
+De las torres arrojaban Pez. Monjes solitarios se aventuraban con antorchas humeantes hacia las galerías abandonadas a la búsqueda de
+una niña encadenada. Dicen que está desnuda,
+bellísima y que su piel tiene el color de la luna. Gime, y espera que llegue aquel que está destinado a liberarla. Otros monjes registran la escena con video-teléfonos-móviles incorporados en la capucha.
+Lázaro repite a sus estudiantes estáis destinados a hacer de siervos de
+la Gleba. Sois demasiado vagos para rebelaros, como mucho sois capaces de emitir un leve grito de indignación, y aquí estáis, pasivos a
+la obediencia porque vuestras neuronas están habituadas tan sólo a
+decir sí.
+Max es consejero para la seguridad. Es su trabajo. Si no fuera su trabajo no lo haría. Pero lo es. Él lo hace. Su agencia suministra aparatos de video-vigilancia, guardias privados que controlan los intereses
+de las viviendas de los ricos.
+Max ha sido contratado para ocuparse de un hipermercado. Se pasea
+por los pasillos rebosantes de mercancías acompañado de dos guardias armados para establecer en qué punto deben colocarse las cámaras. La basura se acumula en las calles. Embalajes cartones
+plásticos bolsas objetos que duran pocos instantes. La producción ha
+terminado el consumo incontenible y la acumulación imparable. Una
+organización denominada utilidioti secuestra dirigentes de la industria y directores de banca y los tortura en un sótano. Lázaro solicita ser
+24
+
+admitido en la organización. “Yo también tengo derecho a gozar un
+poco”.
+El imán desaparecido reaparece en el estrecho de Hormuz. Los barcos se detienen, paralizados. Todo se detiene lentamente como si la
+película se estuviese derritiendo.
+Yo y tú entretanto permanecemos en contacto, mi dulce, mi bella, mi
+querida.
+Una sucia bomba explota en la ciudad de Atlanta provocando un número impreciso de víctimas, más de mil. Escenas de júbilo en todo el
+mundo.
+Lázaro quiere ir a casa de Janek, el hijo que nunca ha visto. Desde
+hace 25 años Janek se encuentra en un hospital de Nueva York.
+El hijo que Lázaro concibió con Brigitte en 1982 es un monstruo. Es
+un ángel. No tiene ojos. Es ciego sordo y mudo. Está hospitalizado en
+el Instituto de neuromación avanzada. Ha aprendido a comunicarse a
+través de la tele-transmisión de impulsos electrónicos. En su mente ha
+construido un universo vibratorio cuya regla visual y auditiva depende
+de la estimulación táctil. El cuerpo de Janek tiene sensores refinadísimos. Te oigo, Olimpia, ahora te oigo. En tu gruta hace frío. Aquí tienes
+una capa de terciopelo de color amaranto.
+Yo, Janek, te pido, mi dulce, mi querida, mi adorada Olimpia. No será
+Orlando quien te libere. Aquí estoy. Llegando a tí.
+
+Franco Berardi, “Bifo” militante anarco-obrerista (anarcooperaista) según su propia definición. Participa en el movimiento del 68 desde la Facultad de Filosofía y Letras (Bologna)
+y en la experiencia de Potere Operaio a fines de los 70. En 1970 publica su primer libro, Contro il lavoro (Feltrinelli); en 1975 es fundador de la revista del movimiento A/Traversa y desde
+1976 es redactor de la famosa Radio Alice. Es perseguido en el famoso operativo de represión del 7 de abril de 1977, huyendo a Paris, donde es ayudado por Deleuze y Guattari.
+Publica en francés Enfin le ciel est tombè sur la terre (Seuil). Retorna a Italia en 1985 donde
+publica La barca dell’amore si è spezzata y desde 1989 publica el opúsculo Cyberpunk. Es
+creador del sitio web Rekombinant (http://www.rekombinant.org/media-activism/). Su último libro, La fábrica de la infelicidad, traducido al español puede bajarse completo del sitio:
+http://www.sindominio.net
+
+25
+
+Hoy leo, sin mucha esperanza, que la disputa legal sobre la coautoría de la primera película en la que aparece Mickey Mouse podría devolverlo al dominio público. Y recuerdo una frase que leí
+una vez, escrita por alguna de mis múltiples voces: “Veo a un Mickey Mouse envejecido con pasamontañas tirando piedras a una
+oficina de disney al grito, ‘Fui vuestro esclavo desde 1928 y he
+conquistado para vosotros millones de corazones y ganado billones de dólares, ¡AHORA DEJADME SER LIBRE!’”
+
+Teresa Malina Torrent
+¿Quién es Teresa Malina?
+Soy sólo enunciadora de una comunidad, compresora de discursos que rodean mi habitar
+las redes, reflejo de mi existencia como cruce colectivo de experiencias y aspiraciones. Mi
+firma esconde multitud de cuerpos en diálogo para narrar su experiencia compartida: transformar la exigencia de autoría en oportunidad para construir identidad cooperativa.
+www.compartiresbueno.net
+
+26
+
+STOP DOWNLOADING THEIR SHIT!
+(Rap)
+If you really want to fuck
+the recording industry
+stop downloading their shit!
+If you really give a damn
+about artistic liberty
+stop downloading their shit!
+The Record Bosses
+will make record losses
+if you stop downloading their shit!
+The Bosses don’t create
+so they need to mediate.
+For them to grab the cash
+they need to separate
+the artist from the fan
+so you gotta pay the man.
+If you try to work around them,
+they’ll try to throw you in the can!
+They sell the fans to the artists
+and the artists to the fans
+what you buy, what you like
+is all in their business plans!
+Do they care if you copy
+there so-called property?
+No they don’t
+They worry if you share
+without their authority
+that one day, you wont!
+If you really want to fuck
+the recording industry
+stop downloading their shit!
+27
+
+If you really want to break free
+of the consciousness industry
+stop downloading their shit!
+The Record Bosses
+will make record losses
+if you stop downloading their shit!
+When you download their shit
+you keep promoting it.
+When you copy what they sell you,
+you make them the ones that tell you
+what you want to hear and see
+what to like, what to be.
+They don’t need to sell you a CD,
+they sell you your lifestyle,
+you are their audience commodity!
+The Bosses own the radio
+and the damn TV.
+They tell what to think
+and what makes you happy.
+They own the papers
+and the biggest websites too!
+File sharing
+is what they don’t want you to do!
+Because peer to peer networks
+are really something new.
+Love the many words and sounds
+that the labels don’t cary.
+Culture is collective,
+it’s not proprietary!
+Peer to peer is what they fear
+they must control what you want to hear.
+You see the bosses realize
+if you share with each other
+28
+
+they can not capitalize!
+If you really want to fuck
+the recording industry
+stop downloading their shit!
+If you really want to have
+a creative community
+stop downloading their shit!
+The Record Bosses
+will Make record losses
+if you stop downloading their shit!
+
+¡DEJA DE BAJARTE SU MIERDA!
+(Rap)
+Si realmente quieres joder
+a la industria discográfica,
+¡deja de bajarte su mierda!
+Si realmente te importa algo
+la libertad artística,
+¡deja de bajarte su mierda!
+¡Los jefazos de las discográficas
+batirán récords de pérdidas
+si dejas de bajarte su mierda!
+Los jefazos no son creadores,
+así que necesitan ser mediadores..
+Para poder amasar pasta
+necesitan separar
+al artista de su fan
+y que le tenga que pagar.
+¡Si intentas actuar contra ellos,
+intentarán que acabes en la cárcel!
+Venden los fans a los artistas
+29
+
+y los artistas a sus fans.
+Lo que compras, lo que te gusta,
+¡todo es parte de su plan!
+¿Les importa que te copies
+su supuesta propiedad?
+Pues no.
+Les preocupa que si compartes
+sin su autorización,
+un día no lo hagas.
+Si realmente quieres joder
+a la industria discográfica,
+¡deja de bajarte su mierda!
+Si realmente quieres liberarte
+de la industria de la cultura,
+¡deja de bajarte su mierda!
+¡Los jefazos de las discográficas
+batirán récords de pérdidas
+si dejas de bajarte su mierda!
+Cuando te bajas su mierda
+les haces publicidad.
+Cuando copias lo que te venden
+haces que sean ellos quienes te digan
+lo que quieres ver y oír,
+qué te tiene que gustar, cómo debes ser.
+No necesitan venderte un CD,
+te venden tu estilo de vida,
+¡tú eres su público-producto!
+Los jefazos son dueños de la radio
+y la maldita televisión.
+Te dicen lo que tienes que pensar
+y lo que te hace feliz.
+¡Son dueños de los periódicos
+30
+
+y de las webs más importantes!
+Compartir archivos
+es lo que no quieren que hagas
+porque las redes P2P
+sí son una novedad.
+Disfruta de las muchas palabras y sonidos
+que no le interesan a los sellos.
+La cultura es colectiva,
+¡No tiene propietario!
+El P2P es lo que más miedo les da.
+Deben controlar lo que quieres escuchar.
+Los jefazos se dan cuenta
+que si compartes con los demás
+¡es pasta que dejan de ganar!
+Si realmente quieres joder
+a la industria discográfica,
+¡deja de bajarte su mierda!
+Si realmente quieres tener
+una comunidad creativa,
+deja de bajarte su mierda.
+¡Los jefazos de las discográficas
+batirán récords de pérdidas
+si dejas de bajarte su mierda!
+
+Dmytri Keiner, 2008. Fuck Copyright. He is a member of the Telekommunisten Collective.
+http://www.telekommunisten.net
+
+Use as desired in whole or in part. Independent or collective
+commercial use encouraged. Attribution optional.
+
+31
+
+FREE MUSIC FOR SUCKERS
+Wanting to reinvent itself as a relevant space in a free digital age on
+Saturday 26/11/06, the Virgin Megastore located on Scotlandís busiest shopping street, decide to freely giving away itís own stock.
+From Abba to Zappa ñ hundreds of CDs from household musicians
+are to be labelled as free and customers are invited to walk away
+without paying for them. Promotion through word of month,
+myspace plugs and personal invites to the movers and shakers of
+Glasgowís music scene provides/ensures word gets around
+enough to satisfy a market position in free culture
+It could have been a logical strategy one might expect from the current brand gurus associated with a company like Virgin, desperate
+to associate with sub-culture. If only they had bothered to think of
+it first. Luckily it wasnít. A Glasgow based artist activist collective,
+calling themselves the vacuum cleaner, had conceived, promoted
+and labelled thousands of pounds of ëbuy iní culture for them, undermining the last tenant of capitalism, making money.
+Creating a fake PR company to promo the event and presenting
+ourselves as a real Virgin promo event was simple enough. The
+press jumped on board, running snap shot articles on the event.
+The only real difficulty came when the group had to enter the shop
+and stick ëfreeí stickers on the in-store CDs.
+The event had been advertised to start at 2pm, at 1pm the group
+entered the shop to begin covert sticking. After about 20 minutes of
+success, no mean feat in todayís surveillance culture, one member
+is caught and detained by three security guards. Playing it cool she
+explains she is simply doing her job, any problems should be taken
+up with her boss, Davy Jones, from the PR company. The store manager complies and phones Davy who explains that the mistake
+must be their internal communication, or lack of. The caught activist is released but asked to stop her job until the store can clarify
+what its role might be in giving away its own stock, which will happen in less than 30 minutes.
+The 2pm launch arrives and a swell of customers descend. Although
+the store are a little wiser to what is happening itís still to late to clear
+its shelves of all the freely available stock. The store manager is left
+in the position of having to explain to customers that ëtechnically
+you arenít breaking any laws, but weíd prefer you not to take our
+stock, weíre sorry about the confusion but weíve been hijacked.
+32
+
+FREE MUSIC FOR SUCKERS
+En un intento de reinventarse como espacio relevante en la era de
+la cultura libre digital, el sábado 26 de noviembre de 2006, la Virgin
+Megastore situada en la calle comercial más concurrida de Escocia,
+decide regalar su stock.
+Desde Abba a Zappa, cientos de CD de músicos conocidos han sido
+etiquetados como gratuitos y se invita a los clientes a que se vayan
+con ellos sin pasar por caja. La promoción a través del boca a boca,
+myspace e invitaciones personales para los personajes más influyentes de la escena musical de Glasgow garantiza que se corra la
+voz lo suficiente como para asegurarse una posición de mercado en
+la cultura libre. Podríamos pensar que era una estrategia lógica de
+los actuales gurús del marketing contratados por una empresa como
+Virgin, desesperada por que se la asocie con la subcultura. Podría
+habérsele ocurrido primero a ellos, pero por suerte, no fue así. Un
+colectivo de artistas activistas de Glasgow, que se hace llamar the
+vacuum cleaner, había concebido, promocionado y etiquetado para
+ellos miles de libras de cultura “a la venta”, minando el fin último del
+capitalismo, ganar dinero.
+Crear una falsa empresa de Relaciones Públicas y presentarlo como
+un auténtico evento promocional de Virgin fue fácil. La prensa también hizo difusión, publicando artículos sobre el evento. La única dificultad real a la que se enfrentó el grupo fue entrar en la tienda y
+pegar las pegatinas de “gratis” en los Cds.
+El evento estaba anunciado para las 2 de la tarde. A la una, el grupo
+entró en la tienda para empezar a pegar las pegatinas disimuladamente. Tras 20 minutos sin incidencias, toda una hazaña en la cultura actual de la vigilancia, una de las participantes es detenida por
+tres guardas de seguridad. Amablemente les informa de que sólo
+está haciendo su trabajo y que si hay algún problema hablen con su
+jefe, Davy Jones, de la empresa de Relaciones Públicas. El encargado de la tienda accede y llama por teléfono a Davy, que le explica
+que el error se debe a sus comunicaciones internas, o a la falta de
+ellas. A la activista la dejan marchar, pero le piden que no siga con
+su trabajo hasta que la tienda pueda aclarar si tiene órdenes de regalar su stock, lo que ocurrirá en menos de 30 minutos.
+Llegan las dos de la tarde y una oleada de clientes entra en la tienda.
+Aunque a estas alturas la tienda ya sabe qué está pasando, es demasiado tarde para retirar de las estanterías todo el stock gratuito.
+33
+
+El encargado se ve en la situación de tener que explicar a los clientes que “técnicamente no están infringiendo ninguna ley, pero preferiríamos que no se llevasen nada. Lamentamos la confusión, pero
+hemos sido secuestrados.”
+
+Vacuum cleaner: colectivo de resistencia cultural hacia un elegante cambio social y ecológico radical.
+http://www.thevacuumcleaner.co.uk
+http://www.3m4s.net
+
+34
+
+COPIANDO EN FUNDIDO A NEGRO
+«Cada empresa querría colocar más output en el
+mercado que el que desearía si aún se tuviera que pagar
+la capacidad. Por ello, las curvas de reacción se
+desplazan hacia arriba del primer al segundo período.
+En particular, R(q**)>q**, donde R es la función de
+reacción en el segundo período.»
+-¡Jo, macho, es que esto es una brasa insufrible..!
+-Ya lo sé, pero no hay más remedio.
+- Fíjate, fíjate en esto:
+«-¡Tenéis prisa! -exclamó el mosquetero, pálido como un
+lienzo-. Con ese pretexto golpeáis, decís: «Perdonadme», y creéis que eso basta. De ningún modo, amiguito. ¿Creéis que porque habéis oído al señor de
+Tréville hablarnos un poco bruscamente hoy, se nos
+puede tratar como él nos habla? Desengañaos, compañero; vos no sois el señor de Tréville.
+-A fe mía -replicó D’Artagnan al reconocer a Athos,
+el cual, tras el vendaje realizado por el doctor, volvía a
+su alojamiento-, a fe mía que no lo he hecho a
+propósito, ya he dicho «Perdonadme». Me parece,
+pues, que es bastante. Sin embargo, os lo repito,
+y esta vez es quizá demasiado, palabra de honor,
+tengo prisa, mucha prisa. Soltadme, pues, os lo suplico,
+y dejadme ir a donde tengo que hacer.»
+-Bueno, sí, pero no es lo que toca. Venga, a lo nuestro...
+«Estas pérdidas tienden a infinito cuando T tiende a infinito. De aquí que para T≥T0 no puede ser óptimo para el
+jugador i desviarse de ai incluso si es sensato. Más generalmente, se sostiene la colusión en a durante al
+menos T-T0 períodos, lo que significa que el pago medio
+para un jugador sensato i tiende a vi cuando T tiende a
+infinito.»
+35
+
+-Pero, hombre, es que esto no hay Dios padre que lo aguante.
+¿Cómo voy a aprender eso? En cambio, si lo hiciéramos con
+algo así... mira qué gozada:
+«Así fuer que un tiempo una dueña me priso,
+de su amor non fuy en ese tiempo repiso,
+siempre avía d’ella buena fabla e buen riso,
+nunca ál fiso por mí, ni creo que faser quiso.
+Era dueña en todo, e de dueñas señora,
+non podía estar solo con ella una hora,
+mucho de omen se guardan allí do ella mora;
+más mucho que non guardan los jodíos la Tora»
+-No insistas, por favor. Te estás poniendo muy pesado, tío, y
+bastante trabajo tengo ya con lo tuyo y con lo mío, así que a ver
+si podemos ir un poco ligeros, que nos van a dar las uvas.
+Adelante:
+«La desviación de p óptima para la empresa 2 es
+disminuir el precio ligeramente y absorber todo el
+mercado (ya que p*≤pm(c2)). Obtiene entonces una
+ganancia a corto plazo de casi s*iD(p*) (p*-c2). Las
+pérdidas a largo plazo son 2*/(1- ), pues la empresa no
+obtiene beneficios en el equilibrio de Bertrand.»
+-¡Pero qué coñazo! ¡Es que no hay quien lo aguante! ¿No podríamos buscar algo más hermoso, más suave, más sugerente...
+Algo como esto...
+«La casa tenía balcones a tres fachadas. Desde allí
+dominábamos toda la ciudad, el puerto hasta la punta
+de la atalaya, y el mar. Veíamos, a lo lejos, las lanchas
+cuando entraban y salían, y por delante de nuestra casa
+pasaba la diligencia de Elguea, que se detenía en la
+fonda próxima.
+En el mirador central de esta casita nuestra
+transcurrieron los primeros años de mi infancia.
+
+36
+
+Los días de temporal, más que una casa, parecía
+aquello un barco; las puertas y ventanas golpeaban con
+furia, el viento se lamentaba por las rendijas y chime
+neas, gimiendo de una manera fantástica, y las ráfagas
+de lluvia azotaban furiosamente los cristales.»
+-Mira, Montag, me tienes más que harto ¿te enteras? Sí, efectivamente, pudiste ser Los tres mosqueteros, o El Libro del Buen
+Amor o, quizá, Las inquietudes de Shanti Andía. Pero tuviste
+que cabrear a Granger cambiándole el papel higiénico por un
+formulario de afiliación a CEDRO, de modo que, tanto si te
+gusta como si no, vas a ser Teoría de la organización industrial y
+si no te cuadra cómo escribe el Jean Tirole este, te jodes y no
+haber ido por la vida de cachondo. Venga, vamos a seguir...
+
+Javier Cuchí: webmaster, autor, y juanpalomo de la bitácora «El Incordio». Miembro de la
+Asociación de Internautas, a cuya Junta directiva pertenece desde septiembre de 2007;
+responsable del recién nacido proyecto Linux-GUAI (Grupo de Usuarios de la Asociación
+de Internautas); miembro del Consejo Asesor de Hispalinux. No es poseedor de mayores
+méritos, encomiendas ni condecoraciones desde que, en 1963, fue galardonado en el cole con la medalla “Premio a la Aplicación” en su categoría de latón con distintivo colorado
+(lo de “rojo” quedaba feo, en la época). Definido por alguno de sus seis o siete lectores como «un señor que siempre está enfadado». Es funcionario público y gana muy poca pasta,
+así que nada, ni caso.
+http://www.elincordio.com
+
+37
+
+NOS VEREMOS EN LOS TRIBUNALES
+Cuando se nos propuso escribir una historia o un pequeño relato
+sobre cultura libre o sobre los emergentes commons del conocimiento parecería que una editorial como Traficantes de Sueños,
+que publica prácticamente todos sus libros con licencias libres o
+semi-libres, podría tener mucho que decir. Sin embargo, echando
+la vista atrás sobre una experiencia de ya de casi una década, lo
+único que asaltaba inmediatamente a la memoria eran las desagradables historias de autores, herederos, albaceas, editoriales...
+que se han negado a dejar que sus libros circulasen por la red, incluso cuando se le propuso un pago extra a cambio de «liberar»
+su propia obra. Ésta es la historia de uno de esos casos, particularmente inquietante, acerca de cómo los derechos de autor son
+una fuente infinita de destrucción de conocimiento, cooperación
+y trabajo.
+Hará unos pocos años, un grupo de veteranas feministas nos propuso recuperar un viejo texto de una conocida escritora lesbiana
+franco-americana, desgraciadamente fallecida. El librito tenía todos los ingredientes que pueden seducir a un proyecto como el
+nuestro: era una aportación esencial a la incipiente teoría queer
+hispana, era una referencia ya casi clásica que se podía leer y releer sin dejar de descubrir en ella nuevos y ricos sentidos políticos y sobre todo era seguro que circularía por los entornos del
+activismo más interesante. No había dudas, a por ello entonces.
+A indicación de nuestras amigas escribimos a una prestigiosa editorial estadounidense que se había hecho cargo de la primera edición en inglés. Sin éxito, a pesar de los repetidos mails que les
+hicimos llegar. Nos pusimos en contacto, entonces, con su albacea, una antigua novia suya que nos corrigió y nos dijo que la versión original y que daba cuerpo al texto era la francesa, y que para
+poder publicar el libro tendríamos que firmar un contrato con ella
+y hacer la traducción sobre la versión gala. Nuestras amigas habían realizado ya la traducción sobre la edición inglesa, pero cómo el libro merecía la pena y una edición correcta se debe hacer
+sobre el original, se pusieron manos a la obra. En tres meses teníamos un nuevo borrador, terminado y casi perfecto para impresión. Teníamos además un contrato firmado por el que podríamos
+publicar la obra en internet.
+38
+
+Sin embargo, a punto ya de comenzar los trabajos de edición, nos
+enteramos de que otra editorial había comprado los derechos a
+los editores estadounidenses y de que el libro estaba a punto de
+salir a las librerías. Pero ¿cómo es posible? Hablamos con ellos y
+nos dijeron que su contrato estaba en regla y que la edición estadounidense era anterior a la francesa. Les propusimos entonces sacar adelante las dos ediciones como si fueran dos libros
+diferentes. La respuesta fue tajante: en caso de que publiquéis
+esa obra y especialmente que la colguéis en internet, nos veremos en los tribunales.
+Resulta que ni la propia albacea sabía que no tenía los derechos
+sobre ese libro, y que por lo tanto no tenía ningún poder sobre el
+mismo. Nosotros, y en realidad todos, perdimos la oportunidad
+de tener una importante texto de libre disposición en la red. También perdimos la amistad de las traductoras que nos acusaron de
+falta de seriedad. Y ellas por supuesto perdieron varios meses de
+trabajo realizando dos veces la misma traducción. Sin duda esto
+no es un caso aislado. La legislación establece que una obra sigue generando derechos hasta los 70 años después de la muerte del autor. Así que si tenéis idea de publicar o dar a conocer
+algún texto y su autor falleció hace ya tiempo, sabed que es muy,
+pero que muy probable que estéis pisando un terreno minado.
+
+Emmanuel Rodríguez: Editor de Traficantes de Sueños.
+http://traficantes.net/
+
+Página siguiente por
+Rogelio López Cuenca: poeta y artista visual.
+www.malagana.com
+39
+
+40
+
+41
+
+En honor de la verdad, en la Universidad Nómada no tenemos una
+idea demasiado clara de la «cultura» y de su importancia, ni de si
+es eso lo que de verdad se comparte. No nos sentimos parte de
+una esfera «cultural». En cambio, aunque no sepamos hacerla del
+todo bien, nos interesa enormemente la investigación. Gracias a
+ella hemos dado con este testimonio escrito, destinado a una publicación póstuma y salvado para la actualidad gracias a una promesa de anonimato total. El texto no tiene más valor que el de
+ilustrar un enrevesado mecanismo de copia cerebral, o de desdoblamiento en series de variaciones de un mismo nombre o de
+una misma función, en este caso la parasitaria de la potencia de
+la mente colectiva.
+TEDDY CAN’T DANCE (NO MORE)
+La traición a un amigo es lo más sucio que hay, de acuerdo, pero
+¿quién puede juzgar cuando ya no se sabe dónde está ni qué es
+el amigo? Este argumento es el único refugio de mi conciencia. En
+mi caso, la traición es delatar una desaparición y una proliferación
+y, no sé por qué, me obstino en pronunciarla con un estribillo obsesivo: «Teddy can’t dance no more!».
+Así se formula en mi cabeza, o tal vez me lo han contado y he llegado a olvidarlo. Parafraseando aquel hit de un Lou Reed al que
+Teddy despreciaba, y de esa misma canción de otra parábola, la de
+Sally, que tomó tanta meta que luego no podía ni ponerse de pie, y
+que llegó a ser una modelo cotizada hasta que no pudo salvar las
+apariencias.
+Teddy jamás se habría pasado tanto con la meta, lo suyo, desde
+que empezó a manejar dinero, fue la farlopa, «pero sólo para trabajar». En cualquier caso, resulta difícil encontrar una inspiración
+más lejana que la de Reed y sus personajes, pues él siempre se
+había identificado a muerte con los gustos y obras de su tocayo,
+el otro Teddy. Decía que eran hermanos gemelos en espíritu de trabajo y, más tarde, en virtudes de desaparición cuando la propia
+presencia ética y artística se tornó inviable. «Para Teddy y para mí»,
+decía mi Teddy, «desaparecer, luego sobrevivir, es un problema menor: sólo hace falta encontrar las vías de resucitación y reinstalación en un huésped». En aquel tiempo todo aquello me parecía una
+fanfarronada aburrida, provocada por el exceso de «acción» hasta las primeras luces del día.
+Su identificación con el otro Teddy no me resultaba misteriosa, por
+constante y machacona. Nunca le dí otra explicación que la del anhelo comprensible de tener un modelo de referencia o un ideal del
+42
+
+yo. Siempre decía que aquel «Get on your knees» le había hecho
+olvidarse de sus miserias, y que se pasó un estupendo verano de
+1968 en Benidorm mientras otros, decía, «jugaban a la revolución
+para luego amargarse la vida con el puto desencanto».
+Un día mi Teddy me dijo: «este negocio terminará acabándose, pero van listos si creen que también van a acabar conmigo. Voy a pagarles con su misma moneda. Me van a tener hasta en la sopa, en
+todos los formatos y encima les voy a sorber los sesos sin que se
+enteren». No he vuelto a verle desde entonces. Han pasado varios
+lustros, y pese a haber compartido grandes ratos en esos años que
+nunca se olvidan, no hace mucho he sabido que en realidad no se
+llamaba Teddy, que aquella misma presencia sólo era Teddy para
+mí: los demás le conocían como Ramoncín, Ramoncete y al parecer durante algún tiempo fue, en algunos ambientes, Ramonjil «el
+puto chota». Todo esto lo sé por María Jiménez, que durante algunos años le contrataba de Pascuas a Ramos para dar palizas
+de persuasión a los chavales que, en los días de Rastro, vendían
+sus cintas en los laberintos orinados del Mercado del pescado de
+Madrid.
+No me he pasado con los polvos. Creo, más bien, que en mí ha nacido una convicción o una idea fija que ha necesitado muchos años
+de gestación. Tan grave que me lleva a denunciarle, a mi Teddy o
+mi Ramón, o vete tú a saber de quién estoy hablando. Y a eso voy:
+hoy tiemblo al reconstruir y enlazar tantas experiencias y no poder
+negar que éste y otros Teddies no eran ni son más que un Träger,
+vamos, una palabra marxista que figuraba en un manual soviético
+que –¡ahora me doy cuenta por qué!– mi Teddy estuvo toda una
+primavera restregándome para que leyera, diciéndome: «Free yourself! ¡Ignorante!». Hoy sé que un Träger es un portador de una función, y que lo que mi Teddy tal vez quería decirme, y que en todo
+caso hoy aquí declaro como una convicción, es que esa función
+es la de un parásito capaz de autorreplicarse y viajar de mente en
+mente a través de estribillos, frasecillas y ritornelos, sedantes, arrebatadores o imperceptibles, y que los excedentes, de finanzas, de
+energía o de atención que esa función genera se recogen y organizan en sociedades de portadores, de «autores» –mi Teddy no podía evitar la risita al pronunciar la palabra–, que son alimentados,
+cebados y unificados alrededor del caldo de la cultura o del cultivo de la función parasitaria. Considérenme un imbécil, pero yo pensaba en cambio que estábamos disfrutando y metidos «en el rrollo
+cultural».
+
+43
+
+Si mi Teddy no era tal, ¿qué decir del otro Teddy, el de The Canaries y luego Los Canarios? No tengo las ideas claras, podría no ser
+más que una narración retrospectiva, dada por buena por ausencia total de interés del personaje. Sólo un Träger muy rudimentario podría lanzarse a la autoría transponiendo a sintetizadores
+analógicos las Cuatro Estaciones de Vivaldi, aquel disco de rock
+progresivo que mi Teddy se ponía a todo volumen en las mañanas
+de resaca y depresión. Probablemente fue allí donde el prototipo
+demostró sus limitaciones funcionales y se tornó en un puro Träger de registro, representación y coacción, convergiendo, en una
+secuencia que hoy me pone los pelos de punta, con mi Teddy o
+Ramonjil. ¿Son acaso el mismo Träger? ¿He estado viviendo en el
+sueño de una serie de Teddies intercambiables o de Ramonjiles
+enmascarados?
+Ahora es tarde para preocuparme de salvar mi propio pellejo. Si
+hoy estoy a salvo de haberme convertido en un Träger de estribillos y ritornelos tediosos, todo se debe a que mi mente está ocupada y definitivamente dominada por la misma cantinela de mi
+traición que me acompañará hasta el día en que reviente, sin saber qué es lo que oculta y a quiénes se dirige:
+«Teddy can’t dance no more!», «Teddy can’t dance no more!»,
+«Teddy can’t dance no more!».
+
+Universidad Nómada: desde el año 2000 la Universidad Nómada constituye un laboratorio anticapitalista, antirracista, decolonial y feminista de organización de la producción y la
+transmisión teórica e intelectual.
+www.universidadnomada.net/
+
+44
+
+John Jordan,
+Svalbard Global Seed Vault
+Nr. Longyearbyen
+Spitsbergen Island
+Arctic Svalbard archipelago
+Norway
+30th August, 2020
+Dear Jack,
+I’m writing from deep inside an abandoned coal mine, from the
+Global Seed Bank built here at the beginning of the century to preserved plant species from ecological collapse. It’s warm and wet
+outside, the permafrost has been melting fast. I’m sorry I haven’t
+written recently, but it took a long time to travel here, the winds
+were against us.
+In your last letter, you asked why, when you were a child I limited
+your time on you-tube, second life, face book and all the other virtual worlds that you so enjoyed playing and sharring in.
+Well, after the global P2P rebellion of 2010, we thought we were
+winning. The commons were expanding again, no longer were they
+going to fence off our knowledge, privatise our dreams and enclose our desires. Free culture spread everywhere, our world was
+finally totally interconnected in a web of resonating stories, our
+collective imaginations no longer had any boundaries. Knowledge was free everywhere.
+But then, history took an unexpected turn. The economy, the
+energy systems, the climate – they all crashed. The suicide
+machine – capitalism - collapsed. With it went our life support
+systems and we were suddenly faced with our ignorance.
+We realised that we had spent too much time sharing stories on
+screens and had forgotten the most important story. The one that
+reminds us that we are bodies, with needs and desires beyond the
+imagination. We had so much culture and yet we had forgotten
+the activity at the very etymological root of the word “culture” –
+we had forgotten how to “Cultivate”, how to till the land, how to
+grow our own food. And so we went hungry, very hungry.
+We were used to dealing with systems crashes, but not ones like
+that. We understood networks when they were electronic but not
+the complex living ones in the forests, soils, seas and rivers that
+ultimately fed, clothed and housed us. We valued horizontality, but
+had conveniently ignored the fact that we still placed ourselves
+45
+
+above every other living thing. We had separated sharing stories
+from sharing seeds, making culture from tilling the soil, and we
+had become deeply disconnected from life.
+That, Jack, is why I asked you to turn your computer off…
+I Love you for ever
+Dad XX
+John Jordan,
+Bóveda Global de Semillas de Svalbard
+Nr. Longyearbyen
+Isla de Spitsbergen
+Archipiélago Árctico de Svalbard
+Noruega
+30 de agosto de 2020
+Querido Jack:
+Te escribo desde el interior de una mina de carbón abandonada, desde el Banco Global de Semillas construido a principios de siglo para proteger a las plantas del colapso ecológico. Fuera hace calor y
+humedad, el permafrost se derrite rápidamente. Siento no haberte
+escrito últimamente, pero el viaje hasta aquí fue muy largo. Teníamos los vientos en contra.
+En tu última carta me preguntabas por qué cuando eras niño te limitaba el tiempo que pasabas en youtube, second life, facebook y
+en otros mundos virtuales en los que tanto te gustaba jugar y compartir.
+Bueno, después de la rebelión global del P2P en 2010, pensábamos
+que íbamos ganando. La comunidad volvía a expandirse, ya no pondrían más barreras a nuestro conocimiento, privatizarían nuestros
+sueños ni acotarían nuestros deseos. La cultura libre se extendió por
+todas partes, nuestro mundo por fin estaba interconectado en una
+red de historias resonante, nuestro imaginario colectivo ya no tenía
+fronteras. El conocimiento era libre en todas partes.
+Pero entonces la historia dio un giro inesperado. La economía, los
+sistemas energéticos, el clima– todo se fue al garete. La máquina
+46
+
+suicida – el capitalismo- se desmoronó. Con él desaparecieron nuestros sistemas de subsistencia y nos enfrentamos súbitamente a nuestra ignorancia.
+Nos dimos cuenta de que habíamos pasado demasiado tiempo compartiendo historias en las pantallas y nos habíamos olvidado de la
+más importante. La que nos recuerda que somos cuerpos, con deseos y necesidades que van más allá de la imaginación. Teníamos
+cultura, pero nos habíamos olvidado de la actividad en la raíz etimológica de la palabra “cultura”: nos habíamos olvidado de cómo
+“cultivar”, de cómo labrar la tierra, de cómo conseguir nuestro propio alimento. Así que pasamos hambre, mucha hambre.
+Estábamos acostumbrados a lidiar con cuelgues del sistema, pero
+no con uno así. Entendíamos las redes cuando eran electrónicas,
+pero no las redes vivas complejas de los bosques, suelos, mares y
+ríos que nos proporcionaban alimento, ropa y vivienda. Valorábamos
+la horizontalidad, pero habíamos ignorado convenientemente el hecho de que aún nos anteponíamos a cualquier otro ser vivo. Habíamos separado el compartir historias del compartir semillas, el hacer
+cultura del cultivar la tierra, y nos habíamos desconectado totalmente
+de la vida.
+Por eso, Jack, es por lo que te pedía que apagaras el ordenador...
+Siempre te querré
+Papá XX
+
+John Jordan combina la imaginación del arte con el compromiso radical de activismo. Trabaja en los movimientos anticapitalistas y ecologistas, desde Reclaim the Streets hasta the
+Clandestine Insurgent Rebel Clown Army y el Climate Camp.
+http://www.labofii.net/
+
+47
+
+PARÁBOLA DEL SEÑOR FEO
+Cuentan las crónicas que mucho tiempo atrás vivió un señor
+feo... feo, pero que muy feo. Tanto que no podía salir a la calle
+sin que los vecinos lo llamaran ‘feo’, ni viajar sin que los desconocidos le espetaran ‘feo’. Cuando alguien hablaba de fealdad, siempre lo ponía de ejemplo. Y cuando se escribían libros
+sobre la fealdad, su fotografía aparecía siempre en páginas destacadas.
+Tal era el ‘éxito’ de su deformidad, y tanto el daño moral que decía se le afligía, que el señor feo decidió un buen día rentabilizar
+su problema. Se aprestó a registrar su fotografía, el término ‘feo’
+y sinónimos, se hizo dibujar caricaturas que serían registradas...
+Y, así, decidió comenzar a llevar ante los tribunales a todo aquel
+que osara constatar la evidencia... sin pasar por caja. Comenzó
+con el tendero de enfrente, que solía recibirlo con un: “¿Qué quieres, feo?”. Y ganó la querella. Luego, denunció a dos primos suyos, que no paraban de repetirle: ¿Quién es mi primito más feo?”.
+Y cosechó otra victoria.
+Envalentonado con estos primeros éxitos, el señor feo decidió demandar a todo su edificio, por la osadía de colgar en la fachada
+una pancarta con el texto: “Aquí vive un tío muy feo”. Y volvió a
+triunfar. Ciego de éxito y de valor, comenzó a demandar a todo
+cuanto se movía y hablaba, pues no había ser vivo sobre la tierra
+con el don de la palabra que se resistiera a llamarlo ‘feo’. En todos los países, todos los idiomas: ugly, lelijk, laid, brutto, feio, itsusia, lleig, ružan, ošklivy
+́, grim, ruma, stygg, brzydki, urât... Los
+mudos gesticulaban a su paso y hasta los ciegos intuían y proclamaban en medio de la calle su enorme fealdad.
+Los jueces comenzaron a preocuparse cuando llegaron los pleitos multitudinarios contra pueblos enteros, ciudades enteras,
+países enteros, o contra insignes escritores y medios de comunicación. La situación era insostenible, pues no sólo el tipo era feo
+con ganas, sino que daba la impresión de que la Justicia se había vuelto del revés, pues sólo una Justicia extremadamente peculiar podía dar por buena la criminalización de toda la ciudadanía
+en defensa de un solo ciudadano.
+Por otro lado, no era baladí el beneficio indirecto que recibía el señor feo de la difusión ‘no autorizada’ de su fealdad, pues sin ésta le hubiese sido imposible disfrutar y rentabilizar la popularidad
+alcanzada a escala internacional, y el continuo sostén de su ‘marca’ en entusiastas foros, clubs, blogs y redes P2P.
+48
+
+Así que el señor feo comenzó a perder sentencias, aunque siguió
+ganando otras, y así durante un largo tiempo hasta que, definitivamente, se impuso la necesidad de unificar. Reunidos magistrados y legisladores, llegaron al fin a una conclusión: el mal no
+estaba en la constatación de la evidencia, sino en la propia fealdad del personaje y, siendo algo tan natural, ni su constatación ni
+mucho menos su comercialización eran de recibo en un sistema
+de libertades justo, maduro y democrático. Cualquier referencia a
+aquella monstruosidad podía darse como natural e incluso justificada, y la expresión de términos como ‘feo’, dentro del dominio
+público. Aunque, eso sí, algún remedio había que buscar al daño
+moral que reclamaba continuamente al desdichado, si bien éste
+parecía atenuarse hasta la extinción cuando había lucro de por
+medio. La solución no tardó en llegar, en formato de fallo judicial
+con categoría de jurisprudencia:
+“Ante la imposibilidad de condenar a todos los seres humanos del
+planeta por la constatación de una fea, pero cruda realidad, y el
+dudoso deber de pagar por expresiones que pertenecen al ámbito del dominio público o por reproducciones que benefician
+directa o indirectamente al supuesto ofendido, instamos al demandante a:
+someterse urgentemente a una intervención de cirugía estética,
+acabando de raíz con el origen de toda esta polémica. Sin fealdad no hay feo; sin feo no hay posibilidad de constatar; y sin constatación, es ya imposible el daño moral”.
+- o bien, renunciar definitivamente a pleitear por los derechos de
+autor sobre ella.
+Fue el momento en que el señor feo comenzó a demandar a jueces y fiscales, pues no se había planteado jamás, ni de lejos, renunciar ni a su terrible, pero lucrativa fealdad, ni por supuesto a
+la renta derivada de ella. Fue apenas unos meses antes de someterse, derrotado y circunspecto, a un cambio radical de ‘look’,
+de abogados y de conciencia.
+
+Manuel M. Almeida es periodista y autor del blog Mangas Verdes (mangasverdes.es), entre otros. Como cantautor ha publicado los trabajos 'Nueva Semilla' y 'En movimiento', y
+como escritor ha visto editada su novela 'Tres en Raya'. Como blogger ha obtenido el premio Bitacoras.com 2004 al Mejor Blog sobre Internet y Tecnología y el premio del publico
+al Mejor Weblog en Español en los Bobs 2006. Fue finalista del Premio Internacional de Novela Alba/Editorial Prensa Canaria 1997 co la novela 'Tres en raya', pubilcada en 1988.
+http://mangasverdes.es/
+49
+
+Tenía una vida “normal”, con complicaciones y alegrías propias
+de cualquier mujer, madre, trabajadora…
+Un día las gestoras de derechos de Autor, irrumpieron avasallando, arrasando toda estabilidad existente, se llevaron la alegría, enfermaron a la madre, arruinaron el trabajo…Le hicieron la vida
+imposible.
+Sentada en el sofá, con una opresión en el pecho que no le dejaba respirar, fijó la mirada en la estantería llena de música comprada titulo a titulo durante años. Cada autor que leía más la
+enfermaba por que allí estaban todos y cada uno de los que formaban parte de esas gestoras que la agredían, la demandaban,
+la embargaban, la injuriaban…
+Que pena tan grande verse rompiendo con una banqueta toda la
+obra de esos miserables y a la vez…!que a gusto se quedó!.
+Ahora ya no tiene una vida tan “normal”, ha aprendido detalles de
+la vida que la monotonía le tenia empañados, tiene conciencia de
+que es la Cultura, como se crea, crece y fluye, ha conocido a gente realmente inteligente, creadores realmente implicados, autores
+realmente sensibles, pensadores realmente libres... personas en
+definitiva, que cuidan el mundo en el que viven y respetan a sus
+semejantes…
+Barrió y tiró a la basura los pedazos de las obras de los autores
+que la agredían, se quitó las gafas de sufrir y se puso las de ver,
+descubrir, disfrutar, compartir y generar más allá de lo comercialmente impuesto…Ahora es ella la que hace la vida imposible a las
+gestoras de derechos de autor.
+“Dedicado a las gestoras de derechos, SIN vosotras, esto jamás
+habría ocurrido…
+… y las estanterías seguirían llenas de obras de autores maltratadores, cogiendo polvo y ocupando espacios usurpados a la Cultura a golpe de imposición”.
+
+Ana Mª Méndez
+www.sgaecontratraxtore.com
+
+50
+
+ALGUNOS ASPECTOS DEL INTERCAMBIO DE INFORMACIÓN
+A PRINCIPIOS DEL SIGLO XXI
+por el doctor Arturo Quirantes
+(Ponencia para la III Conferencia Interestelar de Ciencias de la
+Información, Sirio IV, 2204)
+RESUMEN
+En el presente trabajo se desvelarán algunos detalles en la evolución de Tres Fases de la sociedad digital entre los años 1990 y
+2025 aproximadamente. En dicha época, los mecanismos fundamentales del flujo de información tomaron forma hasta dar lugar a la estructura que disfrutamos hoy en día. Por desgracia,
+algunos textos claves se han perdido, pero diversos fragmentos
+de documentos clave han sido recientemente recuperados y traducidos.
+INTRODUCCIÓN
+Durante los últimos años del siglo XX, la Humanidad conoció por
+vez primera el fenómeno de la intercomunicación global a gran
+escala. Los datos más recientes sitúan el inicio de la conocida
+red Internet (Primera Fase) hacia 1990 o 1991, como desarrollo de
+un sistema de comunicaciones para usos científicos. De algún
+modo, los protocolos y sistemas usados fueron extendiéndose a
+la sociedad civil, y su impacto fue, según algunos autores, comparable al de la invención de la imprenta. No consta que en la
+construcción de dicha red participasen gobierno o empresa alguna, lo que ha dado pie a algunos investigadores a aventurar la
+hipótesis de que se trató de un esfuerzo global, colaborativo y
+descentralizado. Según esta teoría, Internet nació y creció como
+sistema auto-organizado, como muestran Biddle, Stallman, Quirantes y otros autores de la época más o menos conocidos en la
+actualidad.
+Veinte años después, el desarrollo de una segunda red mundial
+llamada Grid abrió las puertas de lo que se pensaba sería una segunda revolución en las comunicaciones globales (Segunda Fase). Un concienzudo análisis estadístico, que se acompaña en el
+Apéndice 2 del presente artículo, muestra que diversos factores
+contribuyeron a su estancamiento. Fundamentalmente, la idea de
+los “derechos digitales” actuó como freno al intercambio de datos. La noción de que se debía efectuar un pago como contraprestación a la recepción de un archivo audiovisual arraigó
+51
+
+profundamente en diversas capas de la sociedad dirigente de la
+época. La reacción de la sociedad civil, no es de sorprender, fue
+intensa y en contra, como lo demuestra la abundante documentación conservada del caso SGAE=Ladrones, protagonizada por
+Julio Alfonso y Teddy Flautista (Bautista, según algunas fuentes),
+así como los picos de flujo de datos observados entre 2006 y
+2009, que pueden atribuirse a diversas redes conocidas bajos
+nombres como p2p, Kadmelia, Torrent y otras.
+No fue hasta algunos años después que la confrontación entre los
+bandos a favor y en contra de las restricciones al flujo de información alcanzó un nivel crítico, constituyendo lo que hoy denominamos Tercera Fase. Aunque los lectores de hoy conocen bien
+el resultado final, la solución distó mucho de ser obvia para las
+gentes de la época. La sociedad se debatió en largas luchas durante varios años, hasta que la decisión Almeida-Sagan sentó finalmente las bases del denominado Arbitrio de Tycho. Según
+dicho Arbitrio, el problema de establecer o no restricciones a la libre información quedó definitivamente resuelto. En palabras de
+un autor de la época: A partir de ahora, la Sociedad de Derechos
+Digitales queda total, absoluta y… [Fin del segmento inicial. Pulse ENTER para continuar. Gracias]
+
+ACERCA DEL AUTOR
+Arturo Quirantes Sierra (yo) soy profesor de Física de la Universidad de Granada. Durante
+2002 y 2004, organicé los premios Big Brother Awards en España. Posteriormente, me dediqué a escribir sobre temas de privacidad en Internet, espionaje electrónico y criptografía.
+En adición a ello, dirijo la página “Taller de Criptografía” (www.cripto.es) y el Boletín ENIGMA, una publicación mensual sobre temas de criptografía. Mis últimas incursiones literarias en el campo de los derechos de autor dio como resultado el libro “Cómo sobrevivir a
+la SGAE” se publicó recientemente en bubok.es. Con este currículum, cualquiera sabe qué
+estaré haciendo el año que viene. Hagan sus apuestas.
+
+52
+
+UNA ÚNICA CANCIÓN, SOLO.
+Desde los albores de la humanidad, una sola y única canción va de
+boca en boca, de pueblo en pueblo, a veces el viento la esparce lentamente, pero, a veces, con la rapidez del rayo, recorre continentes.
+A veces es canción jaula, a veces canción pájaro, canción alegre,
+grito rebelde.
+A veces, las menos, es canto coral, y a veces es solo un murmullo
+que se ahoga entre los barrotes del pecho.
+A veces, las más, es queja, pena, anhelo, llanto… el triste lamento
+del alma dolorida.
+A veces es el soniquete insistente que reproduce la oquedad de corazones de lata.
+A veces es canción prohibida y otras, canción obligada.
+Unos la venden, otros la compran.
+Hay virtuosos que con técnica depurada, la ejecutan, para deleite
+de finísimos y delicados oídos.
+Hay quien, la grita desesperadamente, hasta perder la garganta y la vida.
+A veces es adagio, canto de resistencia, música de baile, vals vienés, canción de amor, danza africana, mambo o marcha marcial.
+A veces impregna los salones de imperios triunfantes, otras es el
+quejido de los eternamente vencidos.
+A veces es vibración gozosa, que libera los sentidos en aquelarre
+nocturno y lujurioso.
+Cada cual la adecua, la amolda, la acomoda, la arregla, la versiona,
+como mejor puede, a su garganta, a sus asuntos, a lo suyo.
+Pero, por favor, creedme si os digo que se trata siempre de la misma canción, solo hay una única canción, una única canción y aún
+no está terminada.
+AUNQUE ME DES VEINTE DUROS
+Y AHORA VOY A CANTAR YO
+UNA TONADILLA NUEVA (BIS)
+QUE CUANDO NACIÓ MI MADRE
+YA LA CANTABA MI ABUELA.
+Y AUNQUE ME DES VEINTE DUROS
+NO VOY CONTIGO AL PINAR
+PORQUE TIENES SABAÑONES
+Y ME LOS PUEDES PEGAR…
+(Canción tradicional popular)
+Pepe Rovira: activista político, escritor, poeta, co-protagonista de la película El Taxista
+Ful y miembro de la asamblea dinero gratis, filosofo de frases cortas, humorista precario.
+53
+
+CIÈNCIA COMPARTIDA
+- Escolta, has sentit a parlar de PubMed Central?
+- I tant! és un dipòsit digital on pots trobar els articles més importants en l'àmbit de ciències de la salut.
+- Articles complets?
+- Sí, sí, són reproduccions completes dels articles publicats en las
+revistes científiques més prestigioses
+- I tu, l'utilitzes?
+- És claro! Un investigador com jo ha d'estar al dia, a més l'accés
+és gratuït.
+- Clar, suposo que tu també hi penges els teus articles publicats...
+- No, jo no ho faig, a mi ningú m'hi obliga [1].
+[1] En diversos llocs del món, els investigadors que reben ajuts
+públics estan obligats a reproduir les seves publicacions en dipòsits digitals públics d'accés gratuït.
+CIENCIA COMPARTIDA
+- Oye, ¿has oído hablar de PubMed Central?
+- Claro, es un repositorio donde puedes encontrar los artículos más
+importantes en el ámbito de ciencias de la salud.
+- ¿Artículos completos?
+- Sí, sí, son reproducciones completas de los artículos publicados
+en las revistas científicas más prestigiosas
+- Y tú, ¿lo utilizas?
+- ¡Claro! Un investigador cómo yo debe estar al día, además el acceso es gratuito.
+- Claro, supongo que tú también cuelgas allí tus artículos publicados ...
+- No, yo no lo hago, a mí nadie me obliga [1].
+[1] En varios lugares del mundo, los investigadores que reciben ayudas públicas están obligados a reproducir sus publicaciones en
+repositorios públicos de acceso gratuito.
+
+Ignasi Labastida i Juan: responsable de la Oficina de Difusión del Conocimiento de la Universitat de Barcelona y responsable del Proyecto Creative Commons en España.
+http://es.creativecommons.org/
+Este texto está en el dominio público por voluntad expresa del autor
+54
+
+El escritor se sienta ante su mesa, conecta el ordenador y se dispone a trabajar. Nuestro hombre se gana la vida escribiendo cualquier cosa que le encarguen, y ahora mismo el encargo es una
+guía de viajes. Se supone que el escritor ha viajado hasta el país
+en cuestión y conoce de primera mano lo que cuenta, ha comido
+en los restaurantes que recomienda y ha dormido en los hoteles
+seleccionados por la guía. Pero no es así. Para empezar, él ni es
+viajero ni, desde luego, está especializado en este tipo de obras.
+De hecho, esta sería su primera guía. Aceptó el encargo porque
+ya se acabó la enciclopedia en la que estaba colaborando y no le
+ha salido nada mejor. Naturalmente ha recibido un adelanto a
+cuenta del viaje que se supone debe realizar para documentarse,
+y se supone que ha estado ya varias veces en ese país, cosa sobre la que ha mentido. El dinero para el viaje ha preferido emplearlo en pagar deudas y aquí lo tenemos ante el reto de describir
+los paisajes, monumentos e itinerarios turísticos de un lugar en el
+que nunca ha estado.
+La primera parte del trabajo consiste en recopilar todas las guías
+ya publicadas sobre ese país y leérselas. No necesariamente para copiarlas, que también, sino para conocer el país y saber de
+qué debe hablar. Más o menos, todas las guías contarán lo mismo. Digamos, como ejemplo, que todas las guías de París deben
+incluir un capítulo dedicado al Louvre y todas las guías de Irlanda hablarán del castillo de Dublín. El siguiente paso será complementar esta información con lo que pueda encontrar por la red.
+Wikipedia, buscadores, páginas oficiales de turismo del sitio a visitar, webs de museos con los horarios, etc. Las ilustraciones del
+libro también se pueden obtener de la red, para eso está flicker, y
+el tema más delicado de todos, la información actualizada sobre
+hoteles y restaurantes, no ofrece excesiva dificultad desde que
+existen foros donde los viajeros dejan sus opiniones sobre los establecimientos que han visitado. En todo caso, un mail o una llamada telefónica permiten actualizar la información. Básicamente
+lo que hace nuestro escritor es planificar el viaje que le gustaría
+hacer con la información recopilada y luego imaginarse que lo ha
+hecho y explicarlo. Incluso llega a recorrer el país virtualmente a
+través de Google Earth, y se dice que, aunque no lo ha pisado, se
+ha pasado horas recorriéndolo con la vista, y que si bien no ha entrado en tal museo, conoce a la perfección cómo se ve su tejado
+fotografiado por satélite.
+55
+
+La editorial le ha indicado que debe incluir alguna pequeña información falsa de manera adrede, para comprobar posteriormente
+si la guía es copiada por otra editorial. Esto ya lo debía hacer
+cuando colaboraba en la redacción de la enciclopedia. Si debes
+escribir una, ¿qué más fácil que copiar otra ya hecha y limitarse
+a actualizarla? Para detectar estas posibles copias, las editoriales introducen detalles falsos en algunos artículos, o toda una entrada ficticia. Pongamos que nos inventamos el término falguerillo,
+pájaro endémico del archipiélago de las Salvajes, unos islotes deshabitados entre Madeira y las Canarias. Si alguna enciclopedia del
+futuro incluye la entrada falguerillo, sabremos que han copiado la
+nuestra y podremos demandarles. Pues bien, de manera análoga,
+hay que inventarse alguna pequeña falsedad, nada que pueda
+ocasionar un perjuicio al viajero, en nuestra guía. Pongamos que,
+al lado de la Pinacoteca Nacional, existe una pequeña iglesia dedicada a San Antonio con un pórtico de cierto interés artístico, cuya fotografía incluimos (y que corresponde a cualquier otro sitio).
+Y si en el futuro otra guía de la competencia recomendara al viajero que, al salir de la Pinacoteca Nacional, aprovechara para visitar la vecina iglesia de San Antonio, sabríamos dos cosas: que
+se han copiado la guía y que su autor jamás estuvo en esa iglesia
+porque, aunque hubiese querido, le hubiera resultado imposible,
+no existe. Y serían demandados, claro.
+Por la tarde, nuestro escritor nuevamente ante el ordenador. Ahora no se trata de la guía, las tardes las dedica a su verdadera vocación como escritor. Todo comenzó un par de años atrás, cuando
+se puso a releer algunas novelas de su adolescencia. Fue a los
+catorce años cuando las leyó por primera vez. Narraciones de
+ciencia ficción que componían un grandioso friso de la historia futura de la humanidad. Se había sentido sobrecogido ante la grandiosidad del Imperio Galáctico, ante los paisajes imaginados de
+su planeta capital, había visto brillar sus naves de combate... Pero, años después, al volver a leerlas, entendió porqué aquellas novelas sólo triunfaban entre adolescentes. Otro autor, otro más, que
+desaprovechaba buenas ideas. Tantos escritores con una imaginación fecunda, con una capacidad tan grande de imaginar mundos, misterios, aventuras.... y con una expresión tan pobre. No
+podía ser que toda aquella fantasía que le había hecho soñar fuera literatura mediocre. No se resignaba a que la buena literatura
+le aburriese y la historias interesantes aparecieran descoloridas y
+56
+
+planas por culpa de un escritor medianamente dotado. Quería volver a sentir la magia de aquellas historias, volver a sumergirse en
+aquellos mundos, pero como no podía volver a tener catorce años,
+entonces haría que aquellas novelas crecieran también y se hicieran adultas como lo había hecho él. Las reescribiría. Contaría
+la misma historia, con los mismos hechos y personajes; pero éstos serían individuos más problemáticos, conflictivos, llenos de
+matices, con secretos, moralmente ambivalentes. Y los paisajes,
+y los edificios, y las naves surcando el espacio, todo ello aparecería ante los ojos con todas las metáforas necesarias.
+Y a eso dedica nuestro escritor sus tardes, a mejorar las novelas
+que le hicieron soñar en su adolescencia. No cambia nada del argumento, no quita ni añade personajes, pero lo cuenta todo mucho mejor. Los paisajes pueden verse, hay párrafos enteros que
+describen los escenarios, párrafos enteros dedicados al pensamiento de los protagonistas, capítulos nuevos que añaden perspectiva, contexto, riqueza....
+Pero nunca las podrá publicar. Serán siempre un placer oculto.
+No está previsto que te encuentres en una librería con la novela
+X del autor Y mejorada por el escritor Z. Nuestro escritor sabe
+que hay pintores que han hecho sus propias versiones de otros
+cuadros, meninas cubistas, por ejemplo. Nuestro escritor sabe
+que hay programadores que mejoran el código escrito por otros
+programadores. Nuestro escritor sabe que hay científicos que
+mejoran y complementan las teorías que establecieron otros. Y
+así Hawking y Penrose teorizaron sobre el principio y el final del
+Universo porque Einstein fue el autor de la Teoría de la Relatividad, pero no el propietario, y no tuvieron que pedirle permiso a
+él o a sus herederos para usar sus ecuaciones. ¿Por qué entonces, él no puede hacer lo mismo, lo que sabe, lo que le apasiona? Mejorar novelas.
+
+Juan Ramon Pinto /Miscelanea superior: agitador de masas a media jornada. Es miembro del proyecto sindominio.net, por lo tanto interesado en el software libre y en general en
+la cultura libre, mantiene un blog, como tantos, ha participado durante mucho tiempo en
+indymedia y ahora inicia un nuevo proyecto de información en la red: enfocant.net
+http://sindominio.net/
+http://enfocant.net/
+http://miscelaneasuperior.blogspot.com
+57
+
+NUMBER 767194
+Wandering back from a night out with friends in Barcelona, we came across a dumpster, outside a shop that had been closed down
+for refitting. It contained the contents that had been stripped from
+a shop... broken seating, old papers, files, catalogues and videos.
+Imagine our delight when we discovered that it was the reject contents from a wholesale porn store. We clambered over smashed
+up dodgy purple worn PVC chairs... furniture made of PVC stapled
+over, foam onto chipboard, and it looked like it was in an L-shape
+but in a curved corner. There were loads of fat folders filled with
+filth. Video cassettes, empty cases all worn and well used. It looked shabby like it had been home printed and reproduced, low
+quality. Business addresses, clients addresses, sex toy invoices
+with prices, all for the taking. We lugged what we could carry back
+to the hotel room, big folders full of porn. We had to ditch some
+in the bin... the hotel cleaners must have thought we were proper
+deviants. It was too heavy to bring back so we dumped more at
+the airport. The remaining invoices made it back to the My Dads
+Strip Club HQ for processing
+Reproductions offer a greater promise within the capitalist economy. But the very idea of a copy, replica or duplicate sparks deep anxieties in society.
+Despite this we continue to turn out duplicates on a massive scale.
+
+NUMBER 767194
+Volviendo de fiesta una noche con amigos en Barcelona, pasamos
+por delante de un contenedor frente a una tienda cerrada por reformas. Allí estaba todo lo que habían tirado... sillas rotas, archivos, catálogos y vídeos. Imaginaos nuestra alegría cuando descubrimos que
+todo procedía de una tienda de porno al por mayor. Nos encaramamos a unas sillas cutres moradas de PVC hechas polvo... muebles
+hechos de PVC grapado sobre espuma y aglomerado. Parecía que
+tenía forma de L pero con las esquinas curvas. Había montones de
+carpetas gruesas llenas de guarradas. Cintas de vídeo, estuches vacíos gastados y con mucho uso. Eran muy cutres, como si los hubiesen imprimido en casa y fotocopiado en mala calidad. Direcciones
+de negocios, direcciones de clientes, facturas de juguetes sexuales
+58
+
+con los precios, todo para llevar. Nos llevamos todo lo que pudimos
+a la habitación de hotel, grandes carpetas llenas de porno. Tuvimos
+que tirar parte al cubo de la basura... Las limpiadoras del hotel debieron de pensar que éramos unos auténticos pervertidos. Íbamos
+demasiado cargados, así que tiramos más cosas en el aeropuerto. El
+resto de las facturas consiguieron llegar al local de My Dads Strip
+Club HQ para ser procesadas.
+Las reproducciones podrían tener mucho potencial dentro de la economía capitalista, pero la sola idea de copia, réplica o duplicado despierta el nerviosismo de la sociedad.
+A pesar de esto, seguimos haciendo duplicados a escala masiva.
+My Dads Strip Club.
+
+My Dads Strip Club (UK): celebra la disensión y sus miembros son disfuncionales. Han
+descubierto la habilidad de operar en el camino incorrecto, llevando a cabo actos de interrupción en todos los lugares equivocados y han sido observados por las cámaras de vigilancia que operan por todo el mundo.
+http://www.mydadsstripclub.com
+
+59
+
+60
+
+Fundación Rodríguez: trabaja como colectivo desde 1994. Desde entonces ha organizado y coordinado proyectos, principalmente relacionados con la cultura contemporánea
+y los nuevos medios. Procuramos la adecuación entre proyecto y soporte, siempre desde
+una reflexión teórica que plantea nuevas fórmulas de comisariado y nuevos modos de
+producción, difusión y distribución del hecho artístico actual. Nuestro trabajo se afianza
+con el tiempo en conceptos como la disolución de los formatos y la emisión del libre conocimiento.
+www.fundacionrdz.com
+61
+
+El delfín del Zoo de Barcelona nos mira, preguntándonos qué queremos.
+Me pareció que era una buena metáfora visual sobre como la cultura
+puede ser compartida. ¿No?
+
+Pau Ros
+www.pauart.co.uk
+www.compaltelynaked.co.uk
+
+62
+
+LA REVOLUCIÓN DE LOS SUEÑOS
+(ensayo digitalizado y en verso)
+La revolución de los sueños
+no tiene forma ni dueño,
+es una frontera esquiva
+es un camino eléctrico.
+Soporta las inclemencias,
+los ataques y desprecios
+como la verdad desnuda,
+sin trampas ni retrocesos.
+La revolución de los sueños
+no acepta los remiendos,
+ni las mentiras repetidas
+mil y una veces por filibusteros.
+Surge inocente tras tus dedos,
+tu ratón, tu lápiz o tus textos
+y se alimenta de lo previo
+el dominio público o conocimiento.
+Los sueños sólo existen en tu cabeza
+pero forman parte de mi ego
+revelan tus emociones
+y alientan a mis deseos.
+Por eso esta revolución es sincera
+porque nace de los tiempos
+porque cuida de tus esencias
+porque acredita tus talentos.
+La imaginación construye
+adoquines sin cemento
+que no ocultan una playa
+sino materializan nuestros sueños.
+La cultura no puede ser gratis
+brama la boca del dueño,
+ni se paga con dinero
+replica el agitado siervo.
+La razón ya no se encuentra
+en un punto medio llevado al extremo.
+63
+
+Y si los Beatles ya no viajan
+en una sonda hacia el cielo,
+no es culpa de Yoko Ono
+sino de malditos leguleyos.
+Han monetarizado la belleza
+y han impuesto su sello
+es hora de inocular el antídoto cierto
+de la libertad del pensamiento.
+Pérdida la capacidad,
+se recurre al vagabundeo
+a las miserias de un canon,
+una regalía o un premio.
+Los absurdos y burocráticos
+señores al servicio de sus siervos
+falsean las cuentas y premios
+para escarnio de tus huesos.
+Y surge otra forma de pensar
+de sentir,
+de vivir entre unos y ceros
+y la convivencia posible se desvanece
+por la sinrazón del pero.
+Y sólo queda un camino,
+ya lo hemos descubierto
+es el de la emancipación
+de los vuestros y los nuestros.
+Pero en este tiempo confuso
+no invoquéis el irracional miedo
+ni se decapitan reinas
+ni se terminan reinos,
+nace una nueva república
+la república de los sueños.
+
+David Maeztu: abogado, activista por el copyleft y la libertad de los autores a la hora de
+decidir la forma de gestionar los derechos que la ley les concede. Estudioso del derecho a
+la libertad de expresión en Internet y en particular de los derechos y obligaciones de los
+blogs a través del sitio derechoynormas.blogspot.com.
+http://derechoynormas.blogspot.com
+64
+
+¿EL LIMBO DE LOS PERSONAJES, LA MUERTE DE LA CULTURA?
+– Superman ¿eres tú?
+– Veo que eres nuevo aquí
+– Creí que habías resucitado. Yo leía tus comics de pequeño. De
+octubre del 92 al 93, lo pasé fatal cuando Doomsday te mató. Pero por fin resucitaste ¿no?
+– A mí tampoco me hizo gracia morir, pero yo sí sabía que me iban
+a resucitar. Estaba todo planeado. Igual que cuando le partieron la
+espalda a Batman.
+– Entonces ¿qué haces aquí? ¿no es este el lugar al que los personajes de ficción venimos cuando nuestros autores nos matan o dejan que muramos?
+– Verás, no es tan sencillo. Aquí encontrarás muchos personajes.
+No todos han sido asesinados o abandonados por sus autores. Algunos como yo sólo hemos “pasado un mal trago”. Sin embargo,
+hay muchos lectores que no saben que he resucitado. Al igual que
+en el caso de tantos otros personajes aquí cautivos, que lo están
+porque han caído en el olvido, o porque las leyes del copyright no
+permiten que se desarrollen mediante versiones u obras derivadas.
+– ¡Eso es terrible!
+– Así es la realidad, muchacho -Superman pensó que era bastante
+extraño que un alienígena volador que lleva los calzoncillos por fuera le dijese eso a un adolescente vestido de mago - Mira, por ahí
+viene Pinocchio, pregúntale a él qué piensa.
+– ¿Pinocchio? ¡Pero si tú eres libre! ¿qué haces aquí? ¿no estás en
+dominio público?
+– Sí, ¿y qué?
+Al mago le sorprendió que Pinocchio tuviese esa actitud chulesca.
+Además, esos eran gestos del sur, y todo el mundo sabe que Pinocchio “nació” en el norte de Italia.
+– ¿Qué haces aquí?
+– He inspirado a personajes desde Astroboy a Kikaider. He aparecido en todo tipo de series y películas, desde la trilogía de Shrek
+hasta Las Aventuras de Bill y Mandy, Family Guy, o Adult Swim. Pero la mayoría de las veces se centran en mi estúpida nariz, limitando mi rol al superficial estereotipo que creó Carlo. Yo, por otra parte,
+el Pinocchio que podría ser, estoy aquí porque no he evolucionado.
+– ¿A qué te refieres? Eres famoso y libre ¿qué más quieres?
+65
+
+– ¿Cómo que qué más quiero? Se nota que eres joven, chaval. Hoy
+en día, con los medios digitales que cualquier mocoso tiene a su
+alcance, se podrían crear muchísimas obras. Pero los avariciosos
+de los autores “superventas”, junto con los editores, la productoras, las distribuidoras, las discográficas, los abogados, y demás especuladores del “mercado”, fomentan una dinámica de consumo
+idiotizada. Ya no se transmite la cultura (y con ellas las obras y los
+personajes como nosotros) de forma oral. Aquello sí era maravilloso, porque cada vez que alguien contaba una historia, te sentías vivo. Introducían modificaciones, sorpresas, evoluciones... ¡Qué
+tiempos aquellos!
+– Pues yo estoy bien así: sin sorpresas, sin sobresaltos.
+– Pronto dejarás de pensar así. En esta cárcel de la que no puedes
+salir, a no ser que consigas meterte en la cabeza de uno de esos
+“pensantes”, notarás cómo languideces. Incluso verás cómo los
+“pensantes”, al olvidarse de tí, pierden parte de su identidad, se reduce su fantasía, se alienan, se adoctrinan... ¡Es horrible! Si ves a
+Momo pregúntale cómo es ese mundo y te describirá el horror.
+– Y ¿quiénes son los “pensantes”?
+– Puede ser un niño que ve una película, o un escritor que no sabe
+dónde inspirarse. Yo una vez estuve a punto de hacer el amor (nada del porno japonés bizarro que circula por la red). Un escritor quiso permitirme crecer y evolucionar. Pero le dijeron que “no era
+comercial”, y como no tenía tiempo para perder en “historias”, lo
+dejó. Pero yo sigo insistiendo, no abandono su cabeza, y creo que
+al final escribirá la historia.
+– ¿De verdad podemos comunicarnos con ellos?
+– ¿Tan enlatado estás que no te has dado cuenta?
+– Pues no, la verdad. Entre el sonido THX y el olor a palomitas del
+cine, no he notado nada.
+– La de cosas que tienes que aprender. Mira por allí va Atreyu. Él
+sabe bastante de eso. Pregúntale por Sebastian.
+
+Jorge Cortell: ciudadano del mundo y de la red, nacido en Europa. Hacker y activista.
+Ex-profesor extra-universitario de “Propiedad Intelectual “ en el Master de Aplicaciones Multimedia de la Universidad Politécnica de Valencia, de donde dimitió bajo presiones de la Motion Picture Association of America y Promusicae por una conferencia que dio donde sostenía
+que la “Propiedad Intelectual” no existe, y que compartir es bueno. Actualmente forma parte del consejo de administración de una empresa productora de música, y dirige una empresa de software libre y tecnología médica que exporta a los cinco continentes.
+www.cortell.net
+66
+
+NARRACION COLECTIVA
+RETICULUM VITAE, ISAAC HACKSIMOV
+Nací en el Patio Maravillas (un Centro Social Okupa de Madrid) en
+un momento impreciso del año 2008 según certifica el registro del
+servidor interno del HamLab Maravillas, en la sala pequeña del laboratorio, al otro lado del retrete. Así nací, en el promiscuo revolcón de ilusión de un nuevo espacio liberado de una metrópolis
+centenaria. Soy descendiente directo de Isaac Asimov y Luther
+Blisset, tataranieto de Ada Lovelace y Alan Turing y primo hermano de Teresa Malina y Wau Holland.
+Siempre suspendí en educación para la ciudadanía, en espíritu
+nacional y en macro-economía para mentes domesticadas. Pero
+jamás dejé de aprender de la red, de mi vida en comunidad, de
+mis compañeras biotécnicas. Ahora soy doctor erroris causa por
+la Hackademy del Patio Maravillas y tengo un Master en Autogestión Colectiva y Conflicto Tecnopolíco por la Hacklab Multiversity. Me gradué con una tesis titulada "World Domination
+Project" en la que analizo las pírricos victorias de las grandes corporaciones por sabotear nuestras vidas. Pero tuve que reciclar
+mis certificados de estudios para imprimir unos panfletos.
+Aprendí a liberar mi ordenador de la opresión por defecto de Microsoft Windows en el curso de instalación de Ubuntu de la Hackademy (una academia hacktivista que me ocurrió entre abril y
+julio). Allí enseñe a cifrar las comunicaciones y a proteger la privacidad en un curso de Cyberpunk, cree, canté, bailé, edité y distribuí una canción Copyleft contra el Canon Digital (un diezmo que
+nos imponen los terratenientes de las tierras de la cultura). Pero
+sigo aprendiendo con decenas de personas a atravesar los límites tecnológicos que nos han impuesto y a crear herramientas y
+recursos para una vida colectivamente liberada.
+Y no busco trabajo. Porque curro por las noches, cuando mis
+mentes sueñan juntas recombinando ilusiones desperdiciadas por
+una sociedad entristecida, imaginando nuevas batallas contra la
+oscuridad de las fuerzas propietarias, ensamblando máquinas
+abiertas por las que seguir viviendo y vistiendo de armas a niños
+en un mundo seco, ensangrentado y disfrazado de democracia.
+También trabajo de día en los circuitos precarios del cognitariado
+desmembrado en los rincones de la ciudad. Y por las tardes, me
+vuelvo a componer para jugar en la máquina de arcade de mi la67
+
+boratorio, para restaurar el servicio gratuito de telefonía IP que he
+puesto en la calle, para diseñar una web que permite hacer fluir a
+la música libre, para organizar encuentros, administrar máquinas
+que sirvan para difundir otras tantas verdades, planear acciones
+directas contra los lobbies del copyright y conspirar juntas para
+seguir divirtiéndonos recompilando el mundo.
+Soy una identidad colectiva, las asamblea de cuerpos y máquinas
+de laboratorio hacktivista HamLab, una narración de muchas
+voces y un sólo nombre. Soy, Isaac Hacksimov, y esto es mi reticulum vitae.
+
+Hamlab/Patio Maravillas: el Hamlab es el laboratorio autogestionado del grupo hacktivista del Patio Maravillas
+http://www.patiomaravillas.net/hamlab
+http://hamlab.patiomaravillas.net/index.php/Portada
+
+Copyleft 2008 Isaac Hacksimov: (CC-by-sa)
+* Eres libre de: copiar, distribuir y comunicar públicamente la obra,
+hacer obras derivadas y hacer un uso comercial de esta obra.
+* Bajo las condiciones siguientes: Debe reconocer y citar al autor original y si altera o
+transforma esta obra, o genera una obra derivada, sólo puede distribuir la obra generada
+bajo una licencia idéntica a ésta. Al reutilizar o distribuir la obra,
+tiene que dejar bien claro los términos de la licencia de esta obra.
+* Alguna de estas condiciones puede no aplicarse si se obtiene el permiso del titular de
+los derechos de autor. Los derechos derivados de usos legítimos u otras limitaciones no
+se ven afectados por lo anterior.
+Esto es un resumen legible por humanos del texto legal (la licencia completa) disponible
+en: http://creativecommons.org/licenses/by-sa/3.0/es/legalcode.es
+
+68
+
+UN SPEAKER CORNER EN PDF
+Esta breve anécdota trata de la producción de Planeta Web 2.0.
+Inteligencia colectiva o medios fast food, una experiencia de trabajo en equipo a 10 mil kilómetros de distancia sin siquiera vernos físicamente. A través de Skype hacíamos nuestras reuniones
+semanales y todo se creó desde la red. Una semana después de
+haber terminado el trabajo, lo liberamos en forma gratuita y bajo
+formato pdf. No tuvimos que esperar meses entre la entrega del
+trabajo a la editorial y la limitada distribución del libro en las librerías. Sólo pocos días después de hacer la última corrección,
+el libro ya estaba siendo bajado y leído en toda Iberoamérica.
+La decisión de liberar el texto bajo licencia Creative Commons fue
+fundamental para su repercusión. Estábamos convencidos de que
+no existía un formato más apropiado para hablar de “arquitectura de la participación” que ofreciéndolo en la propia Web en forma gratuita y con complementos en wiki, blog, podcasts, etc.
+Nada nos resulta menos atractivo y aburrido que producir textos
+que luego nadie lee ni indexa. La invisibilidad es una experiencia
+habitual en la producción científica de nuestras ciencias sociales.
+Para saber cuántas personas “comprarían” el libro, pusimos un
+contador de descargas. A 36 horas de su lanzamiento, las descargas alcanzaron las 25.000. Creíamos que nuestro contador de
+“downloads” no estaba funcionando bien. Pero luego de revisar
+el sistema nos dimos cuenta de que la combinación entre blogósfera y marketing viral habían potenciado el tan ansiado valor
+de la atención.
+Luego la comunidad digital se apropió de nuestro trabajo. Se
+publicó en Google Books, sus 900 enlaces se indexaron en
+del.icio.us, algunos capítulos se tradujeron al italiano y al portugués, se exportó a diversos formatos (slideshare, scribd, podcast, youtube), se incluyó en Wikipedia y, lo que es mejor, se
+convirtió en lectura obligatoria en licenciaturas y posgrados de la
+región. Este tipo de speaker corner resultó una ruta muy atractiva
+para nosotros, investigadores jóvenes sin demasiada experiencia
+editorial.
+La divulgación superó con creces nuestras expectativas. Planeta
+Web 2.0 ya superó las 100 mil descargas. Seguimos explorando
+nuevos formatos para compartir el conocimiento y vemos con tremenda satisfacción, que más y más personas apuestan por esta
+69
+
+filosofía de saltarse a los intermediarios y aprovechar los canales
+abiertos de generación y distribución del conocimiento.
+www.planetaweb2.net
+
+Cristóbal Cobo: profesor. Director de Comunicación y Nuevas Tecnologías, FLACSOMéxico. Doctor en Ciencias de la Comunicación (Universidad Autónoma de Barcelona)
+http://e-rgonomic.blogspot.com/
+Hugo Pardo Kuklinski: CEO and founder Proyecto Campus Móvil. Doctor en Comunicación Audiovisual y Publicidad, Universidad Autónoma de Barcelona. Profesor Titular del
+Dep. de Comunicación Digital de la Universitat de Vic. Visiting Professor en el HumanComputer Interaction Group, Stanford University, EEUU (2007). Autor del libro “Planeta
+Web 2.0. Inteligencia colectiva o medios fast food“ (GRID-UVic, Flacso México. Barcelona
+/ México DF. 2007). Bloguero.
+http://digitalistas.blogspot.com
+
+70
+
+COMPARTIR DÓNA GUSTET
+Tengo mucho tiempo. Hace diez años que me jubile. Mis hijos no
+han tenido hijos y viven muy lejos de Barcelona, como su madre
+que me abandonó antes de perder la razón.
+No hace tanto bajaba a la calle y jugaba a la petanca con vecinos de mi añada. El mejor momento era compartir unas risas sentados en los bancos después de unas buenas bolas y beber el
+“herbero”, un aguardiente que preparaba “el valenciano”. Ahora
+no hay bancos, solo sillas individuales y dónde estaba la petanca hay un césped que no se puede pisar con un cartel de prohibido jugar.
+Ya no veo a mis vecinos de añada, pero una vecina, de mi quinta también, salia todas las tardes a un centro de hacer cursillos y
+decidí seguirla. Ahora me he apuntado a un curso de ordenador
+con internet. Hay un joven vasco muy simpático que nos explica
+como usarlo. Él se rie debajo de su gorra achinando los ojos encima de la barba roja mientras se toca la panza estampada de flores hawianas. Dice que el pingüino es mejor que las ventanitas
+incluso que de las manzanas. Yo no entiendo nada pero me rio un
+monton. Ahora hablo con el pequeño por lo menos una vez a la
+semana. Con los mails es grátis. También me envia fotos de sus
+cosas, sus viajes, y Josian, el vasco, me ha enseñado a guardarlas en un cd virgen, es decir, vacio.
+Ahora también dice que con el ordenador con internet puedo ver
+grátis las películas españolas que veia en el barrio de niño, cuando todavía no había tele.Yo no se que pensar (si creerlo) pero la
+idea me gusta, hace años que no las veo y no sabría dónde verlas. Aunque lo mejor no eran las películas. Las veiamos los domingos por la tarde después de comer todos juntos en “la era”,
+un descampado cerca de casa con una higuera. Cada familia llevaba su silla y su comida excepto el dia que alguien hacia paella.
+Ese dia sólo llevabamos la silla y una cuchara, a mi me gustaba
+la de madera.
+Creo que no miento si digo que esos eran los mejores momentos
+de mi vida. Josian me mira, se rie y die: hombre claro “compartir
+dóna gustet”.
+
+71
+
+Compartir dóna gustet: Cultura de tradició oral, cultura de trasmissió directa, cultura peer to peer. Cultura de paella al carrer compartint la bóta de vi, cultura de rave salvatge compartint la música, la pols. CULTURA LLIURE: COMPARTIR DÓNA GUSTET. Estem perdent
+espasi de sociabilitat, de comunitat. Espais públics envaïts per espais publicitaris, de rigor
+cívic i feixisme postmodern, modern o el que més us agrade.
+Quan ha passat? Ho vivim amb incomoditat silenciosa. Qué significa en un parc públic un
+banquet de una persona? qué significa arrabassar a la gent gran l’únic espai de trobada
+que té: si vols parlar fes servir la terrassa del bar i consumeix. El mateix amb la criminalització de la còpia d’arxius, mig i mig. I la indústria cultural fa música a mida del mercat i els
+gestors intermediaris se’n queden els diners. Tot sona igual i tot té el mateix gust.
+COMPARTIR DÓNA GUSTET es dona gustet compartint músiques antigues, noves i futures, videos virals, xerrades i reflexions, algun soparet i paelleta de l’alba més ressopó, balls
+tradicionals o coreografies MTVidenses, cine i més cine, algun roce si cau i al tanto que la
+casa cau. VINGA VA!!! No es hedonisme, es la saviesa de viure que en algun moment se’ns a perdut o ....
+http://compartirdonagustet.vingava.cc/
+
+72
+
+HE ONE-EYED-MAN TAVERN
+Manel is a jovial sort of guy, a good friend, and a lover of food who
+likes to have a good laugh with his buddies out on the town. Manel
+is also a scientist. He studied chemistry thanks to some sacrifices
+by his family and the combination of summer jobs, low-interest loans for students and the availability of university libraries. In these
+libraries he would find foreign publications, copies of depleted editions and books that he could not afford. In these libraries there were photocopying machines that multiplied the information potential
+of those documents, through which many people as Manel were
+gradually approaching the inner nature of that surrounds us. Anyone meeting Manel now would think he is quite happy, the kind of
+person who enjoys a sudden ray of sunshine on his face or the
+touch of moss in an old brick wall, as if the entire history of the universe had the sole purpose to produce that very moment.
+Today Manel is going to meet Lola for dinner. Lola has been a good friend since childhood. While walking toward the meeting point
+he thinks about how much he liked Lola's band's latest record and
+can't help remembering the first tapes that she recorded for him.
+At first, when they were barely 12 years old, Lola graced Manel's
+life with classic rock selections drawn from the collection of his
+father, where, next to the inescapable Elvis appeared the less obvious Eddie Cochran and Gene Vincent. With the years came recordings of the Velvet Underground and Bowie, which forced
+Manel to buy every single that came out. Gradually, new bands
+appeared, like The Fall and Joy Division, which already have a part
+in the history of both friends. Blossoming through music, Lola learned to play guitar and some piano in her teens. She also began
+to deejay at public parties, first in the neighborhood and then beyond. Lola always spun vinyl, and although some might call her a
+freak for doing so, she can't imagine doing it any other way. But
+she has always loved to record music - first cassettes, then cd's
+and now mp3's, especially when it's for some special friend, or
+when it's about shared dj sessions. Lately, she's been delighted
+with the programs that allow you to find almost any kind of music
+on the net and also to be able to buy vinyl online, though nothing
+beats going to the store and listening to each record over the headphones while deciding which to buy. Today she has two CDs
+with her, one for Manel and one for Anne, her friend the cook.
+73
+
+Anne is excited: this afternoon she has prepared a new dish for her
+buddies - they're her guinea pigs, she jokes. She opened the restaurant almost five years ago, but everytime she has a new proposal it's somehow like the first day again. It is a small and cozy place,
+furnished with very little money and lots of imagination. A large
+photograph of her grandfather adorns the main wall, drawing particular attention to the patch on his right eye. He was the one who
+most taught her how to cook, passing on his own recipes along
+with ones from his colleagues and teachers. Those who are familiar with Anne immediately recognize that childish shine in her eyes
+every time she proposes a new dish. If it is being offered to the public, that means that it has passed a rigurous process back in what
+she calls the 'laboratory' of the restaurant. Anne says she 'remixes'
+traditional cuisine as a music producer would, and that's one of the
+reasons why she respects Lola's point of view so much. Anne has
+also known Manel from long time: between recipes and tapes, together they've been unraveling the mysteries of flavors for several
+years. Although now devoted to research, Manel has the spirit of
+a teacher and loves to explain, in front of his friends and a good
+dish, the reasons for the delay in the sensation of the hot taste, that
+impossible combination of opposites or those fireworks in the
+mouth when a new Brazilian spice comes into play.
+Anne carefully watches every move of every facial muscle, every
+change in the direction of the eyes and every blink of her friends
+while they savor the new proposal for the first time. Over the loudspeaker Lola's music is playing. In her mind Anne awaits Manel's
+explanation for the curious influence of the whey on the lamb's
+lettuce. A few minutes later, the dish has passed the test and a celebratory toast suddenly cheers up the tone of conversation. Manel asks for the origins of the recipe and Anne confesses that it's
+a hybrid between a dish her aunt prepares and a recipe a Basque
+chef recently published. The conversation drifts into the way in
+which each of the three develops and shares the results of their
+work: Lola spoke of the concept of copyleft, Creative Commons
+licenses and netlabels distributing music over the network. Manel
+explains the new form of review and publish results that have taken in his laboratory:
+- Lately we are working with the Public Library of Science, which
+promotes the open publication of scientific discoveries and also
+74
+
+uses the Creative Commons licenses ...
+-Talking about that, it just came to my mind -Anne interrupted-...
+Do you remember Toni from high school, the one with the bloody
+green motorcycle?
+- I run into him occasionally -Lola answeres-, the last time I saw
+him he was going with his sons and loads of skis to a house that
+he seems to have at the Baqueira ski resort. But... wasn't that guy
+involved in politics?
+- Yes, he had been a bank executive for quite some time but now
+is a member of the European Parlament. The other day I was browsing the newspaper and found that the guy is promoting a law that
+pursues people that download things from the Internet. And you
+should have seen how, in an interview, he spoke of attacks, thefts,
+violations... of intellectual property!
+- I never liked him, so irritating with that bloody motorcycle...
+- Don't be so harsh with him, I'd like to see what you would do in
+his place, with all those children and properties to support!!
+¡HAHAHAHAHA! - the three friends joined in a tremendous laugh
+at the precise moment when Ahmed, Anne's boyfriend, entered the
+restaurant and closed the metallic door behind him, thus concluding a another day in The One-Eyed-Man (But-Not-Blind) Tavern.
+
+A FONDA DEL TUERTO
+Manel es un tío majo, amigo de sus amigos, le gusta comer bien y
+echar unas risas en los bares. Manel también es científico. Estudió
+químicas gracias a un importante esfuerzo de su familia y a la combinación de trabajos veraniegos, créditos de bajo interés para estudiantes y la existencia de bibliotecas universitarias. En esas bibliotecas
+encontraba publicaciones extranjeras, ejemplares de ediciones agotadas y libros inalcanzables para su bolsillo. En esas bibliotecas
+había máquinas fotocopiadoras que multiplicaban el potencial informativo de aquellos documentos, gracias a las cuales muchas perso75
+
+nas como Manel se fueron acercando poco a poco a la naturaleza interna de aquello que nos rodea. Cualquiera que lo viera ahora diría
+que Manel es un tipo feliz, esa clase de persona que disfruta con un
+golpe de sol en la cara o el tacto del musgo en un muro de ladrillo
+viejo, como si toda la historia del universo tuviese la única finalidad
+de producir ese momento.
+Hoy Manel ha quedado para cenar con Lola, de quien es amigo
+desde la infancia. Mientras camina hacia el punto de encuentro
+piensa en lo mucho que le ha gustado el último disco del grupo de
+su amiga, y no puede evitar acordarse de las primeras cintas que ella
+le grababa. Al principio, con apenas 12 años, Lola alegraba la vida de
+Manel con selecciones de rock clásico sacadas de la colección de su
+padre, donde al lado del ineludible Elvis aparecían los menos evidentes Eddie Cochran o Gene Vincent. Con los años llegaron grabaciones de la Velvet Underground y Bowie, que a solían provocar
+visitas a la tienda de discos a buscar material relacionado, y poco a
+poco aparecieron grupos menos populares como The Fall o Joy Division, nuevos encargados de sonorizar su historia en común. Arrebatada por la música, Lola aprendió en su adolescencia a tocar la
+guitarra y algo de piano. También empezó a pinchar en público en
+las fiestas que se montaban, primero en el barrio y luego fuera de él.
+Lola siempre ha pinchado discos de vinilo, ella dice que le da igual
+que la llamen maniática pero que no entiende el hacerlo de otra
+forma. Le apasiona grabar música, sobretodo cuando son para algún
+amigo o amiga especial, o cuando son sesiones de discjockey compartidas. Está encantada con esos programas que le permiten encontrar en la red casi todo lo que busca y también con poder comprar
+vinilos por internet, aunque nada como ir a la tienda y poder escucharlos uno a uno mientras se decide. Hoy trae dos cd's, uno para
+Manel y otro para Anne, su amiga cocinera.
+Anne está excitada: esta tarde, entre otras cosas, ha preparado un
+plato nuevo para sus amigos, sus conejillos de indias, según ella
+misma bromea. Hace casi cinco años que abrió el restaurante, pero
+para Anne casi siempre es como el primer día. Es un sitio pequeño y
+acogedor, arreglado con muy poco dinero y mucha imaginación, en
+el que destaca una ampliación enorme de una foto de su abuelo ocupando la pared del fondo, de esa imagen llama especialmente la
+atención el parche que el personaje luce en el ojo derecho. Él fue
+quien principalmente le enseñó a cocinar, transmitiéndole sus recetas y las de sus maestros y colegas. Los que conocen bien a Anne re76
+
+conocen enseguida ese brillo infantil en su mirada cada vez que propone un plato nuevo. Si llega a darlo por bueno es señal que ha pasado una dura criba puertas adentro del 'laboratorio' del restaurante.
+Ella dice que ella 'remezcla' la cocina tradicional como haría un productor musical, y esa una de las razones por las que respeta tanto la
+opinión de Lola. Anne tambien conoce a Manel hace ya tiempo: entre
+recetas y cassetes desentrañaban juntos los misterios de los sabores
+ya varios años atrás. Aunque ahora se dedique a la investigación,
+Manel tiene espíritu de profesor y le encanta razonar, ante sus amigas y un buen plato, los motivos de este retraso en la percepción del
+picante, de esa combinación imposible de contrarios o de aquellos
+fuegos artificiales en la boca cuando entra en juego una nueva especia brasileña.
+Anne observa cada movimiento de cada músculo facial, cada cambio en la mirada y el parpadeo de sus cobayas mientras estas saborean por primera vez la nueva propuesta. En los altavoces la música
+de Lola. En la mente de Anne la espera ante la explicación que pueda
+dar Manel de la curiosa influencia del suero de leche sobre el canónigo. Unos minutos después el plato ha superado la prueba con nota
+y unos brindis de celebración alegran súbitamente el tono de la conversación. Manel pregunta de donde ha surgido la receta y Anne confiesa que es un híbrido entre un plato que hace años que prepara una
+tía suya y un trabajo que ha leído en un reciente libro de un cocinero
+guipuzcoano. Entonces la conversación deriva hacia el modo en que
+cada uno de los tres desarrolla y comparte los resultados de su trabajo: Lola habla del concepto de copyleft, las licencias creative commons y las netlabels que distribuyen música por la red. Manel explica
+la nueva forma de revisar y publicar resultados que han adoptado en
+su laboratorio:
+- Últimamente estamos trabajando con la Biblioteca Pública de la
+Ciencia, que promueve la publicación abierta de los descubrimientos
+científicos y donde tambien se usan las licencias de Creative Commons...
+- Hablando del tema, me ha venido a la cabeza -interrumpe Anne¿os acordáis de Toni del instituto, que tenía aquella moto verde tan
+horrorosa?
+- Yo me lo he ido encontrando de vez en cuando -responde Lola-, la
+77
+
+última vez que lo ví se iba con sus hijos y un cargamento de esquís a
+una casa que tiene en Baqueira, pero ¿no estaba ese metido en política?
+- Sí, había estado de ejecutivo en un banco durante bastante tiempo
+pero ahora es diputado europeo, mira tú por dónde. Pues el otro día
+hojeando el periódico leí que está promoviendo una ley que persiga
+a los que se descargan cosas de Internet, y en una entrevista que le
+hacían, tendrías que haber visto como hablaba de atentados, robos,
+violaciones... a la propiedad intelectual!
+- A mí nunca me cayó bien, no sé, todo el día tocando las narices
+con la moto...
+- No seas tan dura con él, habría que ver que harías tú en su lugar,
+¡¡con todos esos hijos y propiedades que mantener!!
+¡HAJAJAJAJÁ! - los tres amigos se unieron en una tremenda carcajada en el preciso instante en que Ahmed, el compañero de Anne, entraba en el restaurante y cerraba tras de si la puerta metálica, dando
+así por terminada una jornada más en La Fonda del Tuerto (Pero No
+Ciego).
+
+straddle3: en straddle3 entendemos la arquitectura como la configuración del entorno habitado, pudiendo este ser construido con palabras, sonidos o bits como con piedras, madera o metal. aprendemos mientras trabajamos junto con aquellos que nos proponen
+proyectos, entendiendo cada caso como la oportunidad para una nueva colaboración.
+poco a poco esto nos ha llevado a formar parte de una red constituida, entre otros, por colectivos, empresas y expertos en urbanismo, construcción, paisajismo, arte, tecnología,
+software y sociología.
+http://straddle3.net
+english version: Gilad Buzi
+
+78
+
+Páginas 77, 78, 79 y 80
+Federico Guzmán: es artesano de las imágenes y explorador de la creatividad. Siempre ha
+cultivado un interés por el arte como herramienta de conocimiento y encuentro entre las personas. Algunos de sus proyectos individuales recientes son La enredadera de la serpiente
+(Benveniste Contemporary, Madrid), La Bella Embalada (Pepe Cobo, Art basel Miami Beach)
+y El mato de tomaco (Encuentro MDE 07, Medellín). También ha formado parte de proyectos colectivos como la Expedición a El Dibujo con artistas españoles y colombianos, el
+museo de la calle con el colectivo Cambalache o Copilandia con Gratis.
+www.copilandia.org/
+79
+
+80
+
+81
+
+82
+
+¿CULTURA LIBRE?
+me van a tener que perdonar
+porque quizás mis palabras
+tengan hoy acento de herejía
+porque me veo en la obligación
+de darle la razón al adversario
+me van tener que disculpar
+porque hoy tengo que decirles
+que tiene toda la razón teddy bautista
+no tiene sentido que la cultura sea libre
+si no es también libre la vivienda
+lo dije hace como tres años
+en una charla de tecnopijos
+que pensaban que podían ser libres
+porque tenían un módem
+y se bajaban películas
+y se bajaban canciones
+en una casa que nunca sería suya
+porque nunca terminarían de pagarla
+en una vida que nunca sería suya
+porque por siempre serían esclavos
+nadie entonces me hizo caso
+no querían escuchar voces incómodas
+estaban muy ocupados
+riendo las gracias de quienes decían
+lo que todos querían oír
+copiad y seréis libres
+copiad y se os dará
+copiad copiad copiad
+no tengáis miedo
+podréis seguir copiando siempre
+han pasado tres años desde entonces
+y seguimos peor de lo que estábamos
+83
+
+cada día tenemos más películas
+y cada día somos menos libres
+para todo lo que no sea grabar discos
+hemos caído en la red
+y creemos que la red nos hace libres
+la red nos da cuanto necesitamos
+sin salir de nuestro cubil y sin pagar
+pero sin molestar a nuestros dueños
+no sé por qué preocupa tanto al sistema
+que nos bajemos todo de internet
+si esa es precisamente la forma
+de controlar mejor a la gente
+domesticarla consumiendo
+sentimos que nos persiguen
+y nos sentimos un poco culpables
+y gracias a eso seguimos valorando
+aquello que no tiene valor alguno
+la paz social salió barata
+hemos conseguido tener de todo gratis
+si exceptuamos lo más imprescindible
+seguimos en manos de la banca
+cada día somos más necios
+y cada día somos más pobres
+la cultura no puede ser libre
+si no lo es también el hombre
+la cultura no puede ser más que la comida
+ni el vestir ni la vivienda
+ni el derecho a un trabajo digno
+la cultura no es quedarse
+encerrados en cuatro paredes
+llenando manifiestos digitales
+sin más compromiso que un sillón
+sin arriesgar lo más imprescindible
+84
+
+no hay cultura libre sin un pueblo
+dispuesto a salir a luchar
+para pedir aquello que es de todos
+aquello que no se puede conquistar con un ratón
+sino llenando las calles y avenidas
+no tenemos más derechos
+que aquellos que podamos conquistar
+con la fuerza de nuestros pies y nuestras manos
+no tenemos nada más
+que aquello por lo que estemos dispuestos a perderlo todo
+quizás tenemos que aprender
+que sin libertad no puede haber cultura libre
+que sin todos los demás derechos
+de nada sirve el opio
+con que se adormece a los necios
+si dejamos que sean otros los que canten
+olvidaremos lo que sabían nuestros viejos
+hemos de seguir cantando por nosotros mismos
+cantando contra el miedo contra la rabia
+cantando aunque sea para disimular el hambre
+cantemos como cantó siempre el pueblo nómada
+que las canciones son como la tierra
+y sólo tienen sentido
+cuando se ocupan siembran y florecen
+para dar sus frutos a la gente
+
+Carlos Sánchez Almeida: licenciado en Derecho, se colegia como abogado en 1987.
+Socio director de Bufet Almeida, Advocats Associats. Especializado en derecho de Internet y nuevas tecnologías, ha sido miembro de Fronteras Electrónicas España.Libros publicados: “Todo está en venta. Globalización, Internet y Derechos Humanos” (2000), “La Ley
+de Internet” (2002), “República Internet” (2004).
+http://www.republicainternet.com
+
+85
+
+EL BENEFICIO DE LA COPIA
+Había una vez... un hombre solo. Muy, muy solo. Estaba tan solo
+que no recordaba si fue diferente alguna vez. Tan, tan solo que
+perdió la noción de su propia soledad.
+En contadísimas ocasiones, cuando estaba cansado, había bebido o vivía un disgusto, su desterrado corazón conseguía superar
+las murallas y laberintos que le había construído. Sentía entonces
+el dolor y la tristeza y el calor de la esperanza, del no eres ningún
+monstruo, te mereces que te amen.
+Uno de esos días, una noche, decidió que ya bastaba. Cogió papel y lápiz y escribió esta carta:
+Querida desconocida.
+Después, tachó lo de querida. Y siguió:
+Desconocida,
+Me llamo Pablo. Tengo 34 años y estoy desesperadamente solo.
+Vivo en una ciudad de Europa, allí donde la gente se encierra en
+sus casas y nadie conoce a nadie. He intentado durante años acallar a mi corazón pero sigue escapando de las prisiones donde lo
+entierro y me grita que tú existes.
+Si palpita tu corazón al leer este mensaje, será que el mío tiene
+razón y entonces, por favor, ponte en contacto.
+Sin dejar tiempo a la mente de echarse atrás, colgó la carta en su
+web, junto a una dirección de Gmail.
+Era, lo sabía, meter un mensaje en una botella y lanzarla al mar.
+Quizás por eso pudo hacerlo, porque la posibilidad de éxito era
+tan remota que no peligraba su segura soledad. El miedo más
+grande es el miedo a cambiar.
+Algunos leyeron la carta y les gustó y se ofrecieron a publicarla
+en sus webs. Pero Pablo se negó. Rotundamente. Ferozmente.
+De ninguna manera. Era _su_ carta. Nadie la debía copiar.
+Mientras, como sucede tantas veces en la historia de la humanidad, alguien, al otro lado del planeta, se sentía tan solo como Pablo, había tratado también de enmudecer a su corazón y decidió,
+86
+
+también una noche, escribir una carta. Vivía en Ciudad de México y se llamaba Juan.
+La carta de Juan recaudó admiradores que le pidieron replicar sus
+letras y, al contrario de Pablo, Juan accedió a ello. Quizás porque
+estaba más desesperado, quizás porque tenía más esperanza. El
+mensaje de amor saltó de web en web, de blog en blog, de foro
+en foro y decenas, cientos, miles de mujeres suspiraron por ser
+las elegidas.
+No cabría ni decir que Pablo siguió solo hasta la muerte y que
+Juan fue abuelo y bisabuelo y vivió rodeado de personas que le
+amaron.
+
+Mercè Molist Ferrer: periodista especializada en Internet. Barcelona
+http://ww2.grn.es/merce
+
+Copyright 2008 Mercé Molist.
+Verbatim copying, translation and distribution of this entire
+article is permitted in any digital and no commercial medium,
+provide this notice is preserved.
+
+87
+
+CULTURA IN VITRO
+Sabido es que determinados nacimientos se producen debido a
+necesidades vitales y el mio fué así.
+Mi madre se llama Cultura y sus ancestros se remontan al nacimiento del ser humano y con él, de la curiosidad y el ansia de saber inherentes.
+Siempre se caracterizó por que, quienes más la poseían más la
+compartían, dando clases, viajando de pueblo en pueblo o escribiendo sus conocimientos o los de otros para que todos los disfrutaran.
+Mi padre era lo que se podría denominar empresario, alguien que
+explotaba el trabajo de los demás y vió que podía ganar mucho
+controlando el acceso de la gente a mi madre y así la convenció
+para que se uniera a él diciéndole que llegaría a más personas
+cuando ella sola ya llegaba a todas.
+Eso trajo consigo, (Mediados siglo XX) que de mi madre ya solo
+llegaba al pueblo aquello que mi padre quería o consideraba rentable, lo cual le produjo pingües beneficios durante muchos años.
+Tal situación, en su vertiente musical, dió frutos excelentes durante 3 décadas para empezar a perder calidad debido a las presiones de mi padre que exigía más producción en deterioro de la
+calidad de la misma, debo decir en defensa de mi padre que nunca supo lo que son las musas ni la inspiración.
+Los consumidores de cultura, siempre ávidos de novedades de
+calidad, empezaron a compartirla entre si y se hicieron copias de
+las cintas en que se vendía prescindiendo de las canciones que
+no les gustaban con lo cual mi padre consiguió un acuerdo para
+que le pagaran una cantidad por cada cinta virgen, siempre ojo
+avizor él.
+A finales del siglo mencionado llegó un nuevo método de comunicación, Internet y de repente, todo el mundo tenía acceso a todo el mundo y compartían la cultura que les gustaba, mi padre ya
+no les decía lo que podían o no tener y se le hizo insoportable.
+Y llegó mi momento, me necesitaban y me crearon para solucionar sus problemas, igual que un hermano puede salvar a otro mediante las células del cordón umbilical, yo serviría para salvar a mi
+padre mediante la invocación de mis derechos y de paso ayudo
+a unos nuevos amigos suyos llamados gobiernos a salvar a los
+ciudadanos de ¿si mismos?.
+88
+
+Lo malo de ésta historia es que mi madre sigue controlada por mi
+padre, pero unos amigos llamados Internautas me han dicho que
+se acerca una vacuna llamada CC-Copyleft que lo solucionará:
+Me llaman Industria Cultural.
+Carlos Sues: http://www.filmica.com/carlosues/
+
+89
+
+MENSAJE DESDE EL CYBERESPACIO
+Nos hemos hecho fuerte en Internet, pero llevamos creciendo en las
+redes de comunicaciones desde que inventamos el teléfono, millones de intelectos estamos intercomunicandos, nos organizamos con
+unas dinámicas que no solo no conocéis, sino que necesitaríais cambios demasiados drásticos a la altura de vuestras largas vidas para
+nisiquiera comprenderlo.
+Utilizamos los aparatos que vosotros mismos fabricáis para lo que
+nunca hubiérais imaginado que podrían ser útiles, combinamos cualquier tipo de red, protocolo y software, por radiofrecuencia, sms o tcpip mientras vosotros solo sois espectadores despistados y asustados.
+Combatir esta nueva era es como levantar muros para parar el viento,
+por muy alto que los construyáis, por cualquier grieta, por el sitio
+menos pensado, circularán bits, millones de intelectos interconectados siguen construyendo una cultura, una máquina de guerra, un
+nuevo modelo organizativo, que os está golpeando una y otra vez,
+cuando menos lo esperáis, vuestra intención, vuestro sueño imposible, vuestra retorcida esperanza, es utilizar nuestros propios sistemas
+de comunicación para controlar nuestras mentes, pensáis que os bastan leyes y cuatro patéticos anuncios televisivos para controlar, “poner
+orden” en vuestro lenguaje, nuestros intercambios de ideas, no os enteráis que en vuestros planes de monitorizarnos, espiarnos y perseguirnos estáis perdiendo por goleada, y seguís sin enteraros de nada.
+Los métodos que conocéis de violencia y censura no funcionan en
+esta nueva realidad, por mucho que os inventéis terroristas o piratas,
+no tenéis ningún tipo de arma para combatirnos en una guerra en la
+que juega el intelecto, no la violencia, y en la que la inteligencia colectiva siempre vencerá. Nuestras herramientas, nuestras armas, están a
+años luz de las vuestras, es como si para perseguir a los piratas (esos
+que abordan y saquean barcos) quisiéseis usar vuestros tanques.
+En vuestro mundo habéis prostituido la creación intelectual, la cultura, la habéis convertido en algo que “se toca”, físico, quieto y
+muerto, la cultura libre es todo lo contrario, y despistados, como los
+últimos 20 años, os asustáis de que os hagamos la competencia y
+creemos un “Bisbal libre”, pero al contrario que la vuestra, la cultura
+libre se siente, no se toca, sobrevive en las personas, no en CDs, se
+mueve, está viva, evoluciona.
+manje/Manuel Jesús Román Estrade: editor de barrapunto.com y www.musicalibre.info
+www.manje.net
+90
+
+THE SLEEVE
+I was sitting in the train. A man sat across from me, took off his
+jacket and started reading the book.
+He had no luggage.
+
+He was in his 40ies, interesting looking. Kind of a face you can’t
+relate clearly to a country or a continent. This South American/
+Asian/East European/Eskimo non-type.
+He wore a black hat. His hear was short, but long enough to notice greys breaking through and accelerating.
+Two days beard.
+We travelled for a while with the sound of wheels rhythmically
+hitting the rails. The rest was silence.
+I looked at the book he was reading.
+It was fairly big book.
+On the front of the cover was the black and white photo. A portrait of a seemingly bold man with the tattoo on his head and
+wearing sun-glasses. Tattoo said “hair” in slightly childlike handwriting.
+I found myself reading the text on the back cover of his book.
+He looked at me, stood up and asked softly: “Can you look after
+my jacket for a moment?”
+I nodded, and he left, taking the book with him.
+
+91
+
+He was away for a while.
+“Toilet reader type”, I thought.
+Finally he returned, mumbled thanx, put something
+into the pocket of his jacket, sat down and opened his book.
+I noticed that he was freshly shaven.
+And the hair on his head was gone as well.
+The man was not toilet reader, he was toilet shaver!
+I went back to reading back cover of his book.
+Suddenly I giggled.
+On the back cover of his book there was a new story.
+I giggled again.
+He looked at me and smiled.
+I smiled back and we both settled back into our reading.
+Things were somehow rolling.
+He closed his book and put it on the table by the window.
+And he said: “Wanna take a look at the book?”
+I did not react at first, and then I smiled and said, “Ok”.
+He handed it to me. Then he smiled (again) and left in the same
+direction as before.
+“What are you going to shave now, pal?” I thought.
+I sat there alone for a while with the book in my hands. Finally I
+put the book in my lap, opened my bag and had a slow sip of
+fruit juice.
+Then my pussy moved.
+Just pulsated once.
+I shivered slightly, feeling my hairs erecting on the back of my neck.
+
+92
+
+LA PORTADA
+Iba en el tren y un hombre se me sentó en frente. Se quitó la chaqueta y empezó a leer el libro. No llevaba equipaje.
+
+Tenía unos 40 años y aspecto interesante. Una cara que no puedes
+relacionar claramente con un país o un continente. La cara que no
+es sudamericana/asiática/de europa del este/esquimal. Llevaba un
+sombrero negro. Tenía el pelo corto, aunque se podían ver las canas asomando y abriéndose paso. Barba de dos días.
+Viajamos un buen rato con el sonido de las ruedas golpeando rítmicamente las vías. El resto era silencio.
+Me fijé en el libro que estaba leyendo.
+Era un libro bastante grande.
+En la portada había una foto en blanco y negro. Un retrato de un
+hombre de aspecto llamativo, con gafas de sol y un tatuaje en la
+cabeza. El tatuaje decía “pelo” en una letra ligeramente infantil. Me
+vi leyendo el texto de la contraportada de su libro.
+Me miró, se levantó y me preguntó con voz suave: “¿Puedes vigilarme un momento la chaqueta?”
+Asentí y se fue, llevándose el libro con él.
+
+Estuvo ausente un buen rato.
+"El típico que lee en el váter", pensé.
+93
+
+Finalmente regresó, masculló un “gracias”, metió algo en el bolsillo
+de su chaqueta, se sentó y abrió el libro.
+Me di cuenta de que se acababa de afeitar. Y el pelo de la cabeza
+también había desaparecido. El hombre no había ido al baño a leer.
+¡Había ido a afeitarse!
+Volví a leer la contraportada de su libro. De repente me entró la risa
+tonta .
+En la contraportada de su libro había una nueva historia.
+Volví a reír.
+Me miró y sonrió.
+Le devolví la sonrisa y los dos volvimos a la lectura.
+De algún modo, las cosas empezaban a rodar.
+Cerró el libro y lo puso en la mesita cerca de la ventana. Dijo:
+“¿Quieres echar un vistazo al libro?” Al principio no reaccioné, pero
+luego sonreí y dije: “Vale”.
+Me lo dio. Luego sonrió (otra vez) y se marchó en la misma dirección que antes.
+"¿Y ahora qué te vas a afeitar, amigo?", pensé.
+Me quedé sola un rato con el libro en las manos. Finalmente, lo puse en mi regazo, abrí el bolso y le di un sorbo largo a un zumo de
+frutas.
+Entonces el coño se me movió.
+Palpitó sólo una vez.
+Me estremecí ligeramente y sentí cómo se me erizaban los pelos de
+la nuca .
+
+Duro Toomato es un bronceado caballero de los Balcanes absolutamente falto de modales. Puede escribir historias de una frase, pero le cuesta horas contar una.
+http://www.starwingartists.com
+94
+
+FREEDOM OF IDENTITY
+There is no free culture without freedom of identity, as autonomous spaces are necessary for creative agency to happen out of
+any imposed control scheme.
+We believe that current governmental efforts of biometric control
+by governments, private data mining operated by companies and
+public schools watching over students activity, profiling programs
+that are targeting people worldwide are a crime against humanity.
+Each of those efforts are not taking into careful consideration what
+can be done when dictatorial regimes take control of such
+systems, in fact this already happened as half a century ago when
+the first action of the Nazi was numbering people and labelling
+them with a symbol marking their biological ethnicities (as biometry can nowadays).
+Conscious of the lack of responsibility of current governments
+worldwide, our generation is called to oppose with all means necessary their efforts to number and control all people in the name
+of a safe and unreachable security that cannot be enforced by
+such means.
+Nowadays hackers we are well conscious of information flows
+and how several leaks in the digital domain are actually disclosing
+personal information of large amounts of people worldwide. We
+do believe that people shouldn't be numbered and included in
+databases, that's probably what still differentiates governments
+from operating systems merely suppressing the processes that
+aren't optimised for their tasks.
+(Excerpt from "Weaver Birds", dyne.org)
+
+LIBERTAD DE IDENTIDAD
+No hay cultura libre sin libertad de identidad, ya que son necesarios
+espacios autónomos para que la creatividad aflore sin ninguna estrategia impuesta de control.
+Creemos que los esfuerzos actuales de los gobiernos por el control
+biométrico, la recopilación de datos privados por parte de empresas
+y la vigilancia de las actividades de los alumnos en los colegios públicos son un crimen contra la humanidad.
+95
+
+Todas estas iniciativas no están teniendo en consideración qué puede
+pasar cuando los regímenes dictatoriales se hagan con el control de
+dichos sistemas, como cuando, hace medio siglo, la primera acción
+de los nazis fue numerar a la gente y etiquetarla con un símbolo que
+indicaba su etnicidad biológica (como hace la biométrica hoy en día).
+Consciente de la falta de responsabilidad de los gobiernos actuales
+de todo el mundo, nuestra generación está llamada a oponerse con
+todos los medios necesarios a sus esfuerzos por numerar y controlarnos en aras de una seguridad inalcanzable que no puede conseguirse con dichas medidas.
+Hoy en día, los hackers somos muy conscientes de los flujos de información y de cómo varias fugas en el ámbito digital están dejando
+al descubierto información personal de gran número de personas en
+todo el mundo. Creemos que nadie debería ser numerado e incluido
+en bases de datos. Eso, probablemente, es lo que aún diferencia a
+los gobiernos de los sistemas operativos, que suprimen los procesos
+que no están optimizados para sus tareas.
+
+Jaromil: se le conoce también con el nombre de Rasta Code, es un programador de software libre, artista de los media y activista.
+http://jaromil.dyne.org
+
+96
+
+NO SOY PIRATA
+COMPARTIR - Toma un poco más de mi sopa Zacarías, aún tienes hambre. - No gracias abuelo, ya estoy lleno. El abuelo mira a
+su nieto con ternura, como si fuera la primera vez que lo ve. Sabe que sigue con hambre, pero Zacarías ama a su abuelo y lo sabe débil. Tiene que cuidar de él. Hace frio y la hoguera se está
+apagando. La noche gana terreno al día. - Abuelo...- comienza a
+decir Zacarías. - Dime Zacarías.- El viejo sonríe, pero en sus ojos
+hay una tristeza insondable. Las arrugas de los últimos años de
+privaciones dibujan un rostro amable, pero ajado. Está consumido y enfermo. Le quedan pocos meses de vida, tal vez apenas semanas. Tiene que dejar a su nieto al cuidado de alguien antes de
+irse. Le tiene que contar porqué el mundo es como es hoy en día. Me dijiste que me contarías qué le pasó al mundo... - Sí, ya es la
+hora. - Sus ojos se pierden en el infinito de sus recuerdos.- Ya es
+hora de contarle lo que pasó: “Fue hace unos cincuenta años,
+cuando la tecnología parecía que podría arreglar muchos de los
+problemas del mundo. Se inventó eso que te expliqué: Internet.
+Ese sistema permitía que la gente escribiera, compartiera, creara
+y se comunicara con otras personas sin barreras. Parecía que todo era posible. Por fin la cultura de la humanidad y todo su conocimiento podría ser difundido sin límites ni escusas. Eso no
+gustó a los dueños del mundo y los políticos a su servicio. Celosos de que la ciudadanía empezara a pensar por si sóla y no se
+dejase manipular al adquirir pensamiento crítico, que la gente viera que las diferencias que nos separan no son más fuertes que lo
+que nos une, tuvieron miedo de perder su poder basado en el miedo al otro. Así que se aliaron entre ellos para someternos. Decidieron que la palabra “compartir” era una palabra maldita,
+sinónimo de crimen. Gastaron miles de millones para lograr que
+la gente se lo creyera. Esa palabra fue la primera, luego fueron
+muchas más. Sin embargo la situación se fue descontrolando. Muchos habíamos probado el sabor la la libertad y decidimos que
+había que luchar desde la palabra y la razón. Los poderosos vieron que gente sin dinero ni poder influían sobre miles, sobre millones e hicieron lo único que sabían hacer... provocaron una
+guerra tras otra para enriquecerse y mantener a la gente aterrorizada. Aprobaron leyes absurdas y mintieron. Anularon la propia
+esencia del ser humano que anhela compartir... pero un día todo
+97
+
+se les escapó de su control. Así fue que llegó la última Guerra. La
+guerra del fanatismo, el odio, ... la sinrazon... Las bombas nucleares pudieron por fin usarse. Murieron casi todos. Miles de millones. Todo desapareció. Sólo quedamos unos pocos humanos
+dispersos, enfermos y errantes. Los pocos poderosos que quedaron se encerraron en sus fortalezas. Poco a poco fueron muriendo aferrados a un poder que ya no existía. Toda su riqueza no
+les salvó de la muerte. Ahora ya no queda nada de todo aquello.
+Todo el conocimiento humano ha desaparecido. Sólo queda nuestra memoria y restos de papel carbonizado.” El viejo termina de
+contar su historia y tras un breve instante sonríe. Sus ojos vuelven a brillar durante un minuto como lo hicieron antaño cuando
+dejó de tener miedo. - ¿Porqué sonríes abuelo? Lo que me cuentas es muy triste. - Mira Zacarías, hijo, sonrío porque la palabra
+que te voy a decir es la mayor esperanza que nos queda mientras
+haya personas con vida, lo que puede hacer que la humanidad se
+salve y pueda volver a empezar sin cometer los viejos errores de
+antes de La Guerra. Los poderosos no lograron que la olvidaramos del todo. Esa palabra es compartir. Nunca olvides esa palabra hagas lo hagas, vayas a donde vayas. Que la palabra
+compartir no muera nunca. Que jamás vuelva a ser proscrita. Que
+compartir sea la palabra que nos salve de la codicia, el miedo y el
+terror que nos dejamos imponer sin atrevernos a plantar cara desde el principio. Compartir o no compartir. Esa, hijo mío... es la verdadera cuestión.
+
+Nosoypirata.com: es una iniciativa que surgió hace unos tres años con el objetivo de informar a la gente y denunciar las manipulaciones a la que nos sometían los defensores del
+copyright a ultranza. Con una línea editorial lo más neutra posible hemos conseguido hacer
+llegar nuestro mensaje a muchas personas, convirtiéndonos en web de referencia para el
+movimiento activista y las personas preocupadas por los insultos sistemáticos a los que han
+sido sometidos por ciertos actores del grupo de presión del copyright. Formada por un reducido número de internautas activistas no hemos buscado protagonismo alguno, y sólo
+nos mueve el informar y desenmascarar la mentira diaria de una industria y una clase política que se posiciona contra la ciudadanía y las nuevas tecnologías.
+www.nosoypirata.com
+
+Para este texto licencia CC by-sa
+98
+
+RETRATO DEL COPYFIGHTER CACHORRO
+Corría el año 96 o 97, y yo estaba trabajando en el aeropuerto de
+Buenos Aires. Un trabajo horrible, no me gustaba nada.
+Pero ese día era diferente: iba a conocer a Ray Bradbury. Bradbury venía a la Feria del Libro a presentar su última obra. El único
+misticismo que me permití como adolescente nihilista me atacaba otra vez, descontrolado, me imaginaba a Bradbury en una aureola un poco anaranjada-desértica que me hablaba desde arriba
+como levitando, o me transmitía conocimiento así con la mano sin
+hablar.
+Yo me sentía rara siendo groupie de un señor tan tranquilo, y aquí
+estoy, doce años después, teniendo flashbacks de cuentos y novelas del viejo Ray, sintiéndome una alienada que juega con la tele, o un loco en el bosque que se sabe un libro de memoria.
+Hoy viene ese que querías conocer, el escritor." A mí me resultaba un poco raro conocerlo, uno de esos escritores que aparecen
+en las librerías pero no en la calle ni en las noticias, y que de todas maneras cuando te los encuentras hablan en un idioma que
+no conoces porque los lees en castellano. Tan lejos y tan cerca.
+Qué le iba a decir? ¿Me llevo el diccionario? Seguramente son cinco segundos. ¿Le pido un autógrafo? Todo eran dudas.
+Al final llega la hora. Yo comienzo a sentirme en una aventura. Todo el decorado satura el naranja, no porque esté Ray Bradbury sino porque estamos en un aeropuerto latinoamericano de los
+sesenta. Si estuviera más al norte, los paneles serían verdes.
+Y ahí lo ví, sentado en un sofá, cuando entro mira hacia la puerta.
+Al parecer está esperando algo y no está muy entretenido. Su señora está al lado.
+Es más bajito y regordete de lo que lo imaginaba. Tiene unas gafas de culo de botella en tono blanco, no verde, muy llamativas y
+de diseño agradable. La señora es delgadita y sonriente, como
+una mantis si las mantis fueran buen rollo. Yo me pongo nerviosa,
+muchos personajes de Ray me saludan ahora mismo y yo quisiera contarle cómo me ha afectado su literatura a lo largo de la vida, que ha sido una herramienta para entenderme y resolver
+dudas. Pero claro, no le digo nada de eso.
+En un inglés muy básico le digo que cada vez que me acerco a algo desconocido lo hago con curiosidad y no con miedo o con rabia, y eso se lo debo a él, y que muchas gracias.
+99
+
+Él me pregunta cual es mi favorito: "Farenheit 451, I would have
+been on the forest too". Él sonríe y asiente. "God bless you".
+La conversación se acaba en ese momento y Ray, para facilitarla, se ofrece a firmar el libro que tenía en la mano. "Bueno, este libro no es tuyo, es un libro que estaba leyendo ahora, pero por
+favor firmalo". Es un libro de Alan Watts sobre religiones comparadas. Watts había fallecido un tiempo antes. Bradbury se eociona: "Pero Alan Watts era mi amigo, claro que puedo firmar este
+libro!". Y me escribe una dedicatoria "de un amigo de Alan Watts".
+De un amigo de Alan Watts. Yo no creo en el cielo, pero la verdad
+me hubiera gustado que en el monitor del Alan Watts en el cielo
+saliera un cartelito diciendo "Tierra. Buenos Aires. Ray Bradbury
+firma dedicatoria en un libro tuyo. Manda besos." ¿Sino, para qué
+vas a escribir un libro?
+
+Tatiana de la O: hacker multimedia con gran experiencia en herramientas tecnopolíticas
+dentro y para los movimientos sociales. ha colaborado con iniciativas como con indymedia estrecho y riereta.net. Es la mitad de “nerd files”, programa de radio por Internet para
+obsesos y obsesas del software libre. Especialista en video por Internet, ha trabajado y colaborado con diversas iniciativas de P2P TV como josst (www.joost.com) o miro (www.miro.com).
+http://delcorp.org/abbadingo/
+
+Este texto lleva licencia GPL3
+
+100
+
+LA AVARICIA ROMPE EL SACO
+de eXgae
+
+por Simona Levi, Josian Llorente, Marc Sempere,
+Juan Ramón Pinto, Elena Fraj, AnaMaria Méndez
+y gracias a las aportaciones de la red
+
+English version:
+http://exgae.net/exgae-multiply-and-share-forth/7-solutionsfacts-plus-one
+
+101
+
+102
+
+Este manifiesto se hizo público en julio de 2008. Circuló en cientos de foros y se envió a 287 políticos…
+LA AVARICIA ROMPE EL SACO
+POR UNA CULTURA LIBRE DE CIUDADANOS QUE
+COMPARTAN:
+7 soluciones/realidades más una.
+Una respuesta ciudadana a los últimos ataques a las libertades fundamentales perpetrados en nombre del incongruente
+concepto de "Propiedad Intelectual".
+En estas fechas hemos asistido a varios ataque a las libertades
+en nombre de la "propiedad intelectual". También hemos tenido la ocasión de leer el manifiesto (http://www.sgae.es/recursos/documentacion/Manifiesto_Derechos_para_todos_en_Intern
+et.pdf) que ha perpetrado una autodenominada Coalición de
+Creadores e Industria de Contenidos ( que agrupa a cinco de las
+principales entidades de gestión de derechos y corporaciones
+de la industria cultural - SGAE (autores), Egeda (producción audiovisual), Promusicae (productores musicales), Adivan-Adican
+(distribuidores e importadores videográficos) y FAP (propiedad
+intelectual) - que a su vez agrupan el lobby en España de las
+grandes productoras y distribuidoras de cine norteamericanas:
+Disney, Universal, Paramount, Sony Pictures, Fox y Warner) y
+las declaraciones de sus portavoces sobre la supuesta agresión
+a la cultura que suponen las redes de intercambio de archivos
+o redes P2P.
+Los que escribimos a continuación somos am@s de casa, empresari@s, internautas, abogad@s, jueces, “ilustres” intelectuales, programadores, parad@s, profesionales, científic@s, artistas,
+artesan@s, trabajadores, abuel@s, adolescentes, ciudadan@s
+en general, somos unos de los millones de personas que utilizan estas redes en el estado español. Queremos aprovechar la
+ocasión para dejar claras algunas cosas que, con grandísima
+mala fe, se quieren tergiversar:
+
+103
+
+La que propone “la Coalición” y similares es una partida con las
+cartas marcadas y sus posiciones no son sino el farol de una
+industria que intenta ganar el juego en el último momento cambiando las reglas del mismo.
+El problema fundamental es que lo que nos estamos jugando no
+son simplemente los dividendos económicos, sino la propia concepción de la cultura y el derecho al acceso a la información (que
+nos ha costado unos cuantos cientos de años conseguir).
+
+CUANDO DIJE CULTURA ....
+Hablamos de cartas marcadas porque en el discurso mediático
+esta “Coalición” y la industria cultural en general utiliza “cultura”
+y “creación” de forma interesada, intentando redefinir dichos
+conceptos para beneficio propio y para sus intereses estrictamente económicos.
+Cuando dicen “cultura” se refieren simplemente a “Industria del
+entretenimiento”. Cuando dicen “creación cultural” en realidad
+están hablando de “explotación comercial de ciertos derechos
+de autor de sus afiliados”, en pocas palabras están hablando
+de sus negocios. Cuando dicen “piratas”, “saqueadores”, “expolio” se están refiriendo a todos y todas nosotras.
+Sólo la reducción interesada de los conceptos puede propiciar
+tales afirmaciones.
+Modificar las leyes de propiedad intelectual de acuerdo a esas
+tergiversaciones sería algo así (y perdonad lo triste de la comparación) como modificar la Ley de Costas en beneficio de un
+grupo de promotores inmobiliarios. La cultura y la playa son de
+todos y las crisis en sus respectivas industrias no deben hacernos perder el horizonte de la importancia del patrimonio común.
+
+104
+
+Y SIN EMBARGO SE MUEVE...
+Un fenómeno social de tal magnitud y envergadura (13 millones
+de hogares y 70 % de los internautas, es decir la mayoría absoluta de la población) no puede ser interpretado de una manera tan simplista y menos intentando concienciar a la sociedad
+de sus “malas prácticas” utilizando el miedo, la difamación, las
+amenazas y, como pretenden en su nueva campaña, la modificación de las leyes para tener tribunales a medida.
+En España tenemos un caso flagrante de una institución privada
+que consiguió imponer su forma de entender a la sociedad. Se
+llamaba Inquisición y consiguió imponer sus intereses durante
+siglos a costa de quema de libros, prohibición de la ciencia y
+condena a muerte de miles de personas.
+También consiguió retrasar unos cuantos siglos la evolución cultural y tecnológica de Occidente. Eso sí, durante ese tiempo la
+definición de cultura (cultura=religión) no tuvo ninguna discusión.
+Pero dejemos atrás comparaciones de otros siglos. Volvamos a
+la era presente, a la sociedad de la información.
+
+LA SOCIEDAD DE LA INFORMACIÓN
+La sociedad de la información, como veremos más adelante, no
+tiene ninguna posibilidad de existir con la reforma que “la Coalición” y la industria cultural en general están proponiendo. De
+hecho desaparecería en favor de una "sociedad de la industria
+del entretenimiento".
+La era digital facilita a todas las personas, como nunca antes
+había sucedido, la libre circulación del conocimiento y multiplica
+las posibilidades de aprendizaje y creación, en beneficio de toda
+la humanidad.
+Los tiempos han cambiado, todos los ciudadanos deben poder
+105
+
+beneficiarse de todas las ventajas que ofrece la Red de Redes
+a nivel del intercambio horizontal de información y cultura. Los
+medios de producción cultural deben adaptarse a esta nueva
+democracia y no al revés. La copia y sus beneficios están en la
+base de todo esto.
+LA CULTURA: IMITACIÓN Y COPIA
+¿Por qué demonizan la copia cuando es la materia de la que
+está hecho el aprendizaje?
+No vivimos aislados, vivimos en red, en continua comunicación;
+desde que nacemos y somos socializados absorbemos continuamente conocimientos imitando, copiando y sampleando. No
+hay otra manera de hacerlo. El conocimiento se da por la imitación y la copia.
+Así se constituye nuestro imaginario cultural, en el cual nos inspiramos y permite la creación de nuevas ideas, obras de arte,
+teorías, etc. Toda creación cultural, toda ampliación del conocimiento se basa en esta tradición recibida, de manera que ninguna creación es completamente original ni sería posible sin la
+existencia de este patrimonio colectivo.
+Bien lo saben las grandes multinacionales de la cultura que
+desde siempre se han enriquecido rentabilizando cuentos y músicas populares que han saqueado de nuestro patrimonio
+común o de la creatividad de las personas que crean por el simple hecho de comunicarse y de contar.
+En la era digital y de la comunicación, “lo digital” son nuestros recuerdos compartidos y la comunicación, las redes que los conectan.
+“Lo digital” es la materia de lo que está hecha nuestra memoria
+contemporánea.
+Querer lucrarse ávidamente de lo que es nuestra forma natural
+de aprender –copiar– en el momento de su mayor florecimiento,
+esto sí es un saqueo.
+106
+
+Muchos comparan este cambio tecnológico con la invención de
+la imprenta, herramienta que revolucionó la difusión de la cultura
+gracias a su capacidad de copiado, más rápido y fidedigno al
+original que el que pudiera realizar el copista más estimado de
+la época. La utilización de la imprenta extrajo de los monasterios los libros que sólo estaban al alcance de una élite privilegiada, a pesar de la poderosa oposición de unos pocos,
+movidos por sus intereses particulares. Es cierto que los copistas se quedaron sin su trabajo y debieron dedicarse a otra cosa
+pero, ¿quien sería capaz hoy de prohibir la imprenta?
+Algo similar sucede en la era digital. Las nuevas herramientas
+benefician incluso a la industria del entretenimiento, esa pequeña parte de la producción cultural que trata de defender sus
+intereses particulares a costa de los demás. Ellos son hoy esos
+pocos que se oponen a la nueva imprenta, paralizando injustamente el desarrollo de la circulación del conocimiento.
+
+LA PIRATERÍA NO EXISTE, LOS PIRATAS SON LOS PADRES
+Es simplista y tendencioso dividir a la población en los que copian
+y los que compran, cuando todos hacemos ambas cosas a la vez.
+Sería como llamar piratas gastronómicos a los que cocinan sin
+comprar libros de recetas.
+¿Cómo habrá que decirlo?: El hecho de que recopile música por
+Internet y que esto haga de mi un melómano, me provoca
+mucho más interés para acudir a conciertos y para que compre
+los originales de lo que más me ha gustado. Sólo en el delirio insaciable de la industria discográfica se puede pensar que la
+gente deba comprar los miles de discos a los que tienes acceso
+ahora para escoger, cuando decide consumir.
+Es falso decir que compartir nos hará perder el aprecio por los
+creadores y los originales.
+107
+
+¿A caso se ha dejado de vender el Quijote porque sea de dominio público? ¿A caso se ha dejado de vender porque los padres pueden pasar la copia del Quijote que había sido de los
+abuelos a sus hijos?
+¿A caso se dejará de ir a los estrenos de Almodóvar y a conmovernos allí,- los que se conmueven en los estrenos de Almodóvar -? ¿Dejará Almodóvar de ser millonario? Seguramente no.
+¿Algo menos millonario?¿De veras la población entera tiene que
+preocuparse por las fluctuaciones en la fortuna de Almodóvar?
+Sin duda la cultura, como ha sido siempre y siempre será, seguirá produciendo comunidad, emociones y riqueza y también
+inversiones. Seguirá copiándose a sí misma para producir nuevos originales, seguirá convocando a la gente allí donde se manifieste.
+Ahora, en la era digital, seguirá habiendo más y más gente que
+se dedique a la cultura con lo que aprenda directamente de
+otros a través de la red.
+No se pierde el aprecio a los creadores, todo lo contrario, son
+personas más cercanas, son nuestros maestros cotidianos,
+somos nosotros mismos.
+Lo que sí está pasando es que estamos perdiendo el aprecio a
+los intermediarios.
+
+HABLEMOS PUES DE LOS INTERMEDIARIOS: LA (RE)CONVERSIÓN
+La industria cultural hasta hace poco era el principal intermediario entre el artista y su público. Este intermediario ahora es Internet.
+Vivimos el periodo de mayor producción y consumo de medios
+audiovisuales de la historia.
+En mi bolsillo puedo llevar un reproductor de mp3 con miles de
+canciones. A través de MySpace escucho las novedades de los
+108
+
+grupos musicales de cualquier lugar recóndito del mundo.
+¿Quiere esto decir que esté perjudicando la difusión de la cultura?
+Las oportunidades de negocio derivadas del mayor consumo
+audiovisual de la historia son inmensas, pero las reglas del
+juego implican un usuario activo que accede directamente a la
+información prescindiendo del lento y costoso sistema de intermediarios.
+En la era del consumidor-productor, en la que por suerte todo el
+mundo puede acceder fácilmente a la cultura y a sus medios de
+transmisión y producción, la industria cultural tal como la conocemos ahora ha llegado a un callejón sin salida y debe reconvertirse.
+La reconversión de esta industria tiene que ser asumida por las
+mismas empresas de forma – como el mismo nombre indica –
+emprendedora, invirtiendo en las nuevas posibilidades en lugar
+de intentar frenar su desarrollo, sin impedir, como está ocurriendo ahora, la competencia leal y la creación de nuevos puestos de trabajo.
+Tampoco la ciudadanía tenemos que costear – y menos en tiempos de crisis - esta reconversión ni en términos económicos,
+con cánones indiscriminados y de dudosa justificación legal, ni
+paralizando el desarrollo de toda la sociedad, destruyendo su
+ecosistema creativo, en un momento de florecimiento cultural
+jamás vivido antes de ahora.
+LAMENTO DE PLAÑIDERAS: BAJAN LAS VENTAS DE DISCOS
+Puede ser.
+Pero no bajan las posibilidades de emprender y de ganar dinero
+(que al final es lo que les preocupa).
+Un ejemplo: Rodolfo Chiquilicuatre ha ingresado millones de
+euros sin vender un solo disco, gracias sobre todo a la venta de
+politonos y a las millones de visitas a sus vídeos y a las reinter109
+
+pretaciones populares en sitios como Youtube. ¿Hubiera existido un fenómeno como éste sin la existencia de Internet y la
+tecnología móvil? ¿Alguien puede tener el morro de decir que no
+ha generado dinero? ¿Quién ha distribuido principalmente este
+producto sino los consumidores?
+La industria cultural reconvertida seguirá ganando, está claro.
+¿Se están vendiendo menos discos? Sí. También se venden
+menos cassettes.
+Es absurdo que la industria cultural pretenda mantener su negocio tal cual, como si Internet no hubiera sido inventado.
+Es mentira que esté en crisis. Cada año la SGAE tiene un record
+de beneficios histórico. Mientras un lamento de plañideras llora
+por las pérdidas que provocamos los usuarios de Internet por
+algo que en ninguna ley española esta tipificado como delito,
+las entidades de gestión viven su edad de oro.
+Cuando en el TopManta el grupo que nadie conoce esté al lado
+de Madonna será el momento en el que los beneficios de la cultura serán por fin repartidos de forma más justa: Madonna seguirá vendiendo millones de discos y viajando en avión privado
+- quizás algo más pequeño - y el grupo desconocido, que merece que sea reconocido su talento sin pasar por los criterios
+de rentabilidad de ninguna empresa, tendrá la posibilidad de
+crecer y hacerse conocer, tener público en sus conciertos, generando cultura, conocimiento y economía.
+
+EL LUCRO CESANTE ES EL CUENTO DE LA LECHERA (y la
+cultura es la leche)
+Lo digital es la memoria de la época en la que vivimos. Si compro un disco, un libro o veo la emisión pública de un producto
+de consumo tengo todo el derecho del mundo a copiarlo de
+110
+
+forma privada y sin ánimo de lucro económico y a compartirlo.
+Sería absurdo e imposible que después de ir al cine, pretendiera
+olvidar los recuerdos de la película que acabamos de ver. Más
+absurdo sería tener que pagar cada vez que la contamos. Atacar la copia digital es como impedir contar recuerdos, impedir
+que se replique lo escuchado, impedir prestar un libro a un
+amigo o impedir tararear una canción. Es, en definitiva, prohibir
+la comunicación en la era de la comunicación. Curioso, ¿no?
+Una de las piedras angulares del lamento de plañideras de la
+industria es el concepto de lucro cesante. La teoría es la siguiente: si descargo una canción no estoy comprándola, luego
+existe un ingreso que deja de producirse que se denomina lucro
+cesante.
+Hagamos números:
+He comprado (sí, comprado) un reproductor mp3 con capacidad para 40.000 canciones. Si tuviera que llenarlo adquiriendo
+los temas musicales a través de una plataforma de venta online, como iTunes, cuyo precio medio es de 1 euro por tema, me
+costaría 40.000 euros. Pero como consumidor responsable, debería comprar los discos completos de mis artistas favoritos a
+través del pequeño comercio, por ejemplo en la FNAC (nota:
+esto es un chiste, el pequeño comercio musical cerró hace 20
+años). Un disco novedad tiene un precio aproximado de 22
+euros, lo que supondría un desembolso de 88.000 euros, unos
+15 millones de las antiguas pesetas.
+Descubrimos aterrados que el objeto de mayor valor que tenemos es el contenido de nuestro mp3, y dejamos de dormir,
+asustados, pensando en hordas de ladrones que podrían robar
+nuestro preciado tesoro. Pero todo esto no es más que de una
+mentira o, mejor dicho, una ensoñación: la de la lechera que con
+el cántaro en la cabeza va calculando los beneficios de su negocio antes de venderlo en el mercado. Los cálculos de la industria cultural y de las entidades de gestión son absurdos,
+111
+
+simplistas y malintencionados. Si fueran realistas, tendríamos
+fortunas en el bolsillo, seríamos mileuristas millonarios que en
+unos cuantos bits almacenamos todo y nada.
+Una de las leyes básicas de la economía (sobre todo en las materias que no son de primera necesidad) es que el precio de un
+producto es aquel que sus usuarios están dispuestos a pagar.
+Esa avidez desbocada de la industria por extraer beneficios de
+todo lo que se mueve no es consciente de que aplicando sus
+planteamientos restrictivos de gravar económicamente cualquier intercambio, moriría de sed víctima de sus propios deseos.
+En la época en la que vivimos, en lo que sí somos ricos es en
+información y cultura. Tenemos cotas de libertad de expresión
+como nunca antes se había imaginado. Gracias al P2P, podemos llegar a ser millonarios en millones de audiencia a la que
+contar nuestras reflexiones, cantarles una canción o con las
+que escuchar todos juntos el último disco de Amy Winehouse
+para luego escribir algo totalmente diferente. Esta es la riqueza
+social de la que queremos hablar, del tipo de sociedad que
+construye, del tipo de creadores que genera y de los beneficios que produce.
+
+VENDIENDO EL COCHE PARA COMPRAR GASOLINA
+Sirva un ejemplo:
+Tele5 se querella con Youtube porque no está contenta de que
+fragmentos de los programas que emite sean colgados en la red
+por los internautas (algo que, por otra parte, está reconocido
+como “derecho de cita”). ¿De qué no está contenta?.
+¿Quizás de que un programa que ya ha emitido lo replique la
+gente en su memoria - YouTube es una “memoria digital”, un
+archivo colectivo de los usuario, - aportando a Tele5 más y más
+publicidad y audiencia? ¿O se queja del dinero que no ingresa
+cuando la gente vuelve a ver el fragmento sin generarle el be112
+
+neficio que, si no fuera gratuito volver a ver el fragmento, nunca
+se generaría?
+Los usuarios son sus mejores publicistas. Lo hacen bien y gratis. Si Tele5 tuviera que hacer ella misma esta explotación, seguramente no le saldría tan rentable.
+Esta es la obsesión por el lucro cesante: querer vender el coche
+para comprar gasolina.
+
+NUNCA MÁS SIN P2P
+La red, en contra de lo que se intenta aparentar, está llena de autores. Sólo una parte ínfima de ellos tiene alguna relación con la
+industria cultural.
+Si se criminalizan las redes P2P perdemos todos: perdemos en
+libertad, perdemos en privacidad (no es ciencia ficción: recientemente YouTube ha sido condenado a revelar las identidades
+de millones de sus usuarios para proteger los beneficios “cesantes” de la multinacional Viacom), perdemos en riqueza y en
+libertad de expresión. Lo sabe todo el mundo. ¿por qué hay que
+seguir repitiéndolo?¿Qué intereses se están defendiendo?
+Los que pretenden aplicar el modelo Sarkozy que criminaliza
+compartir archivos en la red (P2P), ni tienen en cuenta a los
+miles de autores que licencian su obras con licencias libres ni
+tienen en cuenta la privacidad de todos los usuarios en la red ni
+los beneficios para la democracia que conlleva la ruptura del
+control sobre la información. Es decir, la mayor herramienta de
+comunicación que ha creado el ser humano, la biblioteca de
+Babel siempre soñada, puede pasar a ser la mayor forma de
+control social nunca creada.
+Al restringir las redes P2P no se está defendiendo a unos pobres
+autores millonarios y a la desvalida industria del entretenimiento,
+sino limitando, fragmentando y aduanizando la herramienta que
+ha cambiado la manera de entender el mundo.
+113
+
+¿De verdad queremos seguir el ejemplo de Pakistán, China,
+Francia o Sudán?
+¿Queremos vivir en un país donde los gobernantes tienen miedos a sus ciudadanos?
+¿Consentiremos que Micky Mouse condicione el futuro del conocimiento y la cultura?
+Por todo esto PEDIMOS:
+7 medidas necesarias y urgentes para proteger e impulsar la sociedad del conocimiento en beneficio de todos (todos de verdad):
+1. Considerar cualquier recorte a las redes de intercambio de
+archivos (redes P2P) como un acto de oscurantismo y un atentado contra los derechos democráticos fundamentales garantizados por nuestra constitución y por innumerables tratados
+internacionales que el estado español ha ratificado. Nuestros
+derechos al conocimiento, al aprendizaje, al acceso a la cultura
+y a la libertad de expresión se verían gravemente socavados si
+se limitaran las herramientas de las que dispone actualmente la
+sociedad.
+2. Que las entidades de gestión pasen a ser lo que son: entidades privadas que gestionan SÓLO Y EXCLUSIVAMENTE las
+“cuentas” de sus socios o sea los derechos de explotación de
+una parte de los artistas. Que, como toda entidad privada, se
+permita la libre competencia y que bajo ningún concepto se
+consienta que entidades privadas hurguen en la privacidad y en
+los bolsillos de los ciudadanos y menos que se utilicen bienes
+y suelo público para sus beneficios privados (véase entre miles
+el ejemplo de la Torre de la Música de Valencia). Que autores y
+editores no sean representados por la misma entidad como a
+los tiempos del sindicado vertical, que todos los socios pueden
+votar, claro está, y sobre todo que las entidades de gestión gestionen únicamente las creaciones registradas, permitiendo así
+el uso de licencias libres.
+3. Siendo las royalties al fin y al cabo un asunto entre editores,
+114
+
+productores y autores, que los creadores sean pagados de
+forma equitativa sean o no socios de entidades de gestión. Que
+los artistas cobren, si así lo desean, principalmente por su creación y no por la explotación que genera.
+4. Abolición inmediata del canon digital, extraño diezmo que
+sanciona indiscriminadamente a la ciudadanía en nombre de la
+“compensación a la creación" intentando penalizar una conducta que no es en ningún caso delictiva. Los beneficios de está
+recaudación además pasan a manos de unas pocas personas
+privadas que raras veces son creadores y menos de algo relacionado con el mundo de la cultura.Insinuar “delitos” donde no
+los hay y luego cobrar a los “sospechosos” es propio de las dictaduras.
+5. Que una obra pase a ser de Dominio Público en unos plazos
+beneficiosos para la creación y la sociedad. Permitir que más
+de una generación viva del trabajo de alguien, es un forma de fomentar el parasitismo y el estancamiento creativo, desactivando
+la reinversión y más considerando que una medida pensada
+para favorecer a las personas en realidad beneficia principalmente grandes multinacionales que desvirtúan la creación primigenia. Pedimos el paso al dominio público en un periodo
+tiempo razonable, dependiendo del tipo de creación, con un
+máximo de 30 años.
+6. Defender el “derecho a cita” como vehículo de crecimiento
+democrático de la sociedad de la información.
+7. Eliminar el concepto de “lucro cesante” en todo lo que concierne a la producción cultural.
+
+Y una cosa más:
+Porque la cultura libre y colaborativa es la Cultura de nuestra
+época, porque es un hecho, porque ya no hay vuelta atrás…
+EXGAE & Conservas presentan:
+
+115
+
+Los premios que barrerán los Oscars, los Grammy,
+los Goya, los Max …
+Los 1º premios internacionales de Cultura libre de
+la era digital…
+Los 1º premios no competitivos de la historia de la cultura…
+
+Los premios
+OXCARS 2008
+UNA EVIDENCIA
+
+7 horas non-stop de cultura compartida
+UN GRAN ESPECTÁCULO
+
+116
+
+Índice
+Licencia
+Richard Stallman
+Alqua (castellano, català, english)
+Xavier Theros
+Josianito
+Javier Candeira
+Zemos98
+Juan Freire
+Miguel Brieva
+Álvaro Porro-Opcions
+Franco Berardi, “Bifo”
+(italiano, castellano)
+
+Teresa Malina Torrent
+Dmytri Keiner (english, castellano)
+Vacuum cleaner
+Javier Cuchí
+Emmanuel Rodríguez
+Rogelio López Cuenca
+Universidad Nómada
+John Jordan (english, castellano)
+Manuel M. Almeida
+Ana Mª Méndez
+Arturo Quirantes Sierra
+Pepe Rovira
+Ignasi Labastida i Juan
+(català, castellano)
+
+2
+3
+7
+9
+10
+12
+15
+16
+18
+20
+21
+24
+25
+30
+33
+36
+38
+40
+43
+46
+48
+49
+51
+52
+
+Juan Ramon Pinto/
+Miscelanea superior
+My Dads Strip Club
+
+53
+
+(english, castellano)
+56
+Fundación Rodríguez
+58
+Pau Ros
+60
+David Maeztu
+61
+Jorge Cortell
+63
+Hamlab/Patio Maravillas 65
+Cristóbal Cobo/
+Hugo Pardo Kuklinsk
+67
+Compartir dóna gustet
+69
+71
+straddle3 (castellano, english)
+Federico Guzmán
+77
+Carlos Sánchez Almeida 81
+Mercè Molist Ferrer
+84
+Carlos Sues
+86
+manje/Manuel Jesús
+Román Estrade
+88
+Duro Toomato (english, castellano) 89
+Jaromil (english, castellano)
+93
+Nosoypirata.com
+95
+Tatiana de la O
+97
+
+LA AVARICIA ROMPE
+EL SACO de eXgae
+
+99
+
+117
+
+

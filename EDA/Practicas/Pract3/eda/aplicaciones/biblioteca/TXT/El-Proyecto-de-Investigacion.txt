@@ -1,0 +1,4979 @@
+El Proyecto
+
+de Investigación
+
+Introducción a la metodología científica
+
+Fidias G. Arias
+
+El Proyecto
+
+de Investigación
+Introducción a la metodología científica
+6ª Edición
+
+Editorial Episteme
+
+Derechos reservados
+© 2012 EDITORIAL EPISTEME, C.A.
+Caracas - República Bolivariana de Venezuela
+Primera edición: Marzo de 1997
+Segunda edición ampliada y corregida: Octubre de 1997
+Tercera edición revisada: Abril de 1999
+Cuarta edición actualizada: Enero de 2004
+Quinta edición ampliada y corregida: Febrero de 2006
+Sexta edición ampliada y corregida: Julio de 2012
+ISBN: 980-07-8529-9
+Depósito Legal: If 52620020012541
+Diagramación: Dayanian Rengifo
+Impresión: Suplidora Van, C.A.
+
+Contacto con el autor:
+fidias20@hotmail.com
+	
+	
+
+Í NDICE
+
+INTRODUCCIÓN
+
+9
+
+PARTE I: INTRODUCCIÓN A LA METODOLOGÍA DE LA
+INVESTIGACIÓN CIENTÍFICA
+CAPÍTULO 1: CONOCIMIENTO Y CIENCIA
+1.1. Concepto de conocimiento
+1.2. Tipos de conocimiento
+1.3. Concepto de ciencia
+1.4. Clasificación de la ciencia
+1.5. El método científico
+
+11
+
+CAPÍTULO 2: LA INVESTIGACIÓN CIENTÍFICA
+2.1. Concepto de investigación
+2.2. Niveles y diseños de investigación
+2.3. La investigación documental
+2.4. La investigación de campo
+2.5. La investigación experimental
+
+21
+21
+23
+27
+31
+34
+
+CAPÍTULO 3: EL PROBLEMA DE INVESTIGACIÓN
+3.1. Concepto de problema de investigación
+3.2. Planteamiento y formulación del problema
+3.3. Delimitación del problema
+3.4. Objetivos de investigación
+
+37
+37
+41
+42
+43
+
+13
+13
+14
+17
+18
+18
+
+CAPÍTULO 4: HIPÓTESIS
+4.1. Concepto de hipótesis
+4.2. ¿Para qué sirven y cuándo usar las hipótesis?
+4.3. Tipos de hipótesis
+4.4. ¿Cómo redactar las hipótesis?
+4.5. Relación problema-hipótesis
+
+47
+47
+48
+51
+54
+55
+
+CAPÍTULO 5: VARIABLES, DIMENSIONES E INDICADORES
+5.1. Concepto de variable
+5.2. Tipos de variables
+5.3. Dimensiones e indicadores
+5.4. Operacionalización de variables
+5.5. Niveles de medición de las variables
+
+57
+57
+58
+60
+62
+64
+
+CAPÍTULO 6: TÉCNICAS E INSTRUMENTOS DE
+RECOLECCIÓN DE DATOS
+6.1. Relación entre técnica e instrumento
+6.2. La observación y sus instrumentos
+6.3. La encuesta y sus instrumentos
+6.4. La entrevista y sus instrumentos
+6.5. El cuestionario
+
+67
+
+CAPÍTULO 7: CONCEPTOS BÁSICOS DE MUESTREO
+7.1. Concepto de población
+7.2. Concepto de muestra y tipos de muestreo
+7.3. Fórmulas para calcular el tamaño de la muestra
+
+81
+81
+83
+87
+
+PARTE II: GUÍA PARA LA ELABORACIÓN DE PROYECTOS
+DE INVESTIGACIÓN
+CAPÍTULO 8: PLANIFICACIÓN DE LA INVESTIGACIÓN
+8.1. Etapas del proceso de investigación
+
+91
+
+67
+69
+72
+73
+74
+
+93
+93
+
+8.2. Etapa de planificación de la investigación
+8.3. El anteproyecto de investigación
+8.4. El proyecto de investigación
+8.5. Esquema para el proyecto de investigación
+
+94
+95
+96
+99
+
+CAPÍTULO 9: ELEMENTOS DEL PROYECTO DE
+INVESTIGACIÓN
+9.1. Aspectos preliminares
+9.2. Cuerpo del proyecto
+
+101
+
+CAPÍTULO 10: SISTEMA AUTOR-FECHA:
+NORMAS APA-UPEL
+10.1. Comentarios previos
+10.2. Orientaciones para el uso de citas textuales y de
+referencias
+10.3. Normas para la presentación de la lista de referencias
+10.3.1. Libros
+10.3.2. Artículos
+10.3.3. Trabajos de grado, tesis y trabajos de ascenso
+10.3.4. Documentos de carácter legal
+10.3.5. Fuentes electrónicas
+10.3.6. Otras indicaciones
+10.4. Presentación del proyecto
+10.5. Sistemas de títulos y subtítulos
+
+115
+
+CAPÍTULO 11: EJECUCIÓN O DESARROLLO DEL
+PROYECTO
+REFERENCIAS BIBLIOGRÁFICAS
+APÉNDICE: Instrumento de autoevaluación
+
+135
+
+101
+103
+
+115
+116
+120
+120
+120
+121
+121
+121
+122
+130
+132
+
+141
+143
+
+“El parecido casual entre dos creaciones refleja dos cosas:
+la sencillez de lo creado y la honestidad de los creadores.”
+
+Fidias G. Arias
+
+INTRODUCCIÓN
+“La perfección no existe,
+la excelencia sí.”
+
+Fidias G. Arias
+
+L
+
+a presente obra, galardonada en 2006 con el Premio
+Nacional al Mejor Libro Técnico, se propone, por una
+parte, iniciar a los lectores en el estudio de los conceptos básicos
+sobre la metodología científica, y por otra, ofrecer una guía flexible
+para la elaboración y ejecución de proyectos de investigación.
+En este sentido, el texto se estructura en dos partes:
+Parte I: comprende siete capítulos que constituyen una
+introducción a la Metodología de la Investigación. Éstos incluyen
+contenidos esenciales tales como: concepto de conocimiento,
+ciencia y método científico. Así como también, se presentan
+orientaciones generales sobre operacionalización de variables,
+diseño de instrumentos de recolección de datos y técnicas básicas
+de muestreo.
+Parte II: tiene como intención brindar una guía práctica para
+la elaboración de proyectos de investigación, desde su formulación
+hasta su ejecución o desarrollo. Para ello, se incluyen secciones
+actualizadas sobre las normas de presentación de las citas y
+referencias: impresas, audiovisuales y electrónicas, y además se
+9
+
+incorpora un nuevo capítulo referido a las etapas que implica llevar
+a cabo la investigación proyectada: validación y aplicación del
+instrumento de recolección, análisis de los datos, interpretación y
+discusión de los resultados, y por último, elaboración de conclusiones
+y recomendaciones.
+En síntesis, esta obra combina elementos teóricos y prácticos
+del proceso de investigación científica y se ajusta en gran medida
+a los programas vigentes de Metodología de la Investigación, por
+lo que satisface las necesidades de estudiantes de cualquier nivel.
+Para finalizar, una vez más concluyo la introducción de
+este libro, agradeciendo a quienes han contribuido con mi labor
+académica e intelectual:
+		
+Víctor Álvarez Rodríguez (CIM)
+Luis Bonilla (MPPEU)
+Milagros Hernández (CUC)
+Olivia Andrade (UPEL-1PC)
+Elisa Di Sante (UPEL-IPC)
+Alecia Landaeta (UPEL-IPC)
+Ivethe Hernández (RHEMA)
+Karelia Gamarra (RHEMA)
+Miguel Cartaya (UPEL-EL MÁCARO)
+José Chirinos (UPEL-EL MÁCARO)
+José Ángel Rivero
+	
+También quiero expresar mi mayor reconocimiento a
+los profesores:
+Víctor Morles
+Carlos Sabino
+
+Fidias G. Arias
+Caracas, julio de 2012
+	
+10
+
+Introducción
+
+Parte I
+
+a la
+
+Metodológía de la
+Investigación
+
+‘‘Mientras los hombres sean libres para preguntar lo que deben,
+para decir lo que piensan y para pensar lo que quieran;
+la libertad nunca se perderá y la ciencia nunca retrocederá.’’
+
+Robert Oppenheimer  
+
+Capítulo 1
+Conocimiento, Ciencia
+y Método Científico
+“El conocimiento del mundo se ha
+convertido en una necesidad intelectual y vital”
+
+Edgar Morin
+
+1.1. Concepto de conocimiento
+El conocimiento puede ser entendido en dos direcciones:
+a)  Como un proceso que se manifiesta en el acto de conocer,
+es decir, la percepción de una realidad.
+b)  Como un producto o resultado de dicho proceso, que se
+traduce en conceptos, imágenes y representaciones acerca
+de una realidad.
+Visto como un proceso, el conocimiento implica una
+relación entre dos elementos esenciales: sujeto y objeto.
+Entendido el sujeto como la persona que busca, obtiene o posee
+el conocimiento; y el objeto como el hecho, fenómeno, tema o
+materia que el sujeto estudia. En este sentido:
+Se define el conocimiento como un proceso en el cual
+se relacionan el sujeto que conoce, que percibe mediante
+sus sentidos, y el objeto conocido o percibido.
+13
+
+Cuando el sujeto capta un objeto y se apropia de algunas
+de sus características, se puede afirmar que dicho sujeto conoce,
+en alguna medida, el objeto que ha percibido.
+1.2. Tipos de conocimiento
+En general, se identifican dos tipos básicos de conocimiento:
+el conocimiento vulgar o común y el conocimiento científico.
+1.2.1 Conocimiento vulgar
+El conocimiento vulgar o común es un tipo de saber cotidiano
+que surge de la opinión o de la experiencia particular de los
+individuos. En la mayoría de los casos se adquiere de forma casual
+y no intencional. En consecuencia, es un conocimiento no verificado,
+que se transmite de generación en generación permaneciendo en
+forma de falsa creencia. No obstante, en algunas oportunidades,
+el conocimiento vulgar puede servir de base para la construcción
+del conocimiento científico, debido a que una creencia puede ser
+investigada y posteriormente comprobada.
+1.2.2. Conocimiento científico
+El conocimiento científico es un saber producto de una
+investigación en la que se ha empleado el método científico.
+Tal condición le confiere características que lo hacen verificable,
+objetivo, metódico, sistemático y predictivo (ver cuadro p. 16). Pero,
+además de los atributos mencionados, este tipo de conocimiento
+posee una cualidad muy importante que es la falibilidad o posibilidad
+de incurrir en fallas, errores o equivocaciones.
+Cuando se reconoce esta posibilidad, se acepta también la
+imposibilidad de obtener conclusiones absolutas y definitivas. Por
+lo tanto, el conocimiento científico es un saber provisional, objeto
+de revisión permanente (Sabino, 2002).
+Así mismo, el conocimiento científico es acumulativo, por
+cuanto el saber existente sirve de base para futuras investigaciones
+de las que surgirán nuevos conocimientos que complementarán y
+ampliarán sucesivamente las disciplinas científicas.
+14
+
+Ejemplos de conocimiento vulgar y de conocimiento científico:
+Conocimiento Vulgar
+Conocimiento Científico
+Los mariscos sirven para curar El sildenafil® es un medicamento
+la impotencia.
+probado experimentalmente
+para tratar la impotencia o
+disfunción eréctil.
+La quina, el romero y la cayena El finasteride ® es un fármaco
+sirven para curar la calvicie. probado experimentalmente
+para tratar la calvicie o alopecia.
+La guayaba cura la anemia.
+
+La anemia se caracteriza por
+una deficiencia de hierro
+en la sangre, por lo que se
+trata con una alimentación y
+medicamentos ricos en este
+mineral. Sin embargo, la
+«vitamina C» contenida en
+la guayaba, contribuye a la
+fijación del hierro en la sangre.
+
+Los ejercicios abdominales Sólo los ejercicios aeróbicos y
+“queman” la grasa excesiva cardiovasculares (de moderada
+que se acumula en la cintura. intensidad y larga duración),
+consumen suficientes calorías
+como para reducir la grasa
+corporal de forma integral y no
+de manera localizada.
+
+15
+
+En el siguiente cuadro se resumen las características y
+diferencias entre el conocimiento científico y el vulgar o común.
+CONOCIMIENTO
+CONOCIMIENTO VULGAR
+CIENTÍFICO
+VERIFICABLE
+NO VERIFICABLE
+Puede ser comprobado por
+No soporta comprobación.
+otros.
+OBJETIVO
+SUBJETIVO
+Describe la realidad tal como
+Parte de creencias e impresiones
+es, descartando deseos y
+propias de un sujeto.
+emociones.
+METÓDICO
+Debido a que es producto
+de la aplicación deliberada
+e intencional de una serie
+de pasos y procedimientos
+técnicos.
+SISTEMÁTICO
+Porque los conocimientos se
+relacionan y se complementan.
+EXPLICATIVO
+Busca el porqué de las cosas
+(causas y efectos).
+PREDICTIVO
+Con base en argumentos
+válidos, puede hacer
+proyecciones o prever la
+ocurrencia de determinados
+fenómenos.
+GENERALIZABLE
+Por cuanto establece leyes
+c i e n tí f i c a s c on s ta n te s y
+aplicables a un universo
+
+ESPONTÁNEO
+Porque se adquiere de forma
+casual o accidental.
+
+ASISTEMÁTICO
+Debido a que consiste en ideas
+aisladas.
+DOGMÁTICO
+Por cuanto sus juicios son
+impuestos sin cuestionamiento.
+ESPECULATIVO
+Emite conjeturas sin base o sin
+argumentos válidos.
+
+NO GENERALIZABLE
+Ya que las creencias
+individuales no son
+extensivas a una población.
+
+Cuadro elaborado por el autor con base en el publicado por la UNA (1990).
+
+16
+
+1.3. Concepto de ciencia
+La ciencia es un conjunto de conocimientos
+verificables, sistemáticamente organizados y
+metodológicamente obtenidos, relativos a un
+determinado objeto de estudio o rama del saber.
+Tales conocimientos son:
+Verificables: porque pueden ser comprobados. La afirmación:
+“el agua hierve a una temperatura de 100° centígrados a nivel del
+mar”, puede ser verificada fácilmente utilizando los instrumentos
+adecuados.
+Sistemáticamente organizados: debido a que poseen un
+orden lógico y se relacionan entre sí. Por ejemplo, en matemática,
+los números naturales son elementos necesarios para realizar las
+operaciones de suma, resta, multiplicación o división. Así mismo,
+entre estas operaciones existe una vinculación: la multiplicación
+es una “suma simplificada” y la división “es la operación inversa
+a la multiplicación”.
+Metodológicamente obtenidos: ya que son producto de la
+aplicación de un conjunto sistemático de pasos, conocido como
+método científico.
+1.3.1. Diferencia entre ciencia y tecnología
+La ciencia comprende conocimientos netamente teóricos
+(ciencia básica o pura), o conocimientos prácticos que pueden ser
+empleados a corto plazo (ciencia aplicada). Mientras la ciencia es
+conocimiento, la tecnología es la aplicación de dicho conocimiento.
+La tecnología es la actividad que utiliza los conocimientos
+generados por la ciencia aplicada para satisfacer necesidades
+mediante la producción de bienes y servicios.
+Un ejemplo de tecnología es la desarrollada por la industria
+del calzado deportivo, al utilizar los conocimientos de la física, la
+17
+
+biomecánica y la anatomía, para fabricar zapatos con un ‘‘chip’’
+que regula automáticamente la amortiguación, según el terreno
+y peso del atleta.
+1.4. Clasificación de la ciencia
+Según el objeto de estudio, Bunge (1981), clasifica las ciencias
+en formales y fácticas.
+Las ciencias formales son las que se ocupan del estudio de
+objetos ideales o intangibles, es decir, conceptos que sólo están
+en la mente humana.
+Su método es la deducción y su criterio de verdad es la
+coherencia o no contradicción. Son ciencias formales la matemática,
+la lingüística y la lógica. Esta última estudia el pensamiento, algo
+que no podemos ver ni tocar.
+Por otra parte, las ciencias fácticas son las que se encargan
+del estudio de objetos materiales o tangibles. Utilizan el método
+científico y su criterio de verdad es la verificación. Éstas se dividen
+en ciencias naturales (Física, Química, Biología, etc.) y ciencias
+humanas o culturales (Historia, Sociología, Economía, entre otras).
+1.5. El método científico
+En términos generales, método es la vía o camino que se
+utiliza para llegar a un fin o para lograr un objetivo. Por ejemplo,
+existen métodos de enseñanza, métodos de entrenamiento
+deportivo, métodos de estudio, etc.
+Así mismo, se identifican diversos métodos anticonceptivos:
+la pastilla, el preservativo y el aparato, entre otros. En este caso,
+aunque constituyen vías diferentes, todos persiguen un mismo fin:
+evitar el embarazo.
+En el campo de la investigación, se considera método al modo
+general o manera que se emplea para abordar un problema, y
+aunque resulte redundante, el camino fundamental empleado en
+la investigación científica para obtener conocimiento científico es
+el método científico, que se define a continuación:
+18
+
+	
+El método científico es el conjunto de pasos, técnicas
+y procedimientos que se emplean para formular y resolver
+problemas de investigación mediante la prueba o verificación
+de hipótesis.
+Aun cuando este método no es el único camino para la
+obtención del conocimiento científico, surge como vía flexible
+utilizada por la mayoría de las ciencias fácticas en la actualidad.
+Prácticamente, se le considera como el método general de la ciencia.
+1.5.1. Pasos del método científico
+Previo a la aplicación del método científico debe ocurrir un
+hecho o fenómeno, es decir, cualquier suceso o cambio ocurrido
+en la naturaleza o en la sociedad, que pueda ser percibido y que
+sea de interés para el investigador. Una vez sucedido el hecho, se
+procede con el primer paso.
+1.  Observación: consiste en la percepción del hecho o fenómeno.
+2.  Formulación del problema: se basa en la elaboración de una
+pregunta o interrogación acerca del hecho observado.
+3.  Formulación de hipótesis: radica en la producción de una
+suposición o posible respuesta al problema.
+4.  Verificación: consiste en someter a prueba la hipótesis mediante
+la recolección de datos.
+5.  Análisis: los datos obtenidos son procesados para así determinar
+cuáles confirman o niegan la hipótesis.
+6.  Conclusión: es la respuesta al problema, producto de la
+verificación y del análisis efectuado.
+Es importante señalar que en otros libros de texto pueden
+aparecer más o menos pasos, pero son los antes indicados los
+que constituyen la esencia del método científico.
+19
+
+Ejemplo:
+1º  Un sujeto observa un hecho no común: una aglomeración de
+personas en una vía pública.
+2º  El sujeto pregunta:
+¿A qué se debe tal concentración de personas?
+3º  El sujeto supone que:
+–  La concentración se debe a una protesta (hipótesis A).
+–  La concentración fue causada por un accidente (hipótesis B).
+4º  El sujeto verifica. Para ello se acerca al lugar de la concentración
+y comienza a preguntar a los presentes.
+5º  El sujeto analiza: de la totalidad de las respuestas, la mayoría
+confirma la hipótesis A.
+6º  El individuo concluye que la hipótesis A es la respuesta al
+problema: la concentración fue ocasionada por una protesta.
+
+20
+
+Capítulo 2
+La Investigación Científica
+“Sólo investigando
+se aprende a investigar”
+
+Carlos Sabino
+
+2.1. Concepto de investigación
+Investigación es el concepto fundamental de esta obra y
+para precisarlo se han escogido las siguientes definiciones:
+“Genéricamente, la investigación es una actividad del
+hombre orientada a descubrir algo desconocido.” (Sierra Bravo,
+1991, p.27).
+“Una investigación puede definirse como un esfuerzo que
+se emprende para resolver un problema, claro está, un problema
+de conocimiento.” (Sabino, 2002, p. 34).
+“Se define la investigación como una actividad encaminada a la solución de problemas. Su objetivo consiste
+en hallar respuestas a preguntas mediante el empleo de
+procesos científicos.” (Cervo y Bervian, 1989, p. 41).
+Por consiguiente, la investigación implica:
+a)  El descubrimiento de algún aspecto de la realidad.
+21
+
+b)  La producción de un nuevo conocimiento, el cual puede
+estar dirigido a incrementar los postulados teóricos de una
+determinada ciencia (investigación pura o básica); o puede
+tener una aplicación inmediata en la solución de problemas
+prácticos (investigación aplicada).
+Son actividades distintas a la investigación científica:
+•	  El diseño de un programa instruccional, o de un plan de estudios.
+•	 El desarrollo de sistemas de información.
+•	 Los planes o proyectos de carácter económico, social, o
+tecnológico.
+•	 Las propuestas de cualquier índole. Excepto, lógicamente, las
+propuestas de investigación.
+Sin embargo, en los casos anteriores, la investigación debe
+estar presente cuando se pretende arribar a un diagnóstico de
+necesidades, o cuando el objetivo es probar la efectividad del
+plan, programa o proyecto. En síntesis:
+La investigación científica es un proceso metódico y
+sistemático dirigido a la solución de problemas o preguntas
+científicas, mediante la producción de nuevos conocimientos,
+los cuales constituyen la solución o respuesta a tales
+interrogantes.
+	
+En lo sucesivo, los términos investigación y estudio serán
+considerados como equivalentes.
+	
+En cuanto a los tipos de investigación, existen muchos
+modelos y diversas clasificaciones. No obstante, lo importante
+es precisar los criterios de clasificación.
+En este sentido, se identifican:
+–   Tipos de investigación según el nivel
+–   Tipos de investigación según el diseño
+–   Tipos de investigación según el propósito
+22
+
+Sin embargo, independientemente de su clasificación, todos
+son tipos de investigación, y al no ser excluyentes, un estudio puede
+ubicarse en más de una clase.
+Por ejemplo, una investigación puede ser explicativa y
+de campo al mismo tiempo. Así como también, cualquier otra
+investigación pudiera clasificarse como documental de nivel
+exploratorio-descriptivo.
+2.2. Niveles y diseños de investigación
+El nivel de investigación se refiere al grado de
+profundidad con que se aborda un fenómeno u objeto de
+estudio.
+Según el nivel, la investigación se clasifica en:
+2.2.1. Investigación exploratoria
+	
+La investigación exploratoria es aquella que se
+efectúa sobre un tem a u objeto desconocido o poco estudiado,
+por lo que sus resultados constituyen una visión aproxim ada
+de dicho objeto, es decir, un nivel superficial de conocimientos.
+Según Selltiz, Wrightsman y Cook (1980), los estudios
+exploratorios pueden ser:
+a)  Dirigidos a la formulación más precisa de un problema de
+investigación.
+Dado que se carece de información suficiente y de conocimiento
+previo del objeto de estudio, resulta lógico que la formulación
+inicial del problema sea imprecisa.
+	En este orden de ideas, la exploración permitirá obtener nuevos
+datos y elementos que pueden conducir a formular con mayor
+precisión las preguntas de investigación.
+23
+
+b)  Conducentes al planteamiento de una hipótesis
+Cuando se desconoce al objeto de estudio resulta difícil
+formular hipótesis acerca del mismo. La función de la
+investigación exploratoria es descubrir las bases y recabar
+información que permita, como resultado del estudio, la
+formulación de una hipótesis.
+Utilidad de la investigación exploratoria
+–   Sirve para familiarizar al investigador con un objeto que hasta el
+momento le era totalmente desconocido (Selltiz y otros, 1980).
+–   Se utiliza como base para la posterior realización de una
+investigación descriptiva.
+–   Puede crear en otros investigadores el interés por el estudio de
+un nuevo tema o problema.
+–   Como se expresó anteriormente, puede ayudar a precisar un
+problema o concluir con la formulación de una hipótesis.
+Ejemplos:
+–   Los estudios sobre Ingeniería Inyectable de Tejidos, con los que
+se pretende sustituir a los tradicionales transplantes de órganos.
+– Las investigaciones que se realizan actualmente sobre las
+imágenes moleculares para el análisis del funcionamiento de
+las proteínas en el cuerpo humano, en las que todavía falta
+mucho por descubrir.
+2.2.2. Investigación descriptiva
+La investigación descriptiva consiste en la
+caracterización de un hecho, fenómeno, individuo o grupo,
+con el fin de establecer su estructura o com portamiento.
+Los resultados de este tipo de investigación se ubican en
+un nivel interm edio en cuanto a la profundidad de los
+conocimientos se refiere.
+
+24
+
+La investigación descriptiva se clasifica en:
+a)  Estudios de medición de variables independientes:
+Su misión es observar y cuantificar la modificación
+de una o más características en un grupo, sin establecer
+relaciones entre éstas. Es decir, cada característica o variable se
+analiza de forma autónoma o independiente. Por consiguiente,
+en este tipo de estudio no se formulan hipótesis, sin embargo, es
+obvia la presencia de variables.
+	
+“Los estudios descriptivos miden de forma independiente
+las variables y aun cuando no se formulen hipótesis,
+tales variables aparecen enunciadas en los objetivos de
+investigación.” (Arias, 2006 a, p.25).
+Ejemplos:
+–  Determinación de la tasa de deserción escolar.
+–  Estudio sobre las características socioeconómicas de la
+población universitaria.
+b) Investigación correlacional:
+Su finalidad es determinar el grado de relación o asociación
+(no causal) existente entre dos o más variables. En estos estudios,
+primero se miden las variables y luego, mediante pruebas de
+hipótesis correlacionales y la aplicación de técnicas estadísticas,
+se estima la correlación. Aunque la investigación correlacional
+no establece de forma directa relaciones causales, puede aportar
+indicios sobre las posibles causas de un fenómeno.
+	
+La utilidad y el propósito principal de los estudios
+correlacionales es saber cómo se puede comportar un
+concepto o variable conociendo el comportamiento de
+otras variables relacionadas. Es decir, intentar predecir el
+valor aproximado que tendrá una variable en un grupo
+de individuos, a partir del valor obtenido en la variable o
+variables relacionadas. (Hernández, Fernández y Baptista,
+2010, p.82).
+
+25
+
+Ejemplos:
+–  Estudio sobre la correlación entre años de estudio e ingresos.
+–  Análisis de la correlación entre el coeficiente intelectual y el
+rendimiento laboral.
+Para Hernández, Fernández y Baptista (2010), los
+estudios correlacionales son una modalidad independiente de los
+descriptivos, sin embargo, en este texto se decidió considerarlos
+una categoría perteneciente a la investigación descriptiva, lo que
+se respalda con la siguiente cita:
+	
+“Los estudios correlacionales son un tipo de investigación
+descriptiva que intenta determinar el grado de relación existente
+entre las variables.” (Ary, Jacobs y Razavieh, 1989, p. 318).
+2.2.3. Investigación explicativa
+	
+La investigación explicativa se encarga de buscar
+el porqué de los hechos mediante el establecimiento de
+relaciones causa-efecto. En este sentido, los estudios
+explicativos pueden ocuparse tanto de la determinación
+de las causas (investigación post facto), como de los efectos
+(investigación experimental), mediante la prueba de hipótesis.
+Sus resultados y conclusiones constituyen el nivel más profundo
+de conocimientos.
+Ejemplos:
+–  Indagación de las causas que producen la deserción escolar.
+–  Estudio sobre los efectos del consumo de efedrina en el
+rendimiento deportivo.
+–  Investigación de los factores que motivan el bajo rendimiento
+estudiantil.
+–  Determinación de las consecuencias de la desnutrición sobre
+los niveles de desarrollo físico en adolescentes.
+26
+
+Diseño de investigación
+El diseño de investigación es la estrategia general
+que adopta el investigador para responder al problema
+planteado. En atención al diseño, la investigación se clasifica
+en: documental, de campo y experimental.
+La estrategia de investigación está definida por:
+a) El origen de los datos: primarios en diseños de campo y
+secundarios en estudios documentales.
+b) Por la manipulación o no, de las condiciones en las cuales se
+realiza el estudio: diseños experimentales y no experimentales o
+de campo.
+2.3. Investigación documental o diseño documental
+La investigación documental es un proceso basado en
+la búsqueda, recuperación, análisis, crítica e interpretación
+de datos secundarios, es decir, los obtenidos y registrados
+por otros investigadores en fuentes documentales: impresas,
+audiovisuales o electrónicas. Como en toda investigación, el
+propósito de este diseño es el aporte de nuevos conocimientos.
+A continuación se hace necesario precisar qué se entiende
+por dato, fuente y documento.
+Dato: es la unidad de información que se obtiene durante la
+ejecución de una investigación. Según su procedencia, los datos
+se clasifican en primarios, cuando son obtenidos originalmente
+por el investigador; y secundarios, si son extraídos de la obra de
+otros investigadores.
+Fuente: es todo lo que suministra datos o información. Según
+su naturaleza, las fuentes de información pueden ser documentales
+(proporcionan datos secundarios), y vivas (sujetos que aportan
+datos primarios).
+27
+
+	 Documento o fuente documental: es el soporte
+material (papel, madera, tela, cinta magnética) o formato
+digital en el que se registra y conserva una información.
+Clasificación de las fuentes de información
+
+Vivas
+Fuentes de
+información
+Documentales
+
+Personas que no son parte de la
+muestra, pero que suministran
+información en una investigación
+de campo
+Impresas
+Audiovisuales y sólo audio
+Electrónicas
+
+Es importante aclarar que, aun cuando las fuentes
+documentales aportan datos secundarios, éstas a su vez se
+clasifican en fuentes documentales primarias: obras originales;
+y fuentes documentales secundarias: trabajos en los que se hace
+referencia a la obra de un autor.
+Ejemplo:
+Una fuente documental primaria es:
+•  La obra original de John Maynard Keynes, «Teoría general
+de la ocupación, el interés y el dinero», publicada en1936.
+	
+
+Mientras que una fuente secundaria es:
+•   «Guía de Keynes», libro de Alvin Hansen (1953),  en el cual
+se analiza, interpreta y critica el trabajo originario de Keynes.
+2.3.1. Tipos de documentos o fuentes documentales
+
+Además de la división en fuentes primarias y secundarias,
+en la actualidad, gracias al creciente avance tecnológico, los
+documentos o fuentes documentales pueden ubicarse en tres
+grandes clases: impresas, audiovisuales y electrónicas (APA, 2010).
+Con base en esta clasificación se presenta el cuadro siguiente.
+28
+
+FUENTES IMPRESAS
+
+DOCUMENTOS
+ESCRITOS
+
+Publicaciones no
+periódicas
+- libros (fuentes
+bibliográficas)
+- folletos
+- tesis y trabajos de
+grado
+- trabajos de ascenso
+- informes de
+investigación
+Publicaciones periódicas
+- prensa (fuentes
+hemerográficas)
+- revistas científicas
+- boletines
+DOCUMENTOS DE
+CIFRAS O DATOS
+NUMÉRICOS DE
+PUBLICACIÓN
+PERIÓDICA
+- informes estadísticos
+- informes
+socioeconómicos
+- anuarios
+- memorias y cuentas
+DOCUMENTOS
+GRÁFICOS
+- fotografías
+- reproducciones
+impresas de obras 	
+de arte
+- ilustraciones
+- atlas
+- mapas y planos
+
+FUENTES
+AUDIOVISUALES Y
+DE SÓLO AUDIO
+Documentos
+audiovisuales
+- películas
+- documentales
+- videos
+- videoconferencias
+Grabaciones de
+audio
+- discursos
+- entrevistas
+- declaraciones
+- conversaciones
+telefónicas o en
+persona
+
+FUENTES
+ELECTRÓNICAS
+Documentos en
+Internet
+- páginas web
+- publicaciones
+periódicas en línea: 	
+diarios, boletines,
+revistas
+- publicaciones no
+periódicas en línea: 	
+libros, informes, tesis
+- documentos
+obtenidos a través de
+correo electrónico
+- grupos de noticias y
+foros de discusión
+Documentos
+digitalizados
+- archivos en disco
+duro
+- archivos en CD
+- archivos en
+memorias portátiles
+(pendrive)
+Bases de datos
+- institucionales
+- comerciales
+
+29
+
+2.3.2. Tipos de investigación documental
+La investigación documental se puede realizar a nivel
+exploratorio, descriptivo o explicativo y se clasifica en:
+a)  Monográfica
+	 Consiste en el desarrollo amplio y profundo de un tema
+específico. Su resultado es un informe comúnmente llamado
+monografía.
+Ejemplo:
+Estudio sobre la industria petrolera en Venezuela (2000-2010).
+b)  Estudios de medición de variables independientes a partir de
+datos secundarios
+	 Se fundamenta en la utilización de documentos de cifras
+o datos numéricos obtenidos y procesados anteriormente
+por organismos oficiales, archivos, instituciones públicas o
+privadas, entre otras.
+	 A partir del análisis de estos datos secundarios se pueden
+elaborar importantes conclusiones relacionadas con el
+comportamiento o estado actual de variables demográficas,
+sociales o económicas.
+Ejemplo: Estudio sobre la pobreza en América Latina.
+c)  Correlacional a partir de datos secundarios
+	 Al igual que la modalidad anterior, se basa en la consulta
+de documentos de cifras o datos cuantitativos, pero una vez
+que se identifican los valores de las variables en estudio,
+se procede a determinar la correlación entre éstas. En este
+caso, el investigador no es quien mide las variables, de allí el
+carácter secundario de los datos.
+Ejemplo:
+Estudio sobre la correlación entre la cantidad de
+desempleados y el número de delitos.
+30
+
+2.3.3. Etapas sugeridas para una investigación
+documental
+1.  Búsqueda de fuentes: impresas y electrónicas (Internet).
+2.  Lectura inicial de los documentos disponibles.
+3.  Elaboración del esquema preliminar o tentativo.
+4.  Recolección de datos mediante lectura evaluativa y elaboración
+de resúmenes.
+5.  Análisis e interpretación de la información recolectada en función
+del esquema preliminar.
+6.  Formulación del esquema definitivo y desarrollo de los capítulos.
+7.  Redacción de la introducción y conclusiones.
+8. Revisión y presentación del informe final.
+2.4. Investigación de campo o diseño de campo
+	
+La investigación de campo es aquella que consiste
+en la recolección de datos directamente de los sujetos
+investigados, o de la realidad donde ocurren los hechos
+(datos primarios), sin manipular o controlar variable alguna,
+es decir, el investigador obtiene la información pero no altera
+las condiciones existentes. De allí su carácter de investigación
+no experimental.
+Claro está, en una investigación de campo también se
+emplean datos secundarios, sobre todo los provenientes de fuentes
+bibliográficas, a partir de los cuales se elabora el marco teórico.
+No obstante, son los datos primarios obtenidos a través del diseño
+de campo, los esenciales para el logro de los objetivos y la solución
+del problema planteado.
+La investigación de campo, al igual que la documental, se
+puede realizar a nivel exploratorio, descriptivo y explicativo.
+Según Ramírez (2010), la investigación de campo puede ser
+extensiva, cuando se realiza en muestras y en poblaciones enteras
+(censos); e intensiva cuando se concentra en casos particulares,
+sin la posibilidad de generalizar los resultados.
+31
+
+Sabino (2002), incluye en los diseños de campo, los siguientes:
+– Encuesta
+– Panel
+– Estudio de casos
+– Ex post facto
+Además, resulta pertinente incluir al censo como un diseño
+de campo diferente a la encuesta por muestreo.
+2.4.1. Encuesta
+La encuesta por muestreo o simplemente encuesta es una
+estrategia (oral o escrita) cuyo propósito es obtener información:
+a)  Acerca de un grupo o muestra de individuos.
+Ejemplo: consulta que se hace a un grupo de sujetos sobre sus
+datos personales, socioeconómicos, costumbres, gustos,
+preferencias, expectativas, etc.
+b)  En relación con la opinión de éstos sobre un tema específico.
+Ejemplo: Sondeo de opinión en el que se consulta directamente a
+los consumidores acerca de la calidad de un producto.
+Por supuesto, la información obtenida es válida sólo para el
+período en que fue recolectada ya que, tanto las características
+como las opiniones, pueden variar con el tiempo. Es por esto que
+la encuesta también recibe la denominación de diseño transversal
+o diseño transeccional.
+Es importante señalar que en la extensa bibliografía sobre
+metodología científica, la encuesta ha sido definida de diversas
+maneras: como un método, como un diseño, o simplemente como
+una técnica. Por lo tanto, a los fines de no confundir al estudiante,
+en esta obra, la encuesta es considerada una técnica propia del
+diseño de investigación de campo.
+2.4.2. Panel
+Consiste en una serie de mediciones sucesivas, realizadas
+en un mismo grupo y en intervalos regulares, para observar las
+variaciones que se producen en los resultados a través del tiempo.
+De aquí su denominación como diseño longitudinal.
+32
+
+Un panel puede ser una encuesta que se aplique a la misma
+muestra, pero en períodos diferentes. Un ejemplo típico son las
+encuestas electorales que se aplican cada cierto tiempo en una
+misma comunidad.
+2.4.3. Estudio de casos
+En principio, se entiende por caso, cualquier objeto que se
+considera como una totalidad para ser estudiado intensivamente.
+Un caso puede ser una familia, una institución, una empresa, uno
+o pocos individuos.
+Debido a que un caso representa una unidad relativamente
+pequeña, este diseño indaga de manera exhaustiva, buscando la
+máxima profundidad del mismo.
+2.4.4. Ex post facto o post facto
+Significa posterior al hecho. Estos diseños buscan establecer
+las causas que produjeron un hecho, lógicamente, después que
+han ocurrido. Por lo tanto, no existe manipulación de la causa o
+variable independiente.
+Ejemplo:
+	
+Un grupo significativo de alumnos resulta aplazado en la
+asignatura matemática. Una vez obtenidas las calificaciones finales,
+es cuando se puede indagar sobre las causas que ocasionaron
+que la mayoría del grupo resultara reprobada.
+	
+Al determinar causas, la investigación ex post facto se ubica
+en un nivel explicativo.
+2.4.5. Censo
+A diferencia de la encuesta por muestreo, el censo busca
+recabar información acerca de la totalidad de una población. Es
+así como los censos nacionales tienen como propósito la obtención
+de datos de todos los habitantes de un país.
+También se puede aplicar un censo al total de pobladores
+de una región, o al total de miembros de una organización. Su
+principal limitación es el alto costo que implica su ejecución.
+33
+
+2.5. Investigación experimental o diseño experimental
+	
+La investigación experimental es un proceso que
+consiste en someter a un objeto o grupo de individuos, a
+determinadas condiciones, estímulos o tratamiento (variable
+independiente), para observar los efectos o reacciones que
+se producen (variable dependiente).
+
+	
+En cuanto al nivel, la investigación experimental es
+netamente explicativa, por cuanto su propósito es demostrar
+que los cambios en la variable dependiente fueron causados por
+la variable independiente. Es decir, se pretende establecer con
+precisión una relación causa-efecto.
+A diferencia de la investigación de campo, la investigación
+experimental se caracteriza fundamentalmente, por la manipulación
+y control de las variables o condiciones, que ejerce el investigador
+durante el experimento.
+Ejemplo:
+En una investigación de campo, un investigador observa el
+rendimiento académico de un grupo y los factores que lo afectan.
+Sin embargo, el investigador no controla ningún factor ya que no
+puede intervenir en asuntos familiares o socioeconómicos de los
+alumnos. En este caso tampoco se aplica ninguna estrategia que
+pueda incidir en el rendimiento estudiantil.
+En una investigación experimental, por el contrario, el
+investigador somete un grupo de alumnos a una determinada
+estrategia (manipula la variable independiente), para observar
+los efectos sobre el rendimiento de éstos (mide la variable
+dependiente). Así mismo, controla factores al seleccionar grupos
+homogéneos en cuanto a su rendimiento inicial y condiciones
+socioeconómicas (variables intervinientes y extrañas).
+
+34
+
+Nomenclatura
+de los diseños experimentales
+	
+	
+G:	 grupo de sujetos
+	
+O1:	 pretest o medición inicial	
+	
+X:	 estímulo o tratamiento			
+	
+O2:	 postest o medición final
+	
+Ge I:	 grupo experimental intacto
+	
+Gc I:	 grupo control intacto
+	 Ge A:	 grupo experimental asignado al azar
+	 Gc A:	 grupo control asignado al azar		
+2.5.1. Diseños básicos de la investigación experimental
+a)  Preexperimental: como su nombre lo indica, este diseño es
+una especie de prueba o ensayo que se realiza antes del
+experimento verdadero. Su principal limitación es el escaso
+control sobre el proceso, por lo que su valor científico es muy
+cuestionable y rebatible.
+Un modelo básico preexperimental es el diseño pretestpostest con un solo grupo:
+Aplicación
+del pre-test o
+medición inicial
+G
+
+O1
+
+Aplicación
+del estímulo o
+tratamiento
+
+Aplicación del
+postest o medición
+final
+
+X
+
+O2
+
+b)  Cuasiexperimental: este diseño es “casi” un experimento,
+excepto por la falta de control en la conformación inicial de los
+grupos, ya que al no ser asignados al azar los sujetos, se carece
+de seguridad en cuanto a la homogeneidad o equivalencia
+de los grupos, lo que afecta la posibilidad de afirmar que
+los resultados son producto de la variable independiente o
+tratamiento. Los grupos a los que se hace referencia son: el
+grupo experimental (Ge), que recibe el estímulo o tratamiento
+(X); y el grupo control (Gc), el cual sólo sirve de comparación
+ya que no recibe tratamiento.
+35
+
+Un modelo típico cuasiexperimental es el diseño pretestpostest con dos grupos intactos, es decir, previamente conformados,
+por lo que no existe garantía de la similitud entre ambos grupos.
+Grupo experimental intacto
+
+pretest tratamiento postest
+
+Grupo control intacto
+
+pretest
+
+---
+
+postest
+
+O1
+O1
+
+X
+---
+
+O2
+O2
+
+Ge I
+Ge I
+
+c)  Experimental puro: a diferencia de los diseños anteriores,
+en el experimento puro se deben controlar todos los factores que
+pudieran alterar el proceso. Este modelo cumple con dos requisitos
+fundamentales: empleo de grupos de comparación y equivalencia
+de los grupos mediante la asignación aleatoria o al azar. Además
+debe estar sujeto a los siguientes criterios:
+–  Validez interna: consiste en garantizar que los efectos o resultados
+son producto de la variable independiente o tratamiento y no de
+otros factores o variables intervinientes que deben ser controladas.
+–  Validez externa: se refiere a la posibilidad de generalizar o
+extender los resultados a otros casos y en otras condiciones.
+Un modelo clásico experimental es el diseño pretest-postest
+con dos grupos equivalentes, asignados de forma aleatoria o al
+azar, el cual se presenta a continuación:
+Grupo experimental (asignado pretest tratamiento postest
+al azar)
+--Grupo control
+pretest
+postest
+Ge A
+Gc A	
+
+O1
+O1
+
+X
+---
+
+O2
+O2
+
+Es importante señalar que existen otros diseños experimentales
+puros, sin embargo no son tratados en este libro, debido al
+carácter introductorio de la obra.		
+36
+
+Capítulo 3
+El Problema
+
+de Investigación
+“Un problema bien planteado
+constituye la mitad de la solución.”
+
+Russell Ackoff
+
+3.1. 	 Concepto de problema de investigación
+En términos generales, problema es un asunto que requiere
+solución.
+	
+Independientemente de su naturaleza, un problema es
+todo aquello que amerita ser resuelto. Si no hay necesidad
+de encontrar una solución, entonces no existe tal problema.
+
+Según su naturaleza, se identifican dos grandes tipos de
+problemas:
+Prácticos y de investigación
+
+37
+
+De Investigación o de
+Conocimiento
+PROBLEMAS
+
+Prácticos
+
+• Que buscan describir: ¿qué?,
+¿quién?, ¿dónde?, ¿cuándo?,
+¿cómo?
+• Que buscan explicar: ¿por
+qué?, ¿cuáles son las causas?
+• Que buscan predecir: ¿cuáles
+serán los efectos o consecuencias?
+– Sociales
+– Económicos
+– Educativos
+– De salubridad
+– Administrativos
+– Otros
+
+a)  Los problemas prácticos son dificultades, anomalías, situaciones
+negativas o diferencias entre “lo que es” y “lo que debe ser”.
+Éstos requieren de una acción para su solución y pueden ser
+de carácter económico, social, educativo, gerencial, de salud
+individual o colectiva. Ejemplos: la delincuencia, el desempleo,
+la inflación, la deserción escolar, las epidemias, etc. Por
+supuesto, la solución de estos problemas no está en manos
+de los científicos, pero el investigador sí puede aportar datos e
+información a las autoridades competentes para que tomen las
+medidas necesarias dirigidas a solventar tales dificultades. En
+muchos casos, para resolver un problema práctico, se requiere
+plantear y dar respuesta a problemas de investigación.
+b)  Los problemas de investigación, también llamados problemas
+cognoscitivos o de conocimiento, constituyen nuestro principal
+centro de atención. A diferencia de los problemas prácticos,
+los problemas de investigación son interrogantes sobre
+un aspecto no conocido de la realidad. En este sentido, lo
+desconocido se presenta como un problema para el científico,
+quien se plantea preguntas sobre aquello que no conoce y que
+deberá responder mediante una labor de investigación. Las
+respuestas que se obtengan constituyen la solución al problema.
+38
+
+En síntesis:
+
+Un problema de investigación es una pregunta
+o interrogante sobre algo que no se sabe o que se
+desconoce, y cuya solución es la respuesta o el nuevo
+conocimiento obtenido mediante el proceso investigativo.
+  	3.1.1. ¿Cuándo puede surgir un problema de
+investigación?
+a)  Cuando existe una laguna o vacío en el conocimiento referido
+a una disciplina.
+b)  Al presentarse algo desconocido por todos en un momento
+determinado.
+c)  Cuando existe contradicción en los resultados de una investigación
+o entre dos investigaciones.
+d)  En el momento en que nos interrogamos acerca de cualquier
+problema práctico.
+Ejemplos:
+Problemas prácticos
+El desempleo
+La delincuencia
+Existencia de un
+mercado negro de
+divisas.
+La empresa X
+muestra pérdidas
+continuamente.
+Un equipo de
+computación
+presenta fallas en su
+funcionamiento.
+
+Problemas de investigación
+¿Cuál fue la tasa de desempleo durante
+el primer semestre de 2003?
+¿Cuáles son las causas que originan la
+delincuencia?
+¿Qué consecuencias tendrá para la
+economía la existencia de un mercado
+negro de divisas?
+¿Cuáles son las causas que ocasionan
+las pérdidas en la empresa X?
+Determinación de las causas que
+producen las fallas en el funcionamiento
+del equipo.
+
+39
+
+Es importante aclarar que un problema de investigación no
+sólo se origina de situaciones negativas, éste también puede surgir
+de hechos positivos (Bernal, 2000; Méndez, 2001).
+Por ejemplo, en una empresa X, sorpresivamente aumenta
+significativamente el nivel de ventas. La directiva gira instrucciones
+para que se investigue el siguiente problema: ¿cuáles son los factores
+que han incidido en el incremento de las ventas de la empresa X
+durante el 2do trimestre del año 2011?
+3.1.2.  Condiciones que debe reunir un problema de
+investigación
+1.  Debe existir la posibilidad de ser respondido mediante
+procedimientos empíricos, es decir, por medio de una
+experiencia adquirida a través de nuestros sentidos: algo
+que se pueda ver, tocar o captar. Un problema como la
+existencia de vida después de la muerte, hasta el presente
+no ha sido resuelto de forma empírica.
+2.  La respuesta a la pregunta debe aportar un nuevo conocimiento.
+3.  Puede referirse al comportamiento de una variable. Ejemplo:
+¿Cuál ha sido la evolución del tipo de cambio (Bs x $) en
+Venezuela, durante el período 1999-2003?
+4. Puede implicar una relación entre dos o más variables. Ejemplo:
+¿Qué relación existe entre el nivel socioeconómico de los
+caraqueños y las actividades que acostumbran realizar durante
+el tiempo libre?
+5.  Se recomienda formularlo de manera interrogativa, ya que
+cuando no se sabe algo, simplemente se pregunta.
+6.  En la redacción de la pregunta deben obviarse términos que
+impliquen juicios de valor. Ejemplos: bueno, malo, mejor,
+peor, agradable, desagradable.
+7.  La pregunta no debe originar respuestas como un simple si o
+un no. De ocurrir esto, la interrogante deberá ser reformulada.
+40
+
+Ejemplo:
+Preguntas formuladas de manera incorrecta:
+a)  ¿Contribuye la lectura al desarrollo de la memoria?
+b)  ¿Influye el entorno familiar en el rendimiento escolar?
+Preguntas reformuladas:
+a)  ¿Cuál es la relación entre lectura y desarrollo de la
+memoria?
+b)  ¿Cómo influye el entorno familiar en el rendimiento escolar?
+8.  La pregunta debe estar delimitada, es decir, incluirá con
+precisión el espacio, la población y el tiempo o período al que
+se refiere (ver sección 3.3).
+3.2. Planteamiento y formulación del problema
+Aunque para algunos autores, planteamiento y formulación
+del problema son términos equivalentes, en esta obra se consideró
+pertinente diferenciarlos.
+	
+El planteamiento del problema consiste en describir de
+manera amplia la situación objeto de estudio, ubicándola en
+un contexto que permita comprender su origen, relaciones
+e incógnitas por responder.
+Plantear el problema implica desarrollar, explicar o exponer
+con amplitud. Mientras que formular es concretar, precisar o
+enunciar. En este sentido:
+	
+Formulación del problema es la concreción del
+planteamiento en una pregunta precisa y delimitada en
+cuanto a espacio, tiempo y población (si fuere el caso).
+Puede ocurrir que la formulación contenga más de una
+pregunta. Lo indispensable es que exista una estrecha relación
+entre las interrogantes formuladas.
+41
+
+3.3. Delimitación del problema
+Al igual que el tema, el problema también debe ser
+delimitado. En el campo de la investigación, delimitar implica
+establecer los alcances y límites en cuanto a lo que se pretende
+abarcar en el estudio. Concretamente:
+	
+La delimitación del problema significa indicar con
+precisión en la interrogante formulada: el espacio, el
+tiempo o período que será considerado en la investigación,
+y la población involucrada (si fuere el caso).
+
+3.3.1. Delimitación del espacio
+Es muy importante que la pregunta precise el ámbito o
+lugar que será tratado en el estudio.
+Ejemplo:
+¿Cuál fue la tasa de analfabetismo en el Estado Vargas Venezuela para el año 2003?
+3.3.2. Delimitación de tiempo
+En la formulación del problema debe indicarse el lapso o
+período objeto de estudio.
+Ejemplo:
+¿Cuáles fueron las causas del alto número de aplazados
+en el “Instituto Universitario Académico” durante el semestre
+octubre 2011- marzo 2012?
+3.3.3. Delimitación de la población
+En este caso hay que señalar los sujetos que serán
+observados, encuestados o medidos:
+Ejemplo:
+¿Cuál es el nivel de aptitud física de los alumnos del 1er
+semestre del Colegio Universitario de Caracas?
+42
+
+Es importante señalar que algunos problemas no incluyen
+los tres elementos de una delimitación. El objeto de estudio
+determinará la pertinencia de incluirlos o no. Ejemplo:
+¿Qué factores ocasionaron las pérdidas en la “Empresa
+HL” durante el período diciembre 2011 - febrero 2012?
+En este caso se precisa el espacio: “Empresa HL”, y el
+tiempo: período diciembre 2011 - febrero 2012. Sin embargo,
+no se hace referencia a una población específica, lo que también
+resulta válido.
+3.4. Objetivos de investigación
+Objetivo es sinónimo de meta, es decir, aquello que
+se aspira lograr o alcanzar. En este caso, nos referimos a meta
+en términos de conocimiento, es decir, los conocimientos que el
+investigador pretende obtener. En este orden de ideas:
+	
+Objetivo de investigación es un enunciado que expresa
+lo que se desea indagar y conocer para responder a un
+problema planteado.
+3.4.1. Características de los objetivos de
+investigación
+a)  Indican los conceptos que serán estudiados.
+b)  Precisan las variables o dimensiones que serán medidas.
+c)  Señalan los resultados que se esperan.
+d) Definen los límites o alcances de la investigación.
+d)  Se redactan comenzando con un verbo en infinitivo.
+e)  Deben ser posibles de lograr.
+f)  Junto al problema de investigación, los objetivos responden a la
+pregunta ¿qué se pretende con la investigación? (Hernández y
+otros 2010; Ramírez, 2010; Sabino 2006), y no al ¿para qué?,
+como señalan algunos autores (ver ejemplo en la página 97).
+43
+
+A continuación se presenta una lista de verbos indicados
+para objetivos de investigación, clasificados según el nivel
+(Arias, 2006 b).
+Nivel Exploratorio
+
+Nivel Descriptivo
+
+Nivel Explicativo
+
+Conocer
+Definir
+Descubrir
+Detectar
+Estudiar
+Explorar
+Indagar
+Sondear
+
+Analizar
+Calcular
+Caracterizar
+Clasificar
+Comparar
+Cuantificar
+Describir
+Diagnosticar
+Examinar
+Identificar
+Medir*
+
+Comprobar
+Demostrar
+Determinar
+Establecer
+Evaluar
+Explicar
+Inferir
+Relacionar
+Verificar
+
+Debe evitarse confundir los objetivos de investigación con:
+a)  Objetivos educativos o instruccionales: expresan lo que el
+alumno debe lograr como producto del proceso de enseñanzaaprendizaje.
+Ejemplo:
+“Al finalizar esta unidad, el alumno estará en capacidad
+de redactar oraciones completas...”
+b)  Objetivos prácticos: implican una habilidad psicomotora y son
+típicos de los proyectos tecnológicos que se desarrollan en áreas
+como Ingeniería, Electrónica y Computación.
+Ejemplos:
+“Diseñar un prototipo...”
+“Desarrollar un programa computarizado (software)...”
+*El verbo medir no debe ser entendido como la simple actividad que implica utilizar una
+cinta métrica para obtener la estatura de una persona, o las dimensiones de un terreno.
+En investigación social, medir significa la ejecución de objetivos de gran complejidad.
+Por ejemplo: medir la pobreza; medir la eficiencia, entre otros.	
+
+44
+
+c)  Metas empresariales: su logro depende de múltiples factores
+ligados a la organización, mas no de la voluntad del investigador.
+Ejemplos:
+“Aumentar la producción...”
+“Incrementar las ventas...”
+d)  Propósitos: son ideas o intenciones cuya consecución puede
+escapar del alcance de la investigación.
+Ejemplos:
+“Motivar a los miembros de una comunidad...”
+“Concientizar a los directivos...”
+e)  Actividades: son tareas o acciones implícitas en el proceso
+de investigación.
+Ejemplos:
+“ Entrevistar a un grupo trabajadores...”
+“ Plantear una serie de recomendaciones...”
+3.4.2. Tipos de objetivos de investigación
+Los objetivos de investigación pueden ser generales o
+específicos.
+	
+Un objetivo general expresa el fin concreto de la
+investigación en correspondencia directa con la formulación
+del problema. Éste se puede descomponer, al menos, en dos
+objetivos específicos.
+Mientras que:
+	
+Los objetivos específicos indican con precisión los
+conceptos, variables o dimensiones que serán objeto de
+estudio. Se derivan del objetivo general y contribuyen al
+logro de éste.
+45
+
+Ejemplo :
+	
+2005).
+
+Objetivo general
+Analizar las causas de la pobreza en Venezuela (1999-
+
+Objetivos específicos
+1.  Identificar la causas económicas de la pobreza en Venezuela.
+2.  Explicar las causas políticas que originan la pobreza en
+Venezuela.
+3.  Examinar las causas sociales: culturales y educativas,
+determinantes de la pobreza en Venezuela.
+3.5. Correspondencia entre título, formulación del
+problema y objetivo general
+La correspondencia entre título, formulación del problema
+y objetivo general radica en la presencia de elementos comunes,
+en los tres componentes del esquema de investigación.
+Esta relación se presenta en los siguientes ejemplos:
+Título
+
+Formulación del
+problema
+
+Causas de la
+deserción escolar en
+la Educación Básica.
+Caso: Escuelas
+públicas del Distrito
+Metropolitano.
+Impacto del
+control de cambio
+de divisas en el
+volumen de las
+importaciones
+venezolanas.	
+
+¿Cuáles son las
+causas de la
+deserción escolar en
+las Escuelas Básicas
+públicas del Distrito
+Metropolitano?
+¿Qué impacto
+ocasionará el control
+de cambio de divisas
+en el volumen de
+las importaciones
+venezolanas?
+
+46
+
+Objetivo
+general
+Identificar las causas
+de la deserción
+escolar en las
+Escuelas Básicas
+públicas del Distrito
+Metropolitano.
+Determinar el
+impacto del
+control de cambio
+de divisas en
+el volumen de
+las importaciones
+venezolanas.
+
+Capítulo 4
+Hipótesis
+“...el científico no puede diferenciar la evidencia
+positiva de la negativa a menos que use hipótesis.”
+
+Fred Kerlinger
+
+4.1. Concepto de hipótesis
+Ante la presencia de cualquier problema o incógnita, toda
+persona está en capacidad de suponer, sospechar y de buscar
+probables explicaciones. Tales conjeturas se denominan hipótesis.
+	
+Hipótesis es una suposición que expresa la posible
+relación entre dos o más variables, la cual se formula para
+responder tentativamente a un problema o pregunta de
+investigación.
+Dicha relación puede manifestarse de las siguientes formas:
+a)  Cuando se trata de establecer la posible causa o el porqué
+de un hecho, suceso o fenómeno.
+Ejemplo:
+“El accidente fue causado por exceso de velocidad.”
+47
+
+b)  Si se pretende determinar los posibles efectos o consecuencias.
+Ejemplo:
+“El control de cambio de divisas producirá mayor inflación.”
+c)  Cuando se aspira establecer la probable asociación entre dos
+variables (relación no causal) .
+Ejemplos:
+“Los turistas extranjeros prefieren la comida típica de la
+región.”
+En este caso se pretende relacionar la variable origen
+del turista (nacional o extranjero) con la variable tipo de comida
+preferida.
+“La calidad nutricional incide en el rendimiento académico.”
+La variable calidad nutricional puede estar relacionada con
+la variable rendimiento, sin embargo, no es la única causa de un
+alto o bajo rendimiento académico.
+Las hipótesis se desprenden de la teoría, es decir,
+no surgen de la simple imaginación sino que se derivan
+de un cuerpo de conocimientos existentes que le sirven
+de respaldo (Arias, 2006 a).
+
+4.2. ¿Para qué sirven las hipótesis y cuándo utilizarlas?
+a)  Las hipótesis orientan la investigación. Indican al investigador
+dónde debe iniciar su labor de verificación o comprobación
+mediante la recolección de los datos.
+Ejemplo:
+“El bajo rendimiento de los alumnos se debe a la actuación
+del docente.”
+
+48
+
+Ante esta hipótesis, lógicamente, el investigador empezará
+por observar y evaluar al docente.
+Otro ejemplo sería:
+“El accidente fue causado por fallas mecánicas.”
+En este caso los investigadores comenzarán por examinar
+las piezas y mecanismos esenciales del vehículo.
+b)  Por la estrecha relación que deben tener las hipótesis con
+losobjetivos de investigación, éstas también precisan las
+variables que serán medidas.
+Ejemplos:
+“El bajo sueldo que devengan los docentes incide en la 	
+calidad de la enseñanza.”
+“Una baja ingesta de carbohidratos afecta el rendimiento 	
+deportivo en atletas de alta competencia.”
+En los ejemplos anteriores se identifican claramente las
+variables objeto de estudio.
+c)  Las hipótesis, según el problema formulado se utilizan para
+explicar o predecir un determinado hecho.
+Ejemplos:
+	
+Para explicar: “La baja calificación de los alumnos fue
+debida a la ausencia de éstos en el curso de nivelación.”
+	
+Para predecir: “Los alumnos que participen en el curso
+de nivelación obtendrán mayor calificación que aquellos que no
+participen.”
+d)  Sirven para probar teorías (Hernández, Fernández y Baptista,
+2010). En la medida en que una hipótesis es sometida a
+prueba y verificada en varias oportunidades, más se fortalece
+la teoría de la cual se deriva.
+
+49
+
+Ejemplo:
+	
+Las hipótesis comprobadas en los experimentos realizados
+por Mendel en el siglo XIX, confirmaron su teoría a tal punto que
+condujeron a la formulación de las Leyes de la Herencia.
+e)  Contribuyen a generar teorías. Puede ocurrir que una hipótesis
+no cuente con suficiente sustento teórico. Sin embargo, a partir
+de la comprobación de hipótesis se puede construir una teoría
+(Hernández, Fernández y Baptista, 2010).
+Ejemplo:
+Las hipótesis sobre los “quantum” de los rayos luminosos,
+sirvieron para que Albert Einstein construyera su Teoría de la
+Relatividad.
+f)   Como resultado de la prueba de hipótesis puede surgir
+información confiable para la toma de decisiones.
+Ejemplo:
+	
+Se tiene planeado hacer una inversión en costosos equipos
+para implantar un sistema en la empresa. Al someter a verificación
+las hipótesis relacionadas con la efectividad y eficiencia de dicho
+sistema, se decidirá si es conveniente o no realizar la inversión.
+4.2.1. ¿Cuándo usar hipótesis?
+a)  La formulación de hipótesis es necesaria en investigaciones
+de nivel explicativo, cuando se pretende establecer relaciones
+causales entre variables. De hecho, la finalidad de las
+investigaciones explicativas es probar hipótesis causales.
+b)  También es pertinente el uso de hipótesis en algunas
+investigaciones de carácter descriptivo, específicamente en las
+correlacionales y en las que se busca establecer una asociación
+(no causal) entre variables.
+c)  En las investigaciones de nivel exploratorio, debido al
+escaso conocimiento que se posee sobre el objeto de
+estudio, no se plantean hipótesis de forma explícita, es decir,
+se trabaja sólo con objetivos.
+50
+
+Si en una investigación no se verifica la hipótesis de trabajo,
+no significa que el estudio sea inválido o que carezca de utilidad.
+Rechazar una hipótesis y comprobar que entre dos o más variables
+no existe relación, también constituye un verdadero aporte.
+4.3. Tipos de hipótesis
+Explicativa
+Predictiva
+De investigación 	
+o de trabajo
+HIPÓTESIS
+
+Experimental
+No experimental
+
+Experimental
+No experimental
+Comparativa
+Direccional
+No direccional
+Correlacional
+Descriptiva
+
+Alternativa
+Nula
+4.3.1. Hipótesis de investigación:
+	
+Es la suposición que se aspira verificar o comprobar.
+También se le denomina hipótesis de trabajo. Éstas se clasifican
+en:
+a)  Explicativas: expresan la posible causa de un hecho.
+Ejemplos:
+“La huelga se inició por falta de pago a los empleados.”
+“El incendio fue ocasionado por un cortocircuito.”
+b)  Predictivas: son aquellas que plantean el posible efecto o
+consecuencia de un hecho.
+51
+
+b.1)  Experimental
+Ejemplo:
+	 “La aplicación del tratamiento X disminuirá el nivel de 	
+colesterol en la sangre.”
+
+	
+
+b.2) No experimental
+	
+
+Ejemplo:
+	 “La falta de empleo originará mayor delincuencia.”
+
+c)  Comparativas: contrastan resultados o características de grupos
+en condiciones diferentes.
+c.1)  Experimental
+Ejemplo:
+	 “El grupo que recibió tratamiento obtendrá mayor puntaje
+que el grupo que no lo recibió.”
+	 En este ejemplo hay manipulación de la variable
+independiente a través del tratamiento aplicado.
+c.2)  No experimental
+Ejemplo:
+“El grupo que cursa estudios en el turno de la mañana
+obtendrá mayor promedio de notas que el grupo que
+cursa 	 en el turno de la noche.”
+En esta situación no se manipulan las variables, por cuanto
+los estudiantes permanecen en sus turnos correspondientes.
+c.3)  Direccional: indica la tendencia de los resultados.
+Ejemplo:
+“El grupo A obtendrá mayor puntaje que el grupo B.”
+A > B
+c.4)  No direccional: no indica tendencia, sólo expresa la posible
+diferencia entre los resultados esperados.
+
+52
+
+Ejemplo:
+“Existirá una diferencia entre el puntaje del grupo A y el
+puntaje del grup o B.”
+                                  A  ≠ B
+d)  Correlacionales: suponen una posible relación estadística
+entre variables cuantitativas.
+Ejemplos:
+	 “A mayor inversión, mayor cantidad de empleos.”
+“Mientras más años de experiencia laboral, mayores 	
+serán los ingresos.”
+e)  Descriptivas: indican una probable relación no causal entre
+variables cualitativas.
+Ejemplo:
+“A diferencia de las hembras, los varones prefieren ocupar
+su tiempo libre en actividades deportivas.”
+En este caso se relacionan las variables cualitativas: género
+(hembras y varones) y actividad preferida en el tiempo libre (deporte).
+4.3.2. Hipótesis alternativas
+Son aquellas que plantean opciones distintas a la hipótesis
+de trabajo o de investigación.
+Ejemplos:
+Hipótesis de investigación: Hi: “El bajo puntaje obtenido en
+la prueba fue producto del tiempo de ejercitación.”
+Hipótesis alternativa: Ha: “El bajo puntaje en la prueba fue
+producto de fallas en la elaboración de la misma.”
+4.3.3. Hipótesis nula
+Es la que niega lo supuesto en la hipótesis de investigación.
+En el caso de comparación de grupos, expresa que no existen
+diferencias significativas entre los resultados obtenidos por éstos.
+Así mismo es contraria a la hipótesis no direccional.
+53
+
+Ejemplos:
+Ho: “El tiempo de ejercitación no tuvo influencia en el bajo
+puntaje obtenido en la prueba.”
+Ho: “No existirá diferencia entre el puntaje del grupo A y 	
+	 el obtenido por el grupo B.”
+4.4. ¿Cómo redactar las hipótesis?
+Mientras la formulación del problema adopta la forma
+interrogativa, las hipótesis se redactan de manera afirmativa,
+excepto la hipótesis nula, que niega la hipótesis de investigación.
+Claro está, dicha afirmación, como toda hipótesis, debe ser
+sometida a prueba para poder llegar a una conclusión.
+Ejemplo de hipótesis de investigación (afirmación):
+Hi: “El grupo A obtendrá mayor puntaje en la prueba de
+razonamiento numérico que el grupo B.”
+Ejemplo de hipótesis nula (negación):
+Ho: “No existirá diferencia entre el puntaje del grupo A y del
+grupo B en la prueba de razonamiento numérico.
+	 Las hipótesis causales se redactan afirmativamente. Por
+supuesto, indicando con precisión la posible causa del hecho
+investigado.
+Ejemplo:
+“La principal causa de los accidentes de tránsito en
+Venezuela es el exceso de velocidad.”
+Las hipótesis predictivas pueden redactarse de dos formas,
+pero en ambos casos se emplearán verbos en futuro:
+	
+
+a)  Utilizando la conjunción «si» y el adverbio «entonces».
+“Si se aplica el método «Z», entonces se incrementará el nivel
+de comprensión lectora...”
+
+54
+
+b)  Sin emplear «si» ni «entonces».
+“La aplicación del método «Z» incrementará el nivel de
+comprensión lectora...”
+Además, tenga presente las siguientes recomendaciones
+para la redacción de cualquier tipo de hipótesis:
+- Evite emplear adjetivos que impliquen juicios de valor, por
+ejemplo: bueno, malo, poco, mucho. Sustitúyalos por términos
+como mayor, menor, alto, bajo, etc.
+- Incluya las variables identificadas en la formulación del
+problema y en los objetivos específicos.
+- Pueden ser expresadas en términos conceptuales u
+operacionales (ver capítulo 5, sección 5.4).
+4.5. Relación formulación del problema-hipótesis
+Esta relación consiste en que la hipótesis representa una
+posible respuesta a la formulación del problema o pregunta.
+Formulación del problema
+
+Hipótesis
+
+¿Cuál es la principal causa del
+bajo rendimiento en Lenguaje y
+Comunicación de los alumnos del
+Instituto Académico?
+
+La principal causa del bajo
+rendimiento en Lenguaje y
+Comunicación es la baja
+cantidad de horas semanales
+dedicadas a la lectura.
+
+¿Cuál será el impacto de la La nueva campaña publinueva campaña publicitaria en citaria incrementará signifilas ventas del producto X?
+cativamente las ventas del
+producto X.
+
+55
+
+Capítulo 5
+Variables, Dimensiones e Indicadores
+“Todo cambia,
+todo se transforma...”
+
+Heráclito
+
+5.1. Concepto de variable
+En general, los científicos se ocupan de estudiar fenómenos
+o cambios que ocurren en la naturaleza, en la sociedad y en el
+conocimiento. De manera más específica, el científico indaga
+sobre ciertas propiedades que se modifican a las que se les
+denomina variables.
+Variable es una característica o cualidad; magnitud o
+cantidad, que puede sufrir cambios, y que es objeto de análisis,
+medición, manipulación o control en una investigación.
+La edad, el peso corporal, la estatura, la temperatura
+ambiental, las marcas de automóviles, así como los precios de
+bienes y servicios, son ejemplos de variables.
+57
+
+5.2. Tipos de variables
+	
+Según su naturaleza, las variables pueden ser cuantitativas
+y cualitativas:
+a)  Cuantitativas: son aquellas que se expresan en valores o datos
+numéricos.
+Ejemplos:
+Cantidad de habitantes en una región, notas o calificaciones
+estudiantiles, número de personas que pertenecen a un partido
+político, tiempo empleado en un trabajo.
+Así mismo, las variables cuantitativas se clasifican en discretas
+y continuas.
+a.1)  Discretas: son las que asumen valores o cifras enteras.
+Ejemplos: cantidad de estudiantes en una aula de clases
+(pueden ser 39, 40 ó 41, pero nunca 40,7 estudiantes);
+otro ejemplo es la cantidad de libros que pueden ser
+consultados, ya que nunca podrá revisar 25,3 libros,
+pero si podrá consultar 25 ó 26.
+a.2)  Continuas: son aquellas que adoptan números
+fraccionados o decimales. Ejemplos: la temperatura
+ambiental puede alcanzar 32,4 °C. Un objeto puede
+medir 58,6 cm de alto.
+b )   C u a l i t a t i v a s : t a m b i é n llamadas categóricas, s o n
+características o atributos que se expresan de forma verbal
+(no numérica), es decir, mediante palabras. Éstas pueden ser:
+b.1)  Dicotómicas: se presentan en sólo dos clases o
+categorías. Ejemplos: género: masculino o femenino;
+tipos de escuelas: públicas o privadas; procedencia de
+un producto: nacional o importado; tipos de vehículos:
+automático o sincrónico.
+b.2)  Policotómicas: se manifiestan en más de dos categorías.
+Ejemplos: marcas de computadoras, colores de tintas,
+tipos de empresas, clases sociales.
+58
+
+TIPOS DE VARIABLES
+Cuantitativas
+Variables
+Cualitativas
+
+Discretas
+Continuas
+Dicotómicas
+Policotómicas
+
+Según el grado de complejidad, tanto las variables
+cuantitativas como las cualitativas pueden ser simples o complejas.
+Las variables simples son las que se manifiestan directamente
+a través de un indicador o unidad de medida . No se descomponen
+en dimensiones. Ejemplos: el precio de un producto simplemente
+se expresa en unidades monetarias; mientras que la edad se
+manifiesta en años cumplidos.
+Las variables complejas son aquellas que se pueden
+descomponer en dos dimensiones como mínimo. Luego se
+determinan los indicadores para cada dimensión (ver sección 5.3).
+Por otra parte, según su función en una relación causal, las
+variables se clasifican en:
+•  Independientes: son las causas que generan y explican los
+cambios en la variable dependiente. En los diseños experimentales
+la variable independiente es el tratamiento que se aplica y
+manipula en el grupo experimental. Ejemplo: la dieta a la que
+es sometido un grupo de pacientes obesos.
+•  Dependientes:  son aquellas que se modifican por acción de la
+variable independiente. Constituyen los efectos o consecuencias
+que se miden y que dan origen a los resultados de la
+investigación. Ejemplo: el peso corporal de los integrantes
+del grupo o muestra.
+•  Intervinientes: son las que se interponen entre la variable
+independiente y la dependiente, pudiendo influir en lo
+modificación de esta última. En un diseño experimental puro,
+este tipo de variable debe ser controlada con el fin de comprobar
+que el efecto es debido a la variable independiente y no a otros
+factores. Ejemplo: el ejercicio físico practicado por el grupo.
+59
+
+	 Ante esta situación, es probable que el investigador controle
+dicha variable mediante la prohibición del ejercicio durante el
+período de administración de la dieta, para tener así la certeza
+de que la modificación del peso se debe a la dieta y no al
+ejercicio físico.
+•  Extrañas: también llamadas ajenas, son factores que escapan del
+control del investigador y que pueden ejercer alguna influencia en
+los resultados. Ejemplo: los factores hereditarios probablemente
+incidan en el peso corporal de una persona. También puede ser
+una variable extraña cualquier medicamento o suplemento que
+ingieran los sujetos sin haber sido indicado por el investigador.
+Los ejemplos anteriores se sintetizan de la manera siguiente:
+	
+
+Hipótesis:
+“Los individuos sometidos a la dieta X, disminuirán su
+peso corporal.”
+Variable independiente: la dieta X.
+Variable dependiente: peso corporal.
+Variable interviniente: realización de ejercicio físico.
+Variables extrañas: factores hereditarios y consumo de algún
+medicamento o suplemento.
+
+5.3. Dimensiones e indicadores
+No todas las variables se pueden descomponer en más
+de un elemento. Este es el caso de las variables simples, las
+cuales fueron tratadas anteriormente. No obstante, en las variables
+complejas resulta diferente, ya que por su naturaleza no pueden
+ser estudiadas como un todo, sino que deben ser descompuestas
+en sus partes constitutivas o dimensiones.
+Una dimensión es un elemento integrante de
+una variable compleja, que resulta de su análisis o
+descomposición.
+
+60
+
+Ejemplo:
+Se desea evaluar la calidad de servicio que presta el Hotel
+Paraiso, el cual presenta una organización bastante amplia y
+compleja, por lo que se decide descomponer la variable calidad de
+servicio en función de las principales áreas que prestan atención
+en el mencionado hotel.
+
+Variable
+
+Dimensiones
+
+Calidad de servicio
+
+– Calidad del servicio en la
+recepción
+– Calidad del servicio en las
+habitaciones
+– Calidad del servicio en el
+restaurante
+
+Es importante aclarar que, según los objetivos de
+investigación, en algunos casos una dimensión puede ser
+considerada como una variable autónoma (Sabino, 2002). Es
+decir, una dimensión también es una variable en sí misma.
+Una muestra de lo antes expuesto, consiste en estudiar,
+de forma separada e individual, cualquiera de las dimensiones
+referidas en el ejemplo anterior.
+Por otra parte, una vez que han sido establecidas las
+dimensiones de la variable, todavía faltan los elementos, indicios
+o evidencias que muestren como se manifiesta o comporta dicha
+variable o dimensión.
+Estos elementos son los indicadores.
+Un indicador es un indicio, señal o unidad de
+medida que permite estudiar o cuantificar una variable o
+sus dimensiones.
+
+61
+
+Por ejemplo, en el caso de variables cuantitativas simples
+como la edad, el indicador es el número de años cumplidos. El
+peso corporal tiene como indicador la cantidad de kilogramos
+(sistema MKS). Mientras que el salario se mide en unidades
+monetarias.
+En el caso de una variable compleja, cada dimensión que
+la integra puede tener uno o varios indicadores, de los cuales
+se derivan las preguntas o ítems del instrumento de recolección
+de datos. Así mismo, es importante no confundir los indicadores
+con las opciones de respuesta del instrumento.
+Ejemplo:
+Dimensiones
+
+Indicadores
+
+Calidad de servicio en la - Atención permanente: 24 hrs.
+recepción
+- Responsabilidad
+- Dominio de varios idiomas
+Calidad del servicio en las - Limpieza
+habitaciones
+- Equipamiento básico: tv, a/c
+- Tiempo de respuesta a solicitudes
+Calidad del servicio en el - Trato cortés y amable
+restaurante	
+- Rapidez del servicio
+- Calidad de la comida
+5.4. Operacionalización de variables
+Aun cuando la palabra “operacionalización” no aparece
+en la lengua hispana, este tecnicismo se emplea en investigación
+científica para designar al proceso mediante el cual se transforma la
+variable de conceptos abstractos a términos concretos, observables
+y medibles, es decir, dimensiones e indicadores. Por ejemplo, la
+variable actitud no es directamente observable, de allí que sea
+necesario operacionalizarla o traducirla en elementos tangibles
+y cuantificables.
+62
+
+La operacionalización de una variable, por lo general, se
+representa en un cuadro. No obstante, el proceso consta de tres
+etapas básicas.
+		
+
+Dichas etapas son las siguientes:
+
+a)  Definición nominal, conceptual o constitutiva de la variable:
+consiste en establecer el significado de la variable, con base
+en la teoría y mediante el uso de otros términos. Ejemplo:
+“Las actitudes son predisposiciones aprendidas para
+responder de manera favorable o adversa ante un objeto
+específico.” (Feldman,1995, p. 503)
+b)  Definición real de la variable: significa descomponer la variable,
+para luego identificar y determinar las dimensiones relevantes
+para el estudio. Ejemplo: una actitud posee tres componentes o
+dimensiones ( Feldman, 1995; Morris, 1992; Myers, 1995).
+En este sentido, las dimensiones de la variable actitud son:
+– Cognitiva
+– Afectiva
+– Conductual
+c)  Definición operacional de la variable: establece los indicadores
+para cada dimensión, así como los instrumentos y procedimientos
+de medición.
+Continuando con el ejemplo anterior, la variable actitud
+hacia un objeto se compone de las siguientes dimensiones:
+La dimensión cognitiva cuyos indicadores son los juicios y
+creencias acerca del objeto; la dimensión afectiva se manifiesta
+a través de los sentimientos y emociones que produce el objeto,
+y la dimensión conductual que se traduce en las intenciones y
+tendencias que genera el objeto. Esta variable será medida a
+través de una escala de Likert.
+Una vez concluido el proceso de operacionalización, se
+elabora el cuadro de variables, dimensiones e indicadores, el
+cual se presenta a continuación.
+63
+
+Variable Dimensiones
+Cognitiva
+Actitud
+hacia un Afectiva
+personaje
+Conductual
+
+Indicadores
+– Juicios acerca del personaje
+– Creencias sobre el personaje
+– Sentimientos hacia el personaje
+– Emociones que produce el
+personaje
+– Intenciones hacia el personaje
+– Tendencias que genera el
+personaje
+
+5.5. Niveles de medición de las variables
+El nivel de medición se define como el tipo de escala que
+permite asignar un grado o valor a una variable. De dicha escala
+depende la técnica estadística que puede emplearse en el análisis
+de los datos obtenidos.
+Los niveles son:
+•  Nivel de medición nominal: escala que adoptan las variables
+cualitativas la cual consiste en la clasificación en dos o más
+categorías, las cuales no tienen vinculación entre sí. Ejemplo:
+las distintas nacionalidades: española, italiana, venezolana,
+mexicana.
+Otro ejemplo es la clasificación del personal que labora en
+una institución: fijo o contratado.
+Por el carácter cualitativo de las variables, en esta escala no se
+aplican operaciones matemáticas (suma, resta, multiplicación,
+división). Sólo se cuantifica la frecuencia o el número de casos
+pertenecientes a una categoría.
+•  Nivel de medición ordinal: escala  en la que se establece un
+orden jerárquico entre variables cualitativas o categorías. En
+esta escala no se indica la magnitud de la diferencia entre las
+categorías, ni se aplican las operaciones matemáticas básicas.
+64
+
+Al igual que en el nivel nominal, únicamente se realizan
+distribuciones de frecuencias, absolutas y relativas (porcentajes),
+en cada categoría.
+Ejemplos:
+	 Escalafón de los profesores universitarios (de menor a mayor
+jerarquía):
+– Instructor		
+– Asistente
+– Agregado	
+– Asociado
+– Titular
+Grados de la carrera militar (de mayor a menor jerarquía):
+– General			
+– Coronel
+– Teniente Coronel	
+– Mayor
+– Capitán			
+– Teniente
+– Sub-Teniente	
+•  Nivel de medición por intervalos:  escala en la que se establecen
+distancias o intervalos iguales entre los valores. Esta escala se
+utiliza para variables cuantitativas y en la misma no existe un
+cero absoluto, es decir, éste se fija arbitrariamente. En este tipo
+de escala sí es posible realizar diferentes cálculos matemáticos
+y estadísticos.
+Ejemplo:
+La temperatura expresada en grados centígrados no posee
+un cero absoluto, por cuanto cero grados centígrados (0° C) no
+implica ausencia de temperatura y al mismo tiempo equivale a
+273 grados Kelvin y a 32 grados Fahrenheit.
+65
+
+•  Nivel de medición de razón: escala para variables cuantitativas,
+que además de mantener intervalos similares, posee un cero
+absoluto el cual indica ausencia total de la variable. Al igual que
+en el nivel de medición por intervalos, en esta escala se pueden
+aplicar las distintas operaciones matemáticas y estadísticas.
+Ejemplo:
+Los ingresos expresados en unidades monetarias. En
+este caso, el intervalo entre 300.000 y 350.000 unidades es
+exactamente igual al existente entre 850.000 y 900.000 unidades.
+Pero además, existe un cero absoluto por cuanto una persona o
+una familia, en un determinado momento, pueden carecer de
+ingresos, es decir, perciben cero ingresos.
+
+66
+
+Capítulo 6
+Técnicas e Instrumentos
+
+de
+
+Recolección
+de Datos
+
+“Un instrumento científico
+abre una ventana al conocimiento.”
+
+Isaac Asimov
+
+6.1. Relación entre técnica e instrumento
+Una vez efectuada la operacionalización de las variables
+y definidos los indicadores, es hora de seleccionar las técnicas
+e instrumentos de recolección de datos pertinentes para verificar
+las hipótesis o responder las interrogantes formuladas. Todo en
+correspondencia con el problema, los objetivos y el diseño de
+investigación.
+En este orden de ideas:
+Se entenderá por técnica de investigación, el
+procedimiento o forma particular de obtener datos o
+información.
+Las técnicas son particulares y específicas de una disciplina,
+por lo que sirven de complemento al método científico, el cual
+posee una aplicabilidad general.
+67
+
+Diseño
+Diseño de
+Investigación
+Documental
+
+Técnicas
+
+Instrumentos
+
+Análisis
+documental
+
+Fichas
+Computadora y sus unidades de
+almacenaje
+
+Análisis de
+contenido
+
+Cuadro de registro y clasificación de
+las categorías
+Estructurada
+
+Observación
+
+Diseño de
+Investigación
+de Campo
+
+Diario de campo
+No Estructurada Cámaras: fotográfica y
+de video
+Oral
+
+Guía de encuesta (Tarjeta)
+Grabador
+Cámara de video
+
+Escrita
+
+Cuestionario
+
+Estructurada
+
+Guía de entrevista
+Grabador / Cámara de
+video
+
+Encuesta
+
+Entrevista
+
+Lista de cotejo
+Escala de estimación
+
+Libreta de notas
+No estructurada Grabador / Cámara de
+video
+
+Ahora bien, la aplicación de una técnica conduce a la
+obtención de información, la cual debe ser guardada en un
+medio material de manera que los datos puedan ser recuperados,
+procesados, analizados e interpretados posteriormente. A dicho
+soporte se le denomina instrumento.
+	
+Un instrumento de recolección de datos es cualquier
+recurso, dispositivo o formato (en papel o digital), que se
+utiliza para obtener, registrar o almacenar información.
+
+68
+
+Son ejemplos de instrumentos:
+•  Un cuestionario en cuya estructura quedan registradas las
+respuestas suministradas por el encuestado.
+•  Una libreta en la que el investigador anota lo observado.
+•  Computadoras portátiles con sus respectivas unidades para
+almacenaje de información: disco duro, CD o memorias portátiles
+(pendrive).
+•  Dispositivos tales como cámara fotográfica y de video
+(filmadora), grabador de audio, etc.
+6.2. La observación y sus instrumentos
+	
+La observación es una técnica que consiste en
+visualizar o captar mediante la vista, en forma sistemática,
+cualquier hecho, fenómeno o situación que se produzca en
+la naturaleza o en la sociedad, en función de unos objetivos
+de investigación preestablecidos.
+Se hace especial referencia a la observación directa, ya que
+la indirecta se realiza a través de instrumentos muy sofisticados
+tales como: microscopio, telescopio, monitores, entre otros.
+La observación puede ser:
+a)  Observación simple o no participante
+Es la que se realiza cuando el investigador observa de
+manera neutral sin involucrarse en el medio o realidad
+en la que se realiza el estudio.
+b)  Observación participante
+En este caso el investigador pasa a formar parte de la
+comunidad o medio donde se desarrolla el estudio.
+Así mismo, la observación también se clasifica en:
+•  Observación libre o no estructurada
+Es la que se ejecuta en función de un objetivo, pero sin una
+69
+
+guía prediseñada que especifique cada uno de los aspectos
+que deben ser observados.
+•  Observación estructurada
+Es aquella que además de realizarse en correspondencia con
+unos objetivos, utiliza una guía diseñada previamente, en
+la que se especifican los elementos que serán observados.
+6.2.1. Instrumentos de la observación
+En el caso de la observación libre o no estructurada, se
+emplean instrumentos tales como: diario de campo, libreta o
+cuaderno de notas, cámara fotográfica y cámara de video.
+Para la observación estructurada, se utilizan instrumentos
+prediseñados tales como lista de cotejo, lista de frecuencias y
+escala de estimación.
+•  Lista de cotejo o de chequeo: también denominada lista de
+control o de verificación, es un instrumento en el que se indica la
+presencia o ausencia de un aspecto o conducta a ser observada.
+Se estructura en tres columnas:
+a)  En la columna izquierda se mencionan los elementos o
+conductas que se pretenden observar.
+b)  La columna central dispone de un espacio para marcar en
+el supuesto de que sea positiva la presencia del aspecto
+o conducta.
+c)  En la columna derecha, se utiliza el espacio para indicar si
+el elemento o la conducta no está presente.
+Ejemplo:
+El estudio se propone realizar un diagnóstico sobre la
+situación actual de la planta física del Colegio Universitario de
+Caracas (CUC).
+
+70
+
+Las aulas de clase son amplias	
+
+SI
+
+	 NO
+
+La iluminación es adecuada	
+
+SI
+
+	 NO
+
+La ventilación es suficiente		
+Los baños funcionan			
+Existen salidas de emergencia
+
+SI
+SI
+	 SI
+
+	 NO
+	 NO
+	 NO
+
+•  Lista de frecuencias: es un instrumento que se diseña
+para registrar cada vez que se presenta una conducta o
+comportamiento.
+Ejemplo:
+CONDUCTA				
+
+	
+
+FRECUENCIA
+
+Intervenciones en clase	
+Interacción con otros alumnos	
+		
+Interrupciones sin justificación	
+		
+	
+•  Escala de estimación: a diferencia de la lista de cotejo, que sólo
+considera la presencia o ausencia, este instrumento consiste
+en una escala que busca medir cómo se manifiesta una
+situación o conducta.
+Ejemplo:
+Se realiza una observación al personal de una empresa y
+se establecen algunos aspectos tales como:
+• El trato que se ofrece a los clientes  es:  
+	
+
+	 bueno 		
+			
+
+regular 		
+			
+
+deficiente
+
+	
+
+• La presentación personal de los empleados es:
+	 buena 		
+regular 		
+deficiente
+			
+		
+	
+
+	
+
+•  La relación entre los compañeros de trabajo es:
+	 buena 		
+regular 		
+deficiente
+			
+			
+71
+
+	
+
+6.3. La encuesta y sus instrumentos
+Se define la encuesta como una técnica que pretende
+obtener información que suministra un grupo o muestra
+de sujetos acerca de sí mismos, o en relación con un
+tema en particular.
+La encuesta puede ser oral o escrita:
+
+La encuesta oral se fundamenta en un interrogatorio “cara
+a cara” o por vía telefónica, en el cual el encuestador pregunta y
+el encuestado responde. Contraria a la entrevista, en la encuesta
+oral se realizan pocas y breves preguntas porque su duración es
+bastante corta.
+Sin embargo, esto permite al encuestador abordar una gran
+cantidad de personas en poco tiempo. Es decir, la encuesta oral
+se caracteriza por ser poco profunda, pero de gran alcance.
+Un ejemplo es el caso de los encuestadores que abordan a las
+personas en sitios públicos.
+Esta modalidad utiliza como instrumento una tarjeta
+contentiva de las preguntas y opciones de respuesta, la cual
+siempre es llenada por el encuestador, a diferencia de la encuesta
+escrita que se realiza a través de un cuestionario autoadministrado,
+el cual como su nombre lo indica, siempre es respondido de forma
+escrita por el encuestado.
+Otros instrumentos empleados en una encuesta oral, son
+las grabadoras y cámaras de video, de uso muy común en las
+encuestas que realizan en la calle los medios de comunicación.
+Las encuestas son empleadas frecuentemente en áreas
+específicas como la investigación de mercado, estudios del
+consumidor, encuestas electorales y estudios de opinión en general.
+Los resultados arrojados son utilizados para la toma de decisiones
+y el diseño de campañas de diversa índole.
+Por otra parte, la encuesta escrita es la que se realiza
+mediante un cuestionario y será tratada más adelante.
+72
+
+6.4. La entrevista y sus instrumentos
+	
+La entrevista, más que un simple interrogatorio, es
+una técnica basada en un diálogo o conversación “cara
+a cara”, entre el entrevistador y el entrevistado acerca de
+un tema previamente determinado, de tal manera que el
+entrevistador pueda obtener la información requerida.
+Esta técnica se diferencia de la modalidad oral de la encuesta
+en los siguientes aspectos:
+Una entrevista se caracteriza por su profundidad, es decir,
+indaga de forma amplia en gran cantidad de aspectos y detalles,
+mientras que la encuesta oral, como se dijo anteriormente, aborda
+de forma muy precisa o superficial uno o muy pocos aspectos.
+Por otra parte, la entrevista tiene un menor alcance en cuanto
+a la cantidad de personas que pueden ser entrevistadas en un
+período determinado, es decir, se abarcan menos personas.
+Realizar una entrevista puede ocupar un tiempo significativo
+en un solo entrevistado, a diferencia de la encuesta oral que por
+su brevedad puede incluir a varias personas en poco tiempo.
+La entrevista se clasifica en:
+Entrevista estructurada o formal
+Es la que se realiza a partir de una guía prediseñada que
+contiene las preguntas que serán formuladas al entrevistado.
+En este caso, la misma guía de entrevista puede servir como
+instrumento para registrar las respuestas, aunque también puede
+emplearse el grabador o la cámara de video.
+Entrevista no estructurada o informal
+En esta modalidad no se dispone de una guía de preguntas
+elaboradas previamente. Sin embargo, se orienta por unos
+objetivos preestablecidos que permiten definir el tema de la
+entrevista, de allí que el entrevistador deba poseer una gran
+habilidad para formular las interrogantes sin perder la coherencia.
+73
+
+Entrevista semi-estructurada
+Aun cuando existe una guía de preguntas, el entrevistador
+puede realizar otras no contempladas inicialmente. Esto se debe
+a que una respuesta puede dar origen a una pregunta adicional
+o extraordinaria. Esta técnica se caracteriza por su flexibilidad.
+Además de sus instrumentos específicos, tanto la entrevista
+estructurada como la no estructurada pueden emplear
+instrumentos tales como el grabador y la cámara de video.
+6.5. El cuestionario
+	
+Es la modalidad de encuesta que se realiza de
+forma escrita mediante un instrumento o formato en papel
+contentivo de una serie de preguntas. Se le denomina
+cuestionario autoadministrado porque debe ser llenado por
+el encuestado, sin intervención del encuestador.
+
+Cabe destacar que actualmente, el cuestionario también
+puede presentarse a través de medios magnéticos (CD o DVD) y
+electrónicos (correo electrónico e Internet).
+El cuestionario puede ser:
+a)  Cuestionario de preguntas cerradas: son aquellas que
+establecen previamente las opciones de respuesta que puede
+elegir el encuestado. Éstas se clasifican en: dicotómicas: cuando
+se ofrecen sólo dos opciones de respuesta; y de selección simple,
+cuando se ofrecen varias opciones, pero se escoge sólo una.
+Ejemplos:
+¿Posee usted vivienda propia?
+SI 	 NO
+En relación con el aborto, ¿usted está?
+		
+74
+
+A favor
+
+				
+
+En contra
+
+¿Posee usted vehículo propio?
+
+SI
+
+	 NO
+
+En relación con la condena a cadena perpétua, ¿usted está?
+		
+
+A favor
+
+				
+
+En contra
+
+Ejemplos de preguntas cerradas de selección simple:
+¿Cuál es su estado civil?
+¿Qué música le gusta escuchar?
+Soltero 	 				
+Pop 		
+	
+Casado	 				
+Salsa		
+Viudo	
+				
+Rock		
+		
+						
+Merengue	
+		
+						
+Romántica	
+						
+Otra		
+b)  Cuestionario de preguntas abiertas: son las que no
+ofrecen opciones de respuestas, sino que se da la libertad de
+responder al encuestado, quien desarrolla su respuesta de
+manera independiente.
+Ejemplo:
+¿Qué actividades realizó durante el último cargo
+desempeñado?
+c)  Cuestionario mixto: es aquel cuestionario que combina
+preguntas abiertas, cerradas y mixtas.
+6.5.1. Recomendaciones para la elaboración del
+cuestionario
+1. Las preguntas de un cuestionario no se inventan a
+capricho. Éstas deben tener una correspondencia con los
+objetivos específicos de la investigación. Además, son producto
+de la operacionalización de las variables y de la definición
+de los indicadores. Esto se puede apreciar en los cuadros
+que aparecen a continuación.
+75
+
+VARIABLE
+Calidad del servicio en el restaurante
+INDICADORES
+
+PREGUNTAS
+
+•	 Tr a t o c o r t é s y
+amable
+•	 Rapidez del servicio
+•	 C a l i d a d d e l a
+comida
+
+OPCIONES DE
+RESPUESTA
+
+¿El trato recibido en el •	 Cortés - indiferenterestaurante fue?
+desagradable
+¿El tiempo de servicio •	 Rápido - normalfue?
+lento
+¿Cómo evalúa la comida •	 Buena - regulardel restaurante?
+deficiente
+
+VARIABLE
+Cumplimiento de las funciones universitarias
+DIMENSIONES
+
+INDICADORES
+
+Docencia
+
+N° de secciones asignadas
+
+Investigación
+
+N° de investigaciones
+
+¿Cuántas secciones tiene
+asignadas?
+N° de alumnos atendidos ¿Cuántos alumnos atiende
+usted de manera formal y
+continua?
+
+N° de proyectos
+
+Extensión
+
+Cursos dictados
+Actividades extracátedra
+
+76
+
+PREGUNTAS
+
+¿Cuántas investigaciones
+ha realizado durante su
+trayectoria en la institución?
+¿En cuántos proyectos de
+investigación institucional
+ha participado?
+¿Ha dictado cursos de
+extensión universitaria?
+¿Ha participado en la
+conducción de alguna
+actividad extracátedra
+relacionada con la
+institución?
+
+2.  Ordenar las preguntas de lo general a lo particular (Ley
+del embudo). Consiste en colocar al inicio las preguntas más
+generales y luego las específicas. Ejemplo:
+¿Acostumbra usted ver televisión?
+SI 	 NO
+Si respondió afirmativamente, indique:
+¿En qué horario?
+¿Cuál es su canal preferido?
+¿Cuál es su programa favorito?
+¿Cuál es su artista predilecto?
+Otro ejemplo sería:
+¿Posee vehículo propio?
+SI
+
+	
+
+NO
+
+De ser positiva su respuesta, señale:
+Marca:
+Año:
+Modelo:
+Tipo:
+Color:
+3.  Evitar preguntas que abusen de la memoria del encuestado.
+Ejemplos:
+¿Qué lugar visitó usted durante las vacaciones escolares
+de 1993?
+¿Cuándo fue la última vez que vio una película de cine en
+blanco y negro?
+4.  Obviar preguntas sobre temas o conocimientos especializados.
+Ejemplos:
+¿Qué opina usted sobre el desarrollo actual que ha
+experimentado la nanotecnología?
+¿Qué expectativas tiene usted ante el avance de la mecatrónica?
+77
+
+5.  No incluir preguntas que induzcan a la respuesta (preguntas
+guía o sesgadas).
+Ejemplo:
+	
+
+Pregunta sesgada:
+¿Considera usted que ha sido un fracaso la política
+económica del gobierno?
+Pregunta reformulada:
+¿Qué opinión le merece la política económica del gobierno?
+
+6.  Omitir las preguntas que originen múltiples interpretaciones.
+Ejemplos:
+¿Lo ha hecho usted alguna vez?
+¿Cuántas veces le gusta hacerlo?
+7.  Separar las preguntas dobles, es decir, aquellas en las que se
+interroga sobre dos asuntos en una misma pregunta.
+Ejemplo:
+¿Le gusta cantar y bailar?
+Preguntas reformuladas:
+¿Le gusta cantar? 	
+SI
+¿Le gusta bailar?	
+SI
+
+	
+	
+
+NO
+NO
+
+8.  Incluir preguntas que permitan verificar respuestas anteriores
+o preguntas de control. Es decir, a partir de cualquier pregunta,
+formule otra interrogante que permita establecer la veracidad
+de la respuesta emitida anteriormente.
+Ejemplo:
+¿Conoce usted los principios básicos de la administración?
+Si su respuesta es positiva, mencione algunos (Control).
+Otra forma de control consiste en repetir una pregunta,
+pero con una redacción diferente. De esta manera se
+determina si hay consistencia en las respuestas.
+78
+
+9.  Emplear frases de enlace cuando sea necesario.
+Ejemplos:
+- Si responde afirmativamente, pase a la siguiente...
+- De ser negativa su respuesta, diga el porqué...
+10. Utilizar escalas de rangos para preguntas sobre asuntos muy
+personales, tales como, la edad y el salario.
+Ejemplo:
+Su sueldo mensual se ubica entre:
+200.000------ 300.000
+300.001------ 400.000
+400.001------ 500.000
+500.001------ 600.000
+más de 600.000
+11. Una vez construido el cuestionario, se recomienda aplicar
+una prueba piloto o sondeo preliminar a un pequeño grupo
+que no forme parte de la muestra, pero que sea equivalente
+en cuanto a sus características. Esto con la finalidad de
+establecer la validez, corregir cualquier falla y elaborar la
+versión definitiva del instrumento.
+
+La validez del cuestionario significa que las preguntas
+o ítems deben tener una correspondencia directa con los
+objetivos de la investigación. Es decir, las interrogantes
+consultarán sólo aquello que se pretende conocer o medir.
+
+79
+
+Conceptos Básicos
+
+Capítulo 7
+de Muestreo
+
+“Para realizar una investigación social,
+no hay que estudiar la totalidad de la población;
+basta con elegir una muestra representativa de la misma.”
+
+Ezequiel Ander-Egg
+
+7.1. Concepto de Población
+Una característica del conocimiento científico es la
+generalidad, de allí que la ciencia se preocupe por extender sus
+resultados de manera que sean aplicables, no sólo a uno o a
+pocos casos, sino que sean aplicables a muchos casos similares
+o de la misma clase. En este sentido, una investigación puede
+tener como propósito el estudio de un conjunto numeroso de
+objetos, individuos, e incluso documentos. A dicho conjunto se
+le denomina población.
+	
+La población, o en términos más precisos población
+objetivo, es un conjunto finito o infinito de elementos con
+características comunes para los cuales serán extensivas las
+conclusiones de la investigación. Ésta queda delimitada por
+el problema y por los objetivos del estudio.
+
+81
+
+Otros conceptos de importancia son:
+Población finita: agrupación en la que se conoce la cantidad
+de unidades que la integran. Además, existe un registro
+documental de dichas unidades.
+Ejemplos: pacientes hospitalizados en una clínica; huéspedes
+alojados en un hotel; los cursantes de una asignatura.
+	 Desde el punto de vista estadístico, una población finita es
+la constituída por un número inferior a cien mil unidades (Sierra
+Bravo, 1991 a).
+Población infinita: es aquella en la que se desconoce el total
+de elementos que la conforman, por cuanto no existe un
+registro documental de éstos debido a que su elaboración sería
+prácticamente imposible.
+	
+Ejemplo: trabajadores de la economía informal en un país.
+En la disciplina estadística, se considera una población
+infinita a la conformada por cien mil unidades o más (Sierra
+Bravo, 1991 a).
+Población accesible: también denominada población
+muestreada, es la porción finita de la población objetivo a
+la que realmente se tiene acceso y de la cual se extrae una
+muestra representativa. El tamaño de la población accesible
+depende del tiempo y de los recursos del investigador (Ary y
+otros, 1989).
+Recomendaciones respecto a la delimitación de la
+población
+1. La población objetivo debe quedar delimitada con claridad
+y precisión en el problema de investigación (interrogante) y
+en el objetivo general del estudio. Es decir, deben especificarse los sujetos o elementos que serán analizados y a los
+que se pretende hacer inferencias a partir de la muestra.
+82
+
+2.  Los tesistas e investigadores en formación que no cuenten
+con financiamiento, deben estudiar poblaciones finitas y
+accesibles. Esto facilitará la determinación de un tamaño
+de muestra adecuado y ajustado a la disponibilidad de
+tiempo y recursos.
+3. Si la población, por el número de unidades que la integran,
+resulta accesible en su totalidad, no será necesario extraer
+una muestra. En consecuencia, se podrá investigar u obtener
+datos de toda la población objetivo, sin que se trate estrictamente de un censo. Esta situación debe explicarse en el
+marco metodológico, en el que se obviará la sección relativa
+a la selección de la muestra.
+7.2. Concepto de muestra y tipos de muestreo
+	
+Cuando por diversas razones resulta imposible abarcar
+la totalidad de los elementos que conforman la población
+accesible, se recurre a la selección de una muestra.
+	
+La muestra es un subconjunto representativo y finito
+que se extrae de la población accesible
+	
+	
+En este sentido, una muestra representativa es aquella
+que por su tamaño y características similares a las del conjunto,
+permite hacer inferencias o generalizar los resultados al resto de
+la población con un margen de error conocido.
+Para seleccionar la muestra se utiliza una técnica o
+procedimiento denominado muestreo. Existen dos tipos básicos
+de muestreo:
+Probabilístico o Aleatorio y No Probabilístico
+7.2.1 Muestreo Probalilístico o Aleatorio: es un proceso
+en el que se conoce la probabilidad que tiene cada elemento de
+integrar la muestra. Este procedimiento se clasifica en:
+83
+
+Muestreo al azar simple: procedimiento en el cual
+todos los elementos tienen la misma probabilidad de ser
+seleccionados. Dicha probabilidad, conocida previamente,
+es distinta de cero 0) y de uno (1).
+Ejemplo:
+Valiéndose de la lista de alumnos, el docente asigna un
+número a cada uno. Luego todos los números se introducen en
+una caja para extraer, por sorteo, los integrantes de la muestra.
+Muestreo al azar sistemático: se basa en la selección de
+un elemento en función de una constante K. De esta manera
+se escoge un elemento cada k veces.
+Ejemplo:
+Para una población de 120 individuos, se define una
+muestra integrada por 30 sujetos. La constante K obtenida
+al azar es igual a 4. Luego se asigna un número a cada uno
+de los 120 individuos y se calcula el valor de inicio con la
+siguiente fórmula: N/n , entonces 120/30= 4. Esto significa
+que comenzaremos seleccionando el número 4 al que se le
+sumará la constante K=4, y así sucesivamente hasta obtener
+los treinta individuos que conformarán la muestra definitiva: 4,
+8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68,
+72, 76, 80, 84, 88, 92, 96, 100, 104, 108, 112, 116, 120.
+Muestreo estratificado: consiste en dividir la población
+en subconjuntos cuyos elementos posean características
+comunes, es decir, estratos homogéneos en su interior.
+Posteriormente se hace la escogencia al azar en cada estrato.
+Ejemplo:
+	
+En una institución de educación universitaria, se divide la
+población por carreras o especialidades, las cuales conformarán
+los estratos. Después se efectúa la selección aleatoria en cada
+una de ellas.
+84
+
+Muestreo por conglomerados: parte de la división del
+universo en unidades menores denominadas conglomerados.
+Más tarde se determinan los que serán objeto de investigación
+o donde se realizará la selección.
+Ejemplo:
+	
+Un municipio se divide en urbanizaciones. Más tarde,
+son seleccionadas aquellas de donde se extraerán, al azar, los
+elementos para la muestra.
+	
+La diferencia con el muestreo estratificado radica en
+que no todos los conglomerados son objeto de selección, por
+cuanto puede haber conglomerados de los cuales no se extraiga
+muestra. Mientras que en el estratificado, se debe extraer
+muestra de todos los estratos.
+7.2.2. Muestreo no probabilístico: es un procedimiento
+de selección en el que se desconoce la probabilidad que tienen
+los elementos de la población para integrar la muestra. Éste
+se clasifica en:
+Muestreo casual o accidental: es un procedimiento que
+permite elegir arbitrariamente los elementos sin un juicio o
+criterio preestablecido.
+Ejemplo:
+	
+Un encuestador se ubica en un sector y aborda a los
+transeúntes que pasan por el lugar. Lógicamente, las personas
+que no circulen por la zona, carecen de toda probabilidad
+para integrar la muestra.
+Muestreo intencional u opinático: en este caso los
+elementos son escogidos con base en criterios o juicios
+preestablecidos por el investigador.
+
+85
+
+Ejemplo:
+Para un estudio sobre calidad de la educación, previamente,
+se establecen como criterios de selección de la muestra los
+siguientes:
+–	Mínimo de 20 años de experiencia en el campo
+educativo.
+–	Poseer título de postgrado.
+–	Haber ocupado un cargo directivo.
+Por supuesto, la muestra la integrarán sólo aquellos que
+cumplan con las condiciones anteriores.
+Muestreo por cuotas: se basa en la elección de los
+elementos en función de ciertas características de la
+población, de modo tal que se conformen grupos o cuotas
+correspondientes con cada característica, procurando
+respetar las proporciones en que se encuentran en la
+población.
+Ejemplo:
+	
+Se establecen como características importantes para un
+sondeo de opinión, el sexo y la edad de la población. Luego se
+procederá a seleccionar cuotas de hombres, mujeres, jóvenes
+adultos y adultos mayores.
+Criterios para estimar el tamaño de la muestra
+	
+Básicamente se identifican criterios estadísticos, los
+vinculados con las capacidades del investigador y los expuestos
+en la literatura especializada.
+A. Criterios estadísticos
+A.1. Mediante el uso de fórmulas para calcular del tamaño
+de la muestra.
+A.2. A través del empleo de las tablas de Harvard, de las
+cuales se presenta la más usual. Ver página 90.
+86
+
+B. Criterios relacionados con las posibilidades del investigador
+B.1. Tiempo y recursos disponibles para realizar la investigación.
+En muchas instituciones universitarias, los tesistas, salvo
+algunas excepciones, no cuentan con financiamiento para
+desarrollar sus proyectos. Además, por lo general, sólo disponen
+de un semestre académico (16 semanas de clase) para recolectar
+los datos. En este sentido, se justifica plenamente que el tesista
+trabaje con un tamaño de muestra ajustado a sus posibilidades,
+sin descuidar la representatividad de la misma.
+B.2. Base de conocimientos sobre muestreo
+Son pocas las carreras que en sus planes de estudio
+comtemplan asignaturas y contenidos avanzados sobre teoría
+y técnicas de muestreo. Por lo tanto, los tesistas, en su mayoría,
+apenas reciben nociones sobre este aspecto tan especializado.
+En estos casos lo recomendable es asumir el criterio de
+escogencia del tamaño de la muestra acorde con el tiempo y
+recursos disponibles. Así mismo, se recomienda seleccionar
+muestras no probablilísticas según los objetivos de la investigación.
+C. Criterios señalados en la bibliografía especializada
+Ary y otros (1989), recomiendan lo siguiente:
+– Usar una muestra tan grande como sea posible, por cuanto
+una muestra de gran tamaño tiene mayores posibilidades de ser
+representativa de la población.
+– En diseños de investigación experimental es conveniente
+una muestra integrada, como mínimo, por 30 (treinta) sujetos en
+cada grupo.
+– En investigaciones descriptivas se recomienda seleccionar
+entre 10 y 20% de la población accesible.
+Por otra parte, Ramírez (2010), señala que son varios los
+autores que recomiendan trabajar en investigaciónes sociales, con
+aproximadamente, un 30% de la población.
+87
+
+7.3. Fórmulas para calcular el tamaño de la muestra
+7.3.1. Requisitos para la aplicación de las fórmulas
+El uso de las fórmulas que se presentan a continuación no es
+automático, ni pertinente en todos los casos. Para su aplicación se
+requiere una serie de condiciones y datos obtenidos previamente.
+En este sentido, las siguientes fórmulas, sólo se podrán aplicar
+si se cumplen estos requisitos:
+a) Que la investigación tenga por objetivo la estimación de
+la media poblacional, o de la proporción poblacional.
+b) El tipo de muestreo debe ser probabilístico o aleatorio.
+c) Disponibilidad de datos como la varianza poblacional,
+o la proporción en que se manifiesta una característica
+o variable en la población. Tal información puede
+ser obtenida mediante la revisión de estudios previos
+(antecedentes de investigación), o a través de una prueba
+o estudio piloto.
+d) Definición del nivel de confianza.
+e) Determinación del margen de error.
+f) Establecer previamente el tipo de población: si es finita o infinita.
+7.3.2. Fórmulas para calcular el tamaño de la muestra
+cuando el objetivo consiste en estimar la media poblacional
+7.3.2.1. Cuando el tamaño de la
+población es conocido (población
+finita)
+7.3.2.2. Cuando el tamaño
+de la población es desconocido
+(población infinita)
+88
+
+n
+
+N . Z2C . S2
+N . e2 + Z2C . S2
+n
+
+Z2C . S2
+e2
+
+7.3.3. Fórmulas para calcular el tamaño de la muestra
+cuando el objetivo radica en estimar la proporción poblacional
+7.3.3.1. Si el tamaño de
+la población es conocido
+(población finita)
+7.3.3.2. Si el tamaño de
+la población es desconocido
+(población infinita)
+
+n
+
+N . Z2C . p . q
+(N-1) . e2 + Z2C . p . q
+n=
+
+Z2C . p . q
+e2
+
+Nomeclatura:
+n = Tamaño de la muestra.
+N= Total de elementos que integran la población.
+Z2C=Zeta crítico: valor determinado por el nivel de confianza
+adoptado, elevado al cuadrado. Para un grado de confianza
+de 95% el coeficiente es igual a 2, entonces el valor de zeta
+crítico es igual a 22= 4 . Para un nivel de confianza del 99%
+el coeficiente es igual a 3, y zeta crítico es igual a 32 = 9 .
+S= Desviación típica o desviación estándar: medida de
+dispersión de los datos obtenidos con respecto a la media.
+e= Error muestral: falla que se produce al extraer la muestra de
+la población. Generalmente, oscila entre 1% y 5%.
+p= Proporción de elementos que presentan una determinada
+característica a ser investigada. Una proporción es la relación
+de una cantidad con respecto a otra mayor. Por ejemplo, en
+un grupo de 100 estudiantes hay 75 mujeres y 25 hombres.
+La fórmula es p = A/N. Entonces la proporción de mujeres
+es 75/100 = 0,75 y la proporción de hombres es 25/100
+= 0,25.
+q= Proporción de elementos que no presentan la característica
+que se investiga. Se aplica la fórmula anterior q=A/N, y
+p+q=1.
+89
+
+Ejemplo de aplicación de la fórmula 7.3.3.1.
+Se desea determinar el tamaño de la muestra para una
+población de 1000 profesores, con un nivel de confianza del 95%,
+un error del 5%, un valor de p = 40 y q = 60.
+1000 . 4 . 40 . 60
+999 . 25 + 4 . 40 .
+60
+n
+
+n
+
+9.600.000
+24.975 + 9600
+
+9.600.000
+34.575
+
+278 profesores
+
+Otra manera de obtener el tamaño de la muestra es a través
+de las tablas de Harvard. En este caso se presenta la más usual
+en poblaciones finitas, para un nivel de confianza del 95% y un
+supuesto de p=50%.
+Tamaño de la
+población
+
++/- 1%
+
++/- 2%
+
++/- 3%
+
++/- 4%
+
++/- 5%
+
++/- 6%
+
+222
+
+83
+
+385
+
+286
+
+91
+
+500
+1000
+1500
+
+638
+
+441
+
+316
+
+94
+
+2000
+
+714
+
+476
+
+333
+
+95
+
+2500
+
+1250
+
+760
+
+500
+
+345
+
+97
+
+3000
+
+1364
+
+811
+
+517
+
+353
+
+98
+
+3500
+
+1458
+
+843
+
+530
+
+359
+
+98
+
+4000
+
+1538
+
+870
+
+541
+
+364
+
+98
+
+4500
+
+1607
+
+891
+
+519
+
+36
+
+98
+
+5000
+
+1667
+
+909
+
+556
+
+370
+
+98
+
+6000
+
+1765
+
+938
+
+568
+
+375
+
+98
+
+7000
+
+1842
+
+949
+
+574
+
+378
+
+98
+
+8000
+
+1905
+
+976
+
+580
+
+381
+
+99
+
+1957
+
+989
+
+584
+
+383
+
+99
+
+10000
+
+9000
+5000
+
+2000
+
+1000
+
+588
+
+385
+
+99
+
+15000
+
+6000
+
+2143
+
+1034
+
+600
+
+390
+
+99
+
+20000
+
+6667
+
+2222
+
+1053
+
+606
+
+392
+
+100
+
+25000
+
+7143
+
+2273
+
+1064
+
+610
+
+394
+
+100
+
+50000
+
+8333
+
+2381
+
+1087
+
+617
+
+397
+
+100
+
+100000
+
+9091
+
+2439
+
+1099
+
+621
+
+398
+
+100
+
+...
+
+10000
+
+2500
+
+1111
+
+625
+
+400
+
+100
+
+Fuente: Ramírez (2010).
+
+90
+
+Parte II
+
+Guía para la elaboración de
+Proyectos de Investigación
+“Una guía para laborar proyectos es como una receta,
+cúmplala y obtendrá resultados satisfactorios.”
+
+Fidias G. Arias
+
+Capítulo 8
+Planificación
+
+de la Investigación
+
+“Planificar es decidirse por la racionalidad y
+la intencionalidad, en contra de los azares y las fatalidades.”
+
+Pierre Massé
+
+8.1. Etapas del proceso de investigación
+La investigación es un proceso dirigido a la solución de
+problemas del saber, mediante la obtención y producción de
+nuevos conocimientos.
+Dicho proceso comprende las siguientes etapas:
+a)  Planificación: consiste en trazar el plan o proyecto de la
+investigación por realizar.
+b)  Ejecución: significa poner en marcha el proyecto trazado, es
+decir, llevar a cabo la investigación.
+c)  Divulgación: una vez terminada la investigación y elaborado
+el informe final, los resultados y conclusiones deben darse a
+conocer por diversas vías: publicaciones científicas, ponencias
+en eventos científicos o páginas en Internet.
+A los efectos de este libro, nos centraremos principalmente
+en las etapas de planificación y ejecución.
+93
+
+8.2. Etapa de planificación de la investigación
+Esta etapa se divide en los siguientes pasos:
+a)  Selección del tema: consiste en ...”la definición y posterior
+delimitación del campo de conocimientos sobre el que piensa
+trabajar.” (Sabino, 1994, p. 74).
+Ejemplo:
+Área: Administración
+Tema general: Administración de empresas
+Tema específico: Administración de microempresas
+Tema delimitado: Formación administrativa del microempresario y rentabilidad de la microempresa en Venezuela
+(2011-2012).
+b)  Identificación de un problema: significa detectar algún vacío,
+laguna o aspecto no conocido dentro de un área temática,
+que amerite de una investigación para su solución.
+Ejemplo:
+¿Qué incidencia ha tenido la formación administrativa del
+microempresario en la rentabilidad de la microempresa
+venezolana durante el período 2011-2012?
+c)  Elaboración del anteproyecto: se refiere a la realización de
+...”un primer borrador o papel de trabajo que ha de conectar
+las ideas básicas sobre la investigación que nos proponemos
+llevar a cabo.” (Ramírez, 2010, p. 24).
+d)  Formulación del proyecto: se basa en la producción de un escrito
+más extenso y detallado que el anteproyecto y su presentación
+formal es el paso que antecede al informe de investigación o
+tesis de grado.
+
+94
+
+8.3. El anteproyecto de investigación
+	
+El anteproyecto o preproyecto de investigación es un
+documento breve en el cual se expresan las ideas iniciales
+acerca del estudio que se pretende realizar.
+Dicho documento no es más que un borrador o papel de
+trabajo cuya extensión...
+... no debe ser excesivamente larga. Al estar
+constituido por las ideas básicas de partida, es de
+esperarse que su amplitud no sea mayor de unas
+ocho (8) páginas escritas a máquina en hoja tamaño
+carta... (Ramírez, 2010, p. 24).
+Cabe señalar que el anteproyecto debe ser transcrito en
+computadora, como se elaboran la mayoría de los trabajos en
+la actualidad, aplicando un interlineado de espacio y medio o 1,5
+líneas (ver sección 10.4).
+Para Chavarría y Villalobos (1993), un anteproyecto es:
+Un instrumento previo al trabajo de investigación,
+que tiene por objeto: clarificar el asunto o problema
+por estudiar, delimitar el propósito de dicho estudio y
+plantear de manera general las condiciones y pasos
+de la investigación, de tal manera que sirva de guía
+en la realización de la misma. (p. 22).
+Los elementos básicos que deben incluirse en el anteproyecto
+son los siguientes:
+- Título tentativo
+- Planteamiento y formulación del problema
+- Objetivos
+- Elementos teóricos e hipótesis (de ser necesarias)
+- Metodología
+- Bibliografía preliminar
+95
+
+8.4. El proyecto de investigación
+“Un proyecto de investigación es el plan definido y concreto
+de una indagación a realizar, donde se encuentran especificadas
+sus características básicas.” (Sabino, 2006, p. 85).
+Según Lerma (2001):
+El proyecto es un documento que tiene como
+objetivo presentar y describir detalladamente lo que
+se va a investigar, la base teórica conceptual, los
+componentes metodológicos y los recursos humanos,
+técnicos y económicos, necesarios para realizar la
+investigación. (p. 77).
+En síntesis:
+	
+El proyecto investigación es un documento más
+amplio que el anteproyecto y consiste en la descripción del
+estudio que se propone realizar el investigador, es decir,
+expresa qué se va a investigar, cómo, cuándo y con qué
+se investigará.
+En muchas carreras universitarias se exige la entrega formal
+del proyecto como un requisito para la presentación del trabajo
+de grado o tesis. La diferencia entre el proyecto y el trabajo de
+grado o informe de investigación, radica en que el primero expresa,
+básicamente, mediante una redacción en futuro, los objetivos de
+la investigación, el cómo y cuándo se realizará la misma. En el
+informe o trabajo de grado, en cambio, se utiliza la redacción
+en pasado para comunicar qué y cómo se investigó, además de
+presentar los resultados y conclusiones derivadas del estudio.
+Por otra parte, es importante aclarar que, tanto la tesis como
+el trabajo de grado son informes de investigación. Sin embargo,
+los dos primeros se presentan en un contexto educativo como
+requisito para optar por un título académico.
+Mientras que un informe de investigación se puede realizar
+en cualquier contexto, por ejemplo, en el campo empresarial o en
+organismos públicos y privados.
+96
+
+El contenido del proyecto se sintetiza de la siguiente manera:
+Problema de investigación
+Objetivos de investigación
+Justificación
+Marco teórico
+Metodología
+Aspectos administrativos
+
+Lo que no se conoce
+¿Qué se pretende conocer?
+¿Por qué y para qué se desea
+conocer?
+Base para obtener el nuevo
+conocimiento
+¿Cómo se obtendrá el
+conocimiento?
+¿Cuándo y con qué recursos se
+llevará a cabo la investigación?
+(Presupuesto y cronograma)
+
+Ejemplo:
+¿Qué se desconoce? (PROBLEMA)
+¿Cuáles son las causas se la disminución de las ventas en la empresa?
+¿Qué se pretende con la investigación? (OBJETIVO)
+Identificar las causas de la disminución de las ventas en la empresa .
+¿Por qué realizar la investigación? (JUSTIFICACIÓN)
+Porque se desconoce lo que ocasiona la disminución en las ventas y
+de continuar esta situación se obtendrán cada vez menos ingresos,
+lo que a futuro impedirá cubrir los costos operativos de la empresa.
+¿Para qué? (JUSTIFICACIÓN)
+Para tomar decisiones e implantar correctivos con base en las
+causas que se identifiquen.
+8.4.1. Utilidad del proyecto de investigación
+Básicamente, un proyecto de investigación:
+a)  Sirve de guía al investigador respecto a los procedimientos que
+debe seguir para resolver el problema y lograr sus objetivos.
+b)  Permite ahorrar tiempo y recursos al precisar las acciones
+por realizar. Así mismo, previene los errores y la dispersión
+de actividades.
+97
+
+c)  Se utiliza para solicitar financiamiento ante organismos
+competentes.
+8.5. Esquema para el proyecto de investigación
+Cualquier proyecto, independientemente de la modalidad
+de trabajo o del tipo de investigación, contiene unos elementos
+básicos y comunes para todos los casos. En este sentido, todo
+proyecto comprende un problema, unos objetivos, una justificación,
+un marco teórico o conceptual y un marco metodológico o método.
+Es precisamente, en el marco metodológico, donde se
+establece la diferencia según el diseño adoptado. Por ejemplo, en
+los diseños de investigación documental monográfica, se omite la
+sección correspondiente a población y muestra. Mientras que en
+algunos diseños de campo y experimentales, se suele incluir una
+sección relativa a la prueba piloto o validación de los instrumentos.
+Por lo tanto, resulta inconveniente confundir al estudiante o
+al tesista con diversos y variados esquemas, ya que la diferencia
+es más de forma que de fondo.
+Así mismo, es importante recordar las características de un
+buen esquema (Soto, 2006):
+Completo: porque los títulos de los capítulos y secciones
+deben guardar correspondencia con todo el contenido.
+Lógico: dado que los títulos deben estar organizados y
+relacionados según el contenido de cada capítulo.
+Concreto: debido a que cada título debe expresar con precisión
+los aspectos tratados.
+Flexible: por cuanto puede ser adaptado o modificado, según
+el caso, sin obviar los elementos esenciales.
+A continuación se sugiere un esquema flexible para la
+presentación de proyectos de investigación, el cual puede ser
+adaptado según las normas o exigencias de la institución ante la
+que se presenta el proyecto.
+98
+
+ESQUEMA SUGERIDO
+TÍTULO TENTATIVO
+ÍNDICE
+INTRODUCCIÓN
+CAPÍTULO 1: EL PROBLEMA DE INVESTIGACIÓN
+	
+1.1. Planteamiento del problema
+	
+1.2. Formulación del problema
+	
+1.3. Objetivos
+	
+1.4. Justificación de la investigación
+	
+1.5. Limitaciones
+CAPÍTULO 2: MARCO TEÓRICO
+	
+2.1. Antecedentes de la investigación
+	
+2.2. Bases teóricas
+	
+2.3. Definición de términos básicos
+	
+2.4. Hipótesis (de ser necesarias)
+	
+2.5. Variables
+CAPÍTULO 3: MARCO METODOLÓGICO
+	
+3.1. Nivel de investigación
+	
+3.2. Diseño de investigación
+	
+3.3. Población y muestra*
+	
+3.4. Técnicas e instrumentos de recolección de datos
+	
+3.5. Técnicas de procesamiento y análisis de datos
+CAPÍTULO 4: ASPECTOS ADMINISTRATIVOS
+	
+4.1. Recursos: humanos, materiales, financieros
+	
+4.2. Cronograma de actividades o Diagrama de Gantt
+REFERENCIAS
+ANEXOS
+* Esta sección se omite en los diseños de investigación
+documental monográfica y en estudios de caso.
+99
+
+Capítulo 9
+Elementos
+
+del
+
+Proyecto
+
+de Investigación
+
+“No existe un esquema que
+se pueda tildar de único y universal...”
+
+Tulio Ramírez
+
+9.1. Aspectos preliminares:
+a)  Portada
+Deberá contener los siguientes datos:
+–  Nombre de la Institución, Facultad y Escuela. En algunas
+instituciones se exige la colocación del logotipo.
+– Título
+–  Autor (es)
+–  Tutor
+–  Lugar y fecha
+El título debe ser corto, claro y preciso. Si excede de dos
+líneas, se puede recurrir al uso de subtítulo.
+101
+
+Ejemplo:
+Título inicial:
+ANÁLISIS DE LA RELACIÓN ENTRE
+EL NIVEL DE AUTOESTIMA Y EL RENDIMIENTO
+ACADÉMICO EN ESTUDIANTES DE SOCIOLOGÍA
+DE LA UCV
+Título corregido:
+AUTOESTIMA Y RENDIMIENTO ACADÉMICO
+CASO: ESTUDIANTES DE SOCIOLOGÍA-UCV
+
+a)  Índice
+Refleja el contenido del proyecto en una adecuada
+estructuración del mismo en capítulos y secciones e indica
+el número correspondiente a las páginas en las que se inician
+(ver esquema sugerido pág. 99).
+b)  Introducción
+Se recomienda contemplar los siguientes aspectos:
+•  Breve reseña del tema en el que se ubica el problema por
+investigar.
+•  Importancia de la temática, su vigencia y actualidad.
+•  Propósito o finalidad de la investigación.
+•  Enfoque o postura teórica asumida.
+•  Conceptualizaciones básicas, necesarias para el posterior
+desarrollo del proyecto.
+•  Breve descripción de los capítulos que integran el proyecto.
+Cabe destacar que algunos autores obvian la
+introducción en el esquema del proyecto, por asumir que el
+capítulo introductorio está integrado por el planteamiento del
+problema, los objetivos y la justificación de la investigación,
+lo que se considera igualmente válido. Lo importante es no
+redundar o repetir aspectos en las distintas secciones.
+102
+
+9.2. Cuerpo del proyecto
+A continuación se analizan los elementos del proyecto,
+conservando la numeración correspondiente al esquema propuesto.
+1.  EL PROBLEMA DE INVESTIGACIÓN
+	
+
+1.1. Planteamiento del problema
+Para plantear el problema se recomienda lo siguiente:
+
+•  Describa la realidad objeto de estudio partiendo de lo general
+a lo específico (de lo macro a lo micro).
+•  Explique la situación actual.
+•   Indique los elementos o situaciones relacionadas con el problema.
+•  Aporte datos estadísticos y cifras confiables.
+•  Destaque la relevancia del problema.
+Si le resulta complicado identificar un problema de
+investigación, puede hacer uso de las siguientes fuentes:
+a)  Observación de problemas de carácter práctico, en cualquier
+ámbito: laboral, estudiantil, comunitario, etc.
+b)  Revisión profunda de la bibliografía e investigaciones sobre
+el tema.
+c)  Consulta a expertos en el área.
+d)  Líneas de investigación establecidas por instituciones.
+1.2. Formulación del problema o pregunta(s) de
+investigación
+Recuerde que la formulación es una interrogante sobre un
+aspecto no conocido de la realidad. En este sentido, redacte una
+pregunta clara y precisa que cumpla las siguientes condiciones:
+•  Debe guardar una estrecha correspondencia con el título del
+proyecto (ver Capítulo 3, sección 3.5).
+•    Evite adjetivos que impliquen juicios de valor tales como:
+bueno, malo, mejor, peor.
+103
+
+• La pregunta no debe dar origen a respuestas tales como si o no.
+De ser así, debe ser reformulada.
+• Debe estar delimitada en cuanto a tiempo, espacio y población,
+según el caso. Ejemplo:
+¿Cuáles fueron las causas que ocasionaron un incremento de
+la delincuencia en la ciudad de Caracas durante el 1er. semestre
+de 2005?
+1.3. Objetivos
+Tenga en cuenta que los objetivos de investigación son
+enunciados que expresan lo que se aspira saber. Para su
+formulación comience con un verbo en infinitivo y luego indique
+aquello que pretende estudiar y conocer. Si le resulta complicado
+precisar sus objetivos, intente responder las siguientes preguntas:
+¿qué deseo saber? , ¿qué información o resultados espero obtener?
+Ejemplos de objetivos:
+•    Determinar las causas que originan la delincuencia juvenil.
+•   Identificar los factores que inciden en el rendimiento estudiantil.
+•     Examinar la relación entre las variables nivel educativo e
+ingresos.
+Los objetivos de investigación no deben confundirse con
+actividades o procesos implícitos en el estudio.
+Son actividades y no objetivos de investigación:
+–  Aplicar una encuesta a los estudiantes de la UCV.
+–  Elaborar conclusiones.
+–  Entrevistar a los miembros del personal docente de la UCV.
+–  Formular recomendaciones.
+Por otra parte, también puede presentarse un objetivo
+general (en estrecha correspondencia con la formulación del
+problema), del cual se deriven objetivos específicos.
+104
+
+Ejemplo:
+
+				
+Título
+
+	
+CARACTERÍSTICAS SOCIOECONÓMICAS DE LOS
+ESTUDIANTES DEL 1er. SEMESTRE DE SOCIOLOGÍA DE LA UCV
+Cohorte 2005-II
+Formulación del problema
+¿Cuáles son las características socioeconómicas de los
+estudiantes del primer semestre de Sociología de la Universidad
+Central de Venezuela (cohorte 2005-II)?
+Objetivo general
+Definir las características socioeconómicas de los estudiantes
+del primer semestre de Sociología de la Universidad Central de
+Venezuela (cohorte 2005-II).
+Objetivos específicos:
+1.  Cuantificar el ingreso promedio del grupo familiar al que
+pertenece el estudiante.
+2.  Determinar el nivel educativo de los padres del estudiante.
+3.  Identificar el tipo de vivienda y la zona donde reside el
+estudiante.
+Evidentemente, en el ejemplo anterior, el cumplimiento
+de los objetivos específicos conduce al logro del objetivo general.
+1.4. Justificación de la investigación
+En esta sección deben señalarse las razones por las cuales
+se realiza la investigación y sus posibles aportes desde el punto
+de vista teórico o práctico.
+Para su redacción se recomienda incluir los siguientes
+aspectos:
+•  El porqué y para qué se hace la investigación (Hernández,
+Fernández y Baptista, 2010; Muñoz, 2011; Rojas Soriano, 2001).
+•  Relevancia científica, social y contemporánea (Ramírez, 1999).
+105
+
+•  Importancia del estudio y posibles aportes teóricos o prácticos.
+•  Probables beneficiarios con los resultados (directos e indirectos).
+1.5. Limitaciones
+Son obstáculos que eventualmente pudieran presentarse
+durante el desarrollo del estudio y que escapan del control del
+investigador.
+Ejemplos:
+–  Falta de cooperación de los encuestados al suministrar la
+información.
+–  La suspensión de actividades en una institución en la que se
+realiza una investigación.
+– Imposibilidad para controlar los efectos perturbadores provocados
+por variables extrañas en un experimento.
+2. MARCO TEÓRICO
+El marco teórico o marco referencial, es el producto de la
+revisión documental–bibliográfica, y consiste en una recopilación
+de ideas, posturas de autores, conceptos y definiciones, que sirven
+de base a la investigación por realizar.
+Dicho marco, generalmente, se estructura en tres secciones:
+2.1. Antecedentes de la investigación
+Esta sección se refiere a los estudios previos: trabajos
+y tesis de grado, trabajos de ascenso, artículos e informes
+científicos relacionados con el problema planteado, es decir,
+investigaciones realizadas anteriormente y que guardan
+alguna vinculación con nuestro proyecto, por lo que no deben
+confundirse con la historia del objeto en cuestión.
+	
+Los antecedentes reflejan los avances y el estado
+actual del conocimiento en un área determinada y sirven
+de modelo o ejemplo para futuras investigaciones.
+
+106
+
+En este punto es necesario señalar, además de los autores
+y el año en que se realizaron los estudios, los objetivos y
+principales hallazgos y aportes de los mismos.
+2.2. Bases teóricas
+	
+Las bases teóricas implican un desarrollo amplio de los
+conceptos y proposiciones que conforman el punto de vista
+o enfoque adoptado, para sustentar o explicar el problema
+planteado.
+Esta sección puede dividirse en función de los contenidos
+que integran la temática tratada o de las variables que serán
+analizadas.
+Para elaborar las bases teóricas de la investigación se
+sugiere considerar los siguientes aspectos:
+• Ubicación del problema en un enfoque teórico determinado.
+• Relación entre la teoría y el objeto de estudio.
+• Posición de distintos autores sobre el tema o problema de
+investigación.
+• Adopción de una postura teórica, la cual debe ser justificada.
+• Es muy importante que se realice un análisis o comentario
+explicativo después de citar textualmente a un autor.
+Ejemplo de un esquema de bases teóricas para una
+investigación sobre los factores que inciden en el rendimiento
+académico:
+2.2.1.   Concepto de rendimiento académico
+2.2.2.  Factores relacionados con el rendimiento académico
+2.2.2.1.  Factores personales que influyen el rendimiento
+académico
+107
+
+2.2.2.2.  Factores familiares que inciden en el rendimiento
+académico
+2.2.2.3. Factores institucionales asociados con el
+rendimiento académico
+	
+2.3. Definición de términos básicos
+Consiste en dar el significado preciso y según el contexto a
+los conceptos principales, expresiones o variables involucradas
+en el problema y en los objetivos formulados.
+Según Tamayo (1998), la definición de términos básicos “es
+la aclaración del sentido en que se utilizan las palabras o conceptos
+empleados en la identificación y formulación del problema.” (p. 78).
+Ejemplo:
+El término “demanda”, en una investigación sobre Economía,
+se refiere a la cantidad de productos solicitados o adquiridos en
+un período determinado.
+Mientras que, en un estudio sobre Derecho, “demanda”
+equivale al escrito mediante el cual una de las partes ejerce, en
+juicio, una acción o reclamo contra la otra parte.
+Erróneamente, se tiende a confundir esta sección con un
+glosario, por tal razón se establecieron las siguientes diferencias:
+	
+Definición de términos
+básicos
+• Contiene sólo los vocablos
+
+• Puede ubicarse luego  del
+problema o en el marco
+teórico.
+
+108
+
+Glosario
+•   Contiene los vocablos de
+difícil comprensión en un
+texto.
+•    Se ubica al final de la
+obra.
+
+2.4. Hipótesis
+En función de la complejidad del problema, en el proyecto
+de investigación se podrá formular una sola hipótesis, o varias
+que conformen un sistema.
+Un sistema de hipótesis es el conjunto de suposiciones
+relacionadas entre sí, que son sometidas a prueba en una
+investigación.
+Ejemplo de un sistema de hipótesis:
+Hipótesis de investigación:
+Hi: “El otorgamiento de una bonificación en dinero a los
+trabajadores, incidirá en un aumento de la producción”.
+Hipótesis alternativa:
+Ha: “El otorgamiento de una bonificación en alimentos a los
+trabajadores, incidirá en un aumento de la producción”.
+Hipótesis nula:
+Ho: ”El otorgamiento de una bonificación a los trabajadores
+no tendrá incidencia en la producción”.
+2.5. Variables
+Las variables de estudio pueden presentarse en un cuadro
+de operacionalización en el cual se especifiquen sus dimensiones
+e indicadores (ver Capítulo 5, sección 5.4). Éstas pueden ser
+analizadas de forma independiente, en el caso de estudios
+descriptivos; o mediante un sistema, en investigaciones explicativas.
+Un sistema de variables es el conjunto de
+características cambiantes que se relacionan según su
+dependencia o función en una investigación.
+Ejemplo en correspondencia con la hipótesis del caso anterior:
+Variable independiente: bonificación
+Variable dependiente: producción
+109
+
+Variables intervinientes: condiciones del sitio de trabajo,
+supervisión y otros incentivos.
+Por supuesto, en el sistema también deben señalarse las
+dimensiones e indicadores de cada variable.
+Por último, es importante aclarar que la ausencia de hipótesis
+no implica la inexistencia de variables en la investigación (ver
+Capítulo 2, sección 2.2.2).
+3. MARCO METODOLÓGICO
+La metodología del proyecto incluye el tipo o tipos de
+investigación, las técnicas y los instrumentos que serán utilizados
+para llevar a cabo la indagación. Es el “cómo” se realizará el
+estudio para responder al problema planteado.
+3.1. Nivel de investigación
+En esta sección se indica el tipo de investigación según el
+nivel o grado de profundidad con el que se realizará el estudio.
+En este sentido, la investigación podrá ser exploratoria, descriptiva
+o explicativa. En cualquiera de los casos es recomendable justificar
+el nivel adoptado (ver Capítulo 2, sección 2.2).
+3.2. Diseño de investigación
+En este punto se especifica el tipo de investigación según
+el diseño o estrategia adoptada para responder al problema
+planteado. Recuerde que según el diseño, la investigación puede
+ser documental, de campo o experimental. Así mismo, cada tipo
+se puede realizar a nivel exploratorio, descriptivo o explicativo.
+3.3. Población y Muestra
+El término población se refiere a “...cualquier conjunto de
+elementos de los que se quiere conocer o investigar alguna o
+algunas de sus características.” (Alcaide, citado por Balestrini, 2001).
+La muestra es un “subconjunto representativo de un universo
+o población.” (Morles, 1994, p. 54).
+110
+
+En esta sección se describirá la población, así como el
+tamaño y forma de selección de la muestra, es decir, el tipo de
+muestreo, cuando sea procedente.
+Este punto se omite en:
+a)  Investigaciones documentales monográficas, debido a que el
+universo equivale al tema de estudio.
+b)  Estudios de caso único, los cuales se concentran en uno o
+pocos elementos que se asumen, no como un conjunto sino
+como una sola unidad.
+3.4. Técnicas e instrumentos de recolección de datos
+Las técnicas de recolección de datos son las distintas formas
+o maneras de obtener la información. Son ejemplos de técnicas;
+la observación directa, la encuesta en sus dos modalidades: oral o
+escrita (cuestionario), la entrevista, el análisis documental, análisis
+de contenido, etc.
+Los instrumentos son los medios materiales que se emplean
+para recoger y almacenar la información. Ejemplo: fichas, formatos
+de cuestionario, guía de entrevista, lista de cotejo, escalas de
+actitudes u opinión, grabador, cámara fotográfica o de video, etc.
+En este aparte se indicarán las técnicas e instrumentos que
+serán utilizados en la investigación.
+3.5. Técnicas de procesamiento y análisis de datos
+En este punto se describen las distintas operaciones a las
+que serán sometidos los datos que se obtengan: clasificación,
+registro, tabulación y codificación si fuere el caso.
+En lo referente al análisis, se definirán las técnicas lógicas
+(inducción, deducción, análisis-síntesis), o estadísticas (descriptivas
+o inferenciales), que serán empleadas para descifrar lo que revelan
+los datos recolectados.
+111
+
+4. ASPECTOS ADMINISTRATIVOS
+Los aspectos administrativos comprenden un breve capítulo
+en el cual se expresan los recursos y el tiempo necesario para el
+desarrollo o ejecución de la investigación.
+4.1. Recursos necesarios
+Recursos materiales: equipos de computación, accesorios,
+material de oficina.
+Recursos humanos: asistentes de investigación, encuestadores
+o cualquier otro personal de apoyo.
+Recursos financieros: se indican a través de un presupuesto.
+4.2. Cronograma de actividades
+Se expresa mediante un gráfico en el cual se especifican
+las actividades en función del tiempo de ejecución.
+Puede representarse mediante un diagrama de Gantt.
+Ejemplo:
+ACTIVIDAD
+Arqueo Bibliográfico
+Elaboración del marco teórico
+Diseño de los instrumentos
+Prueba de los instrumentos
+Recolección de los datos
+Procesamiento de datos
+Análisis de los datos
+Redacción del borrador
+Revisión y corrección del
+borrador
+Presentación del informe
+
+112
+
+FEB
+
+MAR ABR MAY JUN JUL
+
+5. REFERENCIAS
+Las referencias comprenden una lista de los documentos
+citados en el texto del proyecto, ordenados alfabéticamente a partir
+del apellido del autor. En cuanto a las normas para su presentación,
+éstas serán desarrolladas en el próximo capítulo.
+6. ANEXOS
+Los anexos constituyen elementos adicionales que se
+excluyen del cuerpo del trabajo y se agregan al final del mismo.
+Los modelos de instrumentos: cuestionarios y guías de entrevista,
+ilustraciones, artículos de prensa y cualquier otra información
+complementaria son ejemplos de anexos.
+Cuando los materiales agregados son elaboración del autor
+del proyecto, reciben la denominación de apéndices.
+
+113
+
+Capítulo 10
+Sistema Autor-Fecha: Normas APA-UPEL
+“Todo investigador verdadero
+puede crear su propio método.”
+
+Víctor Morles
+
+10.1. Comentarios previos
+El sistema autor-fecha se utiliza desde hace muchos años,
+sobre todo en países de habla inglesa. En la actualidad, dicho sistema
+ha ganado mayor popularidad gracias al Publication Manual,
+editado inicialmente en 1952 por la American Psychological
+Association (APA).
+En este sentido, se decidió adoptar algunas de las normas
+contenidas en la más reciente edición del mencionado manual
+(6a. ed.), cuyo uso se ha extendido en gran parte de la comunidad
+científica y académica, nacional e internacional.
+Así mismo, también fue consultado el Manual de Trabajos de
+Grado de Especialización y Maestría y Tesis Doctorales, publicado
+por la Universidad Pedagógica Experimental Libertador (UPEL), el
+cual presenta una excelente adaptación del estilo APA al contexto
+latinoamericano y venezolano.
+115
+
+Queda claro que el uso de las normas que se presentan a
+continuación no es estrictamente obligatorio, por cuanto existen
+otros sistemas y estilos de presentación. No obstante, se recomienda
+mantener uniformidad en la utilización de cualquiera que sea el
+sistema elegido.
+10.2.  Orientaciones para el uso de citas textuales y de
+referencia
+a)  Las citas textuales o directas, se
+emplean para transcribir exactamente
+lo expresado por otros autores. Cuando
+la cita ocupa un máximo de tres líneas,
+se debe incorporar al texto entre
+comillas. Luego, es indispensable
+señalar la fuente entre paréntesis
+mediante el sistema autor-fecha.
+Dicho sistema requiere la inclusión
+de los siguientes datos: apellido del
+autor, año de publicación de la obra
+consultada y número de la página de
+la cual fue extraida la cita textual.
+
+“
+”
+
+b)  Aquellas citas textuales con una
+extensión mayor de tres líneas, se
+transcriben en un párrafo aparte, con
+cinco espacios de sangría por ambos
+lados. Este tipo de cita se transcribirá a
+un espacio entre líneas y sin comillas.
+c) 	 Las citas de referencia o indirectas (también llamadas ideológicas),
+se utilizan para describir brevemente trabajos de investigación
+o contenidos de una obra. En este caso se omiten las comillas,
+pero se identifica la fuente mediante el sistema autor-fecha (ver
+ejemplos en pág. 119).
+116
+
+d)  Según la UPEL (2011), también son formas de citas indirectas
+la paráfrasis y el resumen, las cuales se emplean para no
+incurrir en el uso excesivo de citas textuales. La paráfrasis
+consiste en la interpretación de las ideas y conceptos emitidos
+por un autor, con el empleo de nuestras palabras. Por otra
+parte, el resumen se utiliza para sintetizar o reducir textos de
+gran amplitud, igualmente con palabras propias. En ambos
+casos debe indicarse: autor, año y página, como si se tratara
+de una cita textual.
+Ejemplos de citas textuales:
+Cita con una extensión menor de tres líneas:
+“Trabajemos con hipótesis o con objetivos de investigación
+siempre hemos de precisar las variables a estudiar.” (Ramírez,
+2010, p. 81).
+Como podrá observarse, la cita aparece entre comillas y además
+se expresa, entre paréntesis, el apellido del autor, así como el año
+de publicación de la obra y el número de la página de la cual se
+extrajo la misma.
+Otra forma sería:
+Según Pardinas (1991) ...”el verdadero problema de
+investigación es el que pregunta por conocimientos desconocidos
+para todos en un momento dado.” (p. 62).
+En ese caso, el apellido del autor se ha incorporado al
+texto, por lo tanto, sólo se encierra entre paréntesis la fecha de
+la publicación.
+En el caso de dos autores:
+“El anteproyecto de tesis es el documento que permite
+al investigador precisar el problema que se pretende estudiar...”
+(Chavarría y Villalobos, 1993, p. 21).
+117
+
+Cita con una extensión mayor de tres líneas:
+En relación con la cita textual, Sabino (2006) señala:
+Para indicar claramente a nuestros lectores que estamos
+utilizando material extraído de la bibliografía es preciso,
+rigurosamente, encerrar entre comillas las palabras que
+citamos. Debe prestarse especial cuidado a este detalle
+formal puesto que de otro modo estaríamos cometiendo
+sencillamente un plagio, utilizando como si fueran nuestras,
+expresiones que hemos tomado de los demás. (p. 45).
+
+A diferencia de los tres primeros ejemplos, en el caso
+anterior, por excederse de tres líneas, la cita se transcribe con
+cinco espacios de sangría por lado, interlineado de un espacio
+y sin comillas.
+Otros ejemplos:
+Con respecto al marco teórico de la investigación,
+Hernández, Fernández y Baptista (2010) señalan:
+Al construir el marco teórico, debemos centrarnos en el
+problema de investigación que nos ocupa sin divagar en
+otros temas ajenos al estudio. Un buen marco teórico no es
+aquel que contiene muchas páginas, sino el que trata con
+profundidad únicamente los aspectos relacionados con el
+problema, y que vincula de manera lógica y coherente los
+conceptos y proposiciones existentes en estudios anteriores.
+(p. 66).
+
+Sobre la diferencia entre un problema de investigación y
+un problema social, Briones (1998), expresa lo siguiente:
+No debe confundirse un problema social con un problema
+de investigación. Un problema social se convierte en un
+objeto de indagación cuando nos hacemos preguntas sobre
+características de tal problema, de sus relaciones con otros
+sucesos y sobre la base de esas preguntas elaboramos
+un marco conceptual y una estrategia metodológica para
+encontrarles respuestas. (p. 81).
+118
+
+Ejemplos de citas de referencia o indirectas:
+Trabajo de un autor:
+Lerma (2001), define la hipótesis como una repuesta
+tentativa al problema, que debe ser sometida a comprobación...
+Una recomendación válida es redactar la introducción al
+final, aun cuando se presente al inicio del proyecto. (Balestrini, 2001).
+Trabajo de dos autores:
+Para Chavarría y Villalobos (1993), al construir un marco
+teórico se debe partir de un esquema temático suficientemente
+desglosado...
+En líneas generales, el lenguaje científico se caracteriza
+por ser impersonal, objetivo, técnico, claro y preciso... (Cervo y
+Bervian, 1989).
+Trabajo de tres o más autores:
+Ary, Jacobs y Razavieh (1989), expresan que el origen de
+una investigación científica es un problema o interrogante que
+requiere una respuesta como solución...
+Cuando se citan por primera vez, tres o más autores, se
+colocan los apellidos de todos. A partir de la segunda vez, se
+coloca el apellido del primer autor seguido de la frase ‘y otros’.
+Trabajo de autoría institucional:
+Según la UPEL (2011), la extensión del proyecto de
+investigación no debe superar las cuarenta (40) páginas...
+La APA (2010), establece la posibilidad de utilizar notas
+al pie de página para hacer comentarios sobre el contenido...
+En los ejemplos anteriores se aprecia que, aun cuando no
+se transcriben textualmente palabras de los autores, sí se extraen
+sus ideas, por lo tanto, éstos deben ser citados e incluidos en la
+lista de referencias bibliográficas.
+119
+
+Cita de una cita realizada por otro autor:
+Ander-Egg (citado por Tamayo, 2001), define la
+investigación como un procedimiento...
+10.3.  Normas para la presentación de la lista de
+referencias
+La lista de referencias debe incluir sólo las fuentes citadas en
+el texto, tanto las citadas textualmente como las citas indirectas o
+de referencia.
+10.3.1. Libros
+a) Apellido del autor, (coma)
+b) Inicial(es) del nombre. (punto)
+c) Año de publicación entre paréntesis. (punto)
+d) Título de la obra en cursivas
+e) Edición entre paréntesis. (punto)
+f)  Ciudad: (dos puntos)
+g) Editorial. (punto)
+El número de edición se indica sólo a partir de la segunda.
+Si se trata de la primera, luego del título se coloca punto.
+10.3.2. Artículos en revistas, periódicos o libros
+compilados
+a) Apellido del autor, (coma)
+b) Inicial(es) del nombre. (punto)
+c) Año de publicación entre paréntesis. (punto)
+d) Título del artículo en letras regulares. (punto)
+e) Nombre de la publicación en cursivas, (coma)
+f) Número del volumen en cursivas
+g) Número del ejemplar entre paréntesis, (coma)
+h) Número de la(s) página(s). (punto) 
+120
+
+10.3.3. Trabajos de grado, tesis y trabajos de ascenso
+a) Apellido del autor, (coma)
+b) Inicial(es) del nombre. (punto)
+c) Año de publicación entre paréntesis. (punto)
+d) Título del trabajo o tesis en cursivas. (punto)
+e)  Denominación: especificar si se trata de trabajo de grado de
+licenciatura o maestría, tesis doctoral o trabajo de ascenso;
+con la indicación de no publicado, (coma)
+f)   Institución donde fue presentado, (coma)
+g)   Ciudad. (punto)
+Si el trabajo fue publicado, se presenta de la misma manera
+que un libro.
+10.3.4. Documentos de carácter legal
+a) Título en letras regulares o sin cursivas
+b) Información adicional entre paréntesis (N° de decreto o
+resolución, por ejemplo). (punto)
+c) Fecha entre paréntesis: año, mes y día. (punto)
+d) Nombre de la publicación en cursivas, (coma)
+e) Número de la publicación en cursivas, (coma)
+f)  Fecha de la publicación: día, mes y año. (punto)
+La fecha de emisión del decreto o resolución puede no
+coincidir con la de publicación.
+10.3.5. Fuentes electrónicas
+a) Apellido del autor(es), (coma)
+b) Inicial(es) del nombre. (punto)
+c) Año de elaboración entre paréntesis. (punto)
+d) Título del documento en cursivas, excepto en artículos y
+capítulos en libros compilados
+121
+
+e) Tipo de fuente entre corchetes. (punto)
+f)  Datos de publicación. (punto)
+g) Fecha de consulta (la APA se refiere a la fecha de recuperación
+del documento)
+h) Dirección electrónica antecedida de la frase:
+Consultado(a) el (día, mes y año) en: (dos puntos)
+Importante: no coloque punto al final de la dirección
+electrónica.
+10.3.6. Otras indicaciones:
+  1.  La entrada de cada referencia se alinea a la izquierda pero
+se dejan tres espacios al comenzar la segunda línea (sangría
+francesa). Ejemplos:
+Arias, F. (2004). El proyecto de investigación: Introducción a
+la metodología científica (4a ed.). Caracas: Episteme.
+Arias, F. (2006). Mitos y errores en la elaboración de tesis y
+proyectos de investigación (3a ed.). Caracas: Episteme.
+  2.  Los casos de autores con igual apellido se organizan según
+la inicial del nombre.
+Ejemplo:
+		
+Becerra, A. (1997)
+		
+Becerra, L. (1988)
+  3.  Varios trabajos del mismo autor se ordenan por el año de
+publicación, comenzando por el más antiguo. Ejemplo:
+		
+	
+	
+
+Sabino, C. (1986)
+Sabino, C. (1994)
+Sabino, C. (2000)
+
+4.  Los trabajos publicados en el mismo año por un autor, se
+organizan alfabéticamente a partir del título, agregando al
+año una letra correlativa.
+122
+
+Ejemplo:
+	
+	 	
+			
+
+Sierra Bravo, R. (1991 a). Diccionario...
+
+			
+
+Sierra Bravo, R. (1991 b). Técnicas...
+
+  5.  En el caso de una obra cuya autoría es desconocida, se
+indica el título en el lugar del autor.
+  6.  Cuando el autor de la obra es también el editor, se coloca
+la palabra: Autor, en el lugar correspondiente a la editorial.
+  7.  Si se trata de un artículo o capítulo de un libro compilado, el
+nombre completo del editor o compilador no se invierte, es
+decir, se permite colocar primero las iniciales y luego el apellido.
+  8.  Cuando un libro está por publicarse, o si un artículo ha sido
+aprobado para su publicación, se coloca: en imprenta o en
+prensa.
+  9.  Los términos editorial y volumen deben omitirse por estar
+implícitos en la referencia.
+10.  En los artículos publicados en periódicos, además del año,
+se indica el mes y el día de la publicación entre paréntesis.
+Para señalar, la página o páginas se utilizan las abreviaturas
+p. o p.p.
+11. En general, los títulos de los trabajos consultados se escriben
+con cursivas. Sin embargo, existen excepciones como los
+artículos publicados en prensa o en revistas especializadas, los
+capítulos de libros compilados y las ponencias publicadas. En
+estos casos, para el título se utilizan letras regulares, mientras
+que el nombre de la publicación en la que aparecen, se escribe
+con cursivas.
+Un ejemplo de lo anterior es el siguiente:
+•   En el caso de referencias de ponencias presentadas en
+eventos, pero no publicadas, el título de la ponencia se
+escribe con cursivas.
+123
+
+•   En las ponencias presentadas y publicadas en memorias
+del evento u otro medio impreso, el título se escribe con
+letras regulares pero el nombre de la publicación se escribe
+con letras cursivas o itálicas.
+12.  Los corchetes [ ] se emplean para:
+– Colocar la palabra resumen, luego del título del mismo.
+– Especificar que se trata de entrevistas reseñadas, grabaciones,
+filmaciones, tipo de fuente electrónica o programa de
+computación.
+13.  Pueden emplearse las siguientes abreviaturas según el caso:
+– (s.f.): sin fecha
+– (Comp.): compilador
+– (Comps.): compiladores
+– (ed.): edición
+– (Ed.): editor
+– (Eds.): editores
+EJEMPLOS
+FUENTES IMPRESAS
+LIBROS
+Un autor
+Ander-Egg, E. (1982). Técnicas de investigación social (19a
+ed.). Buenos Aires: Humanitas.
+Bunge, M. (1985). La investigación científica (2a ed.).
+Barcelona, España: Ariel.
+Dos autores
+Campbell, D. y Stanley, J. (1973). Diseños experimentales y
+cuasiexperimentales en la investigación social. Buenos
+Aires: Amorrortu.
+Van Dalen, D. y Meyer, W. (1984). Manual de técnica de la
+investigación educacional. Barcelona: Paidós.
+124
+
+Tres autores
+Selltiz, C.; Wrightsman, L. y Cook, S. Métodos de investigación
+en las ciencias sociales (9a ed.). Madrid: Rialp.
+Autor institucional
+Universidad Nacional Abierta. (1984). Técnicas de
+documentación e investigación I. (6a ed.). Caracas:
+Autor.
+Universidad Nacional Experimental Simón Rodríguez. (1980).
+
+Alcances generales sobre técnicas andragógicas de
+aprendizaje. Caracas: Autor.
+
+Edición conjunta
+Sabino, C. y Rodríguez, J. (1991). La Seguridad Social en
+Venezuela. Caracas: Panapo/Cedice.
+Tamayo, M. (1991). Metodología formal de la investigación
+científica. México: Limusa/Noriega.
+Compilador(es)
+Festinger, L. y Katz, D. (Comps.). (1979). Los métodos de
+investigación en las ciencias sociales. Buenos Aires:
+Paidós.
+ARTÍCULOS
+Artículos en revista especializada
+Ascanio, A. (1988). Competencias de los docentes para el
+desarrollo del proceso de aprendizaje e instituciones de
+educación superior. Revista de Investigación Educacional,
+15 (32), 1-8.
+Ramírez, T. ; Rodríguez, P. y Camargo L. (1997). Creencias
+y actitudes hacia la escogencia de la carrera docente.
+Revista de Pedagogía, XVIII (49),11-28.
+Artículos en periódicos
+Espina, G. (1992, Noviembre 1). Pobres tesistas pobres.
+El Nacional, p. A-4.
+125
+
+Artículos en libro compilado
+Arias, F. (2006). Metodología de la investigación en las ciencias
+aplicadas a la actividad física y al deporte. En P. García
+Avendaño (Comp.), Introducción a la investigación
+
+bioantropológica en actividad física, deporte y salud
+(pp. 21-44). Caracas: CDCH/FACES-UCV.
+
+Montero, N. ; Loaiza, R. y Reinfel, B. (1990). Consecuencias
+emocionales en los niños de los conflictos no resueltos
+de la pareja. En N. Montero (Comp.), Estereotipos
+sexuales, matrimonio, divorcio y salud mental (pp.
+159-185). Caracas: Universidad Central de Venezuela.
+PONENCIAS
+Ponencias presentadas en eventos
+Arias, F. (1997, Mayo). Mitos en la elaboración de tesis y
+proyectos de investigación. Ponencia presentada en las I
+Jornadas de reflexión sobre la enseñanza y la práctica de
+las metodologías de la investigación social en Venezuela.
+Universidad Central de Venezuela, Caracas.
+Peña, J. (1993).Tendencias de la ciencia y la tecnología
+
+en Venezuela: La situación de la investigación en
+la educación superior. Ponencia presentada en el
+
+III Seminario Nacional sobre Metodología de la
+Investigación en la Educación Superior. Universidad del
+Zulia, Maracaibo.
+Ponencias publicadas en revistas o memorias de eventos
+Montero, M. (1992). Permanencia y cambio de paradigma
+en la construcción del conocimiento científico.
+
+Memoria del Congreso Hispanoamericano de
+Investigación Educativa (pp. 33-57). Caracas:
+Universidad Simón Bolívar.
+
+126
+
+Torres de Giménez, F. (1994). Metas y estrategias cognitivas
+que estimulan la elaboración de la tesis de grado
+[Resumen]. Investigación y Postgrado. VII Seminario
+Nacional de Investigación Educativa, 9 (2), 169.
+TRABAJOS ACADÉMICOS
+Trabajos de grado y tesis doctorales
+Parada de Arellano, A. (1975). Lectura y marginalidad.
+Tesis doctoral no publicada. Universidad Central de
+Venezuela, Caracas.
+Rojas, B. (1987). Clima organizacional: Factores generadores
+de stress en los profesores de educación media. Trabajo
+de grado de maestría no publicado. Universidad Central
+de Venezuela, Caracas.
+Trabajos de ascenso
+Loreto, J. (1995). Condiciones de ingreso y rendimiento
+
+académico en estudiantes de la Escuela de
+Educación-UCV. Trabajo de ascenso no publicado.
+Universidad Central de Venezuela, Caracas.
+
+Sabino, C. (1981). La tecnocracia como clase. Trabajo de
+ascenso no publicado. Universidad Central de Venezuela,
+Caracas.
+OTROS DOCUMENTOS IMPRESOS
+Informes técnicos
+Banco Central de Venezuela. (2011). Informe económico.
+Caracas: Autor.
+Instituto Nacional de Estadística (2012). Encuesta de hogares
+por muestreo. Caracas: Autor.
+127
+
+Documentos legales
+Ley Orgánica del Trabajo, las Trabajadoras y los Trabajadores.
+(Decreto N° 8.938 del 30 de abril de 2012). Gaceta
+Oficial de la República Bolivariana de Venezuela, 6.076
+(Extraordinaria), 12-05-2012.
+FUENTES AUDIOVISUALES Y SÓLO AUDIO
+Video
+IES ‘‘Antonio María Calero’’. (2008). Método científico [Video
+en línea]. Disponible en: http://www.youtube.com/
+watch?v=o76zI0YBmMs
+Grabación de audio
+Sección de Medios Audiovisuales. (8 de noviembre de
+2003). Mesa redonda universitaria [Programa de radio
+grabado en CD]. Colegio Universitario de Caracas.
+FUENTES ELECTRÓNICAS
+DOCUMENTOS EN INTERNET Y EN FORMATO DIGITAL
+Páginas web
+Biblioteca Nacional de Venezuela. (2012). [Página web en
+línea]. Disponible en: http://www.bnv.gob.ve
+American Psychological Association (2012). [Página web
+en línea]. Disponible en: www.apa.org
+Libro en línea
+Gago, A. (2002). Apuntes acerca de la evaluación
+educativa [Libro en línea]. Consultado el 27 de
+octubre de 2003 en: www.sep.gob.mx/wb2/sep/
+sep_5_Apuntes_Acerca_de_la_Evaluación_Educativa
+FAO. (1996) Guía metodológica de comunicación social en
+nutrición [Libro en línea]. Consultado el 23 de octubre
+de 2003 en: www.mercadomodelo.net/fao/libros.php
+128
+
+Tesis en línea
+Arias, F. (2008). Perfil del profesor de metodología de la
+investigación en educaciíon superior [Tesis en línea].
+Universidad Central de Venezuela, Caracas. Consultada
+el 3 de noviembre de 2011 en: http://www.eumed.net/
+libros/2011c/982/index.htm
+Moreno, M. (2002). El debate sobre las implicaciones
+
+científicas, éticas, sociales y legales del Proyecto Genoma
+Humano [Tesis en línea]. Universidad de Granada,
+
+España. Consultada el 28 de octubre de 2003 en:
+http://cervantesvirtual.com/FichaObra.html?Ref=9502
+Artículo de revista electrónica
+Arias, F. (2009). Economía y deporte. Analogía entre el sistema
+económico y el deporte de élite Actividad Física y Ciencias
+[Revista en línea], 1 (1). Consultado el 27 de octubre
+de 2011 en: http://www.actividadfisicayciencias.com/
+Documento obtenido por correo electrónico (e-mail)
+Arias, F. (2012). ¿Quieres publicar un libro? Te decimos
+cómo hacerlo [Documento en línea]. Disponible en:
+fidias20@hotmail.com
+Foro de discusión
+Esponda, J. (28 de julio de 2003). Factor de transferencia:
+el más reciente descubrimiento [Mensaje 116].
+Dirigido a: http://es.groups.yahoo.com/group/
+MedicinaPreventiva/
+Bases de datos
+Ministerio de Educación, Cultura y Deporte de España.
+(2012). Base de datos de tesis doctorales TESEO [Base
+de datos en línea]. Consultada el 17 de junio de 2012
+en: http://www.educación.gob.es/teseo/
+
+129
+
+10.4. Presentación del proyecto
+La presentación de todo trabajo escrito constituye un
+aspecto de una gran importancia para la comunicación de lo
+que se desea expresar. Concretamente, sobre el aspecto formal
+del proyecto, se recomienda:
+a) Redactar de modo impersonal y en tiempo futuro.
+Ejemplos:
+..se aplicará un
+en vez de
+cuestionario...
+...se utilizará un
+en lugar de
+grabador...
+...se considera que... en sustitución de
+
+...aplicamos un
+cuestionario...
+...utilizamos un
+grabador...
+...consideramos que..
+
+b) Transcribir el trabajo sobre papel bond blanco tamaño carta.
+c) Utilizar letra «Times New Roman» o una similar tamaño 12.
+d) Asignar las siguientes medidas a los márgenes:
+4
+
+Superior: cuatro (4) cm.
+Inferior: tres (3) cm.
+
+3
+
+4
+
+Derecho: tres (3) cm.
+Izquierdo: cuatro (4) cm.
+3
+
+130
+
+5
+
+e) Comenzar cada capítulo en una
+página nueva, con un margen
+superior de cinco (5) cm.
+
+3
+
+4
+
+3
+
+1,5
+
+f)   Realizar la transcripción con un
+interlineado de un espacio y medio
+(1,5).
+
+1,5
+
+1,5
+
+g)  Colocar el número correspondiente a
+cada página en el extremo inferior
+derecho.
+3
+
+131
+
+10.5. Sistemas de títulos y subtítulos
+10.5.1. Sistema decimal
+El sistema decimal es un modo de numeración a partir
+de dígitos enteros que se fraccionan según los contenidos
+derivados de cada capítulo. En este sentido, a cada
+sección se le asigna el número y título correspondiente,
+procedente de su dependencia o relación con otros
+tópicos.
+Ejemplo:
+1.
+	
+
+1.1.
+
+	
+
+1.2.
+
+	
+
+1.3.
+
+		
+
+1.3.1.
+
+		
+
+1.3.2.
+
+		
+
+1.3.3.
+
+Entre las ventajas de este sistema se destacan:
+a)	 Facilita la rápida ubicación de las divisiones del texto.
+b)	 Permite referir a cualquier sección del trabajo, por ejemplo,
+ver sección 3.2.
+c)	 Presenta de forma clara la jerarquía de los contenidos.
+	
+
+10.5.1. Sistema de niveles jerárquicos
+		 El sistema de niveles jerárquicos de títulos y subtítulos
+es recomendable para artículos breves y trabajos de
+poca extensión, por cuanto no utiliza numeración, sino
+que se vale de la distinción de los estilos de las fuentes
+tipográficas (mayúsculas, minúsculas, negritas y cursivas
+o itálicas) y de la ubicación de los títulos y subtítulos en
+la página (centrado o alineado a la izquierda).
+
+132
+
+		 Aun cuando este sistema es el utilizado por la APA (2010)
+y recomendado por la UPEL (2011), el mismo no ofrece las
+ventajas del sistema decimal.
+		 Para trabajos de mediana extensión se sugiere emplear tres
+niveles de subtítulos a partir del título principal o denominación
+del capítulo.
+Ejemplo:
+Título
+CENTRADO EN MAYÚSCULAS NEGRITAS
+Subtítulo de 1er. Nivel:
+Centrado en mayúsculas y minúsculas negritas
+Subtítulo de 2do. Nivel:
+Centrado en mayúsculas y minúsculas cursivas
+negritas
+Subtítulo de 3er. Nivel
+Alineado a la izquierda en mayúsculas y minúsculas
+cursivas negritas
+
+133
+
+Capítulo 11
+Ejecución
+
+o desarrollo del proyecto
+“Cualquiera propone, pero pocos
+descubren y ejecutan.”
+
+Fidias G. Arias
+
+	
+Una vez formulado el proyecto de investigación, con la seguridad de que resulte viable, se procede a ejecutar o a realizar las
+acciones para el logro de los objetivos trazados. En este sentido,
+se sugiere cumplir las siguientes etapas:
+11.1. Validación del instrumento
+	 En este caso, lo fundamental es comprobar si el instrumento mide lo que se pretende medir, además de cotejar
+su pertinencia o correspondencia con los objetivos específicos
+y variables de la investigación. Esta operación puede ser
+realizada a través del juicio de expertos.
+11.2. Prueba piloto
+	 Se recomienda aplicar el instrumento a un pequeño grupo
+con características similares a las de la muestra definitiva, para
+más tarde hacer las correcciones y ajustes necesarios. Este procedimiento también puede aplicarse en dos oportunidades (testretest), siempre que sea pertinente calcular la confiabilidad de
+dicho instrumento (sobre este aspecto se recomienda consultar
+a Hernández, Fernández y Baptista, 2010).
+135
+
+11.3. Aplicación del instrumento
+Luego de ubicar la muestra seleccionada, se procede
+a la recolección de datos u obtención de la información, la
+cual se registra o se guarda en el instrumento empleado.
+11.4. Análisis de los datos según su tipo, cualitativos o
+cuantitativos, y según el nivel de medición de las variables
+Se debe seleccionar el tipo de análisis más adecuado,
+sea cualitativo o cuantitativo (estadístico):
+a)	 En el caso de investigaciones documentales y
+bibliográficas el análisis básico consiste en descomponer o desglosar la información en ideas principales y
+secundarias, con el fin de traducir o descifrar el sentido
+de las mismas, e identificar vínculos e implicaciones.
+b)	 En el caso de estudios cualitativos, específicamente
+en las entrevistas en profundidad, se identifican categorías o grupos de conceptos relevantes para la investigación, con la finalidad de comprender, interpretar,
+reconstruir y reflexionar acerca de las experiencias e
+historias de los informantes.
+c)	 Por otra parte, en investigaciones de campo con un
+enfoque cuantitativo, cuando el objetivo es describir
+ciertas características de un grupo mediante la aplicación
+de un cuestionario, el análisis estadístico más elemental
+radica en la elaboración de una tabla de distribución
+de frecuencias absolutas y relativas o porcentajes, para
+luego generar un gráfico a partir de dicha tabla.
+
+136
+
+Ejemplos:
+Distribución de la población estudiantil
+del Colegio Universitario de Caracas (CUC) por género
+
+Género
+
+Frecuencia f
+
+Porcentaje %
+
+Femenino
+Masculino
+
+5040
+2160
+7200
+
+70
+30
+100
+
+Total
+
+FEMENINO	
+
+	
+
+MASCULINO
+
+137
+
+Calidad de la comida servida en el comedor del
+Colegio Universitario de Caracas (CUC)
+
+CALIDAD DE LA
+COMIDA
+Buena
+Regular
+Mala
+No contesta
+Total
+
+Frecuencia f
+
+Porcentaje %
+
+240
+80
+60
+20
+400
+
+60
+20
+15
+5
+100
+
+70
+60
+50
+40
+30
+20
+10
+0
+BUENA
+
+138
+
+REGULAR
+
+MALA
+
+NO CONTESTA
+
+11.5. Interpretación de los resultados o presentación de
+la discusión
+	
+Consiste en exponer el significado de los hallazgos
+obtenidos y compararlos con los de estudios previos (antecedentes de investigación), para establecer semejanzas,
+coincidencias, diferencias y contradicciones.
+	
+Si se trabajó con hipótesis, se debe indicar si ésta
+fue aceptada o rechazada, siempre con el respaldo del
+marco teórico asumido. Es importante señalar que en investigaciones documentales y bibliográficas, esta etapa se
+presenta integrada en el cuerpo del trabajo y no como un
+capítulo aparte.
+11.6. Elaboración de conclusiones y recomendaciones
+	
+Se sugiere comenzar con una conclusión general
+que responda a la pregunta de investigación y por ende
+que refleje el logro del objetivo general. Luego, se debe
+redactar una conclusión más precisa por cada uno de los
+objetivos específicos, cuidando la correspondencia entre
+ambos elementos.
+	 Las conclusiones sintetizan los resultados, respuestas
+
+a las interrogantes y el cumplimiento de los objetivos
+de la investigación.
+
+	
+Por último, las recomendaciones son sugerencias o
+exhortaciones que pueden estar dirigidas a futuras investigaciones o a cualquier ente vinculado con el objeto de
+estudio.
+	
+Ejemplo: una investigación que revele una alta deserción escolar conduce a exhortar a las autoridades competentes en materia educativa para que implanten medidas
+dirigidas a disminuir tal problemática.
+
+139
+
+REFERENCIAS BIBLIOGRÁFICAS
+American Psychological Association. (2010). Publication Manual
+(6th ed.). Washington, DC: Author.
+Arias, F. (2006 a). El proyecto de investigación: Introducción a la
+metodología científica (5a ed.). Caracas: Episteme.
+Arias, F. (2006 b). Mitos y errores en la elaboración de tesis y
+proyectos de investigación (3a ed.). Caracas: Episteme.
+Ary, D., Jacobs, L. y Razavieh, A. (1989). Introducción a la
+investigación pedagógica (2a ed. ). México: McGraw-Hill.
+Balestrini, M. (2001). Cómo se elabora el proyecto de investigación
+(5a ed.). Caracas: BL Consultores Asociados.
+Bernal, C. (2000). Metodología de la investigación para
+administración y economía. Bogotá: Prentice Hall.
+Briones, G. (1998). La investigación social y educativa. Bogotá:
+Convenio Andrés Bello.
+Bunge, M. (1981). La ciencia, su método y su filosofía. Buenos
+Aires: Siglo Veinte.
+Cervo, A. y Bervian, P. (1989). Metodología cientifica. Bogotá:
+McGraw-Hill.
+Chavarría, M. y Villalobos, M. (1993). Orientaciones para la
+elaboración y presentación de tesis. México: Trillas.
+Feldman, R. (1995). Psicología (2a ed.). México: MacGraw-Hill.
+Hernández, R., Fernández, C. y Baptista, Pilar. (2010). Metodología
+de la investigación 5a ed.). México: McGraw-Hill.
+Hayman, J. (1984). Investigación y educación. Barcelona: Paidós.
+Lerma, H. (2001). Metodología de la investigación: propuesta,
+anteproyecto y proyecto. Bogotá: Ecoe Ediciones.
+Méndez, C. (2001). Metodología: diseño y desarrollo del proceso
+de investigación (3a ed.). Bogotá: McGraw-Hill.
+Muñoz Razo, C. (2011). Cómo elaborar y asesorar una investigación
+de tesis (2a ed.). México: Pearson.
+141
+
+Morles, V. (1994). Planeamiento y análisis de investigaciones (8a
+ed.).Caracas: El Dorado.
+Morris, C. (1992). Psicología: un nuevo enfoque (7a ed.). México:
+Prentice Hall.
+Myers, D. (1995). Psicología social (4a ed.). México: McGraw-Hill.
+Pardinas, F. (1991). Metodología y técnicas de investigación en
+ciencias sociales (32a ed.). México: Siglo Veintiuno.
+Ramírez, T. (2010). Cómo hacer un proyecto de investigación.
+Caracas: Panapo.
+Rojas Soriano, R. (2001). Guía para realizar investigaciones
+sociales. México: Plaza y Valdés.
+Sabino, C. (2002). El proceso de investigación. Caracas: Panapo.
+Sabino, C. (2006). Cómo hacer una tesis (2a ed.). Caracas: Panapo.
+Selltiz, C. , Wrightsman, L. y Cook, S. (1980). Métodos de
+investigación en las relaciones sociales (9a ed.). Madrid: Rialp.
+Sierra Bravo, R. (1991 a). Diccionario práctico de estadística.
+Madrid: Paraninfo.
+Sierra Bravo, R. (1991 b). Técnicas de investigación social (7a ed.).
+Madrid: Paraninfo.
+Soto, A. (2006). Técnicas de estudio (4ª ed.). Caracas: Ediciones
+de la Biblioteca de la Universidad Central de Venezuela.
+Tamayo, M. (1998). Diccionario de la investigación científica .
+México: Limusa.
+Tamayo, M. (2001). El proceso de investigación científica (4a ed.).
+México: Limusa.
+Universidad Nacional Abierta.(1990). Técnicas de investigación y
+documentación I. Caracas: Autor.
+Universidad Pedagógica Experimental Libertador. (2011). Manual
+
+de trabajos de grado de especialización y maestría y tesis
+doctorales (4a ed.). Caracas: FEDEUPEL.
+
+142
+
+APÉNDICE
+INSTRUMENTO DE AUTOEVALUACIÓN
+Por Fidias G. Arias
+SI
+
+NO
+
+1. El título: refleja lo que se pretende investigar.
+2. El planteamiento del problema: explica la situación
+general que origina la interrogante.
+3. La formulación del problema: constituye una pregunta
+precisa, delimitada en cuanto a población, espacio
+y tiempo.
+4. Los objetivos: expresan los aspectos que se desean
+indagar y conocer.
+5. La justificación: explica el porqué y para qué se
+realizará el estudio, su importancia y posibles
+contribuciones o aportes.
+6. Los antecedentes: son investigaciones previas
+relacionadas con el problema.
+7. Las bases teóricas: constituyen enfoques y posiciones
+de distintos autores que permiten sustentar la
+investigación.
+8. La definición de términos: expresa el significado de
+los conceptos o vocablos inmersos en el problema
+y objetivos.
+9. El nivel y diseño de investigación: son pertinentes
+para el logro de los objetivos.
+10. Las técnicas e instrumentos: corresponden al
+diseño de investigación.
+
+143
+
+ESTE LIBRO FUE IMPRESO POR
+S U P L I D O R A V A N, C . A .
+SOBRE PAPEL BOND 20
+EN JULIO DE 2012.
+TIRAJE: 10.000 EJEMPLARES.
+
+
