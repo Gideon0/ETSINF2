@@ -201,6 +201,19 @@ public class BuscadorDeLaBibl {
      */
     public ListaConPI<Termino> hapax() {
         /* COMPLETAR */
-        return /*CORREGIR*/ null;
+        ListaConPI<Termino> res = new LEGListaConPI();
+        ListaConPI<Termino> c = index.claves(); 
+        
+        ListaConPI<BuscadorDeLaBibl.Posting> valor;
+        for(c.inicio(); !c.esFin(); c.siguiente()){
+            Termino clave = c.recuperar();
+            valor = index.recuperar(clave);
+            if (valor.talla() == 1){
+                res.insertar(clave);
+            } 
+        }
+        
+        if (res.talla() == 0) return null;
+        return res;
     }
 }    
