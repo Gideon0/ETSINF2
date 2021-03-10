@@ -1,3 +1,5 @@
+# Practica 10 ETC
+
 1. ► ¿Cuántos elementos tienen los vectores del programa? ¿Cuántos bytes ocupa cada
 elemento?
     A -> 8 elementos || 8 * 4 = 32 Bytes
