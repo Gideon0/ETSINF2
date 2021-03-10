@@ -95,7 +95,7 @@ programa original y complete la siguiente tabla:
 
             Accesos al segmento de código       77
             Aciertos                            71
-            Fallos                               8
+            Fallos                               6
             Tasa de aciertos (H)             0,922
 
 13. ► Como se aprecia, el número de fallos se ha visto reducido de forma considerable. ¿Cuál
