@@ -27,7 +27,7 @@ encuentra la última instrucción del programa.
     Dirección de la primera instrucción                         0x00400000
     Dirección de la última instrucción                          0x00400050
     Número de instrucciones del programa                        21
-    Bytes ocupados por el código del programa (instrucciones)   21*4 -> 4
+    Bytes ocupados por el código del programa (instrucciones)   21*4 -> 84
 
 4. ► Determine el número de accesos al sistema de memoria del programa.
 
