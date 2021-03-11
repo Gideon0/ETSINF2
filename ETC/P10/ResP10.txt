@@ -10,9 +10,9 @@ elemento?
 2. ► Complete la siguiente información del segmento de datos. Utilice el sistema hexadecimal
 para expresar las direcciones de memoria (haga igual a lo largo de toda la práctica).
 
-    Dirección inicial del vector A          0x1000000
+    Dirección inicial del vector A          0x10000000
     Bytes ocupados por el vector A          32
-    Dirección inicial del vector B          0x1000100
+    Dirección inicial del vector B          0x10001000
     Bytes ocupados por el vector B          32
     Dirección de la variable k              0x1000A030
     Dirección de la variable dim            0x1000A034
