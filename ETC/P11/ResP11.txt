@@ -84,9 +84,9 @@ escritura con ubicación) y complete la siguiente tabla
 reciba (campos de etiqueta, conjunto y desplazamiento). 
 
     Nº bloques     = 256B/16B = 16 bloques 
-  Desplazamiento = 16B     = 2^4    =  4 bits
-    Nº conjuntos     = 16 bloques / 2 vias = 8 conjuntos = 2^3    = 3 bits
-    Etiqueta     = 32 bits – 3 – 4    = 25 bits
+    Desplazamiento = 16B                               = 2^4    = 4 bits
+    Nº conjuntos   = 16 bloques / 2 vias = 8 conjuntos = 2^3    = 3 bits
+    Etiqueta       = 32 bits – 3 – 4                            = 25 bits
   
 
 11. ► Indique en qué conjuntos se ubicarán ahora los vectores A y B del programa original.
