@@ -8,45 +8,45 @@ A:              .word 0,1,2,3,4,5,6,7   # Vector A
 B:              .space 32               # Vector B (resultado)
                 .data 0x1000A030
 k:              .word 7                 # Constante escalar
-dim:            .word 8                 # Dimensión de los vectores
+dim:            .word 8                 # Dimensiï¿½n de los vectores
 
                 ######################################################
-                # Segmento de código
+                # Segmento de cï¿½digo
                 ######################################################
 
                 .text 0x00400000
                 .globl __start
                 
-__start:        la $a0, A               # $a0 = dirección de A
-                la $a1, B               # $a1 = dirección de B
-                la $a2, k               # $a1 = dirección de k
-                la $a3, dim             # $a2 = dirección dimensión
+__start:        la $a0, A               # $a0 = direcciï¿½n de A
+                la $a1, B               # $a1 = direcciï¿½n de B
+                la $a2, k               # $a1 = direcciï¿½n de k
+                la $a3, dim             # $a2 = direcciï¿½n dimensiï¿½n
                 jal sax                 # Llamada a subrutina
                 
                 ######################################################
-                # Fin de ejecución mediante llamada al sistema
+                # Fin de ejecuciï¿½n mediante llamada al sistema
                 ######################################################
 
-                addi $v0, $zero, 10     # Código para exit
-                syscall                 # Fin de la ejecución
+                addi $v0, $zero, 10     # Cï¿½digo para exit
+                syscall                 # Fin de la ejecuciï¿½n
                 
                 ######################################################
                 # Subrutina que calcula Y <- k*X 
-                # $a0 = Dirección inicio vector X
-                # $a1 = Dirección inicio vector Y
-                # $a2 = Dirección constante escalar k
-                # $a3 = Dirección dimensión de los vectores                
+                # $a0 = Direcciï¿½n inicio vector X
+                # $a1 = Direcciï¿½n inicio vector Y
+                # $a2 = Direcciï¿½n constante escalar k
+                # $a3 = Direcciï¿½n dimensiï¿½n de los vectores                
                 ######################################################
 
 sax:            lw $a2, 0($a2)          # $a3 = constante k
-                lw $a3, 0($a3)          # $a3 = dimensión
+                lw $a3, 0($a3)          # $a3 = dimensiï¿½n
 bucle:          lw $t0, 0($a0)          # Lectura de X[i] en $t0
-                mult $a2, $t0           # Efectúa k*X[i]
+                mult $a2, $t0           # Efectï¿½a k*X[i]
                 mflo $t0                # $t0 <- k*X[i] (HI vale 0)
                 sw $t0, 0($a1)          # Escritura de Y[i] 
-                addi $a0, $a0, 4        # Dirección de X[i+1]
-                addi $a1, $a1, 4        # Dirección de Y[i+1]
-                addi $a3, $a3, -1       # Decremento número elementos
+                addi $a0, $a0, 4        # Direcciï¿½n de X[i+1]
+                addi $a1, $a1, 4        # Direcciï¿½n de Y[i+1]
+                addi $a3, $a3, -1       # Decremento nï¿½mero elementos
                 bgtz $a3, bucle         # Salta si quedan elementos
                 jr $ra                  # Retorno de subrutina
                 
