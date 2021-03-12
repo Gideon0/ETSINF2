@@ -5,14 +5,13 @@ memoria cache y cuántas líneas ocupa cada vector.
 
 		256B/16B= 16 líneas  
     Cada vector -> 32B 
-	  		32B/16B = 2 lineas por vector
-
+    32B/16B = 2 lineas por vector
 
 
 2. ► Indique cuál será la interpretación que esta memoria cache hará de las direcciones que
 reciba (campos de etiqueta, línea y desplazamiento).
 
-											-------------------------------------
+										  -------------------------------------
 											desplazamiento	| 4	bits  |	16 Bytes 
 											líneas					| 4	bits  | 16 bloques  
 											etiqueta				| 24 bits |
@@ -80,6 +79,7 @@ escritura con ubicación) y complete la siguiente tabla
                       Tasa de aciertos (H)					|	0.7222
                       ------------------------------------------
 
+
 10. ► Indique cuál será la interpretación que esta memoria cache hará de las direcciones que
 reciba (campos de etiqueta, conjunto y desplazamiento). 
 
@@ -95,6 +95,7 @@ reciba (campos de etiqueta, conjunto y desplazamiento).
   a 2 vías, el vector A se irá por una vía del conjunto 0 y el vector B por la otra vía del 
   mismo conjunto.
 
+
 12. ► Cargue en el simulador y ejecute el programa original con la nueva configuración de la
 cache y complete la siguiente tabla:
 	
@@ -105,4 +106,3 @@ cache y complete la siguiente tabla:
                       Fallos												|	5
                       Tasa de aciertos (H)					|	0.722222
                       ------------------------------------------
-
