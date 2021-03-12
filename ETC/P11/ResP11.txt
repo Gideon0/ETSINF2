@@ -104,5 +104,5 @@ cache y complete la siguiente tabla:
                       Accesos al segmento de datos	| 18
                       Aciertos											|	13
                       Fallos												|	5
-                      Tasa de aciertos (H)					|	0.722222
+                      Tasa de aciertos (H)					|	0.72222
                       ------------------------------------------
