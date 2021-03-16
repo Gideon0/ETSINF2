@@ -1,0 +1,108 @@
+#Practica 11 ETC
+
+1. ► Teniendo en cuenta las características anteriores, indique cuántas líneas hay en la
+memoria cache y cuántas líneas ocupa cada vector.
+
+    256B/16B= 16 líneas  
+    Cada vector -> 32B 
+    32B/16B = 2 lineas por vector
+
+
+2. ► Indique cuál será la interpretación que esta memoria cache hará de las direcciones que
+reciba (campos de etiqueta, línea y desplazamiento).
+
+    -------------------------------------
+    desplazamiento     | 4   bits  |  16 Bytes 
+    líneas             | 4   bits  |  16 bloques  
+    etiqueta           | 24 bits   |
+    -------------------------------------
+
+3. Indique en qué lineas de la cache se ubican los vectores A y B.
+
+  El vector A se ubicaría en las líneas 0 y 1 de la cache inicialmente (una mitad en la primera 
+  línea, otra mitad en la segunda). Como se hace un reemplazo de las líneas cuando se cambia el 
+  vector referenciado. El vector B también se carga en las líneas 0 y 1 (por esto hay tantos fallos).
+
+
+4. ► Cargue el programa original en el simulador configurado con las características
+anteriores para la memoria cache de datos y ejecútelo mediante la opción F10 (paso a paso)
+a fin de analizar su comportamiento. Asegúrese de que los vectores se almacenan en las
+líneas previstas de la cache de datos y después complete la siguiente tabla:
+
+                      ------------------------------------------
+                      Accesos al segmento de datos    |18
+                      Aciertos                        |1
+                      Fallos                          |17
+                      Tasa de aciertos (H)            |0.055556
+                      ------------------------------------------
+
+5. ► ¿Cuál ha sido el acceso que ha provocado el único acierto en la memoria cache de datos?
+
+    El único acceso lo correcto lo realizó la instrucción lw $a3, 0($a3)
+
+
+6. ► En este caso concreto, razone si el número tan escaso de aciertos obtenido se debe a la
+localidad de las referencias del programa o bien hay que atribuirlo a la relación entre la
+configuración de la cache de datos y la ubicación de estos últimos en memoria principal.
+
+    Porque hay un reemplazo constante en las líneas de la cache 0 y 1 por el vector A y B. 
+
+
+7. ► Configure la memoria cache de datos con una política de escritura directa (write through)
+sin ubicación (no write allocate). Ejecute ahora el programa original mediante la opción
+F10 (paso a paso) a fin de analizar su comportamiento. Complete la siguiente tabla:
+
+                      ------------------------------------------
+                      Accesos al segmento de datos    | 18
+                      Aciertos                        |  7
+                      Fallos                          | 11
+                      Tasa de aciertos (H)            | 0.388889
+                      ------------------------------------------
+                      
+
+8. ► Cambie la directiva .data 0x10001000 de manera que el vector B se ubique en las
+líneas 4 y 5 de la memoria cache. De este modo no habrá colisión con las líneas 0 y 1
+(ubicación del vector A) ni con la línea 3 (ubicación de la constante k y de dim).
+
+    Cambiado
+           linea de código 7.    .data 0x10001000 =>  .data 0x10001040
+                
+
+9. ► Ejecute el programa con el cambio anterior (recuerde que debe mantener la política de
+escritura con ubicación) y complete la siguiente tabla
+
+
+                      ------------------------------------------
+                      Accesos al segmento de datos    | 18
+                      Aciertos                        | 13
+                      Fallos                          | 5
+                      Tasa de aciertos (H)            | 0.7222
+                      ------------------------------------------
+
+
+10. ► Indique cuál será la interpretación que esta memoria cache hará de las direcciones que
+reciba (campos de etiqueta, conjunto y desplazamiento). 
+
+    Nº bloques     = 256B/16B = 16 bloques 
+    Desplazamiento = 16B                               = 2^4    = 4 bits
+    Nº conjuntos   = 16 bloques / 2 vias = 8 conjuntos = 2^3    = 3 bits
+    Etiqueta       = 32 bits – 3 – 4                            = 25 bits
+  
+
+11. ► Indique en qué conjuntos se ubicarán ahora los vectores A y B del programa original.
+
+  Ambos se ubican en el conjunto 0 porque su bit de conjuntos está a cero. Como es asociativo 
+  a 2 vías, el vector A se irá por una vía del conjunto 0 y el vector B por la otra vía del 
+  mismo conjunto.
+
+
+12. ► Cargue en el simulador y ejecute el programa original con la nueva configuración de la
+cache y complete la siguiente tabla:
+
+  Sigue siendo la misma tabla, los resultados no cambian respecto a la anterior.
+                      ------------------------------------------
+                      Accesos al segmento de datos  | 18
+                      Aciertos                      | 13
+                      Fallos                        | 5
+                      Tasa de aciertos (H)          | 0.722222
+                      ------------------------------------------

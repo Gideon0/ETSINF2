@@ -1,6 +1,6 @@
           .globl __start
           .data 0x10000000
-pedir:   .asciiz "Escribe alguna cosa: "
+pedir:    .asciiz "Escribe alguna cosa: "
 cadena:   .space 80         
 escrito:  .asciiz "Has escrito: "    
 

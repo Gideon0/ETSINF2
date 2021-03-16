@@ -1,16 +1,21 @@
+# Practica 10 ETC
+
 1. ► ¿Cuántos elementos tienen los vectores del programa? ¿Cuántos bytes ocupa cada
 elemento?
-
+    A -> 8 elementos || 8 * 4 = 32 Bytes
+    B -> 1 elemento  ||         32 Bytes 
+    k -> 1 elemento  ||          4 Bytes
+    dim -> 1 elemento||          4 Bytes
 
 2. ► Complete la siguiente información del segmento de datos. Utilice el sistema hexadecimal
 para expresar las direcciones de memoria (haga igual a lo largo de toda la práctica).
 
-    Dirección inicial del vector A
-    Bytes ocupados por el vector A
-    Dirección inicial del vector B
-    Bytes ocupados por el vector B
-    Dirección de la variable k
-    Dirección de la variable dim
+    Dirección inicial del vector A          0x10000000
+    Bytes ocupados por el vector A          32
+    Dirección inicial del vector B          0x10001000
+    Bytes ocupados por el vector B          32
+    Dirección de la variable k              0x1000A030
+    Dirección de la variable dim            0x1000A034
 
 
 3. ► Complete la siguiente información del segmento de código. En este caso no olvide tener
@@ -19,15 +24,15 @@ ya que son estas últimas las únicas que hay que considerar. En este caso le se
 cargar el programa en el simulador (no hace falta ejecutarlo) para ver la dirección donde se
 encuentra la última instrucción del programa.
 
-    Dirección de la primera instrucción
-    Dirección de la última instrucción
-    Número de instrucciones del programa
-    Bytes ocupados por el código del programa (instrucciones
+    Dirección de la primera instrucción                         0x00400000
+    Dirección de la última instrucción                          0x00400050
+    Número de instrucciones del programa                        21
+    Bytes ocupados por el código del programa (instrucciones)   21*4 -> 84
 
 4. ► Determine el número de accesos al sistema de memoria del programa.
 
-    Accesos al segmento de datos            
-    Accesos al segmento de código           8 + (2 + 8*8 + 1)
+    Accesos al segmento de datos            8*2 + 2 = 18
+    Accesos al segmento de código           8 + 2 +(2 + 8*8 + 1) = 77
 
 
 5. ► Teniendo en cuenta las características anteriores, indique cuántas líneas hay en la
@@ -45,14 +50,14 @@ reciba (campos de etiqueta, línea y desplazamiento).
 7. ► La instrucción del programa jal sax está almacenada en la dirección 0x0040001C
 del segmento de código. Indique en qué línea de la cache se ubicará y con qué etiqueta.
 
-    0x0040001C -> 0000 0000 0100 0000 0000 0000 0-001 11-00 => linea = 00111 = 7
-                                                                                    
+    0x0040001C -> |0000 0000 0100 0000 0000 0000 0|-|001 11|-|00            ==> linea = 00111 => 7 || etiqueta = 1000 0000 0000 0000 => 2048
+                    Etiqueta                         Linea    Desplazamento 
 
 8. ► Calcule, para este caso, cuántos bits de control se almacenan por línea. Así mismo,
 calcule el volumen del directorio, esto es, el número total de bits de control contenidos en la
 memoria cache de código.
 
-    bits de control -> 25(etiqueta) + 1(valido) || volumen de directorio 
+    bits de control -> 25(etiqueta) + 1(valido) || volumen de directorio -> 26 bits * 32 lineas = 832 bit =  104 Bytes
 
 9. ► Cargue el programa original y ejecútelo mediante la opción F10 (paso a paso) para poder
 seguir con detalle el efecto sobre la memoria cache de código. Observe que la lectura de
@@ -62,10 +67,10 @@ Además, fíjese en que el procesamiento de las 18 primeras instrucciones solame
 fallos (mensaje miss en el simulador) y que el primer acierto se produce en el decimonoveno
 acceso a la cache de instrucciones. Complete la siguiente tabla:
 
-            Accesos al segmento de código      154
-            Aciertos                           133
+            Accesos al segmento de código       77
+            Aciertos                            56
             Fallos                              21
-            Tasa de aciertos (H)              0,86
+            Tasa de aciertos (H)             0,727
 
 10. ► Confirme que la instrucción jal sax se almacena en la línea prevista y con la etiqueta
 calculada anteriormente.
@@ -79,11 +84,21 @@ expresados en ciclos de reloj. Suponga además que el tiempo de acceso a la memo
 es de 10 nanosegundos. Recuerde que este tiempo se puede calcular mediante la fórmula:
                 𝑇𝑇 = 𝐻𝐻 × Tacierto + (1 − 𝐻𝐻) × Tfallo
 
-                TT = 0.86 * 10ns + 0.14
+                Tacierto = 10ns
+                Tfallo = tCL + tRCD = (3+2)*20 = 100ns
+
+                TT = 0.727 * 10ns + (1- 0.727) * 100ns = 34.5454ns
 
 12. ► Use el simulador y configure la memoria cache de código con un tamaño de bloque de 16
 bytes y manteniendo el resto de parámetros como estaban. Cargue y ejecute ahora el
 programa original y complete la siguiente tabla:
 
+            Accesos al segmento de código       77
+            Aciertos                            71
+            Fallos                               6
+            Tasa de aciertos (H)             0,922
+
 13. ► Como se aprecia, el número de fallos se ha visto reducido de forma considerable. ¿Cuál
 es la razón?
+
+La razón se debe a que al ser el bloque más grande, cuando hay un fallo de traen más bloques de la memoria principal a la cache
