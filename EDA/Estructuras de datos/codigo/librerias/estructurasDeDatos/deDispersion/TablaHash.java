@@ -4,8 +4,8 @@ import librerias.estructurasDeDatos.modelos.Map;
 import librerias.estructurasDeDatos.lineales.LEGListaPI;
 import librerias.estructurasDeDatos.modelos.ListaPI;
 
-public class TablaHash<V,C> implements Map<C,V> {
-    protected NodeHash<C,V> elArray []; //CUBETAS
+public class TablaHash<C,V> implements Map<C,V> {
+    public NodeHash<C,V> elArray []; //CUBETAS
     protected int talla;
 
     @SuppressWarnings("unchecked")
@@ -22,7 +22,25 @@ public class TablaHash<V,C> implements Map<C,V> {
     }
 
     @SuppressWarnings("unchecked")
+    private void rehashing() {
+        NodeHash<C,V> elArray_antiguo[] = elArray;
+
+        elArray = new NodeHash[elArray.length * 2];
+        talla = 0;
+
+        for (int cub = 0; cub < elArray_antiguo.length; cub++) {
+            NodeHash<C,V> aux = elArray_antiguo[cub];
+            while(aux != null) {
+                insertar(aux.clave,aux.valor);
+                aux = aux.sig;
+            }
+        }
+    }
+
+    @SuppressWarnings("unchecked")
     public V insertar(C clave, V valor) {
+        if (factor_carga() > 1.5)
+            rehashing();
         V res = null;
         int cub = f_hash(clave);
 
@@ -52,15 +70,16 @@ public class TablaHash<V,C> implements Map<C,V> {
             aux_ant = aux;
             aux = aux.sig;
         }
-        if (aux != null){
+        
+        if (aux != null) {
             res = aux.valor;
             if (aux_ant == null)
                 elArray[cub] = aux.sig;
             else
                 aux_ant.sig = aux.sig;
-            talla --;
+            talla--;
         }
-        return res;
+        return res; 
     }
 
     public V recuperar(C clave) {
@@ -95,40 +114,24 @@ public class TablaHash<V,C> implements Map<C,V> {
         }
         return lista;
     }
-    
-    public float factor_carga(){
-        return talla / (float) elArray.length; 
+
+    public float factor_carga() { //media
+        return talla / (float) elArray.length;
     }
 
-    public float varianza(){
+    public float varianza() {
         float media = factor_carga();
         float suma = 0;
 
-        for (int cub = 0; cub < elArray.length; cub++){
+        for (int cub = 0; cub < elArray.length; cub++) {
             NodeHash<C,V> aux = elArray[cub];
             int cont = 0;
-            while(aux != null){
+            while(aux != null) {
                 cont++;
                 aux = aux.sig;
             }
-            suma += (cont - media) *(cont -media); 
+            suma += (cont - media) * (cont - media);
         }
-        return suma/elArray.length;
-    }
-    
-    @SuppressWarnings("unchecked")
-    private void rehasing(){
-        NodeHash<C,V> old[] = elArray;
-        
-        elArray = new NodeHash[elArray.length * 2];
-        talla = 0;
-
-        for (int cub = 0; cub < old.length; cub++){
-            NodeHash<C,V> aux = old[cub];
-            while (aux != null){
-                insertar(aux.clave, aux.valor);
-                aux = aux.sig;
-            }
-        }
+        return suma / elArray.length;
     }
 }
