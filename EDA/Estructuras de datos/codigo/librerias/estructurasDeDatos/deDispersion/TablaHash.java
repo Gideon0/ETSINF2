@@ -43,7 +43,24 @@ public class TablaHash<V,C> implements Map<C,V> {
     }
 
     public V eliminar(C clave) {
-        return null;
+        int cub = f_hash(clave);
+        V res = null;
+
+        NodeHash<C,V> aux = elArray[cub];
+        NodeHash<C,V> aux_ant = null;
+        while(aux != null && !clave.equals(aux.clave)){
+            aux_ant = aux;
+            aux = aux.sig;
+        }
+        if (aux != null){
+            res = aux.valor;
+            if (aux_ant == null)
+                elArray[cub] = aux.sig;
+            else
+                aux_ant.sig = aux.sig;
+            talla --;
+        }
+        return res;
     }
 
     public V recuperar(C clave) {
@@ -77,5 +94,41 @@ public class TablaHash<V,C> implements Map<C,V> {
             }
         }
         return lista;
+    }
+    
+    public float factor_carga(){
+        return talla / (float) elArray.length; 
+    }
+
+    public float varianza(){
+        float media = factor_carga();
+        float suma = 0;
+
+        for (int cub = 0; cub < elArray.length; cub++){
+            NodeHash<C,V> aux = elArray[cub];
+            int cont = 0;
+            while(aux != null){
+                cont++;
+                aux = aux.sig;
+            }
+            suma += (cont - media) *(cont -media); 
+        }
+        return suma/elArray.length;
+    }
+    
+    @SuppressWarnings("unchecked")
+    private void rehasing(){
+        NodeHash<C,V> old[] = elArray;
+        
+        elArray = new NodeHash[elArray.length * 2];
+        talla = 0;
+
+        for (int cub = 0; cub < old.length; cub++){
+            NodeHash<C,V> aux = old[cub];
+            while (aux != null){
+                insertar(aux.clave, aux.valor);
+                aux = aux.sig;
+            }
+        }
     }
 }

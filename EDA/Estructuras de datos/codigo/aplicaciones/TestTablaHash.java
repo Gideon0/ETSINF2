@@ -2,6 +2,9 @@ package aplicaciones;
 
 import java.io.FileNotFoundException;
 import java.util.Scanner;
+
+import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
+
 import java.io.File;
 import librerias.estructurasDeDatos.modelos.Map;
 import librerias.estructurasDeDatos.modelos.ListaPI;
@@ -42,5 +45,8 @@ public class TestTablaHash {
             System.out.println(palabra + " --> " + apariciones + " veces");
             lista.siguiente();
         }
+        System.out.println("Media: " + tabla.factor_carga());
+        System.out.println("Variaza: " + tabla.varianza());
+        System.out.println("");
     }
 }
