@@ -1,4 +1,6 @@
-package Argolims;
+package Algorithm;
+
+import java.util.Random;
 
 public class Sort<T>{
     public static <T extends Comparable<T>> void directIntset(T[] v){
@@ -74,7 +76,12 @@ public class Sort<T>{
     }
 
     public static <T extends Comparable<T>> int partition(T v[], int ini, int fin){
+        
+        Random gen = new Random();
 
+        int random_pos_pivot = ini + gen.nextInt();  
+        swap(v, random_pos_pivot, ini);       
+        
         int i = ini - 1;
         int j = fin + 1;
 
@@ -103,5 +110,25 @@ public class Sort<T>{
         T aux = v[i];
         v[i] = v [j];
         v[j] = aux;
+    }
+
+    public static <T extends Comparable<T>> T selection (T v[], int ie){
+        if (ie < 0 || ie >= v.length)
+            return null;
+        return selection(v, ie, 0,v.length);
+    }
+    
+    public static <T extends Comparable<T>> T selection (T v[], int ie, int ini, int fin){
+        if (ini == fin)
+            return v[ie];
+        
+        int pos = partition(v, ini, fin);
+
+        if (pos >= ie){
+            return selection(v, ie, ini, pos);
+        }
+        else {
+            return selection(v, ie, pos + 1, fin);
+        }
     }
 }
