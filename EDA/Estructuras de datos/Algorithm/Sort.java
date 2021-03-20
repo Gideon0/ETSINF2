@@ -7,7 +7,7 @@ public class Sort<T>{
         int i, j; 
         for (i = 1; i < v.length; i++){
             T elem = v[i];
-            for (j = i; j < 0 && elem.compareTo(v[j-1]) < 0; j--)
+            for (j = i; j > 0 && elem.compareTo(v[j-1]) < 0; j--)
                 v[j] = v [j -1];
             v[j] = elem;
         }
