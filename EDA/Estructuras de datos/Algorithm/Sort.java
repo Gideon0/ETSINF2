@@ -79,14 +79,14 @@ public class Sort<T>{
         
         Random gen = new Random();
 
-        int random_pos_pivot = ini + gen.nextInt();  
+        int random_pos_pivot = ini + gen.nextInt(fin - ini + 1);  
         swap(v, random_pos_pivot, ini);       
         
+        T pivote = v[ini];
+
         int i = ini - 1;
         int j = fin + 1;
 
-        if (ini < fin){
-            T pivote = v[i];
 
             while(i <j){
                 do{
@@ -100,7 +100,7 @@ public class Sort<T>{
                 while(j >= ini && v[j].compareTo(pivote) > 0);           
                 swap(v,i,j);
             }
-        }
+        
         swap(v, i, j);
         return j; //sin terminar
         
@@ -115,7 +115,7 @@ public class Sort<T>{
     public static <T extends Comparable<T>> T selection (T v[], int ie){
         if (ie < 0 || ie >= v.length)
             return null;
-        return selection(v, ie, 0,v.length);
+        return selection(v, ie, 0,v.length-1);
     }
     
     public static <T extends Comparable<T>> T selection (T v[], int ie, int ini, int fin){

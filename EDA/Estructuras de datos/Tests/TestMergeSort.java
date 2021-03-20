@@ -15,11 +15,15 @@ public class TestMergeSort {
         System.out.println("\nDesordenado \n--------------");
         for (int i = 0; i < 100; i++) {
             vect[i] = gen.nextInt(100);
+            if(i % 10 == 0)
+                System.out.println();
             System.out.print(vect[i] + " -> ");
         }
         Sort.mergeSort(vect);
         System.out.println("\nOrdenado \n--------------");
         for (int i = 0; i < 100; i++) {
+            if(i % 10 == 0)
+                System.out.println();
             System.out.print(vect[i] + " -> ");
         }
         
