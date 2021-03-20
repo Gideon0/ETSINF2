@@ -3,7 +3,7 @@ package Algorithm;
 import java.util.Random;
 
 public class Sort<T>{
-    public static <T extends Comparable<T>> void directIntset(T[] v){
+    public static <T extends Comparable<T>> void insertionSort(T[] v){
         int i, j; 
         for (i = 1; i < v.length; i++){
             T elem = v[i];
@@ -21,33 +21,22 @@ public class Sort<T>{
         T[] aux = (T[]) new Comparable[fin - ini +1];
 
         while(i<= half && j <= fin){
-            if (v[i].compareTo(v[j]) < 0){
-                aux[k] = v [i];
-                k++;
-                i++;
-            }
-            else{
-                aux[k] = v [j];
-                k++;
-                j++;
-            }
+            if (v[i].compareTo(v[j]) < 0)
+                aux[k++] = v [i++];
+            else
+                aux[k++] = v [j++];
+        
         }
+        while (i <= half)
+            aux[k++] = v[i++];
 
-        while (i <= half){
-            aux[k] = v[i];
-            k++;
-            i++;
-        }
+        while (j <= fin)
+            aux[k++] = v[j++];
 
-        while (j <= fin){
-            aux[k] = v[j];
-            k++;
-            j++;
-        }
-
-        for(i = 0; i < aux.length; i++){
-            v[ini+i] = aux[i];
-        }
+        for(T u : aux)
+            v[ini++] = u;
+       // for(i = 0; i < aux.length; i++)
+         //   v[ini+i] = aux[i];
     }
 
     private static <T extends Comparable<T>> void mergeSort(T v[], int ini, int fin) {
