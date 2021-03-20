@@ -15,7 +15,7 @@ public class Sort<T>{
     @SuppressWarnings("unchecked")
     public static <T extends Comparable<T>> void merge(T[] v, int ini, int half, int fin){
         int i = ini;
-        int j = half;
+        int j = half+1;
         int k = 0;
 
         T[] aux = (T[]) new Comparable[fin - ini +1];
@@ -46,11 +46,11 @@ public class Sort<T>{
         }
 
         for(i = 0; i < aux.length; i++){
-            v[ini+1] = aux[i];
+            v[ini+i] = aux[i];
         }
     }
 
-    private static <T extends Comparable<T>> void mergeSort(T[] v, int ini, int fin) {
+    private static <T extends Comparable<T>> void mergeSort(T v[], int ini, int fin) {
         if ((fin - ini) >= 1) {
             int half = (fin + ini) / 2;
             mergeSort(v, ini, half);
@@ -59,7 +59,7 @@ public class Sort<T>{
         }
     }
 
-    public static <T extends Comparable<T>> void mergeSort(T[] v){
+    public static <T extends Comparable<T>> void mergeSort(T v[]){
         mergeSort(v, 0, v.length -1);
     }
 
