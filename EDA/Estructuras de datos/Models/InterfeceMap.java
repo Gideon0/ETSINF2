@@ -6,5 +6,5 @@ public interface InterfeceMap <K,V> {
     V recove(K key);
     boolean isEmpty();
     int size();
-    InterfaceList<C> keys();  
+    InterfaceList<K> keys();  
 }
