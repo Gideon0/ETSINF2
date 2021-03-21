@@ -7,6 +7,8 @@ public class HashTable<K,V> implements InterfeceMap <K,V>{
     public NodeHash<K,V> theArray[];
     protected int size;
 
+    
+   @SuppressWarnings("unchecked") 
     public HashTable(int numBuckets){
         theArray = new NodeHash[numBuckets];
         size = 0;
@@ -19,6 +21,7 @@ public class HashTable<K,V> implements InterfeceMap <K,V>{
         return hash_value % theArray.length;
     }
 
+    @SuppressWarnings("unchecked") 
     public void rehashing(){
         NodeHash <K,V> old_theArray[] = theArray;
 
@@ -33,7 +36,8 @@ public class HashTable<K,V> implements InterfeceMap <K,V>{
             }
         }
     }
-
+    
+   @SuppressWarnings("unchecked") 
     public V insert(K key, V value){
         if (charge_factor() > 1.5){
             rehashing();

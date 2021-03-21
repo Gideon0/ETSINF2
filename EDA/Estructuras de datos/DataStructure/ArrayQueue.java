@@ -14,7 +14,7 @@ public class ArrayQueue<T> implements InterfaceQueue<T> {
     
     protected static final int DEFAULT_SIZE = 3000; 
     
-    
+   @SuppressWarnings("unchecked") 
     public ArrayQueue(){
         arrayT =(T[]) new Object[DEFAULT_SIZE];
         ini = 0;
@@ -32,7 +32,8 @@ public class ArrayQueue<T> implements InterfaceQueue<T> {
         size++;
         
     }
-    
+       
+   @SuppressWarnings("unchecked") 
     protected void duplicateArraySize(){
         T[] newArray = (T[]) new Object[arrayT.length * 2];
         for (int i = 0; i < size; i++){
