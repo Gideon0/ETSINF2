@@ -15,12 +15,13 @@ public class ArrayHeap<T> implements InterfaceHeap<T> {
     
     protected static final int DEFAULT_SIZE = 3000;
     
+    @SuppressWarnings("unchecked")
     public ArrayHeap(){
         arrayH = (T[]) new Object[DEFAULT_SIZE];
         size = 0;
 
     }
-    
+    @SuppressWarnings("unchecked")
     protected void duplicate(){
         T[] newArray = (T[]) new Object[arrayH.length*2];
         for(int i = 0; i < size; i++){

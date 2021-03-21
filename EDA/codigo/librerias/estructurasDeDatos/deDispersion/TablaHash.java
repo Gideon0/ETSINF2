@@ -37,7 +37,6 @@ public class TablaHash<C,V> implements Map<C,V> {
         }
     }
 
-    @SuppressWarnings("unchecked")
     public V insertar(C clave, V valor) {
         if (factor_carga() > 1.5)
             rehashing();
@@ -50,7 +49,7 @@ public class TablaHash<C,V> implements Map<C,V> {
             aux = aux.sig;
 
         if (aux == null) {
-            elArray[cub] = new NodeHash(clave,valor,elArray[cub]);
+            elArray[cub] = new NodeHash<>(clave,valor,elArray[cub]);
             talla++;
         }
         else {

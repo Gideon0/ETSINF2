@@ -37,7 +37,6 @@ public class HashTable<K,V> implements InterfeceMap <K,V>{
         }
     }
     
-   @SuppressWarnings("unchecked") 
     public V insert(K key, V value){
         if (charge_factor() > 1.5){
             rehashing();
@@ -52,7 +51,7 @@ public class HashTable<K,V> implements InterfeceMap <K,V>{
             aux = aux.next;
 
         if(aux == null){
-            theArray[buk] = new NodeHash(key, value,theArray[buk]);
+            theArray[buk] = new NodeHash<>(key, value,theArray[buk]);
             size++;
         }else {
             res = aux.value;
@@ -87,7 +86,7 @@ public class HashTable<K,V> implements InterfeceMap <K,V>{
         NodeHash<K,V> aux = theArray[buk];
         while (aux != null && !key.equals(aux.key))
             aux = aux.next;
-        if(aux != null){
+        if(aux == null){
             return null;
         }
         return aux.value;
@@ -136,4 +135,3 @@ public class HashTable<K,V> implements InterfeceMap <K,V>{
 
 
 } 
-
