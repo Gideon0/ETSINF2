@@ -32,18 +32,19 @@ public class TestHashTable {
           }
        }
        
-       InterfaceList<String> list = table.keys();
-       list.goFirst();
+       InterfaceList<String> wordList = table.keys();
+       wordList.goFirst();
 
-       while(!list.isLast()){
-           String word = list.get();
+       while(!wordList.isLast()){
+           String word = wordList.get();
            Integer appearence = table.recove(word);
            System.out.println(word + "     \t -> " + appearence + " veces");
-           list.next();
+           wordList.next();
        }
 
        System.out.println("Media: " + table.charge_factor());
        System.out.println("Varianza: " + table.variance());
        System.out.println("Cubertas: " + table.theArray.length);
+       System.out.println("Numero de palablas diferente: " + table.size());
    } 
 }

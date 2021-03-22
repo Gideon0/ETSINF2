@@ -102,9 +102,9 @@ public class HashTable<K,V> implements InterfeceMap <K,V>{
     
     public InterfaceList<K> keys() {
         InterfaceList<K> list = new LinkedListIP<K>();
-
-        for (int buk = 0; buk < theArray.length; buk++){
-            NodeHash<K,V> aux = theArray[buk];
+        
+        for (NodeHash<K,V> e: theArray){
+            NodeHash<K,V> aux = e;
             while (aux != null){
                 list.insert(aux.key);
                 aux = aux.next;
