@@ -13,12 +13,12 @@ public class TestSelection {
 
         System.out.println("Desordenado");
         for (int i = 0; i < size; i++){
-            v[i] = gen.nextInt();
+            v[i] = gen.nextInt(100);
             System.out.println( "(" + i + "," + v[i] + ")");
         }
         System.out.println();
         
-        Integer val = Sort.selection(v,6);
+        Integer val = Sort.selection(v,4);
         
         System.out.println("Seleccion:");
         
@@ -30,7 +30,7 @@ public class TestSelection {
         System.out.println("Valor selccionado: " + val);
 
         Sort.quickSort(v);
-        System.out.println("Odenado:");
+        System.out.println("\nOdenado:");
         
         for (int i = 0; i < size; i++) {
             System.out.println("(" + i + "," + v[i] + ")");
