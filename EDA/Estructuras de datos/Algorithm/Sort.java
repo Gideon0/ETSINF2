@@ -77,7 +77,7 @@ public class Sort<T>{
         int j = fin + 1;
 
 
-            while(i <j){
+            while(i < j){
                 do{
                     i++;
                 }
@@ -86,12 +86,12 @@ public class Sort<T>{
                 do{
                     j--;
                 }
-                while(j >= ini && v[j].compareTo(pivote) > 0);           
+                while(j >= ini && v[j].compareTo(pivote) > 0);  
+
                 swap(v,i,j);
             }
-        
         swap(v, i, j);
-        return j; //sin terminar
+        return j; 
         
     }
 
