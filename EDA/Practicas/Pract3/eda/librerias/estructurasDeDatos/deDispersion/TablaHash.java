@@ -233,9 +233,8 @@ public class TablaHash<C, V> implements Map<C, V> {
         ListaConPI<EntradaHash<C,V>>[] aux = elArray;
         elArray = new LEGListaConPI[siguientePrimo(elArray.length * 2)];
         
-        for (int i = 0; i < elArray.length; i++){
+        for (int i = 0; i < elArray.length; i++)
             elArray[i] = new LEGListaConPI<>();
-        }
         
         for(ListaConPI<EntradaHash<C,V>> lista: aux){
             for (lista.inicio(); !lista.esFin(); lista.siguiente()){
@@ -255,11 +254,8 @@ public class TablaHash<C, V> implements Map<C, V> {
         double media = factorCarga();
         double suma = 0.0;
                                                           
-        for (ListaConPI<EntradaHash<C,V>> cub: elArray){
-            ListaConPI<EntradaHash<C,V>> aux =  cub;
-            int cont = aux.talla();
-            suma += (cont - media) * (cont - media);
-        }
+        for (ListaConPI<EntradaHash<C,V>> cub: elArray)
+            suma += (cub.talla() - media) * (cub.talla() - media);
         return Math.sqrt(suma/elArray.length);
         
         
@@ -274,9 +270,8 @@ public class TablaHash<C, V> implements Map<C, V> {
     public final double costeMLocalizar() {
         /* COMPLETAR */
         double res =0.0; 
-        for(ListaConPI<EntradaHash<C,V>> cub: elArray){
+        for(ListaConPI<EntradaHash<C,V>> cub: elArray)
             res += (cub.talla() * (cub.talla()+1))/2;
-        }
         return res/talla;
     }
 
