@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="250.0" prefWidth="250.0" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="windownavigation.Scene1Controller">
+   <children>
+      <Label text="Scene 1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <VBox spacing="5.0">
+         <children>
+            <Label text="Choose Modality">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <RadioButton fx:id="nonModalOption" mnemonicParsing="false" selected="true" text="Non Modal">
+               <toggleGroup>
+                  <ToggleGroup fx:id="modalitySelection" />
+               </toggleGroup>
+               <font>
+                  <Font size="16.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="windowModalOption" mnemonicParsing="false" text="Window Modal" toggleGroup="$modalitySelection">
+               <font>
+                  <Font size="16.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="appModalOption" mnemonicParsing="false" text="Application Modal" toggleGroup="$modalitySelection">
+               <font>
+                  <Font size="16.0" />
+               </font></RadioButton>
+         </children>
+      </VBox>
+        <Button onAction="#newWindow" text="New Window">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+   <padding>
+      <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+   </padding>
+</VBox>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addressBook>
+    <contact>
+        <email>john@domain.es</email>
+        <firstName>John</firstName>
+        <lastName>Doe</lastName>
+        <phoneNumber>961234567</phoneNumber>
+    </contact>
+    <contact>
+        <email>jane@domain.es</email>
+        <firstName>Jane</firstName>
+        <lastName>Doe</lastName>
+        <phoneNumber>967654321</phoneNumber>
+    </contact>
+    <contact>
+        <email>jim@domain.es</email>
+        <firstName>Jim</firstName>
+        <lastName>Doe</lastName>
+        <phoneNumber>961267345</phoneNumber>
+    </contact>
+</addressBook>

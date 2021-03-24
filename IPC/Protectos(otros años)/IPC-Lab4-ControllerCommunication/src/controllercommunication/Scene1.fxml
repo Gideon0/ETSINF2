@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="mainPane" alignment="CENTER" prefHeight="250.0" prefWidth="300.0" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllercommunication.Scene1Controller">
+   <children>
+      <Label text="Write message to pass">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="message">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+        <Button onAction="#newWindow" text="New Window">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+   <padding>
+      <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+   </padding>
+</VBox>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.Controller">
+   <children>
+      <Label fx:id="resultLabel" text="0.0">
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+         <children>
+            <Button fx:id="addOneButton" mnemonicParsing="false" onAction="#addAction" text="1" />
+            <Button fx:id="addFiveButton" mnemonicParsing="false" onAction="#addAction" text="5" />
+            <Button fx:id="addTenButton" mnemonicParsing="false" onAction="#addAction" text="10" />
+         </children>
+      </HBox>
+      <CheckBox fx:id="subtractCheckBox" mnemonicParsing="false" onAction="#switchMode" text="Restar" />
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <Label text="Valor:" />
+            <TextField fx:id="valueToAdd" onAction="#addAction" />
+            <Button fx:id="addValueButton" mnemonicParsing="false" onAction="#addAction" text="Sumar" />
+         </children>
+      </HBox>
+      <HBox alignment="BOTTOM_RIGHT" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Label fx:id="subtractLabel" disable="true" text="¡ Estas restando !" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
