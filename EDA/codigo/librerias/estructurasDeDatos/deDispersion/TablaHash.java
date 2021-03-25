@@ -1,6 +1,7 @@
 package librerias.estructurasDeDatos.deDispersion;
 
 import librerias.estructurasDeDatos.modelos.Map;
+import DataStructure.NodeHash;
 import librerias.estructurasDeDatos.lineales.LEGListaPI;
 import librerias.estructurasDeDatos.modelos.ListaPI;
 
@@ -132,5 +133,30 @@ public class TablaHash<C,V> implements Map<C,V> {
             suma += (cont - media) * (cont - media);
         }
         return suma / elArray.length;
+    }
+
+    public int [] histograma(){
+        final int TAM_HISTO = 10;
+        
+        int [] histo = new int [TAM_HISTO];
+
+        for (int i = 0;i < histo.length; i++ ){
+            histo[i] = 0;
+        }
+
+        for (int cub = 0; cub < elArray.length; cub++){
+            NodeHash<C,V> aux = elArray[cub];
+            int cont = 0;
+            while(aux != null){
+                cont++;
+                aux = aux.siguiente();
+            }
+            
+            if (cont < TAM_HISTO)
+                histo[cont]++;
+            else
+                histo[TAM_HISTO - 1]++;
+        }
+        return histo;
     }
 }
