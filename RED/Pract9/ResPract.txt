@@ -1,0 +1,44 @@
+1. 
+    MTU = 1500 Bytes  
+        Caberezera -> 20 Bytes
+        Datos IP -> 1480 
+    
+    Offset:  1480 / 8 = 185  <= En cada datagrma IP pueden tanmistirse 1480 Bytes de datos
+
+Datagrama IP 3500 
+        cabercera IP : 20 Bytes
+        Datos ip 3480
+
+                        Indentidicador  Offset  MF      Datos
+---------------------------------------------------------------------
+        Original        2331            0       0       0-3479
+---------------------------------------------------------------------
+        frag 1          2331            0       1       0-1479
+        frag 2          2331            185     1       1480 - 2959
+        frag 3          2331            370     0       2960 - 3479
+---------------------------------------------------------------------
+
+
+2.
+
+--------------------------------------------------------------------------------------
+Indentidicador          Flag DF         Flag MF     Desplazamiento      Logitud_total
+
+0x7a79                  0               1           0                   1500
+0x7a79                  0               1           1480                1500
+0x7a79                  0               1           2960                1040
+--------------------------------------------------------------------------------------
+
+3d)     Calcula el tamaño del mensaje que deberíamos enviar para que se generaran cuatro fragmentos de tamaño máximo. 
+        Para este cálculo hay que tener en cuenta cuánto ocupa la cabecera ICMP. 
+        La longitud de la cabecera ICMP hay que calcularla viendo cuánto ocupa cada uno de sus campos en la pestaña inferior de la captura.
+        Comprueba que dicho tamaño de mensaje es correcto capturando el tráfico generado tras ejecutar nuevamente la orden ping sustituyendo 3972 por el tamaño de mensaje calculado.
+
+        Seria de 5912 Bytes porque cada paquete es de 1500B x 4 = 6000B. Ahora a esto hay que restarle 80B de las 4 cabeceras IP = 5920
+         y ahora al enviarlo por ICMP esto ocupa 8 bytes de nuestros datos = 5912
+
+
+e)      ¿Cuántos bytes de datos IP viajan en cada paquete? ¿Y de datos ICMP? Para el cálculo puedes ayudarte de las cabeceras “Header Length” y “Total Length” del datagrama IP.
+        Como se explico antes, en cada fragmento viajan un total de 1500 bytes, de los cuales 20 bytes son de cabecera IP y los otros 1480B serian de datos del mensaje ICMP.
+
+        Tomar en cuenta, el numero total de bytes del mensaje son 5940 Bytes, de los cuales hay 20 bytes de cabecera IP, 8 bytes para indicar que estamos enviado un mensaje ICMP y 5912 bytes de datos a enviar (entonces el mensaje total que fragmentara es de 5920 bytes porque hay que incluir su cabecera).
