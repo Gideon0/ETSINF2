@@ -25,18 +25,18 @@ Limitaciones  de  las  primitivas  básicas  de  Java  relacionadas  con  la sin
 #### ENUNCIADO: Para cada una de las siguientes afirmaciones, indiquesi se corresponden con características de los Locks de la biblioteca java.util.concurrent, de los monitores básicos de Java, o bien de ambos. 
 ||RenntrantLock|Monitores básicos de Java|
 |--|--|--|
-|Se  ofrecen  distintos  tipos,  con  semántica  diferente (orientados a exclusión mutua, orientados a resolver el problema de lectores-escritores|||
+|Se ofrecen distintos tipos, con semántica diferente (orientados a exclusión mutua, orientados a resolver el problema de lectores-escritores|||
 |Dispone de un método que no suspende al invocador si el “lock” ya ha sido cerrado por otro hilo|||
-|Ofrece  un  método  que  sí  suspende  al  invocador  si  el “lock” ya ha sido cerrado por otro hilo.|||
-|Se  puede  establecer  un  plazo  máximo  de  espera  al solicitar la entrada al monitor|||
+|Ofrece un método que sí suspende al invocador si el “lock” ya ha sido cerrado por otro hilo.|||
+|Se puede establecer un plazo máximo de espera al solicitar la entrada al monitor|||
 |Se puede preguntar por el estado del monitor antes de solicitar acceso al mismo.|||
-|Se  puede  utilizar  más  de  una  variable  condición asociada al monitor|||
+|Se puede utilizar más de una variable condición asociada al monitor|||
 |Se puede cerrar el monitor utilizando un método de la una clase A, y abrirlo en un método de la clase B|||
 |Se puede cerrar el monitor utilizando un método de la una clase A, y abrirlo con otro método de la clase A|||
 |Todos los métodos de la clase monitor deben llevar la etiqueta synchronized.|||
-|Se  pueden  interrumpir  las  esperas  de  los  hilos  que desean adquirir el lock|||
-|El  programador  no  debe  preocuparse  del  cierre  y apertura de los locks. La gestión es implícita.|||
-|Cuando  se  produce  una  excepción,  se  debe  controlar que en el código asociado a la excepción se abra el lock.|||
+|Se pueden interrumpir las esperas de los hilos que desean adquirir el lock|||
+|El programador no debe preocuparse del cierre y apertura de los locks. La gestión es implícita.|||
+|Cuando se produce una excepción, se debe controlar que en el código asociado a la excepción se abra el lock.|||
 |Todos los hilos que se suspenden en alguna condición van a parar a una única cola (la misma para todos).|||
 
 ## Actividad 4 
