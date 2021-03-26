@@ -13,7 +13,7 @@ Limitaciones  de  las  primitivas  básicas  de  Java  relacionadas  con  la sin
 ## Actividad 2 
 #### A fin de mostrar las principales características de los Locks, que lo diferencian de los monitores clásicos de Java, indique brevemente qué realiza cada unode los siguientes métodos de la clase ReentrantLock(puede consultar la documentación de la librería java.util.concurrent)
 
-|||
+||||
 |--|--|--| 
 |`ReentrantLock(boolean fair)`| Para qué sirve el parámetro “fair”?|
 |`tryLock()`| ¿Podemos usar este método para romper la condición de  “retención y espera”? ¿Cómo?|
