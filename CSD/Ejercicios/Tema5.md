@@ -1,3 +1,4 @@
+#Unidad 5 - Otras herramientas de sincronización
 ## Actividad 1
 #### Enumere los distintos inconvenientes que ofrecen las primitivas básicas de Java (i.e. monitores) para la sincronización de tareas
 
@@ -159,3 +160,206 @@ public class Crosswalk{
 }
 
 ```
+## Actividad 6 
+#### OBJETIVO:  Interpretar  el  uso  de  colecciones  concurrentes  thread-safe (ejemplo: BlockingQueue).
+
+#### ENUNCIONDO:  Dado el siguiente ejemplo del utilización de la clase BlockingQueue...
+```java
+
+class Producer implements Runnable{
+    private final BlockingQueue queue;
+    Producer(BlockingQueueq){queue=q;}
+    publicvoidrun(){
+        try{
+            while(true){
+                queue.put(produce());}
+        }catch(InterruptedExceptionex){...}
+    }
+    Objectproduce(){...}
+}
+
+class Consumer implements Runnable{p
+    private final   BlockingQueue   queue;
+    Consumer(BlockingQueueq){queue=q;}
+    public void run(){
+        try{
+            while(true){consume(queue.take());}
+            }catch(InterruptedExceptionex){...}
+    }
+    void consume(Objectx){...}
+}
+class Setup{
+    voidmain(){
+        BlockingQueueq=newSomeQueueImplementation();
+        Producerp=newProducer(q);
+        Consumerc1=newConsumer(q);
+        Consumerc2=newConsumer(q);
+        newThread(p).start();
+        newThread(c1).start();
+        newThread(c2).start();
+    }
+}
+```
+a) ¿Qué problema se pretende resolver en este ejemplo?¿Cuántos hilos hay? ¿Qué representan? ¿Qué información/recurso comparten esos hilos?
+
+b) Si un hilo quiere extraer un ítem de una cola que está vacía, ¿tendrá que esperar? ¿Dónde se controla esto?
+
+c) Si un hilo quiere insertar un ítem enuna cola que está llena, ¿tendrá que esperar? ¿Dónde se controla esto
+
+d) ¿Podrían producirse condiciones de carrera? ¿Por qué?
+
+e) ¿Podemos decir que la cola BlockingQueuees Thread-Safe? ¿Por qué?
+
+## Actividad 7
+#### OBJETIVOS: Describir el funcionamiento de las clases atómicas. Comparar las variables atómicas (ej. AtomicLong) con el uso de monitores.
+
+#### Enuncioado: A  continuaciónse  muestra  un  ejemplo  de  uso  de  Variables  Atómicas  y  se compara con la creaciónde nuestras propias clases. En concreto:
+
+```java
+// Opción A: Usando nuestra propia clase 
+class ID {
+    private static long nextID = 0;
+
+    public static synchronized longgetNext(){
+            returnnextID++;
+        }
+    }
+
+
+public class EjCounter extends Thread{
+    IDcounter;
+
+    public EjCounter(IDc){counter=c;}
+
+    public void run(){
+        System.out.println("counter value: "+
+        (counter.getNext()));
+    }
+
+    public static void main(String[]args){
+        IDcounter=newID();
+        newEjCounter(counter).start();
+        newEjCounter(counter).start();
+        newEjCounter(counter).start();
+    }
+}
+```
+```java
+//Opción B: Usando variables atómicas
+public class EjCounter extends Thread{
+    AtomicLongcounter;
+
+    publicEjCounter(AtomicLongc){counter=c;}
+
+    publicvoidrun(){
+        System.out.println("counter value: "+
+        (counter.getAndIncrement()));
+    }
+    
+    public static void main(String[]args){
+        AtomicLongcounter=newAtomicLong(0);
+        newEjCounter(counter).start();
+        newEjCounter(counter).start();
+        newEjCounter(counter).start();
+    }
+}
+```
+
+a) Analicelas dosopciones.¿Qué es lo que hacen?¿Cuál será el valor de la variable counteren ambos casos?¿Se pueden producir condiciones de carrera en algún caso?
+
+b) ¿Para qué creeque sirven los siguientes métodos de la clase AtomicLong? Indiquecuál sería su instrucción equivalente, haciendo uso de laclase IDdefinida con la opción A. Para ello, añadanuevos métodos que permitan implementar esa misma funcionalidad. 
+
+|Método|Funcionamiento|Método equivalente en nuetra clase ID|
+|--|--|--|
+|`counter.addAndGet(5);`|||
+|`counter.getAndDercrement();`|||
+|`counter.incrementAndGet()`|||
+
+## Actividad 8 
+#### OBJETIVOS: Ilustrar  el  uso  de  semáforos  (Semaphore)  para  la sincronización.
+
+#### ENUNCIADO: A  continuación  se  muestra  uncódigo  Java que  trata  de  resolver  el problema “Productor-Consumidor con buffer acotado
+
+```java
+class Buffer{ 
+    private int head, tail, elems,size;
+    private int[] data;
+    private Semaphore item;
+    private Semaphore slot;
+    private Semaphore mutex;
+
+    publicBuffer(int s) {
+        head=tail=elems=0;  
+        size=s;
+        data=new int[size];
+        item=new Semaphore(0,true);
+        slot=new Semaphore(size,true);
+        mutex=new Semaphore(1,true);
+    }
+
+    public int get(){
+        try{
+            item.acquire();
+        }catch(InterruptedException e){}
+
+        try{
+            mutex.acquire();
+        }catch(InterruptedException e){}
+        
+        intx=data[head];
+        head=(head+1)%size;
+        elems--;
+        mutex.release();
+        slot.release();
+        return x;
+    }
+    
+    public void put(intx){
+        try{
+            slot.acquire();
+        }catch(InterruptedException e){}
+
+        try{
+            mutex.acquire();
+        }catch(InterruptedException e){}
+
+        data[tail]=x;
+        tail=(tail+1)%size;
+        elems++;
+        mutex.release();
+        item.release();
+    }
+}
+```
+Dadas las siguientes afirmaciones, indique si son VERDADERAS o FALSAS, justificando su respuesta.
+
+||V/F|
+|--|--|
+|El código es incorrecto, pues cada objeto Buffer debería tener un ReentrantLockcomo atributo interno para poder generar semáforos dentro de él.||
+|El semáforo slot proporciona sincronización condicional, suspendiendo al hilo productor cuando no haya huecos libres en el buffer||
+|El semáforo item proporciona sincronización condicional, suspendiendo al hilo consumidor cuando no haya elementos en el buffer.||
+|El código es incorrecto, pues los métodos put() y get() deberían estar calificados como “synchronized” para poder utilizar los semáforos.||
+
+
+## Actividad 9 
+
+#### OBJETIVOS: Ilustrar el funcionamiento de las barreras, distinguiendo entre CyclicBarriery CountDownLatch.
+
+#### ENUNCIADO: Complete la siguiente tabla de comparación entre estas dos  clases. Indiquetambién qué método o métodos ofrecen la funcionalidad solicitada, en cada caso. Para ello, puede emplear la documentación de java.util.concurrentpara completar su respuesta
+
+||CyclicBarrier|CountDownLatch|
+
+|¿Lleva un contador(explícito o implícito)?|||
+|¿Permite inicializar el contador en la creación?|||
+|¿Se puede incrementar el contador?|||
+| ¿Cómo?¿Se puede decrementar el contador? |||
+|¿Cómo?Método que se emplea para que el hilo se quede esperando|||
+|¿Permite ejecutar alguna acción cuando el último hilo llega al punto de sincronización?|||
+|¿Se puede reutilizar?|||
+
+## Actividad 10 
+#### OBJETIVOS:  Hacer  uso  de  las  herramientas  proporcionadas  por  la biblioteca  java.util.concurrent.
+#### ENUNCIADO: Dado el siguiente programa en Java, en el que la columna de la izquierda de cada  línea  de  código  proporciona  su  número  de  línea,  que  puede  ser  utilizado  para refenciarla.  
+
+## ACTIVIDAD 11
+#### OBJETIVOS:Describir  el  funcionamiento  de  las variablesatómicas  y compararlas con los monitores. Ilustrar la utilización de los locksy las condiciones. Ilustrar el uso de barreras. 
