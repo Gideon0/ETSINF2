@@ -87,3 +87,13 @@ Sobre	las	condiciones	de	Coffman	y	las	situaciones	de	interbloqueo:
 | 22. Una de las condiciones de Coffman consiste en solicitar todos los recursos requeridos inicialmente, de modo que los hilos se bloquean (retención y espera) si existe un conflicto en las peticiones.| F
 | 23. Las situaciones de interbloqueo pueden prevenirse asignando los recursos de manera que nunca se genere un ciclo dirigido. |V 
 |24. Una de las condiciones de Coffman consiste en que los recursos asignados pueden ser expropiados.|F
+|25. En esta solución se puede sobrepasar el máximo número de piezas blancas o azules en los cestos, puesto que se incrementan los contadores antes de comprobar si caben.| F 
+---
+Un taller de una joyería quiere montar collares de perlas solo blancas, solo azules o combinados de perlas blancas y azules. Para ello dispone de 5 encargados y 2 cestos, uno para cada color de perla, con capacidad limitada . Para organizar la producción se decide que un encargado será el proveedor de perlas blancas, otro encargado proveerá las perlas azules y el resto de encargados se destinará al montaje de cada tipo de collar. El monitor `GestorDePerlas`, gestiona el número de perlas almacenadas en los cestos. Hay un hilo asociado a cada encargado. Los encargados de proveer perlas, se encargan de obtener una perla y almacenarla en el cesto correspondiente utilizando los métodos `AñadirBlanca` ó `AñadirAzul`. El resto de encargados solicitan al monitor el número de perlas de cada color que necesitan para montar el collar utilizando el método `SolicitarPedido`. Analice la siguiente propuesta para el monitor `GestorDePerlas`
+|||
+|--|--|
+|26. El atributo PedidoEnCurso es necesario para proporcionar exclusión mútua en el acceso al método SolicitarPedido .| F
+| 27. La solución no es correcta porque la invocación al método notifyAll en AñadirBlanca y AñadirAzul, debería ser la última instrucción en ambos métodos. |F
+| 28. El calificativo synchronized en los métodos AñadirBlanca y AñadirAzul, no es necesario ponerlo, ya que sólo hay un hilo que añade piezas blancas y un hilo que añade piezas azules.| F
+| 29. El atributo PedidoEnCurso se utiliza para conseguir que cuando un pedido P1 está esperando a que se completen las piezas solicitadas, los nuevos pedidos no se atenderán hasta que se complete P1.| V
+| 30. La solución propuesta para el monitor es correcta, y sincroniza adecuadamente según el enunciado, los proveedores de perlas y la gestión de los pedidos que realizan los montadores.|V
