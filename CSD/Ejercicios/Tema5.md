@@ -1,4 +1,4 @@
-#Unidad 5 - Otras herramientas de sincronización
+# Unidad 5 - Otras herramientas de sincronización
 ## Actividad 1
 #### Enumere los distintos inconvenientes que ofrecen las primitivas básicas de Java (i.e. monitores) para la sincronización de tareas
 
