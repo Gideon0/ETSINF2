@@ -1,5 +1,6 @@
 #### TEORÍA
 Respecto	a	las	diferencias	entre	la	programación	concurrente	y	la	programación	secuencial:
+
 |||
 |--|--|
 |1. Los	programas	secuenciales	pueden	generar	condiciones	de	carrera,	al	igual	que	 los	programas	concurrentes.| F
@@ -25,3 +26,41 @@ Sobre	el	concepto	de	monitor	y	sus	variantes:
 |9. Suponiendo	que	haya	algún	hilo	suspendido	en	la	variable	condición		c ,	un	monitor	que	siga	el	modelo	de	Hoare	suspende	al	hilo	que	ha	invocado	a	c.notify() y	activa	a	uno	de	los	hilos	que	llamó	antes	a	c.wait().|V
 |10. El	lenguaje	Java	proporciona	por	defecto	monitores	de	tipo	"Lampson/Redell".	| V
 |11. El	monitor	Lampson-Redell	garantiza	que	tras	una	operación	notify(),		el	hilo	reactivado	encuentra	el	estado	del	monitor	exactamente	igual	que	estaba	cuando	se	ejecutó	dicho	notify.	| F
+
+Dado el siguiente programa Java: 
+```java
+
+public class GreatBoss extends Thread {
+    rotected int workers = 0;
+    public GreatBoss(int workers) {this.workers = workers;}
+
+    public void myAction(){
+        for (int i = 0; i<= workers; i++){
+          System.out.println("Preparing worker " + i + " for: " +
+             Thread.currentThread().getName());
+          new Thread(new Runnable(){
+              public void run(){
+                 System.out.println("Task finished"); }
+          });
+        }
+     }
+ 
+ public void run() {
+    myAction();
+    try{Thread.sleep(workers*1000);}
+    catch(InterruptedException ie){ie.printStackTrace();};
+    System.out.println(Thread.currentThread().getName() +  "done");
+ }
+
+ public static void main(String[] argv) {
+    for (int i=0; i<10; i++){
+        GreatBoss boss = new GreatBoss(i);
+        if (i<5) { 
+            boss.setName("Chief" + i);
+            boss.start();
+        }
+     }
+ }
+ }
+
+```
