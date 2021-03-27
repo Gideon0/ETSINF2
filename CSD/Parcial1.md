@@ -45,22 +45,45 @@ public class GreatBoss extends Thread {
         }
      }
  
- public void run() {
-    myAction();
-    try{Thread.sleep(workers*1000);}
-    catch(InterruptedException ie){ie.printStackTrace();};
-    System.out.println(Thread.currentThread().getName() +  "done");
- }
+    public void run() {
+        myAction();
+        try{Thread.sleep(workers*1000);}
+        catch(InterruptedException ie){ie.printStackTrace();};
+        System.out.println(Thread.currentThread().getName() +  "done");
+    }
 
- public static void main(String[] argv) {
-    for (int i=0; i<10; i++){
-        GreatBoss boss = new GreatBoss(i);
-        if (i<5) { 
-            boss.setName("Chief" + i);
-            boss.start();
+    public static void main(String[] argv) {
+        for (int i=0; i<10; i++){
+            GreatBoss boss = new GreatBoss(i);
+            if (i<5) { 
+                boss.setName("Chief" + i);
+                boss.start();
+            }
         }
-     }
- }
+    }
  }
 
 ```
+|||
+|--|--|
+|12. Al	ejecutarlo,	veremos	por	pantalla al	menos una línea	con	la	sentencia Task finishe|F
+|13. Al	ejecutarlo,	veremos	por	pantalla, entre otras cosas, la	línea	Preparing worker 4 for: Chief4|V
+|14. Con este código se	crearán	un	total de 10	hilos,	aparte	de	main.	| F
+|15. Al	ejecutarlo,	veremos	por	pantalla, entre otras cosas, 5 líneas con la palabra `done` V
+|16. Se	requiere etiquetar	el	método	myAction() con	la	etiqueta synchronized para evitar las condiciones de carrera. |F
+
+![](https://media.discordapp.net/attachments/705068953315311717/825436417164705802/unknown.png)
+|||
+|--|--|
+|17. Se encuentran en interbloqueo los procesos H5 y H7. |F 
+|18. El sistema presenta al menos una secuencia segura.| V
+|19. Si el proceso H4 solicita una instancia de cualquiera de los recursos del sistema (sin liberar las dos instancias que ya tiene asignadas del recurso R2), se producirá un interbloqueo y ningún proceso podrá acabar.| V 
+|20. En este GAR se dan todas las condiciones de Coffman.| V
+
+Sobre	las	condiciones	de	Coffman	y	las	situaciones	de	interbloqueo:
+|||
+|--|--|
+|21. Las condiciones de Coffman permiten diseñar sistemas que cumplan con todas ellas, para así garantizar que no se producirán interbloqueos. |F
+| 22. Una de las condiciones de Coffman consiste en solicitar todos los recursos requeridos inicialmente, de modo que los hilos se bloquean (retención y espera) si existe un conflicto en las peticiones.| F
+| 23. Las situaciones de interbloqueo pueden prevenirse asignando los recursos de manera que nunca se genere un ciclo dirigido. |V 
+|24. Una de las condiciones de Coffman consiste en que los recursos asignados pueden ser expropiados.|F
