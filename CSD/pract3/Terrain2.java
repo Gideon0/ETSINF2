@@ -7,14 +7,20 @@ import java.util.concurrent.locks.ReentrantLock;
  * @author CSD Juansa Sendra
  * @version 2021
  */
-public class Terrain1 implements Terrain {
+public class Terrain2 implements Terrain {
     Viewer v;
     ReentrantLock lock = new ReentrantLock();
-    Condition c = lock.newCondition();
+    Condition[][] c;
 
-    public  Terrain1 (int t, int ants, int movs) {
-        v=new Viewer(t,ants,movs,"1.- ReentrantLock and Condition");
+    public  Terrain2 (int t, int ants, int movs) {
+        v=new Viewer(t,ants,movs,"2.- ReentrantLock and ConditionArray");
         for (int i=0; i<ants; i++) new Ant(i,this,movs).start();
+        c = new Condition[t][t];
+        for (int i = 0; i < c.length; i++) {
+            for (int j = 0; j < c.length; j++) {
+                 c[i][j] = lock.newCondition();
+            }
+        }
     }
 
     public void     hi      (int a) {
@@ -34,10 +40,14 @@ public class Terrain1 implements Terrain {
     public void     move    (int a) throws InterruptedException {
         lock.lock();
         try {
-            v.turn(a); Pos dest=v.dest(a); 
-            while (v.occupied(dest)) {c.await(); v.retry(a);}
+            v.turn(a); Pos dest=v.dest(a);
+            int getX = dest.x;
+            int getY = dest.y; 
+            int x = v.getPos(a).x;
+            int y = v.getPos(a).y;
+            while (v.occupied(dest)) {c[getX][getY].await(); v.retry(a);}
             v.go(a); 
-            c.signalAll();
+            c[x][y].signal();
         }finally{lock.unlock();}
     }
 }

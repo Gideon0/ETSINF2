@@ -29,8 +29,8 @@ public class Ants
         switch (type) {
         case 0: new Terrain0(T,A,M); break;
         case 1: new Terrain1(T,A,M); break; // must be Terrain1 TO BE IMPLEMENTED
-        case 2: new Terrain0(T,A,M); break; // must be Terrain2 TO BE IMPLEMENTED
-        case 3: new Terrain0(T,A,M);        // must be Terrain3 TO BE IMPLEMENTED
+        case 2: new Terrain2(T,A,M); break; // must be Terrain2 TO BE IMPLEMENTED
+        case 3: new Terrain3(T,A,M);        // must be Terrain3 TO BE IMPLEMENTED
         }
     }
 }

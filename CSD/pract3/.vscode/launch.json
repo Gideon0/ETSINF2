@@ -13,10 +13,45 @@
         },
         {
             "type": "java",
-            "name": "Launch with Arguments Prompt",
+            "name": "0 8 10 3",
             "request": "launch",
             "mainClass": "",
-            "args": "1 8 15 3"
+            "args": "0 8 10 3"
+        },
+        {
+            "type": "java",
+            "name": "1",
+            "request": "launch",
+            "mainClass": "",
+            "args": "1"
+        },
+        {
+            "type": "java",
+            "name": "1 8 10 3",
+            "request": "launch",
+            "mainClass": "",
+            "args": "1 8 10 3"
+        },
+        {
+            "type": "java",
+            "name": "2",
+            "request": "launch",
+            "mainClass": "",
+            "args": "2"
+        },
+        {
+            "type": "java",
+            "name": "2 8 10 3",
+            "request": "launch",
+            "mainClass": "",
+            "args": "2 8 10 3"
+        },
+        {
+            "type": "java",
+            "name": "3",
+            "request": "launch",
+            "mainClass": "",
+            "args": "3"
         }
     ]
 }
