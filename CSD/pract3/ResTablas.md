@@ -1,5 +1,5 @@
 ### Actividad 0 
-##### Ant 0
+##### Ant "0"
 |Prueba | Total Retries| Num de hormigas interbloquedas|
 |--|--|--|
 |1|42|4|
@@ -18,7 +18,7 @@
 |5|23|3|
 |6|2|0|
 ### Actividad 1
-##### Ant 1
+##### Ant "1"
 |Prueba | Total Retries| Num de hormigas interbloquedas|
 |--|--|--|
 |1|56|5|
