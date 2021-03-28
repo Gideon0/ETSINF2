@@ -33,7 +33,10 @@ public class Terrain2 implements Terrain {
     public void     bye     (int a) {
         lock.lock();
         try{
+            int x = v.getPos(a).x;
+            int y = v.getPos(a).y;
             v.bye(a);
+            c[x][y].signal();
         }finally{lock.unlock();}
     }
 
