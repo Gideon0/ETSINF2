@@ -1,7 +1,7 @@
 package librerias.estructurasDeDatos.deDispersion;
 
 import librerias.estructurasDeDatos.modelos.Map;
-import DataStructure.NodeHash;
+import librerias.estructurasDeDatos.deDispersion.NodeHash;
 import librerias.estructurasDeDatos.lineales.LEGListaPI;
 import librerias.estructurasDeDatos.modelos.ListaPI;
 
