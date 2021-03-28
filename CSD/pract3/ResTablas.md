@@ -8,7 +8,7 @@
 |4|49|6|
 |5|68|6|
 |6|52|5|
-##### Ant 0 8 10 3
+##### Ant "0 8 10 3"
 |Prueba | Total Retries| Num de hormigas interbloquedas|
 |--|--|--|
 |1|24|5|
@@ -27,7 +27,7 @@
 |4|25|2|
 |5|57|6|
 |6|52|2|
-##### Ant 1 8 10 3
+##### Ant "1 8 10 3"
 |Prueba | Total Retries| Num de hormigas interbloquedas|
 |--|--|--|
 |1|8|1|
@@ -37,7 +37,7 @@
 |5|23|2|
 |6|34|4|
 ### Actividad 2
-##### Ant 2
+##### Ant "2"
 |Prueba | Total Retries| Num de hormigas interbloquedas|
 |--|--|--|
 |1|1|7|
@@ -46,7 +46,7 @@
 |4|3|7|
 |5|1|5|
 |6|8|4|
-##### Ant 2 8 10 3
+##### Ant "2 8 10 3"
 |Prueba | Total Retries| Num de hormigas interbloquedas|
 |--|--|--|
 |1|2|0|
