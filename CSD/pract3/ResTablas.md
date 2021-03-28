@@ -27,7 +27,7 @@
 |4|25|2|
 |5|57|6|
 |6|52|2|
-##### Ant 2 8 10 3
+##### Ant 1 8 10 3
 |Prueba | Total Retries| Num de hormigas interbloquedas|
 |--|--|--|
 |1|8|1|
