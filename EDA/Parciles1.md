@@ -66,10 +66,11 @@ public static int deLongitud (String[] v, int x, int i, int j){
 	}
 }
 ```
-|||
-|--|--|--|
-|Hueco 1|(i + j) / 2| |
-|Hueco 2|deLongitudX(v, x, i, m - 1) + deLongitud(v, x, m + 1, j)
+
+|Huecos|Codigo|
+|--|--|
+|Hueco 1|(i + j) / 2|
+|Hueco 2|deLongitudX(v, x, i, m - 1) + deLongitud(v, x, m + 1, j) |
 |Hueco 3|deLongitudX(v, x, m + 1, j)|
 |Hueco 4|deLongitudX(v, x, i, m - 1)|
 
@@ -79,14 +80,17 @@ Completa los huecos con aquellas de las siguientes opciones que consideres adecu
 Se debe respetar la notación, incluidos los paréntesis que aparecen en algunas de la opciones. 
 
 **Como mínimo (cota inferior), T(x) ε Omega(log x)**
+
 **Como máximo (cota superior), T(x) ε O(x)**
 ### Pregunta 3
 #### Cuestión 1. Dado el histograma de ocupación de un table hash, contesta a las siguientes preguntas:
 ![enter image description here](https://media.discordapp.net/attachments/705068953315311717/826186187357421668/unknown.png?width=1433&height=382)
 a) ¿Cuántas cubetas tiene la tabla? 
 `10`
+
 b) ¿Cuántos elementos tiene la tabla? 
 `14`
+
 c) ¿Cuál es su factor de carga? 
 `1,4`
 #### Cuestión 2. Dibuja una tabla hash que pueda haber producido el histograma anterior. Dicha tabla hash almacenará enteros en el rango [10..99] (elige los enteros que desees para crearla, pero que estén dentro de ese rango). La función de dispersión usada es H(x) = x % elArray.length. Para dibujar la tabla, usa el siguiente formato: cada una de las filas representa una cubeta de la tabla hash, la primera columna será el índice de cubeta, y, a continuación, los elementos almacenados en esa cubeta, separados por comas. Usa tantas filas como necesites.
@@ -104,7 +108,9 @@ c) ¿Cuál es su factor de carga?
 |9|19,29|
 #### Cuestión 3. Si se insertan 5 elementos distintos que no estaban en la tabla, ¿qué histograma(s) podría(n) corresponder al resultado? Marca con verdadero ("V") o falso ("F") las siguientes afirmaciones
 ![enter image description here](https://media.discordapp.net/attachments/705068953315311717/826187866081853480/unknown.png?width=1433&height=401)
+
 El histograma de la izquierda -> num. de cubetas =  5 + 5 + 1 = 11 ≠ 10   => **F**
+
 El histograma de la derecha   -> num. de cubetas = 1 + 3 + 4 + 1 + 1 = 10 => **V**
 
 ##  Marzo 2019 
