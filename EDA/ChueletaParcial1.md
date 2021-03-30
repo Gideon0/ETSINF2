@@ -33,6 +33,28 @@
   - `private NodoLEG<E> ultimo;`
   - `private int talla;`
 --
+### NodeLEG
+```java
+  public class NodoLEG<E> {
+      E dato;
+      NodoLEG<E> siguiente;
+
+      public NodoLEG() {
+          this.dato = null;
+          this.siguiente = null;
+      }
+
+      public NodoLEG(E e, NodoLEG<E> s) {
+          this.dato = e;
+          this.siguiente = s;
+      }
+
+      public NodoLEG(E e) {
+          this.dato = e;
+          this.siguiente = null;
+      }
+  }
+```
 ### LEGListaPI
 - Metodos 
   - `void insertar(E e);`
@@ -49,6 +71,23 @@
   - `NodoLEG<E> ultimo;`
   - `NodoLEG<E> PI_ant;`
   - `int talla;`
+
+# Tema 3
+
+### NodeHash
+```java
+public class NodeHash<C,V> {
+    C clave;
+    V valor;
+    NodeHash<C,V> sig;
+
+    public NodeHash(C clave, V valor, NodeHash<C,V> sig) {
+        this.clave = clave;
+        this.valor = valor;
+        this.sig = sig;
+    }
+}
+```
 ### TablaHash
 - Metodos 
   - `V insertar(C clave, V valor);`
