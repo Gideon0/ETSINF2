@@ -29,17 +29,17 @@ public static <E> Pila <E> eliminarRepetidos(ListaConPI<E> l){
 ```
 ||Opciones| |Huecos| |
 |-|-|-|-|-|
-|A|Pila||1|
-|B|ArrayPila||2|
-|C|LEGPila||3|
-|D|p.apilar||4|
-|E|p.esVacia||5|
-|F|l.inicio||6|
-|G|l.siguiente||7|
-|H|l.esFin||8|
-|I|!l.esFin||9|
-|J|l.esVacia||10|
-|K|!l.esVacia||11|
+|A|Pila||1| B-C
+|B|ArrayPila||2|J
+|C|LEGPila||3|F
+|D|p.apilar||4|L
+|E|p.esVacia||5|G
+|F|l.inicio||6|I
+|G|l.siguiente||7|L
+|H|l.esFin||8|N
+|I|!l.esFin||9|D
+|J|l.esVacia||10|M
+|K|!l.esVacia||11|I
 |L|l.recuperar|||
 |M|l.eliminar|||
 |N|e1.equals(e2)|||
@@ -119,12 +119,12 @@ El histograma de la derecha   -> num. de cubetas = 1 + 3 + 4 + 1 + 1 = 10 => **V
 public void invertir(){
 	ListaConPI<E> lpi = /** 6 **/();
 	while (!this.esVacia()){
-		/** 2 **/( /** 2 **/());
-		/** 2 **/();
+		/** 2 **/( /** 7 **/());
+		/** 4 **/();
 	}
 	while (!lpi.esVacia()){
-		/** 2 **/(/** 2 **/());
-		/** 2 **/();
+		/** 1 **/(/** 8 **/());
+		/** 3 **/();
 	}
 }
 ```
@@ -161,4 +161,44 @@ private static int metodo(int[] v, int ini, int fin, int a, int b){
 }
 ```
 a)  Expresa la talla del problema x en función de los parámetros del método 
+
 Talla ` x = fin - ini - 1`
+
+b) Infica si hay instancias significativas para una talla dada y por qué. En casa afirmativo, descríbelas.
+
+Sí	hay	instancias	significativas:
+- Mejor	caso: todos	los	elementos	de	v son	menores	que	a (o	mayores	que	b)
+- Peor	caso: todos	los	elementos	de	v están	en	el	intervalo	[a,	b]
+  
+c) En	base	a	tu	apartado	b),	escribe la(s)	Relación(es) de	Recurrencia	que	expresa(n) el	coste	del	método
+
+TmetodoM(x)	 =	 1 * TmetodoM(x/2)	+	k
+TmetodoP(x)	 =	 2 * TmetodoP(x/2)  +	k
+
+d) Resuelve la(s) Relación(es) de Recurrencia del apartado c), indicando el(los) Teoremas de Coste que usas y escribiendo el coste Temporal del método en notación asintótica (O y Ω o bien Θ).
+
+Por Teorema 3 con a = 1 y c = 2, Tmetodo(x) ∈ Ω(log2x). 
+
+Por Teorema 3 con a = 2 y c = 2, Tmetodo(x) ∈ O(x).
+
+### 3.- Sea una aplicación de gestión de notas en la que se usa un Map `<Alumno, Double>` cada una de cuyas Entradas representa a un alumno y la nota que este ha obtenido en una asignatura.
+
+a) Implementa un método cuyo perfil sea el mostrado en el siguiente recuadro, donde el parámetro m es el Map de las notas de todos los alumnos de una asignatura. El método debe realizar las siguientes acciones:
+- Devolver un (nuevo) Map que contenga únicamente las Entradas de m que corresponden a alumnos aprobados (con nota mayor o igual que 5.0).
+- Eliminar del Map m todas las Entradas que corresponden a alumnos aprobados. Es decir, al terminar la ejecución del método, m debe contener únicamente las Entradas correspondientes a alumnos suspendidos.
+```java
+public static Map <Alumno, Double> obtenerAprovados(Map <Alumnos,Double> m){
+	Map<Alumno, Double> aprovado = new TablaHash<Almuno, Double>(m.tall());
+	ListaConPI<Alumno> l = m.claves();
+	for (l.inicio(); !l.esFin(); l.siguiente()){
+		Alumno alumno = l.recuperar();
+		Double nota = n.recuperar(alumno);
+		if (nota >= 5.0){
+			aprobados.insertar(alumno,nota);
+			m.elimiar(alumno);
+		}
+	}
+	return aprovados;
+}
+``` 
+b) Suponiendo que el Map m se ha implementado eficientemente mediante una TablaHash, indica para el método diseñado: la talla del problema x que resuelve, en función de sus parámetros; las instancias significativas que presenta, si las hubiera; su coste Temporal en notación asintótica (O y Ω o bien Θ).
