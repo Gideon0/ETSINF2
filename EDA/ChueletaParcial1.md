@@ -78,6 +78,11 @@
   - `NodoLEG<E> ultimo;`
   - `NodoLEG<E> PI_ant;`
   - `int talla;`
+# Tema 2 
+### Notación asintótica 
+- Con estancia significativa
+
+![equation](https://latex.codecogs.com/gif.latex?T%28x%29%20%5C%2C%20%5Cepsilon%20%5C%2C%20%5COmega%20%5C%3A%20%5Crightarrow%20Mejor%5C%2C%20caso)
 
 # Tema 3
 
