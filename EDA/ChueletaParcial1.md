@@ -23,6 +23,8 @@
   - `T[] elArray`
   - `int tope`
  
+ ---
+ 
 ### NodeLEG
 ```java
   public class NodoLEG<E> {
@@ -46,6 +48,7 @@
   }
 ```
 
+
 ### LEGCola
 - Metodos
   - `public void encolar(E e);`
@@ -57,7 +60,7 @@
   - `private NodoLEG<E> ultimo;`
   - `private int talla;`
 
----
+
 
 ### LEGListaPI
 - Metodos 
