@@ -7,12 +7,12 @@
   - `public void encolar(E e);`
   - `publuc T desencolar();`
   - `public T primero();`
-  - `public boolean esVacia`
+  - `public boolean esVacia;`
 - Atributos
-  - `T[] elArray`
-  - `int final`
-  - `int principio`
-  - `int talla`
+  - `T[] elArray;`
+  - `int final;`
+  - `int principio;`
+  - `int talla;`
 ### ArrayPila
 - Metodos
   - `public void apilar(E e);`
