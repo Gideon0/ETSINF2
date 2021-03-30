@@ -22,17 +22,7 @@
 - Atributos
   - `T[] elArray`
   - `int tope`
-### LEGCola
-- Metodos
-  - `public void encolar(E e);`
-  - `publuc T desencolar();`
-  - `public T primero();`
-  - `public boolean esVacia`
-- Atributos
-  - `private NodoLEG<E> primero;`
-  - `private NodoLEG<E> ultimo;`
-  - `private int talla;`
---
+ 
 ### NodeLEG
 ```java
   public class NodoLEG<E> {
@@ -55,6 +45,20 @@
       }
   }
 ```
+
+### LEGCola
+- Metodos
+  - `public void encolar(E e);`
+  - `publuc T desencolar();`
+  - `public T primero();`
+  - `public boolean esVacia`
+- Atributos
+  - `private NodoLEG<E> primero;`
+  - `private NodoLEG<E> ultimo;`
+  - `private int talla;`
+
+---
+
 ### LEGListaPI
 - Metodos 
   - `void insertar(E e);`
