@@ -202,3 +202,104 @@ public static Map <Alumno, Double> obtenerAprovados(Map <Alumnos,Double> m){
 }
 ``` 
 b) Suponiendo que el Map m se ha implementado eficientemente mediante una TablaHash, indica para el método diseñado: la talla del problema x que resuelve, en función de sus parámetros; las instancias significativas que presenta, si las hubiera; su coste Temporal en notación asintótica (O y Ω o bien Θ).
+
+- Talla del problema, en función de los parámetros del método: `x = m.talla().`
+- Instancias significativas: no hay, pues se trata de un método de Recorrido.
+- Utilizando la notación asintótica, `T (x) ∈ Θ(x).`
+
+### Junio de 2019  
+
+### 2.- ) Escribe un método estático Divide y Vencerás que, dados un array v de int ordenado ascendentemente y sin elementos repetidos y un int x, devuelva el elemento de v con valor más cercano al de x. Para ello...
+
+- Puedes suponer que v tiene como mínimo tres elementos y que, de ellos, el elemento de valor más cercano al de x no está NI en la primera posición de v NI en la última.
+- Puedes usar en tu código un método comparar que, como su nombre indica y en el orden de una constante, compara con x dos elementos eV1 y eV2 de v y devuelve aquel de ellos con valor más cercano al de x. Su perfil es: int comparar(int[] v, int eV1, int eV2, int x).
+
+```java
+public static int buscarMasCercano (int[] v, int x){
+	return buscarMasCercano(v, x, 0, v.length - 1);
+}
+
+public static int buscarMasCercano (int[] v, int x, int ini, int fin){
+	int m = (ini + fin) / 2;
+	if (v[m]== x) {return v[m];}
+	if (v[m] < x) {
+		if (v[m + 1] > x) {return comparar(v, v[m],v[m + 1], x);}
+		else {return buscarMasCercano(v, x, m + 1, fin);}
+	}
+	else if(v[m - 1] < x){ return comparar (v, v[m - 1], v[m], x);}
+	else{return buscarMasCercano(v, x, ini, m - 1);}
+		
+}
+```
+#### Una vez diseñado el método, estudia su coste temporal del método recursivo que lanza. En concreto:
+
+##### a) expresa la talla del problema x en función de sus parametos
+`x = fin - ini - 1`
+
+##### b) Escribe la(s) relaciones de recurencia que expresa(n) su coste
+
+Mejor caso => TbuscarMasCercanoM(x)	= k (contante) 
+
+Peor caso  => TbuscarMasCercanoP (x) = 1 * TbuscarMasCercanoP (x / 2) + k’ 
+
+##### c)Resuelve  la(s) relacion(es) de recurrencia del apartado b), indicando el(los)  Teoremos de Coste que usas y escribiendo el conste Temporal del método en la notacioón asintótica (O y Ω o bien Θ).
+
+Mejor caso => TbuscarMasCercano(x)	∈ Ω(1)
+
+Peor  caso => TbuscarMasCercano(x)	∈ O(log2 x)  [Por teorema 3 de costes]
+
+### 3.-Dado el siguiente histograma de ocupación de una Tabla Hash (con Hashing Enlazado):
+
+![](https://media.discordapp.net/attachments/705068953315311717/826502914012610610/unknown.png?width=767&height=190) 
+
+
+##### a) Indica el número de cubetas y el de elementos que tiene la Tabla, dejando indicadas las operaciones que has realizado para calcular dichos valores
+
+Numero de cubetas, o elArray.length = `20 + 35 + 15 + 5 + 5=80`
+
+Numero de elementos de la Tabla, o talla = `20*0 + 35*1 + 15*2 + 5*3 + 5*4 = 120`
+
+##### b) Calcula el Factor de Carga de la Tabla y la desviación típica de las longitudes de sus cubetas, dejando indicadas las operaciones que has realizado para calcular dichos valores.
+
+Factor_carga = talla / elArray.length = cubetas / elementos = 120/80 = 1.5
+
+σ(desviación típica) = `sqrt((20 * (0-1.5)² + 35 * (1-1.5)² + 15 * (2-1.5)² + 5 * (3-1.5)² + 5 * (8-1.5)² ) / 80). `
+
+##### c) Supón que se insertan cuatro elementos distintos y que no estaban en la Tabla. Indica cuál de los siguientes es el histograma de ocupación de la Tabla tras estas inserciones. Es imprescindible que razones tu respuesta.
+
+![](https://media.discordapp.net/attachments/705068953315311717/826505367638114334/unknown.png?width=782&height=233)
+
+El histograma de ocupación resultante es el A porque en él hay dos cubetas más de 2 elementos que en el anterior (tras insertar 2 nuevos elementos en 2 de sus cubetas de longitud uno) y, consecuentemente, dos cubetas menos de 1 elemento que en la anterior. Además, también hay en él dos cubetas más de 4 elementos que en el anterior (tras insertar 2 nuevos elementos en 2 de sus cubetas de longitud tres). Por otra parte, el histograma resultante no puede ser el B porque tras insertar nuevos elementos en la Tabla no puede aumentar el número de cubetas de 1 elemento SIN disminuir el número de las que tienen 0 o 1.
+
+### 4.-  El siguiente método de la clase `ArrayColaExtque<E extends<E>>` extiende de ArrayCola, ordena ascendentemente los elementos de una Cola usando una ListaConPI como estructura auxiliar. Escribe en cada recuadro el número de la opción (ver listado a la derecha) que le corresponde.
+
+```java
+public void ordenar () {
+	/** 6 **/ lpi = new /** 5 **/ ();
+	while (!this.esVacia()){
+		E e = /** 2 **/();
+		for (lpi.inicio();/** 3  **/&&/** 1 **/;/** 8 **/);
+		/** 7 **/ (e);
+	}
+	lpi.inicio();
+	while(!lpi.esVacia()){
+		/** 10 **/(/** 9 **/());
+		/** 4 **/();
+	}
+	
+}
+
+```
+
+|||
+|--|--|
+|1| `lpi.recuperar().compareTo(e)	<=	0`|
+|2| `this.desencolar`|
+|3| `!lpi.esFin()`|
+|4| `lpi.eliminar`|
+|5| `LEGListaConPI<E>`|
+|6| `ListaConPI<E>`|
+|7| `lpi.insertar`|
+|8| `lpi.siguiente()`|
+|9| `lpi.recuperar`|
+|10| `this.encolar`|
