@@ -80,9 +80,16 @@
   - `int talla;`
 # Tema 2 
 ### Notación asintótica 
-- Con estancia significativa
+- Con estancias significativa
 
 ![equation](https://latex.codecogs.com/gif.latex?T%28x%29%20%5C%2C%20%5Cepsilon%20%5C%2C%20%5COmega%20%5C%3A%20%5Crightarrow%20Mejor%5C%2C%20caso)
+
+![equation](https://latex.codecogs.com/gif.latex?T%28x%29%20%5C%2C%20%5Cepsilon%20%5C%2C%20%5Ctextup%7BO%7D%20%5C%3A%20%5Crightarrow%20Peor%5C%2C%20caso)
+
+
+- Sin estancias significativas 
+
+![equation](https://latex.codecogs.com/gif.latex?T%28x%29%20%5C%2C%20%5Cepsilon%20%5C%2C%20%5CTheta)
 
 # Tema 3
 
