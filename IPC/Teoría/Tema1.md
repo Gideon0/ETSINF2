@@ -35,6 +35,8 @@ Los diseños de las interfaces deben facilitar la transición entre el gran rang
 Las nuevas interfaces se basan en tecnologías multimodales (entrada de voz y teclado, salida multimedia), tecnologías gestuales o tecnologías afectivas. 
 ### Evolución de las interfaces de usuario
 Los sistemas informáticos interactivos han experimentado una evolución vertiginosa incluyendo móviles, reproductores de audio digital, ordenadores. 
+
 En 1945 **Memex** de Vannebat Bush Describe un dispositivo para suplementar la memoria huma, para almacenar libros, grabaciones y comunicaciones. Propuso "rastros" para enlazar distintos elementos y tenía otras características como: reconocimiento de voz, memoria asociativa, transferencia de datos  entre dispositivos, grabación de imágenes. 
+
 Las primeras interfaces de usuario, que sabemos, apareció en la década de 1940, con  el ENIAC, una computadora que calculó  para el ejército de EE. UU.
 
