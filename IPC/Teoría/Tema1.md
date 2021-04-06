@@ -36,7 +36,7 @@ Las nuevas interfaces se basan en tecnologías multimodales (entrada de voz y te
 ### Evolución de las interfaces de usuario
 Los sistemas informáticos interactivos han experimentado una evolución vertiginosa incluyendo móviles, reproductores de audio digital, ordenadores. 
 
-En 1945, Memex de Vannebat Bush, describe un dispositivo para suplementar la memoria huma, para almacenar libros, grabaciones y comunicaciones. Propuso "rastros" para enlazar distintos elementos y tenía otras características como: reconocimiento de voz, memoria asociativa, transferencia de datos  entre dispositivos, grabación de imágenes. 
+En 1945, Memex de Vannebat Bush describe un dispositivo para suplementar la memoria humana; para almacenar libros, grabaciones y comunicaciones. Propuso "rastros" para enlazar distintos elementos. Entre sus características se encuentra el reconocimiento de voz, la memoria asociativa, transferencia de datos entre dispositivos y la grabación de imágenes. 
 
-Las primeras interfaces de usuario, que sabemos, apareció en la década de 1940, con  el ENIAC, una computadora que calculó  para el ejército de EE. UU.
+Las primeras interfaces de usuario, que conocemos, aparecieron en la década de 1940, con el ENIAC: una computadora que resolvía problemas de balística para el ejército de EE. UU.
 
