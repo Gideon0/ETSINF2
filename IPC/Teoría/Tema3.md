@@ -97,8 +97,8 @@ La funcionalidad de la tarea puede dividirse entre uno o más contenedores
 Los enlaces reflejan el orden de las acciones que sigue el usuario para realizar una tarea determinada. Normalmente la identificación y los enlaces de los contenedores se hacen en paralelo
 
 Recuerda, los enlaces pueden ser: 
-- > con una flecha (el nuevo contenedor sustituye al actual) -
-- >> con dos flechas (los dos contenedores trabajan en paralelo)
+- `>` con una flecha (el nuevo contenedor sustituye al actual)
+- `>>` con dos flechas (los dos contenedores trabajan en paralelo)
 
 Los enlaces se pueden etiquetar mediante condiciones de interacción, que indican condiciones en que el flujo puede atravesar el enlace.
 
