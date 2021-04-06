@@ -69,4 +69,39 @@ Como es difícil captura todos los objetos de tarea, atributos y acciones de los
 - Prototipa tus ideas y evalúalas con los usuarios
 
 #### Paso 2: Identifica los contenedores y los objetos de tarea que van en cada uno de ellos
+Cada contenedor ayuda al usuario a realizar un cierto trabajo agrupando las funciones y los objetos de tarea necesarios. Más adelante se convertirán en pantallas, ventanas o cuadros de diálogo y en el paso 3 conectaremos los contenedores con enlaces
+Elementos en un contenedor:
+- **Nombre:** el nombre del contenedor
+- **Propósito:** una frase indicando cómo va a soportar la tarea del usuario
+- **Funciones:** (circulo) invocadas por el usuario, (cuadrado) invocadas por el sistema
+- **Enlaces:** nombres de contenedores con los que está conectado: (flecha) el nuevo contenedor sustituye al actual, (flecha doble) los dos contenedores trabajan en paralelo
+- **Objetos:** los objetos de tarea cuyos atributos y acciones son necesarios para el contenedor
+- **Restricciones:** cualquier restricción para el contenedor, como velocidad, fiabilidad y disponibilidad
+
+Plantilla para contenedores:
+
+![enter image description here](https://media.discordapp.net/attachments/705068953315311717/828948939133681684/unknown.png)
+
+##### Contenedor principal
+El contenedor principal representa la primera pantalla que se encuentra el usuario que tendrá enlaces a:
+- Tareas vitales: el usuario tendrá que realizar estas tareas rápidamente, aun en condiciones de estrés
+- Tareas frecuentes: tareas en las que el usuario emplea la mayor parte del tiempo: debe ser rápido acceder a ellas
+- Ayudas de navegación: facilitan al usuario encontrar aquello que es capaz de hacer la aplicación
+
+El contenedor principal no realiza ninguna de esas acciones, sólo proporciona enlaces a los contenedores que las realizarán
+##### Otros contenedores 
+Derivan de los casos de uso concretos (cada caso de uso muestra la secuencia de pasos necesarios para realizar una tarea particular)
+
+La funcionalidad de la tarea puede dividirse entre uno o más contenedores
 #### Paso 3: Conectar los contenedores para mostrar el flujo de la navegación
+Los enlaces reflejan el orden de las acciones que sigue el usuario para realizar una tarea determinada. Normalmente la identificación y los enlaces de los contenedores se hacen en paralelo
+
+Recuerda, los enlaces pueden ser: 
+- > con una flecha (el nuevo contenedor sustituye al actual) -
+- >> con dos flechas (los dos contenedores trabajan en paralelo)
+
+Los enlaces se pueden etiquetar mediante condiciones de interacción, que indican condiciones en que el flujo puede atravesar el enlace.
+
+Crear un diagrama de contenidos para una aplicación compleja es difícil, por lo tanto se deben hacer varias iteraciones sobre los prototipos correspondientes.
+
+Para evaluar el diagrama de contenidos, se deben hacer varias pasadas por los casos de uso concreto, de este modo se garantiza que los contenedores soportan la funcionalidad necesaria y que los enlaces permiten al usuario acceder a ellos.
