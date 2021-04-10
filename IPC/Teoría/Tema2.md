@@ -156,6 +156,7 @@ Secuencia ilustraciones, bocetos de eventos, tal y como se verían desde el lent
 -  Hechos a mano. 
 -  Muestra el flujo de la interacción y personas haciendo tareas para conseguir un objetivo.  
 - No mucho tiempo a dibujar.
+
 Deben transmitir:
 -  Situación: gente, entorno, tarea a realizar. 
 -  Secuencia: pasos a seguir, que hace que se vaya a utilizar la aplicación. 
