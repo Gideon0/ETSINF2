@@ -87,9 +87,9 @@ Aunque es mejor que el sistema se pueda usar sin documentación, puede ser neces
 
 ### Principios de diseño de Windows 7
 
-- Recudir los conceptos para aumentos la confianza
+- Reducir los conceptos para aumentar la confianza
 - Las cosas pequeñas importan, para lo bueno y para lo malo
-- Sé bueno en la apariencia y la acción
+- Sé bueno en la apariencia y en la acción
 - Soluciona la distracciones, no la capacidad de descubrir
 - Experiencia de usuario antes que consejos y preguntas
 - Personalización, no customización
