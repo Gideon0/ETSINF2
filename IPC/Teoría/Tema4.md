@@ -8,25 +8,25 @@ Diseñar una interfaz de usuario consiste en tomar muchas decisiones. Las decisi
 Los principios de diseño son generales, aplicables y duraderos. A veces no son suficientemente claros y requieren aclaración para poder ser entendidos. 
 
 
- 1. Visibilidad: los controles deberían ser fáciles de encontrar
+ 1. **Visibilidad**: los controles deberían ser fáciles de encontrar
 Una forma de hacer que el uso del sistema sea más fácil para los usuarios es incrementando la visibilidad de su interfaz
- 2. Affordance Debería ser obvio cómo utilizar la interfaz
- 3. Realimentación: El sistema debería decirnos qué está haciendo en cada momento
- 4. Simplicidad
+ 2. **Affordance** Debería ser obvio cómo utilizar la interfaz
+ 3. **Realimentación:** El sistema debería decirnos qué está haciendo en cada momento
+ 4. **Simplicidad**
 	 - La IU debe ser tan sencilla como sea posible
 	 - La interfaz debería utilizar el mismo lenguaje que los usuarios
 	 - Utilizar acciones, iconos, palabras y controles que sean naturales para los usuarios
 	 - Descomponer tareas complejas en subtareas más sencillas
 Uno de los principales problemas de las interfaces modernas es su complejidad. Deberíamos intentar crear interfaces simples. Por otro lado, hay sistemas complejos que requieren interfaces complejas.
- 5. Estructura
+ 5. **Estructura**
 	 - Organizar la IU de forma que tenga significado y sea útil
 	 - Las cosas que los usuarios piensan que están relacionadas deberían aparecer juntas
 	 - Utilizar metáforas para proporcionar una estructura reconocible
- 6. Consistencia
+ 6. **Consistencia**
 	 - Enfatizar la importancia de la uniformidad en la apariencia, colocación y comportamiento, para construir interfaces que sean fáciles de aprender y recordar
 	 - Diferentes tipos de consistencia: acciones, objetos, color, composición, iconos, fuentes, etc.
 	 - En ocasiones algo de inconsistencia es útil
- 7. Tolerancia
+ 7. **Tolerancia**
 	 - Diseñar la interfaz para prevenir que el usuario cometa errores y facilitar la recuperación del sistema
 	 - Deshabilitar los botones u opciones de menú que no estén disponibles, mostrar el formato de entrada requerido…
 	 - Recuperabilidad: cómo de fácil es para los usuarios corregir un error
