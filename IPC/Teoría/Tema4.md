@@ -34,6 +34,12 @@ Uno de los principales problemas de las interfaces modernas es su complejidad. D
 		 - Recuperación hacia atrás: Permitir a los usuarios deshacer sus acciones
 	 - Los buenos mensajes de error ayudan a los usuarios a corregir sus errores
 	 - Guías para crear mensajes de error:
+	 	- Explicar los errores del usuario.
+	 	- Utilizar un lenguaje que entienda el usuario.
+	 	- Lenguaje positivo
+	 	- Utilizar términos específicos (ej. “Rango de meses de 1 a 12” en lugar de “Valor inválido”
+		- El sistema asume la culpabilidad de los errores.
+
 
 ## Principio de Nielsen de Diseño
 
