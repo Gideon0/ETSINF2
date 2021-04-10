@@ -102,4 +102,6 @@ Los enlaces se pueden etiquetar mediante condiciones de interacción, que indica
 
 Crear un diagrama de contenidos para una aplicación compleja es difícil, por lo tanto se deben hacer varias iteraciones sobre los prototipos correspondientes.
 
+![image](https://user-images.githubusercontent.com/72491654/114274401-8a01c400-9a1e-11eb-86ec-1bbc2d17d955.png)
+
 Para evaluar el diagrama de contenidos, se deben hacer varias pasadas por los casos de uso concreto, de este modo se garantiza que los contenedores soportan la funcionalidad necesaria y que los enlaces permiten al usuario acceder a ellos.
