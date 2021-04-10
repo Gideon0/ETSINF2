@@ -77,7 +77,7 @@ Los diálogos no deberían contener información irrelevante o que se necesita r
 
 9. Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de un error
 
-Los diálogos no deberían contener información irrelevante o que se necesita raramente. Cada unidad de información adicional en un diálogo compite con las unidades de información relevantes y disminuye la visibilidad relativa de las mismas
+Los mensajes de error deberían expresarse en lenguaje sencillo (sin códigos), indicando de forma precisa el problema, y sugiriendo de forma constructiva una solución
 
 10. Ayuda y documentación
 
