@@ -1,6 +1,7 @@
 # Tema 4
 ## Introducción 
 Diseñar una interfaz de usuario consiste en tomar muchas decisiones. Las decisiones de diseño se pueden basar en muchas fuentes:
+
 ![](https://media.discordapp.net/attachments/705068953315311717/828982908059910204/unknown.png)
 
 ## Principios de Diseño 
