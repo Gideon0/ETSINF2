@@ -30,7 +30,9 @@ Ciclo de vida en estrella:
 -	Pronto: durante la especificación de requisitos 
 -	Durante el prototipado, para probar diseños y opciones 
 -	Justo antes de publicar el sistema 
--	Durante la formación, después de publicar el sistemaCuanto más tarde en el proceso, menos cambios se podrán realizar
+-	Durante la formación, después de publicar el sistema
+
+Cuanto más tarde en el proceso, menos cambios se podrán realizar
 
 
 #### Analisis de requisitos
