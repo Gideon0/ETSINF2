@@ -115,17 +115,15 @@ Personas:
 -  Saber lo que piensa, hace y siente ayuda con la empatía: entender estado ánimo, emociones, creencias. 
 -  Se construyen a partir de resultados de las entrevistas con usuarios reales.
 
-Después de identificar a los usuarios, debemos entender los objetivos que tienen al usar el sistema
-El Análisis de tareas es una actividad que estudia que debe hacer un sistema y la funcionalidad que debe ofrecer a los usuarios.
+Después de identificar a los usuarios, debemos entender los objetivos que tienen al usar el sistema, el análisis de tareas es una actividad que estudia que debe hacer un sistema y la funcionalidad que debe ofrecer a los usuarios.
 
-Objetivo: resultado final a obtener.
-
-Tarea: conjunto estructurado de actividades realizadas en algún orden.
-
-Acción: operación o paso individual de una tarea.
 
 ##### Obteniendo información
-Se obtiene información sobre las tareas de usuario mediante entrevistas, observación, estudio de documentación, errores comunes, formas que el usuario realiza tareas que la interfaz no soporta, notas, post-it. 
+Se obtiene información sobre las tareas de usuario mediante entrevistas, observación y estudio de documentación, pero también estudiando los errores más comunes que los usuarios realizan con el sistem actualm, encontrando rodeos (maneras que tienen los usuarios de realizar
+tareas cuando la interfaz no las soporta) y encontrando artefactos (notas, chuletas, post-it, manuales de uso
+desgastados, páginas anotadas, formularios de papel…)
+
+Tambien hay que preguntar a los ususarios explicitamente, porque quizá estén tan acostunbrados a ellos, que no se dan cuenta de que son debidos a una deficiencia del sistema. 
 
 Características de las tareas: cuanto cambian de una ocasión a otra, frecuencia, conocimiento necesario para su realización, como afecta al entorno, restricciones temporales, peligros de seguridad, tarea individual o colectiva, el usuario esta centrado en una tarea o varias. 
 
@@ -133,16 +131,30 @@ La secuencia de tareas para alcanzar un objetivo puede cambiar de usuario a usua
 
 #### Describiendo las tareas 
 ##### Escenario de tarea 
-Descripción narrativa de una tarea, tal y como se realiza en la actualidad. Cuenta una historia sobre el uso del sistema, son personalizadas (describen instancia y situación específica), detallada (procedimiento seguido por el usuario), problemas y dificultades. Se deben evaluar por los usuarios para comprobar que describen la tarea adecuadamente.
+Descripción narrativa de una tarea, tal y como se realiza en la actualidad. Cuenta una historia sobre el uso del sistema, son personalizadas (describen instancia y situación específica), detallada (procedimiento seguido por el usuario), incluye problemas y dificultades. Se deben evaluar por los usuarios para comprobar que describen la tarea adecuadamente.
+
 ##### Escenario de uso 
 similares al escenario de tarea, pero describen el uso previsto del sistema.
 
+||Escenario de tarea| Escenario de uso|
+|-|-|-|
+|Buscar y pedir un recurso|Julia, una profesora del departamento, está buscando un CD-ROM que contiene ejemplos y ejercicios de Diseño y Análisis Orientado a Objetos. Sabe que Tom, otro profesor, imparte principalmente Diseño y Análisis Orientado a Objetos, así que llama a su puerta. Desafortunadamente no está en su despacho, así que le deja una nota en su puerta. Al regresar, Tom la busca y la encuentra en la cafetería. Le dice a Julia que Geoff tiene el CD-ROM. Desafortunadamente Geoff está de baja, así que Julia lo llama por teléfono, y él le promete que se lo mandará por correo.|Julia está buscando un CD-ROM en particular que contiene ejemplos y ejercicios sobre Análisis y Diseño Orientado a Objetos. Accede a la biblioteca digital desde casa e introduce la frase de búsqueda “Análisis Orientado a Objetos”. El sistema encuentra un resultado. Geoff es el dueño del CD-ROM. Julia le manda un correo electrónico a Geoff, pidiéndole que le preste el CD-ROM
+|Ver actualizaciones y pedir recursos.|Mark ha vuelto tras una estancia de 6 meses y quiere saber qué libros han comprado otros miembros del departamento durante su ausencia. Para ello, telefonea a cada miembro del departamento y concierta una cita. Debe hacerlo así porque cada profesor está en la universidad a distintas horas. Entonces se encuentra con cada uno y revisa su librería, pidiendo prestados libros que le interesan. Sólo pide un libro cada vez, ¡ya que lee despacio!|Mark ha vuelto hace poco de una estancia y quiere averiguar cuáles han sido las últimas incorporaciones a la biblioteca digital. Selecciona la opción “Comprobar actualizaciones”, identifica los libros que le interesan y manda un correo electrónico al dueño del que le interesa más.|
 ---
-Los casos de uso se centran en los objetivos de los usuarios, pero haciendo hincapié en la interacción entre el usuario y el sistema, en vez de la tarea de usuario en sí
+Los casos de uso se centran en los objetivos de los usuarios, pero haciendo hincapié en la interacción entre el usuario y el sistema, en vez de la tarea de usuario en sí.
+
+Los actores son los usuarios y otros sistemas que interaccionan con el sistema que se está describiendo
 ##### Casos de uso concretos 
 Parecidos a los escenarios de tarea, pero no están personalizados. Se pueden escribir en dos columnas, una para las acciones de usuario y otra para las respuestas del sistema.
+|Acción del usuario|Respuesta del sistema|
+|-|-|
+|El profesor introduce uno o más parámetros de búsqueda para el CD-ROM: título, año y plataforma| El sistema muestra los resultados de la búsqueda|
+|El profesor selecciona un resultado|El sistema muestra los detalles del CD-ROM y los datos de contacto del dueño, que es un estudiante de doctorado|
+|El profesor selecciona la dirección de correo |El sistema muestra un área de mensaje|
+|El profesor escribe y manda la petición por e-mail| El sistema confirma el envío de la petición|
+
 ##### Análisis Jerárquico de tareas:
-- Dividir tareas en subtareas, y estas en sub-subtareas, etc. 
+-  Dividir tareas en subtareas, y estas en sub-subtareas, etc. 
 -  Las subtareas se agrupan como planes que especifican cómo se realiza cierta tarea en una situación real. 
 -  Se centra en las acciones físicas y observables realizadas (incluyendo acciones no relacionadas con software o sistema). 
 -  Punto de partida es un objetivo del usuario.
