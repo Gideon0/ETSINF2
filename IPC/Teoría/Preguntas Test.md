@@ -81,7 +81,7 @@
  - [ ] La accesibilidad es el proceso de crear productos que sean usables en diferentes entornos 
  - [ ] La antropometría se encarga de acomodar los entornos de trabajo a las personas 
  - [ ] La usabilidad universal consiste en el diseño de interfaces de usuario en las que el modo de interacción sea el mismo independientemente de las capacidades y características del usuario 
- - [ ] La usabilidad universal implica adaptar las aplicaciones a diferentes lenguas mediante arquitecturas software flexibles 
+ - [x] La usabilidad universal implica adaptar las aplicaciones a diferentes lenguas mediante arquitecturas software flexibles 
 
 **15. ¿Cuál de las siguientes opciones no es una propiedad de una interfaz usable?**
  - [ ] Facilidad de aprendizaje 
