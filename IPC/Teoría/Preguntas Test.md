@@ -17,7 +17,7 @@
  - [ ] Los puntos de inicio del proceso. 
  - [x] Las funciones realizadas por el sistema. 
 
-**4. ¿Qué es un diagrama de contenidos? **
+**4. ¿Qué es un diagrama de contenidos?**
  - [ ] Un escenario de uso representado de forma gráfica. 
  - [ ] Una representación de las pantallas de la interfaz y sus relaciones. 
  - [x] Un prototipo de baja fidelidad que representa la organización y estructura de la interfaz. 
@@ -52,4 +52,43 @@
  - [ ] El estado del sistema debe estar siempre visible para el usuario. 
  - [X] Debe de ser obvio cómo utilizar la interfaz. 
  - [ ] Objetos del mismo color o forma parecen formar grupos. 
+
+**10. En el diseño centrado en el usuario, ¿cuál de las siguientes actividades debe de tenerse en cuenta?**
+ - [ ] Se deben especificar los requisitos del usuario y los de la organización. 
+ - [ ] Se deben de producir soluciones (prototipos) de forma iterativa. 
+ - [ ] Los diseños deben de evaluarse con los usuarios a partir de los requisitos. 
+ - [x] Todas las respuestas son correctas. 
+
+**11. Un escenario de tarea …**
+ - [ ] Es un storyboard sobre cómo se realiza una tarea con el sistema que se va a desarrollar. 
+ - [ ] Cuenta una historia sobre cómo se hacen las cosas una vez desarrollado el sistema. 
+ - [ ] Cuenta una historia personalizada sobre cómo se hacen las cosas antes del desarrollo del nuevo sistema. 
+ - [ ] Presenta tabulada la interacción entre el usuario y el sistema durante la realización de una tarea. 
+
+**12. ¿Cuál de los siguientes avances ha tenido más importancia en la popularización de los ordenadores?**
+ - [ ] La computación por lotes 
+ - [x] Las interfaces gráficas 
+ - [ ] Las estaciones de trabajo de alto rendimiento 
+ - [ ] Los editores gráficos interactivos 
+
+**13.  ¿Cuál de las siguientes situaciones es propia de una interfaz deficiente? **
+ - [x] Permitir cerrar una aplicación rápidamente y sin confirmación, aunque haya pérdida de datos 
+ - [ ] Cuando hay varias opciones excluyentes hay alguna seleccionada por defecto 
+ - [ ] Durante una operación de instalación se permite su cancelación 
+ - [ ] Al introducir datos mediante un formulario, los campos obligatorios están diferenciado
+
+**14. Indica cuál de las siguientes afirmaciones es cierta: **
+ - [ ] La accesibilidad es el proceso de crear productos que sean usables en diferentes entornos 
+ - [ ] La antropometría se encarga de acomodar los entornos de trabajo a las personas 
+ - [ ] La usabilidad universal consiste en el diseño de interfaces de usuario en las que el modo de interacción sea el mismo independientemente de las capacidades y características del usuario 
+ - [ ] La usabilidad universal implica adaptar las aplicaciones a diferentes lenguas mediante arquitecturas software flexibles 
+
+**15. ¿Cuál de las siguientes opciones no es una propiedad de una interfaz usable? **
+ - [ ] Facilidad de aprendizaje 
+ - [ ] Prevención de errores 
+ - [ ] Facilidad de recordar 
+ - [x] Satisfacción objetiva 
+
+
+
 
