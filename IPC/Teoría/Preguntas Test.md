@@ -71,19 +71,19 @@
  - [ ] Las estaciones de trabajo de alto rendimiento 
  - [ ] Los editores gráficos interactivos 
 
-**13.  ¿Cuál de las siguientes situaciones es propia de una interfaz deficiente? **
+**13.  ¿Cuál de las siguientes situaciones es propia de una interfaz deficiente?**
  - [x] Permitir cerrar una aplicación rápidamente y sin confirmación, aunque haya pérdida de datos 
  - [ ] Cuando hay varias opciones excluyentes hay alguna seleccionada por defecto 
  - [ ] Durante una operación de instalación se permite su cancelación 
  - [ ] Al introducir datos mediante un formulario, los campos obligatorios están diferenciado
 
-**14. Indica cuál de las siguientes afirmaciones es cierta: **
+**14. Indica cuál de las siguientes afirmaciones es cierta:**
  - [ ] La accesibilidad es el proceso de crear productos que sean usables en diferentes entornos 
  - [ ] La antropometría se encarga de acomodar los entornos de trabajo a las personas 
  - [ ] La usabilidad universal consiste en el diseño de interfaces de usuario en las que el modo de interacción sea el mismo independientemente de las capacidades y características del usuario 
  - [ ] La usabilidad universal implica adaptar las aplicaciones a diferentes lenguas mediante arquitecturas software flexibles 
 
-**15. ¿Cuál de las siguientes opciones no es una propiedad de una interfaz usable? **
+**15. ¿Cuál de las siguientes opciones no es una propiedad de una interfaz usable?**
  - [ ] Facilidad de aprendizaje 
  - [ ] Prevención de errores 
  - [ ] Facilidad de recordar 
