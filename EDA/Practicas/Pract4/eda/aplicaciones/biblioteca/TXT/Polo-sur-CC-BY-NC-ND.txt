@@ -1,0 +1,2524 @@
+POLO SUR
+EXPERIMENTOS DE ELECTROMAGNETISMO
+
+2010
+
+2
+
+3
+
+“Estás familiarizado con la fuerza gravitatoria. Esta fuerza te
+atrae hacia la Tierra y la llamas peso. Ahora considera una
+fuerza que se ejerce sobre ti y que es millones de veces más
+intensa. Una fuerza así te comprimiría hasta convertirte en
+una mancha tan gruesa como una hoja de papel. Pero supón
+que, además de esta enorme fuerza, se ejerciese sobre ti una
+fuerza de repulsión que también fuese millones de veces más
+intensa que la gravedad. Estas dos fuerzas se anularían una a
+otra y no producirían sobre ti ningún efecto observable. Da la
+casualidad de que existe, en efecto, un par de tales fuerzas que
+se ejercen sobre ti todo el tiempo: las fuerzas eléctricas.”
+Paul. G. Hewitt [2, Pág. 535]
+
+4
+
+Cabana, Florencia
+Polo sur : experimentos de electromagnetismo / Florencia
+Cabana; Santiago Games; Paula Bergero; compilado por Cecilia
+von Reichenbach . - 1a ed. - Buenos Aires : Consejo Nacional
+Investigaciones Científicas Técnicas - CONICET ; La Plata : Universidad Nacional de La Plata. Museo de Física, 2010.
+84 p. : il. ; 22x15 cm.
+ISBN 978-950-692-094-4
+1. Física. I. Games, Santiago II. Bergero, Paula III. Reichenbach , Cecilia von , comp. IV. Título
+CDD 530
+
+Tirada de esta edición: 1000 ejemplares.
+ISBN 978-950-692-094-4
+© 2010
+Edita: IFLP CONICET (Instituto de Física La Plata Consejo Nacional de Investigaciones Científicas y Técnicas).
+
+49 y 115, La Plata (1900), Buenos Aires, Argentina.
+Queda hecho el depósito que establece la ley 11.723.
+Libro de edición Argentina.
+No se permite la reproducción parcial o total, el almacenamiento, el
+alquiler, la transmisión o la transformación de este libro, en cualquier forma o por cualquier medio, sea electrónico o mecánico, mediante fotocopias,
+digitalización u otros métodos, sin el permiso previo y escrito del editor. Su
+infracción está penada por las leyes 11.723 y 25.446.Diseño de tapa: DCV Daniel Sergnese - DCV María Elina Scaglia.
+Diseño interno e ilustraciones: Damián Gulich.
+Este texto fue escrito con LYX (http://www.lyx.org)
+¿Qué es LYX?
+LYX es un procesador de documentos de código abierto que sigue el
+paradigma de “lo que ve es lo que desea mostrar”, en oposición a las ideas
+de “lo que ve es lo que consigue” empleadas en otros procesadores de texto.
+Esto significa que el usuario sólo tiene que preocuparse de la estructura y el
+contenido del texto, mientras que el formato es hecho por LATEX.
+
+Prólogo
+Polo Sur es un texto sobre electricidad y magnetismo, pensado
+para docentes que buscan motivar a sus estudiantes en el aprendizaje de la física a través de la construcción y utilización de dispositivos
+sencillos. Es fruto del trabajo diario en el Museo de Física de la Universidad Nacional de La Plata y de la iniciativa de un joven curioso
+e inquieto, Amílcar Osorio, quien construyó todos los instrumentos que se describen aquí (y muchos otros) y además anotó todos
+los detalles necesarios para lograr que funcionen. Los instrumentos
+construidos por Amílcar comenzaron a ser usados durante las visitas al Museo y mediante su funcionamiento generaron inquietudes
+e interés en muchos chicos y grandes, quienes tuvieron a través de
+ellos un acercamiento a la fenomenología del electromagnetismo.
+Más tarde, algunos docentes del Museo -Florencia Cabana, Santiago
+Games, Paula Bergero y Cecilia von Reichenbach- comenzamos con
+la redacción de los textos que acompañan las propuestas de Amílcar para transformar el recetario de experimentos en un libro. Paula
+Gago terminó de desarrollar los prototipos, mientras que Damián
+Gulich realizó las ilustraciones y el diseño del libro.
+Aquí el lector encontrará una presentación de los contenidos de
+física abordados desde lo histórico y lo fenomenológico, junto con
+instrucciones detalladas para la construcción de varios instrumentos demostrativos. Dichos dispositivos están diseñados para ser fabricados con materiales de fácil acceso y de bajo costo, resultando
+de sencillo armado y puesta en marcha. Además, incluye algunas
+sugerencias de su uso didáctico y una propuesta metodológica integrando teoría y experimentación.
+¿Cómo utilizar este material?
+El texto presenta una secuencia organizada según contenidos:
+Magnetismo, Electricidad (electrostática y pilas), Electromagnetismo
+y, por último, Motores y generadores. Está orientado a docentes de
+nivel secundario y pensado para trabajar en el aula. No está conce5
+
+6
+bido para ser leído directamente por los estudiantes pero esta posibilidad queda a criterio del docente. Además, consideramos que algunas de las experiencias pueden ser realizadas también por niños
+más pequeños, modificando la forma de abordarlas y agregando al
+diseño de los instrumentos colores y texturas.
+Cada contenido cuenta con una síntesis del desarrollo histórico
+que contextualiza la información brindada e intenta ilustrar algunos
+aspectos de la actividad científica, por ejemplo cuál es el papel las
+personas (tanto de los científicos como del resto de la sociedad) y
+cómo intervienen los supuestos, experiencias y casualidades en el
+desarrollo de la ciencia y la tecnología.
+La información brindada en cada sección es una síntesis que probablemente sea conocida por el docente. Sin embargo fue explicitada
+para señalar la secuencia propuesta y mostrar la forma de trabajo. El
+desarrollo de los contenidos está vinculado con recuadros de borde
+simple, donde se proponen preguntas disparadoras, y con recuadros
+de borde doble en los cuales se sugieren experiencias para trabajar
+en el aula. La ubicación de los recuadros también responde a la misma secuencia y tiene en cuenta la información ya conocida por los
+alumnos de acuerdo al orden propuesto en este texto. A pesar de que
+en ellos se explicitan las respuestas, la propuesta es motivar su elaboración por parte de los estudiantes. De esta manera las preguntas
+cumplen diversos objetivos:
+conocer y compartir en el aula las concepciones alternativas1
+de los estudiantes,
+promover una discusión con y entre ellos,
+promover la elaboración de explicaciones y justificaciones,
+despertar la curiosidad,
+avanzar y profundizar en el conocimiento del contenido abordado.
+También se proponen interrogantes para realizar durante el desarrollo de las experiencias y que sirven de guía a las mismas. En este
+caso las preguntas buscan generar discusiones para que las actividades no resulten meramente demostrativas. En las visitas al Museo
+1 Llamamos “concepciones alternativas” a aquellos conceptos, ideas, modos de razonamientos y estructuras de los estudiantes que son previos al aprendizaje escolar y nacen en la interacción cotidiana con el mundo y la sociedad. Dichas concepciones reciben diversos nombres: ideas previas, ciencia de los niños, teorías ingenuas,
+conocimientos previos, etc. Aunque estas concepciones muchas veces no son coherentes o compatibles con lo esperado por los docentes, no significa que sean erróneas
+sino que corresponden a contextos distintos: el cotidiano y el científico.
+
+7
+hemos observado que esta forma de trabajo motiva a los estudiantes
+a proponer variantes en las experiencias, a elaborar nuevas preguntas, a vincular lo realizado con la vida cotidiana, etc. En todos los
+casos el docente brinda información pero sobre todo actúa como un
+guía que motiva inquietudes y canaliza las propuestas de los alumnos.
+Por último, al final de cada capítulo se detallan los materiales
+necesarios para las experiencias, los pasos para la construcción de
+los dispositivos, las posibles fallas y otra información sobre cuidados
+especiales o lugares donde conseguir los materiales. Los números
+entre corchetes “[ ]” indican la bibliografìa que se recomienda, detallada en la página 77.
+Cada capítulo de Polo Sur es autoconsistente y se puede trabajar en el aula separadamente, aunque el abordaje del electromagnetismo presupone conocimientos previos de magnetismo y electricidad. Por otro lado, también pueden leerse sólo los desarrollos (si
+se busca información sobre el tema) o sólo los recuadros (si se buscan preguntas y experiencias ). Esperamos que este libro sea útil, e
+invitamos a los lectores a un intercambio de ideas (a través de discusiones, visitas al Museo, correo electrónico, etc.) que nos sirva para
+mejorar nuestra forma de enseñar.
+
+8
+
+Agradecimientos
+Agradecemos a
+Ariel Álvarez, Emilia Deleglise y Carlos García Canal por su
+lectura crítica de los textos.
+Ana Dumrauf, Osvaldo Cappannini (del Grupo de Didáctica
+de las Ciencias, UNLP) y Silvia Pérez (del Centro de Formación
+e Investigación en Enseñanza de las Ciencias, UBA) quienes
+sugirieron mejoras pedagógicas.
+Daniela Bergero por su corrección ortográfica y de estilo.
+
+9
+
+10
+
+Índice general
+1. Magnetismo
+1.1. Construcciones . . . . . . . . . . . . . . . . . . . . . .
+1.1.1. Experiencia de visualización de campo magnético con limaduras de hierro . . . . . . . . .
+1.1.2. Construcción de una brújula e identificación
+de polos . . . . . . . . . . . . . . . . . . . . . .
+1.1.2.1. Construcción de la brújula . . . . . .
+1.1.2.2. Identificación de polos de un imán .
+1.2. Complemento: caos y magnetismo . . . . . . . . . . .
+1.2.1. Construcción: Péndulo caótico . . . . . . . . .
+
+21
+21
+23
+23
+26
+
+2. Electricidad
+2.1. Electrostática . . . . . . . . . . . . .
+2.1.1. Construcciones . . . . . . . .
+2.1.1.1. Electroscopio . . . .
+2.1.1.2. Electróforo de Volta
+2.1.1.3. Condensador . . . .
+2.2. Pilas . . . . . . . . . . . . . . . . . . .
+2.2.1. Construcciones . . . . . . . .
+2.2.1.1. Pila eléctrica . . . .
+
+29
+29
+39
+39
+42
+44
+47
+54
+54
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+13
+18
+18
+
+3. Electromagnetismo
+3.1. Construcciones . . . . . . . . . . . . . . . . . . . . . .
+3.1.1. Bobina para mostrar la interacción entre campos electromagnéticos . . . . . . . . . . . . . .
+3.1.2. Electroimán . . . . . . . . . . . . . . . . . . . .
+
+64
+67
+
+4. Motores y generadores
+4.0.3. Motores . .
+4.0.4. Generadores
+4.1. Construcciones . .
+4.1.1. Mini-motor
+
+69
+69
+71
+72
+72
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+11
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+59
+64
+
+12
+
+ÍNDICE GENERAL
+4.1.2. Generador . . . . . . . . . . . . . . . . . . . . .
+
+Bibliografía
+
+75
+77
+
+Capítulo 1
+
+Magnetismo
+Probablemente el primer contacto de los niños con el magnetismo
+sea a edades muy tempranas, a través de algún juguete o de los
+imanes publicitarios que se pegan en la heladera. Sin embargo, la
+primera experiencia de la humanidad con el fenómeno magnético fue a través de ciertas rocas con propiedades particulares encontradas en la región de Magnesia, en Grecia, hace más de 2000
+años. Fueron los griegos quienes llamaron ‘magnetismo’ a su comportamiento.
+Los imanes naturales tuvieron distinto interés en la historia de
+los pueblos: algunos les atribuyeron propiedades médicas, otros mágicas y hubo quienes intentaban predecir con ellas el clima o el futuro. En el año 1600, el científico inglés William Gilbert, médico de la
+Corte Inglesa, publicó De Magnete, obra donde se registró el primer
+estudio detallado acerca de los fenómenos magnéticos.
+¿Qué propiedades tiene un imán? ¿Cómo interacciona con otros
+objetos?
+La mayoría de las personas respondería que los imanes
+atraen a todos los metales. Una sencilla experiencia que se
+puede realizar para contestar estas preguntas consiste en pedir a
+los estudiantes que reúnan varios objetos de diferentes metales
+y también objetos no metálicos. Al acercar un imán se puede observar que sólo algunos metales son atraídos por el imán, mientras que los objetos no metálicos no son atraídos. El cobre, la
+plata, el aluminio y el oro son ejemplos de metales que no interaccionan con los imanes, mientras que los metales que contienen
+hierro, cobalto y níquel sí lo hacen.
+
+13
+
+14
+
+CAPÍTULO 1. MAGNETISMO
+
+En resumen, cotidianamente se observa que los imanes interaccionan con algunos metales (no todos) ejerciendo sobre
+ellos una fuerza atractiva. Sin embargo, con imanes mucho
+más potentes (como algunos generados en ciertos laboratorios) se puede atraer objetos que normalmente no presentan
+propiedades magnéticas. Esto se debe a una propiedad intrínseca de la materia a nivel microscópico, a la cual se hará referencia
+en el capítulo de electromagnetismo (ver página 59). Tal es el caso de los equipos de resonancia magnética nuclear utilizados en
+medicina.
+Los imanes tienen la propiedad de atraer a algunos metales, pero
+además interaccionan entre ellos. Al aproximar dos imanes, dependiendo de cómo estén orientados uno respecto del otro cuando se los
+acerque, vemos que se atraen (intentan acercarse) o se repelen (intentan distanciarse). Fenomenológicamente, en un imán se diferencian
+ciertas zonas en que el magnetismo es más intenso, llamadas polos,
+y las experiencias muestran que los polos distintos se atraen y los
+polos iguales se repelen. En todos los imanes podemos identificar
+estas zonas particulares que llamamos, por convención, polo norte y
+polo sur.
+¿Qué sucede al acercar dos imanes?
+Al aproximar un imán a otro enfrentando los polos distintos
+observaremos que éstos intentan acercarse. Es decir, en este caso
+la fuerza es de atracción. Pero si enfrentamos los polos iguales
+tenderán a alejarse, manifestándose la aparición de una fuerza
+de repulsión. Si los imanes no pueden trasladarse libremente
+pero sí girar alrededor de un eje, entonces rotarán intentando
+orientarse de manera que el polo norte de uno quede lo más
+próximo posible al polo sur del otro (o viceversa).
+¿Cómo se identifica cada polo?
+Conocidos los polos de un imán, podemos identificar los de
+otros imanes analizando las fuerzas de atracción o repulsión entre ellos (esta propuesta se puede profundizar a través de la experiencia de identificación de polos descripta en la página 17).
+Sin importar cuán chico o grande sea el imán, ni qué tan intenso
+sea su magnetismo1 , ni cuál sea su origen, podremos identificar en
+1 La intensidad del magnetismo no está necesariamente relacionada al tamaño del
+imán: pueden construirse imanes muy pequeños y poderosos, mientras que otros
+muy grandes pueden presentar un magnetismo muy débil.
+
+15
+él los dos tipos de polos. Una curiosa propiedad de la naturaleza
+magnética de la materia es que estos polos no pueden aparecer en
+forma separada: no existe un imán que sólo tenga un polo norte,
+ni uno que sólo tenga un polo sur. Aunque sí podemos encontrar
+imanes con varias zonas que sean polo norte o varias zonas con polo
+sur.
+
+¿Qué se obtiene al partir en dos un imán?
+En general la gente suele dar distintas respuestas: dos
+imanes con un polo cada uno, dos imanes con dos polos cada
+uno, un imán con dos polos y un trozo de material no imantado, dos trozos de material no imantado (si el imán se rompe ya
+no “funciona”).
+Puede verificarse que si partimos un imán en dos tendremos
+dos imanes y cada uno de ellos tendrá los dos tipos de polos.
+
+La fuerza con que se atraen o repelen los imanes se llama fuerza
+magnética. Fue Charles Coulomb, en el siglo XVIII, quien ideó una
+expresión para describirla en forma matemática, teniendo en cuenta
+tanto la intensidad de la atracción o repulsión como la dirección en
+que actúa.
+Podemos observar que los imanes ejercen fuerzas sobre otros objetos sin necesidad de tocarlos, es decir que actúan a distancia (es un
+ejemplo de lo que se llama “acción (o fuerza) a distancia”). Puede
+pensarse entonces que el espacio que rodea a un imán queda modificado por su presencia. Además, la atracción o repulsión se evidencia
+con mayor intensidad en las inmediaciones del imán y va decayendo a medida que nos alejamos de él. Para referirnos al efecto del
+magnetismo en el espacio que rodea al imán podemos recurrir al
+concepto de campo magnético2 .
+
+2 Michael Faraday, hacia 1850, imaginaba que la atracción o repulsión debidas a
+un imán generaba unas ¨líneas de fuerza¨ que se extendían en el espacio que lo rodeaba, y que tenían entidad física. Posteriormente James Maxwell propuso el concepto matemático de "campo magnético" para describir las propiedades magnéticas del
+espacio. El campo puede representarse gráficamente mediante las líneas de fuerza.
+Como veremos más adelante, el campo magnético puede existir aún sin la presencia
+de un imán, sino debido a la presencia de corrientes eléctricas.
+
+16
+E XPERIENCIA
+
+CAPÍTULO 1. MAGNETISMO
+DE VISUALIZACIÓN DE UN CAMPO MAGNÉTICO CON
+
+LIMADURAS DE HIERRO
+
+Al espolvorear limaduras de hierro en un cartón apoyado sobre un
+imán, podemos observar que las partículas del metal no se ubican
+de forma uniforme ni aleatoria. Las limaduras forman un dibujo
+en el que predominan algunas líneas. Se las conoce como líneas de
+fuerza, y revelan la forma del campo magnético: el patrón espacial
+que forman muestra la intensidad y la dirección del campo en distintos puntos de las inmediaciones del imán (ver página 18). El campo
+es más intenso cerca de los polos: vemos que allí las limaduras se encuentran más compactas. También se pueden observar espacios sin
+limaduras, esto se debe a que el campo las ha arrastrado.
+Podemos enriquecer esta experiencia utilizando más de un imán.
+Así se pueden observar diferentes configuracfiones según la disposición, la forma y el tamaño de los imanes.
+¿Qué se observa con las limaduras al enfrentar polos opuestos? ¿e iguales?
+Si se enfrentan polos opuestos, se observan líneas que unen los dos
+imanes. En cambio, estas líneas no aparecen cuando enfrentamos
+polos iguales sino que aparecen líneas divergentes (ver página 20).
+¿Ocurren cambios si interponemos diferentes materiales entre el imán y el
+cartón?
+Podemos probar interponiendo una tabla de madera o de plástico. En principio no se observan cambios, salvo que el espesor de
+la tabla sea suficientemente grande y el efecto del campo magnético
+se atenúe o ya no sea notorio a esa distancia.
+Se sabe que en el siglo XII los chinos usaban brújulas para orientarse; algunos dicen que a la brújula la “inventaron” ellos y otros
+sostienen que fueron los árabes. Lo cierto es que les resultó a ambos
+pueblos de gran utilidad para viajar sin perder el rumbo, sobre todo
+en sus travesías terrestres y marítimas. Este instrumento tan importante no es otra cosa que un imán en forma de aguja, que puede girar
+sobre un eje fijo.
+La Tierra tiene propiedades magnéticas y eso hace que las brújulas se orienten. Si imaginamos al planeta como un gran imán, cuyos
+polos magnéticos están cerca de los polos Norte y Sur geográficos,
+entonces las brújulas apuntan en dirección Norte – Sur aunque no
+señalan precisamente los polos geográficos, sino los polos magnéticos, que están separados de los primeros aproximadamente por 1800
+kilómetros. Esta diferencia tiene un nombre especial: declinación
+
+17
+magnética3 .
+En la actualidad existen diversas teorías que explican por qué
+la Tierra se comporta como un imán pero ninguna de ellas resulta
+completamente satisfactoria. Una de las cuestiones que no ha sido
+resuelta todavía es por qué la Tierra no siempre se ha comportado como el imán que es actualmente, sino que los polos magnéticos
+terrestres han variado con el tiempo. Es decir, los polos magnéticos
+pueden invertir su posición, pero no se puede predecir exactamente
+cuándo y cómo lo harán (en los últimos 5 millones de años se han
+corrido cerca de 20 veces, la última vez que lo hicieron fue aproximadamente hace 700.000 años). Esto lo han comprobado los geólogos y los geofísicos, midiendo la magnetización de distintas rocas,
+y prevén que el próximo corrimiento será dentro de 2.000 años. En
+la actualidad los polos magnéticos y geográficos están invertidos,
+es decir que, por convención, cerca del Polo Norte geográfico se encuentra el Polo Sur magnético y viceversa.
+Mediante diferentes procesos pueden construirse imanes artificiales. Hay materiales que tienen la capacidad de convertirse en imanes y para lograrlo se los expone a un campo magnético intenso. Algunos elementos fácilmente imanables son el hierro, el níquel y el
+cobalto. De acuerdo al elemento, a su tiempo de permanencia en el
+campo y a la intensidad del mismo, la imanación será momentánea
+o permanente.
+U SO DE LA BRÚJULA Y EXPERIENCIA DE IDENTIFICACIÓN DE POLOS
+El primer paso de esta experiencia consiste en construir una brújula. Para esto, imantamos una aguja usando un imán (más adelante
+se detallan las instrucciones) e identificamos sus polos como Norte
+y Sur comparándolos con los polos de la Tierra. La aguja imantada
+se alinea con el campo magnético terrestre, de tal manera que el polo sur magnético de la Tierra (que corresponde aproximadamente al
+Polo Norte geográfico) atrae al polo norte de la aguja (que pintamos
+de color azul para identificarlo). En cambio, el polo norte magnético -que corresponde aproximadamente al Polo Sur terrestre- atrae al
+polo sur de la aguja (que pintamos de color rojo). Si colocamos debajo de la aguja un transportador de 360º y hacemos coincidir el cero
+del mismo con el polo norte de la aguja podremos ubicar todas las
+direcciones deseadas (ver construcción en página 21).
+
+3 Las mediciones realizadas muestran que la declinación magnética es característica de cada lugar, y además que sus valores cambian levemente de un año a otro.
+
+18
+
+CAPÍTULO 1. MAGNETISMO
+
+U SO DE LA BRÚJULA Y EXPERIENCIA DE IDENTIFICACIÓN DE POLOS
+( CONTINUACIÓN )
+¿Cómo se utiliza esta brújula para orientarse?
+Como el extremo azul de la aguja señala el norte magnético, debemos hacer coincidir el cero del transportador con esta dirección. El
+resto de los números indican los ángulos respecto del Norte de las
+distintas direcciones. Por ejemplo, el Este se encuentra a los 90º, el
+Sur a los 180º, y el Oeste a los 270º. Los ángulos se miden siempre en
+sentido horario a partir del Norte.
+¿Cómo se puede usar la brújula construida para identificar los polos de un
+imán cualquiera?
+Si acercamos un imán al polo norte de la brújula y la aguja se acerca
+al mismo, significa que los polos se atraen, es decir, que acercamos
+el polo sur del imán. En cambio, si la aguja da media vuelta antes de
+acercarse al imán, significa que los polos enfrentados se repelieron y
+que acercamos el polo norte del imán.
+
+1.1.
+
+Construcciones
+
+1.1.1.
+
+Experiencia de visualización de campo magnético con limaduras de hierro
+
+En esta experiencia se pueden observar las líneas de un campo
+magnético generado por uno o varios imanes.
+Materiales
+2 ó más imanes.
+Limaduras de hierro.
+Un cartón firme y liso de color blanco o forrado con una hoja
+de papel.
+Las limaduras de hierro se consiguen en herrerías artesanales, donde
+también se conocen como “hierro en polvo” o “polvo de hierro”, y
+es un desperdicio de la labor del herrero. Por lo general contienen
+impurezas, que pueden quitarse con un simple colador de cocina.
+Probablemente las limaduras de hierro también estén mezcladas con
+otros materiales no magnéticos. Una manera de separarlas es envolviendo un imán con una bolsa de polietileno y acercándolo a
+las limaduras, de manera que atraiga solamente a las partículas de
+
+1.1. CONSTRUCCIONES
+
+19
+
+hierro. Después se da vuelta la bolsa encerrando las limaduras deseadas y se aleja el imán.
+¡Cuidado! Al manipular los imanes hay que evitar que las limaduras entren en contacto directo con éstos, ya que es complicado
+separarlos (por eso recomendamos el uso de la bolsa).
+Además, se debe tener cuidado de no acercar los imanes a televisores, monitores, tarjetas de crédito, tarjetas magnéticas y otros
+artículos de electrónica, ya que estos últimos pueden resultar dañados.
+Funcionamiento
+1. Ubicar los imanes en la posición deseada (o al azar). Apoyar el
+cartón sobre ellos y espolvorear las limaduras.
+2. Golpear suavemente el cartón para permitir que las limaduras
+se muevan y observar cómo éstas forman el dibujo de las líneas
+de fuerza del campo magnético.
+3. Acercar otro imán y observar la forma que toman las líneas.
+
+Figura 1.1: Visualización de campo magnético. (a) Materiales. (b)
+Disposición del imán y el cartón. (c) Espolvoreado de las limaduras
+de hierro. (d) Líneas de fuerza del campo magnético.
+
+20
+
+CAPÍTULO 1. MAGNETISMO
+
+Figura 1.2: Campo magnético de dos juegos de imanes. (a) Visualización de campo magnético con polos opuestos enfrentados; los
+juegos de imanes se atraen. (b) Detalle de la disposición de los juegos
+de imanes: se puede poner una goma de borrar entre ellos para mantenerlos a cierta distancia corta. (c) Visualización de campo magnético con polos iguales enfrentados; los juegos de imanes se repelen.
+(d) Detalle de la disposición de los juegos de imanes: se puede hacer
+tope con dos libros para mantenerlos a cierta distancia corta.
+
+Posibles fallas
+No se observa el detalle de las líneas de fuerza:
+El imán es muy pequeño o su magnetismo es muy débil: hay
+que probar con otros más potentes o unir varios imanes. Se
+aconseja usar imanes en barra.
+El cartón es muy grueso: hay que probar con otro más fino.
+Nota: en las ferreterías se pueden adquirir imanes pequeños y poco
+potentes; si se unen varios pueden ser utilizados para esta experiencia. Además, podemos obtener imanes de diferentes formas utilizando los que componen los parlantes o discos rígidos de computadoras en desuso (son muy potentes y suelen ser circulares). Los imanes
+publicitarios son muy débiles y no sirven para esta experiencia.
+
+1.1. CONSTRUCCIONES
+
+1.1.2.
+
+21
+
+Construcción de una brújula e identificación de
+polos
+
+En esta experiencia se propone la construcción de una brújula
+que además puede ser utilizada para identificar los polos de cualquier
+imán.
+1.1.2.1.
+
+Construcción de la brújula
+
+Materiales
+Una aguja e hilo de coser.
+Un frasco transparente con tapa.
+Un pedazo de telgopor.
+Un palillo.
+Dos o más imanes.
+Un transportador.
+Armado
+
+Figura 1.3: Esquema de la brújula.
+1. Frotar la aguja con el imán como mínimo treinta veces y siempre en un mismo sentido.
+
+22
+
+CAPÍTULO 1. MAGNETISMO
+
+Figura 1.4: Frasco con brújula. Esquema y foto (en la foto se ha omitido el transportador).
+2. Recortar un disco de telgopor de unos 2 cm de radio y 2 cm de
+espesor aproximadamente.
+3. Enhebrar el hilo en la aguja. Atravesar el telgopor de la siguiente manera: primero verticalmente y pasando por el centro y luego en forma horizontal dejando la aguja clavada en el
+interior. Cortar el hilo a 20 cm de distancia del telgopor (observar la figura 1.3 en la página anterior).
+4. Utilizando un clavo, hacer un pequeño agujero en el centro de
+la tapa.
+5. Enhebrar el hilo sobrante a través de la tapa y cerrar el frasco.
+6. Elegir una altura conveniente y atar el hilo al palillo.
+7. Colocar el frasco alejado de imanes u objetos metálicos y esperar hasta que la aguja cese su movimiento. Se observará que
+la aguja se alinea en la dirección Norte-Sur.
+8. Pintar de un color (por ejemplo azul) la parte de la aguja que
+apunta al Norte y de otro color (por ejemplo rojo) la que apunta al Sur.
+9. Apoyar el frasco sobre un transportador, con el cero ubicado
+debajo del extremo norte de la aguja.
+
+1.2. COMPLEMENTO: CAOS Y MAGNETISMO
+1.1.2.2.
+
+23
+
+Identificación de polos de un imán
+
+1. Tomar el imán cuyos polos se desee identificar y acercar un
+extremo al polo sur de la aguja.
+2. Si la aguja es repelida significa que ese polo del imán es del
+mismo tipo. Pintar este extremo de color rojo.
+3. Si la aguja es atraída significa que es de distinto tipo, es decir
+que es como el polo norte. Pintarlo de color azul.
+4. Repetir la experiencia con otros imanes e identificar sus respectivos polos.
+5. Elegir dos imanes de la experiencia anterior cuyos polos estén identificados. Acercar entre sí dos polos del mismo color
+(o tipo) y observar cómo se repelen. Luego acercar dos polos
+diferentes para ver cómo se atraen.
+Posibles fallas
+Si la aguja no se orienta en la dirección Norte – Sur (que conocemos por la ubicación geográfica del lugar donde estamos) puede
+ocurrir que:
+La aguja no esté lo suficientemente imantada: probar frotándola 50 veces.
+El hilo utilizado sea muy rígido: utilizar hilo más delgado y
+flexible.
+Haya en las proximidades objetos magnéticos como imanes o
+metales: retirarlos o cambiar el instrumento de lugar.
+
+1.2.
+
+Complemento: caos y magnetismo
+
+El contenido de este apartado se aleja de un curso tradicional
+de electromagnetismo pues introduce la noción de comportamiento caótico. Este comportamiento está presente en muchas
+de las cosas que nos rodean y por eso consideramos que resulta
+interesante presentarlo a los alumnos. Además, en el abordaje se
+utiliza lo aprendido sobre magnetismo, siendo una oportunidad
+para aplicarlo y profundizarlo.
+
+24
+
+CAPÍTULO 1. MAGNETISMO
+
+En el lenguaje cotidiano se asocia el caos con el desorden y la
+falta de control. Cuando en ciencia se habla de caos, se suele asociar la palabra a sistemas reales, complejos y generalmente de muchos componentes. Por ejemplo: el clima, el comportamiento de la
+dinámica cardíaca, el tránsito vehicular, algunas reacciones químicas, etc. En todos los casos, hablar de caos es hablar de situaciones
+que en general resultan inquietantes. No solo por tener que aceptar
+una naturaleza “imperfecta” sino porque las descripciones matemáticas de estos sistemas resultaban muy complicadas y en algunos casos imposibles. Hasta el siglo XIX los científicos no consideraban su
+existencia, afirmando que el universo era absolutamente predecible.
+Sostenían por ejemplo que si se conocieran las posiciones y velocidades de todas las partículas en un instante, entonces podría conocerse perfectamente su comportamiento tanto pasado como futuro.
+Esta situación se mantuvo hasta que hacia 1890, Henri Poincaré, un
+matemático francés, cuestionó esta idea de universo, basándose en
+la existencia de sistemas inestables e impredecibles. La situación que
+llevó a Poincaré a tal cuestionamiento fue nada menos que la inestabilidad del sistema solar.
+Sin embargo, el estudio de sistemas que presentan caos es relativamente reciente, adquiriendo un gran desarrollo a partir de la
+aparición de las computadoras. Aún así, continúa siendo un tema
+de interés para los científicos ya que implica diferentes formas de
+pensar y el desarrollo de nuevas herramientas matemáticas.
+Una característica de los sistemas caóticos es la alta sensibilidad
+a las condiciones iniciales, es decir que cuando el sistema caótico
+evoluciona con las mismas reglas de juego pero con pequeños cambios en las condiciones de partida, el estado final puede ser muy
+distinto. En el caso del clima, esta característica es sintetizada en la
+conocida metáfora del “efecto mariposa”: el aleteo de una mariposa
+en el Río de La Plata puede provocar un huracán en Japón. Otra
+propiedad fundamental de los sistemas caóticos es la imposibilidad
+que tenemos de hacer predicciones sobre su comportamiento a largo
+plazo: volviendo al ejemplo del clima, significa que podemos hacer
+un pronóstico bastante fiable para mañana, pero no para dentro de
+tres semanas.
+
+1.2. COMPLEMENTO: CAOS Y MAGNETISMO
+
+25
+
+Sin embargo, el comportamiento caótico se presenta también en
+sistemas relativamente simples – con “reglas claras” - y de pocos
+componentes. En el caso del magnetismo, hamos visto que las reglas de interacción entre imanes son básicamente dos: hay dos tipos
+de polos magnéticos; los iguales se rechazan, los distintos se atraen.
+Y la intensidad de la interacción decrece rápidamente con la distancia. En el caso de la interacción gravitatoria también hay dos reglas: la interacción gravitatoria entre los objetos con masa es siempre
+atractiva, y también decrece rápidamente con la distancia. Podemos
+combinar estos dos fenómenos físicos (magnetismo y gravedad) en
+un dispositivo sencillo que exhibe comportamiento caótico: un péndulo magnético.
+
+EXPERIENCIA DEL PÉNDULO CAÓTICO
+El péndulo caótico puede construirse colocando en una base (un plato, un CD, etc.) tres imanes con forma de disco ubicados en los vértices de un triángulo aproximadamente equilátero. Un cuarto imán
+también con forma de disco se ubica pendiendo de un hilo sobre el
+centro de dicho triángulo. Los tres imanes de la base deben presentar
+hacia arriba el mismo polo que el imán que cuelga del hilo presenta
+hacia abajo (ver construcción en página 26).
+En este péndulo conviven la siempre presente atracción gravitatoria,
+cuyo efecto es que el imán que pende de un hilo tienda a estar lo más
+próximo posible a la Tierra; y el magnetismo, el cual se manifiesta en
+este caso como una fuerza de repulsión, debido a la disposición de
+los polos de los imanes de la base.
+¿Qué sucede cuando el péndulo magnético se saca de su posición de equilibrio alejándolo de la vertical y se lo suelta?
+Si se lo separa bastante de la base, al principio no se observa ninguna diferencia con lo que sucede con un péndulo común, como por
+ejemplo una hamaca. Pero a medida que se va frenando, se nota cómo la trayectoria se vuelve cambiante de un modo que no podemos
+predecir.
+¿Qué sucede si se repite el experimento varias veces cuidando de soltar el
+péndulo desde la misma posición?
+La trayectoria seguida no será exactamente la misma, pues pequeños cambios en la posición de partida generan importantes cambios en la trayectoria.
+
+26
+
+CAPÍTULO 1. MAGNETISMO
+
+EXPERIENCIA DEL PÉNDULO CAÓTICO ( CONTINUACIÓN )
+Estas dos características del péndulo magnético son las propias de
+un sistema caótico: la imposibilidad de hacer predicciones sobre su
+comportamiento a largo plazo y la gran sensibilidad a las condiciones iniciales. También puede notarse otra propiedad general: que
+el sistema caótico no siempre se comporta como tal. En el caso del
+péndulo, el caos sólo se manifiesta cuando su velocidad es pequeña
+y el magnetismo interfiere con las oscilaciones de modo apreciable.
+En este caso, se dice que el sistema tiene varios comportamientos
+posibles, uno de los cuales es caótico.
+La experiencia puede completarse observando qué sucede al cambiar la ubicación de los imanes y la disposición de sus polos.
+
+Aunque suelen aparecer juntas, y no resulta evidente su
+diferencia, el caos y el azar son cosas distintas. El azar puede
+pensarse como la imposibilidad absoluta de hacer predicciones
+confiables, algo totalmente aleatorio como el resultado de tirar
+una moneda a cara o ceca, o el sorteo de la lotería. En cambio en
+los sistemas que presentan caos es posible hacer predicciones,
+aunque sea a corto plazo.
+
+1.2.1.
+
+Construcción: Péndulo caótico
+
+Materiales
+4 imanes circulares de ferretería.
+Una botella de plástico de 1.5 litros.
+Hilo de coser.
+Aguja.
+Plastilina.
+Un corcho.
+Un CD en desuso.
+
+1.2. COMPLEMENTO: CAOS Y MAGNETISMO
+
+27
+
+Armado
+
+Figura 1.5: Péndulo caótico: esquema y modelo terminado.
+1. Cortar la base de la botella y descartarla.
+2. Recortar dos cuadrados de 6 cm de lado en las paredes de la
+parte inferior de la botella.
+3. Cortar el corcho a una altura de 1,5 cm y recortarlo de manera
+que quepa en el pico de la botella.
+4. Enhebrar el hilo en una aguja y atravesar el corcho por su centro, dejando de un lado del corcho 40 cm de hilo.
+5. Tapar la botella con el corcho de manera que el extremo largo
+del hilo quede dentro de la misma.
+6. Cortar el hilo para que su longitud sea aproximadamente igual
+al largo de la botella.
+7. Hacer una esfera de plastilina de aproximadamente 2 cm de
+diámetro, pegarla en el extremo del hilo y colocar un imán en
+la parte inferior de la misma.
+8. Ubicar los tres imanes en el CD utilizando la plastilina como
+sostén. Hacerlo alrededor del círculo interior del CD de tal
+forma que sean las puntas de un triángulo imaginario aproximadamente equilátero. Los tres imanes deben presentar hacia
+arriba el mismo polo que la cara inferior del imán que cuelga.
+
+28
+
+CAPÍTULO 1. MAGNETISMO
+9. Colocar la botella sobre el CD uniendo ambos con plastilina
+para evitar que se separen.
+
+Funcionamiento
+1. Tomar la esfera de plastilina y llevarla hasta uno de los lados
+de la botella. De esta manera se está alejando el péndulo de su
+posición de equilibrio.
+2. Soltar el péndulo y observar su movimiento.
+3. Repetir los pasos 1 y 2 soltando la esfera desde el mismo lugar
+y observar el movimiento.
+Posibles fallas
+No se observa un movimiento caótico porque:
+El péndulo está demasiado alejado de los imanes de la base.
+Los imanes de la base están muy alejados entre sí.
+No todos los imanes de la base repelen al imán del péndulo.
+Verificar que los polos de los imanes de la base sean iguales al
+polo inferior del imán del péndulo.
+
+Capítulo 2
+
+Electricidad
+2.1.
+
+Electrostática
+
+Existe una infinidad de fenómenos eléctricos y muchos de ellos
+nos son familiares. Por ejemplo, los rayos durante las tormentas y
+las chispas que a veces sentimos al sacarnos un pulóver. Otros fenómenos eléctricos no son apreciables a simple vista aunque no por eso
+son menos importantes. La unión de los electrones y núcleos atómicos y de los átomos entre sí son algunos ejemplos.
+La naturaleza eléctrica de la materia comenzó a sospecharse 600
+años antes de la era cristiana [3]. Ya los filósofos griegos sabían que
+el ámbar1 (en griego: elektron) luego de ser frotado con pieles o
+lanas podía atraer ciertos objetos . El siguiente progreso notable en la
+interpretación de estos fenómenos ocurrió mucho tiempo después.
+Alrededor del año 1600, William Gilbert -además de estudiar el magnetismo, como ya mencionamos- comenzó un análisis detallado de
+las distintas clases de sustancias que se comportaban como el ámbar
+y que él llamaba “eléctricas”. A los materiales en los que fue incapaz
+de encontrar esta propiedad, los llamó “no eléctricos”.
+Experiencia de electrostática
+Para replicar las experiencias de los griegos podemos reemplazar la
+barra de ámbar por una lapicera de plástico. Si frotamos la lapicera
+con nuestro pelo seco o con lana y la acercamos a pequeños trozos
+de papel (sin tocarlos), podremos observar cómo los atrae a pesar
+de que no están cargados. Esto pone en evidencia el fenómeno de
+inducción, como veremos más adelante.
+1 El
+
+ámbar es una resina vegetal fosilizada proveniente de restos de coníferas.
+
+29
+
+30
+
+CAPÍTULO 2. ELECTRICIDAD
+
+Frotando entre sí materiales aislantes de varias clases (como por
+ejemplo vidrio, seda, lana, plástico, resina) se puede observar que en
+ciertas condiciones no se atraen, sino que se repelen unos a otros. Estos resultados pudieron explicarse proponiendo la existencia de dos
+clases de cargas eléctricas, a las que se les atribuyeron signo positivo
+y negativo como una convención para distinguirlas. Se observó que
+la interacción (o fuerza) entre cargas de igual clase resulta repulsiva, mientras que la fuerza entre cargas de distinta clase es atractiva.
+Entonces, si tenemos dos objetos cargados, podemos distinguir si
+tienen carga del mismo tipo o no de manera parecida a como distinguimos los polos de un imán: cargas opuestas se atraen y cargas
+iguales se repelen.
+Otra propiedad de los objetos eléctricamente cargados es que la
+fuerza eléctrica entre ellos (sea atractiva o repulsiva) actúa en la dirección de la línea (imaginaria) que los une. Además, su intensidad
+depende de la distancia relativa: disminuye a medida que se alejan, resultando inversamente proporcional al cuadrado de la distancia que separa las cargas. Al igual que ocurre con el magnetismo, la
+electricidad puede pensarse en términos de campos eléctricos2 que
+se establecen en derredor de los objetos cargados.
+E XPERIENCIA DE ATRACCIÓN Y REPULSIÓN
+Mediante esta actividad quedan en evidencia las fuerzas atractivas
+y repulsivas entre objetos cargados.
+¿Si acercamos entre sí dos globos inflados: se acercan, se repelen, o no pasa
+nada? ¿Cambiará algo si lo hacemos después de frotarlos con lana?
+Si acercamos entre sí los globos sin haberlos frotado, no observaremos ninguno de estos comportamientos. La goma de los globos
+puede ser cargada fácilmente por frotamiento. Si cargamos de la
+misma forma dos globos podremos observar cómo se repelen entre sí. Por el contrario, si acercamos el paño con que los frotamos
+veremos que se atraen (y lo mismo ocurre si acercamos la mano).
+Para realizar esta experiencia es conveniente colgar uno de los globos, frotar ambos con lana y acercar el globo suelto al que se encuentra colgado.
+
+2 El físico, matemático y astrónomo alemán Carl F. Gauss estableció una relación
+matemática entre el número de líneas de fuerza que atraviesan una superficie (que
+son proporcionales al campo eléctrico) y la carga neta encerrada por la misma.
+
+2.1. ELECTROSTÁTICA
+
+31
+
+Como mencionamos, la presencia de cargas eléctricas se manifiesta por la existencia de fuerzas atractivas o repulsivas entre objetos cargados. Estas manifestaciones pueden ser entendidas a partir
+de la idea de que, microscópicamente, la materia tiene naturaleza
+eléctrica.
+Imaginamos que toda la materia está formada por átomos, los
+cuales a su vez se unen para formar moléculas. Un modelo de átomo aceptado actualmente consiste en un núcleo, compuesto por protones y neutrones, y electrones a su alrededor formando una especie
+de nube. Los protones son partículas de carga eléctrica positiva que
+atraen a los electrones (de carga eléctrica negativa) pero se repelen
+entre sí. De la misma manera los electrones atraen a los protones y
+se repelen entre sí. Los neutrones no intervienen en estas interacciones eléctricas debido a que, como lo indica su nombre, son eléctricamente neutros. A pesar de que los protones se repelen eléctricamente, permanecen en el núcleo debido a la existencia de otro tipo
+de fuerza no eléctrica, atractiva, que actúa a corta distancia, llamada
+“fuerza fuerte”. Un átomo neutro tiene tantos electrones como protones, de modo que su carga eléctrica neta es cero. La presencia de
+neutrones en el núcleo -que participan de la fuerza fuerte- aporta la
+atracción para mantener unidos los protones a pesar de la repulsión
+eléctrica.
+Vimos que no puede encontrarse un polo magnético aislado. Pero
+en cambio sí existen cargas eléctricas aisladas (de una clase o de
+otra), en particular electrones y protones. Tanto los grupos de átomos que forman moléculas como los átomos individuales pueden
+tener carga neta, lo cual ocurre cuando pierden o ganan una o más
+cargas. Los protones se encuentran ligados en el núcleo de los átomos (debido a la fuerza fuerte), mientras que los electrones más externos de los mismos tienen una ligadura más débil (fuerza eléctrica) y pueden perderse o ganarse más fácilmente. Los electrones (por
+exceso o por defecto) son entonces los responsables de que la materia pueda tener carga neta. La energía necesaria para extraerlos
+depende del tipo de material.
+Por ejemplo, la sal de mesa (cloruro de sodio) es eléctricamente
+neutra, pero si la disolvemos en agua se disociará en átomos de sodio cargados positivamente (con un electrón menos) y átomos de
+cloro cargados negativamente (con un electrón más). En este caso se
+dice que los átomos están ionizados, y se los llama iones. En este
+proceso (y en todos los observados hasta ahora), ocurre que los electrones se transfieren de un material a otro, sin crearse ni destruirse
+jamás3 .
+3 Por este motivo, la conservación de la carga eléctrica es un principio fundamental
+
+32
+
+CAPÍTULO 2. ELECTRICIDAD
+
+Por ejemplo, la sal de mesa (cloruro de sodio) es eléctrcamente
+neutra, pero si la disolvemos en agua se disociará en átomos de sodio cargados positivamente (con un electrón menos) y átomos de
+cloro cargados negativamente (con un electrón más). En este caso se
+dice que los átomos están ionizados, y se los llama iones. En este
+proceso (y en todos los observados hasta ahora), ocurre que los electrones se transfieren de un material a otro, sin crearse ni destruirse
+jamás4 .
+Según los átomos que los componen y cómo se unen entre ellos
+en moléculas, los materiales pueden ser buenos o malos conductores
+de la electricidad. Si algunas cargas del material (electrones, iones,
+etc.) pueden moverse y viajar a través del mismo, entonces se trata de un conductor. Hay materiales muy buenos conductores que
+permiten que se establezcan corrientes eléctricas a través de ellos,
+como los metales. En cambio, si las cargas no pueden viajar pero
+sí redistribuirse dentro de los propios átomos y moléculas, el material será no-conductor o aislante. Algunos materiales permiten que
+sus cargas viajen bajo ciertas condiciones, por ejemplo al acercarles
+un objeto fuertemente cargado, o al incidir luz sobre él. Se los llama semiconductores. Los materiales no conductores más utilizados
+a comienzos del siglo XX eran el ámbar (resina de árboles fosilizada) y la ebonita (mezcla de goma elástica, azufre y aceite de linaza).
+Además de viejos conocidos como por ejemplo la madera, la porcelana y el aire, hoy contamos con nuevos materiales como el teflon,
+la silicona, el acrílico y diversos polímeros (plásticos, poliuretanos,
+poliéster, kevlar, etc).
+Los metales son los mejores conductores. El agua pura es aislante
+pero, en general, el agua contiene sales que la convierten en conductora (debido a la presencia de vapor de agua en el aire, los días de
+humedad no son recomendables para realizar experiencias de electricidad). También los seres vivos son conductores, pues sus tejidos
+están bañados en soluciones.
+
+de la Física.
+4 Por este motivo en física se considera que la conservación de la carga eléctrica es
+un principio fundamental.
+
+2.1. ELECTROSTÁTICA
+
+33
+
+Para que ocurra transferencia de cargas debemos intervenir externamente en los materiales5 , ya que en principio están eléctricamente neutros.
+A los fines de la experimentación, proponemos tres formas de
+cargar un objeto: por fricción (también llamada triboelectricidad6 ),
+por inducción y por contacto.
+Cuando frotamos la lapicera contra el pelo tenemos un ejemplo
+de carga por fricción. En este caso, la lapicera queda con un exceso de cargas negativas y el pelo con un exceso de cargas positivas.
+La electrización que ocurre al frotar entre sí dos objetos de distinto material se puede explicar diciendo que algunos electrones de la
+superficie de uno se transfieren a la superficie del otro. El material
+que tiene los electrones ligados más débilmente los pierde y queda
+cargado positivamente, el otro material los recibe y queda cargado
+negativamente.
+Los distintos materiales pueden ordenarse según una serie o secuencia triboeléctrica, de acuerdo a su tendencia a aceptar o ceder
+electrones. Si elegimos dos materiales de la lista y los frotamos, el
+que esté más arriba en la posición se cargará positivamente, mientras
+que el que se ubique por debajo se cargará negativamente. Cuanto
+más separados estén los materiales en la secuencia, más intensa será
+la electrización.
+1. asbesto
+2. pelo de conejo
+3. vidrio
+4. cabello
+5. nylon
+6. lana
+7. seda
+8. mano
+9. papel (se carga ligeramente positivo)
+10. algodón (casi no se carga)
+11. acero (casi no se carga)
+12. madera (se carga ligeramente negativo)
+13. ámbar
+14. azufre
+15. platino, plata, oro
+5 Existen distintos mecanismos: haciendo incidir luz sobre una superficie metálica
+(el llamado efecto fotoeléctrico), calentando ciertos cristales (piroelectricidad), sometiendo materiales como el cuarzo a fuerzas de compresión (piezoelectricidad). En
+tre las aplicaciones cotidianas encontramos celdas solares y células fotoeléctricas,
+heladeras eléctricas y encendedores a chispa.
+6 Del griego: tribo = frotar
+
+34
+
+CAPÍTULO 2. ELECTRICIDAD
+16. celuloide
+17. acrílico
+18. goma sintética
+19. poliéster
+20. poliuretano
+21. polietileno
+22. polipropileno
+23. PVC (cloruro de polivinilo)
+24. teflón
+25. goma de silicona
+
+Volviendo al ejemplo, cuando acercamos la lapicera al papel (que
+se encuentra en estado eléctricamente neutro), las cargas positivas
+del mismo son atraídas y las negativas son repelidas. Como consecuencia, el papel es atraído por la lapicera a pesar de no existir
+carga neta, lo que se conoce como inducción. Como el papel es eléctricamente aislante, las cargas no pueden viajar a través de él, pero
+sí pueden reubicarse ligeramente. De esta manera una zona de las
+moléculas en el papel se hace ligeramente más negativa (o positiva) que la opuesta. En realidad esto ocurre en todos los átomos o
+moléculas del papel, y se dice entonces que está eléctricamente polarizado. Debido a que la intensidad de la fuerza eléctrica disminuye
+con la distancia entre las cargas, la fuerza de atracción hacia la carga
+más cercana es mayor que la fuerza de repulsión hacia la carga más
+alejada. Como consecuencia la fuerza resultante es de atracción y la
+lapicera atrae al papel.
+Si en cambio utilizamos un material conductor y lo acercamos a
+la lapicera pero sin tocarla, las cargas libres de moverse se separarán
+con facilidad de tal manera que quedará una acumulación de cargas
+positivas en uno de los bordes del material y una de cargas negativas
+en el borde opuesto. Al igual que en el caso anterior, no existe carga
+eléctrica neta; tenemos otro ejemplo de inducción.
+También podemos cargar eléctricamente un objeto al ponerlo en
+contacto con otro objeto ya cargado (carga por contacto). En este caso las cargas eléctricas pasan de un objeto a otro. Como resultado,
+las cargas eléctricas se redistribuyen entre ambos cuerpos, de modo
+que el objeto inicialmente cargado se descarga (en parte o completamente). En este proceso de transferencia a veces surge una chispa
+que evidencia el paso de la carga a través del aire7 . Si el objeto que
+7 Los materiales que son malos conductores de la corriente -o aislantes- pueden
+volverse conductores por la presencia de campos elécticos muy intensos. Se dice entonces que el material sufrió una ruptura dieléctrica. Las chispas son descargas que
+ocurren cuando el aire se vuelve conductor. Con el traspaso de cargas el campo eléctrico disminuye y el aire vuelve a ser aislante. Por ejemplo, cuando se acumulan tan-
+
+2.1. ELECTROSTÁTICA
+
+35
+
+deseamos cargar es un mal conductor, probablemente deberemos tocarlo más de una vez y en diferentes zonas para lograr una carga más
+o menos uniforme. Estas chispas suelen ser sentidas los días secos al
+cerrar la puerta del auto, ya que al tocar la chapa la carga eléctrica
+del auto pasa a través de nosotros hacia la Tierra. Para evitar esta sensación muchos colocan una “colita rutera”, lo que permite al
+auto descargarse continuamente. También pueden lograrse chispas
+con los dispositivos propuestos en este texto.
+E LECTROSCOPIO
+Es uno de los primeros instrumentosa usados para detectar carga eléctrica en un objeto, lo cual resulta indispensable cuando realizamos experiencias sobre electricidad. Si bien esta construcción no
+resulta motivadora por sí misma, es un accesorio útil y sirve entre
+otras cosas para ilustrar la carga por contacto y por inducción. Puede
+construirse un electroscopio casero con un frasco transparente en
+cuyo interior cuelgan dos laminillas metálicas sujetas de un alambre
+que atraviesa la tapa y sale al exterior. En el extremo superior del
+alambre se coloca una esfera de papel de aluminio (ver construcción
+en página 39).
+¿De qué manera este instrumento distingue un objeto cargado de uno
+descargado?
+El electroscopio funciona por contacto o por inducción. Es decir, tocando la esfera del instrumento con el objeto cargado eléctricamente
+o solamente acercándolo. En ambos casos veremos que las laminillas se separan, mientras que no lo hacen si el objeto está neutro. La
+distancia de separación se supone que será proporcional a la cantidad de carga eléctrica del objeto. De este modo, si se incluye una
+escala que pueda medir la separación entre las laminillas, el electroscopio permite además cuantificar la cantidad de carga eléctrica.
+De este modo la carga eléctrica adquiere la condición de magnitud
+física, pues se puede medir. En este caso el intrumento se denomina
+electrómetro.
+a Gilbert
+
+lo empleaba ya a mediados del siglo XVII.
+
+tas cargas en la atmósfera que el campo eléctrico entre las nubes y la tierra es muy
+elevado, se produce la descarga que llamamos rayo.
+
+36
+
+CAPÍTULO 2. ELECTRICIDAD
+
+E LECTROSCOPIO ( CONTINUACIÓN )
+¿Cómo podemos describir el funcionamiento del electroscopio al tocar la
+esfera con un objeto cargado?
+En este caso, la esfera se cargará por contacto con el mismo tipo de
+cargas que el objeto a estudiar. Las cargas viajan a través del alambre hasta las laminillas, las cuales se separan porque ambas tienen
+el mismo tipo de carga. Al alejar el objeto interrumpiendo el contacto, el electroscopio seguirá cargado y las laminillas no se unirán
+inmediatemente. Para descargarlo podemos tocar con nuestro dedo
+la esfera, así las cargas viajan a través nuestro hacia la Tierra.
+¿Cómo podemos describir el electroscopio al acercar (sin tocar) un objeto
+cargado a la esfera?
+En estas condiciones, se dice que el electroscopio funciona por inducción. El instrumento se mantiene siempre eléctricamente neutro,
+es decir con igual cantidad de carga positiva y negativa, y lo que
+ocurre es una redistribución de las mismas. Si acercamos un objeto
+cargado por ejemplo positivamente, las cargas negativas de la esfera serán atraídas hasta la parte superior de la misma. Las cargas
+positivas serán repelidas a la parte inferior donde se encuentran las
+laminillas, haciando que se separen. En cuanto el objeto sea alejado,
+habrá una nueva redistribución de cargas en el electroscopio, por lo
+cual las laminillas se juntarán inmediatamente.
+
+E XPERIENCIA CON EL E LECTRÓFORO DE V OLTA
+Dicho instrumento es uno de los más simples para obtener cargas
+eléctricas y cargar distintos objetos. A partir de su uso se pueden
+abordar varios conceptos: cargas positivas y negativas, fuerzas eléctricas, carga por frotamiento, inducción, materiales conductores y no
+conductores.
+Se construye con una tartera descartable de aluminio donde se pega
+un vaso de plástico descartable (que servirá de mango aislante). Sobre la tartera también se pegará, intentando que quede parado, un
+pedacito de alambre o clip con un trozo de algodón en su extremo
+superior (ver esquema en la página 42).
+Este dispositivo se apoya -tomándolo siempre por el mango- sobre
+una superficie de telgopor (material aislante) que previamente ha sido cargada frotándola con un trapo de lana. Por el tipo de materiales
+
+2.1. ELECTROSTÁTICA
+
+37
+
+E XPERIENCIA CON EL E LECTRÓFORO DE V OLTA ( CONTINUACIÓN )
+utilizados la carga del telgopor será negativa. Para cargar la bandeja,
+debemos apoyarla sobre el telgopor tomándola del vaso pero, antes
+de levantarla, tenemos que tocar con un dedo la parte superior de la
+misma.
+Cuando apoyamos la bandeja sobre el telgopor el algodón tiende a levantarse, ¿por qué?
+Porque al apoyar la bandeja sobre el telgopor cargado ocurre en ella
+una redistribución de cargas. Debido a que el aluminio es un material conductor, las cargas negativas son repelidas por la carga del
+telgopor y se ubican en la parte superior de la bandeja. De esta manera, aunque la bandeja se mantiene eléctricamente neutra, queda
+un exceso de cargas positivas en su parte inferior y un exceso de
+cargas negativas en su parte superior. El algodón se carga negativamente a través del alambre y se mueve a causa de la repulsión con
+las cargas de la parte superior de la bandeja.
+¿Qué ocurre si separamos la bandeja del telgopor? ¿Qué efectos tiene sobre
+el algodón?
+Las cargas positivas y negativas se distribuyen uniformemente en
+la bandeja como al comienzo de la experiencia. En esta situación el
+algodón regresa a su posición inicial.
+A continuación, volvemos a apoyar la bandeja sobre el telgopor
+tomándola del vaso pero, antes de levantarla, tocamos con un dedo
+la parte superior de la misma.
+¿Cómo se comporta el algodón? ¿Qué logramos con esta acción?
+El algodón tiende nuevamente a separarse de la bandeja, pero ahora
+este efecto se mantiene al levantarla. Esto ocurre porque al tocar
+con un dedo la parte superior de la bandeja, logramos conducir
+las cargas negativas a la Tierra a través de nuestro cuerpo. De esta
+manera, la bandeja queda cargada (positivamente), como podemos
+ver acercándola al electroscopio.
+En tales condiciones, cada vez que cargamos la bandeja podemos transferir esa carga a algún otro objeto. Por ejemplo, puede
+cargarse el electroscopio, tocando la esfera metálica con la bandeja.
+Probablemente ocurra una pequeña chispa al acercar la bandeja al
+electroscopio, o al tocar la bandeja con el dedo. En ninguno de los
+dos casos existe peligro de electrocución ni quemaduras porque la
+carga es muy pequeña.
+
+38
+
+CAPÍTULO 2. ELECTRICIDAD
+
+El primer dispositivo para almacenar carga eléctrica fue la botella de Leyden, desarrollada en 1746 en la universidad holandesa del
+mismo nombre. Su versión moderna es conocida hoy como condensador o capacitor.
+La botella de Leyden en su versión original consiste en un recipiente cilíndrico de vidrio lleno de agua con un tapón atravesado
+por una varilla metálica que se sumerge en el líquido. La varilla
+tiene forma de gancho en la parte superior al cual se le acerca un
+conductor cargado eléctricamente, logrando almacenar dicha carga
+en la botella. Las botellas de Leyden fueron utilizadas en demostraciones públicas sobre el poder de la electricidad. En Londres, en 1747
+se logró transmitir una descarga eléctrica de manera espectacular
+produciendo una chispa eléctrica desde una botella de Leyden a un
+cable metálico que atravesaba el río Támesis.
+En la búsqueda por perfeccionar el dispositivo, el líquido fue
+reemplazado por hojas de estaño que permitían almacenar mayor
+cantidad de carga.
+Actualmente, el condensador es uno de los elementos fundamentales en los circuitos eléctricos y la mayoría de los aparatos que funcionan con electricidad cuentan con varios de ellos.
+Todos los condensadores están formados por dos conductores o
+armaduras, generalmente en forma de placas o láminas metálicas
+separadas por un material aislante. Cuando una de las placas se carga por contacto, la otra se carga por inducción.
+¿Qué es un condensador? ¿Qué utilidades tiene?
+El condensador es un dispositivo que permite almacenar carga eléctrica. Es uno de los elementos fundamentales en los circuitos eléctricos y el principio de su funcionamiento se basa en el fenómeno de
+inducción.
+En la página 44 se propone la construcción de un condensador utilizando un frasco de vidrio. El mismo es revestido interior y exteriormente con papel de aluminio, formando las placas del condensador.
+En la tapa del frasco se atraviesa un clavo donde se conecta un cable
+que debe estar en contacto con la lámina interna de aluminio. Para
+cargar el condensador, el clavo se pone en contacto con un cuerpo
+conductor cargado como por ejemplo la bandeja del electróforo de
+Volta.
+
+2.1. ELECTROSTÁTICA
+
+39
+
+E XPERIENCIA DE LA BOTELLA DE L EYDEN O CONDENSADOR
+¿Qué sucede al tocar el clavo con la bandeja cargada del electróforo de Volta?
+Al tocar el clavo, las cargas provenientes de la bandeja viajan por el
+cable cargando la lámina del interior de la botella.
+¿Qué sucede en la lámina externa si la tocamos con nuestra mano
+mientras cargamos la lámina interna?
+La presencia de cargas en la lámina interior produce una redistribución de cargas en la lámina exterior, atrayendo a las de distinto tipo
+hacia la botella y alejando a las de igual tipo. Al tocar la lámina exterior con nuestra mano conseguimos que las cargas que intentan
+alejarse abandonen el aluminio a través de nuestro cuerpo, resultando que la lámina exterior queda con una carga neta opuesta a la de
+la lámina interior. Podemos probar que ambas láminas quedan cargadas acercando un electroscopio a la punta del clavo y luego a la
+lámina exterior.
+¿Qué se observa si unimos, mediante un cable, el clavo con la lámina exterior? ¿Por qué?
+Si luego de cargar las láminas del condensador, tomamos un cable
+y tocamos con uno de sus extremos la lámina exterior de aluminio
+y con el otro extremo el clavo, podremos observar saltar una chispa
+entre ambos. Después de esta operación, el sistema queda descargado, pues el cable produjo un cortocircuito.
+No es recomendable provocar el cortocircuito con los dedos, es decir
+sin utilizar cables, debido a la intensidad del chispazo.
+
+2.1.1.
+
+Construcciones
+
+2.1.1.1.
+
+Electroscopio
+
+Este instrumento permite determinar si un cuerpo está cargado
+eléctricamente.
+Materiales
+Un frasco transparente con tapa de plástico.
+Un trozo de alambre (10 cm) o un clip metálico, sin pintura.
+Papel de aluminio (como el de cocina).
+
+40
+
+CAPÍTULO 2. ELECTRICIDAD
+Pegamento universal o vinílico (puede utilizarse una pistola
+encoladora).
+Un globo.
+Una prenda de lana.
+
+Armado
+
+Figura 2.1: Equema del electroscopio.
+1. Hacer un agujero con un clavo en el centro de la tapa.
+2. Cortar 10 cm de alambre.
+3. Doblar uno de los extremos del alambre en forma de U (aproximadamente 2 cm) .
+4. Introducir el alambre en la tapa, de manera tal que la U quede
+dentro del frasco y pegarlo para inmovilizar.
+5. Recortar dos láminas rectangulares de papel aluminio de 3 cm
+de largo.
+6. Con un clavo, hacer un agujero en cada una y colocarlas en el
+alambre.
+7. Cerrar el frasco.
+
+2.1. ELECTROSTÁTICA
+
+41
+
+8. Hacer una esfera de papel apretando un trozo de papel de aluminio de aproximadamente 1 cm de diámetro.
+9. Colocarla firmemente pero sin usar pegamento en la punta exterior del alambre.
+Funcionamiento
+Las laminillas del electroscopio se pueden cargar de dos maneras:
+A) Por inducción:
+1. Frotar con alguna prenda de lana el globo inflado.
+2. Acercar (sin tocar) el globo a la esfera de aluminio. Se debe
+observar cómo las láminas se separan. Al alejar el globo
+cargado, las láminas vuelven a juntarse.
+B) Por contacto:
+1. Frotar con alguna prenda de lana el globo inflado.
+2. Tocar con el globo la esfera de aluminio. Se debe observar
+cómo las láminas se separan. Al alejar el globo cargado,
+las láminas permanecen separadas. El electroscopio permanece cargado.
+3. Descargar el electroscopio, tocando la esfera de aluminio
+con el dedo.
+Posibles fallas
+Si en el ambiente hay un alto porcentaje de humedad es probable que no funcione de forma adecuada. Al menos el interior
+del frasco puede secarse con un secador de cabello.
+Si la tapa del frasco fuera metálica, el alambre debe aislarse de
+ella con plastilina o goma.
+La tapa no debe estar humedecida o sucia. Eso provoca pérdidas: limpiar y secar bien la tapa.
+Las láminas deben estar juntas y tener un movimiento libre.
+Si no funciona, hay que probar frotando más el globo o hacerlo
+con diferentes telas.
+
+42
+
+CAPÍTULO 2. ELECTRICIDAD
+
+2.1.1.2.
+
+Electróforo de Volta
+
+Este sencillo instrumento nos permitirá obtener una fuente de
+electricidad estática, que podemos utilizar para muchas experiencias.
+
+Materiales
+1 bandeja de aluminio (por ejemplo una tartera descartable) de
+20 a 40 cm de diámetro.
+1 vaso descartable de plástico.
+1 lámina de telgopor de mayor superficie que la de la tartera.
+Franela o paño de lana.
+Pegamento.
+Un clip de alambre.
+Un trozo de algodón.
+
+Armado
+1. Limpiar y secar bien el vaso.
+2. Pegar el vaso en el centro del interior de la bandeja, de modo
+que funcione de mango.
+3. Estirar en forma de letra L el clip. Pegar con cinta un extremo
+a la bandeja y colocar el algodón desmenuzado en el otro extremo.
+
+2.1. ELECTROSTÁTICA
+
+43
+
+Figura 2.2: Electróforo.
+Funcionamiento
+1. Colocar los materiales sobre una mesa o superficie aislante (como plástico o madera).
+2. Frotar durante medio minuto el telgopor con el paño.
+3. Ubicar la bandeja sobre el telgopor tomándola por el mango y
+presionarla sobre la cara del telgopor frotada con el paño.
+4. Tocar con el dedo la parte superior de la misma. Al acercar el
+dedo a la bandeja se podrá sentir y observar una chispa. Con
+este procedimiento se retiran las cargas negativas, quedando
+la bandeja cargada positivamente.
+5. Si se acerca la bandeja a un electroscopio, puede observarse la
+existencia de carga.
+6. Se puede repetir esta operación desde el paso 3 obteniendo
+muchas chispas, sin tener que volver a frotar nuevamente.
+
+44
+
+CAPÍTULO 2. ELECTRICIDAD
+
+Posibles fallas
+El electróforo no funciona porque:
+El ambiente está muy húmedo (con humedades relativas superiores a 80 % es muy difícil lograr cargarlo). Se recomienda
+realizarlo en días despejados y en un ambiente seco o utilizando una estufa eléctrica para secar el aire.
+El vaso utilizado esta húmedo, puede utilizarse un secador
+eléctrico o un papel tissue para secarlo. En su lugar se puede
+utilizar como mango cualquier material que sea buen aislante
+(telgopor, madera, una vela, etc.).
+El paño con que se frota no es el adecuado. Hay que probar con
+diferentes tipos de paños. Se recomienda usar tejidos de lana.
+También se puede frotar el telgopor con un globo inflado.
+Hay mucha luz o ruido. Para ver y escuchar bien la chispa es
+mejor estar en un lugar oscuro.
+La bandeja de aluminio es muy pequeña y tiene demasiadas
+imperfecciones. Utilizar una de mayor diámetro con la superficie bien plana.
+2.1.1.3.
+
+Condensador
+
+El condensador que vamos a construir es el más sencillo de todos
+y se conoce como botella de Leyden.
+Materiales
+Un frasco de vidrio o plástico con tapa.
+Lámina de papel aluminio (como el de cocina).
+15 cm de cable (sin aislante).
+Un clavo de 5 a 10 cm.
+Cinta aisladora.
+Pegamento.
+
+2.1. ELECTROSTÁTICA
+
+45
+
+Figura 2.3: Modelo del condensador y detalle interno.
+
+Armado y funcionamiento
+1. Cortar un trozo rectangular de aluminio de manera que sirva
+para cubrir totalmente la superficie lateral interior del frasco.
+2. Enrollar esta lámina y colocarla en el interior del frasco tratando de que quede adherida a su pared.
+3. Cortar otro pedazo de aluminio similar al primero y cubrir la
+parte externa.
+4. Hacer un agujero en el centro de la tapa cuyo tamaño sea el
+doble del diámetro del clavo.
+5. Envolver una parte del clavo dando cinco vueltas con cinta
+aisladora a 2 cm de la cabeza del mismo.
+6. Introducir el clavo en la tapa, con la cabeza hacia afuera, de
+manera que la cinta lo sujete a la misma. Pegarlo para inmovilizar. Si la tapa es metálica, el clavo no debe estar en contacto
+con ella.
+7. Cortar 15 cm del cable. Conectarlo a la punta inferior del clavo.
+8. Tapar el frasco asegurándose de que el cable esté en contacto
+con la lámina interior.
+
+46
+
+CAPÍTULO 2. ELECTRICIDAD
+
+Utilización
+1. Tocar la cabeza del clavo con alguna fuente de cargas eléctricas, como el electróforo de Volta. Repetir cinco veces.
+2. Tocar con la mano la lámina exterior para permitir que las cargas viajen a tierra.
+3. Con un cable aislado tocar la lámina exterior y acercar la otra
+punta a la cabeza del clavo. Se observará cómo saltan chispas.
+4. Probar ahora cargando el condensador unas diez veces y repetir el punto anterior.
+5. Si no se observa alguna diferencia, cargar el condensador veinte
+veces.
+Posibles fallas
+El cable no hace buen contacto con la lámina interior.
+Si la tapa es metálica, el clavo no debe estar en contacto con
+ella. Hay que asegurar que el pegamento aísle completamente
+al clavo de la tapa.
+Hay un alto grado de humedad, tanto dentro del frasco como
+alrededor de él. Secar con un secador de cabello.
+El cable con el que se produce la transferencia de cargas no está
+lo suficientemente aislado, lo que produce pérdidas. Usar un
+cable aislado más grueso (con mayor cubierta).
+Para mejorar el rendimiento se puede conectar con un cable
+la lámina exterior a un objeto metálico de gran tamaño, como
+por ejemplo: un pupitre o un escritorio. Así, generamos una
+conección a tierra.
+
+2.2. PILAS
+
+2.2.
+
+47
+
+Pilas
+
+Estamos habituados a usar pilas eléctricas todos los días, en nuestros teléfonos celulares, juguetes, radios, reproductores de música y
+muchos otros dispositivos. Sin embargo, rara vez nos preguntamos
+cuál es su origen y cómo funcionan. Presentamos a continuación una
+breve respuesta a estas preguntas.
+En la Italia del siglo XVIII se conocían dos clases de electricidad:
+la atmosférica (relacionada con los rayos de las tormentas) y la artificial (como la que aparece al frotar la lapicera o el peine contra el
+pelo). Pero Liuggi Galvani, un médico de Bologna, creía que existía
+un tercer tipo: la electricidad animal, responsable de la contracción
+de los músculos. Para probar su teoría experimentaba conectando
+cables a los nervios de patas de ranas. Luego producía chispas en la
+cercanía de estos cables y provocaba la contracción de los músculos
+de dichas patas. Sus resultados eran tan sorprendentes, que diferentes científicos se pusieron a experimentar sobre ranas, anguilas
+y otros animales que presentaban actividad eléctrica. Entre ellos se
+destacó un físico italiano llamado Alessandro Volta.
+Volta notó que la electricidad que provocaba los movimientos
+musculares era generada en la unión de los metales con que Galvani
+tocaba los nervios de la rana. Esa observación, más el estudio de los
+tejidos que conformaban el cuerpo de las anguilas (una superposición alternada de dos tejidos diferentes, embebidos en una solución
+salina), lo indujo a tratar de reproducir ese mecanismo apilando alternadamente chapas de dos metales diferentes (zinc y cobre, por
+ejemplo) y colocando entre ellos papel humedecido con agua salada. Acercando entre sí las puntas de los cables que conectaba a los
+extremos de su invento, Volta logró que saltaran chispas. Corría el
+año 1799 y Volta acababa de inventar la pila eléctrica. La posibilidad de tener corriente eléctrica disponible permitió realizar muchos
+nuevos experimentos y dio comienzo además a una gran revolución
+tecnológica.
+Una vez construida la primera pila, los esfuerzos se concentraron
+en hacerla más pequeña, práctica y eficiente, para que resultara una
+fuente de energía eléctrica portátil. Por eso las pilas que conocemos
+hoy son tan distintas a la construida por Volta, aunque se basan en
+el mismo principio.
+
+48
+
+CAPÍTULO 2. ELECTRICIDAD
+
+Figura 2.4: Modelo de Pila de Volta, perteneciente al acervo del
+Museo de Física de la UNLP.
+Podemos decir entonces que la pila es un dispositivo que permite obtener energía eléctrica a partir de reacciones químicas entre
+diferentes sustancias. Es decir, es una fuente de energía que impulsa a las cargas eléctricas a través de un conductor, provocando su
+circulación. A esa circulación de cargas se la conoce como corriente
+eléctrica y es la que posibilita el funcionamiento de los equipos eléctricos y electrónicos8 .
+
+8 Cuando las cargas eléctricas circulan por un conductor, parte de la energía eléctrica sufre una transformación, calentando el material. Esto se conoce como efecto Joule.
+Cuando la corriente eléctrica circula por el filamento de una lamparita, una pequeña
+fracción de la energía se transforma en luz mientras que la mayor parte resulta en un
+aumento de la temperatura.
+
+2.2. PILAS
+
+49
+
+¿Qué función cumplen las pilas eléctricas? ¿Para qué sirven?
+Las pilas son la fuente de energía eléctrica que necesitan muchos instrumentos para funcionar. Algunos de ellos sólo pueden
+funcionar con pilas y otros tienen la opción de conectarse al
+tomacorriente, o emplean otras fuentes de energía como celdas
+solares.
+¿Qué objetos necesitan pilas para su funcionamiento?
+Prácticamente todo aparato eléctrico o electrónico que sea
+portátil. Son por ahora irreemplazables en satélites, marcapasos
+y audífonos, boyas luminosas de marcado de canales y peligros,
+entre otros.
+Para que exista una corriente eléctrica, los conductores y la fuente
+(por ejemplo: pilas, baterías, tomacorrientes, etc.) deben formar un
+circuito cerrado, sin cortes ni interrupciones. En el circuito pueden
+intercalarse diferentes componentes, llamados usualmente elementos de circuito, tales como resistencias, condensadores, etc. La corriente eléctrica será más intensa cuanto mayor sea el número de
+cargas que se mueven en un determinado período de tiempo.
+Para describir las fuentes de energía eléctrica se utilizan dos magnitudes: la tensión (coloquialmente conocida como “voltaje”) y la
+intensidad de corriente (o “amperaje”). Para entender mejor qué
+representan estas cantidades podemos hacer una analogía con una
+caldera conectada a una cañería y un radiador. Entonces, la tensión
+puede identificarse con la diferencia de temperatura que tiene el
+agua al entrar y salir de la caldera, mientras que la intensidad de
+corriente representa el caudal de agua que circula por la cañería. Al
+pasar por el radiador, el agua se enfría pero su caudal se mantiene
+constante. Análogamente al pasar la electricidad por un elemento de
+circuito, la tensión cambia pero la corriente se mantiene constante.
+¿Por qué apretamos una tecla para encender la luz o para hacer
+sonar el timbre? ¿Qué es lo que sucede al apretar la tecla?
+En nuestras casas, los aparatos eléctricos están conectados
+a un circuito que en general se encuentra abierto (o sea, interrumpido). Al apretar la tecla que acciona los aparatos, el circuito se cierra y comienza a circular la corriente que permite su
+funcionamiento.
+¿Cuántas formas hay para conectar más de una pila?
+Las pilas pueden conectarse en serie, poniendo una a con-
+
+50
+
+CAPÍTULO 2. ELECTRICIDAD
+
+tinuación de la otra, conectando el borne positivo de una con el
+negativo de la siguiente. También pueden conectarse en paralelo, uniendo el borne positivo de una al borne positivo de la otra,
+y lo mismo con los negativos (ver esquema). Incluso pueden armarse conexiones mixtas.
+
+Figura 2.5: (a) Conexión en serie. (b) Conexión en paralelo.
+¿Cuál es la diferencia de conectar las pilas en serie o en paralelo?
+Cuando conectamos pilas en serie, el voltaje que obtenemos
+es la suma de los voltajes de cada una. De este modo se conectan,
+por ejemplo, las pilas en las linternas. Las baterías no son más
+que un conjunto de pilas conectadas en serie.
+Cuando conectamos pilas en paralelo, sólo podemos conectar pilas de igual voltaje pues de otro modo se dañarían. El
+voltaje resultante es igual al de cada pila, y la corriente es la
+suma de la que sale de ambas pilas.
+Estos dos tipos de conexiones se pueden emplear también
+para vincular otros elementos en los circuitos. Por ejemplo, lamparitas.
+(Resulta interesante profundizar en este tema por su relación con lo cotidiano y porque
+permite un trabajo experimental por parte de los alumnos. Para hacerlo es necesario introducir la Ley de Ohm, que vincula las corrientes y los voltajes. No lo hacemos aquí
+porque excede los objetivos propuestos, pero puede encontrarse tratado en cualquier libro de electricidad. Existen en los estudiantes marcadas concepciones alternativas, que se
+
+2.2. PILAS
+
+51
+
+Figura 2.6: Configuración de una pila elemental.
+
+encuentran descriptas por ejemplo en ¿CUÁL BRILLA MÁS?: PREDICCIONES Y REFLEXIONES ACERCA DEL BRILLO DE LAS BOMBILLAS. SEBASTIÁ, J.M. Revista de enseñanza
+de las ciencias (1993) Vol.: 11, Número: 1 Disponible en http: // www. raco. cat/ index. php/
+
+Ensenanza/ article/ viewFile/ 39775/ 93226 y en el libro de Driver citado en la bibliografía de consulta.)
+
+C ONSTRUCCIÓN DE UNA PILA
+¿Qué materiales se necesitan para construir una pila?
+Dos metales distintos y una solución conductora. La pila más simple
+que podemos construir de modo casero está compuesta por una
+moneda, un papel humedecido con agua salada y una lámina de
+aluminio (ver construcción en página 54).
+¿Cómo funciona esta pila?
+En una pila ocurre una reacción química al tener dos metales distintos en una solución conductora. En nuestro caso los metales utilizados son aluminio y cobre y nuestra solución conductora es el agua
+salada que humedece los papeles que separan los metales.
+Sin embargo la energía que suministra esta pila elemental no es suficiente para encender una pequeña lamparita; para ello es necesario
+construir varias pilas y colocarlas una a continuación de la otra, es
+decir, conectarlas en serie.
+Las corrientes se miden en amperes (A) y los voltajes en volts
+(V). Los tomacorrientes domésticos brindan una tensión de aproximadamente 220 V y una corriente eléctrica que puede alcanzar varios amperes, dependiendo de la resistencia que encuentre. La que
+proveen la mayoría de las pilas comerciales (como las AA, AAA,
+etc) es de 1.5 V. La tensión de la pila propuesta en este texto es de
+aproximadamente 0.5 V, de manera que al superponer seis de ellas
+se alcanza una tensión de aproximadamente 3 V, que es suficiente
+
+52
+
+CAPÍTULO 2. ELECTRICIDAD
+
+para encender un LED9 y hasta hacer funcionar un reloj pequeño o
+una calculadora.
+Si circula corriente eléctrica por un ser vivo puede generarle lesiones de diversa gravedad, que dependen fundamentalmente de la
+intensidad de corriente. En el caso de los seres humanos, si es de:
+1 mA provoca molestias leves.
+5 mA provoca molestias intensas y es peligrosa.
+10-12 mA provoca contracción muscular, y si por ejemplo se
+tocó un conductor con la mano, la misma tiende a cerrarse sobre el conductor y el peligro aumenta.
+25 mA es posiblemente fatal.
+100 mA es casi siempre fatal por fibrilación ventricular (el corazón deja de latir periódicamente y ya no funciona como bomba).
+100 a 200 mA y más provoca fibrilación, quemadura severa y
+shock.
+De todas formas, es necesario destacar que el daño es más severo si
+la exposición a la corriente es prolongada que si sólo es una breve
+descarga.
+Como ya mencionamos, una pila está formada básicamente por
+dos metales diferentes (llamados electrodos) sumergidos en una solución conductora. Esa solución se llama electrolito y está constituida
+por miles de millones de partículas con cargas positivas y negativas
+(llamadas iones), que pueden desplazarse libremente por su interior. Entre los electrodos y el electrolito ocurren reacciones químicas. Estas reacciones son diferentes en los distintos metales y como
+consecuencia se produce una diferencia de potencial entre ellos (un
+voltaje o tensión), lo que genera un movimiento de los iones hacia
+los electrodos.
+El electrodo al que llegan iones negativos está señalado por un
+signo (+) y se llama borne positivo o cátodo; el otro, señalado por un
+signo (–) se llama borne negativo o ánodo. Si unimos los electrodos a
+un aparato mediante cables, la corriente eléctrica comienza a circular
+y entrega energía al dispositivo que hayamos conectado.
+Durante todo este proceso, los metales reaccionan con los iones
+de la solución y se van disolviendo poco a poco. Las pilas funcionan
+9 Es un diodo emisor de luz que puede comprarse en las casas de electrónica. Se
+usa en muchos instrumentos eléctricos para indicar si están encendidos o apagados.Y
+también en linternas.
+
+2.2. PILAS
+
+53
+
+hasta que se agota alguna de las sustancias químicas que intervienen
+en la reacción.
+Según las sustancias involucradas, estas reacciones pueden ser
+reversibles o no, por lo cual se pueden construir pilas recargables o
+pilas descartables.
+En las pilas recargables, al aplicar una corriente opuesta mediante
+una fuente externa (el cargador) se produce la reacción inversa dejando la pila nuevamente en condiciones de ser usada.
+Una vez que las pilas se convierten en desecho, son fuentes de
+contaminación ambiental debido a que su composición suele incluir
+elementos tóxicos como plomo, mercurio y cadmio.
+Las pilas podrían ser recicladas, pero existen varias dificultades.
+Para poder aprovechar los materiales que las constituyen es necesario identificarlos. Sin embargo hay en el mercado una gran variedad de pilas, con una gran diversidad de componentes, y los fabricantes no están obligados a aclarar su composición. Por otra parte,
+aun en las mejores condiciones, el reciclado no resulta económicamente rentable ya que los costos de recuperar los materiales son
+en muchos casos mayores que el valor de mercado de los mismos.
+Además, no se cuenta con un suministro constante de la materia prima (pilas desechadas) sino que el flujo está sujeto a las campañas de
+recolección y a la buena voluntad de la población.
+El paliativo que existe hoy es intentar convertir las pilas usadas
+en desecho inocuo: estabilizarlas con productos que eviten las reacciones químicas tóxicas que pueden producirse y embolsarlas herméticamente con plástico termosellado para introducirlas luego en
+materiales duraderos y resistentes a las filtraciones, como vidrios y
+cerámicas. La iniciativa de emplearlas como relleno de bloques de
+hormigón es una salida poco segura y no recomendada por los especialistas, ya que el hormigón lleva agua en su composición. Además,
+el hormigón se deteriora con el tiempo y las pilas quedan eventualmente expuestas al agua del ambiente, produciéndose filtraciones.
+¿Cuáles son las ventajas de las pilas?
+Son pequeñas y portátiles.
+¿Cuáles son las desventajas de las pilas?
+Son descartables (incluso las recargables terminan agotándose luego de varias recargas) y algunas de ellas son altamente
+tóxicas debido a los materiales que la componen.
+¿Qué debemos hacer con las pilas cuando se agotan?
+
+54
+
+CAPÍTULO 2. ELECTRICIDAD
+
+Desecharlas en pequeñas cantidades ya que aún no tenemos
+la posibilidad de reciclarlas de manera controlada y segura.
+Acumularlas provoca más daño al ambiente debido a que tarde
+o temprano son desechadas todas juntas, o quedan expuestas al
+agua, concentrando la toxicidad.
+La mejor solución sería entonces no usar pilas, cosa impensable
+en nuestros tiempos. Mientras los gobiernos -en todo el mundo- no
+puedan obligar a las empresas a dejar de usar materiales tóxicos y
+declarar los componentes de las pilas, y mientras el reciclado no sea
+un buen negocio para otras empresas, la alternativa que nos queda
+como ciudadanos responsables es hacer de ellas un uso racional:
+Evitar usar aparatos con pilas siempre que se puedan usar
+otros que se enchufen a la red eléctrica o que funcionen con
+energía solar.
+Usar pilas y baterías recargables en lugar de descartables, pues
+se produce menos desecho.
+Evitar las pilas recargables que contengan Cadmio (Cd)
+Si necesitamos comprar pilas descartables, asegurarnos de que
+sean libres de mercurio ya que es uno de los elementos más
+contaminantes de los que se usan en las pilas. Siempre elegir
+pilas alcalinas de marcas reconocidas.
+No arrojar nunca pilas al mar ni a ningún curso de agua, ni
+quemarlas.
+Tirar las pilas a la basura cuando se agoten, en pequeñas cantidades.
+
+2.2.1.
+
+Construcciones
+
+2.2.1.1.
+
+Pila eléctrica
+
+Materiales
+Vaso con agua.
+Sal.
+Una lámina de aluminio.
+Seis (6) monedas de cobre (de 10, 25 centavos doradas o 50
+centavos).
+
+2.2. PILAS
+
+55
+
+Figura 2.7: Pila de Volta con LED.
+Un trozo de cartón.
+Un pedazo de cable fino.
+Un LED (se consigue en casas de electrónica).
+Opcional
+Un voltímetro (tester).
+Un condensador electrolítico de aproximadamente 100 microFaradios (se compra en las casas de electrónica).
+Armado
+1. Agregar sal al agua revolviendo suavemente hasta ver que deja de disolverse.
+2. Cortar 6 cuadrados de cartón de 2 cm de lado.
+3. Dejar remojando los 6 cuadrados en el vaso con agua salada.
+4. Recortar 6 cuadrados de aluminio de 2,5 cm de lado.
+5. Colocar sobre un cuadrado de aluminio un cuadrado de cartón
+humedecido (escurrir un poco luego de sacar del vaso para
+que no gotee) y colocar encima del cartón una moneda. Asegurarse de que los metales no se toquen entre sí. Esta será nuestra
+pila unidad.
+6. Repetir esta construcción 5 veces más. Con esto se obtienen 6
+pilas unidad de aproximadamente 0.5 v cada una.
+
+56
+
+CAPÍTULO 2. ELECTRICIDAD
+7. Apilar estas 6 pilas como se ve en el esquema: apoyando la
+parte de aluminio de una pila sobre la moneda de la pila inferior. Es importante que los cuadrados de aluminio no se toquen entre sí, al igual que las monedas, en caso contrario la
+tensión total de la pila disminuirá. Esta construcción es similar
+a la pila de Volta.
+8. Unir un cable a la parte inferior de la pila (aluminio) y otro a
+la parte superior (moneda). Esto se puede hacer mediante un
+trozo de cinta adhesiva (asegurarse de que el cable haga buen
+contacto con el metal).
+
+Funcionamiento
+1. Si se cuenta con un voltímetro o tester: medir el voltaje entre el
+polo positivo (moneda) y el polo negativo (aluminio).
+2. Conectar los extremos de la pila a los bornes del LED utilizando los cables. Asegurarse de que la pata larga del LED esté
+conectada al cable correspondiente a la moneda (los LED, a
+diferencia de las lámparas comunes, tienen una única forma
+de conectarse y si se conectan al revés no encienden).
+3. Si se cuenta con el condensador, cargarlo conectándolo a la pila durante 10 segundos. Luego conectar los terminales del condensador al LED. Se debe observar un destello intenso que va
+disminuyendo poco a poco. Así es como funciona el flash de
+las cámaras fotográficas.
+Posibles fallas
+El LED no enciende por:
+Conexión incorrecta. La pata más larga del LED debe ir conectada al polo positivo (la moneda).
+Hay demasiada iluminación y no se logra distinguir la luz del
+LED. Rodearlo con un cartón negro u oscurecer el lugar.
+No hay un buen contacto en el interior de la pila. Presionar un
+poco.
+La lámina de aluminio no es adecuada: puede ser que tenga
+un esmalte aislante. Lijarlo o probar otro tipo de aluminio.
+Los cartones no han sido bien humedecidos o la solución no es
+lo suficientemente salada. Agregar más sal y volver a humedecer.
+
+2.2. PILAS
+
+57
+
+Las monedas están muy sucias. Lijar bien la superficie.
+Si de todas maneras no funciona, armar dos pilas unidad más
+y agregar.
+¡Cuidado! No hay que dejar la pila armada porque los metales se
+oxidan y corroen.
+
+58
+
+CAPÍTULO 2. ELECTRICIDAD
+
+Capítulo 3
+
+Electromagnetismo
+Como vimos en los capítulos anteriores, la electricidad y el magnetismo son fenómenos que se conocen desde la antigüedad. Durante más de 20 siglos llamaron poderosamente la atención de los
+curiosos, pero despertaron el interés científico recién en el siglo XVII.
+A partir de entonces se los comenzó a investigar tratando de buscar una relación entre ellos, basada en ciertas similitudes entre las
+fuerzas eléctrica y magnética. Sin embargo, la existencia de diferencias importantes entre dichas fuerzas hicieron creer hasta hace “relativamente” poco que eran fenómenos distintos. Nuevas experiencias
+y suposiciones permitieron finalmente establecer una conexión entre
+la electricidad y el magnetismo, que se manifiesta cuando los campos eléctricos y magnéticos que medimos en un punto del espacio
+cambian en el tiempo. Es decir, cuando cambiamos la posición de
+un imán en el tiempo (lo movemos) sus propiedades magnéticas no
+cambian por ello, sin embargo el magnetismo que observe alguien
+en un mismo sitio del laboratorio cambiará también en el tiempo.
+Y lo mismo ocurre cuando movemos una carga eléctrica: el campo
+eléctrico medido en un mismo punto será diferente en el tiempo. El
+movimiento de las cargas eléctricas (lo que llamamos corriente) genera un campo eléctrico variable en el tiempo, que a su vez genera
+un campo magnético. Un campo magnético variable en el tiempo
+genera un campo eléctrico.
+¿Cuáles son las similitudes y diferencias entre las fuerzas eléctrica
+y magnética?
+Similitudes: las fuerzas entre objetos cargados eléctricamente o entre objetos imantados pueden ser atractivas o repulsi-
+
+59
+
+60
+
+CAPÍTULO 3. ELECTROMAGNETISMO
+
+vas, y se explican mediante la existencia de dos tipos de cargas
+eléctricas y dos tipos de polos magnéticos. Ambas fuerzas actúan a distancia y su intensidad disminuye al aumentar la separación de los cuerpos involucrados: en ambos casos se dice que
+las cargas establecen campos -eléctricos o mangéticos- en sus inmediaciones.
+Diferencias: las cargas eléctricas pueden existir aisladas, en
+cambio los polos magnéticos no.
+
+En el año 1819, mientras dictaba una clase en Dinamarca, el profesor Hans Christian Oersted notó que cuando circulaba corriente
+eléctrica por un cable cerrado (un circuito), se desviaba una brújula que tenía en su laboratorio y que estaba próxima al circuito. La
+deflexión de la brújula no fue en una dirección cualquiera, sino en
+la dirección perpendicular a la dirección de la corriente a través del
+cable. Este hecho mostró la existencia de una relación entre dos fenómenos que aparentemente eran de naturaleza distinta. Fue el francés
+André Marie Ampère quien un año después planteó la relación en
+términos de magnitudes medibles como las tensiones y las corrientes, expresándola en términos matemáticos. Ampère fue llamado “el
+Newton de la electricidad”1 pues elaboró una fórmula de la cual se
+podían deducir todos los fenómenos electromagnéticos conocidos
+hasta entonces. También fue el inventor del electroimán, valorado
+en aquella época como el invento con mayor influencia después de
+la imprenta, pues a partir de él se desarrollaron el telégrafo y los
+motores eléctricos.
+E XPERIENCIA
+
+CON UNA BOBINA PARA MOSTRAR LA INTERACCIÓN
+
+DE CAMPOS ELECTROMAGNÉTICOS
+
+Una bobina es un arrollamiento de un cable conductor. Para realizar
+esta experiencia se construye una bobina enrollando cable de cobre
+en una botella de plástico (ver construcción en página 64). Al conectar los extremos del cable a una pila se cierra el circuito y se establece
+una corriente eléctrica. La circulación de las cargas eléctricas genera
+un campo magnético que puede ser detectado por una brújula casera
+ubicada en el interior de la botella.
+
+1 Distinción
+
+propuesta por J. C. Maxwell.
+
+61
+E XPERIENCIA
+
+CON UNA BOBINA PARA MOSTRAR LA INTERACCIÓN
+
+DE CAMPOS ELECTROMAGNÉTICOS ( CONTINUACIÓN )
+
+¿Por qué la brújula se deflecta? ¿Qué ocurre cuando se hace circular corriente por el cable?
+El movimiento de las cargas eléctricas (corriente) a través de un conductor genera un campo magnético. De esta forma, al hacer circular corriente por la bobina, cada espira (cada una de las vueltas del
+cable que compone la bobina) genera un campo magnético que se
+suma al de las otras espiras, obteniéndose finalmente un campo más
+intenso, que es el campo total de la bobina. Este campo tiene su dirección en el eje de la bobina; su sentido depende de la dirección de
+circulación de la corriente, e interactúa con el campo magnético de
+la aguja (recordar que está imantada). Como consecuencia la aguja
+se orienta en dirección paralela al campo de la bobina y el polo sur
+de la misma tiende a apuntar al polo norte de la bobina.
+Sabiendo entonces que una corriente eléctrica genera un campo magnético en sus inmediaciones, podemos proponer un modelo
+simple que nos ayude a entender por qué hay materiales con distintas propiedades magnéticas. Como vimos, las cargas eléctricas están
+presentes en todos los materiales: los átomos están formados por
+distintos tipos de partículas, algunos de las cuales están cargadas
+eléctricamente (protones y electrones). Estas cargas están en permanente movimiento, es decir que producen corrientes internas en los
+materiales. Pero como en la mayoría de los materiales las corrientes
+circulan en direcciones al azar, los campos magnéticos asociados no
+dan lugar a un efecto apreciable. Sin embargo, hay materiales en
+los que las corrientes están alineadas en una dirección particular.
+Debido al ordenamiento, los campos producidos por las corrientes
+internas contribuyen en la misma dirección, por lo cual estos materiales presentan un campo magnético propio. Dichos materiales son
+conocidos como imanes naturales o imanes permanentes.
+Con respecto al resto de los materiales, hay algunos que son más
+fácilmente imantables que otros. La causa de este comportamiento es que frente a la presencia de un campo magnético externo se
+puede alinear las corrientes internas, pero en algunos materiales el
+orden resulta más intenso y duradero, mientras que en otros es débil y desaparece al alejar el campo magnético. Algunos materiales
+logran magnetizarse sólo bajo la presencia de un campo muy intenso, como el producido en algunos laboratorios. En principio, bajo las
+condiciones apropiadas, se podría imantar cualquier material.
+Esta relación entre campos y corrientes fue estudiada en 1845
+por Michael Faraday. Cuando presentó sus conclusiones ante la Re-
+
+62
+
+CAPÍTULO 3. ELECTROMAGNETISMO
+
+al Sociedad Científica de Londres, se le preguntó para qué servía tal
+descubrimiento, a lo cual respondió: “es como si me preguntaran
+para qué servirá un bebé recién nacido” [1, Pág. 16-14]. El “bebé
+de Faraday” resultó muy importante, pues permitió avanzar en el
+conocimiento de la electricidad y el magnetismo pero también derivó en gran cantidad de aplicaciones.
+E XPERIENCIA CON UN ELECTROIMÁN
+Un manera sencilla de construir un electroimán es enrollando un
+cable alrededor de un clavo (obteniendo una bobina) y conectándolo
+a una pila (ver construcción en página 67).
+¿Qué sucede al conectar la pila a la bobina?
+La corriente comienza a circular, generando un campo magnético. El
+clavo -localizado en ese campo- se magnetiza, como se puede comprobar al acercar la punta del clavo a un clip. Este electroimán tiene
+una magnetización temporaria, que desaparecerá al desconectar la
+pila (en realidad, aún desconectado puede conservar una magnetización débil que irá perdiendo con el tiempo) .
+¿Qué pasa con el clavo cuando se hace circular corriente por el cable? ¿Y
+sin el clavo?
+Cuando se cierra el circuito y se hace circular corriente por el cable
+se genera un campo magnético. El campo alinea todas las corrientes
+internas del metal de forma que el clavo se convierte en un imán. En
+consecuencia, el campo magnético de nuestro dispositivo es mucho
+más intenso que si no tuviese clavo alguno.
+¿Cómo identificamos el polo norte y el polo sur del electroimán?
+Se puede utilizar la brújula construida y proceder como en la experiencia de identificación de polos.
+¿Cambia la posición de los polos si invertimos la polaridad de la pila?
+Sí, los polos se invierten. El sentido de circulación de la corriente
+establece la orientación del campo magnético. Para determinarla
+se puede usar una herramienta conocida como “regla de la mano
+derecha” (ver figura 3.1): si se dispone la mano derecha de modo
+que el dedo índice señale la dirección de la corriente en el bobinado,
+el pulgar quedará orientado en la dirección del campo magnético. Al
+cambiar la polaridad de la pila, la corriente circula en sentido contrario, invirtiendo también la orientación del campo y la ubicación
+de los polos.
+
+63
+dirección de
+campo magnético
+
+dirección de
+la corriente
+
+Figura 3.1: Regla de la mano derecha: si se dispone la mano derecha
+de modo que los dedos índice, mayor, anular y meñique señalen
+el sentido de la corriente (por ejemplo, tomando imaginariamente
+la bobina), entonces el pulgar extendido señalará la dirección del
+campo magnético.
+
+Otro fenómeno que observaron simultáneamente Ampère y Faraday es que si se mueven imanes dentro de bobinas, se generan corrientes eléctricas en los conductores (sin necesidad de conectar las
+bobinas a pilas o baterias). Eso es precisamente lo que ocurre en las
+centrales eléctricas: se mueven inmensos imanes 2 dentro de bobinas
+de metal para obtener corrientes.
+También funciona el proceso inverso: si hacemos circular por un
+conductor una corriente que no sea constante sino que varíe en el
+tiempo, se producirá un campo magnético, que también varía en el
+tiempo. Si en estas condiciones acercamos imanes al conductor, veremos que intentarán orientarse siguiendo el campo. Esto fue obser2 En
+
+realidad, electroimanes.
+
+64
+
+CAPÍTULO 3. ELECTROMAGNETISMO
+
+vado por Oersted y constituyó luego el principio de funcionamiento
+del motor eléctrico (ver capítulo Motores y generadores).
+Hemos visto así que fenómenos que parecían distintos, como son
+el magnetismo y la electricidad, están relacionados. A esta relación
+se le da un nombre especial: electromagnetismo, y a los campos generados se los denomina electromagnéticos. Muchas personas trabajaron para comprender estos fenómenos y la relación entre ellos,
+pero fue James C. Maxwell, quien integrando el trabajo de Ampère,
+Faraday, Oersted y Gauss, formuló las ecuaciones que permiten estudiar a la electricidad y al magnetismo como dos caras de una misma moneda. En 1873 desarrolló una teoría completa sobre el electromagnetismo, que predice la existencia de ondas electromagnéticas. Demostró así que los fenómenos ópticos no son sino un caso
+particular de los fenómenos electromagnéticos. Este ideal filosófico de unificación de las fuerzas de la naturaleza habia sido sugerido por Faraday. Las ondas electromagnéticas propuestas en forma
+teórica por Maxwell fueron posteriormente encontradas experimentalmente por Heinrich Hertz.
+
+3.1.
+
+Construcciones
+
+3.1.1.
+
+Bobina para mostrar la interacción entre campos
+electromagnéticos
+
+Materiales
+1 botella de plástico transparente.
+Alambre esmaltado de cobre para bobinados (se compra en
+ferreterías).
+2 bandas elásticas o cinta aisladora.
+1 palillo de madera o plástico.
+1 trozo de telgopor o 1 corcho.
+1 aguja e hilo (aproximadamente 50 cm.)
+1 imán.
+
+3.1. CONSTRUCCIONES
+
+65
+
+Armado
+
+Figura 3.2: Bobina para observar la interacción entre campos electromagnéticos: esquema y detalle de construcción.
+1. Cortar la parte central de la botella de modo que nos quede un
+cilindro de 10 cm de altura.
+2. Enrollar alrededor de la botella 50 ó 60 vueltas de alambre de
+cobre para formar una bobina, y fijar los extremos con cinta
+adhesiva o pegamento dejando 10 cm libres para poder conectarlos. Lijar un poco cada extremo del alambre para que hagan
+un buen contacto con los bornes de la pila.
+3. Cortar la base restante de la botella en forma cóncava de manera que se pueda apoyar la bobina sobre ella, fijándola a la
+bobina con una banda elástica o cinta aislante (ver figura 3.2).
+4. Hacer un pequeño orificio en el medio del cilindro bobinadocon un clavo.
+5. Enhebrar el hilo en la aguja y hacerla pasar hacia adentro a
+través del orificio de la botella (sin desenhebrar la aguja del
+hilo) y dejando unos 20 cm de hilo del lado de afuera de la
+botella.
+6. Cortar prolijamente un pequeño cilindro de telgopor de 2 cm
+de diámetro por 1 cm de alto aproximadamente.
+7. Imanar la aguja frotándola unas 30 veces contra un imán (siempre en el mismo sentido).
+
+66
+
+CAPÍTULO 3. ELECTROMAGNETISMO
+8. Atravesar con la aguja el telgopor de la siguiente manera: primero verticalmente pasando por el centro y luego en forma
+horizontal dejando la aguja clavada en el interior. Cortar el hilo
+a 20 cm de distancia del telgopor (de la misma manera que se
+hizo con la brújula).
+9. Tirar del hilo del lado de afuera de la botella hasta que la aguja
+quede colgando en el centro de la botella. Una vez hecho esto,
+atar el hilo al palillo para que funcione de freno y que no deje
+que el hilo se salga del agujero. Cortar el exceso de hilo que
+quede en el palillo.
+
+Funcionamiento
+1. Colocar la bobina en una superficie plana y alejada de objetos
+metálicos e imanes.
+2. Esperar un momento a que la aguja se estabilice en la dirección Norte-Sur (ya que en este punto habremos construido un
+brújula). Girar la bobina hasta que su eje quede en dirección
+perpendicular a la aguja.
+3. Conectar brevemente los extremos del cable de la bobina a una
+pila y observar el movimiento de la aguja.
+4. Desconectar la pila y observar qué sucede con la aguja.
+5. Observar qué sucede conectando la pila al revés.
+Posibles fallas
+1. La aguja no se orienta libremente con el campo terrestre. Imanarla nuevamente como en el punto 7 de las instrucciones para
+el armado.
+2. La aguja no se mueve al conectar la pila.
+a) No hay un buen contacto entre los bornes y la pila. Lijar bien la parte esmaltada del alambre, debido a que el
+esmalte es aislante.
+b) La pila está descargada. Probar con otras.
+c) El campo generado por la corriente en la bobina no es
+muy intenso. Esto se puede mejorar apretando más las espirasy disminuyendo el espacio entre ellas. Otra variante
+es agregar algunas vueltas de alambre, aunque esto hará
+que la pila se descargue más rápido.
+
+3.1. CONSTRUCCIONES
+
+67
+
+Figura 3.3: Electroimán: esquema y modelo armado.
+3. La aguja está paralela al eje de la bobina. Si el eje de la bobina
+se encuentra paralelo a la aguja, el campo magnético generado coincide con el campo magnético terrestre y no se observa
+efecto alguno. En este caso sugerimos rotar 90 grados la bobina.
+4. No debe usarse alambre de cobre obtenido pelando los cables
+eléctricos, ya que no estarán aislados y pondrán la bobina en
+cortocircuito. En caso de no conseguir alambre de cobre esmaltado, utilizar el cable eléctrico sin quitar el recubrimiento
+plástico, excepto en los extremos que se conectan a la pila.
+
+3.1.2.
+
+Electroimán
+
+Materiales
+Uno clavo de aproximadamente 10 cm.
+1 m de cable fino o alambre de cobre esmaltado.
+Varios objetos pequeños de hierro (alfileres, agujas, etc.).
+Una pila.
+Armado y funcionamiento
+1. Arrollar el alambre en el clavo logrando cincuenta vueltas.
+2. Cortar el alambre dejando 10 cm de cada lado.
+3. Conectar cada extremo del alambre a un borne de la pila.
+
+68
+
+CAPÍTULO 3. ELECTROMAGNETISMO
+4. Acercar la punta del clavo hacia los alfileres y observar cómo
+los atrae y levanta.
+5. Acercar a la aguja de una brújula e identificar los polos del
+electroimán (recordemos que polos del mismo tipo se repelen,
+y de tipo diferente se atraen).
+6. Quitar el bobinado del clavo y repetir las experiencias. Conectar nuevamente los extremos de la pila y comparar la intensidad del campo generado.
+
+¡Cuidado! Al apoyar el cable de cobre en los bornes de la pila podemos quemarnos los dedos. La temperatura del metal aumenta al circular corriente eléctrica por él. Una sencilla manera de evitarlo es
+proteger nuestros dedos con cinta adhesiva o usar guantes.
+Por otro lado, si realizamos la experiencia por un tiempo prolongado el clavo puede quedar imantado al desconectar la pila. Esto se puede evitar invirtiendo periódicamente el sentido de la corriente, es decir, invirtiendo los bornes de la pila. Si de todos modos
+sucediera, el clavo puede desimantarse golpeándolo varias veces o
+calentándolo.
+Para evitar todas estas dificultades se sugiere que el electroimán
+se conecte durante tiempos cortos.
+Posibles fallas
+La pila no funciona. Probar con otras.
+La cantidad de vueltas de alambre alrededor del clavo no es
+suficiente.
+Los extremos del cable están aislados. Probar lijando los extremos.
+
+Capítulo 4
+
+Motores y generadores
+Para convertir electricidad en movimiento, como por ejemplo en
+una cortadora de césped, usamos un dispositivo que se llama motor
+eléctrico. También existen generadores como las dínamos y las usinas hidroeléctricas, que generan electricidad a partir de movimiento. Todos estos inventos nacieron como consecuencia de una mejor
+comprensión del electromagnetismo, en el que se utiliza la corriente
+para generar magnetismo y viceversa.
+¿Dónde encontramos motores eléctricos? ¿Para qué utilizamos los
+generadores?
+Los motores eléctricos los encontramos en aparatos electrodomésticos, herramientas y en todos los dispositivos donde
+usamos electricidad para obtener trabajo mecánico.
+Los generadores son utilizados principalmente para proveer
+de energía eléctrica a los establecimientos y casas donde el suministro eléctrico no llega. Pueden ser eólicos o funcionar a partir de combustibles como el gasoil, y entregan corriente eléctrica
+obtenida a partir de un trabajo mecánico.
+
+4.0.3.
+
+Motores
+
+Los motores funcionan aplicando los principios electromagnéticos identificados durante el siglo XIX que fueron presentados en el
+capítulo anterior. Oersted, Ampère y Faraday casi simultáneamente
+observaron que si un cable conductor arrollado -una bobina- por la
+cual circula corriente se encuentra en presencia de un imán permanente y es libre de girar, empezará a hacerlo debido a la fuerza mag69
+
+70
+
+CAPÍTULO 4. MOTORES Y GENERADORES
+
+nética que se ejerce entre ellos. El descubrimiento de una fuerza giratoria resultó fundamental para la construcción del motor: la rotación
+de la bobina puede aprovecharse para realizar trabajo mecánico,
+por ejemplo para mover objetos. En 1821 Faraday hizo funcionar el
+primer motor eléctrico, pero recién en 1832 el inglés Sturgeon construyó uno capaz de hacer funcionar una máquina. Siguiendo este
+desarrollo en 1837 se patentó el primer motor eléctrico comercial,
+construido por los estadounidenses Emily y Thomas Davenport. La
+posibilidad de construir motores eléctricos, de alto rendimiento, dio
+lugar a la creación de pequeñas máquinas industriales que podían
+reemplazar las usadas hasta entonces, que funcionaban por vapor
+(que alimentaba la máquina desde afuera) o eran de combustión interna (a partir de la energía química producida quemando un combustible en una cámara de combustión dentro de la máquina). Sin
+embargo, el uso de máquinas eléctricas se masificó poco antes de
+1900, cuando en Europa se dispuso de una red eléctrica para alimentarlas.
+Hoy en día existen motores eléctricos de diferentes tipos, desde los más sencillos y pequeños utilizados en relojes, hasta los que
+movilizan trenes de altas velocidades como el TGV francés.
+E XPERIENCIA CON EL MINI MOTOR
+Se propone la construcción de un pequeño motor con un imán permanente y una bobina móvil que, alimentada por una pila, forma un
+electroimán (ver construcción en página 72).
+Al conectar la pila al motor, la bobina empieza a girar. ¿Por qué?
+Al cerrarse el circuito comienza a circular corriente eléctrica por la
+bobina, generando un campo magnético (en dirección perpendicular
+al plano de la misma). Este campo interacciona con el campo generado por el imán permanente y como consecuencia de las fuerzas
+de interacción la bobina comienza a girar, tratando de orientarse de
+manera de que ambos campos queden paralelos.
+¿Por qué la bobina continúa girando una vez que los campos están paralelos?
+Uno de los conectores de la bobina tiene una mitad aislada y la otra
+conductora. En el instante en que los campos son paralelos (cuando
+la bobina se encuentra en dirección horizontal) la parte conductora
+del conector de la bobina no está en contacto con el sistema y se
+interrumpe el circuito.
+Entonces deja de circular corriente por la
+
+71
+E XPERIENCIA CON EL MINI MOTOR ( CONTINUACIÓN )
+bobina y el campo magnético deja de generarse. La bobina continúa
+su movimiento, girando libremente. Pero cuando completa media
+vuelta más, la parte conductora del alambre vuelve a hacer contacto:
+cierra el circuito, la corriente vuelve a circular por la bobina y el
+proceso se repite.
+
+4.0.4.
+
+Generadores
+
+Los generadores son en su construcción similares a los motores;
+de hecho podrían describirse como motores que funcionan al revés
+y que utilizan movimiento para generar electricidad.
+Antes de la existencia de los generadores, para obtener corrientes eléctricas se empleaban instrumentos que recolectaban cargas
+(obtenidas por fricción o inducción) y las hacían viajar a través de
+un circuito. Es el caso de los generadores construidos por Otto Von
+Guericke en 1660 o por Robert Van de Graff en 1929. Sin embargo, aunque los aparatos de fricción y de inducción eran capaces de
+generar un voltaje muy elevado, no eran adecuados para producir
+una corriente intensa y constante. En algunos laboratorios escolares
+pueden encontrarse generadores de este tipo, que permiten lograr
+altas tensiones con valores muy bajos de corriente, lo que los hace
+seguros para el experimentador.
+El generador más sencillo que utiliza principios electromagnéticos es la dínamo de disco desarrollada por Faraday, que consiste
+en un círculo de cobre montado de tal forma que los polos de un
+imán de herradura quedan situados en el centro del círculo y el borde del mismo. Cuando el cobre gira, se induce una corriente entre el
+centro del disco y su borde debido a la acción del campo del imán.
+En este tipo de instrumentos se observa cómo se genera electricidad
+mediante los cambios en el seno de un campo magnético.
+El campo magnético para un generador se puede obtener por
+medio de un imán permanente o de un electroimán. En este último
+caso, el electroimán se excita por una corriente externa o utilizando
+la propia corriente producida en la dínamo.
+Actualmente hay generadores de gran escala como los molinos
+eólicos, pero también hay otros que usamos diariamente en las bicicletas y en las linternas que no necesitan pilas.
+
+72
+
+CAPÍTULO 4. MOTORES Y GENERADORES
+
+E XPERIENCIA CON EL GENERADOR
+El motor construido anteriormente puede funcionar como generador eléctrico si quitamos la pila y hacemos girar la bobina manualmente. Sin embargo, la corriente generada suele ser muy pequeña
+como para encender un LED o para usarla como fuente. Los modelos comerciales de generadores tienen miles de espiras y una disposición geométrica de los imanes óptima para obtener suficiente
+corriente. De todas formas, el funcionamiento es similar. Para detectar una corriente tan pequeña se puede utilizar un dispositivo
+muy común hoy en día: un auricular, que puede ser de un celular,
+mp3 o cualquier otro aparato de reproducción de audio (ver página
+75). El auricular es en realidad un pequeño parlante, que transforma
+señales eléctricas en señales de sonido.
+Conectando el auricular como se muestra en la figura 75, al hacer
+girar la bobina podremos escuchar un ruido parecido al de la lluvia
+(llamada “estática”), que indica que hay paso de corriente.
+¿Por qué escuchamos un ruido en el auricular? ¿Qué ocurre cuando la
+bobina deja de girar?
+Como hemos mencionado, el movimiento de un conductor (la bobina) en un campo magnético genera una corriente eléctrica en el mismo. Al tener varias espiras la corriente aumenta y es posible detectarla con el auricular. Cuando la bobina deja de girar, el ruido cesa,
+ya que es necesario un campo magnético variable para generar esta
+corriente.
+A través del generador se evidencia la otra cara de la relación entre magnetismo y electricidad: utilizando imanes (artificiales o naturales) podemos generar electricidad. Ambos fenómenos, que a simple vista pueden parecer muy distintos, están íntimamente relacionados.
+
+4.1.
+
+Construcciones
+
+4.1.1.
+
+Mini-motor
+
+Este prototipo de motor es muy sencillo de construir y funciona
+con una sola pila.
+Materiales
+Una pila mediana.
+
+4.1. CONSTRUCCIONES
+
+73
+
+Una lámina de cobre o aluminio (aproximadamente de 12 x 6
+cm).
+20 cm de alambre de cobre esmaltado.
+Un imán plano, con los polos norte y sur en las caras horizontales.
+Plastilina.
+Tijera.
+Alfiler.
+Armado y funcionamiento
+
+Figura 4.1: Detalles del motor.
+1. Cortar la lámina metálica de manera de obtener dos recortes
+como el que muestra la Figura 4.1 y hacer en cada uno un orificio con el alfiler.
+2. Sujetar con la plastilina el imán entre las láminas para armar la
+parte fija del motor, conocida como estator.
+3. Hacer una pequeña bobina (con varias vueltas de alambre, formando un círculo) cuyo diámetro mida un centímetro menos
+que la distancia entre las láminas. Cortar los extremos de la espira dejando un centímetro a cada lado. Esta parte del motor
+se conoce como rotor.
+4. Lijar totalmente un extremo del alambre para quitar el esmalte
+y en el otro extremo lijar solamente la mitad, dejando una zona
+esmaltada.
+
+74
+
+CAPÍTULO 4. MOTORES Y GENERADORES
+5. Colocar la espira aprovechando los agujeros de las placas (ver
+figura 4.2) y verificar que gire libremente. Conectar la pila. Si
+es necesario dar un pequeño empujón a la espira.
+
+Figura 4.2: Motor: esquema y modelo armado. En el modelo se ha
+agregado una base de madera. La pila (de tamaño grande) está contenida en un frasco de rollo de fotografía y se encuentra conectada a
+la estructura de metal mediante cables.
+Posibles fallas
+La pila no tiene carga.
+El cobre no ha sido lijado correctamente.
+Las láminas tocan el imán. Aislarlas mejor con la plastilina.
+
+4.1. CONSTRUCCIONES
+
+4.1.2.
+
+75
+
+Generador
+
+Materiales
+Mini-Motor.
+40 cm de cable fino.
+Cinta aisladora.
+Auricular de radio o MP3.
+Opcional
+Amperímetro o téster.
+Bobina de la experiencia de la interacción entre campos electromagnéticos, descrita en el Capítulo 3.
+Armado
+
+Figura 4.3: Generador.
+1. Cortar el cable a la mitad y quitar el aislante de los extremos.
+2. Pegar con cinta los cables a la parte del estator donde antes se
+conectaba la pila.
+
+76
+
+CAPÍTULO 4. MOTORES Y GENERADORES
+3. Pegar los cables a la ficha del auricular, un cable en la parte
+más cercana al plástico y el otro en el extremo.
+4. Hacer girar la espira y escuchar por el auricular.
+
+Opcionales
+1. Si se cuenta con un amperímetro o téster: quitar el auricular y
+conectar los cables al téster. Medir la corriente al girar la bobina.
+2. Quitar los cables del motor y conectarlos a la bobina de inducción. Mover algún imán dentro de la bobina y escuchar por el
+auricular. Indirectamente estamos detectando la generación de
+corriente debida al cambio en el campo magnético.
+Posibles fallas
+Si no se escucha ningún sonido:
+Revisar cuidadosamente las conexiones de los cables.
+Girar más rápido la bobina. Mientras más rápido gira, mayor
+es la corriente que se genera.
+Realizar la experiencia en un lugar más silencioso.
+
+Bibliografía
+[1] Richard P. Feynman, Matthew Sands, and Robert B. Leighton.
+Física, Vol. II, Electromagnetismo y materia, volume II. Pearson Educación, 1998.
+[2] Paul G. Hewitt. Física Conceptual. Addison Wesley Longman
+México, 1998.
+[3] Arthur F. Kip. Fundamentos de Electricidad y Magnetismo. Mc
+Graw-Hill, 1979.
+
+Bibliografía de consulta
+Ariel Alvarez, Paula Bergero, Laura del Río y Cecilia von Reichenbach. Cero absoluto, curiosidades de física. IFLP (Instituto de
+Física La Plata) CONICET - UNLP, 2ª edicion, 2009.
+Stephen Mason. Historia de las ciencias. Ediciones Zeus, 1966.
+Paul Schurmann. Historia de la Física. Editorial Nova, Buenos
+Aires, 1946.
+Yakov Perelman. Física recreativa, volumen 2. Editorial Mir, 1969.
+Alberto Rojo. La Física en la vida cotidiana. Ciencia que Ladra...
+Editorial Universidad Nacional de Quilmes, 2007.
+Revista de enseñanza de las ciencias. http://ensciencias.uab.es/
+Revista electrónica de enseñanza de las ciencias (REEC) Disponible
+online en http://reec.uvigo.es/Volumenes.htm
+R. Driver, E. Guesner y A. Tiberghien. Ideas científicas en la infancia y la adolescencia. Ediciones Morata S. L. 4ª edición, 1999.
+77
+
+78
+
+BIBLIOGRAFÍA
+
+Índice de figuras
+1.1. Visualización de campo magnético. (a) Materiales. (b)
+Disposición del imán y el cartón. (c) Espolvoreado de
+las limaduras de hierro. (d) Líneas de fuerza del campo magnético. . . . . . . . . . . . . . . . . . . . . . . .
+
+19
+
+1.2. Campo magnético de dos juegos de imanes. (a) Visualización de campo magnético con polos opuestos enfrentados; los juegos de imanes se atraen. (b) Detalle
+de la disposición de los juegos de imanes: se puede
+poner una goma de borrar entre ellos para mantenerlos a cierta distancia corta. (c) Visualización de campo
+magnético con polos iguales enfrentados; los juegos
+de imanes se repelen. (d) Detalle de la disposición de
+los juegos de imanes: se puede hacer tope con dos libros para mantenerlos a cierta distancia corta. . . . .
+
+20
+
+1.3. Esquema de la brújula. . . . . . . . . . . . . . . . . . .
+
+21
+
+1.4. Frasco con brújula. Esquema y foto (en la foto se ha
+omitido el transportador). . . . . . . . . . . . . . . . .
+
+22
+
+1.5. Péndulo caótico: esquema y modelo terminado. . . .
+
+27
+
+2.1. Equema del electroscopio. . . . . . . . . . . . . . . . .
+
+40
+
+2.2. Electróforo. . . . . . . . . . . . . . . . . . . . . . . . . .
+
+43
+
+2.3. Modelo del condensador y detalle interno. . . . . . .
+
+45
+
+2.4. Modelo de Pila de Volta, perteneciente al acervo del
+Museo de Física de la UNLP. . . . . . . . . . . . . . . .
+
+48
+
+2.5. (a) Conexión en serie. (b) Conexión en paralelo. . . . .
+
+50
+
+2.6. Configuración de una pila elemental. . . . . . . . . . .
+
+51
+
+2.7. Pila de Volta con LED. . . . . . . . . . . . . . . . . . .
+
+55
+
+79
+
+80
+
+ÍNDICE DE FIGURAS
+3.1. Regla de la mano derecha: si se dispone la mano derecha
+de modo que los dedos índice, mayor, anular y meñique
+señalen el sentido de la corriente (por ejemplo, tomando imaginariamente la bobina), entonces el pulgar extendido señalará la dirección del campo magnético. . 63
+3.2. Bobina para observar la interacción entre campos electromagnéticos: esquema y detalle de construcción. . . 65
+3.3. Electroimán: esquema y modelo armado. . . . . . . . 67
+4.1. Detalles del motor. . . . . . . . . . . . . . . . . . . . .
+4.2. Motor: esquema y modelo armado. En el modelo se
+ha agregado una base de madera. La pila (de tamaño
+grande) está contenida en un frasco de rollo de fotografía y se encuentra conectada a la estructura de
+metal mediante cables. . . . . . . . . . . . . . . . . . .
+4.3. Generador. . . . . . . . . . . . . . . . . . . . . . . . . .
+
+73
+
+74
+75
+
+Índice alfabético
+declinación magnética, 17
+
+ánodo, 52
+átomo, 31
+acción a distancia, 15
+aislante, 30, 32
+Ampère, André Marie, 60, 63, 69
+amperaje, 49
+batería, 50
+bobina, 70, 72
+brújula, 16–18, 21
+cátodo, 52
+caótico, péndulo, 25
+campo magnético, 15, 61
+campo magnético terrestre, 16
+caos, 24
+capacitor, 38
+circuito eléctrico, 49
+circuito eléctrico, elementos de, 49
+concepciones alternativas, 6
+condensador, 38, 44
+conductor, 32
+conexión en paralelo, 50
+conexión en serie, 51
+contacto, carga por, 33
+corriente eléctrica, 48, 61
+corriente eléctrica, intensidad de,
+49
+corriente eléctrica, lesiones, 52
+Coulomb, Charles, 15
+dínamo, 71
+Davenport, Emily, 70
+Davenport, Thomas, 70
+
+efecto Joule, 48
+efecto mariposa, 24
+eléctricos, campos, 30
+Electróforo, 36, 37
+electrómetro, 35
+electricidad, 59
+electroimán, 60, 62, 67, 71
+electromagnéticas, ondas, 64
+electromagnetismo, 64, 69
+Electroscopio, 39
+electroscopio, 35
+espira, 61
+Faraday, Michael, 15, 61, 63, 69,
+71
+fricción, carga por, 33
+fuerza a distancia, 15
+fuerza fuerte, 31
+fuerza magnética, 15
+Galvani, Giusepe, 47
+Gauss, Johann Carl Friedrich, 30
+generador, 69, 71, 75
+Gilbert, William, 13, 29
+gravitatoria, interacción, 25
+Guericke, Otto Von, 71
+Hertz, Heinrich, 64
+hierro, limaduras de, 16, 18
+imán, 13
+imanes naturales, 61
+imanes permanentes, 61
+
+81
+
+82
+inducción, carga por, 33
+ion, 31, 32
+LED, 52, 55, 72
+Leyden, botella de, 38, 44
+magnético, campo, 15
+magnetismo, 13, 59
+Maxwell, James C., 15, 64
+mini-motor, 72
+motores, 69
+neutrones, 31
+Oersted, Hans Christian, 60, 64,
+69
+pila, 48, 51
+Poincaré, Henri, 24
+polímeros, 32
+polos magnéticos, 14
+protones, 31
+reciclado, pilas, 53
+regla de la mano derecha, 62
+resonancia magnética nuclear, 14
+semiconductor, 32
+Sturgeon, 70
+tensión, 49
+triboeléctrica, secuencia, 33
+triboelectricidad, 33
+Van de Graff, Robert, 71
+Volta, Alessandro Giuseppe Antonio Anastasio, 47
+voltaje, 49
+
+ÍNDICE ALFABÉTICO
+
+ÍNDICE ALFABÉTICO
+
+83
+
+84
+
+ÍNDICE ALFABÉTICO
+
+Este texto se terminó de imprimir
+en DASA Calidad Gráfica.
+Calle 37 Nº 992 - La Plata - Bs. As. - Tel (0221) 421-8018
+Junio de 2010.
+
+

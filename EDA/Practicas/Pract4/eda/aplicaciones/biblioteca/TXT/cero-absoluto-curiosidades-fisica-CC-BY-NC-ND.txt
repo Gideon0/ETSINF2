@@ -1,0 +1,2678 @@
+Cero absoluto
+
+Curiosidades de Física
+
+1
+
+2 Cero absoluto
+
+Curiosidades de Física
+
+Cero absoluto
+Curiosidades de Física
+I Segunda Edición I
+
+Cero absoluto
+
+Curiosidades de Física
+
+3
+
+Cero absoluto : curiosidades de física / compilado por Cecilia Von Reichenbach ;
+coordinado por Daniel Sergnese - 2a. ed. - Buenos Aires: Consejo Nacional
+Investigaciones Científicas Técnicas - CONICET, 20085.
+112 p. ; 21x15 cm.
+ISBN 978-950-692-088-3
+1. Física. I. Reichenbach, Cecilia Von, comp. II. Sergnese, Daniel, coord.
+CDD 530
+
+2da Edición
+Tirada: 1.000 ejemplares.
+ISBN 978-950-692-088-3
+© 2009
+Edita: IFLP CONICET (Instituto de Física La Plata Consejo Nacional de Investigaciones Científicas y Técnicas).
+49 y 115, La Plata (1900), Buenos Aires, Argentina.
+
+Queda hecho el depósito que establece la ley 11.723
+Libro de edición Argentina
+No se permite la reproducción parcial o total, el almacenamiento, el alquiler, la
+transmisión o la transformación de este libro, en cualquier forma o por cualquier
+medio, sea electrónico o mecánico, mediante fotocopias, digitalización u otros
+métodos, sin el permiso previo y escrito del editor. Su infracción esta penada por
+las leyes 11.723 y 25.446.-
+
+Ilustración de tapa Alejandro O´KIF, colaborador de «Clarín», ilustra para
+editoriales nacionales y extranjeras.
+Ilustración de contratapa Juan Lima, ex Director «Humi» y «Fierro», Ilustra
+para editoriales y trabaja en diseño gráfico.
+Coordinación editorial Daniel Sergnese, DCV / UNLP, Agente del CONICET,
+en el IFLP. Propuso y se editaron libros para La Comuna Ediciones y para el
+hermanamiento, La Plata - Zaragoza.
+Diseño Casiana Rodríguez Negri
+
+4 Cero absoluto
+
+Curiosidades de Física
+
+Prólogo a la Segunda Edición
+El año 2005 fue propuesto por los Físicos del mundo como Año Mundial de la Física, en conmemoración del centenario de la publicación de
+cinco de los trabajos más importantes y revolucionarios de Albert Einstein.
+Además, coincidió con el centenario de la Universidad Nacional de La
+Plata, la tercera universidad nacional creada en Argentina. Y como si fuera
+poco, con el centenario de la creación de su Departamento de Física, el
+primero en su tipo en el hemisferio sur. En honor a tan notables coincidencias, el Museo de Física pensó en crear un libro, dedicado a todas las
+personas que sienten la espina de la curiosidad.
+"Cero absoluto" trata sobre varios fenómenos de la naturaleza
+presentados desde la Física, pero no desde el punto de vista de las
+dificultades resueltas sino con el deseo de despertar la intriga por el
+mundo que nos rodea y llamar la atención acerca de los avances de la
+Física y sus aplicaciones tecnológicas.
+No es un manual de Física, ni un compendio de temas importantes, ni los más básicos, ni los más famosos. Es un conjunto de pequeños textos independientes que pueden ser leídos en el orden que el
+lector prefiera; todos están acompañados por ilustraciones y debajo
+de algunos hay referencias a temas relacionados. También hay una
+selección de fenómenos agrupados bajo el título "Efectos especiales",
+una separata sobre el Museo de Física y algunas páginas escritas por
+especialistas. Pedimos la colaboración de un grupo de ilustradores,
+para que nos ayuden a hacer más atrayente y amena la lectura. A través de estos artículos tratamos de compartir con los lectores los asuntos que más nos intrigan, nos divierten, nos ayudan a comprender algunos cómo y por qué del Universo, y nos dejan con otras espinas.
+Queremos ofrecer una mirada nueva, que muestre que vivimos en un
+mundo cuestionado, explicado y hasta cierto punto predecido por la
+Ciencia. Sabemos también que ésta es sólo una parte de todo el conocimiento de la Naturaleza, que ha contribuido en el avance y progreso
+de la Humanidad -en alguna dirección. Este conocimiento no está acabado, y es por eso que todos los días hay muchas personas que trabaja
+para quitar alguna de sus espinas de la curiosidad. A esas personas las
+llaman científicos. "Cero absoluto" es también un pequeño homenaje
+a ellos, sobre todo a los que trabajan y o trabajaron en Argentina.
+En este libro aparecen nombrados algunos científicos. No siempre
+son los más reconocidos, o los que más contribuyeron a determinado
+tema, sino que fueron tomados como referentes históricos, y para ayudarnos a recordar que la ciencia es -ante todo- una actividad humana, y
+colectiva.
+Creemos que a la Física la pueden entender todos. Desde nuestro lugar nos hemos divertido trabajando en Física con niños, adolescentes y adultos. Por eso intentamos escribir en un lenguaje accesible a las
+personas de todas las edades. Porque estamos convencidos de una cosa:
+es maravilloso seguir teniendo espinas de curiosidad toda la vida.
+Estos textos fueron escritos en conjunto, entre varios estudiantes y
+trabajadores de la Física, congregados por nuestro Museo. Además de
+hacer divulgación, cada uno de nosotros, como muchos otros científicos
+en la Universidad Nacional de La Plata y en todo el país, investiga en
+temas de física pura o aplicada, teórica o experimental. Finalmente, entonces, esta producción colectiva apunta a que la sociedad se apropie
+de nuestro trabajo, que es lo que le da su verdadero significado.
+En esta Segunda Edición corregimos algunos errores que se nos habían deslizado en los textos y agradecemos los comentarios recibidos.
+
+Cero absoluto
+
+Curiosidades de Física
+
+5
+
+6 Cero absoluto
+
+Curiosidades de Física
+
+¿Por qué la Tierra es mi casa?
+¿Por qué la noche es oscura?
+¿Por qué la luna es blancura
+que engorda como adelgaza?
+¿Por qué una estrella se enlaza
+con otra, como un dibujo?
+¿Y por qué el escaramujo
+es de la rosa y del mar?
+Yo vivo de preguntar:
+saber no puede ser lujo.
+
+Fragmentos
+de Escaramujo,
+de Silvio Rodríguez
+
+El agua hirviente en puchero
+suelta un ánima que sube
+a disolverse en la nube
+que luego será aguacero.
+Niño soy tan preguntero,
+tan comilón del acervo,
+que marchito si le pierdo
+una contesta a mi pecho.
+Si saber no es un derecho,
+seguro será un izquierdo.
+Cero absoluto
+
+Curiosidades de Física
+
+7
+
+Esta segunda edición de "Cero Absoluto", ha sido
+posible gracias al generoso apoyo de las siguientes
+instituciones:
+Instituto de Física La Plata (IFLP).
+CCT, CONICET La Plata.
+Fundación OSDE
+Universidad Nacional de La Plata (UNLP).
+8 Cero absoluto
+
+Curiosidades de Física
+
+Agradecimientos
+A Florencia Cabana, Juan Cruz Moreno, Leonardo
+Ciliberti, y los docentes que trabajaron alguna vez
+en el Museo, porque con ellos construimos esta
+forma de compartir la Física.
+A Gabriel Bilmes por sus consejos y la lectura
+crítica de los textos.
+A Carlos García Canal, Laiza Lotani, Diego
+Petrucci, Teresa Dova y Judith Desimoni por sus
+sugerencias, así como al Grupo de Didáctica de las
+Ciencias de la UNLP.
+A los investigadores Nicolás Grandi, Félix
+Requejo, Susana Landau, Leonardo Errico, Claudio
+Simeone y Raúl Rossignoli, por sus colaboraciones
+especiales.
+A los lectores que nos hicieron llegar sus comentarios.
+Queremos destacar también la valiosa participación de los artistas gráficos, que nos han interpretado con profesionalismo y entusiasmo este proyecto de divulgación de Fisica.
+
+Cero absoluto
+
+Curiosidades de Física
+
+9
+
+Ilustra: O´KIF
+
+"Si bien el imaginario popular nos identifica con
+hombres distraídos, con anteojos y guardapolvo o
+con muchachos despeinados, los científicos somos
+por igual hombres y mujeres, jóvenes y viejos, gordos y flacos...
+Por ejemplo, en el Departamento de Física de la
+U.N.L.P trabajan personas en su mayoría jóvenes y
+la mitad de ellos son mujeres..."
+
+10 Cero absoluto
+
+Curiosidades de Física
+
+Los autores
+Los textos de este libro fueron escritos por cuatro docentes del Museo de Física de la UNLP: Cecilia von Reichenbach, Paula Bergero, Ariel Alvarez y
+Laura del Río.
+Cecilia es Doctora en Física, investigadora del
+CONICET y estudia la Historia de la Física en Argentina, Paula es Doctora en Ciencias Exactas de la UNLP
+y becaria posdoctoral del CONICET, Ariel es Licenciado en Física y becario doctoral del CONICET, Laura
+es estudiante del profesorado en Matemáticas.
+El apartado sobre el Museo lo realizó Damián
+Gulich, egresado del Bachillerato de Bellas Artes de
+la UNLP, estudiante de la Licenciatura en Física, y
+encargado del diseño gráfico del Museo.
+museo@fisica.unlp.edu.ar
+
+Laura
+del Río
+
+Paula
+Bergero
+
+Ariel Álvarez
+
+Cecilia von Reichenbach
+
+Cero absoluto
+
+Damián Gulich
+
+Curiosidades de Física
+
+11
+
+12 Cero absoluto
+
+Curiosidades de Física
+
+Indice
+Pág. 5
+Pág. 11
+Pág. 15
+Pág. 17
+Pág. 19
+Pág. 21
+Pág. 23
+Pág. 25
+Pág. 27
+Pág. 29
+Pág. 31
+Pág. 33
+Pág. 35
+Pág. 37
+Pág. 38
+Pág. 41
+Pág. 43
+Pág. 45
+Pág. 47
+Pág. 49
+Pág. 51
+Pág. 53
+Pág. 55
+Pág. 57
+Pág. 59
+Pág. 61
+Pág. 62
+Pág. 65
+Pág. 67
+Pág. 69
+Pág. 71
+Pág. 73
+Pág. 75
+Pág. 77
+Pág. 79
+Pág. 81
+Pág. 83
+Pág. 85
+Pág. 87
+Pág. 89
+Pág. 90
+Pág. 92
+Pág. 95
+Pág. 97
+Pág. 99
+Pág. 100
+Pág. 102
+Pág. 103
+
+Prólogo
+Los autores
+Gravedad: ¿Qué cae primero?
+Mareas: Un problema de familia
+El problema de Arquímedes
+Efectos especiales I: El inodoro de Coriolis
+Electricidad: La rana de Galvani
+Pilas contra ranas
+Detectores de tormentas
+Magnetismo: La piedrita de la suerte
+Magnetismo: No es bueno que el polo esté solo
+Electricidad + magnetismo
+La sinfonía de las máquinas eléctricas:
+Allegro con motor
+El imán más grande del mundo
+Ondas electromagnéticas:
+Una familia con buena onda
+Luz, rayos X, acción
+Hágase la luz
+Un arco iris para cada uno
+Láser: Luz de rubí
+Efectos especiales II: Efecto Doppler
+El color del mar
+Resonancia: Lo que importa es el ritmo
+Resonancia magnética nuclear
+¿Qué es lo más pequeño que existe en el Universo?
+Recetas para preparar átomos
+Energía Nuclear: Átomos que nos iluminan
+La Edad de los Materiales, Por Leo Errico
+Nanopartículas: Pastillas de chiquitolina
+Nanociencia y nanotecnología, Por Félix Requejo
+Superconductividad
+¿Cristales o líquidos?
+¿Qué tiene de absoluto el cero absoluto?
+¿Por qué un astronauta no debe sacarse el traje en
+el espacio?
+Rayos cósmicos: Lluvia de estrellas
+Física moderna, una introducción
+Mecánica cuántica: Heladeras y hornos
+El Principio de incertidumbre, Por Raúl Rossignoli
+Relatividad I: Viajeros del espacio tiempo
+Relatividad II: Laboratorios en marcha
+Relatividad III: La energía de las masas
+Agujeros negros, Por Claudio Simeone
+Big Bang, Por Susana Landau
+Efectos especiales III: Efecto fotoeléctrico
+Efectos especiales IV: Efecto mariposa
+Fractales: La geometría de la naturaleza
+Teoría de cuerdas: La música de las esferas,
+Por Nicolás Grandi
+Para leer más
+Indice de artistas
+
+Cero absoluto
+
+Curiosidades de Física
+
+13
+
+Ilustra: O´KIF
+
+14 Cero absoluto
+
+Curiosidades de Física
+
+Gravedad:
+
+¿Qué cae primero, una pelotita
+de tenis o una hoja de papel?
+Depende, todo depende. La mayoría de las personas responderá
+sin dudar ni un segundo: "la pelotita, porque pesa más". Y es natural
+que esa respuesta nos parezca lógica ya que somos individuos acostumbrados a vivir sumergidos en esa cosa llamada aire… Sí estaremos de acuerdo en el por qué de la caída de estos objetos: la gravedad, o atracción gravitatoria.
+El aire es el culpable de que, en nuestro planeta, las hojas de los
+árboles, las plumas de las aves y los paracaidistas caigan de una forma mucho más elegante y lenta que los frutos de los árboles, las
+piedras y los paracaidistas… cuando no pueden abrir el paracaídas.
+Pero si no hubiese aire, todas las cosas caerían al mismo tiempo
+al ser soltadas desde una misma altura, independientemente del peso
+de cada una de ellas.
+La mejor forma de convencerse de esto es probar qué pasa en un
+lugar sin aire. Newton lo hizo: extrajo el aire del interior de un tubo de
+vidrio en el cual había una pluma y una moneda y al darlo vuelta comprobó que ambas caían al mismo tiempo.
+Ochenta años antes que Newton, Galileo sospechaba lo mismo.
+Entonces, comenzó a experimentar. Se dice que lanzaba objetos desde lo alto de la torre inclinada de Pisa, pero en realidad es solo leyenda. Sí es cierto que hizo una gran variedad de experimentos soltando
+bolas dsde diferentes alturas, por rampas o planos inclinados, llegando a conclusiones parecidas a las de Newton.
+Hacer aquella experiencia de Newton en casa es muy complicado; en cambio podemos hacer la siguiente prueba: dejamos caer
+desde una misma altura una hoja de papel extendida y una pelotita.
+La pelotita alcanza el suelo más rápido que la hoja. Pero si se abolla la
+hoja y se repite la experiencia, la diferencia de tiempo de caída entre
+ambas será mucho menor, a pesar de que la diferencia de sus pesos
+es igual que en el caso anterior. Esto sucede porque al abollar el papel, disminuimos la superficie de contacto con el aire, reduciendo la
+resistencia que se opone a su caída.
+Y esto es algo que, en realidad, todos sabemos desde chicos,
+aunque no nos hayamos dado cuenta… ¿O es que a alguien se le
+ocurriría tirarse de un avión sin paracaídas?
+El peso de los objetos es la forma palpable de la fuerza con que nos atrae nuestro planeta. Aunque se la suele asociar a
+objetos grandes como la Tierra, la Luna o
+el Sol, en realidad, la atracción gravitatoria
+actúa entre todos los objetos del universo. Ahora bien, como la atracción gravi-
+
+tatoria es mayor entre objetos de mayor
+masa, es lógico que sea más evidente la
+atracción entre la Tierra y los objetos que
+están en ella, que la existente entre usted y el libro que está leyendo en este
+momento (que puede ser atractivo, pero
+no justamente por la gravedad).
+
+Temas relacionados: Mareas: Un problema de familia, Agujeros negros.
+
+Cero absoluto
+
+Curiosidades de Física
+
+15
+
+Ilustra: Cecilia Pollini
+
+16 Cero absoluto
+
+Curiosidades de Física
+
+Mareas:
+
+Un problema de familia
+¿Quién no ha disfrutado alguna noche de su vida mirando la Luna,
+tirado a la orilla del mar? Momentos en los cuales surgen las más
+alocadas y profundas preguntas, tales como ¿de dónde venimos? ¿Para
+qué estamos en este mundo? Y tantas otras...
+A nuestros pies, el mar continúa su vaivén incesante. Hasta que,
+en el momento menos pensado ¡zas! Nos mojamos... y ahí, entre
+comentarios irreproducibles, pueden aparecer otras preguntas, como
+¿por qué el agua va y viene? O, en otras palabras, ¿por qué se producen las benditas mareas?
+Resulta que la Tierra y la Luna son como hermanas inseparables, y
+es debido a su atracción mutua que se producen las mareas, ya que la
+Luna no solo atrae a la Tierra, sino también a los mares que la envuelven. La atracción gravitatoria de la Luna no alcanza para llevarse el agua
+de los mares y océanos pero sí para moverla hasta quedar lo más cerca
+posible de ella (como la ropa que colgamos en la soga intenta quedar lo
+más cerca posible de la Tierra). En los sitios donde esto suceda, el nivel
+del agua subirá y el mar avanzará sobre el continente: subirá la marea.
+Pero como siempre, si en algún lugar hay más agua, en otros habrá
+menos: allí el agua retrocederá y tendremos la "marea baja"
+Otro secreto de familia para entender los vaivenes de las mareas el
+Sol, siempre celoso, también mete la cuchara en el asunto. Cuando
+hay Luna Llena o Nueva, la Luna y el Sol están alineados con la Tierra;
+entonces atraen a los mares en la misma dirección y hacen que las
+mareas sean más pronunciadas. Lo contrario pasará en Cuarto Menguante o Creciente, cuando tenemos mareas menos pronunciadas.
+¡Qué mareo!
+Esto mismo sucede sobre océanos, lagos, lagunas y charquitos,
+incluso sobre nuestro plato de sopa. Pero cuanto mayor sea el volumen de agua, más evidentes serán las mareas. Para las mareas el
+tamaño es importante.
+Una aclaración: curiosamente, las mareas altas no se dan solamente en los lugares de la Tierra más cercanos a la luna, sino también
+en sus antípodas.
+De todos modos, parece que la Tierra no se lleva tan bien como dicen con
+su hermana menor. A medida que se van
+poniendo viejas, las hermanas se van distanciando. Se pudo comprobar, con precisión de milímetros, que la distancia Tierra-Luna aumenta a razón de unos cinco
+centímetros por año. ¿Cómo lo midieron?
+Gracias a un espejo que situaron en la
+superficie lunar los tripulantes de la nave
+Apolo XI. Sobre este espejo se hace incidir un haz de láser desde un observa-
+
+torio terrestre. Midiendo el tiempo que
+tarda la luz del láser en ir y volver, se puede calcular este alejamiento. Este experimento se hace regularmente y de esta
+manera se registra cómo va cambiando
+la distancia entre la Tierra y la Luna.
+
+Temas relacionados: Gravedad: ¿Qué cae primero?, Big Bang.
+
+Cero absoluto
+
+Curiosidades de Física
+
+17
+
+Ilustra: Juan Soto
+
+18 Cero absoluto
+
+Curiosidades de Física
+
+El problema de Arquímedes
+Un científico puede tener un sinfín de motivaciones para investigar un tema en particular, pero una amenaza de muerte no es la más
+común de ellas... Cuenta la historia que en la ciudad de Siracusa, al
+sur de Sicilia (Italia), Hierón, tirano que gobernaba esta ciudad, encargó a su joyero que le fabricara una corona con el oro y la plata que él
+le había entregado. Al parecer, Hierón no confiaba mucho en su joyero, y sospechaba que había cambiado parte del oro por algún otro
+metal de menor valor. Fue así que pidió a Arquímedes -que era conocido como "el científico" de Siracusa- que encontrara la forma de comprobar si lo habían engañado, sin estropear la joya. Y le puso una
+condición: si no resolvía el problema ¡le cortaría la cabeza!
+Un día, mientras don Arquímedes tomaba un baño, encontró la
+respuesta y salió loco de contento por las calles de Siracusa al grito
+de ¡eureka! (que en griego significa «¡lo encontré!»).
+Arquímedes sabía que la corona debía tener el mismo peso que el
+oro y la plata que el rey había entregado al artista. Si el orfebre hubiera usado otro metal, aunque el peso fuese el mismo, al sumergirlo en
+un recipiente lleno de líquido rebalsaría una cantidad diferente. Esta
+es la prueba que sugirió Arquímedes para desentrañar el misterio y
+salvar su pellejo.
+También notó que al sumergir objetos en un líquido, además de
+que se rebalsaba, algunos flotaban como si una fuerza los empujara
+de abajo hacia arriba. La astucia de Arquímedes le permitió comprobar que esa fuerza, que llamó empuje, era igual al peso de todo el
+líquido desplazado.
+Sabemos que Arquímedes salvó su cabeza, pero de la vida del
+joyero ¡nadie sabe nada!.
+
+Jugando con diferentes pesos y empujes se pueden construir submarinos.
+Aunque el Río de La Plata no es el mejor
+escenario para probarlo, fue el uruguayo
+Tebaldo Ricaldoni el primero en diseñar
+un submarino en nuestro país, a fines del
+siglo XIX. Ricaldoni fue además el primer
+Director del Instituto de Física de la Universidad Nacional de La Plata.
+Fotografía de Ricaldoni con la maqueta del submarino, tomada del Archivo General de la Nación
+
+Cero absoluto
+
+Curiosidades de Física
+
+19
+
+Ilustra: Cecilia Pollini
+
+20 Cero absoluto
+
+Curiosidades de Física
+
+Efectos especiales I:
+
+El inodoro de Coriolis
+En un capítulo de Los Simpson, luego de una discusión con su
+hermana Lisa, Bart llama por cobrar a Australia para verificar si el agua
+del inodoro sale girando en el hemisferio Sur en sentido contrario que
+en el Norte. ¿De dónde sacó Lisa esta idea estrafalaria?
+La Tierra está rotando sobre su eje. Cuando saltamos, corremos o
+caminamos, no notamos los efectos de este movimiento. Sin embargo, de una forma algo sutil, la rotación de la Tierra desvía la trayectoria de los cuerpos en su movimiento. Esta desviación es pequeña,
+pero resulta más notoria en las corrientes de aire, de agua, en los
+péndulos (como por ejemplo, una bolita colgada de un hilo) y en objetos que se mueven en el aire, como los proyectiles.
+Un árbol plantado en la latitud del Ecuador está girando a miles de
+kilómetros por hora, mucho más rápido que uno que está en los trópicos, cuya velocidad será casi la mitad. Mientras tanto, en las cercanías de los polos, las cosas girarán mucho más lentamente respecto
+del eje terrestre. Tan tremendas diferencias de velocidad tienen sus
+consecuencias, y fue Gaspard Coriolis quien primero se dio cuenta. Él
+observó que la rotación desvía los objetos que se mueven en una
+dirección transversal a su movimiento. En particular, si se están moviendo horizontalmente, se desvían a la derecha de su trayectoria en
+el hemisferio Norte, y a la izquierda de la misma en el hemisferio Sur
+(atención que estamos hablando de trayectorias y no de política...).
+Las consecuencias de este fenómeno, que se denominó efecto
+Coriolis, dependen por supuesto de la latitud. Pueden verse, por ejemplo, en el movimiento de rotación de las tormentas. Los vientos viajan
+sobre la superficie terrestre desde regiones de mayor presión atmosférica hacia lugares donde la presión es menor. Si la Tierra no rotara, este
+movimiento sería directo. Pero el efecto Coriolis desvía las masas de
+aire hacia la izquierda de su trayectoria en el hemisferio Sur, haciendo
+girar los vientos en el sentido de las agujas del reloj. En el hemisferio
+Norte, los vientos son desviados hacia la derecha de su camino, y entonces giran en el sentido contrario, llamado antihorario. Y, aunque de
+forma imperceptible, lo mismo sucede con los remolinos de agua en
+los desagües. Una vez más, Lisa tenía razón.
+
+Foto: Huracán Katrina, agosto de 2005
+
+El efecto Coriolis también afecta la
+oscilación de los péndulos. Si pusiéramos
+a oscilar un péndulo en la dirección esteoeste, y la Tierra no rotase, permanecería siempre en la misma dirección. En la
+realidad, la rotación del planeta hace que
+la trayectoria del péndulo se vaya desviando continuamente hacia la izquierda
+en el hemisferio Sur y hacia la derecha
+en el Norte. Esto fue demostrado en 1851
+por León Foucault, con un péndulo de 67
+metros de altura colgado de la cúpula de
+una iglesia, en París.
+
+Cero absoluto
+
+Curiosidades de Física
+
+21
+
+Ilustra: O´KIF
+
+22 Cero absoluto
+
+Curiosidades de Física
+
+Electricidad:
+
+La rana de Galvani
+Desde las épocas de Tales de Mileto (alrededor del 600 A.C.) hubo
+muchos curiosos que se interesaron por ver qué pasaba cuando se
+frotaban dos materiales diferentes entre sí. Algo realmente notable
+ocurría cuando los materiales en cuestión eran por ejemplo ámbar y
+seda, vidrio y lana. Después de frotarlos estos materiales quedaban
+"cargados", es decir, atraían o repelían objetos pequeños (y hasta los
+pelos del que hacía la prueba). A falta de mejor nombre, se llamó
+electricidad a esta propiedad de los materiales frotados.
+En la Italia del siglo XVIII se conocían dos clases de electricidad: la
+atmosférica, que se manifestaba en las descargas de los rayos, y la
+artificial, que se lograba frotando dos materiales distintos. Para estudiar esta última, y no cansarse frotando, la gente había construido
+"frotadores mecánicos", llamados máquinas electrostáticas, y unos
+aparatos para acumular cargas conocidos como Botellas de Leyden.
+Luiggi Galvani era un médico de Bologna, muy curioso, que creía
+que existía un tercer tipo de electricidad: una electricidad animal intrínseca, que transmitía desde el cerebro a los músculos, a través de
+los nervios, las órdenes para contraerse. Para tratar de probar su teoría cortaba patas de ranas, y conectaba cables a sus nervios. Según el
+relato del propio Galvani, un día, mientras uno de sus estudiantes
+ponía en marcha una máquina electrostática que estaba sobre una
+mesa cercana, tocó con un bisturí el nervio de una pata. Inmediatamente la pata de la rana se contrajo: ¡Había sido inventado el primer
+detector de ondas electromagnéticas!. Esta vez, la casualidad estuvo
+del lado de los investigadores. Más tarde este curioso dispositivo (pata
+de rana - cable) fue usado para detectar electricidad atmosférica, como
+muestra el grabado. Parece que en Bologna eran frecuentes las tormentas eléctricas. Fue el primer indicio de que no se trataba de distintos tipos de electricidad sino de manifestaciones del mismo fenómeno.
+
+Ilustración: máquina electrostática y ranas en el laboratorio de Galvani
+
+Temas relacionados: Detectores de tormentas, Ondas electromagnéticas: Una familia con buena onda.
+
+Cero absoluto
+
+Curiosidades de Física
+
+23
+
+Ilustra: O´KIF
+
+24 Cero absoluto
+
+Curiosidades de Física
+
+Pilas contra ranas
+El descubrimiento de Galvani -que comentamos en el texto anterior- atrajo la atención de su amigo, el físico italiano Alessandro Volta,
+que había inventado el electróforo, un ingenioso instrumento para
+obtener electricidad sin frotamiento. Volta comenzó a experimentar
+con peces en los que se detectaba actividad eléctrica desarrollada
+con fines ofensivos, defensivos, o de ubicación. Observó que esta
+electricidad era generada dentro del cuerpo por una superposición
+alternada de dos tejidos diferentes, embebidos en una solución salina. Trató de reproducir el mecanismo natural y para ello realizó pruebas con diferentes materiales, apilando chapas de dos metales alternados -por ejemplo zinc y cobre- y colocando entre ellos papel humedecido en agua salada. Acercando las puntas de los cables que salían
+de los extremos de su invento, Volta logró hacer saltar chispas. Acababa de inventar la pila, que causaría una gran revolución tecnológica. El éxito de su invento se tradujo en notables aplicaciones y en un
+sinfín de honores con que Napoleón lo condecoró, aunque Volta prefería la paz de una vida sencilla... matizada con exuberantes aventuras
+amorosas, dignas de los personajes de Alejandro Dolina.
+La conclusión de Volta fue que el origen de la electricidad detectada por Galvani no estaba en la pata de la rana, sino en el cable con el
+que la conectaban, construido con dos metales soldados entre sí.
+Tanto revuelo causó la novedad de la pila, que la gente olvidó el
+estudio de la "electricidad animal".
+Sin embargo, además de las "pilas biológicas" de los peces que
+estudió Volta, existen otros mecanismos eléctricos presentes en todos los organismos. Recién treinta años más tarde se retomaron los
+experimentos de Galvani y se descubrió que, efectivamente, los procesos eléctricos son fundamentales en el funcionamiento del cerebro, los nervios y los músculos. A partir de entonces se consideró a
+Galvani como el padre de la fisiología.
+
+Detector de descargas atmosféricas de Galvani
+
+Pila de Volta
+
+Temas relacionados: Electricidad: La rana de Galvani
+
+Cero absoluto
+
+Curiosidades de Física
+
+25
+
+Ilustra: Dolores Pardo
+
+26 Cero absoluto
+
+Curiosidades de Física
+
+Detectores de tormentas
+Querido Ben,
+El motivo de esta carta es simplemente preguntarte cómo
+desconectar esas benditas campanillas que colocaste en el descanso
+de la escalera. Evidentemente funcionan como esperabas, porque hace
+días que nos afecta una terrible tormenta con muchos rayos y tus
+hermosas campanillas no han dejado de sonar y hacer chispazos.
+Seguramente pasarán varias semanas hasta que retornes de Londres,
+por lo que te pido encarecidamente ¡que me digas cómo pararlas!
+Sinceramente tuya, Deby
+Seguramente no fueron estas las palabras con las que, según cuenta la leyenda, Deborah, la esposa de Benjamin Franklin, un norteamericano que vivió por el 1800, se dirigió a su marido. Quizás este hecho
+ni siquiera sucedió. Remitámonos a lo que conocemos. Franklin había construido un dispositivo para predecir tormentas, que consistía
+simplemente en dos campanitas conectadas a un pararrayos (que también él había inventado), entre las cuales se situaba una bolita de
+bronce aislada. Él ya había comprobado, con el barrilete de algún
+pibe del barrio, que los rayos eran un fenómeno eléctrico. Las cargas
+eléctricas cercanas al pararrayos de su casa se movían hacia las campanillas, atrayendo la esfera metálica y produciendo un sonido.
+¿Cómo se generan los rayos? Así como podemos juntar cargas
+eléctricas frotando un peine contra el pelo, las capas de aire que rodean y acompañan a la Tierra, al rozarse, también acumulan electricidad. En condiciones normales, la electricidad no viaja por el aire (por
+eso no nos electrocutamos al pasar cerca de un enchufe). Sin embargo, cuando la electricidad en las nubes es muy grande, el aire se
+vuelve conductor y se produce la descarga que llamamos rayo.
+Se trata de una descarga eléctrica de millones de voltios que puede desplazarse hasta 13 kilómetros y provocar un aumento de temperatura de hasta 28.000° C.
+Los rayos de las tormentas eléctricas son una fuente energética
+que hoy día es incontrolable. Si las próximas generaciones continúan
+investigando podrían utilizarlos para obtener grandes cantidades de
+energía. Seguramente recordarán que fue gracias a nuestro amigo
+Ben, que la humanidad comenzó a transitar este camino.
+
+Temas relacionados: Electricidad: La rana de
+Galvani, Superconductividad.
+
+Detector de tormentas de Franklin
+
+Cero absoluto
+
+Curiosidades de Física
+
+27
+
+Ilustra: Manuel Rubín
+
+28 Cero absoluto
+
+Curiosidades de Física
+
+Magnetismo:
+
+La piedrita de la suerte
+Usted es chino y vive en la ciudad de Magnesia, en Grecia, más o
+menos dos mil años atrás. Va caminando muy tranquilo cuando de
+repente se le mete una piedrita en el zapato. Se la lleva a casa, porque
+le gusta, es oscura y pesada para su tamaño. Luego, descubre que
+tiene la propiedad de atraer -y ser atraída- por objetos de hierro y
+algunos otros metales. Usted bien sabe que atracción y amor van de
+la mano, de modo que bautiza al cascote como "piedra amante". ¡Felicitaciones, acaba de descubrir el imán!
+Además de la piedra en el zapato, se le ha clavado a usted la espina de la curiosidad, así que busca más de estas piedritas y hace pruebas y más pruebas. Con perseverancia china, descubre que estas piedras raras atraen siempre al hierro. También descubre que si intenta
+poner juntas las piedritas, dependiendo de cómo las acerque, se atraen
+o se repelen.. En este punto, usted deduce que las piedritas llevan las
+fuerzas del amor y del odio. En uno de los tantos experimentos, se da
+cuenta de que si deja una barra de hierro cerca de una piedra amante,
+se convierte en otro imán: lógicamente... el hierro se enamora. Sin
+dudar un minuto más, usted cambia de rubro: deja el cultivo de arroz
+y se pone una agencia matrimonial. Pero, inexplicablemente, no funciona muy bien, así que cambia nuevamente por una fábrica de imanes para la heladera. Como todavía no hay heladeras ni delivery, usted se funde. Al borde de la miseria inventa -usando el poder de las
+piedras- un método para curar el empacho... pero debe huir de Grecia
+hacia China porque es acusado de ejercicio ilegal de la medicina. Unos
+siglos después, alguien que escuchó el relato de lo sucedido, monta
+una fábrica de brújulas y se hace rico.
+Esto parece un cuento chino, y en parte lo es. Lo que sí se sabe es
+que los primeros efectos magnéticos fueron observados con fragmentos de magnetita (un mineral que contiene óxido de hierro), cerca
+de la ciudad de Magnesia, antes de la era cristiana. Los griegos pensaban que los imanes -o "piedras amantes"- estaban relacionados con
+el odio y el amor. Los chinos intentaron incluso tratar con ellos ciertas
+enfermedades. Alrededor del año 100 DC ya se sabía que podía generar por contacto la imanación del hierro. El uso de las brújulas se
+remonta por lo menos a los primeros siglos de la era cristiana.
+
+Temas relacionados: Magnetismo: No es bueno que el polo esté solo,
+El imán más grande del mundo.
+
+Cero absoluto
+
+Curiosidades de Física
+
+29
+
+Ilustra: Manuel Rubín
+
+30 Cero absoluto
+
+Curiosidades de Física
+
+Magnetismo:
+
+No es bueno que el polo
+esté solo
+Todos los imanes tienen regiones donde su magnetismo, es decir,
+su poder de atracción o repulsión, es más fuerte. Se los llama polos
+magnéticos. Hay polos de dos tipos: para distinguirlos se los suele
+llamar norte y sur, y en muchos imanes comerciales se los pinta de
+distinto color. Las reglas del juego son claras: los polos iguales se
+repelen, los polos distintos se atraen (algo parecido sucede con las
+cargas eléctricas). En general, los imanes tienen un polo de cada tipo,
+pero pueden también construirse, por ejemplo, imanes con más de
+dos polos (dos norte y un sur, por ejemplo). Lo que no se puede bajo
+ningún concepto es tener un solo polo aislado.
+¿Qué pasa si rompemos un imán por la mitad, para quitarle uno
+de los polos? En el extremo por donde lo quebramos vamos a encontrar un polo magnético igual al que acabamos de sacar... De manera
+que ahora tendremos dos imanes completos en vez de uno. Podemos seguir rompiendo el imán, y pasará lo mismo.
+¿Cómo es esto? Sucede que no se ha podido observar jamás en la
+naturaleza un polo magnético aislado. Tampoco se lo ha podido construir en el laboratorio.
+Sí se puede, en cambio, tener una carga eléctrica aislada, y esta
+diferencia impidió durante mucho tiempo que se pudiera ver una conexión entre la electricidad y el magnetismo.
+Cada tanto, en algún laboratorio parecen detectar el polo magnético solitario, llamado también monopolo, pero hasta ahora no hay
+pruebas de que esto haya ocurrido.
+
+Los efectos magnéticos son evidentes en el hierro, níquel y algunos otros
+metales, pero están presentes (aunque
+en un grado mucho menor) en todas las
+demás sustancias. En el Instituto de Física de La Plata, en los años 20, se realizaron importantes avances estudiando las propiedades magnéticas de dis-
+
+tintos materiales. Por esas épocas, el
+físico alemán Richard Gans y sus colaboradores desarrollaban sus trabajos en
+la ciudad de las diagonales, dando relevancia a la ciencia latinoamericana. En
+la actualidad existen allí laboratorios
+donde se estudia el magnetismo de las
+sustancias a bajas temperaturas.
+
+Temas relacionados: Magnetismo: La piedrita de la suerte, El imán más grande del mundo.
+
+Cero absoluto
+
+Curiosidades de Física
+
+31
+
+Ilustra: F. Sendra
+
+32 Cero absoluto
+
+Curiosidades de Física
+
+Electricidad + magnetismo
+Estos dos fenómenos se conocen desde hace más de 2000 años,
+pero recién en el año 1600 el inglés William Gilbert estudió de manera
+sistemática la electricidad y el magnetismo... y llegó a la conclusión
+de que no tenían nada que ver. Pensó que eran fenómenos distintos e
+independientes.
+Poco más de 200 años después, un físico danés llamado Christian
+Oersted observó que la aguja de una brújula se desviaba de la dirección norte-sur cuando circulaba corriente eléctrica por un cable cercano, del mismo modo que se desvía si se le acerca un imán. Esta fue la
+primera evidencia de la relación entre la electricidad y el magnetismo.
+Pocos años más tarde, otro inglés, Michael Faraday, encontró que el
+movimiento de un imán, acercándose o alejándose de un circuito de
+cables, hacía que se originara en estos una corriente eléctrica. Un
+hecho curioso es que, sin saber lo que hacía Faraday, Joseph Henry
+obtuvo en Estados Unidos los mismos resultados, al mismo tiempo.
+Entonces, moviendo un imán, aparecen corrientes eléctricas... y
+moviendo cargas eléctricas, aparece el efecto de un imán. Es decir
+que Gilbert estaba equivocado.
+Esto parece muy sencillo, pero a la humanidad le costó muchos
+cientos de años comprenderlo acabadamente. Las investigaciones
+sobre la relación entre la electricidad y el magnetismo fueron resumidas por el físico inglés James Maxwell, alrededor de 1850, en la llamada teoría del electromagnetismo, sintetizada básicamente en cuatro ecuaciones matemáticas. Esta teoría es uno de los grandes hitos
+de la Física, ya que permitió explicar y predecir una gran cantidad de
+fenómenos. También sirvió de modelo matemático para estudiar otros
+tipos de fuerzas que aparecen en la naturaleza.
+Gracias a estas ideas, hoy tenemos dínamos, turbinas hidroeléctricas, radios, radares, motores eléctricos, parlantes, telecomunicaciones y tantas otras cosas...
+
+Volviendo al monopolo magnético
+del texto anterior: gracias a Maxwell hoy
+interpretamos que el magnetismo es generado por el movimiento de partículas
+cargadas eléctricamente en los átomos
+
+de los materiales. Por eso, aunque tuviéramos un solo átomo (no se puede construir un imán más chiquito que eso), este
+tendría sus dos polos. Es decir, no es bueno que el polo esté solo... ni es posible.
+
+Temas relacionados: Magnetismo: No es bueno que el polo esté solo, La sinfonía de las máquinas
+eléctricas: Allegro con motor.
+
+Cero absoluto
+
+Curiosidades de Física
+
+33
+
+Ilustra: O´KIF
+
+34 Cero absoluto
+
+Curiosidades de Física
+
+La sinfonía de las máquinas eléctricas:
+
+Allegro con motor
+
+Para convertir electricidad en movimiento, hoy solo nos basta con
+encender la batidora. La electricidad circulará por los cables desde el
+enchufe y las paletas de la batidora se moverán. ¿Y para convertir
+movimiento en electricidad? Tenemos las dínamos y las usinas hidroeléctricas. Hoy usamos motores y generadores eléctricos. ¡Pero no
+siempre las cosas fueron tan sencillas!
+A pesar de que la electricidad era un fenómeno conocido desde
+cientos de años atrás, recién en el siglo XVII aparecieron las primeras
+máquinas para producirla. En Alemania, Otto von Guericke construyó
+en 1672 una máquina formada por una esfera de azufre movida por
+una manivela, sobre la que se generaba una carga al apoyar la mano
+sobre ella. A mediados del siglo XIX ya se habían inventado muchos
+generadores de fricción parecidos.
+Otro tipo de generadores, llamados de inducción, funcionan recogiendo cargas inducidas por la proximidad de otro objeto ya cargado.
+En el Museo de Física se pueden ver modelos de generadores de
+este tipo, como la máquina de Wimshurst, que fue inventada en 1883
+por James Wimshurst. El logotipo del Museo representa una de estas
+máquinas, llamada cariñosamente "el chispero gigante" por los docentes.
+Sin embargo, aunque los aparatos de fricción y de inducción eran
+capaces de generar voltajes muy elevados, no eran adecuados para
+producir una corriente intensa y constante. Recién a fines del siglo
+XIX, con el descubrimiento de efectos y propiedades asociados a la
+electricidad y el magnetismo, pudieron desarrollarse motores eléctricos eficientes.
+Faraday fue el primero en construir una máquina que usaba electricidad y magnetismo para producir movimiento. Con una pila, un
+recipiente con mercurio y un imán, hacía girar bobinados de cables.
+La idea de estas "rotaciones eléctricas" de Faraday todavía se usa en
+los actuales motores eléctricos.
+El primer motor capaz de realizar un trabajo útil fue inventado en
+1837 por el estadounidense Thomas Davenport.
+
+Maquina de Wimshurst
+
+Otro generador de inducción de gran
+utilidad práctica fue inventado en 1931
+por Robert Van de Graaff. En este aparato, una correa de material aislante
+transfiere carga eléctrica a una esfera
+de metal, que puede alcanzar varios
+millones de voltios. Se suele usar en
+demostraciones en el Museo y en Centros Interactivos de Ciencias para poner "los pelos de punta" a los visitantes.
+
+Temas relacionados: Electricidad + magnetismo
+
+Cero absoluto
+
+Curiosidades de Física
+
+35
+
+Ilustra: F. Sendra
+
+36 Cero absoluto
+
+Curiosidades de Física
+
+El imán más grande del mundo
+Gira sobre sí mismo, tiene forma parecida a la de una pelota aplastada, y dicen las malas lenguas que da vueltas alrededor del Sol.
+Efectivamente, el imán más grande del que disponemos es, ni
+más ni menos, nuestro planeta.
+Como todo imán que se precie de tal, la Tierra tiene polos. Lo
+siguiente parece un chiste pero no lo es: el polo magnético norte está
+actualmente cercano al sur geográfico, y el polo sur magnético, cercano al norte geográfico. ¿Qué tal?
+Pero, ¿de dónde sale el campo magnético de la Tierra? Sabemos
+que un campo magnético puede ser generado por materiales magnéticos naturales, pero también se produce por cargas eléctricas en
+movimiento.
+Estudios geológicos indican que la Tierra tiene su centro líquido, y
+que ese líquido ocupa más o menos la mitad del radio terrestre. Dentro de esta región existiría, a su vez, un núcleo interno sólido.
+Entonces, como no hay un imán gigante en el centro de la tierra
+pero sí hay algo en movimiento, hasta el más despistado buscaría por
+ese lado.
+Se cree que la región líquida está constituida de hierro fundido, posiblemente mezclado con níquel y azufre, y que está en permanente
+movimiento. Al moverse el metal fundido contra el caparazón de roca,
+aparecerían cargas eléctricas (como cuando frotamos un peine de plástico, que se carga eléctricamente y nos permite levantar pequeños papeles). Como las cargas circulan dentro de este líquido, tenemos corrientes que generan un campo magnético igual al de un imán.
+Hasta aquí está todo muy bien, pero hay algo que no se entiende:
+¡los polos se mueven! Los científicos saben que desde hace unos
+años, el polo sur magnético está desplazándose por la zona norte
+canadiense en dirección hacia el norte de Alaska. En realidad, durante
+las últimas decenas de millones de años, la polaridad magnética de la
+Tierra se invirtió varias veces: el polo norte magnético cambió su lugar por el del polo sur magnético, y viceversa. Lo sabemos porque
+cuando pasa esto, el campo magnético de la Tierra se modifica notablemente, y en las rocas quedan huellas geológicas de los cambios.
+Y esto no puede ser explicado exclusivamente con la idea de las corrientes circulantes -ni con otras que andan actualmente dando vueltas por ahí- , así que la espina de la curiosidad nos sigue desvelando.
+
+¿Cómo podemos percibir manifestaciones del campo magnético terrestre?
+Mediante una brújula, que es un pequeño imán que se orienta con el campo magnético de la Tierra, en la direc-
+
+ción de los polos. ¿Alguna otra? El Sol
+emite partículas cargadas. Éstas son
+desviadas por los polos magnéticos terrestres, y producen fenómenos como
+las auroras boreales (y australes).
+
+Temas relacionados: Magnetismo: La piedrita de la suerte, Electricidad + magnetismo.
+
+Cero absoluto
+
+Curiosidades de Física
+
+37
+
+Ilustra: O´KIF
+
+Ondas electromagnéticas:
+
+Una familia con buena onda
+¿Qué tienen en común la luz y sus colores, las emisiones de la
+radio y televisión, las microondas, los rayos X y la señal del teléfono
+celular?
+Si bien parecen cosas muy diferentes, no es así. Estos fenómenos tienen en común el hecho de que pueden ser explicados y
+comprendidos utilizando una misma idea: todos se comportan
+como ondas. Por eso forman parte de una misma y gran familia
+llamada las ondas electromagnéticas. Se necesitó mucho tiempo y
+el trabajo de muchas personas para entender esta idea y para comprender qué son estas ondas y cómo se producen.
+Pero si todos estos fenómenos tienen tanto en común, ¿por
+qué los percibimos como distintos?
+38 Cero absoluto
+
+Curiosidades de Física
+
+Una forma de pensar una onda es como energía que se propaga, que viaja sin necesidad de transportar materia. La particularidad de las ondas electromagnéticas es que pueden viajar aun en
+el espacio totalmente vacío. Otra característica de una onda es su
+frecuencia de oscilación. Esta es la propiedad que nos hace percibir a las ondas electromagnéticas como tan diferentes y que distingue a una de otra. La frecuencia de una onda es la cantidad de
+veces que esta cambia, que oscila en el tiempo, por ejemplo, por
+segundo.
+Veamos algunos ejemplos. Prendemos la radio y escuchamos:
+"FM 103.5 megahertz, la radio de mayor potencia de su dial". ¿Qué
+se está diciendo con esta frase?
+Por un lado, que esa emisora tiene una antena que emite en
+modo FM y no en modo AM; 103.5 megahertz es la frecuencia
+central de oscilación de las ondas que emite (un megahertz es
+igual a un millón de oscilaciones por segundo). Esta frecuencia
+distingue una emisora de otra. Una de las diferencias con la transmisión de AM (por ejemplo, AM 1390 kilohertz) es que la frecuencia de las ondas trasmitidas es mucho más baja (1 kilohertz es
+igual a mil oscilaciones por segundo). Si pensamos en la luz, por
+ejemplo en el color verde, su frecuencia de oscilación es muy alta,
+aproximadamente 540.000 gigahertz que es 540 millones de millones de oscilaciones por segundo y las de los rayos X son aún mucho
+más altas. Así que la luz, los rayos X y las señales de TV se diferencian
+entre sí por su frecuencia. Si ordenamos las ondas electromagnéticas
+según sus frecuencias, obtenemos lo que llamamos espectro electromagnético.
+Por otro lado, para poder captar una onda en particular necesitamos un detector capaz de registrar la frecuencia característica
+de esa onda. No existe un dispositivo que nos permita captar todas las ondas electromagnéticas simultáneamente, por eso los
+detectores son diferentes. Una radio está preparada para detectar
+ondas de radio, pero no puede detectar luz. En algunas situaciones podemos percibir ondas electromagnéticas solo con nuestros sentidos. Nuestros ojos pueden detectar luz visible; nuestro cuerpo, ondas
+infrarrojas, como calor, u ondas ultravioletas que broncean nuestra piel.
+
+Cuando uno toca la guitarra, la onda
+de sonido es generada por la vibración
+de las cuerdas. En el caso de las ondas
+electromagnéticas, ¿qué es lo que vibra? En "Electricidad + magnetismo"
+podemos encontrar alguna pista. Las
+cargas eléctricas y los polos magnéticos no necesitan tocarse para percibir
+la atracción o repulsión que les provocan sus vecinos. El espacio delata de
+alguna manera la presencia de cargas
+eléctricas y de polos magnéticos. A
+
+esta propiedad del espacio se la llama
+campo -eléctrico y magnético respectivamente-. Cuando una carga eléctrica se mueve, el campo que ella genera
+también se altera, y esa alteración -llamada onda electromagnética- se propaga en el espacio. Además, cuando
+una carga eléctrica se mueve, genera
+también un campo magnético. Entonces, respondiendo a la pregunta, lo que
+varía en este tipo de ondas son los campos electromagnéticos.
+
+Temas relacionados: Electricidad + magnetismo, Luz, rayos X, acción.
+
+Cero absoluto
+
+Curiosidades de Física
+
+39
+
+Ilustra: E. Maicas
+
+40 Cero absoluto
+
+Curiosidades de Física
+
+Luz, rayos X,, acción.
+La región de las ondas electromagnéticas que podemos percibir
+con nuestros ojos fue bautizada formalmente como "espectro visible", pero todos la conocemos por su apodo: luz.
+Es posible describir a la luz como una onda, y como toda onda,
+caracterizada por su frecuencia. Los ojos humanos registran diferentes frecuencias, que el cerebro interpreta como distintos colores. Si
+pensamos en los colores del arco iris, la región del azul-violeta corresponde a luz de mayor frecuencia que la luz anaranjada o roja. Más allá
+de estos límites se encuentran el ultravioleta y el infrarrojo, que nuestros ojos no ven pero pueden ser percibidos en cambio por otros
+animales.
+La luz visible puede atravesar algunas sustancias, como el agua o
+el vidrio, pero no nuestro cuerpo. Si queremos "ver" qué hay en su
+interior, tendremos que "iluminarlo" con otro tipo de ondas electromagnéticas: los Rayos X. Estos tienen una frecuencia de oscilación
+mucho más alta, que no es detectada por el ojo humano. Puede atravesar ciertos tejidos de nuestro cuerpo, como la piel y los músculos,
+pero no los huesos (tampoco los metales, y por eso nos hacen sacar
+cadenitas y relojes cuando nos sacan una radiografía).
+Las ondas de frecuencias muy altas suelen llamarse "radiación
+ionizante" y producen alteraciones en los seres vivos. Algunas sólo
+producen pequeños daños en las estructuras de las células, que éstas son capaces de reparar. Sin embargo, muchas veces los daños
+son irreversibles. Por eso, conviene siempre minimizar la exposición a
+este tipo de radiación y, por ejemplo, hacerse radiografías solo si es
+imprescindible. Además, las personas que trabajan con este tipo de
+ondas electromagnéticas deben recibir capacitación y protección adecuada y realizarse controles periódicos.
+
+Temas relacionados:
+Ondas electromagnéticas: Una familia con
+buena onda.
+
+Radiografía de una mano hecha en el
+Instituto de Física de La Plata
+
+Cero absoluto
+
+Circa 1908
+
+Curiosidades de Física
+
+41
+
+Ilustra: Sara Sedrán
+
+42 Cero absoluto
+
+Curiosidades de Física
+
+Hágase la luz
+¿Cómo emiten su luz las luciérnagas? Algunos materiales poseen
+la propiedad de emitir luz al recibir un estímulo. Este fenómeno es
+conocido como luminiscencia, y puede ser de dos tipos. Si la luz cesa
+cuando el material deja de ser estimulado, se llama fluorescencia y si
+se mantiene cierto tiempo después de la desaparición del estímulo,
+entonces se llama fosforescencia. Por ejemplo, los indicadores en las
+rutas están pintados con materiales fluorescentes. También los televisores, que emiten luz cuando incide sobre la pantalla, desde atrás, un
+haz de electrones. Algunos juguetes y las agujas de los despertadores se pintan con materiales fosforescentes para que puedan verse
+aun cuando apagamos la luz.
+Sabemos que se puede producir luz al calentar un material. Esta
+forma de emitir luz se denomina incandescencia y la encontramos,
+por ejemplo, en el filamento de las lámparas o las brasas al rojo del
+asado del domingo. También los gases que forman la cola de los
+cometas presentan luminiscencia, y por eso se ven tan brillantes.
+A esta altura, ya nos olvidamos de los pobres bichos de luz. El
+fenómeno por el cual emiten esa señal tan característica se suele
+llamar bioluminiscencia, y se debe a reacciones químicas que se producen en algunas de sus células, debajo de la capa de quitina que los
+recubre. Estas reacciones liberan energía que percibimos en forma
+de luz, mediante un proceso muy eficiente sin aumentar su temperatura. Por esto a la luz de las luciérnagas se la suele llamar "luz fría". La
+bioluminiscencia juega un papel importante en la defensa contra los
+enemigos predadores, y en el reconocimiento para el apareamiento.
+También poseen este mecanismo algunos hongos, bacterias, algas y
+ciertos peces de las profundidades marinas.
+
+Este es un tema de estudio en diversas disciplinas. En La Plata, el físico
+argentino Rafael Grinfeld analizó el espectro de la luz de las luciérnagas en
+
+1944, y determinó que emitían en todo
+el espectro visible, pero más intensamente en el verde.
+
+Cero absoluto
+
+Curiosidades de Física
+
+43
+
+Ilustra: E. Maicas
+
+44 Cero absoluto
+
+Curiosidades de Física
+
+Un arco iris para cada uno
+¿Por qué se meten los físicos con el arco iris? Ya lo dijo el poeta
+John Keats, en 1819, cuando le espetó a Isaac Newton que había
+despojado para siempre al arco iris de su encanto. ¿Cómo cometió
+Sir Isaac tal atropello? Mostró con un prisma que la luz blanca está
+formada por los colores del arco iris. Pero el poeta se equivocó, en
+dos cosas. Primero, en que observar, experimentar, e intentar explicar
+los fenómenos de la naturaleza, como hacía Newton, no quita belleza
+al mundo, sino que se la agrega, en forma complementaria. Además,
+aunque la ciencia occidental insiste en citar solo europeos en la historia de los avances científicos, esta vez no cantó primero Newton sino
+dos árabes (que para tranquilidad de los europeizantes vivían en la
+España mora). Se trata de Abu Alí al-Hasan ibn al-Haitzan, conocido
+como Alhazén, en el siglo X, y su paisano Kamal Farisi (cuyo nombre
+completo es mucho más largo todavía). Ellos habían propuesto que
+lo que percibimos como colores de los objetos son rayos emitidos
+por la superficie cuando recibe luz blanca. Esto es bien diferente de lo
+que pensaba Aristóteles, que decía que los colores que percibimos
+son distintas combinaciones de blanco y negro. Ahora se explica diciendo que de todos los colores que forman la luz blanca, cada superficie absorbe unos y refleja otros. Los colores que usted ve en la ropa
+que lleva puesta en este momento son justamente los que reflejan las
+telas que la forman.
+¿Y el arco iris? Aparece en el cielo, cuando pequeñas gotas de
+lluvia, como prismas celestiales, separan en colores a la luz del sol.
+Es decir que para verlo hay que mirar hacia la lluvia mientras tenemos
+el sol de espaldas (situación tan extraña que explica porqué se deja
+ver tan rara vez un arco iris).
+A veces se pueden ver dos arcos: el más bajo, más intenso, formando un ángulo de 42° con respecto a los rayos del Sol, y que tiene
+el color rojo arriba y el violeta debajo. Y otro más arriba de ése, formando un ángulo de 52°, concéntrico con el otro, más débil y con los
+colores ordenados al revés. Y atención que estos ángulos son los de
+un cono cuyo eje une el centro del arco iris y los ojos del observador.
+Habrá entonces otro arco iris (o dos) pasando por los ojos de la vecina, que también se asomó a ver el espectáculo. Ella no verá entonces
+el mismo arco iris que usted: tendrá uno propio, extendido para ella
+en un cono de 42° respecto de un eje que pasa por sus ojos. Aunque
+comenten entre sí «¡qué lindo es!», cada uno estará hablando de su
+propio arco iris. Una extraña forma de compartir...
+Dicen que en condiciones excepcionales, logradas en laboratorio,
+se han podido ver hasta tres arco iris.
+
+Temas relacionados: Ondas electromagnéticas:
+Una familia con buena onda.
+
+Esquema del arco iris.
+
+Cero absoluto
+
+Curiosidades de Física
+
+45
+
+Ilustra: Sara Sedrán
+
+46 Cero absoluto
+
+Curiosidades de Física
+
+Láser:
+
+Luz de rubí
+Corría 1960 cuando el físico Theodore Maiman, trabajando con un
+cristal de rubí, unos espejos y un flash parecido al de los fotógrafos,
+obtuvo un estrecho haz de luz de color rojo, tan potente que podía
+quemar y hasta perforar objetos: fue el primer láser que funcionó
+prácticamente.
+¿Qué es el láser? Un láser es una fuente de luz. La palabra proviene de una sigla en inglés que significa Amplificación de la Luz por
+Emisión Estimulada de Radiación. En castellano, la sigla sería ALEER
+(que es lo que hay que hacer si queremos saber más sobre el láser,
+como dice un profesor de la facultad).
+¿Y qué tiene de especial la luz del láser? Por ejemplo, que a diferencia de otras fuentes de luz, es de un único color, es decir, es
+monocromático. ¡No se puede obtener un arco iris con un rayo de luz
+de láser! Otra característica interesante es que es muy intenso, por
+eso se lo puede usar para cortar y perforar materiales como el acero.
+Y otro rasgo peculiar del láser es que es una luz muy direccional:
+mientras la luz de una linterna, por ejemplo, se "desparrama" formando un cono luminoso, se puede mandar un rayo de láser a la Luna sin
+que se ensanche demasiado.
+La idea para hacer un láser fue introducida por primera vez por
+Einstein, quien previó la posibilidad de que en ciertas condiciones los
+átomos -todos juntos y a la voz de áura- emitieran luz de una misma
+frecuencia. En este acto solidario, el efecto queda reforzado.
+
+Unos años antes de que funcionara
+el primer prototipo, el físico Charles
+Townes había dicho sobre el láser: "No
+está nada claro, ni siquiera para quienes lo investigan, que llegue a tener
+aplicaciones importantes". Hoy lo encontramos en reproductores de discos
+compactos, impresoras, radares, arma-
+
+mento bélico, instrumentos de cirugía.
+Lo usamos para soldar y agujerear metales, tomar fotografías de alta velocidad,
+medir distancias, transmitir señales...
+Hubo una extensa guerra entre varios científicos de la época por la patente del láser. Pero esa es otra historia.
+
+Temas relacionados: Un arco iris para cada uno. Ondas electromagnéticas: Una familia con
+
+buena onda.
+
+Cero absoluto
+
+Curiosidades de Física
+
+47
+
+Ilustra: O´KIF
+
+48 Cero absoluto
+
+Curiosidades de Física
+
+Efectos especiales II:
+
+Efecto Doppler
+¿Alguna vez notó que la sirena de las ambulancias suena diferente
+cuando se acerca que cuando se aleja?
+Este fenómeno ocurre siempre que una fuente emisora de ondas
+(como la sirena) y un receptor (nosotros escuchando) se encuentran
+en movimiento uno con respecto del otro. Y como suele suceder, no
+da lo mismo acercarse que alejarse.
+El sonido -como la luz- puede ser representado por ondas. Así
+como las ondas de luz de distinta frecuencia las vemos de colores
+diferentes, los sonidos de distinta frecuencia los percibimos como
+más graves o más agudos. Los sonidos agudos corresponden a frecuencias mayores mientras que los sonidos graves, a frecuencias más
+bajas.
+Volviendo a la sirena de la ambulancia... Cuando el conductor enciende la sirena pero todavía no arranca, porque está esperando que
+suba el paramédico, percibimos un determinado sonido. Luego la
+ambulancia parte, acercándose al lugar donde nos encontramos, y
+emitiendo sonido al mismo tiempo. Mientras la sirena se acerca, ella
+y el sonido viajan en la misma dirección y entonces es mayor la frecuencia con que recibimos la señal: el sonido se oirá más agudo. Una
+vez que la ambulancia pasa frente a nosotros y se aleja al rescate del
+accidentado, la sirena y el sonido viajan en direcciones opuestas. Oímos un sonido más grave, porque recibimos la onda con menor frecuencia.
+Cuando la fuente emisora de la onda supera la velocidad de la
+onda misma, se produce una "onda de choque", que se percibe como
+un sonido abrupto y de gran intensidad, como el de un trueno, el
+restallido de un látigo o el estruendo que se oye cuando un avión
+supersónico sobrepasa la velocidad del sonido.
+
+El primero en describir esta situación fue el matemático y físico austríaco Christian Doppler, a mediados
+del mil ochocientos. Las aplicaciones
+del efecto que lleva su nombre son
+
+muy diversas. Por ejemplo, se lo utiliza
+en medicina para realizar las ecografías
+de fluidos en movimiento, en astronomía
+para conocer la velocidad de diferentes
+cuerpos celestes, en radares, etc.
+
+Cero absoluto
+
+Curiosidades de Física
+
+49
+
+Ilustra: Graciela Gutiérrez Marx
+
+50 Cero absoluto
+
+Curiosidades de Física
+
+El color del mar
+Si alguien pregunta de qué color es el mar, le dirán que es azul o
+verde, pero nunca rojo o amarillo. Responder por qué predominan
+algunos colores sobre otros ocasionó, a principios del siglo XX, dolores de cabeza a más de un investigador.
+Por ejemplo, en Inglaterra, Lord Rayleigh decía que el mar es azul
+sencillamente debido al reflejo del cielo sobre la superficie del agua.
+En cambio, en la India, Raman opinaba que el fenómeno se debía a la
+dispersión de la luz solar por las moléculas de agua. Él decía que de
+todos los colores recibidos, estas moléculas prefieren la luz azul. Mientras que los demás colores siguen su camino, el azul es reemitido por
+las moléculas en múltiples direcciones. Por su parte, Ramanathan,
+inspirado por las ideas de Raman, lo atribuía a la dispersión de la luz
+del Sol en el agua, pero sobre todo a una posterior absorción -es decir
+que los demás colores no siguen su camino, sino que son absorbidos
+por las moléculas-.
+Mientras tanto, Richard Gans, en La Plata, sostenía que el mar
+debía su color a la dispersión de los rayos solares, pero también a
+cierta absorción y reflexión: las moléculas de agua absorben más el
+color rojo que el azul, y dispersan más el azul que el rojo, mientras que
+cierta proporción de la luz solar es reflejada por la superficie.
+Hoy sabemos que todos tenían algo de razón.
+La dispersión, la absorción y la reflexión de la luz solar en el agua
+son las que producen los hermosos colores del mar. No todos estos
+fenómenos participan por igual: su importancia depende de la profundidad del agua, de las características del fondo, de los materiales
+disueltos, y gracias a eso el mar presenta una gran variedad de matices. Los poetas, agradecidos.
+
+Temas relacionados: Un arco iris para cada uno, Ondas electromagnéticas: Una familia con buena onda.
+
+Cero absoluto
+
+Curiosidades de Física
+
+51
+
+Ilustra: Graciela Gutiérrez Marx
+
+52 Cero absoluto
+
+Curiosidades de Física
+
+Resonancia:
+
+Lo que importa es el ritmo
+Una botella y un vaso producen sonidos diferentes cuando los
+golpeamos con una cucharita. Es que al ser golpeados, cada uno
+vibra de distinta manera, según su tamaño y el material del que está
+hecho. Por eso es más sonoro brindar con copas de cristal que con
+vasitos de plástico, por ejemplo.
+Además, cada objeto puede vibrar de diferentes y determinadas
+formas, con distintos ritmos o frecuencias, que no son cualesquiera.
+Si al golpearlo lo hacemos con el mismo ritmo de una de esas frecuencias propias del objeto, el sonido que le corresponde va a "resonar", es decir que va a sonar más fuerte que los demás. Así logramos
+aumentar la intensidad del sonido, pero no por usar más energía, sino
+por hacerlo con el ritmo justo. Como cuando hamacamos a un chico:
+más vale darle enviones suaves en el momento justo que empujarlo
+fuerte en cualquier momento. Eso lo aprendimos el día en que pudimos hamacarnos solos. Ya lo dijo Celia Cruz: «¡Lo que importa es el
+ritmo, chico!».
+Todo esto es fundamental para los luthiers: al construir un instrumento musical, hacen la caja de resonancia de tal manera que, de
+todos los sonidos que producen las cuerdas, resuenen solamente los
+más puros, los que son más agradables a nuestros oídos.
+Aunque no lo parezca, lo mismo pasa cuando sintonizamos una
+emisora de radio: al mover el dial estamos ajustando la frecuencia
+natural de los elementos electrónicos del receptor para que coincida
+con una de las muchas señales que recibe: entonces suena fuerte la
+señal de la emisora elegida, en vez de captar muchas a la vez.
+
+Las grandes construcciones, como
+los edificios muy altos, también oscilan
+con una frecuencia característica.
+Los puentes colgantes oscilan movidos por el viento. Pero también pueden oscilar por otros motivos: si un grupo numeroso de soldados cruzara un
+puente marchando, y si los estímulos
+periódicos que generan sus pasos
+acompasados -aunque sean de poca
+intensidad- coincidieran con la frecuen-
+
+cia propia del puente, entonces la estructura "entraría en resonancia", lo que
+podría provocar su destrucción, por increíble que parezca. Por ese motivo,
+cuando la infantería cruza los puentes,
+la orden es "¡Rompan filas!"
+En 1940, el viento que impactaba
+contra la estructura del puente colgante de Tacoma Narrows, en Washington,
+Estados Unidos, provocó que entrara en
+resonancia y se destruyera.
+
+Temas relacionados: Resonancia magnética nuclear
+
+Cero absoluto
+
+Curiosidades de Física
+
+53
+
+Ilustra: O´KIF
+
+54 Cero absoluto
+
+Curiosidades de Física
+
+Resonancia magnética nuclear
+Excitación, resonancia, relajación. No estamos hablando de técnicas de yoga, sino de la Resonancia Magnética Nuclear (RMN).
+Lo que hacen los aparatos de RMN es, nada más y nada menos,
+que perturbar los núcleos que reposan tranquilamente en los confortables átomos de algún material, con el objetivo de espiar cuánto
+tardan en recuperar su estado de paz interior. Cada material recupera
+su estado original -es decir, se relaja- de manera distinta, así que...
+Dime cómo te relajas y te diré quién eres.
+De este modo se obtiene la información sobre la composición y la
+estructura del material.
+Para molestarlos, se introduce el material entre los polos de un
+imán muy poderoso, cuyo campo magnético se puede variar a voluntad. Volviendo al ejemplo de la hamaca: si sintonizamos los empujones con el ritmo natural de la hamaca, no necesitamos mucho esfuerzo para llevar al pasajero a alturas considerables. A esta amplificación
+se la conoce como resonancia.
+En la RMN, en vez de darles un empujón -cualquiera se da cuenta
+que encontrar la espalda de un núcleo atómico no es una tarea fácilse sintoniza el campo magnético del imán con el campo magnético
+propio de los núcleos. Así perturbados, la forma de protestar de los
+núcleos es emitiendo ondas de radio. Lo que se hace después es
+dejar que se relajen: el imán se apaga y se escucha la protesta radial
+hasta que los núcleos se callan.
+El tiempo que tarda la hamaca en detenerse cuando dejamos de
+empujar nos da una idea, por ejemplo, de la velocidad del viento. De un
+modo parecido, el tiempo que tardan los núcleos en volver a su estado
+inicial, proporciona información acerca de los átomos vecinos.
+Los tejidos que componen el cuerpo humano tienen moléculas de
+agua, a su vez compuestas por átomos de oxígeno e hidrógeno. Aplicando la RMN a los núcleos de los átomos de hidrógeno se pueden
+detectar enfermedades y estados anormales de los tejidos.
+También se usa esta técnica para explorar perforaciones en la corteza terrestre en busca de petróleo.
+
+Por sugerencia de Richard Gans -tercer director del Instituto de Física de La
+Plata- en 1950, se iniciaron experimentos para detectar la resonancia magné-
+
+tica nuclear. Así, en este lugar, se logró
+aplicar la técnica de RMN por primera
+vez en el país, mediante un equipo especialmente construido.
+
+Temas relacionados: Resonancia: Lo que importa es el ritmo.
+
+Cero absoluto
+
+Curiosidades de Física
+
+55
+
+Ilustra: O´KIF
+
+56 Cero absoluto
+
+Curiosidades de Física
+
+¿Qué es lo más pequeño que
+existe en el Universo?
+¿Una pulga? ¿Un granito de arena? ¿Qué tiene adentro ese granito
+de arena? Desde siempre, el hombre se hizo estas preguntas.
+Empédocles, poeta, científico y estadista griego, por el año 400 AC,
+creía que toda la materia se formaba a partir de cuatro elementos:
+tierra, agua, aire y fuego. Poco más tarde, Demócrito propuso que la
+materia estaba formada por partículas pequeñas, lo más pequeño que
+uno podría imaginar. Llamó átomo a esas partículas, porque esa palabra griega significa indivisible, tal como él pensaba que eran. Las ideas
+sobre la composición de la materia fueron cambiando, pero el nombre de átomo quedó para siempre.
+Hace alrededor de 100 años, distintos experimentos sugirieron que
+el átomo está formado por partículas aún más pequeñas: protones,
+neutrones y electrones. Los neutrones deben su nombre al hecho de
+ser eléctricamente neutros: no tienen carga eléctrica. En cambio, sí la
+tienen los protones y los electrones, cada uno con cargas opuestas.
+Por convención, se llama carga eléctrica negativa a la de los electrones, y positiva a la de los protones. En forma similar a lo que sucede
+con los polos magnéticos, las cargas eléctricas sienten atracción por
+las cargas opuestas y repulsión por sus similares.
+Entonces, ¿estas partículas son lo más pequeño del Universo?
+¡Tampoco! Hace solo unos años se encontró que los neutrones y los
+protones están formados por otras partículas: los quarks. ¿Serán éstas las partículas más pequeñas? No lo sabemos: así como el átomo,
+que una vez fue considerado indivisible, se nos reveló después como
+un universo en miniatura, tal vez ocurra lo mismo con los quarks, como
+en una infinita colección de muñecas rusas.
+Para que tengamos una idea del tamaño de los átomos, supongamos que aumentamos un millón de veces el tamaño de todo lo que
+conocemos: un alfiler tendría veinticinco kilómetros de largo, un cabello humano tendría cien metros de grosor, y un átomo tendría el
+tamaño del punto final de este párrafo.
+
+En el interior del átomo hay un núcleo formado por protones y neutrones.
+Alrededor de él existe una nube de electrones. Estos electrones son tan pequeños y están tan alejados del núcleo, que
+la mayor parte del átomo... ¡está vacío! Haciendo una comparación a escala, podríamos decir que si el átomo
+fuera del tamaño de un estadio de fútbol, el núcleo tendría el tamaño de un
+
+poroto en el centro de la cancha y el
+electrón se movería recorriendo la última de las tribunas. Pero entonces, si
+los átomos están tan vacíos, ¿qué es lo
+que sentimos cuando tocamos algo? Lo
+que palpamos es el efecto de la fuerza
+electromagnética con que interactúan
+los átomos de nuestra piel con los átomos de lo que estamos tocando.
+
+Temas relacionados: Recetas para preparar átomos; Energía nuclear: Átomos que nos iluminan
+
+Cero absoluto
+
+Curiosidades de Física
+
+57
+
+Ilustra: Daniel Sergnese
+
+58 Cero absoluto
+
+Curiosidades de Física
+
+Recetas para preparar
+átomos
+Los ingredientes de los átomos son los protones, los neutrones y
+los electrones. Si los combinamos, se generan los átomos de todos los
+elementos químicos que aparecen en la Naturaleza (y algunos más,
+creados por el hombre). El químico ruso Dimitri Mendeleiev, hace unos
+130 años, organizó los distintos elementos -un poco más que 100- en lo
+que hoy se conoce como "Tabla Periódica de los Elementos", donde
+están ordenados según sus propiedades físicas y químicas. En esta
+clasificación, lo que determina esas propiedades y el nombre de cada
+uno, es el número de protones que tienen sus átomos.
+Supongamos ahora que queremos preparar átomos. Por ejemplo,
+de Hierro. El primer paso de esta receta es fijarse en la Tabla Periódica
+qué cantidad de protones, electrones y neutrones necesitaremos. La
+Tabla Periódica dice que será Hierro si tiene 26 protones.
+Como los elementos son eléctricamente neutros, la cantidad de electrones tiene que ser la misma que la cantidad de protones, ya que estas
+dos clases de partículas poseen cargas eléctricas opuestas. Así que en
+esta receta necesitaremos también 26 electrones.
+¿Y cuántos neutrones ponemos? Tal vez esto no sea tan sencillo.
+Como sucede cuando cocinamos guiso, no es lo mismo agregar a la
+olla un puñado más de arroz que uno de sal. Aunque parezca extraño,
+los átomos de un mismo elemento, no siempre tienen el mismo número de neutrones. La Tabla dice que podemos preparar Hierro natural con
+54, 56, 57 o 58 componentes en el núcleo, llamados en general
+nucleones. Esto mismo puede suceder con cualquier otro elemento. A
+las diferentes variedades posibles de un mismo elemento se las llama
+isótopos. En el caso del Hierro, los 26 protones del núcleo pueden estar
+acompañados por 28, 30, 31 ó 32 neutrones.
+Ahora bien, como nos pasa en la cocina, no todas las combinaciones de protones con nucleones son de la misma calidad. Hay algunas
+que son las preferidas por la naturaleza. Aunque el hierro tiene cuatro
+isótopos naturales, la variedad más abundante es la que tiene 56
+nucleones. Cuando un átomo tiene nucleones de más o de menos con
+respecto a estas variedades predilectas puede ser inestable o radioactivo.
+Esto quiere decir que luego de cierto tiempo, en forma espontánea, se
+pueden convertir en una cosa diferente (por eso al cocinar hay que tener cuidado con los nucleones, corremos el riesgo de estar cocinando
+una torta ¡y que nos salga un pan!). El hierro tiene además tres isótopos
+artificiales. Estas variedades sintéticas del hierro tienen 55, 59 y 60
+nucleones, respectivamente, y son muy inestables.
+¿Cómo hace el átomo inestable de
+un elemento para transformarse en un
+átomo de un elemento distinto? Tiene
+básicamente tres formas de mutar de un
+elemento a otro -llamadas desintegración alfa, beta y gama- y escoge una u
+otra dependiendo del peso del átomo y
+
+de si le sobran o le faltan neutrones. Los
+tiempos en que decaen pueden ser muy
+diferentes: el elemento llamado carbono
+15 tarda unos pocos segundos en convertirse en nitrógeno 15, mientras que el
+uranio 238 demora miles de millones de
+años en transformarse en torio 234.
+
+Temas relacionados: Energía nuclear: Átomos que nos iluminan, ¿Qué es lo más pequeño que existe
+en el Universo?
+
+Cero absoluto
+
+Curiosidades de Física
+
+59
+
+Ilustra: O´KIF
+
+60 Cero absoluto
+
+Curiosidades de Física
+
+Energía Nuclear:
+
+Átomos que nos iluminan
+La energía de algunos átomos alcanza para iluminar una ciudad.
+¿Cómo es posible obtener tanta energía de una cosa tan pequeña
+como un átomo?
+En el núcleo de cada átomo hay protones y neutrones. Los protones
+tienden a alejarse unos de otros, repelidos por la fuerza eléctrica. Entonces, ¿cómo se mantienen unidos en el núcleo? Por medio de otra
+fuerza, llamada fuerza nuclear. Si no existiera, los protones, y con ellos
+toda la materia, se convertirían en un inmenso mar de partículas sueltas. Los protones saldrían disparados alejándose unos de otros a altísimas velocidades, llevando consigo muchísima energía.
+Aunque no es fácil separar el núcleo, si se logra, los protones y los
+neutrones que escapan pueden chocar con los núcleos vecinos y dividirlos, produciendo así una reacción en cadena. Imaginen cuanta
+energía tendríamos si se dividen millones de átomos a la vez: ¡podríamos iluminar todo el planeta! O calentar toneladas de agua, o hacer
+funcionar cientos de máquinas.
+En las centrales nucleares, se produce la ruptura y separación de
+átomos de uranio, procesos que liberan energía. Esta energía es utilizada para calentar agua, luego, el vapor que se produce mueve una
+turbina, la cual a su vez genera electricidad. Y esta electricidad es la
+que llega a nuestras casas.
+La energía de los átomos puede usarse para la guerra y la paz: en
+la explosión de una bomba atómica ocurren los mismos procesos
+que en una central nuclear. Aun cuando se use para la paz, esta energía debe manejarse con cuidado, porque genera residuos radioactivos que requieren un tratamiento especial para no contaminar el ambiente.
+En los reactores nucleares se produce energía eléctrica a partir de
+una reacción nuclear controlada. Si se pierde el control sobre la reacción, un sistema automático permite detenerla muy rápidamente introduciendo barras de metal, que frenan el proceso. Si eso no funciona, hay otro sistema de corte que consiste en la inyección de un ácido que absorbe rápidamente la emisión de los núcleos y detiene la
+reacción. Así se garantiza, frente a una emergencia, que el reactor se
+apague automáticamente.
+
+En 1950, se creó en Argentina la
+Comisión Nacional de Energía Atómica
+(CNEA). Este organismo se encarga del
+control y la supervisión de los usos de
+materiales radioactivos. La CNEA también es responsable del funcionamiento y mantenimiento de las tres centrales nucleares para la producción de
+energía eléctrica que funcionan hoy en
+
+nuestro país: Atucha I, Atucha II (en la
+provincia de Buenos Aires) y Embalse
+Río Tercero (en la provincia de Córdoba). Además existen en nuestro país los
+reactores RA3 y RA6, que son utilizados con fines de investigación y producción de materiales radioactivos para la
+medicina y la industria.
+
+Temas relacionados: ¿Qué es lo más pequeño que existe en el Universo?, Recetas para preparar
+átomos.
+
+Cero absoluto
+
+Curiosidades de Física
+
+61
+
+Ilustra: Pablo David
+
+La edad de piedra, La edad de bronce,
+La edad de hierro…
+
+¿La edad de los materiales?
+A través de la historia es posible observar la importancia que los
+materiales han tenido en la vida del hombre. Su relevancia es tal que
+períodos enteros son denominados por los materiales que se usaban: la Edad de Piedra (hasta 2000 AC), la Edad de Bronce (2000-700
+AC), y la Edad de Hierro (700 AC - 100 DC). Si bien los hombres primitivos aprovecharon los materiales tal como los hallaban en la naturaleza, éstos fueron rápidamente modificados y adaptados a sus necesidades. Así aprendieron que el fuego podía convertir arcilla en cerá62 Cero absoluto
+
+Curiosidades de Física
+
+La página del especialista
+Por Leonardo Errico
+
+mica, minerales en metales, arena en vidrio. Observaron que el hierro,
+al ser calentado y luego rápidamente enfriado, aumentaba su dureza
+(estrategia que es usada hoy para hacer aleaciones de aluminio de
+gran resistencia). A lo largo de los siglos se desarrolló un variado conjunto de materiales que permitieron fabricar utensilios, decoraciones,
+herramientas y armas.
+Durante siglos, el desarrollo de la ciencia de materiales fue muy
+lento. Recién en el siglo XVII, Robert Boyle concibió el moderno concepto de elementos químicos. Hacia finales del siglo XIX, gracias al
+descubrimiento de los Rayos X por Wilhem Roentgen y, posteriormente, a las aplicaciones realizadas por Von Laue y Bragg entre 1912
+y 1915 sobre la estructura cristalina, la Ciencia de Materiales se consolidó como tal. A partir de la Segunda Guerra Mundial, aumentaron
+las exigencias de la Ingeniería Mecánica, Eléctrica, Electrónica y Nuclear sobre los materiales tradicionales. Solo materiales de alta tecnología pudieron cumplir con los nuevos requisitos. Es así como a
+partir de la segunda mitad del siglo XX se observa un desarrollo impresionante de los materiales: cerámicos, metálicos, semiconductores,
+polímeros y materiales compuestos. Y la tecnología actual -de los
+ordenadores, del láser, de los motores a reacción y las sondas espaciales- se basa en la Ciencia de los Materiales. Y cada vez les exigimos más propiedades: resistencia ante esfuerzos mecánicos, ligereza, nuevas propiedades eléctricas, ópticas, magnéticas, etc. Los siguientes son algunos ejemplos de las aplicaciones logradas.
+• El empleo de luz en la tecnología de las comunicaciones requiere de materiales nuevos, muy transparentes, que transmitan
+eficientemente la luz, por ejemplo por medio de fibras flexibles (fibras
+ópticas). También fueron desarrolladas nuevas fuentes de luz: por ejemplo los fotodiodos, más fiables y eficientes en el consumo de energía
+que las lámparas de filamento, y también algunos láseres más pequeños y baratos.
+• La revolución que se está gestando en la biotecnología implica
+la creación de nuevos materiales que ayudarán a prolongar y mejorar
+la calidad de vida: cementos de cerámica para la reparación de huesos, "andamios" de polímeros para el crecimiento de células, ingeniería de tejidos para crear órganos de reemplazo.
+• La industria informática está basada, esencialmente, en un solo
+material: el silicio. Sin embargo la tecnología de los ordenadores avanza
+a través del desarrollo de materiales. Materiales magnéticos especiales pueden conducir a discos duros tan pequeños que podrían ser
+usados para fabricar teléfonos móviles con memorias del orden de
+gigabytes (¡mil millones de bytes!) o computadoras cientos de veces
+más veloces que las actuales.
+
+Leo Errico
+
+Leo es Doctor en Física y estudia las propiedades electrónicas,
+estructurales y magnéticas de materiales semiconductores en el
+LENIH (Laboratorio de Espectroscopia Nuclear e Interacciones
+Hiperfinas) de la Universidad Nacional de La Plata.
+
+Cero absoluto
+
+Curiosidades de Física
+
+63
+
+Ilustra: O´KIF
+
+64 Cero absoluto
+
+Curiosidades de Física
+
+Nanopartículas:
+
+Pastillas de chiquitolina
+Imaginemos una cancha de fútbol. Ahora imaginemos un tomate
+en el césped. Si la cancha se achicara hasta tener el grosor de un
+cabello humano, entonces el tamaño del tomate nos daría una idea
+del tamaño de una nanopartícula. Diez mil veces menor que una célula, ¡que ya es una cosa bastante chica!
+¿Por qué nano? Es un prefijo usado para referirse a una unidad, el
+nanómetro, que es la mil millonésima parte de un metro.
+Manipulando estas nanopartículas, pueden crearse algunos materiales con propiedades llamativas, que no se pueden predecir a partir
+de los mismos materiales obtenidos a escala normal.
+Los nanomateriales tienen aplicaciones muy variadas en dispositivos
+novedosos, por ejemplo, se los usa para guardar y procesar alta densidad de información, o en la construcción de imanes permanentes.
+Una aplicación muy interesante es el uso de nanopartículas magnéticas como obreras especializadas, para realizar tareas específicas.
+Por ejemplo, se pueden recubrir con distintas sustancias, y usarse
+como medio de transporte de compuestos químicos. ¡Sería como
+envolver el tomate con una carta de saludo para el árbitro! Como son
+pequeños imanes, para enviarlas a hacer su trabajo y para traerlas
+luego de regreso se utilizan campos magnéticos.
+Este servicio de mensajería se puede usar en medicina (cubiertas
+con medicación, las partículas actúan sobre tumores sin afectar tejidos sanos), en estudios biológicos (se las recubre con una especie
+de plastilina y se las manda a tomar moldes de las secuencias de
+ADN) y tratamiento de residuos peligrosos (recubiertas con una capa
+pegajosa, se las envía a juntar sustancias dañinas, por ejemplo, en un
+derrame).
+Tantas son las posibles aplicaciones de estas nanopartículas, que
+en los últimos años las investigaciones en estos temas han tomado
+nombre propio: Nanociencia y Nanotecnología.
+
+En los últimos años y en todo el
+mundo, se han hecho fuertes inversiones para impulsar estas disciplinas. En
+la Argentina se está consolidando la
+Red de Nanociencia que agrupa investigadores de todo el país. Sin embar-
+
+go, en la comunidad científica, existe
+hoy una discusión acerca de las posibilidades y conveniencia de nuestro país
+para sumarse a la carrera por los nuevos materiales y tecnologías.
+
+Temas relacionados: Nanociencia y nanotecnología.
+
+Cero absoluto
+
+Curiosidades de Física
+
+65
+
+Ilustra: O´KIF
+
+66 Cero absoluto
+
+Curiosidades de Física
+
+La página del especialista
+Por Félix G. Requejo
+
+Nanociencia y nanotecnología
+La Nanociencia es la ciencia de lo extremadamente pequeño y se
+dedica a estudiar la naturaleza a escala de la millonésima parte de un
+milímetro. La Nanotecnología se encarga de la manipulación de la
+materia a la misma escala, utilizando los conocimientos que le provee
+la Nanociencia. Se trata de un área interdisciplinaria entre la Física, la
+Química, la Biología y la Ingeniería.
+¿Por qué se estudian cosas tan pequeñas? A escalas muy pequeñas (nanométricas*), la materia puede comportarse de una manera
+diferente a la que estamos acostumbrados en nuestra escala habitual
+de metros. Así por ejemplo, al alcanzar dimensiones nanométricas,
+un material puede cambiar su color, sus propiedades mecánicas, electrónicas, físico-químicas o magnéticas.
+Una fantasía de todos aquellos que trabajan en Nanociencia y
+Nanotecnología es poder "reconstruir" la naturaleza átomo por átomo,
+comenzando por lo más pequeño, para tratar de obtener materiales o
+herramientas con propiedades y características especiales que nos
+permitan tener un mundo más confortable, una mejor economía o un
+sistema de salud perfecto, entre otras ambiciones. La naturaleza nos
+ofrece una nueva oportunidad al mostrarnos que puede ser diferente
+si la miramos muy de cerca, y que si sabemos analizarla y manipularla
+podríamos adaptar sus características convenientemente para nuestros intereses.
+Veamos algunos ejemplos de aplicaciones de las nanotecnologías.
+Pequeñas partículas de pocos átomos de tamaño, pueden ser ubicadas
+en el interior de pequeñas cavidades y funcionar como una "nanofábrica"
+de productos químicos. De esta manera, ganan en eficiencia para la
+obtención de productos de interés con un daño mínimo o nulo para el
+medio ambiente. Los materiales logran volverse inteligentes y ser
+opacos o transparentes cuando las diferentes necesidades lo requieran. Podríamos seguir enumerando ejemplos concretos, muchos de
+los cuales son más que meras especulaciones filosóficas, de enorme
+aplicación y utilidad en diversos campos, como el de la medicina, la
+industria, las comunicaciones o el medio ambiente.
+
+Félix G. Requejo
+
+Félix Requejo es Doctor en Física y trabaja en Ciencia de Superficies y Nanopartículas, en el INIFTA (Instituto de Investigaciones
+Fisicoquímicas Teóricas y Aplicadas), que depende de la Universidad Nacional de La Plata.
+
+* Nanometro (nm) = 10-9m, es decir nueve ceros y un 1 a la derecha de la coma: 0,0000000001.
+
+Cero absoluto
+
+Curiosidades de Física
+
+67
+
+Ilustra: Mónica Gutiérrez
+
+68 Cero absoluto
+
+Curiosidades de Física
+
+Superconductividad
+Cuando los elásticos se ponen viejos, dejan de apretar y entonces
+la ropa amenaza con caerse. ¿Alguna vez cambiaron el elástico de un
+pantalón? Cuesta trabajo conducirlo por dentro del dobladillo. El elástico no corre solo fácilmente, porque el pantalón se resiste a dejarlo
+pasar, y hay que tirar constantemente de un extremo para que se mueva
+contra la tela. ¡La "conductividad" de nuestro pantalón es muy baja!
+Para generar una corriente eléctrica hay que poner cargas en movimiento. Al moverlas por un cable pasa algo parecido al caso del
+elástico: hay que "tirar" de ellas. La forma de hacerlo es aplicar un
+campo eléctrico. Si dejamos de aplicarlo, las cargas finalmente se
+paran: el material del cable opone una resistencia.
+¿Se puede hacer algo para facilitar la conducción? En los metales,
+como los cables, esta resistencia es menor cuando la temperatura
+disminuye. Esto no pasa con los elásticos de la ropa, así que ¡es inútil
+meter el pantalón en la heladera! Sin embargo, no se puede seguir
+achicando la resistencia todo lo que se quiera. Por debajo de cierta
+temperatura, ya no baja más.
+Pero hay un grupo de materiales que se comportan de una forma
+muy curiosa: si los enfriamos hasta una dada temperatura, la resistencia al paso de corriente eléctrica desaparece por completo. Estos
+materiales se llaman superconductores.
+En este estado, una vez establecida una corriente eléctrica, por
+ejemplo en un anillo de material superconductor, las cargas seguirán
+moviéndose por sí mismas, sin necesidad de un campo eléctrico que
+tire de ellas. ¡Una corriente perpetua!
+Claro que ya lo dice el dicho: "el que quiere celeste, que le cueste".
+Hay que pagar un precio altísimo para conseguir la superconductividad:
+tenemos que bajar la temperatura del material hasta cerca de cero absoluto: ¡casi 273 grados bajo cero!
+La superconductividad tiene muchas aplicaciones. Por ejemplo, la
+generación de campos magnéticos intensos, la fabricación de cables
+de conducción de energía eléctrica y la electrónica. ¿Cuáles son las
+ventajas? Los campos magnéticos muy intensos permiten la fabricación de sistemas de transporte masivo levitados: trenes que flotan
+sobre sus rieles evitando así la fricción con ellos, alcanzando velocidades altísimas. Los cables superconductores nos permitirían transmitir energía eléctrica desde los centros de producción (como represas o reactores nucleares) hasta los centros de consumo, sin pérdidas de ningún tipo en el trayecto. En el campo de la electrónica, la
+superconductividad nos daría la posibilidad de fabricar
+supercomputadoras extremadamente veloces.
+
+El estudio de la superconductividad
+se remonta a la segunda década del
+siglo XX, y está íntimamente ligado a
+la obtención de muy bajas temperatu-
+
+ras, cercanas al cero absoluto, -273 ºC.
+Fue el holandés H. K. Onnes quien habló de ella por primera vez, dejando
+helada a la audiencia.
+
+Temas relacionados: Electricidad + magnetismo, ¿Qué tiene de absoluto el cero absoluto?
+
+Cero absoluto
+
+Curiosidades de Física
+
+69
+
+Ilustra: Dolores Pardo
+
+70 Cero absoluto
+
+Curiosidades de Física
+
+¿Cristales o líquidos?
+Para la mayoría de la gente, la palabra cristal evoca una superficie
+pulida, rígida, transparente y frágil. Por el contrario, un líquido es una
+sustancia que fluye, blanda, de movimientos libres. ¿Qué es entonces esa cosa llamada cristal líquido?
+Si pudiéramos observarlas de cerca, veríamos que las moléculas
+del cristal forman "edificios" ordenados, y aunque cada una tiene cierta libertad de movimiento, no puede circular por todo el edificio. En
+un líquido, las moléculas no tienen domicilio fijo ni forman estructuras importantes, sino que deambulan más o menos libremente, asociándose circunstancialmente con otros compañeros de viaje (sin
+participar a nadie de ese enlace). En la compleja sociedad molecular
+existe otra forma de vincularse, no tan extrema como las anteriores,
+en que libertad y vínculos estables pueden coexistir. Sin entrar en
+comparaciones con la sociedad humana, digamos que en los cristales líquidos las moléculas adoptan un nuevo estado, en el que no
+necesitan tener un domicilio fijo, pero tampoco pueden andar de aquí
+para allá, cambiando de enlace a cada rato. Es decir, un cristal líquido
+no es un sólido cristalino, ni un líquido: si lo tocáramos, se parecería
+a la mezcla pegajosa que queda en el fondo de la jabonera.
+Las moléculas de un cristal líquido tienen una forma similar a una
+barrita, y aunque no tienen una posición rígida, sí mantienen una cierta dirección, parecida a la de sus vecinas, como si fueran lombrices
+en lenta procesión. En realidad, quien las orienta hacia esa dirección
+preferida no es ningún objetivo comunitario, sino la presencia de algún estímulo externo. Éste puede ser un campo eléctrico, que aprovecha que las cargas eléctricas no están distribuidas en forma simétrica en la molécula, para tironearla en la dirección del campo. Así es
+como funcionan las pantallas de las calculadoras y las computadoras
+portátiles de pantallas planas. Otra forma de acomodar a las moléculas-lombrices es haciendo presión sobre la superficie que recubre al
+cristal, que es lo que hacemos cuando elegimos opciones tocando la
+pantalla del cajero automático.
+
+Al principio los llamaron cristales.
+Después emulsiones. Desde la Universidad Nacional de La Plata don Emil
+Bose, en 1909, se aventuró a decir que
+eran "líquidos anisótropos", es decir, líquidos con propiedades diferentes en
+distintas direcciones. Y además mostró que estas sustancias, que a veces
+
+aparecen turbias, dejan pasar la luz
+cuando se pone un campo magnético
+en la misma dirección desde la que se
+los ilumina. Es decir que podemos cambiar su transparencia simplemente acercándole un imán. Cosas veredes que
+non creyeres, Sancho.
+
+Temas relacionados: Ondas electromagnéticas: Una familia con buena onda.
+
+Cero absoluto
+
+Curiosidades de Física
+
+71
+
+Ilustra: Santiago Poggio
+
+72 Cero absoluto
+
+Curiosidades de Física
+
+¿Qué tiene de absoluto el cero
+absoluto?
+¿Qué creería usted si le dijeran que la hoja del libro que está leyendo en este momento está moviéndose en forma alocada todo el tiempo? Probablemente, que su interlocutor está loco...
+Pero si pudiera espiar de cerca las partículas que componen el
+libro, cambiaría seguramente de opinión.
+¿Por qué decimos esto? El libro, la hoja y todas las cosas no vivas
+que nos rodean, se encuentran a una temperatura que debe ser bastante parecida (si no igual) a la del ambiente. La temperatura de un
+cuerpo tiene íntima relación con el movimiento de los átomos y moléculas que lo componen: mientras más se mueven, más alta es la
+temperatura y viceversa. Si quisiéramos que se tranquilicen, podríamos, por ejemplo, meter el libro en la heladera y dejarlo allí...
+¿Ya lo sacó? Entonces continuemos: si quisiéramos que se aquieten aún más, podríamos ponerlo en un freezer y así podríamos seguir
+bajando la temperatura con artefactos adecuados, pero ¿hasta cuánto? Es de esperar que en algún momento se inmovilicen por completo,
+y entonces ya no tendría sentido hablar de bajar más la temperatura.
+Los científicos creyeron en algún momento que esto era así, y
+entre cuentas y experimentos concluyeron que la temperatura a la
+que todo se detiene es de aproximadamente 273 grados centígrados
+bajo cero. A esa temperatura se la llamó "cero absoluto" ¿Por qué?
+Pensemos en la escala Celsius, que es la que tienen los termómetros
+que utilizamos habitualmente (con la que se mide la temperatura
+ambiente, la corporal, etc.). En ella, el cero es la temperatura a la que
+el agua se hace hielo (a presión atmosférica). Esto fue elegido así por
+comodidad, en forma arbitraria. Podría haberse elegido como cero la
+temperatura corporal normal del hombre o cualquier otra. En cambio,
+los 273 grados bajo cero tienen un significado "más profundo" porque
+se creía que TODO allí se detenía: el movimiento de las partículas de
+agua, de mercurio, de acero, etc.
+¿Por qué decimos que "se creía" que esto era así?, ¿qué es lo que
+se cree actualmente?
+Lo cierto es que el hombre no ha llegado aún a bajar la temperatura de un objeto hasta el mismísimo "cero absoluto", así que eso de la
+"detención de todo" es hasta ahora una teoría, y tiene sentido pensada desde la física clásica. Según la mecánica cuántica, en cambio, el
+movimiento térmico no puede detenerse nunca. Y eso se refleja en la
+práctica: a temperaturas de casi cero absoluto, las cosas no se comportan del modo en que esperaríamos, porque pueden observarse
+fenómenos muy extraños, como por ejemplo la superconductividad y
+la superfluidez (imaginen un fluido que no puede contenerse en un
+recipiente porque trepa las paredes del mismo, aun en contra de la
+fuerza de gravedad, ¡y se escapa!).
+
+Temas relacionados: Superconductividad, Mecánica cuántica: Heladeras y hornos.
+
+Cero absoluto
+
+Curiosidades de Física
+
+73
+
+Ilustra: Juan Soto
+
+74 Cero absoluto
+
+Curiosidades de Física
+
+¿Por qué un astronauta no
+debe sacarse el traje en el
+espacio?
+Una de las razones, tal vez la más obvia, es que en el espacio no
+hay aire para que el astronauta pueda respirar. Pero hay muchas otras.
+En la Tierra el cuerpo humano está acostumbrado a una presión
+altísima: la atmosférica, (que equivale al peso de una masa de un
+kilogramo en un centímetro cuadrado de superficie). Sin ella, los líquidos que circulan por nuestro cuerpo saldrían al exterior dejándonos
+deshidratados (esta presión se debe al peso del aire que está sobre
+nosotros, hasta una altura de casi doce kilómetros). Esto es lo que le
+pasaría al astronauta en el espacio, si no llevara traje especial.
+Además, las temperaturas fuera de la atmósfera terrestre son extremas: en la Luna durante el día hace unos 127 °C y, a la noche, unos
+137 °C bajo cero. En la Tierra esto no sucede porque la atmósfera
+regula la temperatura del planeta. Para contrarrestar las bajas temperaturas, se le podría ocurrir al astronauta usar su encendedor. Pero
+para prender fuego necesitamos combustible, alta temperatura y oxígeno, y esto último también está ausente en el espacio.
+Por otro lado, el traje espacial protege al astronauta del viento
+solar: partículas emitidas desde el Sol como consecuencia de las reacciones nucleares que se producen en su interior. Si alcanzaran al
+astronauta podrían destruir células de su cuerpo.
+Y por último, el traje lo mantiene en contacto con la nave en dos
+sentidos: si el astronauta salta de la nave, al no haber nada que ofrezca resistencia a su movimiento, seguiría moviéndose eternamente (o
+al menos hasta que algo lo desvíe) en la dirección de su salto, viéndose imposibilitado de regresar. Por eso es que se encuentra "atado" a la
+nave. Además, en el traje lleva equipos de radio para comunicarse a
+distancia con sus colegas de la nave, ya que en el vacío el sonido no
+se propaga y las ondas de radio sí.
+
+Cero absoluto
+
+Curiosidades de Física
+
+75
+
+Ilustra: Julieta Lloret
+
+76 Cero absoluto
+
+Curiosidades de Física
+
+Rayos cósmicos:
+
+Lluvia de estrellas
+En realidad, no se trata de una lluvia de estrellas, sino de una lluvia
+desde las estrellas. Ocurre que, desde algunos lugares del espacio,
+llegan a la Tierra partículas cósmicas, que alcanzan a las moléculas de
+la atmósfera. Como resultado de estos "choques" se producen otras
+partículas, que a su vez interactúan con otras, y otras y otras. Se produce así una cascada de partículas, llamada lluvia cósmica, y que
+alcanza a cada uno de nosotros con un promedio de ¡4000 partículas
+por minuto!. ¿Por qué no nos dimos cuenta? Porque no las vemos, ni
+las sentimos: pasan a través de nuestro cuerpo sin alterar los tejidos.
+Casi todos los rayos cósmicos son núcleos de hidrógeno. Además
+hay núcleos de helio y hierro, electrones, fotones y otras partículas
+llamadas neutrinos. Se mueven a velocidades cercanas a las de la luz,
+por lo que tienen muchísima energía: algunos miles de veces superior
+a las energías alcanzables con la tecnología actual. Aunque no se conoce con exactitud su origen, parecen provenir de las tormentas solares, de explosiones de supernovas y otras fuentes, no identificadas
+aún, dentro de nuestra galaxia, y desde más lejos también.
+El estudio de los rayos cósmicos es interesante por tratarse de un
+fenómeno muy particular, pero además fue fundamental para entender lo que pasa en el interior del núcleo atómico. Hoy los rayos cósmicos permiten estudiar el comportamiento de la Naturaleza a esas
+altas energías, que el hombre no puede obtener artificialmente. Entonces, estudiarlos es como utilizar al mismo Universo como laboratorio; y como si esto fuera poco, nos proporciona pistas acerca de las
+primeras fases luego del Big Bang.
+¿Cómo estudian los físicos este fenómeno? Capturando las partículas en detectores, donde queda registrada su velocidad, la dirección en que se mueven, y su identidad. Después, los datos son procesados en computadoras, y analizados por los especialistas, que
+tratan de determinar su lugar de origen y el mecanismo físico que las
+produjo, entre otras cosas.
+
+En Malargüe, Mendoza, se está instalando uno de los dos sistemas de detección del Observatorio Pierre Auger el otro será construido en el Hemisferio
+Norte, en Colorado (USA). Cada sistema de detección consiste en una red
+de 1600 detectores de partículas, distanciados 1,5 km. entre sí, que cubren
+una superficie total de 3000 km2. Esta
+red se complementará con un conjunto
+de telescopios de alta sensibilidad, que
+en las noches despejadas sin luna escudriñarán la atmósfera para observar
+
+la tenue luz ultravioleta que producen las
+cascadas de rayos cósmicos al atravesar el aire. Alrededor de 350 científicos
+de más de 45 instituciones de 15 países (entre ellas, la Universidad Nacional de La Plata) participan en este emprendimiento.
+Por ahora, no se conoce ninguna
+fuente en el Cosmos que pueda producir estas energías, ni siquiera toda la
+potencia liberada por la explosión violenta de estrellas.
+
+Temas relacionados: Recetas para preparar átomos, Energía nuclear: Átomos que nos iluminan.
+
+Cero absoluto
+
+Curiosidades de Física
+
+77
+
+Ilustra: Mónica Gutiérrez
+
+78 Cero absoluto
+
+Curiosidades de Física
+
+Física moderna,
+una introducción
+Entre los arquitectos de lo que conocemos como Física Moderna,
+se encuentra un físico alemán llamado Max Planck. Cuenta la historia
+que cuando Planck comenzó a estudiar en la Universidad de Münich,
+en 1875, su profesor de física, Phillip Jolly, le dijo que no se dedicase
+a esta ciencia, pues era una disciplina sin futuro, ya que solamente
+quedaban unos pocos problemas para resolver. Algunos fenómenos
+que hasta el momento no se habían explicado, pero que se resolverían seguramente en el corto plazo valiéndose de los principios de la
+física. Estos problemas eran la radiación del cuerpo negro -la llamada
+catástrofe del ultravioleta- y el efecto fotoeléctrico. ¡Quién hubiera
+dicho que la resolución de esos problemas iba a requerir una revolución en la ciencia...! y ¡cómo iba a pensar Planck en ese momento
+que él mismo sería uno de los protagonistas de esa revolución!
+Pero ésa fue la historia. Explicar esos fenómenos (y muchos otros
+que aparecieron más tarde con el avance de la tecnología) les costó a
+los científicos la aceptación de un montón de ideas que, en general,
+no tienen demasiado que ver con el sentido común. A partir de ellas,
+tuvieron que construir teorías completamente nuevas, que no contradijeran la física clásica, y que tuvieran la capacidad de explicar aquellos fenómenos que ocurren en la escala atómica y en la escala cósmica. Además, con estas teorías lograron describir el mundo
+subatómico y el mundo de las velocidades tan altas como la de la luz.
+
+Existía otra oveja negra en la "terminada" física clásica: se encontró que dos
+de sus teorías, el Electromagnetismo y
+la Mecánica, funcionaban bien cada una
+por separado, pero cuando se necesi-
+
+taba de ambas para resolver ciertos problemas, se llegaba a contradicciones.
+Quien logró subsanar este problema fue
+Albert Einstein, con su famosa Teoría de
+la Relatividad.
+
+Temas relacionados: Mecánica cuántica: Heladeras y hornos, Relatividad I, II y III.
+
+Cero absoluto
+
+Curiosidades de Física
+
+79
+
+Ilustra: O´KIF
+
+80 Cero absoluto
+
+Curiosidades de Física
+
+Mecánica cuántica:
+
+Heladeras y hornos
+¿A quién no se le perdieron las llaves y las encontró, después de
+mucho buscar, en un lugar insospechado, como el interior de la
+heladera? A veces, en la ciencia ocurren cosas parecidas. Un caso
+notable es el de Max Planck, quien buscaba resolver un asunto que
+llevaba cincuenta años intrigando a los físicos. Se trataba del problema de la radiación de lo que se llama un "cuerpo negro". Lo más similar a un cuerpo negro que podemos imaginar es una cavidad como el
+interior de un horno cerrado, pintado de negro. Si existiera un cuerpo
+negro perfecto, absorbería toda la radiación electromagnética que llegara hasta él y luego la emitiría. La forma en que emiten estas cavidades negras no podía ser explicada por la física desarrollada hasta 1900
+(que hoy llamamos física clásica). A Planck se le ocurrió una hipótesis
+extraña, inesperada y fundamental, que no tenía cabida en la física de
+ese entonces. Él se dio cuenta de que el problema tenía solución si se
+aceptaba que la energía dentro de la cavidad, la que intercambiaban
+las paredes con el campo electromagnético contenido en ella, estaba
+"cuantizada". Eso quiere decir que no puede intercambiarse una cantidad cualquiera, sino ciertas cantidades fijas. Aceptar esta idea sería
+como aceptar que al lanzar una pelota al aire, no la pudiésemos lanzar
+con cualquier velocidad, sino con velocidades fijas: 1 km/h, 2 km/h, 3
+km/h, etc. Esto es tan descabellado como buscar un llavero dentro de
+la heladera. Pero el hecho es que con esa suposición (que hoy llamamos cuantización de la energía), no solo logró explicar el problema
+del cuerpo negro, sino que dio origen a una nueva física, la física
+cuántica. Es la que predice el comportamiento de la naturaleza a escala atómica, aunque tiene consecuencias a todas las escalas, aún la
+cosmológica.
+Las discusiones que surgieron entre los físicos a partir de la esta
+teoría están documentadas en varios libros. En la construcción de la
+mecánica cuántica trabajaron muchísimos físicos, algunos de los cuales lograron permanecer en la historia. Pero esto no terminó allí: hubo
+que repensar casi toda la Ciencia, porque esta teoría alteró de manera
+definitiva nuestra manera de entender el mundo. Incluso se vieron
+influenciados otros campos como las artes y la literatura. La revolución filosófica desencadenada estuvo a la par de los avances que
+produjo en química, en matemáticas, en astrofísica, en neurociencias,
+ciencias de materiales, etc. Por supuesto, fueron avances acompañados por un desarrollo tecnológico inaudito: el láser, el transistor y los
+chips, componentes de las modernas computadoras, lectoras de discos compactos y sistemas de comunicación. Se produjeron nuevos
+materiales plásticos, cerámicos y textiles; se desarrolló instrumental
+de diagnóstico y tratamiento médicos, entre otras aplicaciones.
+¿El final de la historia? Miles de físicos en todo el mundo todavía
+la están escribiendo...
+
+Temas relacionados: Ondas electromagnéticas: Una familia con buena onda
+
+Cero absoluto
+
+Curiosidades de Física
+
+81
+
+Ilustra: O´KIF
+
+82 Cero absoluto
+
+Curiosidades de Física
+
+La página del especialista
+Por: Raúl Rossignoli
+
+El principio de incertidumbre
+Corría el año 1925 cuando en la isla de Helgoland, en el Mar del
+Norte, un físico alemán de 23 años, llamado Werner Heisenberg, dio
+un importante paso en el desarrollo de la Mecánica Cuántica, una de
+las teorías más exitosas de la física. Dos años más tarde, Heisenberg
+formuló el Principio de Incertidumbre, que es una de sus consecuencias más profundas.
+En su formulación más simple, el principio de incertidumbre establece que no es posible conocer simultáneamente la posición y la
+velocidad de una partícula en forma exacta. Por el contrario, cuanto
+más precisa sea la determinación de su posición en un instante dado,
+menos preciso será el conocimiento de su velocidad en dicho instante, y viceversa. En el caso extremo, la precisión absoluta en una de las
+cantidades implica la imprecisión total en la otra. Y se aplica no solo a
+la posición y velocidad (o en realidad, impulso, que es la masa de la
+partícula multiplicada por su velocidad), sino a todo par de variables
+denominadas "conjugadas", entre otras a la energía y el tiempo.
+El principio no afirma, pues, que "todo es incierto", sino que limita
+la precisión con que pueden conocerse conjuntamente ciertas magnitudes, cualquiera sea el aparato de medición. Las consecuencias
+son dramáticas para partículas subatómicas tales como el electrón,
+aunque para objetos macroscópicos como una pelota de fútbol, son
+imperceptibles. Por ejemplo, supongamos que se determina la posición de un objeto con una imprecisión de solo una milésima de milímetro. Si el objeto es una pelota de 500gr. de masa, el principio implica que la incerteza en su velocidad en ese momento no podrá ser
+menor que ¡0,0000000000000000000000000004 km/h! (27 ceros después de la coma), lo que es obviamente insignificante frente al error
+de un instrumento de medición. Pero si el objeto es un electrón, cuya
+masa es muchísimo menor, la incerteza en su velocidad no podrá ser
+menor que ¡208 km/h! Y si la incerteza en la posición del electrón es
+de una diez millonésima de milímetro (o sea, del orden del radio de un
+átomo), la dispersión en la velocidad no podrá ser menor que
+¡2.083.820 km/h! (o sea, del orden del 0,2% de la velocidad de la luz).
+No puede pues asignarse una velocidad definida a un electrón que
+esté formando parte de un átomo.
+El principio tiene profundas implicancias físicas y filosóficas. Para
+empezar, el concepto de trayectoria de una partícula pierde su significado exacto. También es seriamente afectado el principio físico de
+causalidad, que afirma que si conocemos exactamente el presente
+podemos calcular el futuro. Según Heisenberg, lo incorrecto en esta
+formulación no es la conclusión, sino la premisa.
+
+Raúl Rossignoli
+
+Raúl es Doctor en Física y trabaja en el Departamento de
+Física de la UNLP, en Mecánica Estadística Cuántica.
+
+Cero absoluto
+
+Curiosidades de Física
+
+83
+
+Ilustra: F. Solano López
+
+84 Cero absoluto
+
+Curiosidades de Física
+
+Relatividad I:
+
+Viajeros del espacio tiempo
+He aquí un tema para discutir con los bisnietos (si llegamos...).
+Sucede que, nos quede claro o no, permanentemente estamos viajando en el tiempo, siempre hacia el futuro, 24 horas al día. Podemos
+además viajar en el espacio, a la velocidad de una tortuga o a la de un
+avión supersónico. Pero según las deducciones de Albert Einstein,
+cada vez que nos movemos en el espacio, cambiamos la velocidad
+con que nos movemos en el tiempo hacia el futuro. Es decir que
+modificamos nuestro propio tiempo. Esta afirmación no solo no es
+evidente, sino que es contraria a nuestra intuición, que nos dice que
+nos movemos en el tiempo de manera uniforme, que todos los segundos duran lo mismo para todo el mundo. Tal vez nuestros nietos o
+bisnietos logren percibirlo como un hecho cotidiano ¡si logran viajar
+casi tan rápido como lo hace la luz!
+Lo que Einstein dedujo, en 1905, y que se llama Teoría Especial de
+la Relatividad, es justamente la forma en que el paso del tiempo se ve
+afectado por el movimiento en el espacio a una velocidad constante
+(y de yapa, explicó cómo eso hace que la masa y la energía estén
+relacionadas). Muchas cuentas más tarde, Einstein dedujo lo que ocurre con el tiempo cuando la velocidad a la que nos movemos no es
+constante y llamó a eso Teoría General de la Relatividad. Corría 1915,
+y ya las consecuencias de sus primeros anuncios habían causado
+cambios drásticos en nuestra concepción del universo. Sin embargo,
+faltaron tres años más, y las pruebas experimentales que la confirmaron, para que esta teoría fuera aceptada.
+
+¿Qué consecuencias tiene esto de
+no viajar uniformemente hacia el futuro? Mientras estamos quietos, leyendo
+este libro, viajamos por el tiempo hacia
+el futuro. Si además avanzamos hacia
+algún lado (para lo cual conviene dejar
+de leer), nos estamos moviendo en el
+espacio-tiempo. Si pudiéramos viajar a
+velocidades cercanas a la de la luz,
+nuestro reloj funcionaría más despacio
+que otro que está quieto. Esto es lo que
+en relatividad se llama Dilatación del
+Tiempo. El ejemplo más famoso que
+
+acompaña semejante afirmación es el
+del astronauta cuyo hermano gemelo
+queda en la Tierra mientras él viaja a una
+velocidad altísima. Al regreso, el joven
+astronauta ha envejecido un año, por
+ejemplo, mientras que su hermano ya
+es un anciano: ¡el tiempo en la nave
+avanzó hacia el futuro más despacio que
+en la Tierra! Yendo a los detalles, es imposible que una nave viaje tan rápido
+como la luz, pero si lo hiciera, se movería solo en el espacio, pues para ella el
+tiempo se detendría.
+
+Temas relacionados: Relatividad II: Laboratorios en marcha y Relatividad III: La energía de las masas.
+
+Cero absoluto
+
+Curiosidades de Física
+
+85
+
+Ilustra: H. Sábat
+
+86 Cero absoluto
+
+Curiosidades de Física
+
+Relatividad II:
+
+Laboratorios en marcha
+¿Qué pasaría si montáramos un laboratorio de física en un vagón,
+para hacer experimentos sobre un tren en marcha?. ¿Los resultados
+serán los mismos en éste que en un laboratorio quieto respecto a la
+Tierra? Seguro que sí, mientras el tren se mueva con velocidad constante. Mientras viajamos, podemos mirar por la ventanilla del tren y
+pensar que nosotros estamos quietos y el paisaje se mueve hacia
+atrás: en eso se basan muchos efectos de cine para dar sensación de
+realidad a las imágenes. Cuando sí cambian las cosas es en el momento de doblar, frenar o acelerar. Entonces percibimos claramente
+que somos nosotros los que nos movemos, e incluso hasta podemos
+caernos si no estamos bien parados. ¡Imaginen los cambios en los
+resultados de los experimentos en el laboratorio viajero cuando el
+tren entre a una curva!
+Eso lo tuvo en cuenta Albert Einstein al enunciar su Teoría Especial de la Relatividad, proponiendo el Primer Postulado (es decir, lo
+que hay que tener en cuenta para que se entienda lo que sigue). Dice
+así: Las leyes de la naturaleza son las mismas, observadas desde
+todos los marcos de referencia que se muevan a velocidad constante
+unos respecto de otros.
+¿Eso le alcanzó? No, tuvo que suponer además que la velocidad
+de la luz es constante.¿Qué quiere decir eso?
+Imaginemos que el tren se detiene y le tiramos una pelota por la
+ventanilla a un amigo que nos espera en el andén: supongamos que
+le llega a 60 km/h. Si tiramos otra pelota, exactamente de la misma
+manera, pero mientras el tren se aleja a 40 km/h, le va a llegar muy
+despacio, a 20 km/h. Pero si el tren se acerca a nuestro amigo a 40
+km/h mientras le tiramos la pelota -siempre de la misma manera- más
+vale que se ponga los guantes para atajarla, porque le va a llegar a
+100 km/h. Quiere decir que la velocidad con que le llega la pelota a un
+pobre arquero, depende de la velocidad con que se mueva el que la
+tira. Esto es bastante lógico; sin embargo, no ocurriría lo mismo si en
+lugar de una pelota se tratara de luz. En efecto, lo que Einstein postuló en segundo lugar, es que no importa cómo se mueva el que emite
+la luz ni el que la recibe: mientras ambos estén en el vacío, la rapidez
+de la luz será siempre la misma: ¡300 mil kilómetros por segundo!
+Con todo esto, después de hacer algunos cálculos, Einstein se dio
+cuenta de que, si un objeto se mueve a una velocidad parecida a la de
+la luz, se acorta. ¿Cómo es eso? Imaginen ahora que en nuestro laboratorio ferroviario tenemos una máquina que puede lanzar flechas a
+cientos de miles de kilómetros por segundo: la flecha sería igual de
+gruesa, pero más corta cuanto más rápido viaja.
+
+Temas relacionados: Relatividad I: Viajeros del espacio tiempo y Relatividad III: La energía de las masas.
+
+Cero absoluto
+
+Curiosidades de Física
+
+87
+
+Ilustra: Pablo David
+
+88 Cero absoluto
+
+Curiosidades de Física
+
+Relatividad III:
+
+La energía de las masas
+Comer masitas nos provee energía, pero no era a esa relación
+entre masa y energía a la que se refería Einstein. Él afirmaba -y estaba
+en lo cierto- que la masa de un objeto, que está asociada con la cantidad de materia que posee, también se la puede asociar a la energía
+(como si la materia fuera "energía en reposo"). Como cualquier otra
+forma de energía, se puede transformar, por ejemplo, en energía de
+movimiento: la masita en movimiento experimenta un cambio en su
+masa, pero ese cambio es tan pequeño que no se puede detectar por
+los métodos convencionales.
+Si masa y energía son una misma cosa, algo así como dos caras
+de la misma moneda... ¿qué pasa con la luz, que no tiene nada de
+masa pero sí tiene mucha energía? Einstein predijo que la luz es atraída
+por otros objetos -como si tuviese masa- debido a la gravedad.
+En 1919, durante un eclipse solar total, los científicos aprovecharon para hacer un experimento. Fotografiaron las estrellas que se veían
+alrededor del Sol durante el eclipse. Algunos meses más tarde, cuando el Sol ya había abandonado esa región del cielo, la fotografiaron
+nuevamente. Comparando ambas imágenes se observó que la luz de
+las estrellas se había desviado el día del eclipse. Los científicos no
+tuvieron entonces más remedio que aceptar las ideas de Einstein.
+A partir de entonces, comenzó una gran revolución del pensamiento, y se hizo famosa la fórmula E=mc². En esta igualdad, m es la masa
+en reposo, E representa a la energía de esa masa y c es la velocidad
+de la luz. Hasta ese momento, se había considerado que la masa de
+un objeto no variaba: era una propiedad de los objetos, se podía dividir o agregar, pero no disminuir ni aumentar por sí misma. Si no se
+habían observado evidencias de esta relación, es porque como c² es
+una magnitud enorme, hace falta una cantidad de energía monumental para modificar perceptiblemente una masa.
+
+Temas relacionados: Relatividad I : Viajero del espacio tiempo, Relatividad II: Laboratorios en marcha,
+Gravedad: ¿Qué cae primero?
+
+Cero absoluto
+
+Curiosidades de Física
+
+89
+
+Ilustra: Santiago Poggio
+
+Agujeros negros
+El punto decisivo en la formación de una estrella es la fuerza de
+gravedad. Esta atracción no solo actúa entre cuerpos diferentes, sino
+que también tiende a aproximar las partes de la materia formando cuerpos más compactos. Al pensar en esto puede surgir la siguiente pregunta ''infantil'': ¿Cuánto se puede comprimir la materia que forma los
+objetos, por ejemplo, una estrella?
+90 Cero absoluto
+
+Curiosidades de Física
+
+La página del especialista
+Por: Claudio Simeone
+
+Ciertas preguntas "infantiles" suelen conducir a la comprensión de
+algunos de los fenómenos más interesantes que se dan en la naturaleza. ¿Cómo responde la ciencia a esta pregunta?
+Cuando la materia que formará una estrella se comprime, aumenta la temperatura en su interior. A partir de cierto tamaño, la temperatura es tan grande que comienzan a producirse reacciones nucleares
+que la hacen brillar. Así empieza a "funcionar" la estrella y se establece
+un equilibrio entre la gravedad -que tiende a contraerla- y la presión
+del gas que la constituye -que tiende a dilatarla-.
+Pero dicho equilibrio no siempre puede sostenerse: hace ya muchos años, cerca del año 1930, se probó matemáticamente que si la
+masa de la estrella supera dos veces y media la de nuestro Sol, la
+presión del gas no puede equilibrar la atracción de la gravedad. La
+estrella empieza entonces a contraerse, aumentando aún más su densidad: podríamos decir que es aplastada por su propio peso. Sigue
+comprimiéndose hasta convertirse en un "punto superdenso", una estrella colapsada, y las consecuencias son realmente sorprendentes.
+Por ejemplo, un cuerpo cualquiera que se encuentre próximo a la superficie del Sol debería tener una velocidad de más de dos millones
+de kilómetros por hora si quisiera alejarse sin caer en él. Pero si el Sol
+se comprimiera hasta tener 6 km de diámetro su densidad sería de
+¡10.000 billones de gramos cada centímetro cúbico! Por eso, para
+escapar de su superficie debería moverse más rápido que la luz
+(300.000 km/s), que es la máxima velocidad posible. Entonces, ninguna radiación o partícula puede escapar de una estrella colapsada. La
+luz que incide sobre estos puntos superdensos no es reflejada hacia
+nosotros, y por eso no podemos verlos. Por ello se los llama "agujeros negros".
+Otro aspecto notable tiene que ver con el "retardo del tiempo" en
+un campo gravitatorio, que es tanto mayor cuanto más intenso es el
+campo. ¿Qué ocurriría entonces si un cosmonauta viajara en una nave
+hacia un agujero negro? Supongamos que el cosmonauta prometió
+enviar a la Tierra una radioseñal cada minuto. En la Tierra las señales
+comienzan a recibirse cada varios minutos, después cada varias horas, luego años, y así hasta que ya nada llega. Sin embargo, el cosmonauta cumplió con lo prometido, porque cada minuto, según su reloj,
+siguió enviando una señal.
+Si todo esto nos parece extraño, mencionemos que incluso es
+posible que, no solo una estrella suficientemente grande puede dar
+como resultado un agujero negro, sino también todo el núcleo de una
+galaxia...
+
+Claudio Simeone
+
+Claudio es Doctor en Física y trabaja en Relatividad y Cosmología
+en el Departamento de Física de la Universidad Nacional de Buenos Aires.
+
+Temas relacionados: Relatividad I, II y III, Gravedad: ¿Qué cae primero?.
+
+Cero absoluto
+
+Curiosidades de Física
+
+91
+
+Ilustra: R. Fontanarrosa
+
+Big Bang
+Imaginemos un globo lleno de aire caliente. El aire dentro del globo está formado por muchas moléculas diferentes que se mueven
+muy rápidamente, chocando entre ellas, como pelotas. Supongamos
+ahora que el globo comienza a inflarse por algún mecanismo desconocido, sin modificar la cantidad de aire en su interior. ¿Qué va a pasar? A medida que el globo se infle, el aire va a disponer de más
+espacio para ocupar, por lo que el espacio entre las moléculas se va a
+hacer más grande, y la cantidad de choques entre ellas va a disminuir.
+Al mismo tiempo, como ocurre con el aire, que al expandirse se enfría, la temperatura va a bajar. A medida que el globo se infla, la
+temperatura disminuye y el aire se hace menos denso. Las moléculas
+siguen chocando entre ellas pero cada vez menos, hasta que finalmente ya no chocan más.
+92 Cero absoluto
+
+Curiosidades de Física
+
+La página del especialista
+Por: Susana Landau
+
+La evolución del universo según la teoría del Big Bang es bastante
+parecida a lo que le ocurre a nuestro globo lleno de aire caliente. El rol
+del globo lo cumple la geometría del espacio tiempo. El papel de las
+moléculas diferentes lo cumplen las distintas partículas elementales:
+fotones, neutrinos, electrones, neutrones y positrones. Según esta
+teoría, el Universo actual surge de una gran explosión -llamada Big
+Bang-. La masa de todo lo que hoy existe estaba concentrada en un
+punto, que luego se expandió como nuestro globo de aire caliente.
+En los primeros segundos luego del Big Bang las partículas se movieron muy rápido, chocando entre ellas todo el tiempo. A medida que el
+universo se fue expandiendo -y por lo tanto enfriando-, este enjambre
+de partículas se fue haciendo menos denso y las partículas chocaron
+menos veces unas con otras. A su vez, las velocidades de las partículas disminuyeron, pero no del mismo modo, así que algunas tienen
+mayores velocidades que otras. De esta manera, cuando el universo
+tenía un segundo de vida, la velocidad de los neutrinos disminuyó
+tanto en comparación con la de las otras partículas, que dejaron de
+chocar con las demás.
+Los choques de partículas tampoco son todos iguales. En algunos casos, dos partículas chocan (por ejemplo un electrón y un
+positrón) y como resultado de ese choque se crean otras dos partículas (dos fotones) y se destruyen las partículas que chocaron. Al principio esta creación y destrucción de partículas se produce en igual cantidad, con lo cual no cambia el número total de partículas. Cuando el
+universo se expande, y la velocidad de las partículas disminuye, la
+cantidad de partículas que se crean no es igual a la cantidad de partículas que se destruyen, resultando en una creación neta de partículas. Algunos de estos choques corresponden a la formación de núcleos livianos. Así, el deuterio se forma cuando chocan un protón y
+un neutrón, y el Helio se forma cuando chocan dos núcleos de deuterio.
+De esta manera, cuando el universo tenía aproximadamente 3 minutos de vida, se formaron los núcleos atómicos livianos. Para ese momento, solo los electrones y fotones seguían chocando entre ellos. A
+los 300.000 años de vida del universo, la temperatura bajó lo suficiente como para que a los electrones les cueste menos formar átomos
+de hidrógeno, uniéndose con un protón que seguir chocando con los
+protones. De esta manera, se forman los átomos de hidrógeno. Los
+fotones ya no chocan con otras partículas y viajan por el universo
+prácticamente sin interactuar. Estos fotones se pueden detectar con
+satélites y telescopios y forman lo que se suele llamar el fondo cósmico de radiación.
+Hoy hacen 13.700 millones de años del Big Bang, según las estimaciones de los científicos, y se prevé que el universo va a seguir
+expandiéndose en el futuro.
+
+Susana Landau
+
+Susana es Doctora en Astronomía y trabaja en Cosmología y
+Fondo Cósmico de Radiación en el Departamento de Física, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires
+y en Facultad de Ciencias Astronómicas y Geofísicas de la Universidad de La Plata.
+
+Cero absoluto
+
+Curiosidades de Física
+
+93
+
+Ilustra: Magdi Kelisek
+
+94 Cero absoluto
+
+Curiosidades de Física
+
+Efectos especiales III:
+
+Efecto fotoeléctrico
+Cuando se nombra al famoso físico Albert Einstein, Premio Nobel
+de Física en 1921, inmediatamente se piensa en la Teoría de la
+Relatividad, en la bomba atómica, en su melena despeinada y en la
+archiconocida ecuación E = mc². Sin embargo, es menos sabido que
+el premio le fue otorgado por explicar un fenómeno que hasta ese
+momento resultaba enigmático: el Efecto Fotoeléctrico.
+¿De qué se trata este efecto? Proyectando luz sobre un metal,
+pueden arrancarse electrones a los átomos de la superficie. Así, iluminando un metal, podemos poner electrones en movimiento, es decir,
+tener una corriente eléctrica. Pero este fenómeno aparentemente tan
+simple presentaba algunas características peculiares que las teorías
+existentes de la luz no podían explicar del todo. Por ejemplo, el hecho
+de que esto no ocurra con cualquier tipo de luz. Si la luz es infrarroja,
+no importa cuán intensa sea, el efecto no se produce. En cambio, si la
+luz es de color violeta -o mejor todavía, ultravioleta- aunque sea de
+poca intensidad, el efecto es notable.
+La propuesta de Einstein fue sencilla pero audaz: aplicó a la luz un
+concepto que Max Planck había desarrollado anteriormente. Mostró
+que el efecto puede entenderse pensando que la energía es transportada por la luz en forma de partículas especiales, que no tienen peso:
+los fotones.
+Las ideas de Planck y Einstein condujeron a formalizar una nueva
+teoría para explicar cómo se comportan las cosas en el mundo microscópico: la Mecánica Cuántica.
+
+¿Dónde podemos encontrar aplicaciones de este fenómeno? Por ejemplo,
+en las celdas fotoeléctricas de la iluminación pública, en las cámaras fotográ-
+
+ficas digitales, en las puertas automáticas, y en las celdas solares que proveen
+de energía, a los satélites.
+
+Temas relacionados: Física moderna, Mecánica cuántica: Heladeras y hornos.
+
+Cero absoluto
+
+Curiosidades de Física
+
+95
+
+Ilustra: O´KIF
+
+96 Cero absoluto
+
+Curiosidades de Física
+
+Efectos especiales IV:
+
+Efecto mariposa
+A los científicos -como a muchas personas- no les gustan nada
+las cosas que no pueden controlar. O al menos predecir. ¿A quién le
+agrada cargar con el paraguas un día de sol?
+Henri Poincarè, a principios del siglo XX, notó que algunos sistemas (tanto muy complejos como muy simples, por ejemplo los péndulos) en ciertas condiciones se portan de manera irregular e impredecible. Por eso, este matemático francés perteneció durante mucho
+tiempo al club de los olvidados. Finalmente, ante la abrumadora evidencia, hubo que reconocer la existencia de estos sistemas rebeldes.
+Hoy se los llama caóticos, y a su comportamiento, caos. El clima es
+un ejemplo. ¿Por qué si los científicos y sus supercomputadoras pueden predecir la posición de Urano dentro de 107 años, dos meses y
+diez minutos, no pueden saber si el tercer domingo del mes que viene lloverá o habrá sol? Cuando un sistema se comporta en forma
+caótica, no puede saberse en qué estado estará después de mucho
+tiempo, porque el resultado es muy sensible a las condiciones iniciales. Una leve diferencia de temperatura, por ejemplo, no hará una
+gran diferencia en el pronóstico de mañana. Pero esa leve diferencia
+bastará para que el pronóstico del tercer domingo del mes próximo
+cambie de sol brillante a lluvia.
+¿Será problema de la computadora? No, el caos es una característica propia de los sistemas y no hay informática que valga.
+Algo tan sutil como el aleteo de una mariposa en Pekín, puede
+conducir a consecuencias muy diferentes en La Plata. A esta gran
+sensibilidad de los sistemas caóticos a las condiciones iniciales se la
+suele llamar, justamente, efecto mariposa.
+
+Los fenómenos caóticos son muy
+abundantes en la naturaleza y en diversas ramas de la ciencia. Los fluidos cerca de la turbulencia (como el chorro de
+agua cuando casi cerramos la canilla),
+
+algunas reacciones químicas, algunos
+láseres y ciertos sistemas biológicos,
+como por ejemplo el corazón, presentan un comportamiento caótico.
+
+Cero absoluto
+
+Curiosidades de Física
+
+97
+
+Ilustra: O´KIF
+
+98 Cero absoluto
+
+Curiosidades de Física
+
+Fractales:
+
+La geometría de la naturaleza
+" La geometría fractal cambiará a fondo su visión de
+las cosas.
+Seguir leyendo es peligroso. Se arriesga a perder
+definitivamente la imagen inofensiva que tiene de nubes,
+bosques, galaxias, hojas, plumas, flores, rocas, montañas,
+tapices, y de muchas otras cosas.
+Jamás volverá a recuperar las interpretaciones de
+todos estos objetos que hasta ahora le eran familiares."
+ractals Everywhere"
+Primeras palabras del libro "F
+"Fractals
+("Fractales en todos lados") de Michael FF.. Barnsley
+Barnsley..
+
+¿Qué querrán decir estas palabras amenazadoras? ¿Qué tienen en
+común las hojas de los helechos, los copos de nieve, el aspecto de
+las costas, la forma del rayo, la estructura de los pulmones, las fracturas geológicas, los árboles, los relieves terrestres? Todas estas estructuras tienen una forma irregular, a veces ramificada, que se ve
+similar con un microscopio, a simple vista o con un zoom.
+Una mirada a nuestro alrededor nos muestra en la Naturaleza
+una geometría muy distinta a la de los círculos, cubos, triángulos,
+conos, trapecios y otras figuras regulares de esas que nos enseñan
+en la escuela.
+La de la Naturaleza es la geometría de lo rugoso, de lo irregular, de
+lo fracturado. El matemático polaco Benoit Mandelbrot, en 1975, bautizó a estas formas con el nombre de fractales, y estudió las curiosas
+propiedades de esa nueva geometría, que había sido ignorada hasta
+entonces por considerársela imperfecta.
+Hoy, casi treinta años después, construimos antenas fractales,
+hacemos crecer moléculas fractales, fabricamos paredes fractales
+aislantes del sonido, creamos arte fractal.
+
+Imágenes del Conjunto de Mandelbrot, uno
+de los fractales más famosos, y del Helecho de
+Barnsley, estudiado por una investigadora.
+
+Cero absoluto
+
+Curiosidades de Física
+
+99
+
+Ilustra: Julieta Lloret
+
+Teoría de Cuerdas:
+
+La música de las esferas
+Es posible que el origen del pensamiento científico se encuentre en
+la visión del cielo nocturno. La perturbación causada por el movimiento
+de los planetas a través de la de otro modo inmutable belleza de la Vía
+Láctea, provocó en los antiguos observadores la necesidad de encontrar alguna regularidad o "ley" que ordenara esos movimientos. Esto
+100 Cero absoluto
+
+Curiosidades de Física
+
+La página del especialista
+Por: Nicolás Grandi
+
+llevó a Pitágoras y sus seguidores en la antigua Grecia a la idea de la
+"Música de las Esferas", una visión del mundo que equiparaba al Universo con una melodía tocada por los cuerpos celestes, a cuyas "notas"
+obedecía todo lo existente, desde las estrellas y los planetas hasta la
+más humilde de las gotas de lluvia. Podríamos decir que los Pitagóricos
+buscaron en los cielos las reglas que regían el mundo cotidiano.
+Sin embargo, la posterior comprensión de las leyes del movimiento de los objetos, desarrollada por Galileo y luego por Newton, y su
+aplicación a los cuerpos celestes, dejaron la idea de Pitágoras en el
+olvido. Así surgió una visión moderna, completamente opuesta, donde son los constituyentes elementales o "más pequeños" los que
+siguen determinadas leyes sencillas, cuyas consecuencias afectan
+al universo todo. En esta visión, el Universo se parece a un edificio,
+cuyos "ladrillos" llamamos partículas elementales y cuya "arquitectura" sigue reglas bien determinadas.
+De esta manera, la explicación de la complejidad de la química
+mediante constituyentes en movimiento dio sustento a la idea de
+átomo. Más adelante, la comprensión de la estructura y variedad de
+los átomos mismos llevó a la introducción de los neutrones, protones
+y electrones, los que, combinados en distintas formas y números,
+forman los diversos elementos. Dando "un paso más", la estructura
+de protones y neutrones se explicó en términos de partículas aún
+más elementales: quarks, gluones, mesones, etc.
+La riqueza de este "edificio" es intrigante. La pregunta de por qué
+existen tantos tipos diferentes de "ladrillos" y qué es finalmente lo
+que determina las reglas adecuadas para "apilarlos" no parece tener
+respuesta. Es por esto que en las últimas décadas una idea innovadora
+ha ganado lugar en el pensamiento científico.
+Según esta nueva visión, los constituyentes últimos o "más elementales" del universo serían microscópicas "cuerdas" idénticas, y la
+única manera de construir cosas con ellas sería "cortarlas y unirlas
+por sus extremos". Sorprendentemente, en contra de lo que se podría imaginar, este esquema tan simple permite explicar y comprender en profundidad una gran cantidad de fenómenos, desde las
+interacciones nucleares hasta la gravedad.
+Este escenario plantea la siguiente pregunta: si nos hemos convencido de que el mundo está hecho de un enorme zoológico de
+partículas elementales diferentes, ¿cómo podríamos construirlas con
+un solo tipo de cuerda? La respuesta es tan simple como sugestiva:
+cada tipo de partícula elemental no sería más que cuerdas idénticas
+a las otras, pero vibrando en un tono diferente. De este modo cada
+"nota" corresponde a una de las especies de partículas que constituyen el mundo, desde los electrones y quarks, pasando por los fotones
+que constituyen la luz, hasta los gravitones que guían el movimiento
+de la Vía Láctea. De este modo, la idea pitagórica de Música de las
+Esferas parece haber retornado de manera inesperada.
+
+Nicolás Grandi
+
+Nicolás es Doctor en Física y trabaja en el Departamento de
+Física de la Universidad Nacional de La Plata, en física teórica de
+altas energías y materia condensada.
+Cero absoluto
+
+Curiosidades de Física
+
+101
+
+Para leer más:
+
+Algunos libros recomendados
+• Historias y curiosidades contadas por un ruso:
+Física recreativa Vol I y II - Yakov Perelman, Editorial Cartago, 1969.
+• Un libro de física ameno y con poca matemática:
+Física conceptual - Paul Hewitt Addison Wesley, Iberoamericana,
+segunda edición 1995.
+• La Biblia de los fractales:
+La geometría fractal de la naturaleza - Benoit Mandelbrot, Tusquets
+Editores, Colección Metatemas, Barcelona, 1997.
+• Un Premio Nobel que sí juega a los dados:
+Las leyes del caos - Ilya Prigogine, Editorial Crítica, Barcelona, 1999.
+• Un clásico escrito por dos físicos "modernos":
+La física, aventura del pensamiento - Albert Einstein, Leopold Infeld,
+Editorial Losada, Buenos Aires, 1939.
+• Libros para leer a la velocidad de la luz:
+El umbral de la relatividad - Alberto Maiztegui, Editorial Kapelusz,
+Buenos Aires, 1977.
+La relatividad - Albert Einstein, Editorial Grijalbo, México, 1971.
+• Dos libros de la colección Sin careta de la Editorial Colihue:
+Láser - Gabriel Bilmes, Buenos Aires, 1997.
+Los buscadores de la unificación perdida. H. Ranea Sandoval, Buenos Aires, 1992.
+• Un libro con más preguntas que respuestas:
+El breve lapso entre el huevo y la gallina - Historias y reflexiones
+sobre la ciencia - Mariano Sigman, Editorial Le Monde Diplomatique,
+Buenos Aires, 2004.
+• 75 ¿Por qué..? sobre la Naturaleza:
+La Naturaleza y el paisaje - David Jou, Marià Baig Editorial Ariel, S. A.
+Barcelona, 1993.
+• Textos, fotos y dibujos contundentes (en inglés):
+Every Day Science explained Curt Suplee, National Geographic
+Society, Washington D.C., 1996.
+• Un clásico de la cosmología de divulgación:
+Los Primeros Tres Minutos del Universo, Steven Weinber, Editorial
+Alianza, Madrid, 1997.
+
+Algunas páginas web
+
+• Programa educativo colombiano que busca contribuir a la apropiación social de la ciencia y la tecnología: www.maloka.org
+• Portal de divulgación de la Universidad Nacional de Rosario:
+www.divulgon.com.ar
+• Otros libros de Yakov Perelman:
+http://www.geocities.com/yakov_perelman/
+• Divulgación en la Comisión Nacional de Energía Atómica:
+www.cnea.gov.ar/xxi/primeras/quees.asp
+• Laboratorio de electrónica cuántica de la Universidad de Buenos
+Aires: www.lec.df.uba.ar/engwww/index.html
+• Sobre Cosmología: www.fcaglp.unlp.edu.ar/extension/Charlas/
+cosmologia archivos/frame.htm
+• Y también: www.imagine.gsfc.nasa.gov
+102 Cero absoluto
+
+Curiosidades de Física
+
+Indice de artístas
+• Alejandro O’KIF, ilustrador. Tapa / Pág. 10 / 12 /
+22 / 24 / 34 / 38 / 48 / 54 / 56 / 60 / 64 / 66 / 80 / 82 /
+96 / 98 / 103
+• Juan Lima, ilustrador. Contratapa
+• Cecilia Pollini, artísta plástica. Pág. 16 / 20
+• Juan Soto, ilustrador. Pág. 18 / 74
+• Dolores Pardo, artísta plástica, grabadora.
+Pág. 26 / 70
+• Manuel Rubín, artísta plástico. Pág. 28 / 30
+• Fernando Sendra, dibujante. Pág. 32 / 36
+• Eduardo Maicas, humorista gráfico y radial.
+Pág. 40 / 44
+• Sara Sedrán, ilustradora. Pág. 42 / 46
+• Graciela Gutiérrez Marx, artísta plástica, arte correo. Pág. 50 / 52
+• Daniel Sergnese, Diseñador en comunicación visual. Pág. 58
+• Pablo David, artísta plástico. Pág. 62 / 88
+• Mónica Gutiérrez, ilustradora. Pág. 68 / 78
+• Santiago Poggio, artísta plástico. Pág. 72 / 90
+• Julieta Lloret, Diseñadora en comunicación
+visual. Pág. 76 / 100
+• Francisco Solano López, dibujante. Pág. 84
+• Hermenegildo Sábat, dibujante. Pág. 86
+• Roberto Fontanarrosa, dibujante. Pág. 92
+• Magdi Kelisek, ilustradora. Pág. 94
+
+Cero absoluto
+
+Curiosidades de Física
+
+103
+
+Este libro se terminó de imprimir
+en Gráfica Dasa, 37 Nº 992 e/ 14 y 15
+La Plata, Bs. As.
+Mayo de 2009
+
+104 Cero absoluto
+
+Curiosidades de Física
+
+

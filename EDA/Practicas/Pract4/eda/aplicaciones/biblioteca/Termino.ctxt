@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Termino
+comment0.text=\n\ Termino\:\ clase\ de\ la\ Clave\ del\ Map\ que\ representa\ un\ termino\ del\ \n\ Indice\ Analitico\ de\ una\ Biblioteca\ Digital.\n\ \n\ Para\ que\ sobrescriba\ eficientemente\ los\ metodos\ equals\ y\ hashCode\n\ de\ Object,\ un\ Termino\ TIENE\ UN\ valorHash\ que\ almacena\ el\ resultado\ \n\ de\ la\ PRIMERA\ invocacion\ al\ metodo\ hashCode\ de\ la\ clase\ sobre\ el.\ \n\ De\ esta\ forma,\ el\ valor\ hash\ asociado\ a\ un\ Termino...\n\ (a)\ solo\ se\ calcula\ una\ vez,\ independientemente\ del\ numero\ de\ veces\ \n\ \ \ \ \ que\ el\ metodo\ hashCode\ se\ aplique\ sobre\ el;\n\ (b)\ se\ puede\ usar\ en\ el\ metodo\ equals\ de\ la\ clase\ para\ comprobar\ la\n\ \ \ \ \ igualdad\ de\ dos\ terminos\ SOLO\ cuando\ sus\ valores\ Hash\ sean\ iguales.\n\n\ Ademas,\ para\ poder\ evaluar\ distintos\ metodos\ hashCode,\ un\ Termino\ TIENE\ \n\ UNA\ baseHashCode\ que\ almacena\ la\ base\ en\ la\ que\ se\ calcula\ su\ valorHash\n\ \n\ @author\ (EDA-QA)\ \n\ @version\ (Curso\ 2020-2021)\n
+comment1.params=t\ base
+comment1.target=Termino(java.lang.String,\ int)
+comment1.text=\ Crea\ el\ Termino\ asociado\ a\ la\ palabra\ t\ y\ \nle\ asocia\ la\ base\ a\ emplear\ en\ el\ metodo\ hashCode
+comment2.params=t
+comment2.target=Termino(java.lang.String)
+comment2.text=Crea\ el\ Termino\ asociado\ a\ la\ palabra\ t\ segun\ el\ estandar\ de\ Java
+comment3.params=
+comment3.target=int\ hashCode()
+comment3.text=\ Devuelve\ el\ valor\ Hash\ de\ un\ (this)\ Termino\ de\ forma\ EFICIENTE,\ i.e.\n\ \ al\ aplicar\ este\ metodo\ por\ PRIMERA\ vez\ sobre\ un\ Termino\ de\ longitud\ \n\ \ nzse\ baseHashCode,\ usando\ la\ regla\ de\ \n\ \ Horner\ y,\ por\ tanto,\ SIN\ usar\ metodo\ alguno\ de\ la\ clase\ Math\:\ \n\ \ this.valorHash\ \=\ \ \ this.termino.charAt(0)\ *\ this.baseHashCode^(n-1)\ \ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ this.termino.charAt(1)\ *\ this.baseHashCode^(n-2)\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ ...\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ this.termino.charAt[n-1]\n\ \ Si\ NO\ es\ la\ primera\ vez\ que\ se\ aplica\ el\ metodo,\ devuelve\ this.valorHash\ \n
+comment4.params=otro
+comment4.target=boolean\ equals(java.lang.Object)
+comment4.text=\ Comprueba\ si\ un\ (this)\ Termino\ es\ igual\ a\ otro\ de\ forma\ \ \n\ \ eficiente,\ i.e.\ SOLO\ ejecuta\ el\ metodo\ equals\ de\ String\ \n\ \ cuando\ los\ valores\ Hash\ de\ uno\ y\ otro\ Termino\ son\ iguales\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=Devuelve\ un\ String\ que\ representa\ un\ Termino\ en\ cierto\ formato\ texto
+numComments=6
