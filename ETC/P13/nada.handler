@@ -1,0 +1,103 @@
+### ESTRUCTURA DE COMPUTADORES (ETS Eng. Inf.)
+##  
+## marzo de 2014
+##
+## PR�CTICA 13: SINCRONIZACI�N POR INTERRUPCIONES
+##
+## C�digo inicial del manejador
+
+
+##############################################################
+##              �REA DE DATOS DEL MANEJADOR                 ##
+##############################################################
+
+			.kdata
+var1:	.word 0xFFFFFFFF
+##-- Paso 5. Cuestión 7.1
+contexto:    .space 16
+##----
+
+#############################################################
+##                  C�DIGO DEL MANEJADOR                   ##
+#############################################################
+
+          .ktext 0x80000080
+
+    ## Preserva el contexto del programa de usuario
+    ## 
+
+        ##-- Paso 5. Cuestión 7.3
+        .set noat
+        sw $at, 0x0($k1)
+        .set at
+
+        sw $t0, 0x4($k1)
+        sw $a0, 0x8($k1)
+        sw $v0, 0xC($k1)
+        ##----
+
+    ## Identifica y trata excepciones
+    ## 
+
+        ### -- Paso 3
+        # li $v0, 11
+        # li $a0, '*'
+        # syscall
+        ## -----
+
+        ## -- Paso 4. Cuestión 5
+        la $t0, 0xffff0000
+
+        lw $a0, 4($t0) ## Le del regitro y la interupcción se cancela 
+        li $v0, 11
+        syscall
+
+
+    ## Restaura el contexto
+    ## (nada de momento)
+        ##-- Paso 5. Cuestión 7.4
+        .set noat
+        lw $at, 0x0($k1)
+        .set at
+
+        lw $t0, 0x4($k1)
+        lw $a0, 0x8($k1)
+        lw $v0, 0xC($k1)
+        ##---
+
+    ## Restaura el modo usuario y vuelve al programa
+    ## 
+        ## -- Paso 2. Cuestión 3
+            mfc0 $k0 ,$14
+        ## -----
+
+
+	rfe
+	jr $k0 
+
+#############################################################
+##                    C�DIGO DE INICIO                     ##
+#############################################################
+
+          .text
+          .globl __start 
+__start: 
+    ## Código de inicio
+    ##-- Paso 5. Cuestión 7.2
+        la $k1, contexto
+    ##----
+
+    
+        la $t0, 0xffff0000
+        li $t1, 0x2
+        sb $t1, 0($t0)
+
+        li $t1, 0x103
+        mtc0 $t1, $12
+
+    ## Salto al programa de usuario
+	jal main
+
+    ## C�digo de terminaci�n
+	li $v0, 10
+	syscall	 # Funci�n exit
