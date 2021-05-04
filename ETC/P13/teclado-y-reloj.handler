@@ -41,8 +41,9 @@ contexto:    .space 16
 
     ## Restaura el contexto
     ## (nada de momento)
+    
 ##-- Paso 7. Cuestión 10.1
-retexc: 
+   retexc: 
 ##----
         ##-- Paso 5. Cuestión 7.4
             .set noat
@@ -64,7 +65,7 @@ retexc:
 	rfe
 	jr $k0 
 
-##-- Paso 7. Cuestión 10.3
+##-- Paso 7. Cuestión 10.4
 test_handler:
         mfc0 $t0, $13     
         move $v0, $t0
@@ -73,7 +74,7 @@ test_handler:
         bne $v0, $zero, retexec     
 ##----
 
-##-- Paso 7. Cuestión 10.4   
+##-- Paso 7. Cuestión 10.5
         li $a0, 0x1400
         and $t0, $t0, $a0
         li $a0, 0x400
@@ -84,9 +85,9 @@ test_handler:
 ##---
 
 
-##-- Paso 7. Cuestión 10.1
+##-- Paso 7. Cuestión 10.2
 int0: 
-## Identifica y trata excepciones
+    ## Identifica y trata excepciones
     ## 
 
         ### -- Paso 3
