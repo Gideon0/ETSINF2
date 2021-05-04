@@ -63,7 +63,8 @@ public class ChatRobot implements MessageListener
         }
     }
     
-    public static void main (String args [] ){
-        System.out.println ("To be implemented");
+    public static void main (String args []) throws Exception{
+        ChatRobot cr = new ChatRobot(ChatConfiguration.parse(args));
+        cr.doConnect();
     }
 }
