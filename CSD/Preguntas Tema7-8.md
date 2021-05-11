@@ -6,9 +6,13 @@
 | --- | --- |
 | La transparencia de acceso oculta las diferencias en la representación de los datos y encómo se accede a los recursos. | V |
 | Cuando un sistema distribuido es abierto facilita que uno de sus módulos o componentes pueda utilizarse en otro sistema distribuido. | V |
-| Para conseguir escalabilidad de distancia debe asumirse que se está utilizando una red de área local. JUSTIFICACIÓN: *La escalabilidad de distancia permite extender el sistema por redes de área amplia* *(WAN), por lo que si se usan algoritmos basados en redes de área local, se debe considerar que no se* *está* *usando* *una* *red* *local,* *sino una* *red* *WAN,* *por* *lo* *que hay* *que* *tener* *en* *cuenta* *los efectos* *de* *los* *retardos en la transmisión de los datos y la menor fiabilidad de las comunicaciones.* | F |
+| Para conseguir escalabilidad de distancia debe asumirse que se está utilizando una red de área local. | F |
+|JUSTIFICACIÓN: *La escalabilidad de distancia permite extender el sistema por redes de área amplia* *(WAN), por lo que si se usan algoritmos basados en redes de área local, se debe considerar que no se* *está* *usando* *una* *red* *local,* *sino una* *red* *WAN,* *por* *lo* *que hay* *que* *tener* *en* *cuenta* *los efectos* *de* *los* *retardos en la transmisión de los datos y la menor fiabilidad de las comunicaciones.* ||
+|||
 | Los algoritmos descentralizados facilitan distribuir la carga computacional entre diferentes ordenadores. | V |
-| Se requiere utilizar algoritmos descentralizados para conseguir escalabilidad administrativa, de modo que los cómputos se distribuyen entre diferentes áreas administrativas del sistema.JUSTIFICACIÓN:*Para* *conseguir* *escalabilidad* *administrativa* *se* *deben* *utilizar* *protocolos* *y* *mecanismos estándar de autenticación y autorización; así como implementar mecanismos para proteger a cada organización del resto y del propio sistema.* | F |
+| Se requiere utilizar algoritmos descentralizados para conseguir escalabilidad administrativa, de modo que los cómputos se distribuyen entre diferentes áreas administrativas del sistema| F |
+|JUSTIFICACIÓN:*Para* *conseguir* *escalabilidad* *administrativa* *se* *deben* *utilizar* *protocolos* *y* *mecanismos estándar de autenticación y autorización; así como implementar mecanismos para proteger a cada organización del resto y del propio sistema.* |
+|||
 | Para mejorar la escalabilidad de tamaño, los clientes deben delegar en el servidor tantas responsabilidades como sea posible.JUSTIFICACIÓN: *Al* *contrario,* *contra* *menos* *se* *centralicen* *las* *tareas* *en* *los* *servidores,* *mayor* *escalabilidad de tamaño se podrá conseguir.* | F |
 | La *capa* *de* *middleware*, que se ubica bajo el nivel de aplicación, puede integrar algunosmecanismos de comunicación que faciliten la programación de aplicaciones distribuidas; por ejemplo: JMS. | V |
 | Un sistema distribuido es un conjunto de ordenadores independientes que ofrecen asus usuarios la imagen de un sistema coherente único. | V |
@@ -137,7 +141,7 @@ El servicio de pertenencia a grupo permite determinar quiénes son los nodos que
 ## Sobre los servicios de nombres en un sistema distribuido
 
 |||
-
+|--|--|
 | Se necesitan para asegurar la exclusión mutua. |F |
 | Suelen utilizar una estructura jerárquica para facilitar su escalabilidad. |V |
 | Pueden retornar identificadores para facilitar la gestión de entidades móviles. |V |
