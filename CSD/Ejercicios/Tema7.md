@@ -1,4 +1,3 @@
- 
 # Actividades Unidad 7 - Conceptos de Sistemas Distribuidos
 
 ## Actividad 1
@@ -7,28 +6,26 @@
 
 Dadas las siguientes afirmaciones, idique si son Verdaderas (V) o Falsas (F).
 
-|||
-|--|--|
-|Un sistema distribuido es también un sistema concurrente|V|
-|*Justificación:* `Un sistema distribuido es una extensión natural de un sistema concurrente, cuando estos se ejecutan en más de un ordenador`||
-|||
-|||
-|Es un sistema distribuido, sus nodos comparten memoria, así como la señal de reloj|F|
-|*Justificación:* `Un ordenador no es ordenador del sistema distribuido, a nivel de hardware las máquinas son autónomas, no comparten, reloj, disco, etc.`||
-|||
-|||
-|Un sistema distribuido está formado por máquinas autónomas que ofrece a sus usuarios la imagen de un sistema único, haciendo uso de algoritmos distribuidos.|V|
-|*Justificación:* `Las máquinas son independientes una de la otra (punto de vista hardware), usuarios observan una imagen de un sistema único (punto de vista del usuario) y está formado por una colección de algoritmos distribuidos(punto de vista interno)`||
-|||
-|||
-|En los sistemas distribuidos, al igual que en los sistemas en red, los usuarios acceden a los ordenadores de la red utilizando la dirección de red de la máquina o el nombre asignado a dicha máquina.|F|
-|*Justificación* `Los usuarios observan el programa como si estuviese en un único ordenador, mientras que, en los sistemas de red, los usuarios acceden a cada uno de los diferentes ordenadores que forman la red, de forma individual, conociendo sus nombres o direcciones de red`||
-|||
-|||
-|Un programa concurrente formado por varios hilos dentro de un único proceso es un ejemplo de sistema no distribuido.|V|
-|*Justificación* `Para ser un sistema distribuido tendría que ser un programa formado por varios hilos los cuales se ejecuten en distintas máquinas a su vez, independientemente una de la otra.`||
-
-
+|                                                                                                                                                                                                                                                                                      |     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
+| Un sistema distribuido es también un sistema concurrente                                                                                                                                                                                                                             | V   |
+| *Justificación:* `Un sistema distribuido es una extensión natural de un sistema concurrente, cuando estos se ejecutan en más de un ordenador`                                                                                                                                        |     |
+|                                                                                                                                                                                                                                                                                      |     |
+|                                                                                                                                                                                                                                                                                      |     |
+| Es un sistema distribuido, sus nodos comparten memoria, así como la señal de reloj                                                                                                                                                                                                   | F   |
+| *Justificación:* `Un ordenador no es ordenador del sistema distribuido, a nivel de hardware las máquinas son autónomas, no comparten, reloj, disco, etc.`                                                                                                                            |     |
+|                                                                                                                                                                                                                                                                                      |     |
+|                                                                                                                                                                                                                                                                                      |     |
+| Un sistema distribuido está formado por máquinas autónomas que ofrece a sus usuarios la imagen de un sistema único, haciendo uso de algoritmos distribuidos.                                                                                                                         | V   |
+| *Justificación:* `Las máquinas son independientes una de la otra (punto de vista hardware), usuarios observan una imagen de un sistema único (punto de vista del usuario) y está formado por una colección de algoritmos distribuidos(punto de vista interno)`                       |     |
+|                                                                                                                                                                                                                                                                                      |     |
+|                                                                                                                                                                                                                                                                                      |     |
+| En los sistemas distribuidos, al igual que en los sistemas en red, los usuarios acceden a los ordenadores de la red utilizando la dirección de red de la máquina o el nombre asignado a dicha máquina.                                                                               | F   |
+| *Justificación* `Los usuarios observan el programa como si estuviese en un único ordenador, mientras que, en los sistemas de red, los usuarios acceden a cada uno de los diferentes ordenadores que forman la red, de forma individual, conociendo sus nombres o direcciones de red` |     |
+|                                                                                                                                                                                                                                                                                      |     |
+|                                                                                                                                                                                                                                                                                      |     |
+| Un programa concurrente formado por varios hilos dentro de un único proceso es un ejemplo de sistema no distribuido.                                                                                                                                                                 | V   |
+| *Justificación* `Para ser un sistema distribuido tendría que ser un programa formado por varios hilos los cuales se ejecuten en distintas máquinas a su vez, independientemente una de la otra.`                                                                                     |     |
 
 ## Actividad 2
 
@@ -38,16 +35,17 @@ Explique, con sus propias palabras, cómo se refleja las cuatro características
 
 1. **La aplicación distribuida PoliformatT.**
 
-    - Transparencia: el usuario no puede notar que hay 12 ordenadores dándole soporte a la web
-    - Disponibilidad: se intenta de que Poliformat esté siempre disponible 
-    - Escalabilidad: pueden ingresar tantos usuarios como quieran y eso no afecta al redimiendo de Poliformat
-    - Seguridad: cada usuario de Poliformat tiene su único usuario y clave asignada para poder acceder a la web
+   - Transparencia: el usuario no puede notar que hay 12 ordenadores dándole soporte a la web
+   - Disponibilidad: se intenta de que Poliformat esté siempre disponible 
+   - Escalabilidad: pueden ingresar tantos usuarios como quieran y eso no afecta al redimiendo de Poliformat
+   - Seguridad: cada usuario de Poliformat tiene su único usuario y clave asignada para poder acceder a la web
 
 2. **Los servicios de mensajería en Internet (email).**
-    - Transparencia: los usuarios no notarán que su bandeja de correo se encuentra en un ordenador u otro. 
-    - Disponibilidad: en cualquier momento, cualquier usuario puede acceder a su correo electrónico
-    - Escalabilidad: pueden haber N cantidad de usuarios haciendo uso de su correo electrónico
-    - Seguridad: las cuentas se regulan por sus propias claves de acceso
+
+   - Transparencia: los usuarios no notarán que su bandeja de correo se encuentra en un ordenador u otro. 
+   - Disponibilidad: en cualquier momento, cualquier usuario puede acceder a su correo electrónico
+   - Escalabilidad: pueden haber N cantidad de usuarios haciendo uso de su correo electrónico
+   - Seguridad: las cuentas se regulan por sus propias claves de acceso
 
 ## Actividad 3
 
@@ -56,8 +54,8 @@ Explique, con sus propias palabras, cómo se refleja las cuatro características
 Indique con qué ejes de la transparencia de distribución se corresponden las siguientes características de un sistema.
 
 1. Un usuario no percibe que el sistema esté siendo utilizado por múltiples usuarios al mismo tiempo.
-
- `Transparencia de concurrencia`
+   
+   `Transparencia de concurrencia`
 
 2. El sistema permite la movilidad de recursos sin afectar al sistema
 
@@ -124,10 +122,10 @@ En la replicación activa, el cliente al realizar una petición, se la hace a to
 2. ¿Qué es la "consistencia" entre réplicas? ¿Qué tipos de consistencia existen?
 
 - Consistencia fuerte
-Idealmente todas las réplicas son iguales entre sí en todo momento. Es imposible lograr esto, pero la menos se puede lograr sistemas con consistencia bastante fuerte, donde los usuarios del servicio obtienen la misma respuesta independiente de la réplica que les atienda.
+  Idealmente todas las réplicas son iguales entre sí en todo momento. Es imposible lograr esto, pero la menos se puede lograr sistemas con consistencia bastante fuerte, donde los usuarios del servicio obtienen la misma respuesta independiente de la réplica que les atienda.
 
 - Consistencia débil
-Las réplicas pueden divergir, de forma que cada una de ellas pueden dar repuestas diferentes, pero aceptables, en cierto instante.
+  Las réplicas pueden divergir, de forma que cada una de ellas pueden dar repuestas diferentes, pero aceptables, en cierto instante.
 
 ## Actividad 6
 
@@ -167,64 +165,64 @@ Sustituir discos, alterar la configuración de los sistemas, realizar copias de 
 
 Dadas las siguientes afirmaciones, indique si son Verdaderas (V) o Falsas).
 
-|||
-|-|-|
-|En general, en un sistema distribuido los usuarios no deberían poder acceder a los servicios del sistema mientras se realizan copias de seguridad del mismo.|F|
-|*Justificación* `Tienen que acceder por la disponibilidad.`||
-|||
-|||
-|Un ataque de denegación de servicio es un ataque malicioso al sistema.|V|
-|*Justificación* `Un ataque malicioso puede ser desde intrusos que alteran, eliminan, interceptan o suplantan recursos hasta a ataques distribuidos de denegación de servicios.`||
-|||
-|||
-|En un sistema con consistencia débil, los usuarios del servicio obtienen la misma respuesta independientemente de la réplica que les atienda.||
-|*Justificación* `Las réplicas son todas distintas por lo que ofrecen distintas respuestas, pero que son aceptables, en cierto instante`||
-|||
-|||
-|Los fallos compuestos,  al  afectar a  varios  nodos  y  canales  simultáneamente,  son indetectables ||
-|*Justificación* `Depende de cómo sea el fallo, si son fallos simples son detectables o fallos bizantinos que son indetectables`||
-|||
-|||
-|Los fallos de parada, de temporización y los fallos bizantinos son ejemplos de fallos simples detectables.||
-|*Justificación* `Los fallos detectables son: parada, temporización y de respuesta detectable. Los fallos indetectables: fallos vizantinos`||
-|||
-|||
-|Un fallo de respuesta detectable consiste en que un nodo tarda demasiado en responder y el nodo que espera su respuesta detecta, mediante un timeout, que la respuesta no llega.||
-|*Justificación* `El nodo falla, proporcionando una respuesta equivocada, detectable como tal`||
-|||
-|||
-|Los  fallos simples detectables se  tratan utilizando  replicación  y, en su caso, se ignora a la réplica que ha fallado.||
-|*Justificación* `Se usa replicación y al obtener la réplica que ha fallado se expulsa`||
-|||
-|||
-|En los fallos bizantinos los nodos proporcionan una respuesta errónea, por ejemplo, por un error en el software.|| 
-|*Justificación* `Proporciona una respuesta que no puede detectarse como fallo.`||
-|||
-|||
-|Para tratar los fallos bizantinos se utilizan algoritmos de quorum. ||
-|*Justificación* `Se manda una petición a todos, se analizan las respuestas, la respuesta mayoritaria es la correcta.`||
-|||
-|||
-|El  teorema  CAP  implica  que  se  debe  ofrecer  a  la  vez Consistencia  fuerte,  Disponibilidad elevada y permitir que ocurran Particiones.||
-|*Justificación* `El teorema CAP lo que indica es que es imposible ofrecer Consistencia Fuerte, Disponibilidad elevada y permitir Particiones a la vez. Por lo que se pueden hacer sistemas CP, CA y AP`||
-|||
-|||
-|El servicio de pertenencia a grupo se encarga de llegar a un consenso entre los nodos sobre qué nodos han fallado.||
-|*Justificación* `Se comparan las replicas y de la que haya mayoría se considera la correcta, de esta forma se puede encontrar la que posee fallo y se expulsa, luego se le informa a los nodos vivos del fallo.`||
-|||
-|||
-|Todos  los  fallos simples  detectables  se  tratan  como  fallos  de  parada,  de  modo  que  si  se detecta que un nodo ha fallado, se expulsa y el resto de nodos lo ignora.||
-|*Justificación* `Se convierte en fallos de parada, se localiza y se expulsa, las otras continúan trabajando como si nada.`||
-|||
-|||
+|                                                                                                                                                                                                                  |     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| En general, en un sistema distribuido los usuarios no deberían poder acceder a los servicios del sistema mientras se realizan copias de seguridad del mismo.                                                     | F   |
+| *Justificación* `Tienen que acceder por la disponibilidad.`                                                                                                                                                      |     |
+|                                                                                                                                                                                                                  |     |
+|                                                                                                                                                                                                                  |     |
+| Un ataque de denegación de servicio es un ataque malicioso al sistema.                                                                                                                                           | V   |
+| *Justificación* `Un ataque malicioso puede ser desde intrusos que alteran, eliminan, interceptan o suplantan recursos hasta a ataques distribuidos de denegación de servicios.`                                  |     |
+|                                                                                                                                                                                                                  |     |
+|                                                                                                                                                                                                                  |     |
+| En un sistema con consistencia débil, los usuarios del servicio obtienen la misma respuesta independientemente de la réplica que les atienda.                                                                    | F   |
+| *Justificación* `Las réplicas son todas distintas por lo que ofrecen distintas respuestas, pero que son aceptables, en cierto instante`                                                                          |     |
+|                                                                                                                                                                                                                  |     |
+|                                                                                                                                                                                                                  |     |
+| Los fallos compuestos,  al  afectar a  varios  nodos  y  canales  simultáneamente,  son indetectables                                                                                                            |     |
+| *Justificación* `Depende de cómo sea el fallo, si son fallos simples son detectables o fallos bizantinos que son indetectables`                                                                                  | F   |
+|                                                                                                                                                                                                                  |     |
+|                                                                                                                                                                                                                  |     |
+| Los fallos de parada, de temporización y los fallos bizantinos son ejemplos de fallos simples detectables.                                                                                                       | F   |
+| *Justificación* `Los fallos detectables son: parada, temporización y de respuesta detectable. Los fallos indetectables: fallos vizantinos`                                                                       |     |
+|                                                                                                                                                                                                                  |     |
+|                                                                                                                                                                                                                  |     |
+| Un fallo de respuesta detectable consiste en que un nodo tarda demasiado en responder y el nodo que espera su respuesta detecta, mediante un timeout, que la respuesta no llega.                                 | F   |
+| *Justificación* `El nodo falla, proporcionando una respuesta equivocada, detectable como tal`                                                                                                                    |     |
+|                                                                                                                                                                                                                  |     |
+|                                                                                                                                                                                                                  |     |
+| Los  fallos simples detectables se  tratan utilizando  replicación  y, en su caso, se ignora a la réplica que ha fallado.                                                                                        | V   |
+| *Justificación* `Se usa replicación y al obtener la réplica que ha fallado se expulsa`                                                                                                                           |     |
+|                                                                                                                                                                                                                  |     |
+|                                                                                                                                                                                                                  |     |
+| En los fallos bizantinos los nodos proporcionan una respuesta errónea, por ejemplo, por un error en el software.                                                                                                 | V   |
+| *Justificación* `Proporciona una respuesta que no puede detectarse como fallo.`                                                                                                                                  |     |
+|                                                                                                                                                                                                                  |     |
+|                                                                                                                                                                                                                  |     |
+| Para tratar los fallos bizantinos se utilizan algoritmos de quorum.                                                                                                                                              |     |
+| *Justificación* `Se manda una petición a todos, se analizan las respuestas, la respuesta mayoritaria es la correcta.`                                                                                            |     |
+|                                                                                                                                                                                                                  |     |
+|                                                                                                                                                                                                                  |     |
+| El  teorema  CAP  implica  que  se  debe  ofrecer  a  la  vez Consistencia  fuerte,  Disponibilidad elevada y permitir que ocurran Particiones.                                                                  | F   |
+| *Justificación* `El teorema CAP lo que indica es que es imposible ofrecer Consistencia Fuerte, Disponibilidad elevada y permitir Particiones a la vez. Por lo que se pueden hacer sistemas CP, CA y AP`          |     |
+|                                                                                                                                                                                                                  |     |
+|                                                                                                                                                                                                                  |     |
+| El servicio de pertenencia a grupo se encarga de llegar a un consenso entre los nodos sobre qué nodos han fallado.                                                                                               | V   |
+| *Justificación* `Se comparan las replicas y de la que haya mayoría se considera la correcta, de esta forma se puede encontrar la que posee fallo y se expulsa, luego se le informa a los nodos vivos del fallo.` |     |
+|                                                                                                                                                                                                                  |     |
+|                                                                                                                                                                                                                  |     |
+| Todos  los  fallos simples  detectables  se  tratan  como  fallos  de  parada,  de  modo  que  si  se detecta que un nodo ha fallado, se expulsa y el resto de nodos lo ignora.                                  | V   |
+| *Justificación* `Se convierte en fallos de parada, se localiza y se expulsa, las otras continúan trabajando como si nada.`                                                                                       |     |
+|                                                                                                                                                                                                                  |     |
+|                                                                                                                                                                                                                  |     |
 
 ## Actividad 9
 
 ### OBJETIVOS: Caracterizar los tipos de fallos y los mecanismos para lograr tolerancia a fallos
 
-Indique el orden de los pasos para lograr tolerancia a fallos, en el caso de fallos simples detectable que no causen particiones:
+Indique el orden de los pasos para lograr tolerancia a fallos, en el caso de fallos simples detectable que no causen particiones:s
 |Orden |Paso|
-|--|--|
+|---|---|
 |5|La mayoría de los nodos del sistema acuerda que el nodo X ha fallado.|
 |4|El servicio de pertenencia a grupo inicia una fase de acuerdo para determinar si el nodo X ha fallado.|
 |9|Los nodos se reconfiguran para funcionar sin el nodo "X".|
@@ -238,11 +236,48 @@ Indique el orden de los pasos para lograr tolerancia a fallos, en el caso de fal
 
 ### OBJETIVOS: Caracterizar los tipos de fallos y los mecanismos para tratarlos.
 
+|                                  |                             |                          |
+| -------------------------------- | --------------------------- | ------------------------ |
+| Particiones                      | Fallo compuesto             | Replicación, Teorema CAP |
+| Fallo  de  respuesta  detectable | Fallo simple, detectable    | Replicación              |
+| Fallo  de  temporización         | Fallo simple, detectable    | Replicación              |
+| Fallo  de  parada                | Fallo simple, detectable    | Replicación              |
+| Fallo  bizantino                 | Fallo simple, no detectable | Algoritmos de quorum     |
 
-| |||
-| --- |---|---|
-| Particiones|Fallo compuesto|Replicación, Teorema CAP |
-| Fallo  de  respuesta  detectable|Fallo simple, detectable|Replicación |
-| Fallo  de  temporización|Fallo simple, detectable|Replicación |
-| Fallo  de  parada|Fallo simple, detectable|Replicación |
-| Fallo  bizantino|Fallo simple, no detectable|Algoritmos de quorum |
+## Actividad 11
+
+### Objetivos: Caracterizar los principios de la escalabilidad y las técnicas para ofrecerla
+
+Responda brevemente a las siguientes preguntas (con un máximo de 30 palabras por respuesta):
+
+1. **¿Cuándo decimos que un sistema es escalable?**
+
+Decimos que un sistema es escalable sis el servicio que ofrece no sufre alteraciones de rendimiento y disponibilidad desde el punto de vista del usuario al aumentar: numero de usuarios, recursos, nodos, y peticiones de servicio simultaneas.
+
+2. **¿Cuáles son las técnicas más importantes para aumentar la escalabilidad?**
+
+- Distribuir la carga: distribuir el procesamiento que realiza el servicio a diferentes nodos (incluso a los clientes)
+- Distribuir datos: distribuir los recursos en diferentes nodos, de forma que cada nodo sirva una parate de los recursos del sistema.
+- Replicación: replica los recursos para permitir que cada replica atienda parte del total de particiones sobre el mismo recurso.
+- Caching: paso particular de replicación, donde disponemos de un copia de recursos en el propio cliente
+
+3. **¿Qué es un sistema altamente escalable?**
+
+Son los sistemas con objetivos de crecimiento a escala global
+
+4. **¿Qué relación existe entre replicacion y caching?**
+
+Que el caching es un tipo de replicación, donde es el mismo cliente quien mantiene un réplica
+
+## Actividad 12
+
+### Objetivos: Caracterizar los principios de la escalabilidad y la seguridad
+
+|||
+| --- |  --- |
+| Con  la  distribución  de  los  datos  se  distribuyen  los  recursos  del  sistema,  de  modo  que  cada  nodo  sirve  una parte  de  esos recursos,  como  ocurre con la  división  de  los  DNS en zonas. | V |
+| La  replicación  permite  aumentar  la  disponibilidad  y  la  escalabilidad  del  sistema  distribuido. | V |
+| Los  sistemas  altamente  escalables  ofrecen  consistencia  fuerte.La consistencia fuerte afecta a la replicación respecto a la escalabilidad, y la replicación es fundamental en los sistemas altamente escalables | F |
+| La  técnica  de  caching  ofrece  consistencia  débil. | V |
+| Los  usuarios  se  autentican  en  un  sistema  al  proporcionar  sus  credenciales. | V |
+| Los  mecanismos  de  control  de  acceso  gestionan  si  los  usuarios  autenticados  tienen  permiso para  acceder  a los  recursos  solicitados. | V |
