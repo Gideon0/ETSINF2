@@ -1,4 +1,4 @@
-package aplicaciones;
+package ejemplos;
 
 import librerias.util.Ordenacion;
 import java.util.Random;

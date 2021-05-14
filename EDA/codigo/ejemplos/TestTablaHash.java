@@ -1,4 +1,4 @@
-package aplicaciones;
+package ejemplos;
 
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -8,8 +8,9 @@ import librerias.estructurasDeDatos.modelos.ListaPI;
 import librerias.estructurasDeDatos.deDispersion.TablaHash;
 
 public class TestTablaHash {
+    @SuppressWarnings("unchecked")
     public static void main(String[] args) {
-        TablaHash<String,Integer> tabla = new TablaHash<>(1);
+        TablaHash<String,Integer> tabla = new TablaHash(100);
 
         Scanner fichero = null;
         
@@ -32,6 +33,7 @@ public class TestTablaHash {
             }
         }
 
+        /*
         ListaPI<String> lista = tabla.claves();
         lista.irInicio();
 
@@ -41,9 +43,16 @@ public class TestTablaHash {
             System.out.println(palabra + " --> " + apariciones + " veces");
             lista.siguiente();
         }
-        
-        System.out.println("Media: " + tabla.factor_carga());
-        System.out.println("Varianza: " + tabla.varianza());
-        System.out.println("Cubetas: " + tabla.elArray.length);
+        */
+
+        //System.out.println("Media: " + tabla.factor_carga());
+        //System.out.println("Varianza: " + tabla.varianza());
+        //System.out.println("Cubetas: " + tabla.elArray.length);
+
+        int[] histo = tabla.histograma();
+
+        for (int i = 0; i < histo.length; i++) {
+            System.out.println(i + " " + histo[i]);
+        }
     }
 }

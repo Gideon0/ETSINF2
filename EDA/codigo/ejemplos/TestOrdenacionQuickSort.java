@@ -1,4 +1,4 @@
-package aplicaciones;
+package ejemplos;
 
 import librerias.util.Ordenacion;
 import java.util.Random;
@@ -7,8 +7,9 @@ public class TestOrdenacionQuickSort {
     public static void main(String[] args) {
         Random gen = new Random();
         
-        //Integer [] vec = new Integer[100];
-/*
+        /*
+        Integer [] vec = new Integer[100];
+
         System.out.println("\nDesordenado:");
         for (int i = 0; i < 100; i++) {
             vec[i] = gen.nextInt(100);
@@ -23,8 +24,8 @@ public class TestOrdenacionQuickSort {
         }
 
         System.out.println("\n");
-        
         */
+
         for (int talla = 10000; talla < 100000; talla += 10000) {
             Integer [] vec = new Integer[talla];
             for (int i = 0; i < talla; i++)

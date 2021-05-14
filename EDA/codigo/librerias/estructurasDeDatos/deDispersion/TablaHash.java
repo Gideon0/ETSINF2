@@ -1,7 +1,6 @@
 package librerias.estructurasDeDatos.deDispersion;
 
 import librerias.estructurasDeDatos.modelos.Map;
-import librerias.estructurasDeDatos.deDispersion.NodeHash;
 import librerias.estructurasDeDatos.lineales.LEGListaPI;
 import librerias.estructurasDeDatos.modelos.ListaPI;
 
@@ -38,6 +37,7 @@ public class TablaHash<C,V> implements Map<C,V> {
         }
     }
 
+    @SuppressWarnings("unchecked")
     public V insertar(C clave, V valor) {
         if (factor_carga() > 1.5)
             rehashing();
@@ -50,7 +50,7 @@ public class TablaHash<C,V> implements Map<C,V> {
             aux = aux.sig;
 
         if (aux == null) {
-            elArray[cub] = new NodeHash<>(clave,valor,elArray[cub]);
+            elArray[cub] = new NodeHash(clave,valor,elArray[cub]);
             talla++;
         }
         else {
@@ -135,23 +135,22 @@ public class TablaHash<C,V> implements Map<C,V> {
         return suma / elArray.length;
     }
 
-    public int [] histograma(){
+    public int [] histograma() {
         final int TAM_HISTO = 10;
-        
-        int [] histo = new int [TAM_HISTO];
 
-        for (int i = 0;i < histo.length; i++ ){
+        int [] histo = new int[TAM_HISTO];
+
+        for (int i = 0; i < histo.length; i++)
             histo[i] = 0;
-        }
 
         for (int cub = 0; cub < elArray.length; cub++){
             NodeHash<C,V> aux = elArray[cub];
             int cont = 0;
-            while(aux != null){
+            while(aux != null) {
                 cont++;
-                aux = aux.siguiente();
+                aux = aux.sig;
             }
-            
+
             if (cont < TAM_HISTO)
                 histo[cont]++;
             else
