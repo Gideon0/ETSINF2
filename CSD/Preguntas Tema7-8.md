@@ -2,6 +2,8 @@
 
 ## Sobre los sistemas distribuidos
 
+> Propando
+
 |||
 | --- | --- |
 | La transparencia de acceso oculta las diferencias en la representación de los datos y encómo se accede a los recursos. | V |
@@ -11,7 +13,7 @@
 |||
 | Los algoritmos descentralizados facilitan distribuir la carga computacional entre diferentes ordenadores. | V |
 | Se requiere utilizar algoritmos descentralizados para conseguir escalabilidad administrativa, de modo que los cómputos se distribuyen entre diferentes áreas administrativas del sistema| F |
-|JUSTIFICACIÓN:*Para* *conseguir* *escalabilidad* *administrativa* *se* *deben* *utilizar* *protocolos* *y* *mecanismos estándar de autenticación y autorización; así como implementar mecanismos para proteger a cada organización del resto y del propio sistema.* |
+| JUSTIFICACIÓN:*Para* *conseguir* *escalabilidad* *administrativa* *se* *deben* *utilizar* *protocolos* *y* *mecanismos estándar de autenticación y autorización; así como implementar mecanismos para proteger a cada organización del resto y del propio sistema.* ||
 |||
 | Para mejorar la escalabilidad de tamaño, los clientes deben delegar en el servidor tantas responsabilidades como sea posible.JUSTIFICACIÓN: *Al* *contrario,* *contra* *menos* *se* *centralicen* *las* *tareas* *en* *los* *servidores,* *mayor* *escalabilidad de tamaño se podrá conseguir.* | F |
 | La *capa* *de* *middleware*, que se ubica bajo el nivel de aplicación, puede integrar algunosmecanismos de comunicación que faciliten la programación de aplicaciones distribuidas; por ejemplo: JMS. | V |

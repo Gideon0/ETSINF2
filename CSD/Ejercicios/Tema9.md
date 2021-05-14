@@ -58,3 +58,21 @@ El nodo A ajusta la diferencia notificada y la notifica al resto
 Valor final será de **10.035** en cada nodo (a expeción del nodo D ya que no se puede retrasar, sino que irá más despecio)
 
 ![](attachment/2021-05-13-19-50-55.png)
+
+## Activodad 4
+
+![](attachment/2021-05-14-12-48-01.png)
+
+B) Cuncurrentes con I 
+
+C y D
+
+![](attachment/2021-05-14-12-51-55.png)
+
+C) Concurrente con el evento E
+
+K y L 
+
+![](attachment/2021-05-14-12-54-00.png)
+
+D
