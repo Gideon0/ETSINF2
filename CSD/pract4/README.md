@@ -44,8 +44,68 @@ Para mostrar los canales disponibles
 ### Cuando un cliente del Chat se une a un canal, el canal avisa a los demás usuarios del canal
 
 1. **¿Qué mensaje le llega a cada usuario del canal?**
+
+"JOIN UsarioQueSeConcecta"
+
 2. **¿Se ha creado algún objeto para el envío del mensaje? ¿Cuál o cuáles?**
-3. **¿A qué clases y métodos de dichas clases se ha llamado? Explique detalladamente los pasos que  se  siguen para  que  el  canal  avise a  los  demás  usuarios  de  la  unión  de  un  nuevo  usuario, indicando: (i) Clase y método que se invoca; (ii) si se trata de un objeto remoto (y, por tanto, se hace uso de su proxy); (iii) parámetros del método(y si son por valor o referencia**
+
+Objeto de la clase ChatMessage
+
+3. **¿A qué clases y métodos de dichas clases se ha llamado? Explique deta lladamente los pasos que  se  siguen para  que  el  canal  avise a  los  demás  usuarios  de  la  unión  de  un  nuevo  usuario, indicando: (i) Clase y método que se invoca; (ii) si se trata de un objeto remoto (y, por tanto, se hace uso de su proxy); (iii) parámetros del método(y si son por valor o referencia**
+
+```java
+// ChatChanel.java
+   private void notifyUsers (String code, String nick) {
+      IChatMessage msg = null;
+      try {
+    msg = new ChatMessage (null, this, code + " " + nick);
+      } catch (Exception e) {return;}
+
+      for (IChatUser usr: users.values()) {
+     try {
+        usr.sendMessage (msg);
+  } catch (Exception e) {} // Ignore errors when sending channel notifications
+      }      
+
+   }
+
+// ChatChanel
+public boolean join (IChatUser usr) throws RemoteException
+   {
+      String nick = usr.getNick();
+      String keyNick = nick.trim().toLowerCase();
+      if (users.get (keyNick) != null) return false; // User already in channel
+      users.put (keyNick, usr);      
+      notifyUsers (JOIN, nick);
+      return true;
+   }
+
+//ChatCliente
+public String [] doJoinChannel (String channelName) throws Exception {
+          IChatChannel ch = srv.getChannel (channelName);
+          if (ch == null) {
+              throw new Exception ("Channel not found");
+          }
+          /* ****************************    */
+          //ACTIVITY 3: JOIN A CHANNEL 
+          //3.a Make that the user "myUser" joins the channel "ch".   
+          ch.join(myUser);
+          //Obtains the list of channel users  
+          IChatUser [] users = ch.listUsers ();
+          if (users == null || users.length == 0){
+              throw new Exception ("BUG. Tell professor there are no users after joining");
+          }
+          
+          String [] userList = new String [users.length];      
+          for (int i=0; i<users.length; i++) {
+              userList[i] = users[i].getNick();
+          }
+          
+          return userList;
+       }
+
+
+```
 
 ## Actividad 4
 
