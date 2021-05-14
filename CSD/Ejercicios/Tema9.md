@@ -1,6 +1,6 @@
-## Actividad 2
+# Actividad 2
 
-### Objetivos: Ilustrar el algoritmo de sincronización de Berkeley
+## Objetivos: Ilustrar el algoritmo de sincronización de Berkeley
 
 En un sistema distribuido con 4 nodos se emplea el algoritmo de Berkeley para sincronizar sus relojes. Uno de los nodos (nodo A) actúa como servidor del algoritmo, mientras que los otros nodos (nodos B, C y D) actúan como clientes. Supongamos que cada nodo tiene un reloj que indica el número de tics transcurridos desde la misma base temporal; y que en un momento determinado tienen el siguiente valor para sus relojes: CA=10000, CB=10005, CC=10005 y CD=10010 (siendo Cn el reloj de cada nodo n). En dicho momento el servidor (nodo A) inicia el algoritmo de Berkeley. 
 
@@ -51,7 +51,7 @@ El nodo A ajusta la diferencia notificada y la notifica al resto
 
 <img title="" src="attachment/2021-05-13-19-49-12.png" alt="3" width="445" data-align="center">
 
-#### Paso 4
+### Paso 4
 
 <img title="" src="attachment/2021-05-13-19-50-21.png" alt="" data-align="center" width="453">
 
@@ -75,4 +75,6 @@ K y L
 
 ![](attachment/2021-05-14-12-54-00.png)
 
-D
+D)
+
+![](attachment/2021-05-14-13-03-18.png)
