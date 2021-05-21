@@ -30,7 +30,7 @@ buffer_int: 	.ascii "          " # No tocar. Buffer de printf_integer
 
 # Segmento de código ("text")
 	.text
-    	.globl main	
+    	.globl main
 
 main:
 # Guarda adreça de retorn

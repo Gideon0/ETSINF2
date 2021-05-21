@@ -33,6 +33,11 @@ estado:	.word LISTO	# Estado del proceso
 # -- Cuestión 2
 segundos:   	.word 0
 # ----
+
+# -- Cuestión 7
+despertador: 	.word 0
+# ----
+
 	## Variables para el teclado
 
 
@@ -106,8 +111,30 @@ int2:
 	li $t1 , 1
 	sb $t1 0($t0)
 	
-	b retexc
 # ----
+
+# -- Cuestión 7
+	la $t0, estado
+	lw $t1, 0($t0)
+	li $t2, ESPERANDO
+	
+	bne $t1, $t2, finsi
+	
+    la $t0, segundos
+    lw $t1, 0($t0)
+    la $t0, despertador
+    lw $t2, 0($t0)
+		
+    bne $t1, $t2, finsi
+			
+    la $t0, estado
+    li $t1, LISTO
+    sw $t1, 0($t0)
+
+finsi:	
+# -----
+
+	b retexc
 
 ## Tratamiento de la interrupci�n de TECLADO
 
@@ -169,7 +196,7 @@ read_char:
 ###### GET_VERSION (Servicio 90)
 
 get_version:
-	li $v0,1 # Cambiar dependiendo de la versión
+	li $v0,2  # Cambiar dependiendo de la versión
 	b retexc
 
 
@@ -186,7 +213,19 @@ get_time:
 ###### WAIT_TIME (Servicio 92)
 
 wait_time:
-	# Por implementar
+
+# -- Cuestión 6
+	la $t0, estado
+	li, $t1, ESPERANDO
+	sw $t1, 0($t0)
+	
+	la $t0, segundos
+	lw $t1, 0($t0)
+	
+	add $t1, $t1, $a0
+	la $t0, despertador
+	sw $t1, 0($t0)
+# -----
 	b retexc
 
 
