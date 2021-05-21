@@ -1,3 +1,3 @@
 # P14 ETC
 
-Si te sale una exepción del tipo `main is undefined` haz un reload del archivo en cuentión
+Si te sale una exepción del tipo `main is undefined` haz un reinitialize y carga de nuevo el archivo en cuestión
