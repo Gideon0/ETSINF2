@@ -1,6 +1,6 @@
 #---------------------------------------------------------#
 #
-#  PRÁCTICA DE TRATAMIENTO DE EXCEPCIONES: usuario0.s
+#  PRï¿½CTICA DE TRATAMIENTO DE EXCEPCIONES: usuario0.s
 # 
 #---------------------------------------------------------#
 
@@ -26,15 +26,15 @@ buffer_int: 	.ascii "          " # No tocar. Buffer de printf_integer
 
 #-------------------------------------------------#
 
-# Segmento de código ("text")
+# Segmento de cï¿½digo ("text")
 	.text
-    	.globl main	
+    	.globl main
 
 main:
-# Guarda adreça de retorn
+# Guarda adreï¿½a de retorn
 	sw $ra,retorn
 
-# Saluda y da el número de versión
+# Saluda y da el nï¿½mero de versiï¿½n
 	la $a0,bondia
 	jal print_string
 	li $v0,get_version
@@ -44,7 +44,7 @@ main:
 	jal print_NL
 
 
-# Prueba de la función print_char 
+# Prueba de la funciï¿½n print_char 
 
 	li $s0,0
 bucle:
@@ -76,7 +76,7 @@ $L4:	jr $ra
 
 #-------------------------------------------------
 
-print_NL:	# sense paràmetres: escriu NL
+print_NL:	# sense parï¿½metres: escriu NL
 	li $a0,'\n'
 	li $v0,print_char 
 	syscall
@@ -90,9 +90,9 @@ printf_integer: # $a0: valor entero
 	li $t2,10         	# divisor
 
 $L1:	# bucle de cambio de base
-	divu $t0,$t2		# división entre 10
+	divu $t0,$t2		# divisiï¿½n entre 10
 	mfhi $t3          		# tomo el resto
-	addiu $t3,$t3,'0' 		# calculo código ascii
+	addiu $t3,$t3,'0' 		# calculo cï¿½digo ascii
 	sb $t3,buffer_int($t1)	# guardo en buffer
 	addi $t1,$t1,1		# avanzo puntero
 	mflo $t0			# nou dividendo
@@ -100,8 +100,8 @@ $L1:	# bucle de cambio de base
 
 $L2:	# bucle de escritura
 	addiu $t1,$t1,-1		# retrocedo en buffer
-	lb $a0,buffer_int($t1)	# tomo carácter
-	li $v0,print_char		# escribo carácter
+	lb $a0,buffer_int($t1)	# tomo carï¿½cter
+	li $v0,print_char		# escribo carï¿½cter
 	syscall			# llamada
 	bne $t1,$zero,$L2	
 	li $v0,print_char 
