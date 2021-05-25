@@ -1,4 +1,4 @@
-package Pract5;
+package Pract05;
 import java.net.*;
 import java.io.*;
 import java.util.Scanner;

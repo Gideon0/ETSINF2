@@ -1,4 +1,4 @@
-package Pract7;
+package Pract07;
 import java.io.*;
 import java.net.*;
 import java.util.*;

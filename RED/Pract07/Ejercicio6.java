@@ -1,14 +1,15 @@
-package Pract7;
+package Pract07;
 import java.io.*;
 import java.net.*;
 import java.util.*;
 
-public class Ejercicio5
+public class Ejercicio6
 {
     public static void main(String[] args)throws SocketException, IOException {
         byte[] buffer = new byte[1000];
         DatagramPacket p = new DatagramPacket(buffer,1000);
         DatagramSocket ds = new DatagramSocket(7777);
+        ds.setSoTimeout(5000);
         ds.receive(p);
         Date now = new Date();
         String now_string = now.toString() + "\r\n";
