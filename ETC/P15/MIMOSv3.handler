@@ -125,11 +125,10 @@ int1:
 	li $t1, espera_print_char
 	
 	bne $t0, $t1, fincon
-	li $t0, 0xffff000c
-	sb $a0, 0($t0)
-	
 	li $t0, 0xffff0008
-	sw $0, 0($t0)
+	sb $a0, 4($t0)
+	
+	sw $zero, 0($t0)
 	
 	li $t1, listo
 	sw $t1, estado
@@ -147,11 +146,10 @@ int0:
 	li $t1, espera_read_char
 	
 	bne $t0, $t1, fintec
-	li $t0, 0xffff0004
-	lb $a0, 0($t0)
-		
 	li $t0, 0xffff0000
-	sw $0, 0($t0)
+	lb $a0, 4($t0)  # Cancelar interupción 
+
+	sw $0, 0($t0)  # Inhibir
 		
 	li $t1, listo
 	sw $t1, estado
@@ -301,15 +299,15 @@ __start:
 ## Preparo el registro de estado del coprocesador y fijo modo usuario
 
 # -- Por defecto 
-	; mfc0 $t0, $12
-	; ori $t0, $0, 0x0003	# Interrupciones habilitadas
-	; mtc0 $t0, $12
+	# mfc0 $t0, $12
+	# ori $t0, $0, 0x0003	# Interrupciones habilitadas
+	# mtc0 $t0, $12
 # ----
 
 # -- Cuestión  2
-    ; mfc0 $t0, $12
-    ; ori $t0, $zero, 0x0503
-    ; mtc0 $t0, $12
+    # mfc0 $t0, $12
+    # ori $t0, $zero, 0x0503
+    # mtc0 $t0, $12
 # ----
 
 # - Cuetión 4
