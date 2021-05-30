@@ -101,4 +101,4 @@ No aparece, porque el protocolo arp trabaja en el nivel de enlace dentro de la m
 
 192.168.1.141 => Dir. IP del movil conectado a la misma red
 
-![eje6](attachment/eje6.png)
+![](attachment/eje6.png)
