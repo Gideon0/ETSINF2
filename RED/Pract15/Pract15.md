@@ -55,7 +55,7 @@ No se nos muestra lo que escribimos porque no recibimos la entrada del ssh
 4. Vuelve a la segunda terminal, y ahora teclea sudo iptables ­D INPUT ­p tcp
 ­­sport 22 ­j DROP ¿Qué sucede ahora? ¿Aún funciona tu sesión ssh con zoltar?
 
-![eje4](eje4.gif)
+<img title="" src="eje4.gif" alt="1" width="432" data-align="center">
 
 ahora recebimos todo lo que habíamos escrito anteriormente
 
