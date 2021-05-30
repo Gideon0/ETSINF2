@@ -45,15 +45,15 @@ conexión utilizando el usuario y contraseña que te indique el profesor1
 
 2. Abre otra terminal en tu ordenador, y en ella teclea 
 
-`sudo iptables -­A INPUT -­p tcp --­­sport 22 -­j DROP`
+`sudo iptables -A INPUT -p tcp --sport 22 -j DROP`
 
 3. Ahora vuelve a la ventana de tu conexión SSH con zoltar y teclea 123456 ¿qué
 sucede?¿por qué?
 
 No se nos muestra lo que escribimos porque no recibimos la entrada del ssh
 
-4. Vuelve a la segunda terminal, y ahora teclea sudo iptables ­D INPUT ­p tcp
-­­sport 22 ­j DROP ¿Qué sucede ahora? ¿Aún funciona tu sesión ssh con zoltar?
+4. Vuelve a la segunda terminal, y ahora teclea sudo iptables -D INPUT -p tcp
+--sport 22 -j DROP ¿Qué sucede ahora? ¿Aún funciona tu sesión ssh con zoltar?
 
 <img title="" src="eje4.gif" alt="1" width="432" data-align="center">
 
@@ -67,9 +67,9 @@ ahora recebimos todo lo que habíamos escrito anteriormente
 
 2. Ahora en una ventana de terminal teclea 
 
- `sudo iptables -­A OUTPUT -­p tcp -­d www.upv.es --­­dport 80 ­-j DROP`
+ `sudo iptables -A OUTPUT -p tcp -d www.upv.es --dport 80 -j DROP`
 
-3. Visualiza el estado de la cadena con la orden sudo iptables ­L.
+3. Visualiza el estado de la cadena con la orden sudo iptables -L.
 
 ```sh
 usulocal@rdcvm:~$ sudo iptables -L
@@ -95,7 +95,7 @@ Sí
 
 ## Ejercicio 6
 
-1. Asegúrate mediante la orden sudo iptables ­L  que has eliminado la regla del
+1. Asegúrate mediante la orden sudo iptables -L  que has eliminado la regla del
 ejercicio 5.
 
 Elimiar la regla:
@@ -118,14 +118,14 @@ Elimiar la regla:
 
 7. Añade estas dos nuevas reglas:
    
-a. `sudo iptables ­A OUTPUT ­p tcp ! ­d zoltar.redes.upv.es ­j DROP`
-b. `sudo iptables ­A OUTPUT ­p tcp ­d  www.upv.es ­­dport 80 ­j ACCEPT`
+a. `sudo iptables -A OUTPUT -p tcp ! -d zoltar.redes.upv.es -j DROP`
+b. `sudo iptables -A OUTPUT -p tcp -d  www.upv.es --dport 80 -j ACCEPT`
 
-8. Intenta recargar la página www.upv.es en el navegador. ¿Funciona? Comprueba con la orden sudo iptables ­L cuál es el contenido de la lista de reglas, e intenta explicar el significado de las tres reglas que aparecen. Piensa en cómo afecta el orden en el que están. ¿Cómo habría que modificarlas para poder acceder a www.upv.es?
+8. Intenta recargar la página www.upv.es en el navegador. ¿Funciona? Comprueba con la orden sudo iptables -L cuál es el contenido de la lista de reglas, e intenta explicar el significado de las tres reglas que aparecen. Piensa en cómo afecta el orden en el que están. ¿Cómo habría que modificarlas para poder acceder a www.upv.es?
 
 No funciona la regla a bloquea upv.es por lo tanto tenemos que cambiar el orden
 
-9.  Vamos a comprobarlo. Elimina la primera regla del punto 7: sudo   iptables   ­D OUTPUT ­p tcp ! ­d zoltar.redes.upv.es ­j DROP. Ahora vamos a añadirla al final de la cadena: sudo   iptables   ­A   OUTPUT   ­p   tcp   !   ­d zoltar.redes.upv.es ­j DROP
+9.  Vamos a comprobarlo. Elimina la primera regla del punto 7: sudo   iptables   -D OUTPUT -p tcp ! -d zoltar.redes.upv.es -j DROP. Ahora vamos a añadirla al final de la cadena: sudo   iptables   -A   OUTPUT   -p   tcp   !   -d zoltar.redes.upv.es -j DROP
 
 ## Ejercicio 7
 
