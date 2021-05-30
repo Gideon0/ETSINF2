@@ -1,0 +1,138 @@
+10:23:18,938 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+10:23:18,965 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=./data/journal,bindingsDirectory=./data/bindings,largeMessagesDirectory=./data/large-messages,pagingDirectory=./data/paging)
+10:23:18,990 INFO  [org.apache.activemq.artemis.core.server] AMQ221012: Using AIO Journal
+10:23:19,027 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+10:23:19,029 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+10:23:19,030 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+10:23:19,031 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+10:23:19,032 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+10:23:19,033 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+10:23:19,206 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying queue jms.queue.DLQ
+10:23:19,257 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying queue jms.queue.ExpiryQueue
+10:23:19,557 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started Acceptor at 0.0.0.0:9066 for protocols [CORE,MQTT,AMQP,HORNETQ,STOMP,OPENWIRE]
+10:23:19,559 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+10:23:19,559 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.4.0 [0.0.0.0, nodeID=75ef668f-bd32-11eb-bcd6-2079187c3f0d] 
+10:38:54,141 ERROR [org.apache.activemq.artemis.core.server] AMQ224069: Change detected in broker configuration file, but reload failed: org.xml.sax.SAXParseException; lineNumber: 28; columnNumber: 49; El contenido de los elementos debe constar de marcadores o datos de carácter con un formato correcto.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257) [rt.jar:1.8.0_292]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339) [rt.jar:1.8.0_292]
+	at org.apache.activemq.artemis.utils.XMLUtil.readerToElement(XMLUtil.java:89) [artemis-core-client-1.4.0.jar:1.4.0]
+	at org.apache.activemq.artemis.utils.XMLUtil.stringToElement(XMLUtil.java:55) [artemis-core-client-1.4.0.jar:1.4.0]
+	at org.apache.activemq.artemis.core.deployers.impl.FileConfigurationParser.parseMainConfig(FileConfigurationParser.java:207) [artemis-server-1.4.0.jar:1.4.0]
+	at org.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl$ConfigurationFileReloader.reload(ActiveMQServerImpl.java:2424) [artemis-server-1.4.0.jar:1.4.0]
+	at org.apache.activemq.artemis.core.server.reload.ReloadManagerImpl$ReloadRegistry.check(ReloadManagerImpl.java:108) [artemis-server-1.4.0.jar:1.4.0]
+	at org.apache.activemq.artemis.core.server.reload.ReloadManagerImpl.tick(ReloadManagerImpl.java:64) [artemis-server-1.4.0.jar:1.4.0]
+	at org.apache.activemq.artemis.core.server.reload.ReloadManagerImpl.run(ReloadManagerImpl.java:45) [artemis-server-1.4.0.jar:1.4.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [rt.jar:1.8.0_292]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [rt.jar:1.8.0_292]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [rt.jar:1.8.0_292]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [rt.jar:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_292]
+
+10:38:54,145 INFO  [org.apache.activemq.artemis.core.server] AMQ221056: Reloading configuration ...jms
+10:38:54,147 ERROR [org.apache.activemq.artemis.core.server] AMQ224069: Change detected in broker configuration file, but reload failed: org.xml.sax.SAXParseException; lineNumber: 28; columnNumber: 49; El contenido de los elementos debe constar de marcadores o datos de carácter con un formato correcto.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257) [rt.jar:1.8.0_292]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339) [rt.jar:1.8.0_292]
+	at org.apache.activemq.artemis.utils.XMLUtil.readerToElement(XMLUtil.java:89) [artemis-core-client-1.4.0.jar:1.4.0]
+	at org.apache.activemq.artemis.utils.XMLUtil.stringToElement(XMLUtil.java:55) [artemis-core-client-1.4.0.jar:1.4.0]
+	at org.apache.activemq.artemis.jms.server.impl.JMSServerManagerImpl$JMSReloader.reload(JMSServerManagerImpl.java:1772) [artemis-jms-server-1.4.0.jar:1.4.0]
+	at org.apache.activemq.artemis.core.server.reload.ReloadManagerImpl$ReloadRegistry.check(ReloadManagerImpl.java:108) [artemis-server-1.4.0.jar:1.4.0]
+	at org.apache.activemq.artemis.core.server.reload.ReloadManagerImpl.tick(ReloadManagerImpl.java:64) [artemis-server-1.4.0.jar:1.4.0]
+	at org.apache.activemq.artemis.core.server.reload.ReloadManagerImpl.run(ReloadManagerImpl.java:45) [artemis-server-1.4.0.jar:1.4.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [rt.jar:1.8.0_292]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [rt.jar:1.8.0_292]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [rt.jar:1.8.0_292]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [rt.jar:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_292]
+
+10:40:17,901 INFO  [org.apache.activemq.artemis.core.server] AMQ221002: Apache ActiveMQ Artemis Message Broker version 1.4.0 [75ef668f-bd32-11eb-bcd6-2079187c3f0d] stopped, uptime 16 minutes
+11:03:54,971 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+11:03:54,982 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=./data/journal,bindingsDirectory=./data/bindings,largeMessagesDirectory=./data/large-messages,pagingDirectory=./data/paging)
+11:03:55,002 INFO  [org.apache.activemq.artemis.core.server] AMQ221012: Using AIO Journal
+11:03:55,037 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+11:03:55,039 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+11:03:55,040 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+11:03:55,041 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+11:03:55,042 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+11:03:55,043 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+11:03:55,305 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying queue jms.queue.DLQ
+11:03:55,311 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying queue jms.queue.ExpiryQueue
+11:03:55,596 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started Acceptor at 0.0.0.0:9066 for protocols [CORE,MQTT,AMQP,HORNETQ,STOMP,OPENWIRE]
+11:03:55,600 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+11:03:55,622 ERROR [org.apache.activemq.artemis.core.server] AMQ224000: Failure in initialisation: java.net.BindException: La dirección ya se está usando
+	at sun.nio.ch.Net.bind0(Native Method) [rt.jar:1.8.0_292]
+	at sun.nio.ch.Net.bind(Net.java:461) [rt.jar:1.8.0_292]
+	at sun.nio.ch.Net.bind(Net.java:453) [rt.jar:1.8.0_292]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222) [rt.jar:1.8.0_292]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85) [rt.jar:1.8.0_292]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:501) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1218) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:505) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:490) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:965) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:210) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:353) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:402) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_292]
+
+11:03:55,624 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.4.0 [0.0.0.0, nodeID=75ef668f-bd32-11eb-bcd6-2079187c3f0d] 
+11:03:55,844 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:9067
+11:03:55,844 INFO  [org.apache.activemq.artemis] AMQ241002: Artemis Jolokia REST API available at http://localhost:9067/jolokia
+11:06:04,415 INFO  [org.apache.activemq.artemis.core.server] AMQ221002: Apache ActiveMQ Artemis Message Broker version 1.4.0 [75ef668f-bd32-11eb-bcd6-2079187c3f0d] stopped, uptime 2 minutes
+11:10:15,966 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+11:10:15,977 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=./data/journal,bindingsDirectory=./data/bindings,largeMessagesDirectory=./data/large-messages,pagingDirectory=./data/paging)
+11:10:15,997 INFO  [org.apache.activemq.artemis.core.server] AMQ221012: Using AIO Journal
+11:10:16,033 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+11:10:16,035 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+11:10:16,038 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+11:10:16,039 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+11:10:16,040 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+11:10:16,041 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+11:10:16,282 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying queue jms.queue.DLQ
+11:10:16,288 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying queue jms.queue.ExpiryQueue
+11:10:16,289 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying queue jms.queue.csd
+11:10:16,578 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started Acceptor at 0.0.0.0:9066 for protocols [CORE,MQTT,AMQP,HORNETQ,STOMP,OPENWIRE]
+11:10:16,581 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+11:10:16,608 ERROR [org.apache.activemq.artemis.core.server] AMQ224000: Failure in initialisation: java.net.BindException: La dirección ya se está usando
+	at sun.nio.ch.Net.bind0(Native Method) [rt.jar:1.8.0_292]
+	at sun.nio.ch.Net.bind(Net.java:461) [rt.jar:1.8.0_292]
+	at sun.nio.ch.Net.bind(Net.java:453) [rt.jar:1.8.0_292]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222) [rt.jar:1.8.0_292]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85) [rt.jar:1.8.0_292]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:501) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1218) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:505) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:490) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:965) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:210) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:353) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:402) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) [netty-all-4.0.39.Final.jar:4.0.39.Final]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_292]
+
+11:10:16,610 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.4.0 [0.0.0.0, nodeID=75ef668f-bd32-11eb-bcd6-2079187c3f0d] 
+11:10:16,827 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:9067
+11:10:16,827 INFO  [org.apache.activemq.artemis] AMQ241002: Artemis Jolokia REST API available at http://localhost:9067/jolokia
+11:11:24,971 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying queue jms.queue.users-Sally
+11:11:52,944 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying queue jms.queue.users-Harry
+11:16:45,106 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 2e11dc30-bd39-11eb-88b4-2079187c3f0d
+11:16:45,108 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 2e11dc30-bd39-11eb-88b4-2079187c3f0d
+11:16:45,108 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 2e1362d1-bd39-11eb-88b4-2079187c3f0d
+11:16:45,108 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 2e1362d1-bd39-11eb-88b4-2079187c3f0d
+11:16:45,113 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 2e264e94-bd39-11eb-88b4-2079187c3f0d
+11:16:45,113 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 2e264e94-bd39-11eb-88b4-2079187c3f0d
+11:16:45,647 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 3ec4ea2b-bd39-11eb-81a9-2079187c3f0d
+11:16:45,648 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 3ec4ea2b-bd39-11eb-81a9-2079187c3f0d
+11:16:45,649 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 3ec622ac-bd39-11eb-81a9-2079187c3f0d
+11:16:45,649 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 3ec622ac-bd39-11eb-81a9-2079187c3f0d
+11:16:45,651 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 3ed2098f-bd39-11eb-81a9-2079187c3f0d
+11:16:45,652 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 3ed2098f-bd39-11eb-81a9-2079187c3f0d
+11:16:48,558 INFO  [org.apache.activemq.artemis.core.server] AMQ221002: Apache ActiveMQ Artemis Message Broker version 1.4.0 [75ef668f-bd32-11eb-bcd6-2079187c3f0d] stopped, uptime 6 minutes
