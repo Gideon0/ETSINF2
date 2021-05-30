@@ -7,4 +7,10 @@ En la figura se muestra un conjunto de redes locales Ethernet (A, B, C, D y E) d
 ![eje1](eje1.png)
 
 1. Si suponemos que inicialmente las cachés ARP asociadas a los adaptadores están vacías, indica cómo quedarán las cachés ARP de todos los adaptadores después de que A1 envíe un mensaje a D1 y después de que D1 le conteste a A1.
+
+Todos los nodos por los que pasa el mensaje de A1 a D1 y viceversa
+
+
 2. Si a continuación, E1 envía un mensaje a D1, ¿cómo quedan las cachés ARP?
+
+Desde E1 a R1 se cargaran en la cache de los nodos correpondiente, pero de R1 a D1, como ya están cargados no se vuelven a añadir
