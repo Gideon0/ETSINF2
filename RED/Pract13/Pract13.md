@@ -98,7 +98,7 @@ Sí, porque mientras tengas acceso a el, no hace falta que esté en la misma red
 1. ¿Cuál es la dirección IP del cliente? ¿Cuál es la dirección IP del servidor web?
 2. ¿Cuáles son los puertos TCP fuente y destino
 
-# Abre el fichero HTTP_ISP_2. Este fichero contiene el tráfico generado en la red pública por los dos ordenadores de la red privada. La primera conexión al servidor web usa el mismo número de puerto origen que en el lado LAN, pero en la segunda conexión TCP ...
+### Abre el fichero HTTP_ISP_2. Este fichero contiene el tráfico generado en la red pública por los dos ordenadores de la red privada. La primera conexión al servidor web usa el mismo número de puerto origen que en el lado LAN, pero en la segunda conexión TCP ...
 
 1. ¿Qué número de puerto origen asigna el router NAT?
 2. ¿Cómo se puede saber cuál de la dos conexiones TCP corresponde a la contenida en el 
