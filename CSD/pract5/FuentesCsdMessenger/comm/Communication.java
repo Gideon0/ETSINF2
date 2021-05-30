@@ -20,7 +20,8 @@ import messageBodies.UserStart;
 import messageBodies.UsersList;
 import ui.Model;
 
-
+import javax.jms.TemporaryQueue;
+import javax.jms.*;
 
 /**
  * 
@@ -30,6 +31,10 @@ import ui.Model;
 public class Communication implements Runnable {
 
     public static Communication theCommunication = new Communication();
+    
+    private InitialContext ic;
+    private JMSContext jmsContext;
+    private JMSProducer producer;
 
     private Communication() {
     }
@@ -48,6 +53,34 @@ public class Communication implements Runnable {
      */
     void initialize() {
         // ACTIVIDAD 3
+        try{
+            ic = new InitialContext();
+            
+            ConnectionFactory cfac = (ConnectionFactory) ic.lookup("ConnectionFactory");
+            
+            jmsContext = cfac.createContext();
+            
+            producer = jmsContext.createProducer();
+            
+            UserStart us = new UserStart(ui.API.getMyName());
+            
+            ObjectMessage replyMsg = jmsContext.createObjectMessage(us);
+            
+            TemporaryQueue tq = jmsContext.createTemporaryQueue();
+            
+            replyMsg.setJMSReplyTo(tq);
+            
+            Queue queue = (Queue) ic.lookup("dynamicQueues/csd");
+    
+            producer.send(queue, replyMsg);
+            
+            JMSConsumer consumer = jmsContext.createConsumer(tq);
+            
+            UsersList ul =(UsersList) ((ObjectMessage) consumer.receive()).getObject();
+            
+            ui.API.updateUserList(ul.getUsers());
+        } catch (Exception e) {}
+        
     }
 
     /*
@@ -71,8 +104,8 @@ public class Communication implements Runnable {
      */
     void sendChatMessage(String destUser, String text, long timestamp) throws NamingException, JMSException {
 
-        // ACTIVIDAD 5
-
+        // ACTIVIDAD 5 
+        
     }
 
     /**
