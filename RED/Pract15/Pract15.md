@@ -1,4 +1,4 @@
-# Practica 7 - Cortafugos IPTABLES
+# Practica 15 - Cortafugos IPTABLES
 
 ## Ejercicio 1
 
