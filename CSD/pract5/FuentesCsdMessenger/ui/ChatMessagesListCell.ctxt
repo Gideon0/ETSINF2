@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ChatMessagesListCell
+comment0.text=\n\ Esta\ clase\ representa\ las\ celdas\ de\ la\ vista\ de\ lista\ que\ muestra\ los\ mensajes\ de\ un\ chat\n\ \n\ @author\ Agust\u00EDn\ Espinosa\ Minguet\ (aespinos@upvnet.upv.es)\n\n
+comment1.params=
+comment1.target=ChatMessagesListCell()
+comment1.text=\n\ Constructor.\n
+comment2.params=event
+comment2.target=void\ handle(javafx.scene.input.MouseEvent)
+comment3.params=item\ empty
+comment3.target=void\ updateItem(ChatMessage,\ boolean)
+comment3.text=\ \n\ @see\ javafx.scene.control.Cell\#updateItem(java.lang.Object,\ boolean)\n\ Este\ m\u00E9todo\ se\ ejecuta\ autom\u00E1ticamente\ cada\ vez\ que\ hay\ un\ cambio\ en\ el\ objeto\ asociado\n\ a\ una\ celda,\ es\ decir,\ un\ cambio\ en\ alg\u00FAn\ mensaje\ de\ chat.\n\ \n\ \ En\ funci\u00F3n\ del\ origen\ del\ mensaje,\ se\ muestra\ en\ una\ u\ otra\ columna.\n\ \ Seg\u00FAn\ el\ estado,\ los\ c\u00EDrculos\ se\ muestran\ con\ diferente\ aspecto\ \n
+numComments=4

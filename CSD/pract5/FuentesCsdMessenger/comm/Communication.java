@@ -52,33 +52,35 @@ public class Communication implements Runnable {
      * 
      */
     void initialize() {
-        // ACTIVIDAD 3
+        // ACTIVIDAD 3 y 4
         try{
-            ic = new InitialContext();
+            ic = new InitialContext(); // 3.6.1
             
-            ConnectionFactory cfac = (ConnectionFactory) ic.lookup("ConnectionFactory");
+            ConnectionFactory cfac = (ConnectionFactory) ic.lookup("ConnectionFactory"); // 3.6.2
             
-            jmsContext = cfac.createContext();
+            jmsContext = cfac.createContext(); // 3.6.3
             
-            producer = jmsContext.createProducer();
+            producer = jmsContext.createProducer(); // 3.6.4 
             
-            UserStart us = new UserStart(ui.API.getMyName());
+            // UserStart us = new UserStart(""); // 3.6.5
             
-            ObjectMessage replyMsg = jmsContext.createObjectMessage(us);
+            UserStart us = new UserStart(ui.API.getMyName()); // 4.1.1
             
-            TemporaryQueue tq = jmsContext.createTemporaryQueue();
+            ObjectMessage replyMsg = jmsContext.createObjectMessage(us); // 3.6.6
             
-            replyMsg.setJMSReplyTo(tq);
+            TemporaryQueue tq = jmsContext.createTemporaryQueue(); // 4.1.2
             
-            Queue queue = (Queue) ic.lookup("dynamicQueues/csd");
+            replyMsg.setJMSReplyTo(tq); // 4.1.3
+            
+            Queue queue = (Queue) ic.lookup("dynamicQueues/csd"); // 3.6.7
     
-            producer.send(queue, replyMsg);
+            producer.send(queue, replyMsg); // 3.6.8
             
-            JMSConsumer consumer = jmsContext.createConsumer(tq);
+            JMSConsumer consumer = jmsContext.createConsumer(tq); // 4.2.1
             
-            UsersList ul =(UsersList) ((ObjectMessage) consumer.receive()).getObject();
+            UsersList ul =(UsersList) ((ObjectMessage) consumer.receive()).getObject(); // 4.2.2
             
-            ui.API.updateUserList(ul.getUsers());
+            ui.API.updateUserList(ul.getUsers()); // 4.2.3
         } catch (Exception e) {}
         
     }
@@ -88,6 +90,30 @@ public class Communication implements Runnable {
      */
     public void run() {
         // ACTIVIDAD 6
+        try{
+            JMSContext jmscontext = jmsContext.createContext(JMSContext.AUTO_ACKNOWLEDGE);// 6.1.1
+            
+            JMSProducer produc = jmscontext.createProducer();// 6.1.2
+            
+            Queue queue = (Queue) ic.lookup("dynamicQueues/users-" + ui.API.getMyName());// 6.1.3
+            
+            JMSConsumer consumer = jmscontext.createConsumer(queue);// 6.1.4
+            
+            while(true){
+                ObjectMessage ncm = (ObjectMessage) consumer.receive();// 6.1.5
+                Object aux2 = ncm.getObject();
+                
+                if(aux2 instanceof NewChatMessage){
+                    // 6.1.6
+                    NewChatMessage aux = (NewChatMessage) aux2;
+                    ui.API.chatMessageReceived(aux.getSenderName(), 
+                    aux.getText(), aux.getTimestamp());
+                } else {
+                    // 6.1.7
+                    ui.API.addToLog(0, ncm.getClass().getSimpleName());
+                }
+            }
+        } catch (Exception e) {}
     }
 
     /**
@@ -103,9 +129,14 @@ public class Communication implements Runnable {
      * @throws JMSException
      */
     void sendChatMessage(String destUser, String text, long timestamp) throws NamingException, JMSException {
-
         // ACTIVIDAD 5 
+        Queue queue = (Queue) ic.lookup("dynamicQueues/users-" + destUser); // 5.1.1
         
+        NewChatMessage ncm = new NewChatMessage(text, ui.API.getMyName(), timestamp); // 5.1.2
+        
+        ObjectMessage JMSMessage = jmsContext.createObjectMessage(ncm);// 5.1.3
+        
+        producer.send(queue, JMSMessage);// 5.1.4
     }
 
     /**
