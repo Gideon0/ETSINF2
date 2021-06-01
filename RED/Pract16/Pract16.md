@@ -23,7 +23,7 @@
 
 1. De acuerdo al formato de las tramas que muestra wireshark, ¿se trata de las tramas capturadas en el segmento de red cableado o en el segmento inalámbrico?
 
-   - Cambleado
+   - Cableado
 
 2.  ¿Cuál es la dirección IP del ordenador A? ¿Cuál es la dirección IP del ordenador B?
 
@@ -51,15 +51,15 @@
 
 1. De acuerdo a la información contenida en dicha captura, ¿se trata de las tramas capturadas en el segmento de red cableado o en el segmento inalámbrico?
 
-   - Inalambrico
+   - Inalámbrico
 
 2. ¿Qué tipos diferentes de tramas encuentras en la captura?
 
-   - ARP 
+   - ARP
 
 3. ¿Puedes ver el contenido de los mensajes ARP e ICMP que has visto en la captura anterior?¿Cuál crees que es la razón por la que no puedes ver el contenido de dichos mensajes?
 
-   - Porque esta enriptado ya que el flag protected está a 1
+   - Porque esta encriptado ya que el flag protected está a 1
 
 4. Intenta localizar en esta captura las tramas generadas al ejecutar la orden ping y que complementan el tráfico analizado en el ejercicio anterior.
 
@@ -67,28 +67,30 @@
 
 ## Ejercicio 4
 
+![opciones](attachment/2021-06-01-21-10-48.png)
+
 ### Tras modificar las opciones de cifrado de acuerdo a la descripción anterior, responde a las siguientes cuestiones:
 
 1. Localiza las tramas asociadas al protocolo ARP. ¿Cuántas tramas hay?¿Hay el mismo número de tramas ARP que en la captura anterior?¿Por qué?
 
    - 3 
-   - No, porque el host A manda al PA que haga difusio preguntando por B y el PA es quien have la difución
+   - No, porque el host A manda al PA que haga difusio preguntando por B y el PA es quien hace la difusión
 
 2. ¿Cual es la dirección física del punto de acceso? ¿Se trata de la dirección física en la parte cableada o en la parte inalámbrica?¿Aparecía dicha dirección física en la captura anterior? ¿Por qué?
   
    - 38:72:c0:a2:c9:f6
-   - En la parte inalambrica
+   - En la parte inalámbrica
    - No, porque para el protocolo 802.3 los PA no existen
 
 3. Céntrate en las dos primeras tramas ARP que se envían (tramas 1 y 2 en la captura).Aparentemente son iguales. ¿Qué diferencias observas entre ellas?
 
-   - Primero el host envñia PA una trama ARP con MAC destion Difusión y PA have la difusión
+   - Primero el host envía PA una trama ARP con MAC destino Difusión(ff:ff:ff:ff:ff:ff) y PA hace la difusión
 
 4. Analiza los bit “From DS” y “To DS” de ambas tramas. ¿Qué conclusiones extraes? ¿Estas conclusiones son coherentes con las diferencias que has observado en el punto anterior?
 
-   - No, la Trama 1 (01 to DS: 1 from DS: 0) y la Trama 2 (10 to DS: 1) Los bits aparecen al reves pero wireshark lo esplica bien 
+   - La Trama 1 (01 to DS: 1 from DS: 0) y la Trama 2 (10 to DS: 0, fomm DS:1)
 
-5. Busca en la captura la respuesta ARP. ¿Coinciden las direcciones MAC con las de la dcaptura anterior? ¿Son diferentes? ¿Por qué?
+5. Busca en la captura la respuesta ARP. ¿Coinciden las direcciones MAC con las de la captura anterior? ¿Son diferentes? ¿Por qué?
 
    - Son diferentes, debido a que en esta captura aparecen la MAC del PA es en la targeta inalámbrica y en la anterior captura en la tarjeta Ethernet
 
@@ -96,7 +98,7 @@
 
    - Son diferentes, debido a que en esta captura aparecen la MAC del PA es en la targeta inalámbrica y en la anterior captura en la tarjeta Ethernet
 
-7. ¿Cuáles son las direcciones IP que aparecen en esta captura? ¿Son las mismas que las que aparecían en la captura anterior? ¿Cuál es la dirección IP del punto del acceso
+7. ¿Cuáles son las direcciones IP que aparecen en esta captura? ¿Son las mismas que las que aparecían en la captura anterior? ¿Cuál es la dirección IP del punto del acceso?
 
    - A y B
    - El punto de acceso trabaja a nivel de enlace, por lo tanto no tiene IP
