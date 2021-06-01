@@ -93,7 +93,7 @@ public class Communication implements Runnable {
         try{
             JMSContext jmscontext = jmsContext.createContext(JMSContext.AUTO_ACKNOWLEDGE);// 6.1.1
             
-            JMSProducer produc = jmscontext.createProducer();// 6.1.2
+            producer = jmscontext.createProducer();// 6.1.2
             
             Queue queue = (Queue) ic.lookup("dynamicQueues/users-" + ui.API.getMyName());// 6.1.3
             
@@ -107,8 +107,20 @@ public class Communication implements Runnable {
                     // 6.1.6
                     NewChatMessage aux = (NewChatMessage) aux2;
                     ui.API.chatMessageReceived(aux.getSenderName(), 
-                    aux.getText(), aux.getTimestamp());
-                } else {
+                    aux.getText(), aux.getTimestamp());         
+                }else if (aux2 instanceof NewUser){
+                    // 7.1
+                    NewUser nUser = (NewUser) aux2;        
+                    ui.API.addToUserList(nUser.getName());
+                
+                }else if (aux2 instanceof AckChatMessage){
+                    AckChatMessage ack = (AckChatMessage) aux2;
+                    ui.API.changeMessageStatusToDelivered(ack.getSenderName(),ack.getTimestamp() );// 7.2
+                
+                }else if (aux2 instanceof ReadedChatMessage){
+                    ReadedChatMessage readed = (ReadedChatMessage) aux2;
+                    ui.API.changeMessageStatusToReaded(readed.getSenderName(),readed.getTimestamp());
+                }else{
                     // 6.1.7
                     ui.API.addToLog(0, ncm.getClass().getSimpleName());
                 }
@@ -137,6 +149,8 @@ public class Communication implements Runnable {
         ObjectMessage JMSMessage = jmsContext.createObjectMessage(ncm);// 5.1.3
         
         producer.send(queue, JMSMessage);// 5.1.4
+        
+        
     }
 
     /**
@@ -152,7 +166,14 @@ public class Communication implements Runnable {
      * @throws JMSException
      */
     void sendMessageReaded(String user, long timestamp) throws NamingException, JMSException {
-
+        //7.3
+        Queue queue = (Queue) ic.lookup("dynamicQueues/users-" + user);
+        
+        ReadedChatMessage ncm = new ReadedChatMessage(ui.API.getMyName(), timestamp); 
+        
+        ObjectMessage JMSMessage = jmsContext.createObjectMessage(ncm);
+        
+        producer.send(queue, JMSMessage);
 
     }
 

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=ReadedChatMessage
+comment0.text=\n\ @author\ Agust\u00EDn\ Espinosa\ Minguet\ (aespinos@upvnet.upv.es)\n\ \n\ \ \ \ \ \ \ \ \ B\ notifica\ a\ A\ que\ ha\ le\u00EDdo\ su\ mensaje\n
+comment1.params=senderName\ timestamp
+comment1.target=ReadedChatMessage(java.lang.String,\ long)
+comment1.text=\n\ @param\ senderName\n\ \ \ \ \ \ \ \ \ \ \ \ El\ usuario\ que\ env\u00EDa\ este\ mensaje\ (B)\n\ @param\ timestamp\n\ \ \ \ \ \ \ \ \ \ \ \ La\ marca\ de\ tiempo\ del\ mensaje\ enviado\ por\ A\ que\ B\ quiere\n\ \ \ \ \ \ \ \ \ \ \ \ notificarle\ que\ ha\ le\u00EDdo\n
+comment2.params=
+comment2.target=java.lang.String\ getSenderName()
+comment3.params=senderName
+comment3.target=void\ setSenderName(java.lang.String)
+comment4.params=
+comment4.target=long\ getTimestamp()
+comment5.params=timestamp
+comment5.target=void\ setTimestamp(long)
+numComments=6

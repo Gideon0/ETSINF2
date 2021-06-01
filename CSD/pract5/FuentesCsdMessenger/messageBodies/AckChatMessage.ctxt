@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=AckChatMessage
+comment0.text=\n\ @author\ Agust\u00EDn\ Espinosa\ Minguet\ (aespinos@upvnet.upv.es)\n\ \n\ \ \ \ \ \ \ \ \ Tras\ el\ env\u00EDo\ de\ un\ mensaje\ de\ A\ a\ B,\ B\ env\u00EDa\ este\ mensaje\ para\n\ \ \ \ \ \ \ \ \ confirmar\ la\ llegada\n
+comment1.params=senderName\ timestamp
+comment1.target=AckChatMessage(java.lang.String,\ long)
+comment1.text=\n\ @param\ senderName\n\ \ \ \ \ \ \ \ \ \ \ \ El\ usuario\ (B)\ que\ env\u00EDa\ este\ mensaje\n\ @param\ timestamp\n\ \ \ \ \ \ \ \ \ \ \ \ La\ marca\ de\ tiempo\ del\ mensaje\ enviado\ por\ A\ a\ B\ que\ B\ quiere\n\ \ \ \ \ \ \ \ \ \ \ \ confirmar\n
+comment2.params=
+comment2.target=java.lang.String\ getSenderName()
+comment3.params=senderName
+comment3.target=void\ setSenderName(java.lang.String)
+comment4.params=
+comment4.target=long\ getTimestamp()
+comment5.params=timestamp
+comment5.target=void\ setTimestamp(long)
+numComments=6
