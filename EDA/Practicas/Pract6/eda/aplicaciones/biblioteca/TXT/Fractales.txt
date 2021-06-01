@@ -1,0 +1,4887 @@
+V Talleres de Formación Matemática
+
+Introducción al Estudio de los
+Fractales
+Neptalı́ Romero & Fernando Sánchez
+
+Maracaibo, 26 al 31 de julio de 2004
+
+Para Litz y Oriana
+
+Presentación
+La geometrı́a fractal es una jóven disciplina cuyo objeto de estudio puede enunciarse, de una
+manera un poco más formal, como el estudio de las propiedades topológicas y geométricas de
+conjuntos y medidas auto-similares en Rn . Aquı́ “auto-similar” se usa en el sentido un poco vago
+que ha popularizado por los trabajos de Mandelbrot, como un conjunto que es igual a si mismo
+en todas las escalas, es decir, un conjunto que, despues de un re-escalamiento apropiado de una
+vecindades pequeñas de sus puntos “luce” igual a si mismo.
+La disciplina se ha popularizado a través de la difusión de imágenes y programas de computadoras que nos presentan un mundo de figuras sorprendentes que en muchos casos se aproximan al
+arte y a la ciencia ficción. Una búsqueda en Internet muestra un exuberante campo donde convergen los intereses de investigadores en ciencias aplicadas, matemáticos, artistas, creadores de efectos
+especiales para el cine y hasta publicistas.
+Esta explosión de interés está vinculada a la propagación de los computadores personales y las
+nuevas tecnologı́as de la información, con un visible impacto en la imaginerı́a de la sociedad de
+consumo contemporánea.
+Pero no todo es moda y publicidad. Desde el punto de vista cientı́fico hay un genuino interés
+po caracterizar estructuras tanto fı́sicas como de datos que necesitan ser tratadas con métodos de
+teorı́a de la medida para introducir cuantidades calculables experimentalmente que caracterizan la
+organización espacial de conjuntos de puntos en el espacio con apariencia caótica y desorganizada. Las ideas de la geometrı́a fractal se han aplicado al estudio de las configuraciones espaciales
+“poblaciones” de “puntos” distribuı́dos en un volumen tales como:
+población humana sobre una territorio, continente e incluso sobre la Tierra misma;
+observaciones metereológicas en estaciones distribuı́das de manera desigual sobre el planeta;
+distribución de disipación de energı́a en un fluı́do turbulento, que fue el objeto inicial de
+estudio que llevó a Mandelbrot a proponer el estudio de fractales como una parte esencial de
+nuestra comprensión actual de la naturaleza;
+distribución de errores en una lı́nea de transmisión;
+distribución de impurezas en la superficie y núcleo de materiales conductores, superconductores y aislantes en la fı́sica del estado sólido;
+distribución de minerales raros sobre la superficie de la tierra tales como oro, cobre y petróleo
+series temporales de datos tales como precios de mercancias y valores financieros en economı́a,
+tráfico vehicular en grandes ciudades, etc.
+En todo estos ejemplos hay una escala global relevante confrontada con estructuras locales muy
+ricas y variables.
+Al proponer su visión de la geometrı́a fractal como la geometrı́a de la naturaleza, Mandelbrot
+buscó en la Matemática modelos geométricos simples de conjuntos tales como: el conjunto de Cantor
+
+III
+
+ternario, el tapiz de Sierpinski, la curva de Koch y la esponja de Sierpinski . El desarrollo del
+computador con sus enormes potencialidades gráficas atrajo de nuevo la atención de matemáticos
+y cientı́ficos sobre unos conjuntos cuyo estudio se remonta a los orı́genes de la topologı́a, la teorı́a
+de la medida y las investigaciones de principios del siglo XX sobre la teorı́a de funciones de variable
+compleja, debidas a Fatou y Julia.
+Desde el punto de vista técnico la geometrı́a fractal no es una disciplina axiomática y autónoma
+como la geometrı́a de Euclides. Ella se encuentra en algún lugar en la intersección de la topologı́a, la teorı́a de la medida y se ramifica rápidamente hacia la teorı́a de sistemas dinámicos y sus
+aplicaciones.
+En la actualidad hay numerosos libros que tratan sobre el tema desde el punto de vista de
+sus fundamentos matemáticos y de las aplicaciones. Recomendamos especialmente los libros de
+Falconer [5] y Edgar [4]. También la obra “Fractals”, del fı́sico noruego Jens Feder, que ofrece una
+panorámica de las aplicaciones fı́sicas, especialmente aquellas motivadas por la investigación de
+yacimientos petroleros (percolación, etc.).
+El objeto de esta monografı́a que ofrecemos como parte del TForMa es más puntual y de carácter
+puramente matemático. Aprovechamos la oportunidad de la motivación e interés de los estudiantes
+sobre el tema para introducir al estudio riguroso de los aspectos topológicos y métricos de los
+conjuntos auto-similares. Esto nos llevó a repasar algunos resultados de topologı́a y medida, para
+ofrecer demostraciones rigurosas de algunas propiedades de fractales clásicos tales como los conjuntos
+de Cantor, el tapiz de Sierpinski y la curva de Koch. Demostraciones que desde luego no tienen
+espacio en la inmensa mayorı́a de páginas web y literatura de divulgación sobre este tema, pero
+cuyo estudio luce instructivo y necesario para la formación de los estudiantes de las carreras de
+matemáticas.
+
+Índice General
+
+iv
+
+Índice General
+Capı́tulo 1.
+1.1.
+1.2.
+1.3.
+
+Topologı́a de espacios métricos
+
+1
+
+Definición y ejemplos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+1
+
+1.1.1. Ejemplos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+1
+
+Espacios Métricos completos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+5
+
+1.2.1. Ejemplos de espacios métricos completos . . . . . . . . . . . . . . . . . . . . .
+
+5
+
+Ejercicios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6
+
+Capı́tulo 2.
+
+Números reales como lı́mites
+
+8
+
+2.1.
+
+El algoritmo sumerio de la raı́z cuadrada . . . . . . . . . . . . . . . . . . . . . . . .
+
+8
+
+2.2.
+
+Desarrollos p-adicos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+11
+
+2.3.
+
+El espacio de la aritmética p-adica . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+13
+
+2.4.
+
+Ejercicios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+17
+
+Capı́tulo 3.
+3.1.
+
+Dos ejemplos clásicos
+
+20
+
+Las arenas de Cantor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+20
+
+3.1.1. Variaciones de la construcción de K . . . . . . . . . . . . . . . . . . . . . . .
+
+21
+
+3.2.
+
+El tapiz de Sierpinski . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+23
+
+3.3.
+
+Ejercicios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+25
+
+Capı́tulo 4.
+
+Sistemas Iterado de Funciones
+
+26
+
+4.1.
+
+Métrica de Hausdorff y el espacio de las formas . . . . . . . . . . . . . . . . . . . .
+
+26
+
+4.2.
+
+SIF y el operador de Hutchinson . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+30
+
+4.2.1. El atractor de un SIF . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+31
+
+4.2.2. Aproximaciones de X∞ : un algoritmo determinista . . . . . . . . . . . . . . .
+
+36
+
+Otros ejemplos de atractores de SIF . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+38
+
+4.3.1. Transformaciones Afines . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+38
+
+4.3.2. Variaciones del Cantor ternario . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+40
+
+4.3.3. Variaciones del Tapiz de Sierpinski . . . . . . . . . . . . . . . . . . . . . . . .
+
+40
+
+4.3.4. Curvas de Koch . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+43
+
+4.3.5. Una función de Weierstrass . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+45
+
+Más propiedades de los SIF . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+46
+
+4.3.
+
+4.4.
+
+Índice General
+
+V
+
+4.5.
+
+Algoritmos deterministas y el juego del caos . . . . . . . . . . . . . . . . . . . . . .
+
+49
+
+4.6.
+
+Ejercicios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+50
+
+Capı́tulo 5.
+
+Medida y dimensión
+
+57
+
+5.1.
+
+La medida de Hausdorff . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+57
+
+5.2.
+
+Particiones generadoras à la Souslin
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+
+64
+
+5.3.
+
+Dimensión topológica y universalidad . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+65
+
+5.4.
+
+Cálculo de dimensiones . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+68
+
+5.4.1. Ejemplos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+69
+
+Nota final y agradecimientos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+70
+
+5.5.
+
+Referencias Bibliográficas
+
+72
+
+Capı́tulo 1
+
+Topologı́a de espacios métricos:
+conceptos elementales y resultados
+importantes
+Comenzamos estas notas sobre algunas nociones de Geometrı́a Fractal sentando una base topológica necesaria. El objetivo de este Capı́tulo es reunir algunos resultados de la topologı́a de
+espacios métricos que serán usados a lo largo de esta monografı́a; por tanto, el presente resumen
+será necesariamente directo y poco pedagógico. Haremos un repaso de los conceptos y propiedades
+elementales sobre: espacios métricos, conjuntos abiertos, conjuntos cerrados, compacidad, convergencia, completitud, conexidad y equivalencia de espacios métricos.
+
+1.1.
+
+Definición y ejemplos
+
+Definición 1.1.1. Un espacio métrico es un conjunto X equipado con una función d : X × X −→ R
+que satisface las siguientes propiedades:
+1. d(x, y) ≥ 0 para todo x, y ∈ X.
+2. d(x, y) = d(y, x) para todo x, y ∈ X.
+3. d(x, y) = 0 si, y sólo s,i x = y
+4. d(x, y) ≤ d(x, z) + d(z, y) para todo x, y, z ∈ X.
+Los elementos de X serán llamados puntos y d = d(x, y) es, por definición, la distancia entre los
+puntos x, y ∈ X. Al par (X, d) se le conoce con el nombre de espacio métrico.
+El concepto de espacio métrico generaliza la noción de distancia tal como se usa en la geometrı́a
+euclideana.
+p Los siguientes ejemplos son básicos. Aquı́ | · | es el valor absoluto de un número real y
+kxk = x21 + · · · + x2n es la norma definida por el producto interno standard de Rn .
+
+1.1.1.
+
+Ejemplos
+
+1. Los siguientes son ejemplos de métricas en X = R:
+a) d(x, y) = |x − y| (métrica euclideana)
+b) d(x, y) = λ|x − y|, donde λ > 0 es un número real positivo
+
+2
+
+Topologı́a de espacios métricos
+c) d(x, y) = ρ(|x − y|), donde ρ = ρ(u) ≥ 0 es una función real contı́nua no decreciente, que
+se anula tan sólo en u = 0.
+2. Sea X = Rn , el producto cartesiano de n copias de R. Las siguientes funciones definen métricas
+en Rn :
+a) d(x, y) = kx − yk;
+b) d(x, y) = |x1 − y1 | + · · · + |xn − yn |
+c) d(x, y) = máx{|x1 − y1 |, · · · , |xn − yn |}.
+3. Los dos ejemplos que siguen a continuación ilustran la generalidad del concepto de espacio
+métrico:
+Sea C 0 ([0, 1]) el conjunto de las funciones continuas del intervalo unitario en R. Las
+siguientes funciones definen métricas en C 0 ([0, 1]):
+a) d(f, g) = supx∈[0,1] |f (x) − g(x)|
+R1
+b) d(f, g) = 0 |f (x) − g(x)|dx
+R1
+c) d(f, g) = ( 0 |f (x) − g(x)|2 dx)1/2
+R1
+d ) d(f, g) = ( 0 |f (x) − g(x)|p dx)1/p , p > 0
+Sea (X, d) un espacio métrico y P(X) = {E : E ⊆ X} el conjunto de todos los subconjuntos de X. En el Capı́tulo 3 probaremos que la función
+dist H (E, F ) = ı́nf{δ > 0 : E ⊂ Bδ (F ) y F ⊂ Bδ (E)}
+es una métrica en el subespacio de conjuntos cerrados no vacı́os de X, donde Bδ (E) =
+{x ∈ X : d(x, E) < δ} es el entorno de radio δ del conjunto E. Ver abajo.
+
+La función distancia de un espacio métrico nos permite formalizar la noción intuitiva de “proximidad” o “vecindad” de puntos, concepto topológico por excelencia. Las siguientes cantidades y
+subconjuntos serán usados a lo largo de esta monografı́a.
+Sea E ⊂ X un subconjunto de X, definimos:
+1. distancia de un punto x a un conjunto E :
+d(x, E) = ı́nf d(x, y);
+y∈E
+
+2. diámetro de un conjunto E :
+diam (E) = sup{d(x, y) : x, y ∈ E };
+3. bola abierta de centro x y radio r > 0 :
+B(x, r) = {y ∈ X : d(x, y) < r};
+4. bola cerrada de centro x y radio r :
+C(x, r) = {y ∈ X : d(x, y) ≤ r};
+
+1.1 Definición y ejemplos
+
+3
+
+5. bola abierta entorno a un conjunto E y radio r :
+Br (E) = {x ∈ X : d(x, E) < r};
+6. bola cerrada entorno a un conjunto E y radio r :
+Cr (E) = {x ∈ X : d(x, E) ≤ r}.
+Definición 1.1.2. Sea (X, d) un espacio métrico. Decimos que un conjunto U es abierto si para
+todo x ∈ U existe r > 0 tal que B(x, r) ⊂ U . Un conjunto F ⊂ X es cerrado si su complemento es
+abierto.
+Teorema 1.1.1. Sea (X, d) un espacio métrico.
+1. La unión de conjuntos abiertos es un conjunto abierto.
+2. La intersección de un conjunto finito de conjuntos abiertos es un conjunto abierto.
+3. La unión finita de cerrados es cerrada.
+4. La intersección de conjuntos cerrados es un subconjunto cerrado.
+5. El conjunto formado por un único punto {x} es un conjunto cerrado. Todo subconjunto finito
+{x1 , · · · , xn } es cerrado.
+6. La bola abierta B(x, r) es un conjunto abierto.
+7. La bola cerrada C(x, r) es un conjunto cerrado.
+Un conjunto N (x) es un entorno o vecindad de un punto x ∈ X, si existe una bola abierta tal
+que B(x, r) ⊂ N (x). Desde luego B(x, r) es un entorno abierto de x y C(x, r) un entorno cerrado.
+Un conjunto abierto es entorno de todos sus puntos.
+Sea A ⊂ X un subconjunto no vacı́o. Diremos que x es un punto de acumulación de A, si toda
+vecindad abierta de x intersecta A:
+B(x, r) ∩ A 6= ∅ para todo r > 0.
+El conjunto de los puntos de acumulación de A se llama clausura topológica y se denota A.
+Un punto x ∈ X es punto lı́mite de un subconjunto A, si para todo r > 0 se tiene B(x, r) − {x} ∩
+A 6= ∅. Denotamos A0 el conjunto de puntos lı́mites, también conocido como conjunto derivado de
+A.
+Un punto x ∈ X es punto frontera de A, si toda vecindad abierta de x corta a A y a su
+complemento; esto es,
+B(x, r) ∩ A 6= ∅ y B(x, r) ∩ Ac 6= ∅ para todo r > 0,
+donde Ac = X − A es el complemento de A en X.
+Un punto x ∈ A es un punto interior si existe r > 0 tal que B(x, r) ⊂ A. Denotamos A0 el
+conjunto de los puntos interiores de A.
+El siguiente enunciado resume algunas de las propiedades básicas de que relacionan las definiciones anteriores.
+
+4
+
+Topologı́a de espacios métricos
+
+Teorema 1.1.2. Sea A ⊂ X un subconjunto de un espacio métrico (X, d).
+1. La clausura A es un conjunto cerrado.
+2. A es cerrado si y sólo si A = A.
+3. La clausura de la bola abierta B(x, r) es la bola cerrada C(x, r).
+4. El conjunto derivado A0 es cerrado.
+5. A = A ∪ A0 .
+6. Si A es finito, entonces A0 = ∅.
+7. La frontera F r(A) es un conjunto cerrado.
+8. A = A ∪ F r(A).
+9. F r(A) = A ∩ Ac .
+10. El conjunto A0 es abierto.
+11. A = A0 ∪ F r(A).
+12. diam (A) = diam (A).
+13. A = {x ∈ X : dist (x, A) = 0 }.
+Diremos que un subconjunto D ⊂ X es denso si su clausura es igual a todo el espacio, i.e.
+D = X. Un espacio métrico es separable si existe un subconjunto denso numerable. Por ejemplo Rn
+(n ≥ 1) con la métrica euclideana es un espacio métrico separable. Para ello basta tomar los puntos
+con coordenadas racionales y usar la densidad de Q en R.
+Definición 1.1.3. Sea A ⊂ X un conjunto de un espacio
+S métrico (X, d). Una familia indexada de
+conjuntos A = {Ai }i∈I es un cubrimiento de A si A ⊆ i Xi .
+Un cubrimiento U = {Ui } es abierto si Ui son conjuntos abiertos. Análogamente, un cubrimiento
+F = {Fi } es cerrado si los Fi son cerrados. El cubrimiento es numerable (resp. finito) si el conjunto
+de ı́ndices I es numerable (resp. finito). Sea A = {Ai }i∈I un cubrimiento de un subconjunto Y ⊂ X.
+Un subcubrimento de A es una subfamilia {Aj }j∈J donde J ⊂ I es un subconjunto propio de ı́ndices.
+Definición 1.1.4. Se dice que un conjunto K ⊂ X de un espacio métrico X es compacto si todo
+cubrimiento abierto de K tiene un subcubrimiento finito.
+Teorema 1.1.3.
+
+1. Todo conjunto compacto es cerrado;
+
+2. Un subconjunto cerrado de conjunto compacto es compacto;
+3. Si F es cerrado y K es compacto entonces F ∩ K es compacto;
+4. Propiedad de intersección finita Sea K = {Ki }i∈I una familia de subconjuntos
+compactos
+T
+tal que toda subfamilia finita de K tiene intersección no vacı́a, entonces i Ki es no vacı́a;
+5. Propiedad de encaje de Cantor Sea {Kn } una familia decrecienteT
+(encajada) de compactos
+no vacı́os, i.e Kn+1 ⊂ Kn para todo n > 0, entonces la intersección n Kn es no vacı́a;
+
+1.2 Espacios Métricos completos
+
+5
+
+6. Propiedad de Bolzano-Weierstrass un conjunto K ⊂ X es compacto si y sólo si para todo
+subconjunto infinito E ⊂ K tiene al menos un punto de acumulación;
+7. Los intervalos cerrados y acotados de la recta son compactos. Los cubos cerrados y acotados
+de Rn Q = [a1 , b1 ] × · · · × [an , bn ] son compactos;
+8. Teorema de Heine-Borel Un conjunto K ⊂ Rn es compacto si y sólo si es cerrado y
+acotado.
+
+1.2.
+
+Espacios Métricos completos
+
+Definición 1.2.1. Una sucesión es un conjunto numerable de puntos en xn ∈ X definidos por
+una función inyectiva x : N −→ X. Diremos que {xn } converge a x ∈ X y lo denotaremos como
+lı́mn→+∞ xn = x si para todo  > 0 existe N > 0 tal que xn ∈ B(x, ) para todo n ≥ N , en otras
+palabras, xn → x si y sólo si d(xn , x) → 0 cuando n → +∞.
+Definición 1.2.2. Una sucesión {xn } es de Cauchy si para todo  > 0 existe N > 0 tal que
+d(xn , xm ) <  para todo n ≥ N .
+Teorema 1.2.1.
+
+1. Toda sucesión convergente es de Cauchy
+
+2. Sea Xn = {xk : k ≥ n }. La sucesión {xn } es de Cauchy si y sólo si diam (Xn ) → +∞ cuando
+n → +∞
+3. Toda sucesión de Cauchy en Rn es convergente
+4. Sea {xn } una sucesión de números reales. Definimos
+lı́m sup xn = ı́nf {sup Xn }
+n→+∞
+
+y
+lı́m inf xn = sup {ı́nf Xn }
+n→+∞
+
+donde Xn = {xk : k ≥ n }. El lı́mite x∗ = lı́m supn→+∞ xn es el supremo de los puntos
+de acumulación de {xn }. Análogamente, x∗ = lı́m inf n→+∞ xn es el infimo de los puntos de
+acumulación de la sucesión.
+Definición 1.2.3. Decimos que un espacio métrico (X, d) es completo si toda sucesión de Cauchy
+en X converge a un punto de X
+
+1.2.1.
+
+Ejemplos de espacios métricos completos
+
+1. Rn con la distancia euclideana
+2. el espacio de las funciones contı́nuas X = C 0 [0, 1] con la distancia del supremo:
+d(f, g) = sup |f (x) − g(x)|.
+x∈[0,1]
+
+Una sucesión de funciones fn converge a f con la distancia del supremo si y sólo si fn converge
+uniformemente a f . El lı́mite uniforme de una sucesión de funciones continuas, es continuo.
+Esto prueba la completitud de C 0 [0, 1] con la distancia del supremo. Los detalles se dejan a
+cargo del lector.
+
+6
+
+Topologı́a de espacios métricos
+
+Definición 1.2.4. Una función f : X −→ Y entre dos espacios métricos (X, dX ) y (Y, dY ) es
+contı́nua en x si para todo  > 0 existe δ = δ(x, ) > 0 tal que dX (x, y) < δ implica dY (f (x), f (y)) <
+ a un punto de X. f es contı́nua si es contı́nua para todo x ∈ X. La función f es uniformemente
+contı́nua si podemos escoger δ = δ() independiente de x.
+Teorema 1.2.2.
+
+1. las siguientes proposicciones son equivalentes:
+
+a) f : X −→ Y es contı́nua
+b) ∀  > 0 ∃ δ tal que B(x, δ) ⊂ f −1 B(f (x), )
+c) la preimagen de un conjunto abierto es abierta
+d) la preimagen de un conjunto cerrado es cerrado
+e) para toda sucesión convergente xn → x se cumple que f (xn ) → f (x)
+2. la imagen de compacto por una función contı́nua es un conjunto compacto
+3. la restricción de una función contı́nua a un conjunto compacto es acotada
+4. toda función contı́nua alcanza su máximo y su mı́nimo en un compacto
+5. una función contı́nua sobre un compacto es uniformemente contı́nua
+6. Propiedad de cubrimiento de Lebesgue : sea (X, d) un espacio métrico completo y K ⊂ X
+un subconjunto compacto. Entonces, para todo cubrimiento abierto U = {Ui }i∈I de K existe
+un r > 0, llamado número de Lebesgue de U tal que para todo x ∈ K existe Ui ∈ U tal que
+B(x, r) ⊂ Ui
+
+1.3.
+
+Ejercicios
+
+1. Sea (X, d) un espacio métrico separable. Pruebe que todo abierto U ⊂ X puede escribirse
+como una unión numerable de bolas abiertas.
+2. Pruebe que todo abierto de la recta R con la métrica euclideana es una unión numerable de
+intervalos abiertos disjuntos dos a dos.
+3. El lı́mite de una sucesión convergente es único
+√
+4. Sea X = {x ∈ Q : 1 < x < 2 }. Pruebe que existe en X una sucesión de Cauchy que no
+converge en X.
+5. Un conjunto F es cerrado si para toda sucesión convergente {xn } ⊂ F el lı́mite x pertenece a
+F
+6. Un punto x ∈ A si y sólo existe una sucesión de puntos {xn } contenidos en A que converge a
+x
+7. Un conjunto K de un espacio métrico es compacto si y sólo toda sucesión infinita {xn } ⊂ K
+tiene una subsucesión convergente
+8. El objetivo de este ejercicio es exhibir un espacio métrico con un conjunto cerrado y acotado
+que no es compacto. Para ello consideramos X = C 0 [0, 1] el espacio de las funciones contı́nuas
+
+1.3 Ejercicios
+
+7
+
+con la distancia del supremo d(f, g) = supx∈[0,1] |f (x) − g(x)|. Dados enteros n > 0 y 0 ≤ k <
+2n definimos
+
+
+k k+1
+In,k = n , n
+2
+2
+
+
+2k − 1 k
+−
+Jn,k =
+,
+2n+1 2n
+
+
+k + 1 2k + 3
++
+Jn,k =
+, n+1
+2n
+2
+
+
+1
+si x ∈ In,k
+
+
+
+ 2n+1 x − 2k + 1 si x ∈ J −
+n,k
+fn,k (x) =
+n+1 x + 2k + 1 si x ∈ J +
+
+−2
+
+n,k
+
+
+0
+en caso contrario
+Sea S = {f ∈ X : d(f, 0) = 1}. S es cerrado y acotado y {fn,k } ⊂ S, com el es fácil
+verificar. Pruebe que esa sucesión de funciones no tiene subsucesiones convergentes en S.
+Indicación: observe que fn,k → 0 puntualmente, es decir, para cada x ∈ [0, 1] se tiene que
+lı́mn→+∞ fn,k (x) = 0, sin embargo ninguna subsucesión de fn,k puede converger uniformemente a cero porque d(fn,k , 0)01 para todo n, km donde 0 = 0(x) es la función constantemente
+igual a cero.
+9. Pruebe que el conjunto de las combinaciones lineales finitas con coeficientes en Q de las
+funciones fn,k es denso en C 0 [0, 1]. Es decir, dada una función continua f ∈ C 0 [0, 1] y un
+número  > 0 existen funciones fi ∈ {fn,k } y αi ∈ Q tales que la combinación lineal φ =
+PN
+0
+i=1 αi fi satisface d(φ, f ) < . Esto prueba que (C [0, 1], d) es un espacio métrico separable.
+
+Capı́tulo 2
+
+Números reales como lı́mites de
+construcciones geométricas
+2.1.
+
+El algoritmo sumerio de la raı́z cuadrada
+
+Se cree que el algoritmo para calcular aproximaciones de la raı́z cuadrada que presentamos a
+continuación era conocido por los matemáticos sumerios hace 4.000 años; ver [13].
+Sea a > 0 una número positivo y supongamos que x > 0 es la solución positiva de la ecuación
+x2 = a. Despejando x tenemos
+x
+x= .
+(2.1)
+a
+Luego, sumando x a ambos lados y dividiendo por 2 obtenemos la siguiente ecuación equivalente
+para x:
+1
+a
+x=
+x+
+.
+(2.2)
+2
+x
+Sea N = N (x) la función real definida por la fórmula
+1
+a
+N (x) =
+x+
+.
+(2.3)
+2
+x
+Es claro que x satisface la ecuación x2 = a si, y sólo si, N (x) = x. Esto se conoce como un problema
+de punto fijo para la función N = N (x).
+Los teoremas de puntos fijo son, como tendremos oportunidad de ver, herramientas de importancia invalorable pues permiten demostrar la existencia de muchos objetos matemáticos.
+La solución de la ecuación de punto fijo N (x) = x puede encontrarse mediante aproximaciones
+sucesivas. Para ello se define recursivamente la sucesión xn+1 = N (xn ), es decir:
+
+
+a
+1
+xn +
+n = 1, 2, 3, · · · .
+(2.4)
+xn+1 =
+2
+xn
+Nóte que el término general de la sucesión xn puede escribirse como
+n−veces
+n
+
+xn = N (x0 )
+
+donde
+
+z
+}|
+{
+N = N ◦ ··· ◦ N
+n
+
+es la composición de la función N consigo misma n-veces. Una sucesión {xn } definida por una
+función N ; esto es, xn+1 = N (xn ), se dice que está definida recursivamente. Si N = N (x) es
+continua y la sucesión {xn } converge, entonces su lı́mite es solución de la ecuación N (x) = x. En
+efecto, si x = lı́mn→+∞ xn , entonces
+N (x) = N ( lı́m xn ) = lı́m N (xn ) = lı́m N n+1 (x0 ) = x.
+n→+∞
+
+n→+∞
+
+n→+∞
+
+2.1 El algoritmo sumerio de la raı́z cuadrada
+
+9
+
+Fig. 2.1: La intersección de la gráfica de y = N (x) con la diagonal es la solución de N (x) = x
+Veamos un ejemplo. Sea a = 2 y pongamos x0 = 2 en la secuencia definida recursivamente en (2.4),
+entonces:
+
+
+
+
+1
+2
+2
+3
+1
+x1 =
+x0 +
+2+
+=
+=
+2
+x0
+2
+2
+2
+
+
+
+
+2
+1 3
+2
+17
+1
+x1 +
+=
++
+=
+x2 =
+2
+x1
+2 2 3/2
+12
+y
+
+
+
+
+1
+2
+1 17
+2
+577
+x3 =
+x2 +
+=
++
+=
+2
+x2
+2 12 17/12
+408
+√
+y ası́ sucesivamente, obteniendo las siguientes aproximaciones de 2:
+3
+2
+17
+12
+577
+408
+
+= 1,5
+= 1,41666 · · ·
+= 1,414215686274509 8039215686274509 8039215686274509 · · ·
+
+√
+Comparemos con la aproximación de 2 calculada con 100 dı́gitos por el programa Maple
+√
+2 = 1,414213562373095048801688724209698078569671875376
+948073176679737990732478462107038850387534327641573
+···
+El método de aproximaciones sucesivas es de gran generalidad; se usa para probar la existencia de
+soluciones de distintos problemas del Análisis no lineal.
+Una pregunta natural respecto a las sucesiones {xn } definidas recursivamente por una función
+N = N (x) de la recta en sı́ misma es si ellas son convergentes o no. Como veremos en los próximos
+
+10
+
+Números reales como lı́mites
+
+Capı́tulos las sucesiones definidas por funciones simples, como N (x) = x2 + c, pueden llegar a tener
+comportamientos sorprendentes.
+El siguiente lema será de utilidad para determinar la convergencia de las aproximaciones generadas por el algoritmo sumerio de la raı́z cuadrada.
+Lema 2.1.1. Sea N = N (x) una función continuamente diferenciable en un intervalo abierto de la
+recta (a, b) ⊂ R y sea N (p) = p un punto fijo de N en el intervalo (a, b). Supongamos que |N 0 (p)| < 1
+entonces, existe un intervalo abierto J ⊂ (a, b) y un número 0 < λ < 1 tal que:
+|N n (x) − p| ≤ λn |x − p|, ∀ n ≥ 1, ∀ x ∈ J.
+En particular, xn → p cuando n → +∞.
+Demostración. Como x 7−→ N 0 (x) es continua, por hipótesis, dado cualquier 0 < λ < 1 podemos
+encontrar un intervalo J = (p − δ, p + δ) ⊂ (a, b) tal que |N 0 (x)| ≤ λ para todo x ∈ J. Ahora, sea
+x ∈ J un punto cualquiera y xn = N n (x). Vamos a probar que {xn } converge a p con velocidad
+exponencial.
+Por el Teorema del Valor Medio tenemos para cada n ≥ 1:
+|xn − p| = |N (xn−1 ) − N (p)| = |N 0 (ξn )||xn−1 − p| ≤ λ|xn−1 − p|,
+donde ξn es algún punto entre xn−1 y p. Observe que esta desigualdad implica que xn está más
+próximo de p de lo que está xn−1 . De hecho, la taza de proximidad se reduce en el factor λ; en
+particular xn ∈ J para cada n ≥ 0. Procediendo entonces inductivamente se tiene
+|xn − p| ≤ λ|xn−1 − p| ≤ λ2 |xn−2 − p| ≤ · · · ≤ λn |x0 − p|,
+de lo cual se deduce el lema.
+Usando los mismos argumentos anteriores se muestra que
+|N (x) − N (y)| < λ|x − y|
+
+para todo
+
+x , y ∈ J.
+
+(2.5)
+
+Esto dice que, al menos localmente cerca de p, la función N se comporta geométricamente como
+una contracción.
+Como consecuencia p es el único punto fijo de N en el intervalo J. En efecto, supongamos que
+N (q) = q es otro punto fijo en J, entonces:
+|p − q| = |N (p) − N (q)| ≤ λ|p − q| ≤ λ2 |p − q| · · · ≤ λn |p − q|
+para todo n > 0. Como λn → 0, concluı́mos que |p − q| = 0.
+En otras palabras, una contracción N de un intervalo J en si mismo tiene un único punto fijo en
+p ∈ J que es lı́mite de aproximaciones sucesivas. Esta afirmación es un caso particular del Principio
+de Contracción de Banach resultado importante por la fecundidad de sus aplicaciones.
+El descubrimiento de números irracionales obligó a los matemáticos
+griegos a√
+desarrollar métodos
+√ √
+para construir aproximaciones racionales de números tales como 2, 3, 1 + 5/2 (el número de
+oro) y π. La más famosa de esas construcciones es el método de exhausión usado por Arquı́mides
+para obtener la aproximación
+10
+22
+3 <π< ,
+71
+7
+
+2.2 Desarrollos p-adicos
+
+11
+
+donde π representa la razón de la longitud de una circunferencia y su diámetro, bautizada ası́ por
+10
+el propio Arquı́mides y 3 10
+71 es la notación tradicional para el número 3 + 71 .
+El método de exhausión consiste en aproximar una circunferencia por polı́gonos inscritos y
+circunscritos. En lo que sigue usaremos propiedades de lı́mites de las funciones seno y coseno que,
+desde luego, no era conocidas por Arquı́mides pero que servirán para ilustrar de manera natural
+la esencia del método. Usando trigonometrı́a podemos ver que la longitud de un polı́gono regular
+
+PSfrag replacements
+θ
+r
+Fig. 2.2: Poligonos regulares inscritos y circunscritos.
+inscrito de n lados en una circunferencia de radio r > 0 es igual a γn = 2nr sin(θ), donde θ = π/n.
+Ası́ mismo se prueba que la longitud del polı́gono circunscrito es igual a Γn = 2nr tan(θ). Sea
+U = 2π r la longitud de la circunferencia, entonces se tiene que
+2rn sin (θ) < U < 2rn tan (θ) .
+Dividiendo por 2r tenemos la aproximación
+n sin (θ) < π < n tan (θ) .
+Si duplicamos el número de lados tenemos, dividiendo el ángulo θ por 2:
+ 
+ 
+θ
+θ
+2n sin
+< π < 2n tan
+.
+2
+2
+Si continuamos duplicando el número de lados recursivamente tenemos
+ 
+ 
+θ
+θ
+k
+2k n sin
+<
+π
+<
+2
+n
+tan
+.
+2k
+2k
+si conocemos el seno y el coseno de un ángulo inicial como π/3, π/4 o π/6 podemos dar aproximaciones del número π.
+
+2.2.
+
+Desarrollos p-adicos de números reales
+
+La necesidad de proporcionar aproximaciones racionales de números irracionales motivó el desarrollo de métodos generales que permiten realizar esa tarea con tanta exactitud como sea posible.
+En esta sección repasaremos uno de esos métodos conocidos como desarrollos p-adicos de números
+reales.
+
+12
+
+Números reales como lı́mites
+
+Teorema 2.2.1. Sea p > 0 un entero positivo. Todo número real x en el intervalo [0, 1] se puede
+representar como el lı́mite de una serie convergente de la forma
+x=
+
+∞
+X
+in
+pn
+
+(2.6)
+
+n=1
+
+donde in son enteros que varı́an en el conjunto {0, 1, 2, · · · , p − 1}.
+P
+n
+Recordemos que la serie geométrica +∞
+n=0 a es convergente para |a| < 1, de modo que la serie
+(2.6) es convergente. Observemos además que hay a lo sumo dos representaciones de la forma (2.2.1).
+La sucesión {in } define los llamados desarrollos p-adicos de un número real:
+x = .i1 i2 i3 · · · in · · ·
+
+(2.7)
+
+Por ejemplo, si p = 2 la representación (2.7) corresponden a los llamados desarrollos binarios y con
+p = 10 obtenemos los desarrollos decimales de números reales con los cuáles estamos familiarizados
+desde la escuela.
+Demostración
+del Teorema 2.2.1. Comencemos dividiendo el intervalo [0, 1] en p subintervalos Ii =
+
+
+i i+1
+,
+con i = 0, · · · , p−1. La familia de intervalos ℘1 = {Ii } es una descomposición del intervalo
+p p
+unitario en intervalos compactos no yuxtapuestos, es decir int I ∩ int J = ∅ para todo par de
+intervalos I, J ∈ ℘1 , dondeint J denota el interior
+topológico del intervalo J. Ahora dividimos cada
+
+i
+j i
+j+1
+Ii en p subintervalos Iij =
++ , + 2
+con j variando en {0, 1, 2, · · · , p − 1}. Ası́ obtenemos
+p p2 p
+p
+una nueva descomposición ℘2 = {Iij : i, j ∈ {0, 1, · · · , p − 1}} de p2 subintervalos que cubren el
+intervalo unitario. Siguiendo este proceso de manera recursiva definimos, para cada n ≥ 1 una
+descomposición del intervalo en intervalos no cerrados no solapados ℘n = {Ii1 ···in : (i1 , · · · , in ) ∈
+{0, · · · , p − 1}n }, donde
+
+
+i1
+i2
+in i1
+i2
+in + 1
+Ii1 ···in =
++ 2 + ··· + n ,
++ 2 + ··· +
+(2.8)
+p
+p
+p
+p
+p
+pn
+y tal que:
+1. cada ℘n es una descomposición de [0, 1] formada por pn intervalos compactos no solapados
+Ii1 ···in con (i1 , · · · , in ) ∈ {0, 1, 2, · · · , p − 1}n ;
+2. la familia de todos los intervalos p-adicos
+℘ = {Ii1 ···in : (i1 , · · · , in ) ∈ {0, 1, 2, · · · , p − 1}n n > 0}
+es una red de conjuntos ordenada por inclusión, en otras palabras, para cada secuencia {in }n≥1
+se tiene
+· · · ⊂ Ii1 ···in ⊂ Ii1 ···in−1 ⊂ · · · ⊂ Ii1 ;
+de esta forma la sucesión {℘n }n>0 es decreciente, es decir,
+℘n+1 ≤ ℘n
+
+∀n ≥ 1;
+
+3. la longitud de los intervalos J ∈ ℘n decae a cero exponencialmente con n; esto es,
+|Ii1 ···in | = p−n → 0 cuando n → +∞.
+
+2.3 El espacio de la aritmética p-adica
+
+13
+
+Sea
+T+∞{in }n≥1 una sucesión con in ∈ {0, · · · , p−1}. Por el principio de encaje de Cantor la intersección
+n=1 Ii1 ···in es un compacto no vacı́o. Como el diámetro de los intervalos tiende a cero, la intersección
+se reduce a un único punto, digamos x. Claramente
+{x} =
+
++∞
+\
+
+Ii1 ···in si, y sólo si, x =
+
++∞
+X
+in
+pn
+
+n=1
+
+n=1
+
+pues, por definición x ∈ Ii1 ···in si, y sólo si,
+i1
+i2
+in
+i1
+i2
+in + 1
++ 2 + ··· + n ≤ x <
++ 2 + ··· +
+,
+p
+p
+p
+p
+p
+pn
+en otras palabras,
+ n
+
+X i
+
+1
+
+
+k
+− x ≤ n .
+
+
+ p
+pk
+k=1
+
+Recı́procamente, todo punto x ∈ I = [0, 1] admite una o a lo sumo dos representaciones del tipo
+(2.7).
+S
+En efecto, sea x ∈ I. Como I = 1≤i1 ,··· ,in ≤p Ii1 ,··· ,in para todo n ≥ 1, entonces, para cada n
+existen uno o a lo sumo dos intervalos en ℘n que contienen a x: x ∈ Ii1 ···in , o bien, x ∈ Ii1 ···in ∩
+Ii1 ···in +1 . Ası́ obtenemos
+una o a lo sumo dos secuencias encajadas de intervalos que convergen a x,
+T
+I
+de hecho: {x} = +∞
+n=1 i1 ···in . La no unicidad se pierde cuando x es un extremo de dos intervalos
+contigüos Ii1 ···in y Ii1 ···in +1 . En ese caso x admite dos desarrollos p-adicos equivalentes:
+x = .i1 i2 · · · in 000 · · · y x = .i1 i2 · · · (in + 1)(p − 1)(p − 1)(p − 1) · · ·
+Con lo cual la demostración está completa.
+
+2.3.
+
+El espacio de la aritmética p-adica
+
+El conjunto de las secuencias {in } con valores en un conjunto finito, digamos {0, · · · , p − 1} es
+tan importante y aparece con tanta frecuencia en la investigación de la geometrı́a de fractales que
+merece un estudio particular.
+Definición 2.3.1. Definimos el producto cartesiano infinito
++
+
+B (p) =
+
++∞
+Y
+
+{0, · · · , p − 1};
+
+n=1
+
+esto es, el conjunto de todas las funciones ω : N −→ {0, · · · , p − 1}.
+El espacio de sucesiones B + (p) tiene una estructura geométrica que será de gran utilidad en
+nuestro estudio de fractales.
+Definición 2.3.2. Para cada ω, ω 0 ∈ B + (p) definamos
+0
+
+d(ω, ω ) =
+
++∞
+X
+|ωn − ω 0 |
+n
+
+n=1
+
+pn
+
+.
+
+(2.9)
+
+14
+
+Números reales como lı́mites
+
+Observe que la función d está bien definida. En efecto la serie (2.9) es convergente, pues |ωn −
+ωn0 | < p para todo n y para cada par de sucesiones ω, ω 0 ∈ B + (p) se tiene:
++∞
+X
+|ωn − ω 0 |
+n
+
+n=1
+
+pn
+
++∞
++∞
+X
+X
+p
+1
+<
+=
+.
+pn
+pn
+n=1
+
+n=0
+
+Dejamos a cargo del lector la sencilla verificación de que d es una métrica.
+El objetivo de esta sección es probar el siguiente resultado.
+Teorema 2.3.1. (B + (p), d) un espacio métrico compacto, completo, separable, perfecto y totalmente
+disconexo.
+La demostración se hará a través de una serie de lemas.
+Lema 2.3.1. Si d(ω, ω 0 ) < p−N entonces ωk = ωk0 para k = 1, · · · , N − 1. Recı́procamente, si
+ωk = ωk0 para k = 1, · · · , N entonces d(ω, ω 0 ) < p−N
+Demostración. Supongamos, por reducción al absurdo, que d(ω, ω 0 ) < p−N y que existe un entero
+1 ≤ k < N tal que ωk 6= ωk0 . Entonces |ωk − ωk0 | ≥ 1, de donde
++∞
+X
+|ωn − ω 0 |
+n
+
+n=1
+
+pn
+
+≥
+
+1
+1
+> −N
+k
+p
+p
+
+lo que lleva a una contradicción.
+Para ver el recı́proco, supongamos que ωk = ωk0 para k = 1, · · · , N . Entonces
+d(ω, ω 0 ) =
+
++∞
++∞
+0
+X
+|
+|ωn − ωn0 |
+1 X |ωn+N − ωn+N
+=
+.
+n
+N
+n
+p
+p
+p
+n=1
+
+n=N +1
+0
+Como |ωn+N − ωn+N
+| < p, entonces
+
++∞
++∞
++∞
+0
+X
+X
+|ωn+N − ωn+N
+| X
+p
+1
+1
+≤
+=
+=
+< 1.
+pn
+pn
+pn
+1 − (1/p)
+
+n=1
+
+n=1
+
+n=0
+
+Luego, d(ω, ω 0 ) < p−N .
+Definición 2.3.3. Llamaremos cilindros a los conjuntos
+CN (ω) = {ω 0 ∈ B + (p) : ωk = ωk0 , k = 1, · · · , N }.
+Una notación alternativa para describir estos conjuntos es
+Ci1 ···in = {ω ∈ B + (p) : ωk = ik k = 1, · · · , n }
+El lema anterior muestra que B(ω, p−(N +1) ) ⊂ CN (ω) ⊂ B(ω, p−N ). Esto quiere decir que los
+cilindros son una base de la topologı́a de espacio métrico definida por d. Del mismo lema se deduce
+sin dificultad el siguiente resultado.
+Lema 2.3.2. La sucesión {ωn } converge a ω si y sólo si para todo  > 0 existen N1 > 0 y N0 > 0
+tales que ωn (k) = ω(k) para todo 0 ≤ k ≤ N1 y para todo n ≥ N0 .
+
+2.3 El espacio de la aritmética p-adica
+
+15
+
+Es decir, ωn → ω si a partir de un N grande, los primeros elementos de la sucesión se estabilizan.
+Equipados con esta noción de convergencia podemos abordar la demostración del Teorema.
+Lema 2.3.3. (B + (p), d) es un espacio métrico completo.
+Demostración. Sea {ωn } una sucesión de Cauchy en (B + (p), d). Entonces, para todo  > 0 existe
+N = N () > 0 tal que d(ωn , ωm ) <  para todo n, m ≥ N (). En particular, para cada n ≥ 1 y
+ = p−n existen Nn y Mn con M − n, Nn → +∞ tales que ωi (k) = ωj (k) para todo 1 ≤ k < Nn y
+para todo i, j ≥ Mn . Esto nos permite definir, para cada n ≥ 1, la sucesión
+ω∞ (k) = ωMn (k), con k = 1, · · · , Nn .
+Como Nn → ∞ obtenemos de esa manera que ω∞ ∈ B + (p) que es punto de acumulación de la
+sucesión {ωn }, lo cual muestra que el espacio B + (p) es completo.
+Lema 2.3.4. (B + (p), d) es un espacio métrico separable.
+Demostración. Para ver que B + (p) es separable basta exhibir un conjunto denso numerable. Para
+ello tomamos el conjunto de las sucesiones periódicas. En efecto, sean ω = {ωn } una sucesión
+cualquiera en B + (p) y  > 0. Sean n > 0 el primer entero positivo tal que p−n <  y ω0 la sucesióm
+periódica
+ω0 = ω1 · · · ωn ω1 · · · ωn · · · .
+Entonces es claro que d(ω, ω0 ) < p−n < . Dejamos al lector la verificación de que el conjunto se
+secuencias periódicas es numerable.
+Lema 2.3.5. (B + (p), d) es un espacio métrico compacto.
+Demostración. Para mostrar la compacidad basta verificar que toda sucesión infinita de elementos
+en B + (p) tiene una subsucesión convergente. Para ello consideramos una sucesióm Ω0 = {ωn } de
+elementos en B + (p) y la listamos forman una “matriz infinita”
+ω1 =
+ω2 =
+
+i11 i12 · · · i1n · · ·
+i21 i22 · · · i2n · · ·
+..
+.
+
+ωm = im1 im2 · · · imn · · ·
+..
+.
+Como el conjunto {0, · · · , p − 1} es finito, existe al menos un elemento j1 ∈ {0, · · · , p − 1} que
+aparece infinitas veces en la primera columna
+i11 i21 · · · im1 · · ·
+Sean nj , con j ∈ N, los ı́ndices de los elementos Ω0 para los cuales in1 = j1 . La sucesión Ω1 =
+{ωnj }j≥1 es una subsucesión de Ω0 y tiene la primera entrada de todos los elementos son iguales a
+j1 . Inductivamente, construı́mos una sucesión de conjuntos infinitos
+Ωn ⊂ Ωn−1 ⊂ · · · ⊂ Ω1 ⊂ Ω0
+tal que, Ωi+1 es una subsucesión infinita de Ωi y está formada por elementos ωn ∈ Ω0 que tienen sus
+i+1 primeros elementos iguales. Para construir Ωn+1 listamos los elementos de Ωn = {ωnk }k≥1 como
+
+16
+
+Números reales como lı́mites
+
+una “matriz infinita”, observamos que las primeras n columnas son iguales, digamos a j1 , · · · , jn ∈
+{0, · · · , p − 1}:
+ωn1 = j1 j2 · · · jn in1 n+1 · · ·
+ωn2 = j1 j2 · · · jn in2 n+1 · · ·
+..
+.
+ωnk = j1 j2 · · · jn in2 n+1 · · ·
+..
+.
+Como {0, · · · , p − 1} es finito, existe un elemento jn+1 que se repite infinitas veces en la secuencia
+ink n+1 ∈ {0, · · · , p − 1}, lo cual nos permite seleccionar una subsucesión infinita Ωn+1 ⊂ Ωn tal que
+las primeras n + 1 entradas de los elementos de Ωn+1 son iguales a j1 , · · · , jn+1 respectivamente.
+Sea ω∞ = {jn }n≥1 . La secuencia de subsucesiones Ωn es decreciente y se tiene que d(ω∞ , ω) <
+para todo ω ∈ Ωn . Elijamos ahora un elemento ωnk ∈ Ωk para cada k > 0. El conjunto {ωnk }
+es una subsucesión de Ω0 y converge a ω∞ , como querı́mos probar.
+
+p−n+1
+
+Lema 2.3.6. B + (p) es un conjunto perfecto.
+Demostración. Basta ver que cualquier punto ω es lı́mite de puntos ωn ∈ B + (p). Sea ω = i1 i2 · · · in · · ·
+Definamos para cada n ≥ 1 la sucesión
+ωn = i1 i2 · · · in 000 · · · .
+Es claro entonces que d(ωn , ω) → 0 cuando n → +∞.
+Un subconjunto A ⊂ X de un espacio métrico (X, d) es conexo si no existen dos conjuntos
+abiertos disjuntos no vacı́os U y V , tales que A = (A ∩ U ) ∪ (A ∩ V ). En otras palabras, A es conexo
+si no puede descomponerse en dos piezas separadas. Dado un punto x ∈ X existe un abierto maximal
+conexo C(x) que contiene a x llamado la componente conexa del punto x. Es simple verificar que
+C(x) es la unión de todos los conjuntos abiertos conexos que contienen a x. Este conjunto es abierto
+y conexo y tiene la propiedad señalada. Un espacio es totalmente disconexo si la componente conexa
+de x se reduce al punto; es decir, si C(x) = {x} para todo x ∈ X. Equivalentemente, un espacio
+métrico (X, d) es totalmente disconexo si tiene una base de entornos que son al mismo tiempo
+abiertos y cerrados.
+Lema 2.3.7. B + (p) es totalmente disconexo.
+Demostración. Por las observaciones precedentes basta exhibir una base de entornos abiertos y
+cerrados. Para ello tomamos la base formada por los cilindros CN (ω). En efecto, cada cilindro es
+abierto y, como es fácil verificar, el complemento de un cilindro es abierto, pues es una unión finita
+de cilindros:
+[
+[CN (ω)]c =
+{ C(i1 , · · · , in ) : (i1 , · · · , in ) 6= (ω(1), · · · , ω(n)) },
+donde C(i1 , · · · , in ) = { ω ∈ B + (p) : ωk = ik k = 1, · · · , n }. En consecuencia cada cilindro CN (ω)
+o, si prefiere C(i1 , · · · , in ), es abierto y cerrado. Como forman una base de la topologı́a concluı́mos
+que B + (p) es totalmente disconexo.
+Sigue por tanto, de los lemas anteriores, la demostración del teorema 2.3.1.
+El siguiente teorema explica porque hemos llamado a B + (p) el espacio de desarrollos p-adicos.
+
+2.4 Ejercicios
+
+17
+
+Teorema 2.3.2. Sea p > 0 un entero positivo. Existe una aplicación continua, abierta y sobreyectiva
+h : B + (p) −→ [0, 1] definida por los desarrollos p-adicos de números reales.
+Demostración. En efecto, sea ω = {in }n≥1 un punto B + (p). Definimos h(ω) como el único punto
+definido por la intersección de la familia encajada de intervalos {Ii1 ···in } construı́da con los desarrollos
+p-adicos:
++∞
+\
+{h(ω)} =
+Ii1 ···in .
+n=1
+
+La aplicación h es sobreyectiva porque todo número real x ∈ [0, 1] admite un (y a lo sumo dos)
+desarrollo p-adico x = 0.i1 i2 i3 · · · . Esto se deduce de que
+I=
+
++∞
+\
+
+[
+
+Ii1 ···in .
+
+n=1 (i1 , ··· ,in )∈{0, ··· ,p−1}n
+
+La aplicación h no es inyectiva, debido a la no unicidad de los desarrollos p-adicos. Mostremos ahora
+que la aplicación h es continua y abierta.
+Para la continuidad probaremos que la pre-imagen de un entorno cerrado es un conjunto cerrado.
+En efecto, si x = 0.i1 i2 i3 · · · entonces el intervalo Ii1 ···in es un entorno cerrado de x y su imagen
+inversa es el cilindro:
+h−1 (Ii1 ···in ) = C(i1 , · · · , in ),
+que es un conjunto cerrado. Ası́ mismo, como h(C(i1 , · · · , in )) = Ii1 ···in , entonces la aplicación h es
+cerrada. Finalmente, como h es sobreyectiva, también es abierta.
+Para cerrar este capı́tulo nos gustarı́a destacar que las propiedades de B + (p) de ser compacto,
+perfecto y totalmente disconexo, se acostumbran agrupar en topologı́a bajo un concepto.
+Definición 2.3.4. Sea (X, d) un espacio métrico completo. Diremos que un subconjunto K ⊂ X
+es un conjunto de Cantor o cantorii si es compacto, perfecto, totalmente disconexo.
+Ası́ que los espacios p-adicos son conjuntos de Cantor con la topologı́a métrica indicada anteriormente.
+Algunos hechos básicos (y relevantes) concernientes a conjuntos de Cantor se enuncian a continuación; éstos pueden consultarse en [7] y [11].
+Teorema 2.3.3. Sea (X, d) un espacio métrico. Entonces:
+1. Todo conjunto de Cantor es no numerable.
+2. Cualesquiera dos conjuntos de Cantor son homeomorfos.
+3. Todo subconjunto abierto y cerrado no vacı́o en un conjunto de Cantor es un conjunto de
+Cantor.
+
+2.4.
+
+Ejercicios
+
+1. Sea f = f (x) una función continuamente diferenciable. El algoritmo de Newton es un procedimiento para generar recursivamente aproximaciones a la solución de la ecuación f (x) = 0.
+
+18
+
+Números reales como lı́mites
+Para ello procedemos del siguiente modo. Sea J = (a, b) un intervalo pequeño donde f cambia
+de signo, i.e. f (a)f (b) < 0. Por el Teorema de Bolzano, existe p ∈ J tal que f (p) = 0. Supongamos que podemos elegir J suficientemente pequeño tal que p es la única raı́z de la ecuación
+f (x) = 0 en el intervalo J y que f no tenga puntos crı́ticos en el intervalo, es decir, f 0 (x) > 0
+(o f 0 (x) < 0) para todo x ∈ J. Estas condiciones se pueden chequear mediante una análisis
+de la gráfica de f .
+Ahora definimos recursivamente una sucesión {xn } de la siguiente manera: xn+1 es, por definición, la intersección de la recta tangente a la gráfica de f por el punto (xn , f (xn )), donde
+x = x0 ∈ J es un punto inicial arbitrario. Entonces:
+a) Demuestre que {xn } se genera recursivamente por la fórmula:
+xn+1 = xn −
+f (x)
+f 0 (x) .
+
+b) Sea Nf (x) = x −
+sólo si, N (p) = p.
+
+f (xn )
+, n ≥ 0.
+f 0 (xn )
+
+Demuestre que x = p es una raı́z de la ecuación f (x) = 0 si, y
+
+c) Sea f (x) = x2 + c. ¿Serán siempre convergentes las sucesiones {xn } generadas recursivamente por Nf en la recta R ?
+d ) ¿Qué pasa si en vez de una variable real consideramos z en el plano complejo C? Vale
+decir, ¿son siempre convergentes las sucesiones
+zn+1 = zn −
+
+zn2 + c
+2zn
+
+para todo
+
+z0 , c ∈ C ?
+
+2. Encuentre una fórmula recursiva para la sucesión
+r
+q
+q
+√
+√
+√
+2, 2 + 2, 2 + 2 + 2, ···
+Demuestre por inducción que
+r
+
+q
+2 + ··· +
+{z
+
+2+
+|
+
+n−raices
+
+√
+
+π
+2 = 2 cos n+1
+2
+}
+
+y use esta identidad para deducir la aproximación de Vieta (??) para 2/π.
+3. Sean rn y Rn las sucesiones definidas recursivamente por las ecuaciones
+R n + rn
+p 2
+=
+Rn rn+1 .
+
+rn+1 =
+Rn+1
+Demuestre lo siguiente:
+a) rn < Rn para todo n.
+b) rn es creciente y Rn decreciente.
+
+c) las sucesiones {rn } y {Rn } convergen al mismo lı́mite.
+
+2.4 Ejercicios
+
+19
+
+4. Demuestre directamente, sin usar criterios de comparación, que la serie armónica
++∞
+X
+1
+n
+
+n=1
+
+es divergente y demuestre que las diferencias
+n
+X
+1
+Sn =
+− log(n)
+k
+k=1
+
+convergen a un lı́mite C > 0. Esta constante se llama la constante de Euler. Aún no se sabe
+si C es racional.
+5. Demuestre usando criterios de comparación que la serie
++∞
+X
+1
+ns
+
+n=1
+
+converge para todo s > 1 y define una función continua en el intervalo (1, +∞).
+
+Capı́tulo 3
+
+Dos ejemplos clásicos:
+el conjunto de Cantor y el tapiz de Sierpinski
+La construcción del primero de estos ejemplos fue expuesta por primera vez en 1883. Este es
+sin duda el más importante de todos los ejemplos clásicos de fractales, aunque no es muy popular
+porque no admite una representación gráfica llamativa y su naturaleza como objeto geométrico es
+difı́cil de captar: el conjunto de Cantor K es compacto, perfecto y totalmente disconexo; en otras
+palabras, no contiene intervalos y tiene la misma cardinalidad de los números reales. Esto último
+hecho resulta en sı́ un poco sorprendente pues, geométricamente, ¡K es totalmente discontinuo!
+El segundo ejemplo es el tapiz de Sierpinski uno de los fractales clásicos más conocidos.
+Ambas conjuntos son lı́mites de construcciones geométricas recursivas las cuáles tienen un gran
+parecido con los desarrollos p-adicos estudiados en el Capı́tulo anterior. El concepto de Sistemas
+Iterados de Funciones nos permitirá unificar estos ejemplos dentro de una teorı́a constructiva de
+conjuntos auto-similares.
+
+3.1.
+
+Las arenas de Cantor
+
+Empecemos fijando un intervalo, por ejemplo I = [0, 1]. La construcción de K se inicia dividiendo
+I en tres segmentos iguales y quitando el tercio del medio. Obtenemos ası́ dos intervalos I0 , I1 de
+longitud 1/3. Ahora retiramos el tercio central de los intervalos I0 e I1 obteniendo 22 subintervalos
+de longitud 1/9 que denotamos Iij con i, j ∈ {0, 1}. Para n = 3 obtenemos 23 intervalos de longitud
+1/27. El proceso continúa de la manera recursiva retirando el tercio del medio de los intervalos de
+la etapa anterior, obteniendo ası́ 2n intervalos cerrados Ii1 ···in indexados por n-uplas (i1 , · · · , in )
+que varı́an en {0, 1}n , el producto cartesiano de n copias del conjunto {0, 1}. Los intervalos Ii1 ···in
+son disjuntos y están ordenados de modo que Ii1 ...in−1 j ⊂ Ii1 ···in−1 para todo j ∈ {0, 1}. Ası́ cada
+intervalo Ii1 ···in del nivel n de la construcción está contenido en exactamente un intervalo de la etapa
+anterior y sus longitudes decaen rápidamente a cero pues |Ii1 ···in | = 3−n . Por ejemplo, para n = 1,
+se tiene:
+I0 = [0, 1/3]
+I1 = [2/3, 1]
+Para n = 2:
+I00 = [0, 1/9] I01 = [2/9, 3/9] I10 = [6/9, 7/9] I11 = [8/9, 9/9]
+y para n = 3:
+I000 = [0, 1/27]
+I001 = [2/27, 3/27]
+I010 = [6/27, 7/27]
+I011 = [8/27, 9/27] I100 = [18/27, 19/27] I101 = [20/27, 21/27]
+I110 = [24/27, 25/27] I111 = [26/27, 27/27]
+
+3.1 Las arenas de Cantor
+
+21
+
+El conjunto de Cantor ternario K es lo que queda del intervalo I = [0, 1] al aplicar esta construcción
+infinitas veces.
+
+PSfrag replacements
+..
+.
+Fig. 3.1: Primeras etapas en la construcción del conjunto de Cantor ternario K
+Proposición 3.1.1. El conjunto de Cantor ternario K es un conjunto de Cantor del intervalo [0, 1];
+esto es, compacto, perfecto y totalmente disconexo; además, tiene la potencia del continuo.
+Demostración. Primero mostraremos que el conjunto de Cantor ternario es la intersección de una
+familia encajada de compactos; esto implica en particular que K es un conjunto compacto no vacı́o,
+por el principio de encaje de Cantor. Para probar nuestra afirmación observemos que K se puede
+representar con la ecuación conjuntista
+K=
+
++∞
+\
+
+[
+
+Kn , donde Kn =
+
+n=1
+
+(i1 ,··· ,in
+
+Ii1 ···in .
+
+) ∈ {0,1}n
+
+Claramente Kn es una unión finita de intervalos cerrados y acotados, por lo tanto es compacto,
+y Kn+1 ⊂ Kn para todo n. Luego {Kn } es una sucesión encajada de compactos, probando que K
+es compacto y no vacı́o como afirmamos. Esta misma representación conjuntista permite definir la
+función h : B + (2) −→ K mediante
+{h(ω)} =
+
++∞
+\
+
+Ii1 ···in , donde ω = {ij }j≥1 ∈ B + (2).
+
+n=1
+
+Como en el Teorema 2.3.2 h es continua, sobreyectiva y abierta. En realidad h es un homeomorfismo.
+Para ver esto basta demostrar que h es uno-a-uno. Pero esto sigue de que, para cada n ≥ 1, los
+intervalos Ii1 ···in de la n-ésima etapa de construcción del conjunto de Cantor ternario son disjuntos.
+Esto termina la demostración en virtud de lo probado en el Teorema 2.3.1 en Capı́tulo 2.
+A la luz de los resultados del Capı́tulo anterior podemos ver que el conjunto de Cantor ternario
+K es precisamente el conjunto de números reales x ∈ I cuyos desarrollos ternarios sólo contienen los
+dı́gitos 0 y 2. Esta definición aritmética permitirá demostrar algunas de sus propiedades topológicas
+más importantes.
+
+3.1.1.
+
+Variaciones de la construcción de K
+
+Ahora veremos algunas variantes de la construcción anterior. Para la primera de ellas fijemos
+λ ∈ (0, 21 ). Vamos a construir un conjunto Kλ en el intervalo unitario I extrayendo, en cada etapa
+
+22
+
+Dos ejemplos clásicos
+
+de la construcción, un segmento central de proporción λ. Escojamos un intervalo J λ ⊂ I de longitud
+1
+1
+|J λ | = λ. Por ejemplo, J λ = ( (1 − λ), (1 + λ)) sirve. Escribimos entonces
+2
+2
+I − J λ = I0λ ∪ I1λ
+y procedemos recursivamente retirando un segmento central de proporción λ. Supongamos construı́dos los intervalos Iiλ1 ···in−1 , (ik = 0, 1). Luego extraemos, para cada (i1 , · · · , in−1 ) ∈ {0, 1}n el
+intervalo (abierto) central
+Jiλ1 ···in−1 ⊂ Iiλ1 ···in−1 tal que
+
+|Jiλ1 ···in−1 |
+|Iiλ1 ···in−1 |
+
+=λ,
+
+formando ası́ una familia decreciente de conjuntos tales que
+Kλ =
+
++∞
+\
+
+[
+
+Iiλ1 ···in .
+
+n=1 (i1 ,··· ,in−1 )∈{0,1}n
+
+El conjunto Kλ construido mediante el procedimiento recursivo descrito es homeomorfo al Cantor
+ternario, como veremos más adelante.
+Otra variante de las construcciones de K y Kλ es como
+P sigue. 1Consideremos una colección
+Λ = (λ0 , · · · , λp−1 ), p > 1, de números reales positivos con j λj < 2 ; y elegimos p − 1 intervalos
+P
+abiertos disjuntos Jk ⊂ I (k = 1, · · · , p − 1) tales que j |Jk | < 21 . Estos intervalos son elegidos de
+manera que al ser excluidos de I se obtienen p intervalos cerrados IiΛ (i = 0, · · · , p − 1) tales que
+|IiΛ |
+|I|
+
+= λi .
+
+El siguiente paso en la construcción es repetir lo realizado en cada uno de los intervalos IiΛ
+manteniendo las proporciones; es decir, en cada IiΛ extraemos p − 1 intervalos abiertos disjuntos
+Ji1 , · · · , Jip−1 tales que
+1. IiΛ −
+2.
+
+Λ|
+|Iij
+
+|IiΛ |
+
+S
+
+k
+
+Λ ∪ · · · ∪ IΛ
+Jik = Ii0
+ip−1 y
+
+= λi para cada i, j = 0, · · · , p − 1.
+
+Repitiendo este procedimiento, en la etapa n-ésima de la construcción tenemos pn subintervalos
+IiΛ1 ···in , (i1 , · · · , in ) ∈ {0, · · · , p − 1}n tales que:
+1. los intervalos IiΛ1 ···in son disjuntos dos a dos;
+2. para todo ω = {in }n≥1 en B + (p) la sucesión {IiΛ1 ···in }n≥1 es una familia encajada de intervalos
+compactos;
+3. los conjuntos
+[
+
+Kn =
+
+IiΛ1 ···in
+
+(i1 ,··· ,in )∈{0,··· ,p−1}n
+
+forman una familia encajada de compactos;
+4. la longitud de los intervalos IiΛ1 ···in decae a cero cuando n → +∞. Más aun, |Ii1 ···in | = λi1 ·
+λi2 · · · λin , luego |Ii1 ···in | < 2−n .
+
+3.2 El tapiz de Sierpinski
+
+23
+
+De esta forma tenemos el conjunto
+KΛ =
+
++∞
+\
+
+[
+
+IiΛ1 ···in .
+
+n=1 (i1 ,··· ,in )∈{0,··· ,p−1}n
+
+De manera similar a como se hizo con el conjunto de Cantor ternario, se demuestra que los conjuntos
+Kλ y KΛ son conjuntos de Cantor; en realidad homeomorfos a B + (2) y B + (p) respectivamente.
+
+3.2.
+
+El tapiz de Sierpinski
+
+Ahora vamos a definir un algoritmo para construir el tapiz de Sierpinski. Este conjunto fue expuesto por primera vez en 1916 como parte de los trabajos del matemático polaco Waclav Sierpinski
+(1882-1969) en el desarrollo de la teorı́a de la dimensión topológica de conjuntos compactos.
+Comenzamos considerando como objeto inicial un triángulo equilátero ∆ en el√plano R2 ; por
+ejemplo el triángulo de vértices en los puntos O = (0, 0), P = (2, 0) y Q = (1, 3). Tomemos
+ahora los puntos medios de los lados de ∆ como vértices de un triángulo equilátero y removamos
+el interior del mismo. La figura que resta en es la unión de tres sub-triángulos semejantes a ∆ con
+razón de similaridad λ = 1/2. Sean ∆0 , ∆1 y ∆2 tales sub-triángulos. Ahora aplicamos el mismo
+
+PSfrag replacements
+∆
+∆0
+∆2
+∆1
+Fig. 3.2: Poligonos regulares inscritos y circunscritos.
+procedimiento a cada uno de los sub-triángulos ∆i ⊂ ∆0 , i = 1, 2, 3, obteniendo ası́ 32 triángulos
+∆ij ⊂ ∆i (i, j = 0, 1, 2), los cuales son semejantes a ∆ con razón de similaridad 2−2 . Repitiendo
+recursivamente el proceso obtenemos, en la etapa n-ésima de la construcción se tienen 3n triángulos
+∆i1 ···in semejantes a ∆ con razón de similaridad 2−n tal que ∆i1 ···in+1 ⊂ ∆i1 ···in para todo n ≥ 1,
+obtenidos al retirar el interior del trángulo central de razón 1/2 en cada uno de los triángulos
+construidos en la etapa anterior. De esta, el tapiz de Sierpinski S es el conjunto que queda después
+de repetir infinitas veces esa construcción.
+Resumiendo, en cada paso n ≥ 1 de la construcción de S[se obtiene un conjunto compacto
+(cerrado y acotado) del plano ∆n ⊂ ∆, de hecho ∆n =
+∆i1 ···in , donde cada ∆i1 ···in
+(i1 ···in )∈{0,1,2}n
+
+es un triángulo \
+como señalado anteriormente. Además, de la propia definición del procedimiento
+empleado, S =
+∆n ; y en virtud de la inclusión ∆n+1 ⊂ ∆n , para cada n ≥ 1, se sigue por el
+n≥1
+
+teorema de encaje de Cantor que S es un compacto no vacı́o.
+El algoritmo deterministico para generar el tapiz de Sierpinski es un caso particular de una
+construcción más general para construir conjuntos fractales. A continuación presentamos algunas
+ideas que serán desarrolladas con mayor precisión en el capı́tulo siguiente; lo que deseamos es
+
+24
+
+Dos ejemplos clásicos
+
+Fig. 3.3: Una aproximación del tapiz de Sierpinski
+motivar la construcción general que presentaremos, mostrando cómo mediante un proceso iterativo
+de una cierta aplicación definida sobre los conjuntos compactos no vacı́os se obtiene, en particular,
+el conjunto S como lı́mite de tales iteraciones.
+Definamos en R2 las transformaciones afines T0 , T1 , T2 de razón λ = 1/2 que transforman ∆ en
+∆0 , ∆1 y ∆2 , respectivamente; esto es, Ti (∆) = ∆i , i = 0, 1, 2. Estas transformaciones afines están
+definidas por:
+ 
+  
+x
+1/2 0
+x
+,
+=
+T0
+y
+0 1/2
+y
+  
+   
+x
+1/2 0
+x
+1
+T1
+=
++
+, y
+y
+0 1/2
+y
+0
+  
+  
+
+1/2
+x
+1/2 0
+x
++ √
+=
+T2
+y
+0 1/2
+y
+3/2
+Observe que cada Ti es una contracción ∆1 = T0 (∆)∪T1 (∆)∪T2 (∆). Si introducimos la notación
+τ (A) = T0 (A) ∪ T1 (A) ∪ T2 (A), donde A ⊂ R2 es cualquier conjunto compacto no vacı́o, entonces
+τ (∆) = ∆1 . Además, al componer τ consigo misma y evaluarla en ∆ se obtiene:
+2
+
+τ (∆) = (τ ◦ τ )(∆) = T0 (τ (∆)) ∪ T1 (τ (∆)) ∪ T2 (τ (∆)) =
+
+2
+[
+
+Ti ◦ Tj (∆).
+
+i,j=0
+
+Pero, una simple inspección muestra que Ti ◦ Tj (∆) = ∆ij para cada i, j en {0, 1, 2}. En realidad,
+para cada n ≥ 1 y cualesquiera sean i1 , · · · , in en {0, 1, 2}, la familia de triángulos que generan el
+tapiz de Sierpinski se pueden obtener usando las contracciones Ti , en efecto
+∆i1 ···in = Tin ◦ · · · ◦ Ti1 (∆).
+
+(3.1)
+
+Por otro lado, empleando argumentos inductivos se verifica que para cada n ≥ 1 vale la identidad:
+[
+τ n (∆) =
+Tin ◦ · · · ◦ Ti1 (∆) = ∆n .
+(i1 ,··· ,in )∈{0,1,2}n
+
+Esto es, al iterar el operador τ (definido sobre un espacio apropiado: los compactos de R2 ) se
+obtienen los conjuntos obtenidos en el algoritmo para construir S, de hecho, ∆n+1 = τ (∆n ). Dado
+que los conjuntos ∆n forman familias encajadas de compactos, entonces ellos dan lugar a un conjunto
+lı́mite del operador τ ; en otras palabras, S puede entenderse como el lı́mite, cuando n → +∞, de los
+iterados por el operador τ . Esta es la propiedad que deseamos destacar como elemento motivador
+para un análisis posterior.
+
+3.3 Ejercicios
+
+3.3.
+
+25
+
+Ejercicios
+
+1. Decimos que un conjunto es nunca denso o de primera categorı́a de Baire si el interior de la
+clausura es vacı́o. Pruebe que el conjunto de Cantor es nunca denso.
+2. Pruebe que todo conjunto perfecto es no numerable. Indicación: use el argumento diagonal
+de Cantor.
+3. El complemento
+S del conjunto de Cantor ternario es una unión numerable de intervalos abiertos,
+i.e. I − K = n Un con Un = (an , bn ), donde an , bn son extremos de intervalos de la forma
+Ii1 ···im . Pruebe que
++∞
+X
+|Un | = 1.
+n=1
+
+Esto prueba que K tiene medida cero.
+4. Pruebe que los conjuntos de Cantor Kλ tienen medida cero.
+5. Sea S ⊂ {0, · · · , 9} un subconjunto propio. Pruebe que Λ = ΛS , el conjunto de los x ∈ I cuyos
+desarrollos decimales sólo contiene dı́gitos ni ∈ S es un conjunto de Cantor.
+
+Capı́tulo 4
+
+Sistema Iterado de Funciones:
+construcción de Conjuntos Fractales
+En el capı́tulo anterior presentamos algunos ejemplos de conjuntos con estructura fractal: el
+conjunto de Cantor ternario, incluyendo algunas variaciones; y el tapiz de Sierpinski. Tales conjuntos
+son una muestra de atractores de ciertos sistemas dinámicos discretos definidos en un espacio métrico
+especial: el espacio de las formas; también conocido como “el espacio de los fractales”: sus puntos
+son los conjuntos compactos no vacı́os de un espacio métrico completo (X, d).
+Nuestro objetivo acá es formalizar las diferentes nociones que permiten generar conjuntos fractales mediante la iteración de aplicaciones definidas sobre el espacio de las formas. En primer lugar
+debemos formalizar la noción del espacio de las formas; luego introducir los elementos necesarios
+de la teorı́a de los sistemas dinámicos discretos para finalmente considerar las aplicaciones que
+generarán tales atractores como lı́mites de conjuntos .
+
+4.1.
+
+Métrica de Hausdorff y el espacio de las formas
+
+En lo que sigue, y salvo aviso en contrario, (X, d) es un espacio métrico completo. Primero vamos
+a recordar algunas definiciones básicas sobre distancia entre conjuntos.
+En el capı́tulo 1 se introdujo tanto la noción de distancia del punto x a conjunto no vacı́o A,
+d(x, A) = ı́nf{d(x, y) : y ∈ A}, como la definición de bola abierta entorno a un conjunto A y radio
+δ, Bδ (A), y que en adelante denotamos por A + δ = {x ∈ X : d(x, A) < δ}.
+Definición 4.1.1. Sean A, B ⊆ X dos subconjuntos no vacı́os. Definimos la distancia de Hausdorff
+entre A y B como
+dist H (A, B) = ı́nf {δ > 0 : A ⊂ B + δ y B ⊂ A + δ }.
+
+(4.1)
+
+Para muchas personas la definición dada de dist H puede resultar difı́cil de comprenderla y
+emplearla al momento de realizar cálculos. Por ello mostramos una forma equivalente en el siguiente
+teorema.
+Teorema 4.1.1. Para cualquier para de conjuntos no vacı́os A, B de X vale la identidad
+dist H (A, B) = máx{sup d(x, B), sup d(y, A)}.
+x∈A
+
+(4.2)
+
+y∈B
+
+Demostración. Note que A ⊂ B + δ si, y sólo si, d(x, B) < δ para todo x ∈ A. Por tanto, si tomamos
+δ > 0 tal que A ⊂ B +δ, entonces sup d(x, B) ≤ δ; por lo que sup d(x, B) ≤ ı́nf{δ > 0 : A ⊂ B +δ}.
+x∈A
+
+x∈A
+
+4.1 Métrica de Hausdorff y el espacio de las formas
+
+27
+
+De hecho tales números son iguales, pues de lo contrario, existirı́a un δ > 0 tal que δ > d(x, B) para
+todo x ∈ A y sin embargo A 6⊂ B + δ. De esta forma,
+sup d(x, B) = ı́nf{δ > 0 : A ⊂ B + δ} = δA ,
+x∈A
+
+y análogamente, sup d(y, A) = ı́nf{δ > 0 : B ⊂ A + δ} = δB . Sigue entonces que
+y∈B
+
+máx{sup d(x, B), sup d(y, A)} = máx{δA , δB }.
+x∈A
+
+y∈B
+
+Finalmente mostremos que máx{δA , δB } = dist H (A, B). Dado que cada uno de los conjuntos
+{δ > 0 : A ⊂ B + δ} y {δ > 0 : B ⊂ A + δ} contienen a {δ > 0 : A ⊂ B + δ y B ⊂ A + δ}, entonces
+dist H (A, B) ≥ máx{δA , δB }. Si esta desigualdad es estricta, podemos elegir δ1 ∈ (δA , dist H (A, B))
+y δ2 ∈ (δB , dist H (A, B)) tales que A ⊂ B + δ1 y B ⊂ A + δ2 . Luego al tomar el máximo de δ1 y δ2
+tendremos un valor δ > 0 menor que dist H (A, B) para el cual A ⊂ B + δ y B ⊂ A + δ; lo cual es
+imposible.
+Antes de proseguir es necesario mencionar que el valor dist H (A, B) asociado a dos subconjuntos
+no vacı́os A y B de X puede ser +∞; por ejemplo, en R considere los intervalos A = (−∞, a] y
+B = [b, +∞), con a < b, por lo que no existe un número δ > 0 tal que A ⊂ B + δ y B ⊂ A + δ. Esto
+significa que dos conjuntos cualesquiera pudiesen estar a distancia de Hausdorff infinita. También
+puede ocurrir que existan conjuntos no vacı́os distintos que estén a distancia de Hausdorff igual a
+0; por ejemplo, sean C ⊂ X no vacı́o, ni abierto, ni cerrado. Si A = C 0 (interior topológico de C)
+y B = C (clausura topológica de C), entonces es simple verificar que para cualquier número δ > 0
+siempre se cumple A ⊂ B + δ y B ⊂ A + δ, con lo cual dist H (A, B) = 0.
+Dado que estamos interesados en emplear la función dist H para definir una métrica en una
+“parte amplia” de la colección de los subconjuntos no vacı́os de X, consideraremos exclusivamente
+la colección de todos los subconjuntos compactos no vacı́os de X; tal conjunto lo denotamos por
+H(X), y en adelante lo denominaremos espacio de las formas, o espacio de los fractales.
+Teorema 4.1.2. La función dist H : H(X) × H(X) → R+ es una métrica y (H(X), dist H ) es
+completo.
+Previo a la demostración de este resultado debe observarse que la fórmula (4.2) es realizada en
+un par (b
+x, yb) ∈ A × B cuando A, B ∈ H(X). En efecto, si A ∈ H(X), entonces existe y ∈ A tal que
+d(x, A) = d(x, y). Esto es porque la función distancia: f : A → [0, +∞] dada por f (y) = d(x, y) para
+x ∈ A fijo, es continua y por lo tanto alcanza un valor mı́nimo en A; ver capı́tulo 1. De esta forma,
+para todo A ∈ H(X) y todo x ∈ X se tiene d(x, A) = mı́n{d(x, y) : y ∈ A}; en otras palabras,
+para todo A ∈ H(X) y todo x ∈ X, existe x∗ ∈ A tal que d(x, A) = d(x, x∗ ).
+Consideremos A, B ∈ H(X), y definamos la función g : A → R+ por g(x) = d(x, B). Sabemos que
+para cada x ∈ A, existe x∗ ∈ B tal que g(x) = d(x, B) = d(x, x∗ ). Tomemos dos puntos cualesquiera
+x, y ∈ A, y sean x∗ , y ∗ ∈ B tales que d(x, x∗ ) = d(x, B) = g(x) y d(y, y ∗ ) = d(y, B) = g(y). De la
+axiomática métrica se tiene
+
+d(x, x∗ ) ≤ d(x, y ∗ ) ≤ d(x, y) + d(y, y ∗ )
+;
+d(y, y ∗ ) ≤ d(y, x∗ ) ≤ d(x, y) + d(x, x∗ )
+de donde |g(x) − g(y)| ≤ d(x, y). Luego sigue la continuidad de la función g. De la compacidad de
+A, existe x
+b ∈ A tal que
+d(b
+x, B) = máx{d(x, B) : x ∈ A} = sup{g(x) : x ∈ A} ∈ R+ .
+
+28
+
+Sistemas Iterado de Funciones
+
+PSfrag replacements
+x
+x∗
+d(x, A)
+A
+Fig. 4.1: Distancia del compacto A al punto x realizada en x∗ .
+Nuevamente por compacidad sigue sup d(x, B) = máx{mı́n d(x, y)}. Análogamente, sup d(x, A) =
+x∈A y∈B
+
+x∈A
+
+x∈B
+
+máx{mı́n d(x, y)}. De donde,
+x∈B
+
+y∈A
+
+dist H (A, B) = máx{máx d(x, B), máx d(y, A)},
+
+(4.3)
+
+dist H (A, B) = máx{máx{mı́n d(x, y)}, máx{mı́n d(y, x)};
+
+(4.4)
+
+x∈A
+
+y∈B
+
+o equivalentemente
+x∈A y∈B
+
+y∈B
+
+x∈A
+
+en particular, existen x
+b ∈ A y yb ∈ B tales que dist H (A, B) = d(b
+x, yb).
+Además de la propiedad demostrada, la compacidad de los conjuntos A, B en H(X) y la continuidad de la función g : A → R+ con g(x) = d(x, B), implican que si A ⊂ B + , entonces existe
+0 < 0 <  tal que A ⊂ B + 0 , donde B + 0 = {z : d(z, B) ≤ 0 }.
+El siguiente lema se apoya en esta última propiedad; y deja de ser cierto si los conjuntos A y B
+no son compactos.
+
+PSfrag replacements
+A
+B
+x
+d(y, A)
+d(x, B)
+y
+Fig. 4.2: Distancia de Hausdorff entre los compactos A y B.
+
+4.1 Métrica de Hausdorff y el espacio de las formas
+
+29
+
+Lema 4.1.1. Para todo par de conjuntos A, B ∈ H(X) y cualquier  > 0 se tiene:
+dist H (A, B) <  si, y sólo si, A ⊂ B +  y B ⊂ A + .
+Demostración. Usando las definiciones dadas a dist H sigue inmediatamente que si dist H (A, B) < ,
+entonces A ⊂ B +  y B ⊂ A + .
+Recı́procamente, si A ⊂ B +  y B ⊂ A + , entonces del comentario previo al lema podemos
+elegir 0 < 0 <  tal que A ⊂ B + 0 y B ⊂ A + 0 . De donde, para cada x ∈ A y cada y ∈ B se tiene
+d(x, B) ≤ 0 y d(y, A) ≤ 0 . Por tanto, dist H (A, B) ≤ 0 < .
+Demostración del teorema 4.1.2. Primero veamos que dist H es una métrica en H(X). Observe que
+por compacidad y la propiedad métrica de d, se tiene que dist H (A, B) es un número real no negativo
+para todo A, B ∈ H(X); también es obvia la simetrı́a; es decir,
+T dist H (A, B) = dist H (B, A). Por otra
+parte, como para cualquier conjunto A de X se tiene A = δ>0 Aδ , concluı́mos que dist H (A, B) = 0
+si, y sólo si, A ⊆ B y B ⊆ A. Dado que cada A ∈ H(X) es cerrado, entonces para todo A, B ∈ H(X),
+dist H (A, B) = 0 si, y sólo si, A = B.
+Probemos ahora la desigualdad triangular. Sean A, B, C conjuntos compactos no vacı́os de X.
+Dado que para cada x ∈ A vale
+d(x, B) = mı́n d(x, y)
+y∈B
+
+≤ mı́n {d(x, z) + d(z, y)} para todo z ∈ C
+y∈B
+
+= d(x, z) + mı́n d(z, y) para todo z ∈ C
+y∈B
+
+= d(x, z) + d(z, B) para todo z ∈ C
+Luego, d(x, B) ≤ d(x, C) + máx d(z, B). De donde
+z∈C
+
+máx d(x, B) ≤ máx d(x, C) + máx d(z, B).
+x∈A
+
+x∈A
+
+z∈C
+
+De forma análoga se muestra
+máx d(y, A) ≤ máx d(y, C) + máx d(z, A).
+y∈B
+
+y∈B
+
+z∈C
+
+Por tanto, usando (4.3) se tiene
+dist H (A, B) ≤ dist H (A, C) + dist H (C, B),
+con lo cual dist H es una métrica en H(X).
+Mostremos finalmente que H(X) provisto de dist H es completo. Sean {Kn }n≥1 una sucesión de
+Cauchy en (H(X), dist H ) y  > 0, entonces existe un entero positivo N tal que para cada n, m ≥ N ,
+dist H (Kn , Km ) < ; en particular, Kn ⊂ Km +  y Km ⊂ Kn +  para todo n, m ≥ N . Además,
++∞
+[
+Km ⊂ Kn +  siempre que n ≥ N .
+m=n
+
+Consideremos el conjunto K =
+
++∞
+\ +∞
+[
+
+Km . De lo anterior, K es la intersección de compactos
+
+n=1 m=n
+
+encajados, por tanto es compacto no vacı́o; es decir, K es elemento de H(X); más aun, para el 
+dado se tiene
+K ⊂ Kn +  para todo n ≥ N.
+(4.5)
+
+30
+
+Sistemas Iterado de Funciones
+
+Por otro lado, sea x ∈ Kn con n ≥ N . Dado que dist H (Km , Kn ) <  para todo m, n ≥ N , entonces
+!
+!
++∞
++∞
+[
+[
+Km +  para todo
+x ∈ Km +  para todo m ≥ n; de donde x ∈
+Km + , de hecho, x ∈
+n ≥ N (¿por qué?). Luego es claro que x ∈
+
+m=n
++∞
+[
+
+m=n
+
+!
+
+Km + para todo n ≥ 1, por tanto x ∈ K +; ası́,
+
+m=n
+
+Kn ⊂ K +  para todo n ≥ N . Esto junto a (4.5) y el lema anterior implican que dist H (K, Kn ) < 
+para todo n ≥ N . Es decir, K es el lı́mite de la sucesión {Kn }n≥1 ; con lo cual la demostración del
+teorema está completa.
+Como se observa, en la demostración de la completitud del espacio de los fractales en un espacio
+métrico completo, (H(X), dist H ), se muestra una caracterización del conjunto lı́mite de una sucesión de Cauchy en (H(X), dist H ). Obviamente existen otras caraterizaciones, por ejemplo la dada
+en [1]; que es:
+Dada una sucesión de Cauchy {Kn }n≥1 en (H(X), dist H ), entonces el conjunto lı́mite K = lı́m Kn
+n→+∞
+
+es justamente
+K = {x ∈ X : ∃{xn } de Cauchy en X con xn ∈ Kn , tal que xn → x}.
+
+Adicionalmente a la propiedad de completitud (H(X), dist H ), también es cierto el siguiente
+resultado, cuya demostración dejamos al lector.
+Teorema 4.1.3. Si (X, d) es un espacio métrico completo y compacto, entonces el espacio de los
+fractales (H(X), dist H ), además de completo, es compacto.
+
+4.2.
+
+Sistema Iterado de Funciones y Operador de Hutchinson
+
+En el capı́tulo anterior mostramos algunos ejemplos de conjuntos con estructura fractal; los
+mismos fueron construidos en base a ciertos algoritmos deterministas. Esos algoritmos son casos
+particulares de una construcción más general para construir conjuntos con esa estructura geométrica.
+El marco teórico donde se inserta esta construcción es conocida en la actualidad como “Sistemas
+Iterado de Funciones”. Este término, en adelante SIF, fue introducido inicialmente en [2] para
+describir ciertos patrones dinámicos en determinados espacios de conjuntos compactos. Sin embargo,
+mucho de los resultados sobre SIF fueron presentados en [8].
+Aclaramos que la definición de un SIF varı́a, puede ser colocada en contextos bastante más
+generales y abstractos al que presentamos en estas notas, y que para sus fines es suficiente.
+Antes recordamos que una contracción en un espacio métrico (X, d) es una aplicación T : X → X
+para la cual existe una constante 0 ≤ λ < 1, tal que
+d(T (x), T (y)) ≤ λ d(x, y), para todo x, y ∈ X;
+a la menor de las constantes λ que satisfaga la desigualdad anterior se le conoce con el nombre de
+constante de contracción. Note en particular que toda contracción en X es continua.
+Definición 4.2.1. Sea (X, d) un espacio métrico completo. Una familia finita {Ti }i=1,··· ,m de contracciones en X se llama un Sistema Iterado de Funciones (SIF) en X.
+
+4.2 SIF y el operador de Hutchinson
+
+31
+
+En ocasiones al concepto de SIF no se le exige la condición de contracción a las aplicaciones que
+lo definen; en tales casos es común encontrar en la literatura el término hiperbólico para referirse a
+los SIF contractivos.
+Asociado a cualquier SIF en un espacio métrico completo (X, d) se tiene un operador en el
+espacio de los fractales en X. Más precisamente:
+Definición 4.2.2. Sea {Ti }i=1,··· ,m un SIF en (X, d). Se denomina operador de Hutchinson a la
+transformación τ definida por la ecuación conjuntista:
+τ (A) =
+
+m
+[
+
+Ti (A);
+
+(4.6)
+
+i=1
+
+donde A ∈ H(X).
+Dada la continuidad de las transformaciones Ti en un SIF, sigue que τ (A) ∈ H(X) para todo
+A ∈ H(X); esto es, τ define un operador en el espacio de los fractales. Por tanto, al iterar el
+operador de Hutchinson en el espacio H(X) obtenemos sucesiones de conjuntos compactos en X
+definidas recursivamente por la ecuación conjuntista ∆n+1 = τ (∆n ), n ≥ 0. De hecho, si ∆0 ∈ H(X)
+n−veces
+z }| {
+n
+y τ := τ ◦ · · · ◦ τ es la composición del operador de Hutchinson consigo mismo n veces, entonces
+∆n = τ n (∆0 ) para todo n ≥ 1. En particular, si los conjuntos compactos ∆n forman una sucesión
+encajada, ellos dan lugar a un conjunto lı́mite, definido por el principio de encaje de Cantor. Es
+importante mencionar que esta no es la generalidad de los casos, aunque para cualquier SIF (como
+los considerados en estas notas) la sucesión de los iterados del operador de Hutchinson siempre
+converge a un mismo conjunto compacto de X, tal y como será demostrado luego.
+Ejemplo 4.2.1. Consideremos el espacio de los fractales en la recta real H(R); definamos en R las
+contracciones: T1 (x) = 13 x y T2 (x) = 13 x + 23 . Luego el operador de Hutchinson asociado es dado por
+τ (A) = T1 (A) ∪ T2 (A), para todo A ∈ H(R).
+En este caso, si hacemos K0 = I = [0, 1], entonces
+ 
+
+
+τ (K0 ) = K1 = 0, 31 ∪ 23 , 1
+
+ 
+ 
+ 
+
+τ 2 (K0 ) = K2 = 0, 19 ∪ 29 , 31 ∪ 23 , 79 ∪ 98 , 1 ;
+en general, para cada n ≥ 1 se tiene que
+τ n (K0 ) = Kn =
+
+[
+
+Ii1 ···in ,
+
+(i1 ,··· ,in )∈{0,1}n
+
+donde cada Ii1 ···in son los intervalos compactos obtenidos en la construcción del conjunto de Cantor
+ternario.
+En este ejemplo la sucesión formada por los compactos τ n (K0 ) = Kn está encajada, y su lı́mite
+es justamente el conjunto de Cantor ternario.
+
+4.2.1.
+
+El atractor de un SIF
+
+Sea {Ti }0=1,··· ,n−1 un SIF definido en el espacio métrico completo (X, d); y sea τ el operador de
+Hutchinson en H(X) definido por el SIF.
+
+32
+
+Sistemas Iterado de Funciones
+
+El propósito fundamental en esta parte de las notas es mostar que el operador de Hutchinson
+tiene un único punto fijo, el cual es el atractor del sistema dinámico abstracto τ : H(X) → H(X).
+Este es precisamente el caso de los ejemplos de los conjuntos fractales estudiados en el Capı́tulo 2.
+Existen pocos resultados generales que aseguren la existencia de atractores para sistemas dinámicos. De esos, uno de los más importantes por sus aplicaciones en distintas ramas del Análisis es el
+siguiente:
+Teorema 4.2.1 (Teorema de Punto Fijo de Banach). Sean (X, d) un espacio métrico completo
+y T : X −→ X una contracción con constante de contracción 0 ≤ λ < 1. Entonces T tiene un único
+punto fijo p ∈ X; además, p es el atractor de T ; esto es, para todo x ∈ X la sucesión definida
+recursivamente por xn+1 = T (xn ) con x0 = x converge a p. Más aún, {xn } converge con velocidad
+exponencial a p:
+d(xn , p) ≤ λn d(x0 , p), para todo n > 0.
+En nuestra discusión sobre el algoritmo sumerio de la raı́z cuadrada hicimos referencia este
+principio y al método de aproximaciones sucesivas que permite calcular puntos fijos T (p) = p como
+lı́mites de sucesiones definidas recursivamente xn+1 = T (xn ). En lo que sigue usaremos las misma
+idea para probar el principio de contracción de Banach en un espacio métrico completo.
+Demostración del Teorema del punto de Banach. Vamos a demostrar que el método de aproximaciones sucesivas mencionado en el Capı́tulo 2 proporciona un punto fijo de T . Para ello vamos a
+probar que para cada x ∈ X la sucesión definida recursivamente
+xn+1 = T (xn ), n ≥ 0 con x = x0
+es de Cauchy. Como (X, d) es completo, {xn } converge a un punto p ∈ X. Como probamos en el
+Capı́tulo 2 p es el único punto fijo de T . En efecto,
+T (p) = T ( lı́m xn ) = lı́m T (xn ) = lı́m xn+1 = p.
+n→+∞
+
+n→+∞
+
+n→+∞
+
+Si q es otro punto fijo de T , entonces d(p, q) = d(T (p), T (q)) ≤ λ d(p, q). De donde d(p, q) = 0 pues
+0 ≤ λ < 1, por lo que p = q. Luego, basta probar que {xn } es de Cauchy. Sean n, m > 0. Usando la
+desigualdad triangular tenemos
+d(xn+m , xm ) ≤ d(xn+m , xn+m−1 ) + · · · + d(xm+1 , xm )
+≤ λn+m−1 d(x1 , x0 ) + · · · + λm d(x1 , x0 )
+!
+n+m−1
+X
+k
+=
+λ d(x1 , x0 ),
+k=m
+
+P
+n
+donde hemos usado xn = T n (x0 ) y d(T (x), T (y))P
+≤ λ d(x, y). Como la serie geométrica +∞
+n=0 λ
+n+m−1 k
+es convergente, podemos escoger N > 0 tal que k=m λ < /d(x1 , x0 ) para todo n, m ≥ N .
+Aquı́ podemos suponer que d(x1 , x0 ) > 0 pues en caso contrario T (x0 ) = x0 serı́a el punto fijo
+buscado. Esto concluye la demostración.
+El próximo resultado debido a Hutchinson, ver [8] [5] y [1], es fundamental para el estudio de los
+SIF, asegura que para cualquier SIF el operador de Hutchinson asociado tiene un único atractor,
+de hecho su único punto fijo. Su demostración es relativamente simple, pues se fundamenta en el
+Teorema de punto fijo de Banach. El enunciado es el siguiente:
+
+4.2 SIF y el operador de Hutchinson
+
+33
+
+Teorema 4.2.2. Sea {Ti }i=0,··· ,n−1 un SIF en un espacio métrico completo (X, d). Entonces el
+operador de Hutchinson τ asociado es una contracción. En particular, si X∞ es el punto fijo de τ ;
+es decir, τ (X∞ ) = X∞ , para todo conjunto compacto K ∈ H(X) se cumple
+dist H (τ n (K), X∞ ) → 0 como n → +∞
+Para demostrar este resultado emplearemos los siguientes lemas:
+Lema 4.2.1. Sea T : X −→ X es una contracción y 0 ≤ λ < 1 es tal que d(T (x), T (y)) ≤ λ d(x, y)
+para todo x, y ∈ X, entonces
+dist H (T (E), T (F )) ≤ λ dist H (E, F )
+para todo E, F ∈ H(X).
+Demostración. Observe que si λ = 0, entonces la propiedad es trivial. Supongamos por tanto que
+λ > 0. Afirmamos que E ⊂ F + δ entonces T (E) ⊂ T (F ) + λδ para cualquier δ > 0. En efecto,
+E ⊂ F + δ si, y sólo si, para todo x ∈ E existe y ∈ F con d(x, y) < δ, luego d(T (x), T (y)) ≤
+λ d(x, y) < λδ, vale decir: para todo elemento z ∈ T (E) existe w ∈ T (F ) tal que d(z, w) ≤ λδ,
+probando la afirmación. En particular, dado que
+{λδ > 0 : E ⊂ F + δ} ⊂ {γ > 0 : T (E) ⊂ T (F ) + γ}
+se tiene,
+ı́nf {γ > 0 : T (E) ⊂ T (F ) + γ} ≤ ı́nf {λδ > 0 : E ⊂ F + δ}.
+
+γ>0
+
+δ>0
+
+Intercambiando E y F concluı́mos dist H (T (E), T (F )) ≤ λdist H (E, F ).
+Lema 4.2.2. Sean Ai , Bi (i = 1, · · · , n) subconjuntos de X. Entonces,
+dist H (
+
+n
+[
+
+i=1
+
+Ai ,
+
+[
+
+Bi ) ≤ máx {dist H (Ai , Bi )}
+i=1,··· ,n
+
+i
+
+Demostración.
+Sn Observe que si δ > 0 es tal que Ai ⊂ Bi + δ para todo i = 1, · · · , n, entonces
+S
+n
+A
+⊂
+(
+i=1 Bi ) + δ, luego:
+i=1 i
+máx dist H (Ai , Bi ) ≥ ı́nf{δ : Ai ⊂ Bi + δ y Bi ⊂ Ai + δ ∀ i}
+
+i=1,··· ,n
+
+≥ dist H (
+
+n
+[
+
+n
+[
+
+Ai ,
+
+i=1
+
+Bi )
+
+i=1
+
+como querı́amos probar.
+Demostración del Teorema 4.2.2. Sean λ0 , · · · , λn−1 las constantes de contracción de las transformaciones Ti que definen el SIF, y sea λ el máximo de tales constantes. Para todo E, F ∈ H(X) se
+tiene de los lemas anteriores que
+n−1
+[
+
+dist H (τ (E), τ (F )) = dist H (
+
+Ti (E),
+
+i=0
+
+≤
+
+máx
+
+i=0,··· ,n−1
+
+n−1
+[
+
+Ti (F ))
+
+i=0
+
+dist H (Ti (E), Ti (F ))
+
+≤ λ dist H (E, F ).
+
+34
+
+Sistemas Iterado de Funciones
+
+Luego τ : H(X) → H(X) es un operador de contracción es el espacio métrico completo de los
+subconjuntos compactos de X con la métrica de Hausdorff; por el Principio de Contracción de
+Banach la demostración sigue.
+Definición 4.2.3. Dados un espacio métrico compacto (X, d) y un SIF {Ti }i=0,··· ,n−1 en X, se
+conoce con el nombre de atractor del SIF al punto fijo X∞ ∈ H(X) del operador de Hutchinson
+asociado.
+De la propia demostración del teorema anterior tenemos que para obtener el atractor de un
+SIF {Ti }i=0,··· ,n−1 en X debemos tomar cualquier compacto K ∈ H(X) y calcular el lı́mite de la
+sucesión {τ m (K)}m≥0 , donde τ es el operador de Hutchinson asociado al SIF considerado. Entonces
+es necesario conocer como se expresa τ m (K) para cualquier entero m ≥ 1. En primer lugar, sabemos
+por definición de τ que τ (K) = T0 (K) ∪ · · · ∪ Tn−1 (K). Luego,
+τ 2 (K) = τ (τ (K)) = T0 (τ (K)) ∪ · · · ∪ Tn−1 (τ (K)))
+n−1
+[
+=
+Tj (T0 (K) ∪ · · · ∪ Tn−1 (K))
+j=0
+
+=
+
+n−1
+[
+
+[(Tj ◦ T0 )(K) ∪ · · · ∪ (Tj ◦ Tn−1 )(K)] =
+
+j=0
+
+n−1
+[
+
+(Tj ◦ Ti )(K).
+
+i,j=0
+
+Por recurrencia se obtiene la expresión τ m (K) =
+
+[
+
+(Ti1 ◦ · · · ◦ Tim )(K), donde Jm , m ≥ 1, denota el
+
+Jm
+
+conjunto de todos los m-ı́ndices (i1 , · · · , im ) con ik ∈ {0, · · · , n − 1} para todo k = 1, · · · , m. Esto
+es, τ m (K) es la unión de los nm compactos Ti1 ◦ · · · ◦ Tim (K), con (i1 , · · · , im ) ∈ Jm .
+Esta descripción de τ m (K) implica las siguientes afirmaciónes para cada i = 0, · · · , n − 1:
+1. Ti (X∞ ) ⊂ X∞ .
+2. si pi ∈ X es el punto fijo de Ti (recuerde que cada Ti es una contracción en X), entonces
+pi ∈ X ∞ .
+La demostración de la primera parte sigue del hecho que
+τ (X∞ ) = X∞ = T0 (X∞ ) ∪ · · · ∪ Tn−1 (X∞ ).
+Para averificar la segunda de las afirmaciones anteriores, tomemos el compacto K = {p0 , · · · , pn−1 }.
+Para cada m ≥ 1 y cada i ∈ {0, · · · , n − 1} consideremos el m-ı́ndice (i, · · · , i). Luego
+pi ∈ Ti ◦ · · · ◦ Ti (K) = Tim (K)
+= {Tim (p1 ), · · · , Tim (pi−1 ), pi , Tim (pi+1 ), · · · , Tim (pn )},
+de donde pi ∈ τ m (K). Esto implica la afirmación 2 pues la sucesión {xm }m≥1 con xm = pi para
+todo m ≥ 1, es tal que xm ∈ τ m (K) y xm → pi cuando m → +∞.
+Ejemplo 4.2.2. En los SIF que consideraremos a continuación estamos tomando la recta R con la
+métrica Euclidiana.
+1. Sean T0 , T1 : R → R las contracciones T0 (x) = 12 x y T1 (x) = 21 x + 12 . Tomemos el compacto
+K = [0, 1]. Entonces
+τ (K) = T0 (K) ∪ T1 (K) = [0, 21 ] ∪ [ 12 , 1] = K.
+
+4.2 SIF y el operador de Hutchinson
+
+35
+
+Luego el atractor del SIF es X∞ = K; pues punto fijo de τ .
+Observe que si hubiesemos elegido a C = {0}, como el compacto inicial para calcular a X∞ ,
+entonces dado que
+τ (C) = {0, 21 }, τ 2 (C) = {0, 14 , 12 , 34 } = { 2j2 : j = 0, 1, 2, 3},
+en general
+τ m (C) = { 2jm : j = 0, 1, 2, · · · , 2m − 1}, para todo m ≥ 1.
+Por tanto el lı́mite en la métrica de Hausdorff de {τ m (C)}m≥1 es [0, 1].
+2. Para las contracciones f0 , f1 : R → R dadas por f0 (x) =
+tenemos para el compacto B = [0, 1]:
+
+1
+2x
+
+y f1 (x) = 1 para todo x ∈ R
+
+τ (B) = f0 (B) ∪ f1 (B) = [0, 21 ] ∪ {1}
+τ 2 (B) = f0 ([0, 12 ] ∪ {1}) ∪ f1 ([0, 12 ] ∪ {1}) = [0, 14 ] ∪ { 12 } ∪ {1}.
+En general, se puede demostrar que para cada m ≥ 1 vale
+1
+, · · · , 12 , 1},
+τ m (B) = [0, 21m ] ∪ { 2m−1
+1
+de donde, X∞ = {0} ∪ { 2−k
+: k ≥ 0}.
+
+En la búsqueda del atractor de un SIF en X no importa realmente con cual compacto no vacı́o
+K de X se inicie el proceso recursivo τ m (K). Pero cuando el compacto K elegido es invariante por
+las contracciones que definen el SIF, entonces el atractor X∞ es determinado de manera simple.
+El siguiente teorema muestra esta simplicidad del cálculo del atractor de un SIF. Recordamos
+que un conjunto A es invariante por una transformación T si T (A) ⊂ A.
+Teorema 4.2.3. Sean (X, d) un espacio métrico completo y {Ti }i=0,··· ,n−1 un SIF en X. Si K ∈
+H(X) es tal que Ti (K) ⊂ K para todo i, entonces
+\
+\ [
+(Ti1 ◦ · · · ◦ Tim )(K),
+X∞ =
+τ m (K) =
+m≥1
+
+m≥1 Jm
+
+donde Jm denota el conjunto de todos los m-ı́ndices (i1 , · · · , im ) con ik en {0, · · · , n − 1}.
+Demostración. La demostración de este resultado es una consecuencia inmediata del siguiente lema,
+pues bajo la hipótesis de invarianza del conjunto K la sucesión {τ m (K)}m≥1 es encajada.
+Lema 4.2.3. Sean (X, d) un espacio métrico completo, y H(X) dotado con la métrica de Hausdorff
+inducida por d. Si {Am }m≥0 es una sucesión encajada en H(X); esto es, Am+1
+T ⊂ Am para todo
+m ≥ 0. Entonces, {Am }m≥0 es de Cauchy en (H(X), dist H ) y lı́mm→+∞ Am = m≥0 Am .
+Demostración. Se deja al lector.
+Otras interesantes propiedades se desprenden del teorema 4.2.3.
+Supongamos que (X, d), {Ti }i=0,··· ,n−1 y K ∈ H(X) son como en el enunciado del mismo. Para
+cada m-ı́ndice (i1 · · · im ) con ik ∈ {0, · · · , n − 1} hacemos Ki1 ···im = (Ti1 ◦ · · · ◦ Tim )(K), sigue
+entonces que
+\
+\
+[
+[
+\
+X∞ =
+τ m (K) =
+Ki1 ···im =
+Ki1 ···im ,
+m≥1
+
+m≥1 (i1 ···im )∈Jm
+
+{im }∈B + (n) m≥1
+
+36
+
+Sistemas Iterado de Funciones
+
+donde Jm es como antes y B + (n) es el espacio de la aritmética n-adica. Por otro lado, para toda
+sucesión {im }m≥1 ∈ B + (n) la familia de conjuntos compactos Ki1 ···im es encajada y su diámetro
+converge a cero, más precisamente, diam (Ki1 ···im ) ≤ λn diam (K) para todo m ≥ 1. Esto se sigue de
+diam (Ti (A)) ≤ λi diam (A) ≤ λ diam (A), para todo i = 0, · · · , n − 1;
+siendo que cada λi es la constante de contracción deTTi y λ es el máximo de tales números. Por
+tanto, para cada σ = {im }m≥1 ∈ B + (n), el conjunto m≥1 Ki1 ···im es unitario, y su único punto lo
+denotamos por xσ . En otras palabras,
+[
+{xσ },
+X∞ =
+σ∈B + (n)
+
+donde {xσ } =
+
+T
+
+m≥1 Ki1 ···im ,
+
+con σ = {im }m≥1 ∈ B + (n).
+
+Lo que acabamos de mostrar implica que la aplicación h : B + (n) → X∞ que asocia a cada
+sucesión σ = {ım }m≥1 ∈ B + (n) el punto xσ ∈ X∞ es sobreyectiva; más aun, no es difı́cil de mostrar
+que h es también continua y abierta. Es conveniente mencionar que no siempre la aplicación h
+arriba definida es inyectiva; de hecho pueden construirse ejemplos de manera que algunos puntos en
+el atractor X∞ del SIF tenga al menos dos códigos en el espacio B + (n). Un interesante problema
+es caracterizar la inyectividad de la aplicación h. Note además que bajo la hipótesis de inyectividad
+de h, el atractor X∞ del SIF es un conjunto de Cantor: compacto, perfecto y totalmente disconexo.
+
+placements
+
+K
+T0 (K)
+T1 (K)
+T02 (K)
+T0 ◦ T1 )(K)
+T12 (K)
+T1 ◦ T0 )(K)
+Fig. 4.3: Construcción del atractor de un SIF dado por contracciones T0 y T1 que envı́an el cuadrado
+K en rectángulos disjustos T0 (K) y T1 (K).
+
+4.2.2.
+
+Aproximaciones de X∞ : un algoritmo determinista
+
+Consideremos un SIF {T0 , · · · , Tn−1 } en el espacio métrico completo (X, d) con atractor X∞ .
+Sabemos que X∞ se obtiene como el punto lı́mite de la sucesión {τ m (K)}m≥1 para cualquier
+K ∈ H(X), donde τ es el operador de Hutchinson. El teorema 4.2.3 mostró que bajo la hipótesis
+de invarianza (Ti (K) ⊂ K, i = 0, · · · , n − 1), X∞ se obtiene como la intersección de los compactos
+encajados τ m (K), m ≥ 1. Esto sin duda representa una forma simplificada de acercarnos a X∞ ;
+además, proporciona un método computacional conocido como Algoritmo Deterministico, que permite dibujar aproximaciones cada vez más cercanas del atractor del SIF mediante intersecciones de
+compactos encajados.
+
+4.2 SIF y el operador de Hutchinson
+
+37
+
+Ciertamente la hipótesis de invarianza es realizada por determinados compactos no vacı́os de
+X; por ejemplo el propio atractor X∞ la satisface. Pero en ausencia del conocimiento de quién es
+X∞ , debemos buscar compactos apropiados que satisfagan tal hipótesis. La siguiente proposición
+muestra que esta hipótesis es satisfecha por ciertas bolas cerradas del espacio métrico (X, d). Ası́ que
+en espacios métricos completos donde las bolas cerradas son compactos (esto es, espacios métricos
+localmente Euclideanos), podemos iniciar el proceso algoritmico de aproximaciones hacia X∞ con
+una de estas bolas cerradas.
+Proposición 4.2.1. Sean (X, d) un espacio métrico completo y f1 , · · · , fn contracciones en X, con
+constantes de contracción 0 ≤ α1 , · · · , αn < 1 respectivamente. Entonces para todo x0 ∈ X existe
+una bola cerrada C(x0 , r) tal que fi (C(x0 , r)) ⊂ C(x0 , r) para todo i = 1, · · · , n.
+Demostración. Sean p1 , . . . , pn los puntos fijos de f1 , . . . , fn respectivamente.
+Dado que A = {p1 , . . . , pn } es compacto, existe un r0 > 0 tal que A ⊂ C(x0 , r0 ); basta tomar
+r0 = máx{d(pi , x0 ) : i = 1, . . . , n}. Sea r ≥ r0 , entonces para cada i = 1, . . . , n y todo x ∈ C(x0 , r)
+vale:
+d(fi (x), x0 ) ≤ d(fi (x), pi ) + d(pi , x0 )
+≤ αi d(x, pi ) + d(pi , x0 )
+≤ αi d(x, x0 ) + (1 + αi ) d(pi , x0 ).
+1+αn
+1
+Al escoger r = máx{ 1+α
+1−α1 d(p1 , x0 ), · · · , 1−αn d(pn , x0 )} tenemos para cada x ∈ C(x0 , r) que
+i)
+d(fi (x), x0 ) ≤ αi d(x, x0 ) + (1 + αi ) r(1−α
+1+αi ≤ αi r + r(1 − αi ) = r;
+
+con lo cual la demostración está completa.
+Apoyados en esta proposición al considerar un SIF {Ti }i=0,··· ,n−1 sobre un espacio métrico completo y localmente Euclideano (X, d) y una bola cerrada C(x0 , r) tal que Ti (C(x0 , r)) ⊂ C(x0 , r)
+para cada i = 0, · · · , n − 1, podemos aproximarnos al atractor X∞ tanto como queramos; basta tomar m ≥ 1 suficientemente grande y estimar τ m (C(x0 , r)). Este procedimiento se puede colocar en
+un algoritmo deterministico, que es un finito conjunto de instrucciones que determinan los futuros
+valores a partir de los iniciales.
+Paso 1. Introducir el número de iterados N .
+Paso 2. Inicializar un contador k = 1.
+Paso 3. Plotear el conjunto B.
+Paso 4. Incrementar el valor de k en 1.
+Paso 5. Si k < N , continuar; de lo contrario ir al Paso 8.
+Paso 6. Para cada i = 0, · · · , n − 1, calcular Ti (B).
+Paso 7. Asignar a B el valor f1 (B) ∪ · · · ∪ fn (B) e ir al Paso 3.
+Paso 8. Fin del algoritmo.
+
+38
+
+Sistemas Iterado de Funciones
+
+Sin dudas exite un elevado número de códigos en diferentes lenguajes de programación, con
+herramientas gráficas poderosas, mediante los cuales se expresa el algoritmo anterior para diferentes
+SIF. Por ejemplo, en [1], el lector podrá encontrar el código fuente escrito en BASIC de un SIF
+que genera el tapiz de Sierpinski. También pueden visitarse varios sitios web donde con certeza se
+encontrarán diversos códigos fuentes de varios atractores de SIF.
+En http://library.wolfram.com/infocenter/Demos/4662 el lector encontrará un código en
+Mathematica del tapiz de Sierpinski.
+
+4.3.
+
+Otros ejemplos de atractores de SIF
+
+En esta pate de las notas presentaremos algunos ejemplos de atractores de ciertos SIF. Varios
+de los cuales se obtienen a partir de SIF afines en Rn ; esto es, SIF dados por transformaciones
+afines del espacio euclidiano Rn . Por esta razón dedicaremos algunas lı́neas a recordar las nociones
+de afinidad.
+
+4.3.1.
+
+Transformaciones Afines
+
+Definición 4.3.1. Sean A ∈ Mn×n (R) una matriz cuadrada de orden n × n con entradas reales y
+b ∈ Rn . La transformación T : R → R dada por T (x) = Ax + b con x ∈ Rn se conoce con el nombre
+de transformación afı́n en Rn .
+Note que cuando el vector unicolumna b ∈ Rn es nulo, entonces T es una transformación lineal;
+además, una transformación afin es invertible si, y sólo si, det(A) 6= 0.
+Existe un conjunto de transformaciones afines que son catalogadas de notables:
+1. Traslaciones: Fijado un vector b ∈ Rn , la traslación dada por b es definida por T (x) = x + b,
+para cada x ∈ Rn .
+2. Simetrı́as centrales respecto a un punto Q ∈ Rn : Fijado el punto Q ∈ Rn se define la
+simetrı́a central respecto a Q por T (x) = −x + Q.
+3. Rotaciones del plano de ángulo θ y centro el origen: Esta es la transformación lineal
+dada por:
+  
+ 
+x
+cos(θ) − sin(θ)
+x
+T
+=
+,
+y
+sin(θ)
+cos(θ)
+y
+donde θ ∈ [0, 2π). El efecto geométrico de T sobre el vector x es rotarlo en ángulo θ en sentido
+antihorario.
+4. Homotecias de centro el origen y razón λ 6= 0: Estas son las transformaciones lineales
+definidas por T (x) = λ x para cada x ∈ Rn . Claramente, si λ > 1, la transformación es una
+dilatación; Si 0 < λ < 1, T es una contración; y si λ < 0 y |λ| > 1, (resp. |λ| < 1) se trata de
+una dilatación compuesta con una simetrı́a central respecto al origen.
+Las transformaciones afines invertibles preservan las relaciones de incidencia entre puntos, rectas
+y planos en el espacio y están caracterizadas por esta propiedad, es decir, una biyección T de Rn
+en si mismo es una transformación afı́n si, y sólo si:
+1. transforma rectas en rectas, es decir, L es una recta si, y sólo si, T (L) es una recta y
+
+4.3 Otros ejemplos de atractores de SIF
+
+39
+
+2. preservan el paralelismo: dos rectas L y L0 son paralelas si, y sólo si, T (L) y T (L0 ) son paralelas.
+Una transformación afin T : Rn → Rn queda determinadas por su valor en un n-simplex; que es
+la cápsula convexa de (n + 1)-puntos afinmente independientes. Un 1-simplex es un segmento; un
+2-simplex es un triángulo; un 3-simplex es un tetraedro, etc. En particular, sean ∆(P0 , · · · , Pn ) y
+∆(Q0 , · · · , Qn ) dos n-simplex en Rn , entonces existe una única transformación afin invertible T tal
+que:
+T (Pi ) = Qi
+
+(i = 0, · · · , n)
+
+y
+
+T (∆(P0 , · · · , Pn )) = ∆(Q0 , · · · , Qn ).
+
+Por ejemplo:
+dados dos intervalos (1-simplex) [a, b] , [c, d] ⊂ R existe una única transformación afı́n en la
+recta real: T (x) = α x + β tal que T ([a, b]) = [c, d];
+dados dos triángulos (2-simplex) ∆0 = ∆(P0 Q0 R0 ) y ∆1 = ∆(P1 Q1 R1 ) en el plano R2 existe
+una única transformación afı́n del plano T tal que T (∆0 ) = ∆1 .
+Definición 4.3.2. Una transformación afı́n de Rn , T (x) = Ax + b, se denomina semejanza o
+similaridad si existe λ > 0 tal que
+kT (x) − T (y)k = λ kx − yk, para todo x, y ∈ Rn .
+El número λ es el coeficiente de similaridad de T .
+Entre similaridades tenemos a las traslaciones, rotaciones, simetrı́as centrales y axiales y homotecias. En plano, éstas transforman triángulos en triángulos semejantes.
+Este concepto de similitud puede ser colocado en un contexto más general. De hecho:
+Definición 4.3.3. Una transformación T : X → X de un espacio métrico en si mismo se denomina
+semejanza o similaridad si existe λ > 0 tal que
+d(T (x), T (y)) = λ d(x, y), para todo x, y ∈ X.
+Como antes, el número λ es el coeficiente de similaridad de T .
+Definición 4.3.4. Una transformación afı́n de Rn es una isometrı́a si es una semejanza y el coeficiente λ = 1. En el plano, cuando una isometrı́a que preserva la orientación se le llama un movimiento
+rı́gido.
+Recordemos que dos triángulos ∆(P QR) y ∆(P 0 Q0 R0 ) son congruentes si sus lados homólogos
+son congruentes, es decir,
+|P Q| = |P 0 Q0 | , |QR| = |Q0 R0 | , |P R| = |P 0 R0 |
+Traslaciones, rotaciones, simetrı́as centrales y axiales son isometrı́as. Se verifica sin mucha dificultad que toda isometrı́a del plano es una composición de traslaciones, rotaciones y simetrı́as y
+que toda semejanza es una composición de una isometrı́a y una homotecia.
+
+40
+
+4.3.2.
+
+Sistemas Iterado de Funciones
+
+Variaciones del Cantor ternario
+
+En el ejemplo 4.2.1 mostramos un SIF afin en la recta real cuyo atractor es justamente el conjunto
+de CantorPternario. Esas mismas ideas pueden ser extendidas; en efecto, sean 0 < λ1 , · · · , λp < 1
+tales que i λi < 12 y definamos transformaciones afines de la recta:
+Ti (x) = λi x + αi ,
+donde las constantes αi son tales que los intervalos Ii = Ti (I) son disjuntos. El conjunto de Cantor
+KΛ , Λ = {λi } definido en la sección 3.1 es el lı́mite del SIF definido por las contracciones Ti :
+Λ
+
+K =
+
++∞
+\
+
+[
+
+IiΛ1 ···in ,
+
+n=1 (i1 ,··· ,in )∈{1,··· ,k}n
+
+donde
+τΛn (I) =
+
+[
+
+IiΛ1 ···in
+
+(i1 ,··· ,in )∈{1,··· ,k}n
+
+es el n-ésimo iterado del operador de Hutchinson asociado al SIF afin.
+Observe que el atractor obtenido es en efecto un conjunto de Cantor; esto es, compacto, perfecto
+y totalmente disconexo. Esto sigue del hecho que la aplicación h : B + (p) → X∞ que asocia a cada
+sucesión en B + (p) un punto en el atractor (ver página 35) es un homeomorfismo.
+
+4.3.3.
+
+Variaciones del Tapiz de Sierpinski
+
+En la sección 3.2 mostramos la construcción de un tapiz de Sierpinski a partir de un triángulo
+equilátero; más aun, se mostró el SIF afin que lo genera.
+1
+
+0
+Para la matriz A = 2 1 consideremos ahora las siguientes semejanzas afines del plano:
+0 2
+   
+ 
+ 
+  1
+ 
+ 
+0
+x
+x
+x
+x
+x
+x
++ 1 y f3
+=A
+, f2
++ 21 .
+f1
+=A
+=A
+y
+y
+y
+y
+y
+y
+2
+2
+Es simple verificar que el cuadrado B = [0, 1] × [0, 1] es invariante por estas transformaciones
+afines; esto es, fi (B) ⊂ B para todo i = 1, 2, 3. De hecho, B es transformado por f1 , f2 y f3 ,
+respectivamente, en los cuadrados f1 (B) = [0, 21 ] × [0, 12 ], f2 (B) = [0, 12 ] × [ 12 , 21 ] y f1 (B) = [ 12 , 12 ] ×
+[ 12 , 21 ]. Ası́ la evaluación del operador de Hutchinson en B es:
+τ (B) = ([0, 21 ] × [0, 21 ]) ∪ ([0, 12 ] × [ 12 , 12 ]) ∪ ([ 12 , 12 ] × [ 12 , 12 ]),
+al repetir este procedimiento una vez más, obtenemos τ 2 (B) que es la unión de 9 cuadrados: cada
+uno de los cuadrados del paso anterior generan 3 subcuadrados; ver la figura que se muestra a
+continuación. Al proseguir un elevado número de veces, obtendremos una aproximación del triángulo
+de Sierpinski, tal y como se muestra a continuación.
+Otra figura fractal atribuida a W. Sierpinski se obtiene como el atractor
+de un SIF definido
+
+1
+0
+mediante ocho transformaciones afines en R2 . Para la matriz A = 3 1 y los vectores
+0 3
+ 
+ 
+1
+1
+2
+2
+2
+0
+0
+3
+3
+3
+3
+b2 = 1 , b3 = 2 , b4 =
+, b 5 = 2 , b6 =
+, b7 = 1 y b8 = 32 .
+0
+0
+3
+3
+3
+3
+3
+
+4.3 Otros ejemplos de atractores de SIF
+
+41
+
+Fig. 4.4: Estas gráficas muestran a B, τ (B) y τ 2 (B) respectivamente.
+
+Fig. 4.5: τ m (B) para m suficientemente grande.
+se definen las transformaciones:
+f1 : x → Ax; f2 : x → Ax + b2 ; f3 : x → Ax + b3 ; f4 : x → Ax + b4
+f5 : x → Ax + b5 ; f6 : x → Ax + b6 ; f7 : x → Ax + b7 ; f8 : x → Ax + b8 .
+El operador de Hutchinson τ asociado a {f1 , · · · , f8 } transforma el cuadrado unitario B en ocho
+cuadrados, fi (B) (i = 1, · · · , 8), de lado 3−1 y cuyos vértices inferior izquierdo están ubicados,
+respectivamente, en el origen, b1 , b2 , b3 , b4 , b5 , b6 , b7 y b8 .
+Al aplicar nuevamente τ sobre cada uno de estos ocho cuadrados obtenemos 82 cuadrados de lado
+al repetir el proceso un determinado número de veces estaremos observando una aproximación
+del esta alfombra fractal. El atractor de este SIF afin se conoce con el nombre de Alfombra de
+Sierpinski.
+3−2 ;
+
+Finalizamos las variaciones del tapiz de Sierpinski con la figura fractal que se obtiene como
+atractor del SIF cuyas contracciones son las transformaciones afines:
+ 
+ 
+ 
+   
+ 
+  1
+x
+x
+x
+x
+0
+x
+x
+f1
+=A
+, f2
+=A
++ 2 , f3
+=A
++ 31 ,
+y
+y
+y
+y
+y
+y
+3
+3
+ 
+  2
+ 
+  2
+x
+x
+x
+x
+=A
++ 32 .
+f4
+=A
++ 3 , f5
+0
+y
+y
+y
+y
+3
+El proceso de obtención de una aproximación al atractor del SIF es como antes. La siguiente figura
+
+Fig. 4.6: Obtención de la alfombra de Sierpinski
+
+42
+
+Sistemas Iterado de Funciones
+
+muestra varios iterados del cuadrado unitario mediante el operador de Hutchinson F asociado al
+SIF; el atractor del SIF se le llama caja fractal.
+
+Fig. 4.7: Obtención de la caja fractal.
+A diferencia del atractor en la recta real anterior, el tapiz de Sierpinski y las variaciones que
+acá hemos mostrado son conjuntos conexos del plano. Demostraremos esta afirmación para el tapiz
+de Sierpinski S de la sección 3.2.
+Recordemos que S es obtenido como el atractor de un SIF definido por tres transformaciones
+afines del plano: T0 , T1 , T2 , que transforman el triángulo equilátero ∆ de vértices en puntos V0 , V1
+y V2 en subtriángulos ∆i (i = 0, 1, 2) que contienen respectivamente el vértice Vi . Dado que cada
+∆i ⊂ ∆, entonces el tapiz de Sierpinski (atractor de tal SIF) es dado conjuntistamente por la
+identidad:
+\
+[
+\
+[
+S=
+τ m (∆) =
+∆i1 ···im =
+{xσ },
+{im }∈B + (3) m≥1
+
+m≥1
+
+donde {xσ } =
+
+T
+
+m≥1 ∆i1 ···im ,
+
+σ∈B + (3)
+
+con σ = {im }m≥1 ∈ B + (3).
+
+Sea `01 el lado V0 V1 de ∆. Afirmamos que `01 es la imagen bajo la aplicación h : B + (3) → S de las
+sucesiones ω ∈ B + (3) que sólo contienen los dı́gitos 0 y 1. Esto probarı́a que `01 ⊂ S; análogamente
+se demuestran las inclusiones `12 ⊂ S y `12 ⊂ S.
+Observe que `01 ⊂ ∆0 ∪ ∆1 . Ahora probaremos por inducción que
+[
+`01 ⊂
+∆i1 ···in , para todo n ≥ 1.
+(i1 ,··· ,in )∈{0,1}n
+
+En efecto, supongamos válida la inclusión para k = n. Dado que
+
+[
+[
+∆i1 ···in+1 = T0 
+(i1 ,··· ,in+1
+
+)∈{0,1}n+1
+
+(i1 ,··· ,in
+
+
+∆i1 ···in 
+
+)∈{0,1}2 n
+
+
+
+
+[
+
+∪ T1 
+
+∆i1 ···in  ,
+
+(i1 ,··· ,in )∈{0,1}2 n
+
+se sigue entonces
+[
+
+`01 = T0 (`01 ) ∪ T1 (`01 ) ⊂
+
+∆i1 ···in+1
+
+(i1 ,··· ,in+1 )∈{0,1}n+1
+
+lo que demuestra la afirmación y también que `01 ⊂ S.
+Sea ∂∆ = `01 ∪ `12 ∪ `02 el borde de ∆. No es difı́cil probar, usando la definición del operador
+de Hutchinson y la observación anterior, que τ n (∂∆) es la imagen bajo h de las secuencias cofinales
+ω ∈ B + (3); es decir, aquellas que a partir de un N > 0 contiene sólo dos de los tres dı́gitos 0, 1, 2. El
+conjunto τ n (∂∆) es conexo, pues es la imagen continua de un conjunto conexo. Ası́ mismo
+S es fácil
+darse cuenta que los conjuntos τ n (∂∆) forman una unión creciente; por lo tanto la unión n τ n (∂∆)
+
+4.3 Otros ejemplos de atractores de SIF
+
+43
+
+Fig. 4.8: Varias etapas en la construcción de la curva de Koch
+es conexa. Observe que el conjunto de las secuencias cofinales es denso en B + (3). Eso significa que
+S
+n
+n τ (∂∆) es denso en S. Como la clausura de un conjunto conexo es conexa, concluı́mos que el
+tapiz de Sierpinski es conexo.
+
+4.3.4.
+
+Curvas de Koch
+
+La curva de Koch, uno de los ejemplos más populares de fractales, fue introducido por el matemático alemán Helge von Koch en 1904.
+Es más fácil entender la naturaleza de la curva de Koch que el conjunto de Cantor o el tapiz de
+Sierpinski, aunque sus aspectos topológicos y geométricos son de diferente naturaleza. En primer
+lugar, la curva de Koch, que en adelante denotamos por Γ, es en efecto una curva, aunque esto no sea
+inmediato a partir de su construcción. En segundo lugar, y es más difı́cil de probar que de intuir, ella
+no contiene segmentos suaves, es decir, no admite una recta tangente en ninguno de sus puntos. De
+hecho, la curva de Koch es un ejemplo de curva no rectificable; más aun, es el lı́mite (uniforme) de
+una sucesión de poligonales planas Γn cuyas longitudes `(Γn ) divergen a infinito cuando n → +∞.
+La construcción es la siguiente. Tomemos un intervalo inicial, por ejemplo [0, 1], al cual denotaremos Γ0 y divı́dalo en tres partes. Reemplace ahora el segmento del medio de Γ0 por un triángulo
+equilátero y retire su base y llamemos Γ1 a la figura resultante. Ahora aplicamos el mismo procedimiento a cada uno de los segmentos que forman Γ1 , obteniendo Γ2 . Despúes continúe recursivamente
+obteniendo Γn+1 a partir de la curva Γn aplicando el mismo procedimiento en cada uno de los segmentos que componen Γn . La curva de Koch es el conjunto que queda después de repetir infinitas
+veces el proceso.
+La poligonal Γn de la etapa n-ésima de la construcción está formada por 4n segmentos de longitud
+Luego, la longitud de Γn es
+
+3−n .
+
+`(Γm ) = 4n 3−n = (4/3)n
+que diverge a infinito cuando n → +∞, como afirmamos anteriormente.
+Ahora vamos a construir un SIF definido por tres contracciones afines del plano cuyo conjunto
+lı́mite es la curva de Koch.
+
+44
+
+Sistemas Iterado de Funciones
+Para ello vamos a definir cuatro similaridades del plano que, aplicadas a Γ0 generan Γ1 :
+  
+ 
+x
+1/3 0
+x
+=
+T0
+y
+0 1/3
+y
+
+T1
+
+T2
+
+x
+y
+
+x
+y
+
+3/2 √
+−1/2
+1/2
+3/2
+
+= 1/3
+
+
+
+
+= 1/3
+
+
+T3
+
+ √
+
+
+
+x
+y
+
+
+
+x
+y
+
+
+
+
++
+
+1/3
+0
+
+
+
+√
+  
+
+− 3/2 −1/2
+x
+2/3
+√
++
+y
+0
+1/2
+− 3/2
+
+
+
+
+= 1/3
+
+1/3 0
+0 1/3
+
+
+
+x
+y
+
+
+
+
++
+
+2/3
+0
+
+
+
+Sea τ el operador de Hutchinson asociado al SIF {T0 , T1 , T2 , T3 }. Por construcción Γ1 = τ (Γ0 ).
+No es difı́cil convencerse que la fórmula recursiva Γn+1 = τ (Γn ) define las diferentes etapas de la
+construcción de la curva de Koch; que es el atractor de este SIF afin.
+Hay diferencia una fundamental con los casos anteriores: la sucesión Γn de aproximaciones
+sucesivas a la curva de Koch no es una sucesión encajada de compactos. De modo que el argumento
+del principio de encaje de Cantor no aplica directamente.
+Una manera de resolver este problema es definir una sucesión encajada de entornos cerrados
+Fn ⊃ Γn que contienen a las poligonales aproximantes y que convergen a Γ. Para ello tomamos
+como conjunto inicial F0 un cuadrado de lado `0 = 1 centrado en Γ0 el intervalo inicial de la
+construcción. Por la propiedad contractiva del SIF se puede probar que F1 = τ (F0 ) es una vecindad
+cerrada de Γn formada por cuatro cuadrados de lado `1 = 3−1 centrados en los segmentos γi de la
+poligonal Γ1 , la primera etapa de la construcción de la curva de Koch. El conjnto F1 es compacto
+y se tiene F1 ⊂ F0 . Inductivamente, tenemos una secuencia encajada de vecindades compactas
+Fn ⊂ · · · ⊂ F0 , tal que cada Fi con i = 0, · · · , n es una unión de 4n cuadrados ∆i1 ···in de lado
+`n = 3−n centrados en los segmentos
+γi1 ···in que componen la poligonal Γn . El teorema 4.2.3, ver
+T
+página 35, garantiza que Γ = n Fn .
+Por otro lado, para cada n ≥ 1 podemos definir una biyección continua hn : [0, 1] −→ Γn que es
+una parametrización continua de la poligonal Γn . En efecto cada curva Γn es una unión de segmentos
+de recta γi1 ···in = Tin ◦ · · · ◦ Ti1 ([0, 1]) que son la imagen del intervalo bajo la semejanza afin del
+plano Tin ◦ · · · ◦ Ti1 . Sea
+
+
+i1
+i2
+in i1
+i2
+in + 1
+Ii1 ···in =
++ 2 + ··· + n ,
++ 2 + ··· +
+4
+4
+4
+4
+4
+4n
+un segmento 4-ádico y φi1 ···in : Ii1 ···in −→ [0, 1] la única transformación afin de la recta que lleva el
+intervalo Ii1 ···in sobre [0, 1]. Entonces, la función hn = [0, 1] −→ Γn definida a trozos por
+hn | Ii1 ···in := Tin ◦ · · · ◦ Ti1 ◦ φi1 ···in : Ii1 ···in −→ γi1 ···in
+es una parametrización continua de Γn . Para ello basta verificar que hn es continua a izquierda
+y a derecha en el extremo común de los intervalos contigüos Ii1 ···in , y Ii1 ···in +1 ; esto es inmediato
+pues, por construcción, la imagen de los extremos de [0, 1] bajo Tin ◦ · · · ◦ Ti1 son precisamente los
+extremos de γi1 ···in que no son otros que los vértices de la poligonal Γn .
+La sucesión de funciones continuas {hn } es de Cauchy en la métrica de la convergencia uniforme,
+y converge a biyección continua h : [0, 1] −→ Γ, que paramteriza a Γ. En efecto, es claro que
+
+4.3 Otros ejemplos de atractores de SIF
+
+45
+
+Γn = hn ([0, 1]) ⊂ Fn para todo n. Como la sucesión es encajada, hm ([0, 1]) ⊂ Fn para todo m ≥ n.
+Con un poco de cuidado se puede ver que la distancia de hm ([0, 1]) a la curva Γn , “centro” de la
+vecindad Fn , es ≤ 3−n , en otras palabras: |hn (x) − hm (x)| ≤ 3−n para todo n ≥ m y para todo
+x, y ∈ [0, 1]. Esto prueba que la secuencia es de Cauchy; luego Γ es un compacto no vacı́o y lı́mite
+uniforme de una sucesión poligonales.
+
+4.3.5.
+
+Una función de Weierstrass
+
+Topológicamente una curva se define como la imagen biunı́voca continua del intervalo unitario
+I = [0, 1] o de la circunferencia S 1 . Una curva topológica puede ser de longitud infinita o no tener
+tangente en ningún punto, como muestra el ejemplo de la curva de Koch.
+Weierstrass fue el primero en publicar un ejemplo de una curva continua que no tiene tangente
+en ningún punto, aunque por la época otros matemáticos habı́an comenzado a estudiar el problema.
+La curva de Weierstrass está dada por la parametrización:
+
+
+x =
+sin(θ)
+P+∞ −n
+2
+cos(3n θ)
+y =
+n=1
+
+No es difı́cil ver y = y(θ) es una función continua, pues es una serie uniformemente convergente
+P de
+funciones continuas pues, en efecto, la serie está acotada por la serie númerica convergente n 2−n
+y esto implica, por un resultado debido a Weierstrass mismo que la serie converge uniformemente
+a una función continua. Weierstrass demostró que la derivada y 0 (θ) no existe y aunque no es fácil
+de probar, podemos sospechar que ası́ es efectivamente, porque al derivar formalmente la serie de
+y = y(θ) obtenemos una serie divergente.
+En lo que sigue daremos un ejemplo de una función continua cuyas gráficas son curvas fractales
+que no tienen recta tangente en ninguno de sus puntos. Se trata de una variación de la curva de
+Weierstrass que es el lı́mite de un SIF de transformaciones afines que no son similaridades. Sea
+(
+f0 (x) =
+
+2x
+−2x + 2
+
+si x ∈ [0, 21 ]
+si x ∈ [ 21 , 1]
+
+para x ∈ [0, 1] y extendamos f0 a una función periódica de perı́odo 1 en R: f0 (x + 1) = f0 (x) para
+todo x ∈ R. Dados a, b > 1 definimos
+fa,b (x) =
+
++∞
+X
+
+b−n f0 (an x), para x ∈ [0, 1];
+
+(4.7)
+
+n=0
+
+por el criterio Weierstrass la serie de la derecha es uniformemente convergente y converge a una
+función continua. El gráfico de la función lı́mite f es el atractor de un SIF definido por dos transformaciones afines del plano.
+Para fijar ideas tomaremos a = 2 y b = 4. Definimos Γ0 = {(x, f0 (x)) : x ∈ [0, 1]} la gráfica de
+f0 en el intervalo unitario. ∆ = Γ0 ∪ [0, 1] es un triángulo isósceles de base [0, 1] y altura h = 1. Si
+calculamos la primera suma parcial de la serie tenemos la función:
+S1 (x) = f0 (x) + 4−1 f0 (2x), para x ∈ [0, 1].
+
+(4.8)
+
+46
+
+Sistemas Iterado de Funciones
+
+Como f0 es 1-periódica, entonces
+
+
+4x
+si x ∈ [0, 41 ]
+
+
+
+−4x + 2 si x ∈ [ 1 , 1 ]
+4 2 , para x ∈ [0, 1].
+f0 (2x) =
+ 4x − 2 si x ∈ [ 12 , 34 ]
+
+
+
+−4x + 2 si x ∈ [ 3 , 1]
+4
+Luego, S1 (x) puede escribirse como
+
+
+3x
+
+
+
+ x+ 1
+2
+S1 (x) =
+3
+
+−x
++
+
+2
+
+
+−3x + 3
+
+si
+si
+si
+si
+
+x ∈ [0, 14 ]
+x ∈ [ 14 , 12 ]
+, para x ∈ [0, 1].
+x ∈ [ 12 , 34 ]
+x ∈ [ 34 , 1]
+
+Sea Γ1 = {(x, S1 (x) : x ∈ [0, 1]} la gráfica de S1 sobre el intervalo unitario [0, 1]. Γ1 es una poligonal
+formada por cuatro segmentos con los cuales se forman dos triángulos:
+∆ 0 = Γ0 |
+
+∪Γ1 |
+
+∆ 1 = Γ0 |
+
+∪Γ1 |
+
+1
+[0, 2 ]
+
+1
+[ 2 ,1]
+
+1
+[0, 2 ]
+1 ,
+[ 2 ,1]
+
+donde Γ |J denota la restricción de Γ a J. Sean T0 y T1 las dos únicas transformaciones afines del
+
+PSfrag replacements
+∆
+∆0
+∆1
+Fig. 4.9: Triángulos obtenidos de las curvas Γ0 y Γ1
+plano tales que T0 (∆) = ∆0 y T1 (∆) = ∆1 . Si τ es el operador del Hutchinson asociado al SIF
+{T0 , T1 }, por construcción Γ1 =Pτ (Γ0 ). Para n ≥ 1 consideremos Γn = {(x, Sn (x)) : x ∈ [0, 1]} la
+gráfica de la función Sn (x) = nk=0 4−n f0 (2n x), que es la n-ésima suma parcial de la serie (4.7)
+con x ∈ [0, 1]. Se puede demostrar por inducción que Γn+1 = τ (Γn ), tal demostración
+P+∞ −nes elemental
+aunque laboriosa. Con ello se prueba que la gráfica de la función f2,4 (x) = k=0 4 f0 (2n x) con
+x ∈ [0, 1], es el atractor del SIF definido arriba.
+
+4.4.
+
+Más propiedades de los SIF
+
+En esta sección presentamos algunas propiedades adicionales de los SIF y sus atractores.
+El siguiente resultado prueba que los conjuntos auto-similares (atractores de SIF formado por
+similitudes) son densos en el espacio de las formas de Rn .
+
+4.4 Más propiedades de los SIF
+
+47
+
+Teorema 4.4.1. Sea K un conjunto compacto no vacı́o en Rn . Entonces, dado  > 0 es posible
+construir un SIF {Ti } de similaridades de Rn con razón de contracción 0 ≤ λi < 1 tales que
+dist H (K, K∞ ) < ,
+siendo K∞ el atractor del SIF {Ti }.
+Demostración. Sea K0 la clausura de la cápsula convexa del conjunto K; es decir, es el mı́nimo
+conjunto cerrado convexo que contiene a K. Descomponiendo a K0 en un número
+finito de nS
+simplex ∆i ⊂ K0 podemos definir contracciones afines Ti : ∆i → K0 tales que i Ti (K0 ) cubre K.
+Sea K∞ el atractor de ese SIF contractivo y τ el operador de Hutchinson. Entonces
+dist H (K, K∞ ) ≤ dist H (K, τ (K)) + dist H (τ (K), K∞ )
+= dist H (K, τ (K)) + dist H (τ (K), τ (K∞ ))
+≤ dist H (K, τ (K0 )) + λ dist H (K, K∞ )
+donde d(Ti (x), Ti (y)) ≤ λ d(x, y) para todo x, y ∈ Rn y para todo i. Despejando, tenemos el siguiente
+estimado
+dist H (K, τ (K0 ))
+dist H (K, K∞ ) ≤
+.
+1−λ
+Luego, si escogemos las contracciones afines Ti de manera que
+[
+dist H (K, τ (K0 )) = dist H (K, Ti (K0 )) < (1 − λ),
+i
+
+entonces dist H (K, K∞ ) < , lo que prueba el teorema.
+Definición 4.4.1. Sean (X, d) y (Λ, d0 ) dos espacios métricos completos. Decimos que la familia de
+funciones {Tλ : X −→ X}λ∈Λ es continua si la aplicación:
+(λ, x) 7−→ (λ, Tλ (x))
+es continua como función del espacio Λ × X en si mismo.
+El próximo teorema afirma que los puntos fijos de una familia continua de contracciones varian
+continuamente con el parámetro λ.
+Teorema 4.4.2. Sea {Tλ }λ∈Λ una familia de operadores de contracción de un espacio métrico
+completo (X, d) y p = p(λ) el único punto fijo del operador Tλ : X −→ X. Entonces, la función
+λ 7−→ p(λ) es continua.
+Demostración. En primer lugar observemos que, por la unicidad, la correspondencia λ 7−→ p(λ) es
+en efecto una función. Como (λ, x) 7−→ (λ, Tλ (x)) es continua, entonces, para λ0 ∈ Λ y x0 ∈ X y
+para todo  > 0 podemos encontrar δ = δ(x0 , λ0 , ) > 0 tal que
+d(x, x0 ) , d0 (λ, λ0 ) < δ =⇒ d(Tλ (x), Tλ0 (x0 )) < .
+En particular, si p0 = p(λ0 ) entonces
+d(p(λ), p0 ) = d(Tλ (p(λ)), Tλ0 (p0 )) < , siempre que d(λ, λ0 ) < δ.
+Esto demuestra la continuidad de la función λ 7−→ p(λ).
+
+48
+
+Sistemas Iterado de Funciones
+
+Definición 4.4.2. Sea {Tiλ }i∈I λ ,λ∈Λ una familia parametrizada de SIF en un espacio métrico completo (X, d). Decimos que esa familia es continua si el operador de Hutchinson τ λ : H(X) → H(X)
+define una familia continua de contracciones en H(X).
+El próximo teorema afirma que los atractores de una familia continua de SIF varian continuamente con el parámetro λ ∈ Λ.
+Teorema 4.4.3. Sea {Tiλ }i∈I λ ,λ∈Λ una familia continua de SIF en un espacio métrico completo
+(X, d). Entonces, los respectivos atractores, Xλ , varian continuamente con el parámetro; es decir,
+para cada λ0 ∈ Λ se cumple:
+dist H (Xλ , Xλ0 ) → 0 cuando λ → λ0 .
+La demostración de este resultado es inmediata en virtud del teorema anterior. Conviene advertir
+al lector, sin embargo, que dos conjuntos pueden estar muy cerca en la métrica de Hausdorff, aunque
+los detalles más finos de su geometrı́a sean fundamentalmente no equivalentes.
+Además de los teoremas anteriores que muestran propiedades de densidad y continuidad de
+los atractores de SIF, los siguientes resultados proveen propiedades de conexidad de los atractores
+de SIF por simple inspección de las transformaciones que lo definen. Estos teoremas pueden ser
+encontrados en [8].
+Teorema 4.4.4. Sean {Ti }i=0,··· ,N un SIF con atractor X∞ en en un espacio métrico completo
+F
+(X, d). Si X∞ es unión disjunta de sus partes; esto es, si X∞ = N
+i=0 Ti (X∞ ), entonces X∞ es
+totalmente disconexo.
+Demostración. Sean x, y puntos distintos en el atractor X∞ del SIF; sea d > 0 la distancia entre
+ellos. Claramente, o x y y pertenecen a la misma componente, x, y ∈ Ti (X∞ ), o bien x ∈ Ti (X∞ )
+y y ∈ Tj (X∞ ) para i 6= j. No obstante, x y y no pueden mantenerse en una misma componente
+Ti1 ◦ Ti2 ◦ · · · ◦ Tik (X∞ ) para toda sucesión {im } en el espacio de los (N + 1)-ádicos; pues:
+diam (Ti1 ◦ Ti2 ◦ · · · ◦ Tik (X∞ )) ≤ λi1 · · · λik ,
+el cual puede hacerse arbitariamente pequeño cuando k crece. Ası́, x y y no pueden pertenecer a
+la misma componente conexa de X∞ . Como x y y son cualesquiera, entonces X∞ es totalmente
+disconexo.
+Teorema 4.4.5. Sean {Ti }i=0,··· ,N un SIF en el espacio métrico completo (X, d). Si las constantes
+P
+de contracción, λi con i = 0, · · · , N satisfacen N
+i=0 λi < 1, entonces X∞ es totalmente disconexo.
+Demostración. De la hipótesis sobre las constantes de contractividad del SIF sigue que la suma de
+los diámetros de las componentes es menor que el diámetro del atractor; esto es:
+N
+X
+
+diam (Ti (X∞ )) ≤ diam (X∞ )
+
+N
+X
+
+i=0
+
+λi < diam (X∞ ).
+
+i=0
+
+Para cada n ≥ 1 consideremos el iterado n-ésimo del operador de Hutchinson aplicado a X∞ ; es
+decir,
+[
+τ n (X∞ ) =
+Xi1 ···in ;
+(i1 ···in )∈Jn
+
+4.5 Algoritmos deterministas y el juego del caos
+
+49
+
+si diam n (X∞ ) es el diámetro de tal componente, entonces:
+diam n (X∞ ) ≤
+
+N X
+N
+X
+
+···
+
+i1 =0 i2 =0
+
+≤ diam (X∞ )
+
+N
+X
+
+diam (Ti1 ◦ Ti2 ◦ · · · ◦ Tin (X∞ ))
+
+in =0
+N X
+N
+X
+
+···
+
+i1 =0 i2 =0
+
+= diam (X∞ )
+
+N
+X
+
+N
+X
+
+λi1 λi2 · · · λin
+
+in =0
+
+!n
+λi
+
+;
+
+i=0
+
+esto implica que diam n (X∞ ) → 0 cuando n → +∞. De lo cual se deduce que dos puntos distintos
+cualesquiera en el atractor no pueden permanecer en la misma componente (Ti1 ◦ Ti2 ◦ · · · ◦ Tin )(X∞ )
+para todo n ≥ 1. Esto demuestra que X∞ es totalemente disconexo.
+
+4.5.
+
+Algoritmos deterministas y el juego del caos
+
+La construcción de conjuntos como lı́mites de familias encajadas de compactos definidos recursivamente nos proporciona un algoritmo determinista para generar fractales. En lo que sigue veremos
+un algoritmo tipo Monte Carlo más eficiente para generar imágenes de fractales por computador.
+Tomemos una hoja de papel y un lápiz y marquemos tres puntos enumerándolos 1,2 y 3. Estos
+puntos forman los vértices de un triángulo ∆ que supondremos es equilátero, para fijar ideas. Sea
+B = {1, 2, 3} en conjunto de los vértices de ∆. Ahora arreglemos un dado para que sólo aparezcan los
+números 1,2, y 3, por ejemplo identificando lados opuestos. Las reglas del juego son las siguientes:
+El juego del caos:
+Tomamos al azar un punto cualquiera en triángulo dibujado en la hoja de papel, digamos
+x0 , y lancemos el dado. Si sale el punto b0 ∈ B trazamos una lı́nea del punto x0 hasta b0 y
+llamamos x1 al punto medio del segmento x0 b0 .
+Volvemos a lanzar el dado y obtenemos un punto b1 ∈ B, trazamos el segmento x1 b1 y llamamos
+x2 al punto medio. Ası́, recursivamente, formamos una sucesión infinita de puntos en el plano
+x0 , x1 , x2 , · · · donde xn+1 se obtiene a partir de xn tomando un punto bn ∈ B al azar y
+definiendo xn+1 como el punto medio del segmento xn bn .
+La gráfica muestra la epata n-ésima del juego. Un poco de experimentación permite ver que la
+figura generada por el juego del caos, tal como lo definimos arriba, es el tapiz de Sierpinski.
+La idea del juego del caos fue introducida por Michael Barnsley; permite definir algoritmos rápidos y eficaces para generar conjuntos fractales, además de ser un divertido instrumento pedagógica
+que ha servido para popularizar la teorı́ de conjuntos fractales.
+El algoritmo Monte Carlo para generar fractales: Sea {Ti }i∈I un SIF en un espacio métrico
+completo (X, d) y suponga que existe X0 ⊂ X compacto tal que Ti (X0 ) ⊂ X0 para todo i:
+PROCEDIMIENTO
+PRIMER PASO: elija x ∈ X0 y un entero N > 0;
+
+50
+
+Sistemas Iterado de Funciones
+
+Fig. 4.10: El juego del caos
+SEGUNDO PASO: elija i ∈ I con un generador de números aleatorios;
+TERCER PASO: haga x = Ti (x), n = n + 1;
+CUARTO PASO: repita (2) y (3) mientras n < N .
+Este algoritmo tipo Monte Carlo genera una sucesión de puntos {xn } definida recursivamente
+por la ecuación
+xn+1 = Tin (xn )
+(4.9)
+es decir, xn = Tin ◦ · · · ◦ Ti0 (x0 ), donde los indices i0 , · · · , iN ∈ I han sido escogidos al azar.
+No es diı́ficil ver que el juego del caos de Barnsley nos es otra cosa que el algoritmo Monte Carlo
+descrito más arriba aplicado al SIF que genera el tapiz de Sierpinski.
+Teorema 4.5.1. Sean X∞ el conjunto lı́mite de un SIF {Ti }i∈I , i0 , i1 , · · · , ∈ I una sucesión infinita
+de elementos en I escogidos al azar con ayuda de un generador de números aleatorios y {xn } la
+secuencia generada recursivamente usando la ecuación (4.9). Entonces
+X∞ ⊂ {x0 , x1 , x2 , · · · , }.
+La demostración de este teorema usa alguna variante de la ley fuerte de los grandes números,
+un teorema fundamental de la teorı́a de probabilidades. En la sección de ejercicios proponemos
+una demostración “determinista” de un resultado más débil, pero que ilustra bien la naturaleza del
+problema.
+El algoritmo Monte Carlo es usado por Fractint y otros programas de computador para la
+generación de fractales pues consumen poca memoria y tiempo de ejecución en comparación con los
+algoritmos deterministas descritos al principio de la sección.
+
+4.6.
+
+Ejercicios
+
+1. Sean (X, d) un espacio métrico completo, {f0 , · · · , fn−1 } un SIF con atractor X∞ , τ el operador
+de Hutchinson asociado, B ∈ H(X) tal que fi (B) ⊂ B para todo i = 0, · · · , n − 1, y h :
+B + (n) → X∞ la aplicación que codifica los puntos del atractor del SIF.
+S
+a) Si existe m ≥ 1 tal que τ m (B) = Jm (fi1 ◦ · · · ◦ fim )(B) es disjunta, entonces X∞ es
+totalmente disconexo. ¿Es cierto que bajo estas hipótesis X∞ es un conjunto de Cantor?
+
+4.6 Ejercicios
+
+51
+
+b) Demostrar que si h es inyectiva, entonces X∞ es un conjunto de Cantor.
+c) Mostrar un ejemplo de un SIF {f1 , · · · , fn }, un compacto B ∈ H(X) con fi (B) ⊂ B para
+todo i = 1, · · · , n, y fi (B) ∩ fj (B) = ∅ para todo i 6= j; pero que el atractor del SIF no
+sea un conjunto de Cantor.
+d ) Sean σ, ρ ∈ B + (n) diferentes y con la propiedad que para algún m ≥ 1:
+(F)
+
+(fσ(0) ◦ · · · ◦ fσ(m) )(B) ∩ (fρ(0) ◦ · · · ◦ fρ(m) )(B) = ∅.
+
+Demostrar que h(σ) 6= h(ρ). Concluir que si F se cumple para toda σ 6= ρ, entonces X∞
+es un conjunto de Cantor.
+2. En R2 con la métrica Euclidiana considere el SIF dado por las contracciones f1 , f2 , f3 , f4 que
+a continuación se definen:
+ 
+   
+ 
+   
+x
+x
+0
+x
+x
+1/3
+=A
++
+,
+=A
++
+, f2
+f1
+y
+y
+1/3
+y
+y
+0
+ 
+   
+ 
+   
+x
+x
+2/3
+x
+x
+1/3
+f3
+=A
++
+y f4
+=A
++
+;
+y
+y
+1/3
+y
+y
+2/3
+
+
+1/3 0
+.
+donde A es la matriz
+0 1/3
+a) Verificar que el cuadrado B = [0, 1] × [0, 1] es tal que fi (B) ⊂ B para todo i = 1, 2, 3, 4.
+b) Si τ denota el operador de Hutchinson asociado a tal SIF, hacer diseños de τ m (B) para
+m = 1, 2, 3, 4. ¿De cuántos cuadrados se compone cada τ m (B) para todo m ≥ 1?
+c) Verificar que f1 (B) ∩ f2 (B), f1 (B) ∩ f3 (B), f2 (B) ∩ f4 (B) y f3 (B) ∩ f4 (B) son conjuntos
+unitarios y que tales puntos no están en el atractor del SIF.
+d ) Dada cualquier σ ∈ B + (4) y cualquier k ≥ 0, demostrar que si gk = fσ(0) ◦ · · · ◦ fσ(k) ,
+entonces gk ◦ f1 (B) ∩ gk ◦ f2 (B), gk ◦ f1 (B) ∩ gk ◦ f3 (B), gk ◦ f2 (B) ∩ gk ◦ f4 (B) y
+gk ◦ f3 (B) ∩ gk ◦ f4 (B) son conjuntos unitarios y que tales puntos no están en X∞ .
+e) Demostrar que la aplicación h que codifica los puntos del atractor es inyectiva, y por
+tanto X∞ es un conjunto de Cantor. Compare con el ejercicio anterior.
+3. Describa el atractor de los siguientes SIF de R con la métrica Euclidiana:
+a) f1 (x) = αx y f2 (x) = (1 − α)x + α, donde 0 < α < 1.
+b) f1 (x) = 13 x y f2 (x) = 21 x + 12 .
+c) f1 (x) = 21 x, f2 (x) = 41 x +
+
+1
+4
+
+y f2 (x) = 41 x + 34 .
+
+d ) f1 (x) = a x + b y f2 (x) = c x + d, donde 0 < |a|, |b| < 1.
+4. Sean M = [0, 2] dotado de la métrcia Euclidiana. Verifique que las funciones f1 (x) = 19 x2 y
+f2 (x) = 43 x + 21 definen un SIF en M . Encontrar un factor de contractividad del operador de
+Hutchinson. Demostrar que el atractor de este SIF es un conjunto de Cantor.
+5. Considere el espacio métrico C([0, 1], R) de todas las funciones continuas del intervalo [0, 1]
+en R dotado de la métrica del máximo; esta es:
+d∞ (f, g) = máx{|f (t) − g(t)| : t ∈ [0, 1]}.
+Se definen ωi : C([0, 1], R) → C([0, 1], R), i = 1, 2, por ω1 (f ) = 12 f y ω2 (f ) = 21 f + g2 , donde
+g2 (t) = 2t(1 − t) para todo t ∈ [0, 1]. Demostrar que {C([0, 1], R); ω1 , ω2 } es un SIF. Determine
+su atractor.
+
+52
+
+Sistemas Iterado de Funciones
+6. Conjuntos de Cantor no lineales: sean Ti : R −→ R, i = 0, · · · , p − 1 funciones continuamente diferenciables. Suponga que |Ti0 (x)| ≤ λ < 1 para todo x ∈ I y que los intervalos
+Ii = Ti (I) son disjuntos. Pruebe que el SIF {Ti } tiene como conjunto lı́mite un cantor homeomorfo a B + (p).
+7. Sea h : B + (4) −→ Γ el mapa de desarrollos 4-ádicos de la curva de Koch Γ. Pruebe que los
+elementos cofinales de B + (4) se mapean en los vértices de la curva de Koch. Concluya que
+los vértices son densos en Γ y deduzca que la curva de Koch no admite tangente en ningún
+punto. 1
+8. Sea In en cubo unitario en Rn . Retire un cubo J0 = [1/3, 2/3]n de In y repita el proceso
+de forma recursiva. El conjunto lı́mite de esta construcción se llama esponja de Menger y
+será denotado M. Defina un SIF para la esponja de Menger y pruebe que es un conjunto
+compacto, conexo, no vacı́o.
+9. Sea S ⊂ {0, · · · , 9} un subconjunto propio. Pruebe que Λ = ΛS , el conjunto de los x ∈ I cuyos
+desarrollos decimales sólo contiene dı́gitos ni ∈ S es un conjunto de Cantor.
+
+10. El siguiente ejercicio muestra un SIF infinito numerable usado en el desarrollo en fracciones
+continuas. Para cada n ∈ N definimos
+1
+Tn (x) =
+, x ∈ I.
+n+x
+El SIF {Tn }n∈N permite representar números reales a través de un desarrollo en fracciones
+continuas:
+x = lı́m [n1 , · · · , nk ]
+k→+∞
+
+donde
+
+1
+
+[n1 , · · · , nk ] =
+
+.
+
+1
+
+n1 +
+
+1
+
+n2 +
+n3 +
+
+1
+..
+
+.
+
++ n1k
+
+a) Pruebe que In1 ···nk = Tnk ◦ · · · ◦ Tn1 (I) puede representarse como
+In1 ···nk = [ [n1 , · · · , nk + 1] , [n1 , · · · , nk ] ]
+y que, dada una sucesión de números naturales {nk } la familia de intervalos In1 ···nk
+decrecen a un único punto.
+b) Pruebe que B + (N) = { {nk } : nk ∈ N} es un espacio métrico completo con la métrica
+producto.
+c) Pruebe que la función h : B + (N) −→ I definida por
+{h(ω)} =
+
++∞
+\
+
+Xi1 ···in ,
+
+n=1
+
+donde ω = {in } y Xi1 ···in = Ti1 ◦ · · · ◦ Tin (I) es continua, abierta y sobreyectiva:
+x = lı́m [n1 , · · · , nk ]
+k→+∞
+
+es el desarrollo en fracciones contı́nuas de x.
+1
+
+Sea S ⊂ {1, · · · , p} un subconjunto propio de indices. Un elemento ω de B + (p) se llama S-cofinal o simplemente
+cofinal si existe N > 0 tal que ωk ∈ S para todo k ≥ N
+
+4.6 Ejercicios
+
+53
+
+√
+d ) Sea x = 2−1 la solución positiva de la ecuación cuadrática x2 +2x−1 = 0, reescribimos
+la ecuación cuadrática como sigue:
+x=
+
+1
+.
+2+x
+
+Determine,usando estos hechos, el desarrollo en fracciones continuas de
+
+√
+
+2.
+
+x2
+
+e) Calcule el desarrollo en fracciones continuas de las √
+raı́ces positivas de
++ nx − 1 = 0.
+Por ejemplo, el número de oro de los griegos (1 + 5)/2 es la solución de la ecuación
+x2 + x − 1 = 0 y admite el siguiente desarrollo en fracciones contı́nuas:
+n−veces
+√
+z }| {
+1+ 5
+= lı́m [1, · · · , 1] .
+n→+∞
+2
+
+En general los dı́gitos del desarrollo en fracciones continuas de las soluciones de ecuaciones
+algebraicas de segundo grado con coeficientes enteros son periódicos. [9].
+11. Sea S ⊂ N un conjunto finito y defina Λ = ΛS ⊂ I el conjunto de los x tales que {nk },
+los digı́tos de su desarrollo en fracciones continuas, satisfacen nk ∈ S. Pruebe que Λ es un
+conjunto de Cantor.
+12. La función de Cantor o “devil’s staircase”: En X = C 0 ([0, 1], R), el espacio de las
+funciones continuas en definidas en I = [0, 1] con la métrica del supremo, se define el operador
+T : X −→ X como sigue:
+ f (3x)
+
+si x ∈ [0, 13 ]
+ 2
+T (f )(x) = 1/2
+si x ∈ [ 13 , 23 ]
+
+ 1 f (3x−2)
+si x ∈ [ 23 , 1]
+2 +
+2
+a) Pruebe que T está bien definido como operador del espacio de funciones continuas: si f
+es continua, entonces, T (f ) es continua;
+b) Pruebe que T es una contracción en el espacio de las funciones continuas. Concluya que
+T tiene un único punto fijo f0 ∈ X (T (f0 ) = f0 ) tal que, para toda f ∈ X la sucesión
+{T n (f )} converge uniformemente a f0 . La función f0 se llama función de Cantor o “devil’s
+staircase” (escalera del diablo).
+c) Pruebe que f0 es continua no decreciente y es constante
+en las lagunas Un del compleS
+mento del conjunto de Cantor ternario: I − K = n Un . La imagen de I − K bajo f0 son
+los racionales diádicos. Esto significa que f0 mapea un conjunto de medida de Lebesgue
+= 1 en un conjunto de medida cero.
+d ) Pruebe que la gráfica de f0 es el conjunto lı́mite del siguiente SIF:
+  
+ 
+x
+1/3 0
+x
+T0
+=
+y
+0 1/4
+y
+
+
+ 
+x
+1/3
+T1
+=
+y
+0
+  
+x
+1/3
+T2
+=
+y
+0
+
+ 
+
+x
+1/3
++
+y
+1/2
+  
+
+0
+x
+2/3
++
+1/2
+y
+1/2
+0
+0
+
+
+
+Observe que T1 es singular: colapsa el cuadrado unitario I2 sobre el intervalo [0, 1/3] y
+despúes lo traslada al punto (1/3, 1/2) dando el primer segmento constante de f0 .
+
+54
+
+Sistemas Iterado de Funciones
+El siguiente programa de Maple fue bajado de la página web
+http://www.mathcurve.com/fractals
+y permite generar aproximaciones de la función de Cantor, como indica la figura
+escalier:=proc(a,b,c,d,n) local liste;
+if n=0 then liste:=[a,b],[c,d] else liste:=
+escalier(a, b, (2*a+c)/3, (b+d)/2, n-1),
+escalier((2*a+c)/3,
+(b+d)/2,
+(a+2*c)/3,
+(b+d)/2, n-1),
+escalier((a+2*c)/3, (b+d)/2, c, d, n-1) fi;
+liste end:
+plot([escalier(0,0,1,1,n)]);
+
+Fig. 4.11: Gráfica de la función de Cantor generada con Maple
+13. Sea T : X −→ X una transformación continua de un espacio métrico completo en si mismo y
+suponga que T N es una contracción para algún entero N > 0. Pruebe que T tiene un único
+punto fijo atractor.
+14. Definimos el operador “shift” en B + (p) como el desplazamiento hacia la izquierda, es decir:
+σ : (i0 i1 i2 · · · ) 7−→ (i1 i2 · · · ), para toda {in }n≥0 .
+Equivalentemente, σ(ω)(n) = ω(n + 1). Pruebe:
+a) el “shift” σ es una función continua;
+b) que los puntos periódicos de σ son densos en B + (p);
+c) que los puntos eventualmente periódicos del “shift” son densos. Siendo que un punto p
+es eventualmente periódico si existe N > 0 tal que T N (p) es periódico, es decir: existe
+n > 0 tal que T n (T N (p)) = T N (p) y T N +k (p) 6= T N (p) para 0 < k < n.
+d ) que σ exhibe puntos ω ∈ B + (p) cuya órbita es densa; esto es, existen puntos ω ∈ B + (p)
+tales que {σ m (ω) : m ≥ 0} = B + (p).
+
+4.6 Ejercicios
+
+55
+
+15. Sea I = [0, 1]. Considere puntos:
+0 = a0 < a1 < · · · < ap = 1,
+e intervalos Ii = [ai , ai+1 ) para i = 0, · · · , p − 2 y Ip−1 = [ap−1 , 1]. Note que {Ii } es una
+partición de I. Sea T : I → I una función continuamente diferenciable a trozos sobre la
+partición {Ii }i=0,··· ,p−1 de I; esto es, T | Ii = Ti es continuamente diferenciable. Suponga que
+Ti (I) = I y existe ρ > 1 tal que
+mı́n ı́nf |Ti0 (x)| ≥ ρ > 1;
+i
+
+x∈Ii
+
+Pruebe lo siguiente:
+a) para cada ω = {in } ∈ B + (p), la familia de intervalos
+Ii0 ···in−1 =
+
+n−1
+\
+
+T −k Iik
+
+k=0
+
+define una familia encajada de compactos que converge a un único x ∈ I. Indicación:
+Pruebe que
+T k (Ii0 ···in−1 ) = Ii0 ···in−k−1 T n (Ii0 ···in−1 ) = I.
+Como |T n (Ii0 ···in−1 )| = |I|, por el Teorema del Valor Medio existe un punto ξ ∈ Ii0 ···in−1
+tal que |(T n )0 (ξ)||Ii0 ···in−1 | = 1 Por hipótesis |(T n )0 (ξ)| ≥ ρn , luego, |Ii0 ···in−1 | ≤ ρ−n → 0
+como n → +∞.
+b) la función π : B + (p) −→ I definida por la ecuación conjuntista
+{π(ω)} =
+
++∞
+\
+
+T −n Iin
+
+(4.10)
+
+n=0
+
+es continua, abierta y sobreyectiva.
+c) A cada órbita OT+ (x) = {T n (x) : n ≥ 0} de T se le asocia un itinerario ω ∈ B + (p) de
+manera que T nT(x) ∈ Iin para todo n ≥ 0. Pruebe que ω = {in } es el itinerario de x si, y
+sólo si, {x} = +∞
+n=0 Ii0 ···in ;
+d ) que T ◦ π = π ◦ σ. En consecuencia π establece una correspondencia entre las órbitas de
+σ y las órbitas de T :
+π(Oσ+ (ω)) = OT+ (π(ω));
+e) Concluya que T tiene un conjunto denso de órbitas periódicas y que es topológicamente
+transtivo;
+S
+16. Sea T : i Ii ⊂ I −→ I una función como la arriba descrita pero los intervalos Ii son ahora
+cerrados y disjuntos dos-a-dos. Pruebe lo siguiente:
+a) El conjunto
+Λ=
+
++∞
+\
+n=0
+
+!
+T
+
+−n
+
+[
+
+Ii
+
+i
+
+es compacto y no vacı́o;
+b) Λ es invariante bajo T y es maximal respecto a esa propiedad, es decir: si X ⊂
+T -invariante, entonces X ⊆ Λ;
+
+S
+
+i Ii
+
+es
+
+56
+
+Sistemas Iterado de Funciones
+c) Pruebe que el mapa π : B + (p) −→ Λ definido como en (4.10) es un homeomorfismo. Λ
+es llamado a veces un conjunto de Cantor definido dinámicamente. Indicación: basta
+verificar que π es uno-a-uno.
+
+17. Sea {Ti }i∈I un SIF en un espacio métrico completo (X, d).
+a) Pruebe que el mapa
+T (ω, x) = (σ(ω), Tω(0) (x))
+definido en B + (I) × X es continuo y sobreyectivo, definiendo ası́ un sistema dinámico en
+B + (I) × X, donde B + (I) es el conjunto de las sucesiones infinitas de elementos en I;
+b) Pruebe la siguiente identidad
+T n (ω, x) = (σ n (ω), Tω(n−1) ◦ · · · ◦ Tω(0) (x))
+c) Suponga que existe X0 ⊂ X compacto no vacı́o tal que Ti (X0 ) ⊂ X0 para todo i ∈ I y
+sea Xα es el atractor del SIF. Pruebe que B + (I) × Xα es un atractor de T . Concluya
+que existe un conjunto denso D ⊂ B + (I) tal que, para todo ω ∈ D y para todo x ∈ X0
+y todo {in } ∈ B + (I) se tiene
+X∞ ⊂ {Tin ◦ · · · ◦ Ti1 (x) : n ≥ 1 }
+Esta es la versión determinista del juego del caos.
+
+Capı́tulo 5
+
+Medida y dimensión
+En este capı́tulo esbozamos de manera breve las nociones de medida y dimensión de Hausdorff.
+Para ello usaremos las familias generadoras que quedan definidas recursivamente por el operador de
+Hutchinson asociado a un SIF.
+Entre la variedad de conceptos de dimensiones fraccionarias, la dimensión de Hausdorff es la
+más antigua y quizas la de más importancia teórica.
+
+5.1.
+
+La medida de Hausdorff como extensión de las nociones de
+longitud, área y volumen
+
+El concepto de dimension fraccionaria está intimanente ligado a la noción de medida de un
+conjunto. Las nociones más inmediatas e intuitivas de medida son la longitud, área y volumen de
+figuras elementales de la geometrı́a euclidiana: segmentos, triángulos, rectángulos, cubos, tetraedros
+y en general k-simplex en Rn . Dada una figura cualquiera nuestro impulso inicial es a descomponerlas
+en un número finito de figuras simples para las cuales sabemos calcular con exactitud su longitud,
+área, volumen, etc. Por ejemplo:
+la longitud de una poligonal es la suma de las longitudes de los segmentos que la componen;
+podemos calcular el área de un figura convexa en el plano descomponiéndola en triángulos o
+rectángulos no yuxtapuestos formando un retı́culo;
+el volumen de un cuerpo convexo cerrado y acotado en el espacio R3 se puede obtener mediante
+descomposiciones en tetraedros o cubos.
+Una situación nueva se presenta cuando el objeto es curvilı́neo, como una circunferencia o una
+esfera. De allı́ nace la necesidad de considerar sucesiones infinitas para obtener la medida de la
+figura como un lı́mite de aproximaciones sucesivas como lo hicieran griegos, hindúes y chinos.
+De allı́ la noción de curva rectificable. Una curva es rectificable si existe una sucesión de poligonales aproximantes que convergen a la curva y cuyas longitudes forman una sucesión convergente.
+Definimos la longitud de la curva como el valor lı́mite de esas aproximaciones.
+La operación de rectificar está relacionada con lo que los griegos llamaron cuadratura de una
+figura geométrica. La cuadratura de una figura plana consiste en construir un cuadrado con igual
+área que encierra la misma. También Arquı́mides obtuvo logros importantes en el problema de la
+cuadratura de figuras curvilı́neas llegando a calcular con exactitud el área de un sector parabólico,
+lo cual era toda una proeza pues los griegos no habian desarrollado el concepto de integral.
+
+58
+
+Medida y dimensión
+
+Con la creación del cálculo diferencial e integral por Fermat, Newton y Leibniz, hemos transformado el problema de la “cuadratura” en teorı́a de integración. Por ejemplo, si Γ := {(x(t), y(t) :
+t ∈ [a, b]} es una curva suave parametrizada por dos funciones continuamente diferenciables x =
+x(t) , y = y(t), las aproximaciones por poligonales inscritas convergen a la integral
+Z bp
+`(Γ) =
+(x0 (t))2 + (y 0 (t))2 dt.
+a
+
+Sin embargo, cuando uno trata de extender éste método de aproximación a superficies se llega a
+lo que se conoce como la paradoja de Schwarz. Consideremos para ello el cilindro C de ecuación
+x2 + y 2 = R2 y altura H. Podemos descomponer este cilindro en n × m rectángulos curvilı́neos y
+unimos sus vértices formando bm superficies poliédricas trianguladas Σn de área
+
+
+s
+4 
+ 2 4 2 
+
+2n
+2n
+2n
+R
+π m
+2n
+Area(Σn ) = π R H
+1 + cos 1 +
+sin
+sin
+
+π
+π 
+H
+n4
+π
+π
+
+
+s
+ 2  2  2 
+
+R
+π m
+.
+≈ πRH 1+ 1+
+
+
+H
+n2
+Las áreas Area(Σn ) convergen o divergen a infinito, dependiendo de como hagamos tender n, m →
++∞. Por ejemplo, si m/n2 → 0 como n, m → +∞ entonces Area(Σn ) tiende a π RH, el área del
+cilindro. Pero si m = λ n2 para una constante λ > 0 entonces el Area(Σn ) > π RH para todo n > 0.
+Más aún, si m = nβ para algún β > 2 entonces podemos estimar Area(Σn ) ≈ nβ−2 para n → +∞
+lo que implica que el área de las superficies poliédricas aproximantes diverge a infinito.
+La idea es que podemos tener una superficie poliédrica Σn muy “arrugada” de área arbitrariamente grande, tal que dist H (Σn , C) → 0 cuando n → +∞. De hecho, lo que sucede es que estamos
+aproximando una superficie suave por superficies fractales no rectificables.
+Este hecho y el descubrimiento de curvas no rectificables continuas que no tienen tangente en
+ninguno de sus puntos motivó a principios del siglo XX una revisión del concepto de medida, apoyada
+en los desarrollos de la teorı́a de conjuntos de Cantor y la naciente topologı́a conjuntista.
+En lo que sigue vamos hacer una presentación al vuelo (¡y poco pedagógica!) de la noción
+decantada de “medida” de conjuntos que surgió de este exámen crı́tico, aplicándolo a los conjuntos
+fractales.
+Ante todo, una medida es una función de conjuntos, es decir, es una función µ que le asocia a un
+conjunto A un número real. Para que esa función tenga sentido como medida ella debe generalizar
+las propiedades de la longitud, área y volumen ordinarias de figuras en Rn . Para ello debe cumplir
+lo siguiente:
+1. la medida de un conjunto debe ser no negativa: µ(A) ≥ 0;
+2. la medida del vacı́o debe ser nula: µ(∅) = 0;
+3. dados dos conjuntos disjuntos A y B, la medida de la unión debe ser la suma de las medidas:
+µ(A ∪ B) = µ(A) + µ(B). Una función de conjuntos con esta propiedad se llama finitamente
+aditiva;
+4. como estamos interesados en generalizar el método de exhausión de Arquı́mides, debemos considerar la posibilidad de aproximar conjuntos por sucesiones infinitas numerables de subconjuntos A0 , A1 , A2 , · · · . Para que eso es necesario extender la propiedad finitamente aditiva
+
+5.1 La medida de Hausdorff
+
+59
+
+a una una aditividad numerable: si los conjuntos A0 , A1 , A2 , · · · son disjuntos dos-a-dos,
+entonces
+!
+X
+[
+µ
+µ(Ai ).
+Ai =
+i
+
+i
+
+Una función de conjuntos con esta propiedad se llama σ-aditiva.
+Para que esto tenga sentido, el dominio de la función debe er cerrado bajo las operación conjuntistas
+de uniones finitas o numerables y por intersecciones y diferencias finitas. Estas consideraciones nos
+motivan a introducir las siguientes definiciones.
+Definición 5.1.1. Sea X un conjunto. Una familia de subconjuntos A ⊂ P(X) se llama una
+σ-álgebra si cumple lo siguiente:
+1. X ∈ A,
+2. si {Ai } ∈ A una sucesión de elementos en A, entonces
+
+S
+
+i Ai
+
+∈ A,
+
+3. si A ∈ A entonces X − A ∈ A.
+Un álgebra de conjuntos es una estructura un poco menos restricta; de hecho A se dice un álgebra
+en X si:
+1. si A ∈ A entonces X − A ∈ A; y
+2. unión finita de elementos de A está en A.
+Claramente toda σ-álgebra es un álgebra de conjuntos; además, satisface las siguientes propiedades:
+∅ ∈ A;
+A es cerrada por intersecciones numerables: si Ai ∈ A, i ∈ N, entonces
+
+T
+
+i Ai
+
+∈ A;
+
+A es cerrada por diferencias finitas: si A , B ∈ A entonces A − B ∈ A;
+A es cerrada por uniones e intersecciones finitas.
+Definición 5.1.2. Sea A una σ-álgebra de conjuntos. Una medida es una función σ-aditiva, nonegativa µ : A −→ R+ tal que µ(∅) = 0.
+Sea µ una medida sobre una σ-álgebra de conjuntos A. Las siguientes propiedades siguen directamente de la definición:
+1. µ es finitamente aditiva: si A1 , · · · , An ∈ A son disjuntos dos-a-dos, entonces
+!
+n
+n
+[
+X
+µ
+Ai =
+µ(Ai ).
+i=1
+
+i=1
+
+2. µ es monótona: si A ⊂ B entonces µ(A) ≤ µ(B). Esto sigue de que B = A ∪ (B − A) (unión
+disjunta).
+
+60
+
+Medida y dimensión
+3. µ es σ-subaditiva: para cualquier secuencia de conjuntos {Ai } de A, no necesariamente disjuntos, se tiene
+! +∞
++∞
+[
+X
+µ
+Ai ≤
+µ(Ai ).
+i=1
+
+i=1
+
+4. Si {Ai }, con Ai en A es una sucesión creciente de conjuntos, i.e Ai ⊂ Ai+1 entonces:
+!
++∞
+[
+µ
+Ai = lı́m µ(Ai ).
+i→+∞
+
+i=1
+
+T
+Dualmente, si {Ai } es una sucesión decreciente, Ai+1 ⊂ Ai , entonces µ(Ai ) decrece a µ( +∞
+i=1 Ai ).
+En particular µ es T
+continua en el vacı́o; es decir, si Ai+1 ⊂ Ai es una sucesión decreciente que
++
+converge al vacı́o ( +∞
+i=1 Ai = ∅) entonces µ(Ai ) → 0 cuando i → +∞.
+Una manera natural de construir medidas es tomando una función de conjuntos µ0 finitamente
+aditiva definida sobre un álgebra de conjuntos elementales A0 . 1 . Luego podemos extender esa
+medida a una medida σ-aditiva µ definida sobre una σ-álgebra de conjuntos A que contiene al álgebra
+de conjuntos A0 . Este proceso de extensión, introducido por el matemático ruso N. Kolmogorov,
+es un heredero del método de Arquı́mides. El proceso de paso al lı́mite en este contexto es, sin
+embargo, más delicado que los lı́mites de números reales y conjuntos que hemos considerado hasta
+ahora en estas notas, pues principios de inducción transfinita de la teorı́a de conjuntos son requeridos.
+Las implicaciones contra-intuitivas de estos argumentos, tales como la existencia de conjuntos no
+medibles, despertaron en un principio sospechas y rechazo entre algunos matemáticos, aunque hoy
+son aceptadas como parte de los fundamentos de la Matemática. La investigación de estos problemas
+pertenece más bien al dominio de la lógica y la teorı́a de conjuntos que a la geometrı́a, por eso
+preferimos omitir cualquier otra mención a los mismos en lo que resta de este trabajo.
+Otro enfoque clásico para la definición de medidas es el método de cubrimientos introducido por
+el matemático francés P. Carathéodory a principios del siglo XX, el cual fue usado por F. Hausdorff
+para definir la medida que lleva su nombre, extendiendo con ello las nociones de longitud, área,
+volumen y la de curva rectificable.
+Veamos entonces como se define la dimensión de Hausdorff. Sea (X, d) un espacio métrico completo.
+Definición 5.1.3. Dados A
+S ⊂ X no vacı́o y δ > 0. Una colección numerable U = {Ui } se dice un
+δ-cubrimiento de A si A ⊂ i Ui y para cada i, diam (Ui ) < δ.
+Para cada A ⊂ X y δ > 0 consideremos la familia F δ (A) de todos los δ-cubrimientos de A. Para
+cada α ≥ 0 consideremos el número (puede ser incluso +∞):
+(
+)
+X
+δ
+α
+δ
+Hα (A) = ı́nf
+(diam (Ui )) : U = {Ui } ∈ F (A) .
+(5.1)
+i
+0
+
+δ0,
+
+Observe que si 0 < δ <
+entonces F δ (A) ⊂ F δ (A). Por tanto, para todo 0 < δ < δ 0 siempre se
+0
+cumple Hαδ (A) ≥ Hαδ (A). Esto garantiza que el lı́mδ→0+ Hαδ (A) existe; de hecho
+lı́m Hαδ (A) = sup Hαδ (A).
+
+δ→0+
+
+δ>0
+
+Por otra parte, al considerar el caso A = ∅
+1
+
+Por ejemplo, son álgebras de conjuntos las uniones finitas de intervalos, rectángulos, cubos y en general las uniones
+finitas de k-simplex en Rn
+
+5.1 La medida de Hausdorff
+
+61
+
+Definición 5.1.4. Sea (X, d) un espacio métrico completo. La medida de Hausdorff de exponente
+α ≥ 0 es la definida, para cada A ⊂ X, por
+(
+)
+X
+α
+δ
+Hα (A) = lı́m ı́nf
+(diam (Ui )) : U = {Ui } ∈ F (A) .
+(5.2)
+δ→0+
+
+i
+
+La función de conjuntos A → Hα (A) define, en efecto, una medida. Los detalles de esta afirmación se dejan al lector. En particular son válidas:
+Hα (∅) = 0,
+si B ⊂ A, entonces Hα (A) ≥ Hα (B), y
+Hα es σ-aditiva.
+La medida de Hausdorff de exponente α generaliza las ideas usuales de longitud, área y volumen.
+Además, satisface la propiedad de escalamiento que tienen estos valores. De hecho:
+Teorema 5.1.1. Para todo conjunto A de Rn y para todo λ > 0 se cumple Hα (λA) = λα Hα (A).
+Demostración. Note que si U = {Ui } es un δ-cubrimiento de A, entonces λU = {λUi } es un (λδ)cubrimiento de λA, donde λU denota el conjunto {λu : u ∈ U } para cualquier U ⊂ Rn . Dado
+que
+X
+X
+Hαλδ (λA) ≤
+(diam (λUi ))α = λα
+(diam (Ui ))α ;
+i
+
+i
+
+como el δ-cubrimiento es cualquiera, sigue que Hαλδ (λA) ≤ Hαδ (A); de donde
+desigualdad recı́proca se obtiene reemplazando λ por λ−1 y A por λA.
+
+Hα (λA) ≤ Hα (A). La
+
+Otras importantes propiedades de la medida de Hausdorff se expresan en el siguiente lema.
+Lema 5.1.1. Para todo subconjunto A del espacio métrico X se cumplen:
+1. Si Hα (A) > 0 entonces Hβ (A) = ∞ para todo β < α.
+2. Si Hα (A) < +∞ entonces Hβ (A) = 0 para todo β > α
+Demostración. Sean 0 < δ < 1 y U un δ-cubrimiento de X. Si 0 ≤ β < α entonces:
+X
+X
+(diam Ui )β =
+(diam Ui )β−α (diam Ui )α
+i
+
+i
+
+≥ δ −(α−β)
+
+X
+
+(diam Ui )α
+
+i
+
+Como Hα (A) > 0 y α − β < 0, entonces i (diam Ui )β → +∞ cuando δ → 0+ . Análogamente, si
+β > α y Hα (A) < +∞ entonces
+X
+X
+(diam Ui )β ≤ δ β−α
+(diam Ui )α
+P
+
+i
+
+≤ Cδ
+
+i
+β−α
+
+para alguna constante C > 0. Luego, Hβ (A) = 0 pues δ β−α → 0+ cuando δ → 0+ .
+
+62
+
+Medida y dimensión
+
+PSfrag replacements
++∞
+α
+Hα (A)
+α0
+Fig. 5.1: Gráfica de la función α −→ Hα (A).
+( Estas propiedades implican que para cada conjunto X hay un único 0 ≤ α0 tal que Hα (X) =
++∞ si α < α0
+.
+0
+si α > α0
+Note que la gráfica de la función escalonada α −→ Hα (A) es tal que el valor de Hα0 (A) puede ser
+un número positivo, cero e incluso +∞.
+Definición 5.1.5. Sea X ⊂ Rn un conjunto. La dimensión de Hausdorff de X se define como
+dimH (X) = ı́nf{α : Hα (X) = 0} = sup{α : Hα (X) = +∞}.
+La dimensión de Hausdorff
+crı́tico que permite controlar la convergencia a cero
+P es un exponente
+α
+de los términos de las series i (diam (Ui )) con la esperanza de construir medidas finitas y positivas
+sobre conjuntos que, como las curvas no rectificables, tiene longitud, área o volumen cero o infinito
+haciendo que éstas cantidades carezcan de utilidad como medida del conjunto.
+Por ejemplo, si X = Rn , podemos interpretar la medida de Hausdorff como sigue:
+Sea Γ una curva rectificable en Rn . La medida de Haudorff H1 (Γ) es, a menos de una constante
+que sólo depende de n, la longitud de Γ.
+Sea Σ una superficie continua en R3 . Si 0 < H2 (Σ) < +∞ entonces Σ es una superficie
+rectificable y la medida de Hausdorff es su área.
+Si Σ ⊂ Rn es la imagen de una función continua h : Rk −→ Rn y 0 < Hk (Σ) < +∞, entonces
+Σ es una k-superficie rectificable y la medida de Hausdorff es, a menos de una constante que
+sólo depende de la dimensión topológica (ver abajo) del espacio ambiente, el k-volumen de Σ.
+En general si un conjunto X ⊂ Rn tiene medida de Hausdorff 0 < Hk (X) < +∞ donde k es
+un entero 1 ≤ k ≤ n, entonces se puede probar que X es una unión numerable de k-superficies
+rectificables. Este notable resultado es la culminación de los trabajos de la escuela de Besicovicht,
+matemático inglés que trabajó en estos difı́ciles problemas entre 1930 y 1950, mucho antes de que
+explotara el boom de las exploraciones computacionales de conjuntos auto-similares. El excelente
+libro de [10] contiene una exposición detallada y auto-contenida de estos resultados caracterizados
+por el tecnicismo de sus demostraciones .
+El próximo resultado dice que la dimensión de Hausdorff es invariante bajo homeomorfismos
+bi-lipschitzianos.
+
+5.1 La medida de Hausdorff
+
+63
+
+Definición 5.1.6. Sea f : X −→ Y una función entre dos espacios métricos completos (X, dX ) y
+(Y, dY ). Decimos que f satisface una condición Lipschitz si existe una constante C > 0 tal que
+dY (f (x), f (y)) ≤ C dX (x, y).
+
+(5.3)
+
+Llamaremos norma Lipschitz de f a la constante
+Lf = sup
+x,y∈X
+x6=y
+
+dY (f (x), f (y))
+dX (x, y)
+
+Por ejemplo, una función continuamente diferenciable f : [a, b] −→ R es Lipschitz: por el Teorema
+del Valor Medio, para todo para de puntos x < y en [a, b] existe c ∈ (x, y) tal que |f (x) − f (y)| =
+|f 0 (c)||x − y|. Sea C = supz∈[a,b] |f 0 (z)|, entonces |f (x) − f (y)| ≤ C|x − y|.
+Toda función lipschitziana es uniformemente continua. Un homeomorfismo h : X −→ Y es
+bi-lipschitziano si h y si inversa h−1 satisfacen una condición Lipschitz.
+Proposición 5.1.1. Sea h : X −→ Y un homeomorfismo bi-lipschitziano con constante Lipschitz
+acotada entre entre dos espacios métricos completos. Entonces dimH (X) = dimH (Y ).
+Demostración. Sea C = máx{Lh , Lh−1 }. Si U = {Ui } un δ-cubrimiento abierto de X, entonces
+hU = {h(Ui )} es un Cδ-cubrimiento de Y y, recı́procamente, si V = {Vi } es un δ-cubrimiento de Y
+entonces h−1 V = {h−1 (Vi )} es un Cδ-cubrimiento de X. Sea ahora
+X
+Hα,δ (X) =
+ı́nf
+(diam Ui )α .
+U
+diam (Ui )<δ i
+En virtud de la observación anterior,
+Hα,Cδ (Y ) =
+≤
+
+ı́nf
+V , diam (Vi )<Cδ
+
+X
+
+ı́nf
+hU , diam (Ui )<δ
+
+X
+
+≤ C
+
+α
+
+(diam Ui )α
+
+i
+
+ı́nf
+U , diam (Ui )<δ
+
+(diam h(Ui ))α
+
+i
+
+X
+
+(diam Ui )α
+
+i
+
+= C α Hα,δ (X).
+Análogamente, Hα,Cδ (X) ≤ C α Hα,δ (Y ) de donde concluı́mos, pasando al lı́mite δ → 0+ ,
+C −1 Hα (Y ) ≤ Hα (X) ≤ CHα (Y ).
+Luego, Hα (X) y Hα (Y ) convergen o divergen juntos, de donde concluı́mos dimH (x) = dimH (Y ),
+como querı́amos probar.
+En los ejemplos veremos que la dimensión de Hausdorff ofrece un invariante más fino que la
+dimensión topológica. Tal vez sea conveniente recordar en este punto que el primer intento de
+definición formal de fractal debido a Mandelbrot era precisamente la de un conjunto auto-similar
+cuya dimensión de Hausdorff es diferente de su dimensión topológica (ver abajo). Esta definición fue
+pronto abandonada porque existen ejemplos interesantes de conjuntos auto-afines X que merecen
+la denominación de fractales, sin embargo sus dimensiones de Hausdorff y topológica coinciden. En
+
+64
+
+Medida y dimensión
+
+efecto, la función tipo Weierstrass fa,b (x) =
+
+n
+X
+
+b−n f0 (an x) con a, b > 1 y ab−1 < 1 es Lipschitz y
+
+n=0
+
+por tanto su gráfico tiene dimensión de Hausdorff igual a 1 pues la parametrización x 7−→ (x, fa,b (x))
+es un homeomorfismo bi-lipschitziano del intervalo unitario I a la gráfica.
+Ahora bien, ¿qué pasa cuando α no es entero? ¿Qué significado geométrico tiene en ese caso la
+medida de Hausdorff? ¿Existen conjuntos X ⊂ Rn con medida de Hausdorff finita y positiva y de
+exponente α no entero? Al final de este Capı́tulo veremos que este es precisamente el caso de los
+conjuntos fractales.
+
+5.2.
+
+Particiones generadoras à la Souslin
+
+Para calcular la medida y dimensión de conjuntos fractales usaremos las particiones generadoras
+para construir una medida equivalente a Hα que nos permitirá calcular la dimensión de Hausdorff
+para algunos fractales.
+En general, el cálculo de la dimensión de Hausdorff usando la definición es un asunto en extremo
+difı́cil. En lo que sigue introducimos la noción particiones generadoras las cuáles serán muy útiles
+para establecer algunas propiedades topológicas y geométricas de fractales, tales como la dimensión
+topológica y la dimensión de Hausdorff.
+Los conjuntos lı́mites de un SIF están equipados de manera natural con una estructura adicional
+llamadas particiones generadoras. Esta sección está dedicada a poner de relieve explı́citamente esta
+estructura la cual será usada para calcular la medida y dimensión de Hausdorff de fractales.
+Sea B + (N) = NN el conjunto de las sucesiones de números naturales dotado con la métrica
+producto; esta es, con la métrica definida por
+d({xn }, {yn }) =
+
++∞
+X
+n=1
+
+B + (N)
+
+2−n
+
+|xn − yn |
+; {xn }, {yn } ∈ B + (N).
+1 + |xn − yn |
+
+es un espacio métrico completo.
+
+Introducimos ahora preliminares para definir las particiones generadores à la Souslin. Sea Σ ⊂
+B + (N) un subconjunto cerrado no vacı́o. Para cada entero positivo n, denotamos por Σn al conjunto
+de todos los puntos (i1 , · · · , in ) ∈ Nn tales que (i1 , · · · , in ) = πn (ω) para algún ω ∈ Σ, donde
+πn : B + (N) −→ Nn es la proyección sobre las primeras n-coordenadas; esto es, Σn = πn (Σ).
+Definición 5.2.1. Sea (X, d) un espacio métrico completo y Σ ⊂ B + (N) un subconjunto cerrado
+no vacı́o. Dado X0 ⊆ X, una familia ℘ de conjuntos cerrados con interior no vacı́o
+Ci1 ···in ⊂ X, con (i1 , · · · , in ) ∈ Σn para todo n ≥ 1,
+se dice una partición generadora à la Souslin para X0 si cumple lo siguiente:
+1. para cada n ≥ 1, los cilindros
+S generadores de nivel n; esto es, los conjuntos de ℘n = {Cα :
+α ∈ Σn }, cubren X0 : X0 ⊆ (i1 ,··· ,in )∈Σn Ci1 ···in ;
+2. para cada n ≥ 10, los interiores de los conjuntos ℘n son disjuntos dos-a-dos: int Cα ∩ int Cβ = ∅
+para todo α, β ∈ Σn con α 6= β.
+3. las descomposiciones ℘n forman una sucesión decreciente, ℘n+1 ≤ ℘n para todo n, en el sentido
+de que para todo P ∈ ℘n+1 existe Q ∈ ℘n tal que P ⊂ Q; y
+
+5.3 Dimensión topológica y universalidad
+
+65
+
+4. para todo ω ∈ Σ la secuencia de conjuntos Ci1 ···in definida por los ı́ndices (i1 , · · · , in ) = πn (ω)
+es decreciente y sus diámetros decaen a cero, vale decir, Ci1 ···in+1 ⊂ Ci1 ···in para todo n ≥ 1,
+y además, diam (Ci1 ···in ) → 0 como n → +∞.
+Observe que de la misma definición se desprende que si X0 ⊂ X admite una partición generadora
+a la Souslin, entonces:
+para cada x ∈ X0 existe al menos una sucesión ω = {in } en Σ, tal que
+{x} =
+
++∞
+\
+
+Ci1 ···in
+
+(5.4)
+
+n=1
+
+la unión de los cilindros de nivel n forman una secuencia encajada de subconjuntos que convergen a X0 ; es decir:
++∞
+\
+[
+X0 =
+Ci1 ,··· ,in
+(5.5)
+n=1 (i1 , ··· , in )∈Σn
+
+Un conjunto X0 que admita una representación del tipo (5.5) se conoce con el nombre de conjunto
+de Souslin. Por definición, un conjunto de Souslin de un espacio métrico (X, d) es la imagen de un
+subconjunto cerrado Σ ⊂ X × B + (N) bajo la proyección π(x, ω) = ω. Se puede demostrar en
+consecuencia que: todo espacio métrico completo separable localmente compacto admite un partición
+generadora a la Souslin.
+Los conjuntos de Souslin son interesantes pues ellos son constructibles, en el sentido de que
+pueden describirse como resultado de un conjunto numerable de operaciones conjuntistas (uniones,
+intersecciones y complementos) de conjuntos cerrados. [6].
+La existencia de particiones generadoras à la Souslin es muy útil en la investigación de algunas
+propiedades geométricas de conjuntos fractales, como vimos en el Capı́tulo ?? en nuestro estudio de
+las propiedades topológicas del conjunto de Cantor y el tapiz de Sierpinski. En lo que sigue veremos
+como se puede usar esta herramienta para abordar otros problemas igualmente importantes.
+
+5.3.
+
+Dimensión topológica y universalidad
+
+Sierpinski probó en 1916 que el conjunto que lleva su nombre es universal en el siguiente sentido:
+toda curva plana admite una copia homeomorfa dentro del fractal conocido como tapiz o alfombra de
+Sierpinski. Esto es más sorprendente en vista de la existencia de las llamadas curvas de Peano, que
+son la imagen de una una aplicación continua sobreyectiva del intervalo unitario I sobre el rectángulo
+unitario R = [0, 1] × [0, 1]; es decir, son curvas que llenan un rectángulo. Conjuntos autosimilares
+tales como el tapiz de Sierpinski y la esponja de Menger fueron concebidos en el marco de la teorı́a
+de la dimensión como ejemplos de conjuntos universales. En lo que sigue revisaremos la noción de
+dimensión topológica, apoyados en el concepto de partición generadora à la Souslin.
+Definición 5.3.1. Sea F = {Fn } un cubrimiento numerable de un espacio métrico (X, d) por
+conjuntos cerrados. Se dice que F tiene multiplicidad m + 1 si todo elemento x ∈ X está contenido
+en a lo sumo m + 1 elementos de F.
+Por ejemplo la descomposición del intervalo unitario en intervalos p-ádicos tiene multiplicidad
+2.
+
+66
+
+Medida y dimensión
+
+Definición 5.3.2. La dimensión topológica, dimtop (X), de un espacio métrico (X, d) se define como
+el menor entero m > 0 tal que todo cubrimiento cerrado F de X tiene un refinamiento cerrado F0
+de multiplicidad ≤ m + 1.
+Recordamos que dado un cubrimiento por conjuntos cerrados F de X, se entiende por refinamiento cerrado de F, a un cubrimiento por conjuntos cerrados F0 de X de manera que para todo
+F ∈ F existe E ∈ F0 satisfaciendo E ⊂ F .
+Una importante propiedad que posee la dimensión topológica es la ser un invariante topológico;
+es decir, si X y Y son homeomorfos, entonces dimtop (X) = dimtop (Y ).
+Definición 5.3.3. Sea ℘ = {Xi1 ···in : (i1 , · · · , in ) ∈ Σn , n ≥ 1} una partición generadora à la
+Souslin, indexada por un subconjunto cerrado Σ ⊆ B + (N). Se define la multiplicidad del elemento
+Xi1 ···in ∈ ℘ como
+M(Xi1 ···in ) = Card{α ∈ Σn : Xα ∩ Xi1 ···in 6= ∅ }.
+Se dice que la partición ℘ tiene multiplicidad finita a nivel n, si existe C > 0 tal que M(Xα ) ≤ C para
+todo α ∈ Σn . Además, la partición ℘ tiene multiplicidad finita, si tiene multiplicidad finita a nivel
+n para todo entero n > 0. Finalmente, ℘ tiene multiplicidad constante igual a m, si M(Xα ) = m
+para todo α ∈ Σn y cada n > 0; en tal caso se denota por M(℘) = m.
+No es difı́cil verificar que si M(℘) = m, entonces el mapa de Souslin que nos da los desarrollos
+p-ádicos generalizados es exactamente m-a-uno. Se entiende por mapa de Souslin a la aplicación
+h : Σ → X dada por h(ω) = x siempre que x satisfaga la ecuación (5.4).
+El siguiente resultado, que ofrecemos sin demostración, ofrece una herramienta útil para calcular
+dimensión topológica de un espacio equipado con una partición generadora à la Souslin.
+Teorema 5.3.1. Sea X0 un subconjunto compacto de espacio métrico compacto X. Si X0 está equipado con una partición generadora à la Souslin de multiplicidad m + 1 y tal que todos los átomos;
+Xi1 ···in , de la partición tienen dimtop (Xi1 ···in ) = m + 1, entonces dimtop (X0 ) = m.
+Bajo las hipótesis del teorema se puede probar sin dificultad que todo cubrimiento cerrado
+tiene un refinamiento cerrado formado por los conjuntos de la partición generadora de un nivel
+suficientemente profundo. En este punto la compacidad es necesaria. El problema está en probar en
+que no hay otros refinamientos de multiplicidad menor. En otras palabras hay que demostrar que la
+descomposición de Souslin es minimal respecto a esta propiedad. Aquı́ es donde entra la hipótesis
+sobre la dimensión de los átomos Xi1 ···in , los cuáles podrı́an ser, por ejemplo, intervalos, cubos y,
+más generalmente, k-simplex en Rn .
+Sorprendemente es difı́cil probar que un cubo en Rn tiene dimensión topológica n, como indica
+la intuición. La demostración usa el célebre teorema de punto fijo debido al matemático holándes
+L.E.J. Brouwer, el cual afirma que toda transformación continua T de un n-cubo en si mismo tiene
+un punto fijo. La invarianza topológica de la dimensión implica que dice Rn y Rm con n 6= m no
+son homeomorfos. Esto es conocido como el Teorema de Invarianza del Dominio; ver [12].
+Los ejemplos a continuación resaltan la utilidad de este resultado en el cálculo de dimensiones
+topológicas de fractales.
+Ejemplos:
+
+5.3 Dimensión topológica y universalidad
+
+67
+
+Como los espacios totalmente disconexos tienen una base de conjuntos abiertos y cerrados
+disjuntos, podemos construir una partición generadora numerable de multiplicidad constante
+igual a 1. En particular los conjuntos de Cantor tienen dimensión cero.
+El tapiz de Sierpinski S tiene dimensión topológica igual a 1. Para ello basta tomamos como
+partición generadora la formada por los triángulos ∆i1 ···in que generan a S, la cual tiene
+multiplicidad constante igual a 2 y cada conjunto de la partición tiene dimensión topológica
+igual a 2, como es fácil ver.
+La curva de Koch Σ tiene dimtop (Σ) = 1. Para ello usamos la partición generadora la formada
+entornos cerrados de radio ≤ 3−n de los segmentos γi1 ···in que forman las curvas Σn que
+convergen a la curva de Koch.
+La esponja de Menger M ⊂ Rn tiene dimtop (M) = n − 1.
+Las particiones de Souslin también ofrecen una herramienta técnica útil para demostrar que dos
+espacios de dimensión n son homeomorfos.
+Sean (X, d) y (Y, d) dos espacios métricos compactos separables y equipados con particiones
+generadoras à la Souslin {Xi1 ···in } y {Yi1 ···in }, respectivamente; ambas indexadas por un mismo
+subconjunto cerrado Σ ⊂ B + (N).
+Se dice que dos elementos Xα y Yβ con α, β ∈ Σn son homólogos, si α = β. Dos particiones son
+homólogas si para todo par de familias finitas Xα1 , · · · , Xαk y Yα1 , · · · , Yαk de átomos de nivel n se
+tiene:
+\
+\
+Xαi 6= ∅ ⇐⇒
+Xαi 6= ∅.
+αi ∈Σn
+i=1,··· ,k
+
+αi ∈Σn
+i=1,··· ,k
+
+En particular los elementos homólogos de dos particiones homólogas tienen la misma multiplicidad:
+M(Xα ) = M(Yα ).
+Lema 5.3.1 (Lema de Menger). Sean X0 ⊂ X y Y0 ⊂ Y dos subconjuntos compactos de espacios métricos completos equipados con particiones generadoras homólogas indexadas por un mismo
+subconjunto cerrado Σ ⊂ B + (N). Entonces X0 es homeomorfo a Y0 .
+La demostración de que los conjuntos de Cantor, el tapiz de Sierpinski y la esponja de Menger son
+universales dentro de la clase de espacios compactos de dimensión cero, uno y dos, respectivamente,
+sigue de este resultado. Ver [4].
+Esbozo de la demostración del Lema de Menger. Sea Σ ⊂ B + (N) un subconjunto cerrado y
+hX : Σ −→ X, hY : Σ −→ Y las funciones definidas por la ecuación de Souslin (5.4). Sean x ∈ X,
+ω∈Σy
+NX (ω) = {ω 0 ∈ Σ : h(ω) = h(ω 0 ) },
+el núcleo de no unicidad de hX . Las particiones generadoras de X0 y Y0 son homólogas si, y sólo
+si, para todo ω ∈ Σ los núcleos de no unicidad de hX y hY son iguales. Sea x = hX (ω). Definimos
+H(x) = hY (ω). Como los núcleos de no unicidad son iguales esta función está bien definida y es
+uno-a-uno. Como hY es continua, abierta y sobreyectiva, concluı́mos que es un homeomorfismo.
+Dejamos los detalles de la prueba a cargo del lector.
+
+68
+
+Medida y dimensión
+
+Fig. 5.2: Construcción de la esponja de Menger
+
+Fig. 5.3: Una etapa más avanzada de la construcción de la esponja de Menger
+
+5.4.
+
+Cálculo de dimensiones
+
+En la sección anterior usamos particiones generadoras para calcular la dimensión topológica de
+algunos fractales y esbozar un argumento que prueba la universalidad del conjunto de Cantor, el
+tapiz de Sierpinski y la esponja de Menger. En esta sección calcularemos dimensiones fractales de
+algunos ejemplos ya conocidos usando esta misma herramienta.
+Para ello introducimos, para cada α ≥ 0, otra medida que es equivalente a la medida de Hausdorff
+de exponente α. Antes:
+Definición 5.4.1. Sea µ y ν dos medidas definidas sobre una σ-álgebra de conjuntos A. Se dice
+que µ y ν son equivalentes, si existe una constante C > 1 tal que C −1 ν(A) ≤ µ(A) ≤ Cµ(A) para
+todo A ∈ A
+Sea (X, d) un espacio métrico completo equipado con una partición generadora à la Souslin. La
+siguiente fórmula define una medida exterior en X:
+X
+Mα (A) = lı́m
+(diam (Xi1 ···in ))α .
+n→+∞
+
+(i1 ,··· ,in )∈I n
+Xi1 ···in ∩ A6=∅
+
+El siguiente resultado, también sin demostración, garantiza el comentario anterior.
+Teorema 5.4.1. Sea (X, d) es espacio métrico con dimtop (X) < +∞ equipado con la una partición
+generadora à la Souslin ℘ = {Xi1 ···in }. Entonces, la medida de Hausdorff de exponente α y Mα
+
+5.4 Cálculo de dimensiones
+
+69
+
+son equivalentes. Más aún, existe una constante C = C(n) > 1 que sólo depende de la dimensión
+topológica n = dimtop (X) tal que
+C −1 Hα (A) ≤ Mα (A) ≤ C Hα (A).
+Como consecuencia inmediata de este teorema se tiene:
+Corolario 5.4.1. Sea (X, d) es espacio métrico con dimtop (X) < +∞ equipado con la una partición
+generadora à la Souslin ℘ = {Xi1 ···in }. Entonces,
+dimH (X) = ı́nf{α : Mα (X) = 0} = sup{α : Mα (X) = +∞}.
+
+5.4.1.
+
+Ejemplos
+
+Finalizamos estas notas calculando la dimensión de Hausdorff de algunos de los conjuntos con
+estructura fractal mostrados anteriormente.
+Conjunto de Cantor ternario: sea {Ii1 ···in } la partición generadora de K el conjunto de
+Cantor ternario, entonces:
+X
+|Ii1 ···in |α = 2n (3−n )α
+(i1 ,··· ,in )∈{0,1}n
+
+De aquı́ concluı́mos sin dificultad que
+dimH (K) =
+
+ln(2)
+ln(3)
+
+pues, en efecto:
+(
+lı́m (2n (3−n )α ) =
+
+n→+∞
+
++∞
+0
+
+si α < ln(2)/ ln(3)
+,
+si α > ln(2)/ ln(3)
+
+lo que resulta de comparar con una progresión geométrica viendo que:
+(
+> 0 si α < ln(2)/ ln(3)
+1
+n −n α
+lı́m
+ln(2 (3 ) )
+n→+∞ n
+< 0 si α > ln(2)/ ln(3)
+Conjunto de Cantor KΛ . Recordemos que este conjunto es el generado por p contracciones
+afines de la recta con coeficientes en el conjunto Λ = {λ0 , · · · , λp−1 }:
+X
+X
+|Ii1 ···in |α =
+(λi1 · · · λin )α
+(i1 ,··· ,in )∈{0,··· ,p−1}n
+
+(i1 ,··· ,in )∈{0,··· ,p−1}n
+n
+
+
+
+X
+
+= 
+
+λαi  .
+
+i=0···p−1
+
+Entonces,
+(
+lı́m
+
+X
+
+n→+∞
+(i1 ,··· ,in
+
+)∈{0,··· ,p}n
+
+α
+
+|Ii1 ···in | =
+
++∞
+0
+
+P
+si
+λα > 1
+Pi=0···p−1 αi
+si
+i=0···p−1 λi < 1
+
+70
+
+Medida y dimensión
+luego, dimH (KΛ ) es la única solución α > 0 de la ecuación
+X
+λαi = 1.
+
+(5.6)
+
+i=0···p−1
+
+Esta se conoce como fórmula de Moran; ver [5]. Este ejemplo se generaliza fácilmente para
+los atractores de SIF generados por p similaridades Ti de Rn con razón de contracción λi ,
+obteniendo la fórmula (5.6). Recomendamaos al lector, como un ejercicio instructivo, calcular
+la dimensión de una esponja de Menger en Rn para n ≥ 2.
+Cuando Λ = {λ} el resultado anterior implica que
+dimH (Kλ ) = −
+
+ln(2)
+.
+ln(1 − λ)
+
+Esto nos da una familia no numerable de conjuntos de Cantor homeomorfos a B + (2) pero
+que no son bi-lipschitzianamente homeomorfos. Escogiendo 0 < λ < 1 podemos construir
+conjuntos de Cantor Kλ con cualquier dimensión prefijada 0 < dimH (KΛ ) < 1. También es
+posible construir conjuntos de Cantor con dimensión uno y medida cero.
+Tapiz de Sierpinski: sea {∆i1 ···in } la partición generadora de S. Como las contracciones del
+SIF que genera el tapiz de Sierpinski tienen razón de contracción constante igual a 1/2 se
+chequea fácilmente que:
+diam (∆i1 ···in ) = 2−n diam (∆)
+donde ∆ es el triángulo inicial de la construcción. Luego,
+X
+|∆i1 ···in |α = 3n (2−n )α
+(i1 ,··· ,in )∈{0,1,2}n
+
+y concluimos como lo hicimos arriba que
+dimH (S) =
+
+ln(3)
+.
+ln(2)
+
+Curva de Koch: en este caso tenemos cuatro contracciones de razón 1/3, lo que da:
+X
+(γi1 ···in )α = 4n (3−n )α
+(i1 ,··· ,in )∈{0,1,2,3}n
+
+con lo cual
+dimH (Σ) =
+
+5.5.
+
+ln(4)
+.
+ln(3)
+
+Nota final y agradecimientos
+
+El algoritmo sumerio de la raı́z cuadrada y las tablas de las aproximaciones de π fueron tomadas
+del libro [13, Chapter 1]. Las estimaciones e identidades trigonómetricas para la aproximación de π
+usando el método de exhausión de Arquı́mides fueron tomadas de [14].
+Las observaciones sobre teorı́a de conjuntos fueron tomadas del libro de Kac y Ulam, Lógica y
+Matemática.
+
+5.5 Nota final y agradecimientos
+
+71
+
+Lo que aquı́ llamamos particiones à la Souslin han sido usadas de diferentes maneras y con
+distintos nombres en otros textos importantes de teorı́a de la medida.
+Muchas de las ilustraciones fueron “bajadas” de distintas fuentes en Internet. Recomendamos,
+por ejemplo, http://www.mathcurve.com/fractals/.
+Expresamos nuestro agradecimiento a los organizadores del TForMa por su paciencia, y al profesor Oswaldo Larreal del Departamento de Matemáticas de la FEC-LUZ, cuyo entusiasmo y apoyo
+técnico ayudó a terminar este trabajo.
+
+Referencias Bibliográficas
+[1] Barnsley, M.F. : Fractals Everywhere. Academic Press, 1990
+[2] Barnsley, M.F. and Demko, S.G.: Iterated Functions Systems and the global construction of
+fractals. Proceedings of the Royal Society. Series A. 399. 243–275 (1985)
+[3] Devaney, Robert L. Introduction to Chaotical Dynamical Systems. Addison-Wesley, 1992
+[4] Edgar, G.A : Classics on Fractals.
+[5] Falconer, K. : Fractals Geometry, Mathematical Foundations and Its Applications. John Wiley
+and Sons.
+[6] Federer, H. : Geometric Integration Theory. Springer-Verlag, 1969.
+[7] Hocking, J. and Young, G. : Topology. Dover Pubne. (1988)
+[8] Hutchinson, J. : Fractals and self-similarity. Indiana University Mathematics Journal. 30(5).
+713–747 (1981).
+[9] S. Ulam y M. Kac: Lógica y Matemática. Monte Avila, Caracas, 1971
+[10] Mattila, P. : Geometry of sets and measures in euclidena spaces. Fractals and rectifiability.
+Cambridge University Press. Cambridge, 1995
+[11] Moise, E. : Geometric Topolgy in dimensions 2 and 3. Springer Verlag. (1977)
+[12] Munkres : Intrododucción a la Topologı́a
+[13] Peitgen-Jürgens-Saupe : Fractals for the Classroom. Springer-Verlag, 1992
+[14] Varadarajan, V.S. : Algebra in ancient and modern times. Mathematical World, Volume 12.
+American Mathematical Society, Providence, 1991.
+
+

@@ -1,0 +1,3923 @@
+CULTURA LIBRE
+DIGITAL
+Nociones básicas para defender
+lo que es de todxs
+
+cultura libre.indd
+
+1
+
+10/10/2012, 10:06
+
+Este libro ha sido impreso en papel 100% Amigo de los bosques, proveniente
+de bosques sostenibles y con un proceso de producción de TCF (Total Chlorin
+Free), para colaborar en una gestión de los bosques respetuosa con el medio
+ambiente y económicamente sostenible.
+FCForum y X.net han recibido apoyo
+económico para la realización de este
+libro del ICUB y la Generalitat de
+Catalunya.
+
+Usted es libre de:
+• copiar, distribuir y comunicar públicamente la obra
+• Remezclar — transformar la obra
+• hacer un uso comercial de esta obra
+Bajo las condiciones siguientes:
+Reconocimiento — Debe reconocer los créditos de la obra de la manera
+especificada por el autor o el licenciador (pero no de una manera que sugiera
+que tiene su apoyo o apoyan el uso que hace de su obra).
+Compartir bajo la misma licencia — Si altera o transforma esta obra, o
+genera una obra derivada, sólo puede distribuir la obra generada bajo una
+licencia idéntica a ésta.
+
+Diseño de la cubierta: Adriana Fàbregas
+© @axebra, EDRI, FCForum, Fernando Acero Martín,
+Jaron Rowan, Rubén Martínez, Simona Levi.
+© De esta edición
+Icaria editorial, s. a.
+Arc de Sant Cristòfol, 11-23
+08003 Barcelona
+www. icariaeditorial. com
+Primera edición: octubre de 2012
+ISBN: 978-84-9888-462-3
+Depósito legal: B-27.634-2012
+Fotocomposición: Text Gràfic
+Impreso en Romanyà/Valls, s. a.
+Verdaguer, 1, Capellades (Barcelona)
+Printed in Spain. Impreso en España.
+
+cultura libre.indd
+
+2
+
+10/10/2012, 10:06
+
+Índice
+Primera parte
+
+¿Esto qué es? (qué es lo que estamos
+defendiendo)
+Origen de Internet, razones para el software
+libre y luchas pasadas, presentes y futuras
+para defenderlos, @Axebra . . . . . . . . . . . . . . .
+
+6
+
+La neutralidad en la Red, Fernando Acero Martín 39
+Segunda parte
+
+¿Qué hay de lo mío? o de cómo se usa a los artistas
+como excusa para capar Internet y privatizar el
+acceso a la cultura y el conocimiento
+Los cercamientos digitales, Rubén Martínez . .
+
+44
+
+El declive de las industrias culturales
+y la importancia de la cultura libre, Jaron Rowan
+
+65
+
+Tercera parte
+
+FCForum, herramientas para responder
+Carta para la innovación, la creatividad
+y el acceso al conocimiento, FCForum . . . . . . 86
+Manual de uso para la creatividad sostenible,
+FCForum . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+cultura libre.indd
+
+3
+
+98
+
+10/10/2012, 10:06
+
+Cuarta parte
+
+Nociones técnicas básicas
+Cómo funciona Internet, EDRI . . . . . . . . . . . 108
+La dirección IP . . . . . . . . . . . . . . . . . . . . . . . . 111
+El sistema de nombres de dominio (DNS) . . . 112
+La web . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 114
+Correo electrónico y seguridad . . . . . . . . . . . . 117
+Peer-to-peer . . . . . . . . . . . . . . . . . . . . . . . . . . 118
+El buscador . . . . . . . . . . . . . . . . . . . . . . . . . . 120
+La nube . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 123
+
+cultura libre.indd
+
+4
+
+10/10/2012, 10:06
+
+Primera parte
+
+¿Esto qué es?
+(qué es lo que estamos defendiendo)
+
+cultura libre.indd
+
+5
+
+10/10/2012, 10:06
+
+Origen de Internet, razones
+para el software libre y luchas pasadas,
+presentes y futuras para defenderlos
+@AXEBRA
+
+Los orígenes de Internet
+Son muchos los mitos y teorías sobre el origen de Internet, en gran parte porque su creación, como lo son
+todos los grandes avances, es colectiva. Eso dificulta
+conseguir una narración única y consecuente, por lo
+que la siguiente cronología no tiene el objetivo de ser
+exhaustiva, sino un conjunto de hitos sin los que no
+podemos entender Internet.
+Imaginemos que es 1959, algunas de las principales
+universidades y laboratorios han empezado a instalar ordenadores, en principio como grandes calculadoras. Por
+otro lado, la Oficina para las Tecnologías de Procesado de
+la Información (IPTO por sus siglas en inglés) buscaba
+ampliar los usos que tenían los ordenadores, lo que en
+muchos casos suponía un problema, ya que estos estaban
+dispersos por todo el país. Para terminar de complicar la
+ecuación, el Departamento de Defensa pidió a la RAND
+Corporation que estudiara cómo crear una red de comunicaciones capaz de sobrevivir a un ataque nuclear,
+responsabilidad que cayó sobre Paul Baran.
+6
+
+cultura libre.indd
+
+6
+
+10/10/2012, 10:06
+
+Baran partió de la idea de que cualquier infraestructura, para su seguridad, debía ser distribuida, y publicó
+esta idea en 1962. Partiendo de este concepto comenzó
+a desarrollar la teoría de la conmutación de paquetes,
+publicada en 1964 en su artículo «On distributed communications networks» y analizada posteriormente en
+1965 en «On Survivability of Networks». Como no
+podía ser de otra manera, no fue el único que se planteó esta teoría. Leonard Kleinrock, en su tesis doctoral
+terminada en 1962 en el Instituto Tecnológico de Massachusets (MIT), llegó a conclusiones similares, al igual
+que Donald Davies, el primero que empieza a usar el
+concepto «paquete de información» en el Laboratorio
+Nacional de Física (NPL) de Reino Unido, lugar donde
+Turing desarrolló ACE, uno de los primeros computadores. Con ese conjunto de publicaciones dispares la Red
+comienza a balbucear o al menos a tener las herramientas
+para hacerlo.
+Sin embargo, a pesar de que todos parecen estar
+de acuerdo en cómo debe comunicarse esa red, no
+habrá un primer prototipo de Internet hasta que
+Robert Taylor, tras salir de la NASA, llegase a ARPA
+(Agencia de Investigación de Proyectos Avanzados)
+en 1965 y se le designe director de la IPTO en 1966.
+Será entonces cuando lea «Simbiosis de hombre-máquina» de J. C. R. Licklider. Este artículo, escrito en
+los sesenta, intenta repensar el enfoque dado a los
+ordenadores como meras calculadoras y se da cuenta
+de que pueden ayudar a pensar a los investigadores y,
+7
+
+cultura libre.indd
+
+7
+
+10/10/2012, 10:06
+
+más importante, cooperar a la hora de poder tomar
+decisiones complejas.
+Taylor da un paso más y se da cuenta de que además
+de cooperar entre humanos y máquinas es posible hacer
+que las máquinas cooperen entre sí, independientemente de lo dispersas que se encuentren. Contacta con
+Licklider y juntos escriben el que será el artículo que
+definirá Internet: «El ordenador como dispositivo de
+comunicación». Juntos se dan cuenta de que no se trata
+solo de un problema de enviar y recibir información
+(que es lo que hasta ese momento han hecho Baran,
+Kleinrock y Davies), sino que el énfasis debe estar en
+las personas, en la forma en que estas se comunican.
+Además, comienzan a esbozar la inteligencia distribuida, pensando en cómo compartir capacidad de
+computación y datos a través de la Red.
+Taylor sabía que necesitaba contactar con Baran,
+Kleinrock y Davies para realizar una primera versión
+de la Red entre los cuatro, que luego podría ampliarse
+a muchos otros nodos. Sin embargo, sabía que sería
+difícil conseguir la financiación. Para conseguirlo, tuvo
+una nueva idea que fue la que presentó al director de
+ARPA, Charles Herzfeld: crear un interfaz universal
+de control de los ordenadores, para no necesitar uno
+por fabricante, lo que en aquella época era lo habitual,
+así como poder usar conjuntamente los ordenadores
+instalados en las diferentes universidades. En menos de
+veinte minutos de reunión, Taylor salió con un millón
+de dolares con el que crear ARPANET, cuyos cuatro
+8
+
+cultura libre.indd
+
+8
+
+10/10/2012, 10:06
+
+primeros nodos fueron un año después las universidades
+de UCLA y Standford, y que vería la luz en 1972.
+A pesar de que ARPANET nacía para compartir
+recursos y conectar ordenadores entre universidades, la
+Corporación Rand junto con DARPA (al añadir la D
+pasa a llevar exclusivamente aplicaciones militares) se
+encargaron de hacer crecer el rumor, aún existente hoy,
+de que Internet nació para crear una red militar.
+En realidad la investigación militar no empezó hasta
+1973, cuando tras ver el éxito de ARPANET comienza
+un proceso de DARPA en búsqueda de protocolos de
+comunicaciones para situaciones de emergencia, que
+10 años después darán lugar al actual protocolo base
+de Internet, TCP/IP.
+ARPANET seguirá sumando nodos e interconectando distintas redes tanto públicas como comerciales
+que fueron naciendo tras ella, hasta que la adopción
+de TCP/IP, base de los protocolos de la actual Internet,
+que gracias a su modelo de capas permite la creación
+de protocolos lo suficientemente complejos como los
+que a día de hoy usamos para visitar una página web,
+enviar un correo electrónico o realizar una descarga. Es
+a partir de este momento en el que dejamos de hablar
+de una red u otra y empezamos a hablar definitivamente
+de la red de redes.
+Muchos de estos protocolos serían desarrollados o promocionados por la organización conocida
+como Grupo Especial sobre Ingeniería de Internet
+(más conocido por sus siglas en inglés, IETF), una
+9
+
+cultura libre.indd
+
+9
+
+10/10/2012, 10:06
+
+organización abierta creada en 1986 para contribuir
+al conocimiento técnico en Internet y avanzar hacia
+la normalización.
+En esta organización, participada tanto por entes
+públicos como privados, pero soportada especialmente
+por el trabajo voluntario de las personas que la componen, se publican los borradores de las especificaciones
+de cada nuevo protocolo, se revisa y mejoran, centrándose en la interoperabilidad dentro del resto de
+ecosistema de protocolos en Internet.
+Cada borrador se publica de forma libre como
+RFC (petición de comentarios) para buscar la mejora
+constante. Su método de trabajo no puede ser más
+horizontal: su lema «consenso aproximado y ejecutando código», se juega continuamente entre dividir las
+investigaciones en pequeños grupos que experimenten
+y comparen soluciones y se busca el consenso en los
+grandes cambios de protocolos.
+Uno de los protocolos que más ha cambiado la
+forma de entender Internet no vino inicialmente de este
+grupo, sino gracias a Tim Berners-Lee, un investigador
+inglés del CERN (la Organización Europea para la Investigación Nuclear en Suiza) que en 1990 desarrolló
+la primera versión del lenguaje HTML, el lenguaje
+de la web. Este protocolo, junto con las mejoras en la
+interconexión, traería el auge de Internet y la aparición
+de servicios comerciales, prohibidos hasta 1993, ya que
+hasta ese momento la Red estaba subvencionada por el
+gobierno de EE UU.
+10
+
+cultura libre.indd
+
+10
+
+10/10/2012, 10:06
+
+En 1994 Tim Berners-Lee se traslada al MIT en
+EEUU y funda W3C, un organismo de estandarización
+de las tecnologías web, que junto con el IETF y los entes
+internacionales de normalización ISO/IEC cooperan
+para asegurar una Internet abierta y estándar.
+¿Por qué este interés en mantener una Internet
+abierta? Como dijo Berners-Lee:
+La web es más una creación social que técnica. La
+diseñé para un efecto social —para ayudar a las personas que trabajan juntas— y no como un juguete
+técnico. El objetivo último de la web es apoyar y
+mejorar nuestra existencia en la telaraña mundial.
+Nos agrupamos en familias, asociaciones y empresas. Desarrollamos la confianza a grandes distancias,
+y la desconfianza a la vuelta de la esquina.
+Esa misma idea es la que movió el diseño inicial de
+Taylor. Renunciar a ese fin social de Internet es renunciar a Internet tal y como la conocemos.
+
+Razones del software libre
+Por lo tanto, ¿cómo se consigue mantener esa apertura
+dentro de la Red? Para eso hay que remontarse a los
+inicios del propio desarrollo del software, mucho antes
+del nacimiento de ARPANET.
+Cuando nace la ingeniería del software en los años
+cincuenta, casi todo el software es desarrollado por
+11
+
+cultura libre.indd
+
+11
+
+10/10/2012, 10:06
+
+investigadores, ya sean académicos o empresariales,
+que al no verlo como un producto lo distribuyen
+entre otros investigadores sin ningún tipo de atadura
+legal. Era habitual que los usuarios arreglaran fallos de
+programación o incluyeran nuevas funcionalidades y
+las compartieran con otros, manteniendo los sistemas
+de forma comunitaria. Así, por ejemplo, el sistema
+operativo ACP de IBM en 1967 se distribuía de una
+manera totalmente libre incluido el código fuente.
+El código fuente, para que nos entendamos, es la
+versión en modo texto de las funcionalidades de un
+programa informático. Este código fuente para ser
+ejecutado por ordenadores necesita ser traducido a un
+nuevo lenguaje (lo que se conoce como compilación o
+interpretación, según el caso) que ya es más difícil de
+manejar por la persona que lo desarrolla.
+Sin embargo, a finales de los sesenta, antes del
+despliegue de ARPANET se produce un cambio y
+el software empieza a adquirir un valor comercial.
+Esto comienza a favorecer modelos abusivos, como la
+obligación de pagar una cuota de mantenimiento en
+el software instalado en un hardware o la venta directa
+de software. En la década siguiente, AT&T prohibirá distribuir las versiones modificadas de su sistema
+operativo.
+Todos estos cambios comienzan a producir una
+ruptura con la cultura hacker imperante en los espacios
+tecnológicos de aquella época, especialmente universidades como UCLA, el MIT y Berkley. En estos entor12
+
+cultura libre.indd
+
+12
+
+10/10/2012, 10:06
+
+nos imperaba hasta ese momento una ética que hacía
+hincapié en el derecho a crear software, compartirlo,
+al intercambio de información, el derecho a investigar
+o a revelar secretos.
+Es a finales de los setenta y especialmente en los
+ochenta cuando nace el concepto de licencia de software, que impuso restricciones legales que hacían que
+el software caducara o impedía modificar o distribuir el
+software. En 1976 Bill Gates escribe la «Carta abierta a
+los aficionados» en la que indica que lo que los hackers
+llaman compartir en realidad se llama robar. Ese mismo
+año se incluye el software en la Copyright Act.
+De esta manera comienza la criminalización de la
+distribución del software, que sería rematada por las
+demandas iniciadas por AT&T en 1979, que impedían versiones modificadas del sistema operativo Unix
+para así favorecer la venta de su versión. Brian Reid
+fue más lejos al incluir por primera vez una bomba de
+tiempo, un sistema que impedía el funcionamiento del
+programa si no se compraba una licencia tras 90 días
+de uso gratuito.
+Sin embargo, al mismo tiempo nace Usenet, un
+sistema de discusión por Internet que se puede considerar predecesor de los actuales foros vía web o de
+las listas de correo, donde comienzan a crearse comunidades de desarrolladores que comparten su código,
+aportan mejoras al de los demás y comienzan también
+a distribuirlos como programas comerciales, aunque
+parte de la comunidad no estaba de acuerdo y empezó
+13
+
+cultura libre.indd
+
+13
+
+10/10/2012, 10:06
+
+a distinguirse de estos englobándolos bajo el apelativo
+de crackers.
+Uno de los momentos clave en este cambio fue
+cuando, en 1980, hackers del Laboratorio de Inteligencia Artifical del MIT pidieron a Xerox los drivers de su
+modelo de impresora 9700 para adaptarla a su sistema
+de impresión creado por ellos mismos. Xerox se niega y
+llega a ofrecer al laboratorio que si les pasan su sistema
+de impresión pueden hacer una versión compatible pero
+cerrada que funcione con la nueva impresora, algo a
+lo que se niegan.
+Uno de esos hackers fue Richard Stallman, quien
+en 1982 ve cómo algunos de sus compañeros de laboratorio fundan una empresa, Symbolics, la cual empieza a cerrar los desarrollos del laboratorio y a intentar
+reemplazar el código sin restricciones que había en el
+laboratorio por su versión licenciada. Stallman se niega
+y hasta 1983 se dedica a producir una versión libre de
+todo lo que realiza Symbolics, hasta que le piden que
+firme un NDA (un acuerdo de no divulgación, un
+contrato para que no pueda publicar lo que hace en el
+laboratorio), a lo que él se niega.
+Este mismo año, a través de ARPANET y USENET
+anuncia su plan de construir un sistema operativo libre,
+que cualquiera pueda usar, modificar y distribuir con
+o sin modificaciones. Es lo que llama Proyecto GNU,
+cuyas siglas son un acrónimo recursivo que significa
+«GNU is Not Unix» (GNU no es Unix), siendo Unix
+el sistema operativo favorito de la época. El objetivo es
+14
+
+cultura libre.indd
+
+14
+
+10/10/2012, 10:06
+
+conseguir hacer un sistema libre compatible con Unix
+pero sin usar una sola de las líneas de las versiones
+propietarias.
+Tras un año de trabajo en el proyecto GNU, Stallman hace público el «manifiesto GNU», en el que
+explica que impedirá la privatización del software
+GNU, obligando a que cualquier modificación sea libre (lo que se llamará «licencia viral» y se diferencia de
+otras licencias de la época). Su teoría es que si en aquel
+momento ya hay gente que paga por tener soporte de
+Unix además de comprarlo, regalándolo la empresa
+puede seguir viviendo del soporte. Además, propone
+dejar de vender el sistema operativo y colaborar entre
+empresas para hacer un sistema operativo más potente
+y sin necesitar pagar por ningún permiso.
+A finales de año funda la la Fundación para el
+Software Libre (FSF por sus siglas en inglés), una organización sin ánimo de lucro que además de ayudar a
+desarrollar el sistema operativo GNU, tiene el objetivo
+eliminar las restricciones sobre la copia, redistribución,
+entendimiento, y modificación de programas de computadoras. Con este objeto, promociona el desarrollo
+y uso del software libre en todas las áreas de la computación.
+Al principio la fundación sirve para poder contratar desarrolladores de software para colaborar en la
+creación del sistema operativo GNU, aunque en 1990
+ya existen suficientes colaboradores (tanto a título
+personal como empresas) que la fundación empieza
+15
+
+cultura libre.indd
+
+15
+
+10/10/2012, 10:06
+
+a centrarse en cuestiones legales y organizativas. Entre
+sus actividades posteriores estará dar infraestructura
+telemática a los proyectos GNU, formación legal o
+generar campañas mediáticas.
+Sin embargo, la aportación más importante realizada por la FSF es la licencia GPL, la licencia más usada
+en el mundo del software libre. Publicada su primera
+versión en 1989 bajo el nombre GPL, es en realidad una
+versión de la licencia que acompañaba a los primeros
+programas del proyecto GNU. Al convertirla en una
+licencia general, no ligada exclusivamente al proyecto
+GNU, muchos fueron los desarrolladores que comenzaron a usarla para sus programas.
+La licencia GPL se basa en cuatro libertades que
+debe permitir un software para ser considerado libre:
+1. La libertad de usar el programa, con cualquier
+propósito.
+2. La libertad de estudiar cómo funciona el programa y modificarlo, adaptándolo a tus necesidades.
+Para ello es necesario el acceso al código fuente del
+programa.
+3. La libertad de distribuir copias del programa, con
+lo cual puedes ayudar a tu prójimo.
+4. La libertad de mejorar el programa y hacer públicas esas mejoras a los demás, de modo que toda la
+comunidad se beneficie.
+
+16
+
+cultura libre.indd
+
+16
+
+10/10/2012, 10:06
+
+Esta licencia era la elegida para todos los componentes del sistema operativo GNU que, a pesar de todos los
+esfuerzos, en 1991 seguía sin poder ser usado, ya que su
+núcleo, Hurd, no estaba lo suficientemente maduro. El
+tiempo de desarrollo de Hurd parecía que abocaba a una
+batalla muy lenta, algo que cambió bruscamente con un
+mensaje aparecido en un grupo de Usenet dedicado a
+sistemas operativos que comenzaba con la frase:
+¿Echas de menos esos días de Minix 1.1 en los que
+los hombres eran hombres y escribían sus propios
+drivers (controladores)?
+Minix era un clon de Unix creado por Andrew S.
+Tanenbaum, uno de los principales divulgadores de
+la teoría de redes y cuyo sistema operativo poseía una
+licencia que permitía su uso gratuito en entornos académicos sin permitir la publicación de modificaciones.
+Esto enojó a Linus Torvalds, por aquel entonces estudiante de computación en Helsinky, que basándose en
+el diseño de Minix reescribió sus componentes, publicó
+el código en su directorio de la universidad bajo el
+nombre de Linux y lanzó el mensaje anterior pidiendo
+colaborar en su desarrollo.
+Dos meses después de lanzar el mensaje, el código
+alcanza 10.000 líneas y su desarrollo sigue creciendo.
+En 1992 adopta la licencia GPL en su versión 2.0, que
+solucionaba el problema de que alguien licenciara con
+GPL un código que no le perteneciera. De esta manera
+17
+
+cultura libre.indd
+
+17
+
+10/10/2012, 10:06
+
+se completaba el primer sistema operativo libre bajo el
+nombre de GNU/Linux.
+Una vez nacido el sistema GNU/Linux, aficionados
+y empresas por todo el planeta comienzan a integrar este
+sistema junto con mucho del software libre que se iba
+desarrollando paralelamente. A este conjunto de núcleo
+(o kernel) más aplicaciones e interfaz se le llamará distribución. En lugar de concentrarse en unas pocas distribuciones, su número comenzó a crecer, aunque muchas de
+ellas apenas duraban mucho tiempo. En julio de 1993
+nace Slackware, la más antigua que a día de hoy sigue en
+desarrollo, aunque si una distribución cambió la forma
+de entender el software libre fue sin duda Debian.
+Debian GNU/linux fue creada por Ian Murdoch
+con el apoyo de la FSF para crear una distribución
+coherente al espiritu de GNU y Linux. Su nombre
+proviene de una combinación del nombre de la novia
+de Ian, Deborah, y el suyo propio. Todo el desarrollo y
+soporte se mantiene gracias a su comunidad, altamente
+meritocrática, que no requiere el apoyo de empresas, y
+distribuye directamente el software. Esta comunidad se
+organiza bajo un contrato social en el que los desarrolladores se comprometen a varios puntos como mantener
+la distribución libre, devolver su esfuerzo a la comunidad o hacer públicos los problemas de desarrollo que
+encuentran. Tal ha sido el trabajo de esta comunidad
+que una empresa de análisis de código, Ohloh, calculó
+en 2011 que desarrollar Debian de forma privada hubiera costado 8.000 millones de dolares.
+18
+
+cultura libre.indd
+
+18
+
+10/10/2012, 10:06
+
+Los primeros conflictos
+Los primeros sistemas BSD
+Este modelo de software libre no tuvo una acogida
+unánime y se produjeron muchas reticencias en las comunidades que se habían constituido a través de Usenet
+o en las empresas de desarrollo de software. Muchas de
+ellas consideraban que el componente viral que añadía
+la licencia GPL (que obligaba a que cualquier programa
+derivado tuviera que seguir siendo libre) era demasiado
+severo y que se debía permitir que las versiones modificadas pudieran privatizarse.
+La primera de estas licencias consideradas libres,
+pero sin obligación vírica, llamadas también no copyleft
+o de copyleft suave o permisivas, fue la licencia BSD,
+muy cercana a la licencia cultural de Dominio Público
+y publicada por primera vez en 1988.
+La licencia proviene del sistema operativo BSD (Berkeley Software Distribution), un clon de Unix creado
+por la Universidad de California en Berkeley cuando
+AT&T les retiró el permiso de uso de Unix por motivos
+comerciales. La salida al público de BSD no gustó a
+USL (Unix System Laboratories), que alegó que aunque
+se habían eliminado partes de Unix que pertenecían a
+AT&T, se mantenían componentes que les pertenecían.
+Unos cambios en BSD consiguieron que llegasen a un
+acuerdo para no continuar el proceso en 1993.
+Este acuerdo permitió la explosión de sistemas basados en BSD como FreeBSD, OpenBSD y NetBSD.
+19
+
+cultura libre.indd
+
+19
+
+10/10/2012, 10:06
+
+Estas distribuciones se hicieron muy populares junto
+con GNU/Linux, y las discusiones entre defensores de
+un modelo y otro han sido siempre habituales en los
+grupos de discusión a través de Internet. Las críticas de
+los defensores de las licencias estrictamente copyleft,
+como GPL, han usado ejemplos donde el código proveniente de BSD se ha utilizado en software privativo
+como el driver de red de Microsoft Windows o la base
+del sistema operativo de Apple Mac OS X, que se basa
+en código original BSD, privatizado por la empresa
+NeXT, creada por Steve Jobs. Los defensores de BSD
+alegan, sin embargo, que estas distribuciones están
+mejor auditadas y cumplen mejor con los requisitos
+para las que están diseñadas, ya que, en lugar de ser
+un desarrollo generalista, los núcleos BSD están optimizados para el rendimiento, seguridad, portabilidad
+o clustering según la versión.
+La propia FSF terminó publicando una licencia que
+permite el uso del código en programas propietarios a
+la que ha llamado LGPL o Lesser GPL, que durante
+mucho tiempo sería la estándar para librerías del proyecto GNU, manteniendo los programas en GPL. En
+general la FSF favorece que se use para proyectos donde
+su uso apoye la interoperabilidad o en mercados donde el software libre no tenga ninguna ventaja.
+La lucha por ser el motor de la web
+Cuando Tim Berners-Lee diseñó el lenguaje web implementó el primer servidor web, el CERN httpd y el
+20
+
+cultura libre.indd
+
+20
+
+10/10/2012, 10:06
+
+primer navegador WorldWideWeb. Por la sencillez que
+tenía la tecnología en aquel momento fueron muchos
+los proyectos que se llevaron a cabo tanto como cliente
+como servidor. Una de las primeras aplicaciones de
+navegador fue la que realizaron Marc Andreessen y
+Eric Bina cuando eran estudiantes del Centro Nacional
+de Aplicaciones para Supercomputación (NCSA) de
+EE UU al que llamaron Mosaic. En ese mismo centro
+se creó una aplicación del lado servidor, que recibió el
+nombre de NCSA HTTPd, que en 1995 estaba instalado en el 95% de los servidores web.
+Cuando Andreesseen y Bina acabaron sus estudios
+fundaron Netscape Communications, y desarrollaron
+el primer navegador comercial y licenciado de forma
+privativa, Netscape, el cual llegó a ser usado en el año
+1995 por el 90% de los internautas. Este éxito hizo
+que Microsoft comprara el código original de Mosaic
+y lo licenciase como Internet Explorer. Al empezar a
+distribuirlo gratuitamente en las versiones de Windows,
+hundió el mercado al navegador de Netscape.
+En el campo de los servidores web, es decir, en los
+programas que permitían servir las páginas demandadas
+por los usuarios, el Netscape Communications Corporation no tuvo mejor suerte, ya que no fue capaz
+de competir con el NCSA HTTPd y su popularidad
+descendió cuando Microsoft incluyó el servidor IIS
+(Internet Information Services) en Windows NT.
+En 1995, y tras anunciar el NCSA que detenía el desarrollo de su servidor web, Microsoft esperaba imponerse
+21
+
+cultura libre.indd
+
+21
+
+10/10/2012, 10:06
+
+en el mundo de los servidores web como había hecho en
+los navegadores con Internet Explorer. Sin embargo, un
+equipo de ocho desarrolladores tomaron el código de
+NCSA HTTPd y comenzaron el desarrollo del servidor
+Apache. El equipo de Apache consiguió sacar la primera
+versión de su software en 1996 y arrastrar a la mayoría de
+los servicios que hacían uso de la versión de NCSA.
+Aun así, muchos de los nuevos desarrollos empezaron a usar el servidor de Microsoft. El grupo de
+Apache fue creciendo y en 1999 se convirtió en la Fundación Apache y desarrolló su propia licencia compatible con la GPL. Todos los intentos de Microsoft
+por ganar mercado a Apache fueron infructuosos y
+en 2008 Microsoft decidió convertirse en colaborador
+del proyecto Apache, financiando su continuidad y
+paralizando el desarrollo de IIS, que transforma en
+un servidor ligero llamado PWS. En 2012, otro servidor de alto rendimiento con licencia BSD, Nginx,
+consiguió superar la posición de IIS como segundo
+servidor más usado del mercado, de tal forma que
+actualmente la gran mayoría de los servidores web
+usan sistemas libres o abiertos.
+La aparición de la Iniciativa Open Source
+En 1997, Eric Raymond, desarrollador de software
+libre y escritor, escribió el libro La Catedral y el Bazar,
+un ensayo sobre los principios del software libre y su
+relación con la cultura hacker. Este libro inspira a la
+empresa Netscape a liberar su código, una vez que
+22
+
+cultura libre.indd
+
+22
+
+10/10/2012, 10:06
+
+había asumido su incapacidad para competir contra
+Internet Explorer.
+Este cambio convenció a Raymond de que el activismo de la FSF no era acertado para convencer a las
+empresas del uso de software libre, así que convenció
+a Linus Torvalds y al editor Tim O’Reilly, entre otros,
+de sacar adelante la OSI, o Iniciativa por el Código
+Abierto, ya que habían llegado a la conclusión de que el
+apelativo libre puede confundirse con gratuito, ya que
+en inglés se escribe igual en ambos casos: «free».
+Richard Stallman y la FSF criticaron esta iniciativa
+porque consideraban que sepultaba los valores sociales
+que había marcado hasta ese momento el software
+libre, mientras que los defensores de la iniciativa
+consideraban que era preferible que las empresas
+optaran por licencias que permitieran el derecho de
+uso o que permitieran la privatización posterior del
+software en lugar de continuar produciendo software
+propietario.
+Son muchos los usuarios que no distinguen entre
+ambas categorías y se han popularizado expresiones
+como FOSS (Free and Open Source Software — Software libre y de código abierto) y FLOSS (Free/Libre/
+Open Source Software). Para marcar diferencias, Stallman publicó su famosa frase:
+El código abierto es una metodología de desarrollo
+[de software], el software libre es un movimiento
+social.
+23
+
+cultura libre.indd
+
+23
+
+10/10/2012, 10:06
+
+La batalla por el navegador
+Pese a todo, la liberación de Netscape tuvo consecuencias imprevistas. El nuevo proyecto se llamó Mozilla
+y tardó un año en reescribirse eliminando todos sus
+componentes propietarios. Este núcleo libre se comenzó a usar tanto en el desarrollo de Netscape como en el
+navegador libre Mozilla. De forma separada empiezan
+a robarle cuota de mercado a Internet Explorer de
+Microsoft, a lo que se unirán otros dos navegadores
+propietarios: Apple Safari (que proviene de un proyecto
+libre llamado Webkit) y Opera. Pero no fue lo suficientemente fuerte como para hacer temblar a Microsoft,
+que mantiene una cuota de mercado del 94%.
+En 2003 el proyecto Mozilla considera que depende
+demasiado de Netscape por lo que se convierte en una
+fundación y decide reiniciar el proyecto Mozilla con
+Phoenix, que por razones legales tuvo que cambiar de
+nombre primero a Firebird y posteriormente a Firefox.
+Su desarrollo comienza a crecer y mejorar y en 2008
+consigue el récord de descargas al conseguir ocho millones el día que se presenta la versión 3.
+Ese mismo año Google decide usar el desarrollo
+de WebKit para lanzar su propio navegador que sale
+en dos versiones Chrome, un desarrollo propietario, y
+Chromium una versión con licencia BSD. Inmediatamente su éxito va creciendo y junto con el crecimiento
+de Mozilla Firefox obligaron a relanzar a Microsoft una
+nueva línea de Internet Explorer, pero que, actualmente, ha ido reduciendo su cuota de mercado hasta el 54%,
+24
+
+cultura libre.indd
+
+24
+
+10/10/2012, 10:06
+
+repartiéndose Firefox y Chrome/Chromium alrededor
+de un 20% cada uno.
+El vídeo en HTML5 y la derrota del software libre
+Una de las novedades más esperadas del estándar
+HTML5 es la facilidad de poder ver vídeos sin necesidad de un complemento en flash o en Java para hacerlo.
+Estos complementos, tanto libres como propietarios,
+intentaban suplir la falta de una manera de realizar estas
+acciones no incluidas en el estándar web como el audio
+y el vídeo. La Fundación MPEG-LA, creada entre otros
+por Microsoft y Apple, posee un codec llamado H264
+(más conocido como mp4) el cual era demasiado bueno
+para que codec abierto Theora pudiera competir. Sin
+embargo, H264 está propietario y es necesario pagar
+para usarlo, aunque MPEG-LA han estado regalando
+licencias de uso por tiempo limitado para imponerse
+en el estándar y recuperar el dinero cuando todo el
+mundo tenga que utilizarlo.
+La W3C, en lugar de apoyar el protocolo libre, ha
+decidido que cada cual configure el que quiera, a pesar
+de que Mozilla Firefox ha avisado del coste que supondría implementar H264 y del hecho de estar protegido
+por patentes de software. La solución «de consenso» ha
+sido que si el navegador no soporta H264 se reproduzca
+usando flash, el cual no soporta el codec Theora. De
+esa manera a la hora de comprimir vídeos, H264 se
+convierte en la única opción que puede ser visto por
+cualquier navegador.
+25
+
+cultura libre.indd
+
+25
+
+10/10/2012, 10:06
+
+Este no parecía ser el final esperado por el software
+libre, y menos después de que Google invirtiera más de
+100 millones de dolares en crear un nuevo estándar libre
+capaz de competir con H264, el codec webM, a lo cual
+se sumaron rápidamente la gente de Mozilla Firefox y
+Opera, y Adobe prometió que Flash soportaría webM en
+sus siguientes versiones. Google Chrome llega a quitar el
+soporte H264 de su navegador y la web abierta parece
+que va a triunfar sobre las políticas comerciales.
+En cambio, el final ha sido otro. Por un lado,
+Google Youtube nunca llega a codificar sus vídeos en
+webM, estándo solo disponibles en H264. Empiezan
+a aparecer móviles optimizados para H264, por lo
+que reproducir webM costaría más batería al terminal. Adobe no cumple su promesa de implementar
+webM en flash y además paraliza el desarrollo de flash
+para móviles. Con todo ello a Mozilla Firefox solo le
+quedan dos opciones: o implementar tecnología que
+no puede ser libre, o ver cómo Chrome los desplaza
+del mercado. Por ello, y debido a la pasividad de W3C,
+el vídeo en web ya no va a ser libre por el momento,
+aunque habrá que ver qué sucede cuando MPEG-LA
+empiece a hacer efectivos los derechos de su patente y
+los fabricantes empiecen a comprender la diferencia
+entre libre y gratis.
+El negocio del software como servicio
+Con el desarrollo de Internet y la mejora de las comunicaciones en los noventa muchas aplicaciones dejaron
+26
+
+cultura libre.indd
+
+26
+
+10/10/2012, 10:06
+
+de ser aplicaciones de escritorio que uno instalaba en
+su ordenador para pasar a ser aplicaciones web a las
+que se podía conectar desde cualquier sitio. Es lo que
+se conoce como «Software como servicio» o SaaS (Software as a Service).
+Los desarrolladores en ese momento se dan cuenta
+que pueden usar programas licenciados como GPL
+para crear aplicaciones SaaS sin tener que liberar
+posteriormente el código, ya que la licencia GPL
+está pensada para aplicaciones que se instalan. Así,
+por ejemplo, Google usa componentes de la suite
+ofimática OpenOffice, licenciada de forma libre,
+para desarrollar GoogleDocs sin tener que liberar sus
+modificaciones.
+Ante esta «parasitación», Henry Poole contacta
+con Richard Stallman y empiezan a preparar la licencia
+Affero, que incluye el concepto «Proveedor de aplicaciones como servicio» los cuales en esta licencia están
+obligados también a permitir la descarga, modificación
+y distribución del código fuente de los clientes de sus
+servicios.
+Aunque inicialmente el objetivo era introducir
+esta clausula dentro de la licencia GPL, finalmente
+se convirtió en una licencia propia la AGPL, que es
+compatible con la GPLv3. La realidad es que no ha
+habido muchas empresas que hayan optado por esta
+fórmula, por lo que el SaaS sigue depredando muchos
+de los recursos libres publicados como GPL sin devolver
+las modificaciones a la comunidad.
+27
+
+cultura libre.indd
+
+27
+
+10/10/2012, 10:06
+
+Las patentes de software
+Una de las formas en las que las empresas han intentado
+evitar que haya versiones libres que les puedan hacer
+competencia ha sido mediante el uso de patentes de
+software. No hay una definición aceptada universalmente sobre qué es una patente de software, ya que
+en algunos países se ha permitido el registro tanto de
+funcionalidades, algoritmos, representaciones y otras
+acciones que se puedan llevar a cabo en un ordenador,
+mientras no sea una idea abstracta como en EE UU,
+mientras que en Europa está limitada a cubrir solicitudes que involucren computadoras, redes informáticas
+y otros aparatos programables, protegiéndose la invención pero no los algoritmos o el software en sí.
+La legislación en EE UU en torno a las patentes de
+software siempre ha estado en manos de la gran industria que ha intentado evitar así competencia proveniente
+de pequeñas empresas o grupos de desarrollo que no
+cuenten con otras patentes con las que intercambiar
+para evitar denuncias como hacen las grandes empresas. Teniendo en cuenta la cantidad de patentes que se
+registran en cada una de las muchas oficinas de registro,
+para una empresa es imposible saber si está violando una
+patente hasta que no es demandada por su titular.
+Esta situación es más restrictiva si tenemos en
+cuentas patentes estratégicas como la patente de «la
+compra online usando un único click de ratón» registrada tanto en Europa como en EE UU por Amazon,
+que monopoliza una parte importante del comercio
+28
+
+cultura libre.indd
+
+28
+
+10/10/2012, 10:06
+
+online. Además, aunque un proyecto libre pudiese
+hacerse cargo del pago de la licencia de la patente, no
+podría publicar dicho código como libre ni permitir
+su uso libre ni modificación.
+En Europa, cuya legislación desde 1970 excluye
+cualquier programa de software, muchas de las oficinas
+de registro han ido aceptando patentes de software desde 1980 y especialmente a partir del boom de las punto
+com en los noventa, pero estas no tienen validez. En
+2003 hubo una importante presión desde la Comisión
+Europea para que se legalizaran aquellas que ofrecían
+una solución de negocio o comercial, pero la respuesta
+unánime de los movimientos en torno al software libre y
+las pequeñas empresas de desarrollo y las universidades,
+consiguieron hacer repetir la votación en 2005, donde
+de forma prácticamente unánime se rechazan las patentes de software a excepción de aquellas patentes que
+mejoran técnicamente una solución ya existente. Tal es
+el caso de la patente del MP3, que aceptó por mejorar la
+compresión respecto a los sistemas de almacenamiento
+de audio de su época.
+Al fracasar dicha iniciativa, los lobbies se dieron
+cuenta que era más fácil conseguir que las patentes se
+aceptaran si venía a través de un tratado de libre comercio. Así, por ejemplo, las oficinas de registro de India
+comenzaron en 2005 a aceptar patentes de software
+bajo la excusa de que así les obliga el TRIP o Tratado
+sobre Derechos de Propiedad Intelectual, a pesar de que
+el Parlamento indio nunca ha ratificado dicho tratado.
+29
+
+cultura libre.indd
+
+29
+
+10/10/2012, 10:06
+
+Una nueva ofensiva a nivel internacional se ha puesto
+en marcha para conseguir la ratificación internacional
+de las patentes de software a través del Tratado contra
+la falsificación ACTA.
+Miedo, incertidumbre y duda
+Gandhi fue el autor de la frase «Primero te ignoran.
+Luego se ríen de ti. Después te atacan. Entonces ganas». Cuando el software propietario conoció la nueva ofensiva del software libre primero lo ignoraron y
+posteriormente se rieron de esas iniciativas. Pero según
+iba creciendo el número de programas y empresas que
+usaban software GPL, en lugar de atacar al movimiento,
+las grandes empresas de software propietario con Microsoft a la cabeza optaron por una estrategia de miedo,
+incertidumbre y duda (FUD en sus siglas originales).
+Así, antes incluso de que hubiera ningún proceso
+judicial contra Linux, Microsoft comenzó a hacer
+circular el rumor de que el software libre incumplía
+al menos 235 patentes propiedad de Microsoft, y así
+intentar que los fabricantes tuvieran miedo de usar este
+software. Asimismo, también intentó generar mucha
+duda en la capacidad de las comunidades en torno al
+software libre para responder en caso de que una empresa necesitara soporte.
+Esta estrategia alcanzó una de sus mayores intensidades cuando SCO, empresa que desarrollaba distribuciones Linux y Unix para servidores y estaciones
+de trabajo, decidió demandar en 2003 a IBM por su
+30
+
+cultura libre.indd
+
+30
+
+10/10/2012, 10:06
+
+utilización de Linux. Durante los años anteriores, en
+diferentes intercambios de acciones, SCO había adquirido todos los derechos sobre el código fuente de
+Unix. Al ser superada por otras empresas que también
+desarrollaban distribuciones Linux y depender todo su
+negocio de sus versiones de Unix, decidió que se estaba
+vulnerando su propiedad intelectual. Asimismo envío
+una remesa de cartas a las 1.500 empresas de todo el
+mundo alegando violación de propiedad intelectual
+por su uso de Linux.
+A pesar del apoyo de Microsoft, SCO perdió el
+juicio por el cual solo le correspondía el derecho a vender licencias de Unix no a su código y que el 95% del
+importe de esas ventas debían pagarse a Novell-Suse.
+Esto llevó a la bancarrota de SCO, que ya no pudo
+continuar con su intento a pesar de haber sido apoyada
+por Microsoft.
+Esta técnica ha vuelto a ser usada esta vez por el
+propio Microsoft ante el avance de Linux en el terminal móvil a través de Android, obligando a pagar a los
+fabricantes Samsung y HTC (fabricantes del 55% de los
+móviles con Linux) por cada terminal que saque con este
+sistema operativo. Asimismo Apple ha usado sus patentes
+sobre el iPad para intentar frenar el avance de los tablets
+basados en Android, con lo que ha llegado a paralizar de
+forma temporal las importaciones de tablets Samsung en
+EE UU y Europa. Para evitarlo, Google ha adquirido la
+división móvil de Motorola para contraatacar a Microsoft
+y Apple usando las 7.000 patentes de esta compañía.
+31
+
+cultura libre.indd
+
+31
+
+10/10/2012, 10:06
+
+Linux para seres humanos
+Aunque desde las primeras distribuciones Linux ha
+habido mejores y peores interfaces de usuario, con la
+aparición del escritorio KDE en 1996 era posible usar
+Linux de forma natural en el mundo del escritorio de
+PC. Sin embargo, para poder usar Linux cómodamente, aún no estaban todas las aplicaciones disponibles
+e instalarlo no era una tarea sencilla sin tener ciertos
+conocimientos informáticos.
+Esto cambiaría cuando Mark Shuttleworth, un
+empresario surafricano que se había hecho rico en
+el campo del software de seguridad, decide invertir
+su dinero en una distribución Linux capaz de instalarse fácilmente, que pudiera funcionar en cualquier
+ordenador de consumo y con un sistema estricto de
+publicación que sea fácil de entender y no asuste a las
+empresas o las administraciones públicas. Así, fundó
+Canonical en 2004 y comenzó el desarrollo en Ubuntu
+partiendo del desarrollo de Debian.
+Aunque en gran parte este objetivo ha sido conseguido, en muchos casos ha sido posible importando
+binarios no libres (programas de los que no tenemos
+el código y por lo tanto ni sabemos qué exactamente
+hacen ni podemos modificarlos) dentro de la distribución, por lo que para la FSF ya no se trata de una
+distribución libre. A pesar de su éxito dentro de la
+comunidad de los usuarios de Linux, siendo una de las
+más usadas y descargadas, apenas ha conseguido unos
+pocos millones de usuarios y en términos de tráfico
+32
+
+cultura libre.indd
+
+32
+
+10/10/2012, 10:06
+
+solo representa en torno al 0,5%. En gran parte esto se
+ha debido a la incapacidad de Canonical de conseguir
+contratos con fabricantes de ordenadores, los cuales
+ganan dinero con la actual política de licencias OEM
+para Microsoft Windows, llevándose un porcentaje de
+lo que pagan los fabricantes de software por incluir las
+versiones de pruebas de sus programas.
+Aunque el uso de distribuciones Linux no se ha
+popularizado, no ha sido así el uso de software libre
+en el escritorio Windows, donde el software libre está
+más presente que nunca. Así lo indica la encuesta desarrollada en 2011 por CENATIC (Centro Nacional de
+Referencias de Aplicación de las TIC basadas en fuentes
+abiertas del Estado español), que indica que el 84% de
+los hogares usan software libre en su escritorio.
+La dificultad para aumentar la cuota de escritorio
+ha hecho plantearse llevar Ubuntu a dos entornos que
+están convirtiéndose en el nuevo escritorio de los usuarios: el móvil y la televisión, presentándose ambos este
+año 2012. También están consiguiendo cierto éxito
+migrando a administraciones públicas.
+Y Linux se hizo móvil
+Sin embargo, la apuesta de Ubuntu por llegar a los
+dispositivos móvil no ha sido la primera en el mundo
+de Linux. Así Google compró una compañía llamada
+Android en 2005 y dos años después presentó un consorcio de 86 empresas para avanzar en el desarrollo de
+estándares abiertos para la telefonía móvil. Android se
+33
+
+cultura libre.indd
+
+33
+
+10/10/2012, 10:06
+
+liberó bajo licencia Apache y mantenido mediante el
+Android Open Source Project.
+El crecimiento de Android ha sido espectacular y
+ha dejado fuera del mercado a fabricantes históricos de
+teléfonos móviles como Nokia aunque le está costando
+competir con la línea de teléfonos y tablets de Apple.
+Sin embargo, esta alianza de fabricantes, empresas
+de desarrollo y compañías de telecomunicaciones no
+está siendo ajena a las críticas. Por un lado, porque
+una parte importante del desarrollo se hace en secreto
+y de forma propietaria sin producir una devolución a
+la comunidad del software libre que cuando ha existido ha sido en general lenta, y por las diferencias que
+se marcaron entre el desarrollo del núcleo de Linux
+generalista y el integrado en Android, es difícil que las
+mejoras implementadas en Android terminen siendo
+incluidas en el núcleo de Linux.
+Aunque la principal crítica de las empresas de
+desarrollo de software libre es el modelo de negocio
+que se ha impuesto en estos dispositivos: el market o
+tienda de aplicaciones. Este sistema, cuya versión oficial
+en Android recibe el nombre de Google Play, es un
+sistema de tienda donde las empresas o desarrolladores
+independientes cuelgan sus aplicaciones y los clientes
+pueden comprarlas a través del servicio. En general en
+estas aplicaciones el modelo de negocio se encuentra
+en producir aplicaciones gratuitas con publicidad o
+cobrando un precio bajo por aplicación a cambio de
+una versión sin publicidad. Ninguno de estos dos mo34
+
+cultura libre.indd
+
+34
+
+10/10/2012, 10:06
+
+delos de negocio son compatibles con los habituales del
+software libre (soporte o desarrollos a medida) y casi
+siempre los markets no permiten la opción de descarga
+del código fuente, por lo que en general existen pocas
+aplicaciones GPL para este tipo de dispositivos.
+Por otro lado, el papel predominante de Google en
+el proyecto Android ha tenido también quejas por parte
+de la comunidad, como la inclusión de las versiones
+oficiales de Android de sistemas de Google que sin que
+el usuario las conozca violan su privacidad, enviando
+datos sobre su navegación o posición. También ha
+existido prohibición de determinadas aplicaciones en
+la tienda por deseo de Google. Por estas y otras razones se han ido creando diferentes comunidades online
+que desarrollan versiones de Android sin el software de
+Google, o mantienen tiendas no oficiales sin las mismas
+restricciones de la oficial.
+Cuando la red social mató la interoperabilidad
+Las redes sociales han sido uno de los cambios más importantes de los últimos años en Internet y en nuestra
+sociedad, y sin ellas no podemos entender fenómenos
+como Anonymous, las revoluciones del Jazmin, fenómenos como el 15M y OccupyWallStreet o la forma
+en que ha evolucionado el periodismo.
+En contra de este avance, tan rápido como inesperado, ha roto con uno de los principios fundamentales de Internet, la interoperabilidad, o la capacidad de
+intercambiar información entre sistemas de distintos
+35
+
+cultura libre.indd
+
+35
+
+10/10/2012, 10:06
+
+fabricantes. De igual forma que podemos enviar un correo electrónico independiente del sistema que usemos
+nosotros o el receptor, o iniciar una sesión de chat o de
+mensajería instantánea, en el caso de las redes sociales
+no es posible.
+No hay una manera de poder enviar «tuits» desde
+fuera de la red Twitter que no sea a través de la pasarela
+de comunicación de la red Twitter, ni hacer una publicación en tu Facebook si no es a través de los canales
+que permiten sus dueños de forma totalmente opaca al
+usuario y al resto de Internet. Tal es la fuerza de empresas
+como Facebook que en lugar de optar por el protocolo
+estándar, ha reescrito el protocolo de correo electrónico
+y lo ha integrado en su plataforma permitiendo el envío
+de este tipo de correos exclusivamente entre usuarios
+de Facebook. Por suerte, han surgido varios proyectos
+con objeto de intentar equilibrar la balanza, ofreciendo
+soluciones libres y en algunas ocasiones estándares para
+el uso de redes sociales.
+Uno de los proyectos que más destaca es StatusNet
+que hace uso de OpenMicroBlogging, un protocolo
+abierto que permitiría que diferentes servicios pudieran
+interoperar, sin depender de una autoridad central. El
+primer software que hace uso de este estándar es el
+proyecto identi.ca y aunque en su día Twitter afirmó
+que iba a cumplir dicho estándar, la compañía no lo
+ha hecho en ningún caso.
+Otros ejemplos de redes sociales libres son Elgg
+un software para crear redes sociales que está muy
+36
+
+cultura libre.indd
+
+36
+
+10/10/2012, 10:06
+
+desarrollado en el campo de la educación, aunque no
+tiene un protocolo interoperable que le permita enviar
+información a otras redes Elgg. Sin embargo, este problema está intentándolo resolver Lorea, creando una
+protocolo que permita interoperar entre distintos Elgg.
+La misma idea la comparte el proyecto Diaspora, un
+proyecto de red social descentralizada que a diferencia
+de Elgg y Lorea, permitiría seguir publicando en redes
+comerciales y que saldrá en pruebas este año.
+Microsoft adopta el ¿software libre?
+Aunque los primeros anuncios ya se habían ido dando
+desde 2007, Microsoft no dejó de dar la sorpresa cuando presentó en 2011 su programa Fuente compartida
+(Share source) por la cual permitía, con diferentes modalidades, la distribución del código fuente de algunos
+de sus programas.
+Estas modalidades van desde la posibilidad de
+acceder al código sin ningún tipo de permiso de distribución a las modalidades más libres como la licencia recíproca (Ms-RL) similar a la LGPL y la licencia
+pública (Ms-PL) equivalente con la GPL pero no
+compatible con esta.
+Tras muchos años pregonando los peligros de publicar el código fuente de los programas o de inocular
+el miedo a la incapacidad de encontrar modelos de
+negocio en el software libre, la apuesta por Microsoft
+por experimentar y practicar el software libre es sin
+duda un gran cambio en la empresa, aunque haya sido
+37
+
+cultura libre.indd
+
+37
+
+10/10/2012, 10:06
+
+usando una nomenclatura propia (usando el apelativo
+«compartida» en lugar de libre o abierta) y licencias
+propias no compatibles con las de la FSF.
+Para no terminar las sorpresas del año, Microsoft
+se convirtió en uno de los 20 mayores contribuidores
+al código fuente del núcleo Linux en su versión 3.0,
+aunque en su mayor parte se trataba de parches para
+poder hacer Linux dentro de Windows Server. También
+ha liberado proyectos dentro de la fundación Apache.
+Parece que Microsoft finalmente ha descubierto que la
+interoperabilidad solo es posible mediante el software
+libre.
+
+38
+
+cultura libre.indd
+
+38
+
+10/10/2012, 10:06
+
+La neutralidad en la Red*
+FERNANDO ACERO MARTÍN
+
+La neutralidad en la Red ha de ser un derecho de la
+ciudadanía que usa las redes de comunicaciones y está
+relacionada con la forma en la que se maneja la información que circula por ellas y con la posibilidad de
+conectar dispositivos a esas redes. Se dice que la Red es
+neutral cuando se cumplen estas dos condiciones:1
+a) Cuando el tráfico de datos recibido o generado no
+es manipulado, modificado, bloqueado, desviado,
+priorizado o retrasado, en función del tipo de contenido, del protocolo, la aplicación utilizada, del origen
+o del destino de la comunicación, ni de cualquiera
+otra consideración ajena a su propia voluntad.
+b) Cuando se puede acceder a contenidos, ejecutar
+aplicaciones y utilizar servicios de la Red, así como
+cuando se pueden conectar dispositivos a la Red sin
+más restricción a su interoperabilidad que aquella
+que establezcan las leyes.
+*Copyleft 2012 Fernando Acero Martín. Verbatim copying, translation
+and distribution of this entire article is permitted in any digital medium,
+provided this notice is preserved.»
+1. Véase el texto completo («La lógica del sentido común en la neutralidad
+de la Red») en: http://fernando-acero.livejournal.com/83105.html.
+
+39
+
+cultura libre.indd
+
+39
+
+10/10/2012, 10:06
+
+Ahora podemos pensar, ¿es Internet neutral en este
+momento? Las conexiones ADSL están pensadas para
+un uso mercantilista de la Red y hay más facilidad para
+descargar contenidos, que para subirlos, algo que es un
+problema cuando pensamos en la red 2.0 o en la nube.
+Además, esa asimetría es tan grande, que la mayoría
+de las ADSL no se pueden considerar una verdadera
+banda ancha, al no permitir una velocidad de subida
+de como mínimo 1 MBps.2
+Asimismo, hay sospechas fundadas de que algunos
+operadores penalizan el tráfico P2P, con la excusa del
+consumo de ancho de banda, y a pesar de que dichos
+usos de la Red son completamente legales. No en vano,
+uno de los mayores peligros para la neutralidad en la
+Red son los intereses comerciales de las operadoras de
+telecomunicaciones. Empresas que pueden estar tentadas de establecer otras categorías y precios de acceso
+a las redes basándose en los servicios y aplicaciones
+utilizadas por los usuarios, en lugar de por el ancho de
+banda contratado, con lo que crean una discriminación
+de acceso a la Red en base al poder adquisitivo.3
+Evidentemente, dados los programas y los servicios
+disponibles, las posibilidades de esta discriminación
+son infinitas. Pensemos, por ejemplo, en la posibilidad
+de que se discriminasen determinados programas de
+
+2. http://www.kriptopolis.org/banda-ancha.
+3. http://www.internautas.org/html/5837.html.
+
+40
+
+cultura libre.indd
+
+40
+
+10/10/2012, 10:06
+
+mensajería instantánea, para no perder el negocio de
+los SMS.
+Otro peligro para la neutralidad en la Red puede
+venir de los intentos para limitar la conectividad a las
+redes de comunicaciones durante, manifestaciones u
+otros actos de desobediencia civil, algo que ha sido muy
+común en regímenes autoritarios, pero que fácilmente
+se puede trasladar a países más democráticos.4
+Por todo lo anterior, es muy importante que se
+garantice por Ley la neutralidad en la Red como un
+derecho de la ciudadanía, algo que ya ha hecho Holanda,5 y que los Organismos Reguladores de las Telecomunicaciones vigilen celosamente que las operadoras
+mantengan la neutralidad de la Red.
+
+4. http://www.enter.co/internet/estados-unidos-contempla-la-idea-depoder-apagar-la-red-como-egipto/.
+5. http://www.guardian.co.uk/technology/2011/jun/23/netherlandsenshrines-net-neutrality-law.
+
+41
+
+cultura libre.indd
+
+41
+
+10/10/2012, 10:06
+
+cultura libre.indd
+
+42
+
+10/10/2012, 10:06
+
+Segunda parte
+
+¿Qué hay de lo mío? o de cómo
+se usan los artistas como excusa
+para capar Internet y privatizar
+el acceso a la cultura
+y el conocimiento
+
+cultura libre.indd
+
+43
+
+10/10/2012, 10:06
+
+Los cercamientos digitales1
+RUBÉN MARTÍNEZ
+
+Amenazas, retos y futuros de las nuevas tierras
+comunales
+Esta es tú tierra, esta es mi tierra, desde Calahorra
+hasta Wikipedia.2
+FUNDACIÓN ROBO
+
+¿Cercamientos?
+Los cercamientos (enclosures3) fueron una serie de leyes
+que el Parlamento inglés ejecutó durante los siglos XVII
+1. El conjunto de ideas expresadas en los contenidos del presente artículo
+son parte del trabajo de investigación que he desarrollado durante los últimos
+años en la (ya desaparecida) YProductions (www.ypsite.net). A diferencia de los
+aciertos del presente texto —que se deben a ese trabajo colectivo— los deslices e
+imprecisiones son responsabilidad mía.
+2. Adaptación de la letra del tema «Esta tierra es nuestra» de Fundación
+Robo que a su vez es una adaptación del tema «This Land Is Your Land» de
+Woody Guthrie. No se me ocurría mejor manera de mostrar cómo funciona
+la producción cultural. Podéis escuchar el tema de Fundación Robo en http:
+//esunrobo.bandcamp.com/track/esta-tierra-es-nuestra.
+3. «La propiedad comunal [...] era una antigua institución germánica que
+continuaba existiendo bajo el manto del feudalismo. Su usurpación violenta [...]
+empieza a fines del siglo XV y perdura en el siglo XVI. Pero entonces se consumó
+el proceso como acto de violencia individual, contra el que lucha en vano la
+legislación durante 150 años. [...] La forma parlamentaria del robo es la de las
+Bills for Inclosures of Commons (Leyes para el cercado de las tierras comunales),
+dicho en otras palabras, decretos por los que los señores feudales se regalan a sí
+mismos las tierras del pueblo como propiedad privada, decreto de la expropiación
+del pueblo» (Marx, 2007: 211.)
+
+44
+
+cultura libre.indd
+
+44
+
+10/10/2012, 10:06
+
+y XVIII bajo las que se expropiaron tierras en régimen
+comunitario (commons). Estos recursos suponían un
+medio de existencia para las clases campesinas. Este
+fue un episodio fundamental para entender el paso de
+una economía feudal al capitalismo y supuso el desenlace que ya conocemos: la supresión de los medios
+de producción a las personas que producían riqueza
+trabajando la tierra. En un breve párrafo del primero
+libro de El Capital, Karl Marx relata la importancia de
+este momento de manera bastante ilustrativa:
+En la historia de la acumulación originaria hacen
+época, desde el punto de vista histórico, todas las
+transformaciones radicales que sirven de palanca a
+la clase capitalista en formación; pero sobre todo los
+momentos en los que las grandes masas de hombres
+se ven despojados repentina y violentamente de
+sus medios de subsistencia y lanzadas al mercado
+de trabajo en calidad de proletarios libres. La expropiación de las tierras del productor rural, del
+campesino, constituye la base de todo el proceso.
+(Marx, 2007: 200)
+Marx apunta el momento en que son cercados los
+commons, es decir, bosques, ríos, campos, etc. que gestionaban directamente las comunidades. Es así como
+los comuneros perdieron su capacidad de sostenerse a
+través de la explotación de dichos recursos naturales y
+conformarán una masa proletarizada obligada a ofrecer
+45
+
+cultura libre.indd
+
+45
+
+10/10/2012, 10:06
+
+su fuerza de trabajo para sobrevivir. Este fenómeno
+discurre en paralelo a dos acontecimientos no menos
+importantes, el proyecto colonial y la caza de brujas
+—proceso al que Karl Marx no prestó atención y que
+Silvia Federici ha estudiado con precisión médica—,
+ambos caracterizados por el uso de niveles extremos de
+violencia. Estos procesos desmienten las teorías de los
+economistas clásicos que explicaron el desarrollo del
+capitalismo como producto de una serie de acontecimientos «naturales». La transición de una economía
+feudal a los primeros estadios del capitalismo (en esos
+momentos mercantilismo) no fue para nada un proceso
+limpio ni natural, al contrario, fue un período violento, repleto de revueltas y brutalidad. Si bien, como
+nos recuerda Elinor Ostrom, a día de hoy la gestión
+comunitaria de recursos naturales sigue existiendo y
+en ocasiones se muestra más eficaz que los modelos de
+gestión basados en la propiedad pública o privada, el
+régimen de propiedad comunal ha sido largamente ignorado cuando no invisibilizado institucionalmente.
+Vemos así cómo el violento capítulo histórico
+protagonizado por los enclosures, la colonización de
+tierras indígenas y la persecución y monitorizacion
+del cuerpo femenino fue la condición necesaria para
+asegurar los procesos de acumulación del capital. Si bien
+con formas, estrategias y con herramientas e injusticias,
+sin duda diferentes, algunos elementos de este proceso
+amenazan con repetirse hoy en la esfera digital. Hablar
+de cercamientos digitales es hablar del imperativo de
+46
+
+cultura libre.indd
+
+46
+
+10/10/2012, 10:06
+
+los derechos de propiedad intelectual, de la (fallida en
+su intento) ley Sinde,4 de las patentes farmacéuticas y
+sobre el genoma, de acuerdos y leyes empujadas por
+multinacionales como ACTA o SOPA,5 es:
+Hablar de las campañas militares de expropiación
+y subordinación a la producción bajo mando, de
+esas nuevas tierras comunes que continuamente
+genera y reproduce la cooperación entre cerebros.
+(VV AA, 2004: 16)
+Tomando estas reflexiones iniciales, vamos a contextualizar de manera muy sintética cuáles han sido
+las decisiones y maniobras que han fijado el interés en
+controlar y cercar la producción social y cultural que
+se da en la Red. Veremos que se repiten de nuevo las
+amenazas de los que más tienen y más quieren que sin
+duda han de recibir una respuesta contundente y organizada. Adelantamos ya que, frente a dichos procesos
+de cercamiento, han surgido innumerables campañas
+
+4. La ley Sinde (bautizada popular y mediáticamente así como mención
+a la ex-ministra de Cultura en España Ángeles González Sinde) era la segunda
+disposición final incluida en el proyecto de ley de Economía Sostenible del 2009.
+Esta ley criminaliza la lógica natural de la Red aludiendo a la regulación de webs
+y a la protección de la propiedad intelectual. Para más información véase http:
+//whois--x.net/contra-la-ley-sinde-wert-comparte.
+5. Stop Online Piracy Act (SOPA) es una propuesta de ley que ha causado
+un enorme rechazo civil en la Red y en la calle. Para más información véase: http:
+//sopastrike.com/ y http://www.blackoutsopa.org/.
+
+47
+
+cultura libre.indd
+
+47
+
+10/10/2012, 10:06
+
+ciudadanas en defensa de las tierras comunales como
+prácticas colectivas que de manera ingeniosa construyen arquitecturas cuyo código genético nace diseñado
+para permitir la réplica (copyleft). Todo eso es lo que
+constituye el movimiento por la cultura libre, la defensa
+de las nuevas tierras comunales de la cultura. A continuación, nos formularemos una pregunta tan obvia
+como fundamental: ¿Cómo hemos llegado hasta aquí?
+¿En qué momento la creatividad social y la producción
+colectiva han sido percibidas como recursos cuyos usos
+y explotaciones deben ser limitado para quien lo produce? Después de intentar responder estas preguntas,
+veremos otras formas de relacionarse con los commons
+que están ligadas en la práctica o en la filosofía al movimiento por la cultura libre.
+Economía del conocimiento
+En las últimas décadas, diferentes cambios de orden
+económico, político y cultural han ido situando al conocimiento como recurso principal en el paradigma de
+producción actual. El paso de un modelo de producción
+de base fordista al denominado posfordita ha venido
+empujado por diversos cambios en las formas de estructurar la «cadena de producción», donde la información
+y el conocimiento han ido ocupando un papel central
+así como la necesidad de gestionar adecuadamente
+estos recursos. La incidencia de las tecnologías de la
+información, la optimización de los recursos para una
+producción just in time, la prioridad competitiva de
+48
+
+cultura libre.indd
+
+48
+
+10/10/2012, 10:06
+
+ampliar la oferta con productos y servicios dirigidos a
+diferentes perfiles de consumidor, etc. han sido algunos
+de los fenómenos que han tomado un papel relevante
+en este período de cambio.
+Los ciclos de oferta y demanda clásicos habían sido
+cubiertos por la producción seriada, y era necesario
+generar nueva demanda para adquirir en la economía
+global ventaja competitiva. El sistema fordista parecía
+haber tocado techo y el ciclo económico se encontraba estancado después de un período de desarrollo
+acelerado. Situar la producción en nichos de mercado
+específicos, que desde ese momento correrían en paralelo a la producción homogénea de productos y a las
+economías de escala, fue muy importante. Esto situaba
+en un lugar destacado a las tareas de marketing y de
+posicionamiento de la marca de cara a contextualizar
+la experiencia que rodea al producto o servicio que va
+a ser consumido. Las tareas de comunicación y de servicio al cliente tomaban un papel relevante, y el trabajo
+relacional se situaba como elemento indispensable para
+interpelar a los diferentes deseos del consumidor.
+De cara a posibilitar esta producción diversificada,
+que pudiera cubrir servicios y productos personalizados,
+era necesario controlar los flujos de información y conocimientos que añaden valor diferencial a la producción. La nueva economía ha ido practicando diferentes
+estrategias con el objetivo de extraer mayor rendimiento
+a ese conocimiento difuso, convertido ahora en una
+fuente de riqueza que es necesario explotar. Los regí49
+
+cultura libre.indd
+
+49
+
+10/10/2012, 10:06
+
+menes de trabajo flexible y precarizado, donde tiempo
+y ocio quedan difuminados, permiten poner a trabajar
+la creatividad de los sujetos, que antes quedaba excluida
+de la cadena de producción fordista. Gran parte de la
+teoría del management se ha dedicado a sugerir modelos
+organizativos que faciliten la difusión de los saberes y
+conocimientos dentro de la propia empresa. Aquello
+que en otro momento se consideraba improductivo,
+se percibe hoy como un elemento indispensable que
+debe ser controlado. Los departamento de I+D han
+sido los encargados de sistematizar la información y
+el conocimiento para el sector privado con el objetivo
+de poder ser competentes en la economía globalizada.
+La innovación tiene prioridad absoluta en la agenda
+económica, y todas estas estrategias permiten acceder
+a las fuentes creativas que van a facilitar un proceso de
+innovación continua.6
+Todo este proceso tiene su inicio en Europa a finales
+de los setenta y a lo largo de los ochenta con la llegada
+al poder de políticas de austeridad neoliberales, cuyas
+tesis encontraron eco como fórmula para superar la
+crisis que empezaron a padecer los estados de bienestar
+a partir de la crisis de 1973. Desde mediados de los
+ochenta y principios de los noventa, toda una serie de
+fenómenos interrelacionados acabaron por situar al co-
+
+6. Para un análisis detallado de este proceso y sus efectos en el gobierno de
+la producción social. Véase Innovación en cultura (YProductions, 2010).
+
+50
+
+cultura libre.indd
+
+50
+
+10/10/2012, 10:06
+
+nocimiento en el centro de la economía: los procesos de
+reconversión industrial y deslocalización de fábricas; la
+irrupción de las nuevas tecnologías de la información y
+la comunicación (NTIC); la consolidación de la innovación como máxima competitiva entre Asia, EEUU
+y Europa; junto al paralelo proceso de globalización
+de la economía e incremento del poder financiero,
+etc. Una vez desvanecidos completamente los pactos
+capital-trabajo establecidos durante las democracias de
+posguerra, la estratagema neoliberal encontraba pocos
+frentes que paralizaran sus maniobras en la reestructuración del modelo productivo del capitalismo tardío.
+Esto abrió un nuevo marco que se escenifica durante los
+noventa comúnmente conocido por denominaciones
+neutras, cuando no laudatorias, como New Economy,
+Sociedad Pos-capitalista o Sociedad de la Información.
+Este nuevo paradigma socioeconómico esconde en su
+interior numerosos debates, disputas y luchas respecto
+dónde, quién y cómo se produce conocimiento y sobre
+quién, cómo y por qué se apropia y beneficia de él. La
+reproducción de una economía guiada bajo el principio de escasez y de propiedad privada, pese al origen
+reproducible y común que tiene el conocimiento, así
+como la paulatina precarización y división del trabajo
+y su consecuente desregulación social, han sido algunos
+de los frentes de lucha de quienes entendemos el actual
+orden de cosas como un nuevo estadio de explotación
+y gobierno vertical del cuerpo social.
+
+51
+
+cultura libre.indd
+
+51
+
+10/10/2012, 10:06
+
+Capitalismo cognitivo y cercamientos
+Autores y autoras como Carlo Vercellone, Antonella
+Corsani, Enzo Rullani, Franco Berardi, Maurizio Lazaratto, Nick Dyer Whiteford, Emmanuel Rodríguez, entre otros, han desarrollado parte de sus investigaciones
+bajo el eco de lo que denominan capitalismo cognitivo.
+Una visión crítica que nos dota de una mirada política
+respecto al capitalismo contemporáneo, un modo de
+producción:
+que pone sobre la nueva cadena productiva el indeterminado conjunto de mediaciones sociales, que
+lleva inaugurando y ampliando ciclos de negocio
+directo desde hace al menos 30 años: desde el cuidado de ancianos, a la atención telefónica, desde
+la vieja industria cultural a la nueva industria del
+diseño. (VV AA, 2004: 14)
+Esta visión, que diseña un enfoque interesante
+para desarrollar una crítica a la economía política de
+la Sociedad de la Información, se basa en la denuncia
+frontal de los sistemas de explotación, privatización y
+cercamiento de aquellos saberes que la propia sociedad
+genera en procesos comunitarios que acaban siendo
+regulados por la lógica capitalista. En el capitalismo
+cognitivo, los tiempos de producción, consumo y ocio
+se fusionan en un mismo ciclo, con lo que extienden
+el régimen de acumulación a la esfera de la vida y a las
+parcelas (ya difuminadas) de la experiencia cultural. La
+52
+
+cultura libre.indd
+
+52
+
+10/10/2012, 10:06
+
+maquinaria de la producción capitalista ha ido ampliándose, superando la limitación que tradicionalmente
+constituían los muros de las empresas y concibiendo
+la esfera cultural y social como un gran departamento
+de I+D externalizado. Bajo el capitalismo cognitivo
+se analiza de manera crítica cómo la centralidad de la
+producción inmaterial y la necesidad de explotar los
+recursos básicos, que van a posibilitar la innovación,
+han marcado el diseño de los protocolos legales que
+intentan asegurar una ventaja competitiva al sector
+privado. Es en ese escenario desequilibrado donde:
+Los dispositivos de apropiabilidad (principalmente
+jurídicos) se producen únicamente sobre los productos finales de la innovación (nuevas tecnologías,
+software, bienes culturales, etc.), precisamente los
+tramos de mayor valor añadido de un ciclo de
+trabajo complejo que se ignora o se trata con un
+absoluto desprecio. Es decir, los millieus innovateurs
+que antes señalábamos y que se consideran como la
+auténtica sopa originaria de la producción cognitiva,
+desaparecen repentinamente frente a los derechos de
+los laboratorios médicos, las grandes empresas de
+software y los estudios de grabación. (Rodríguez,
+2007: 205)
+Las leyes de propiedad intelectual e industrial se
+sitúan, entonces, en el centro del debate, ya que son los
+instrumentos centrales para la privatización del conoci53
+
+cultura libre.indd
+
+53
+
+10/10/2012, 10:06
+
+miento que niegan el origen colectivo de su producción.
+Incluso herramientas de gran utilidad en la producción,
+archivo y consulta de la Red (como Google o Youtube), reproducen procesos de monopolización, control y
+cercamiento de la capacidad creativa y productiva que
+atraviesa la Red. Como veremos a continuación estos
+protocolos legales y modos de hacer han sido puestos
+en cuestión por otras formas de valorar la producción
+inmaterial y resultan problemáticos para la emergencia
+de nuevos modelos económicos más sostenibles y justos.
+La noción de valor y de propiedad, naturalizada bajo
+las patentes o el copyright, difiere de la que se expresa
+y experimenta en las ideas y prácticas que forman parte
+del imaginario presente en la cultura libre.
+Producción colectiva, comunidad creativa
+Una de las cuestiones presentes en los movimientos de
+cultura libre es el origen colectivo de la creatividad y
+de la producción de conocimiento que, como hemos
+visto, son principales motores de la economía actual.
+Bajo la comunidad creativa no debemos reconocer a
+una élite de productores o de profesionales del sector,
+sino al conjunto de comuneros y comuneras a la cooperación entre cerebros que hacen posible la producción
+cognitiva. Si en la economía del conocimiento todo
+el mundo es creador o creadora hay que poder imaginar modelos donde ni se restrinja ni se privatice ese
+potencial inmanente. Este gran recurso extendido a
+toda la sociedad se comporta como una fábrica social,
+54
+
+cultura libre.indd
+
+54
+
+10/10/2012, 10:06
+
+un potencial de creación de valor que habita más allá
+de los muros de la fábrica tradicional y que genera un
+excedente de producción continuo.
+Esta realidad es la que el teórico Yann Moulier
+Boutang ha descrito bajo el concepto de polinización. La
+polinización hace referencia a la actividad de las abejas
+como agentes que distribuyen el polen, cuya práctica
+productiva supera en varios múltiplos la actividad productora de miel. Las abejas funcionarían como metáfora
+de la inteligencia colectiva, cuya actividad continua
+genera plusvalía que quiere ser codificada y controlada
+a través de la propiedad intelectual e industrial. La
+fábrica social genera externalidades positivas que no
+pueden ser valoradas de forma tradicional; la plusvalía
+no se pueden medir exclusivamente en términos de
+producción de mercancías, cuestión que nos lleva a
+repensar el régimen salarial. Un ejemplo que ilustra
+esta nueva realidad es la producción colectiva en la Red,
+en la que usuarios profesionales y amateurs generan los
+contenidos que son consumidos por todos y todas y
+cuya difusión, circulación y capitalización quieren ser
+gobernadas a través de diferentes directrices que limitan
+su potencial. Autores como David Bollier señalan que el
+libre flujo de conocimientos en la Red no es percibido
+por el sistema capitalista como la base productiva que
+ha de permanecer bajo régimen comunal (commons)
+sino que le adjudica un precio para dar acceso.
+La lógica del libre flujo a coste cero se considera incompatible con un modelo de negocio sostenible, pero
+55
+
+cultura libre.indd
+
+55
+
+10/10/2012, 10:06
+
+esa es precisamente la casilla de salida de los modelos
+económicos que se pueden generar entorno a la cultura
+libre y que, si entendemos el verdadero potencial de los
+commons digitales, cabe seguir pensando y experimentando para crear verdaderas ecologías productivas.
+¿Economías basadas en los commons?
+La premisa de partida en los nuevos modelos de negocio
+que entienden la producción colectiva como contexto a
+nutrir y salvaguardar y no como contexto al que someter
+bajo nuevos cercamientos, toman la cooperación como
+régimen natural del mercado. Las experiencias más sugerentes y que han motivado diferentes movimientos
+que comparten esta naturaleza colaborativa provienen
+de las comunidades de software libre. Como ya es
+popularmente conocido, estas comunidades generan
+una producción colectiva que comparten bajo licencias
+abiertas, y así, permiten el uso y la modificación del código siempre que se respete la misma apertura en la obra
+derivada. Esto se desarrolla bajo una lógica viral, que
+generaliza la apertura en las licencias de todas las obras
+derivadas. La producción total de código conforma el
+commons del software libre, producido, gestionado y
+optimizado por toda la comunidad. Este commons sirve
+como base para diferentes microempresas cuyo modelo
+de negocio puede basarse en servicios de implementación y de adaptación del software a proyectos concretos.
+Enzarzada en otro contexto, las industrias culturales
+tradicionales se nutren de la producción colectiva pero
+56
+
+cultura libre.indd
+
+56
+
+10/10/2012, 10:06
+
+no permiten replicar ni procesos ni resultados, sino
+que imponen marcos de apropiación. Las industrias
+culturales se asientan bajo la concepción de la cultura
+propietaria (economía de la escasez) lejos de la filosofía
+de la cultura libre (economía de la abundancia).
+Algunos autores como Michel Bauwens de la P2P
+Foundation hacen alusión a cómo la lógica del peer to
+peer configura modelos de negocio que toman como
+base una producción colectiva. El usuario pasa a ser
+generador de valor, y forma parte de un ciclo virtuoso
+de producción y consumo del que se beneficia. Bauwens
+detecta tres modelos diferentes: share economy, commons
+economy y crowdsourcing economy. Según Bauwens en
+los modelos basados en la share economy:
+Las personas forman parte de plataformas participativas donde comparten su expresión creativa. Mientras que la propia participación en su mayor parte
+no se remunera, los propietarios de las plataformas
+venden la atención agregada de sus comunidades
+de usuarios a los anunciantes. Este es esencialmente
+el modelo de negocio del la web 2.0, con YouTube
+como el ejemplo paradigmático.7
+Por otra parte, en los modelos basados en la commons economy:
+7. Todas las citas a Michel Bauwens pertenecen a la charla que ofreció
+durante el [:D] evolution Summit para más información, véase http://devolution.fcforum.net/. Disponible en http://vimeo.com/10709027.
+
+57
+
+cultura libre.indd
+
+57
+
+10/10/2012, 10:06
+
+Las personas se congregan en las comunidades que
+producen artefactos comunes, como en el Software
+de Código Abierto, que están disponibles bajo régimen de propiedad común. Estos artefactos generan
+los ecosistemas de negocios, con las empresas que
+generan servicios con valor añadido que pueden
+ser monetizados. El modelo de Linux sigue esta
+economía.
+Y, por último, en los modelos basados en la crowdsourcing economy:
+Las empresas o las plataformas integran la dinámica de participación en su propia producción
+y cadenas de valor, bajo la forma de trabajo de
+distribución no remunerado que funciona bajo
+su control total.
+Pero es en este escenario donde la lógica de cercamientos VS tierras comunales de la cultura toma pleno
+sentido. Todos estos modelos tienen que atender a los
+procesos de cercamiento, procesos por los que, como
+hemos venido relatando, la producción cultural se ve
+delimitada para el uso de una industria específica. De
+las misma forma que veíamos en el paso del feudalismo
+al capitalismo, en el desarrollo del capitalismo cognitivo
+se mantiene latente la amenaza de nuevos cercamientos que pueden deshacer el régimen comunal de los
+commons digitales.
+58
+
+cultura libre.indd
+
+58
+
+10/10/2012, 10:06
+
+Conclusiones: ya vivimos y producimos
+sin cercamientos
+Cuando hablamos de cultura libre hablamos de la producción, explotación y defensa colectiva de las tierras
+comunales de la cultura. Cuando hablamos de cercamientos digitales, hablamos del conjunto de reglamentos legales que amenazan todo ese ejercicio colectivo.
+A grandes rasgos, esto es lo que hemos querido situar
+con mayor detalle hasta aquí. Pero también hemos
+querido hacer alusión a una cuestión fundamental,
+tan presente en los commons como en la cultura libre:
+la explotación de los recursos comunes para beneficio
+de todos y todas.
+Como en sus primeros textos ya lo subrayaba
+Lawrence Lessig, la cultura libre no es cultura gratis,
+es más bien lo opuesto a la cultura del permiso. No
+hay que pensar en cultura libre como espacio que nos
+empuja a encontrar un modo de supervivencia en otro
+lugar, no podemos pensar que en el movimiento por la
+cultura libre elude la cuestión del sustento económico
+derivándola a la capacidad por encontrar rentas en,
+por ejemplo, las industrias del entretenimiento. De ser
+así, restamos parte del potencial político que reside en
+la cultura libre. Sin olvidar que las tierras comunales
+históricas estaban formadas por comuneros que las usaban como medios de subsistencia sin que ese disfrute
+supusiera privatización —cuestión que además les permitía usarlos como herramienta política para intentar
+no estar sometidos al poder feudal— los modelos de
+59
+
+cultura libre.indd
+
+59
+
+10/10/2012, 10:06
+
+negocio basados en la cultura libre han de dar sustento
+a quienes producen y a su vez optimizar las balsas del
+conocimiento colectivo. Esta es una cuestión fundamental en la que hay muchísimo trabajo hecho.
+El movimiento copyleft en su afán por generar
+commons ha abierto las puertas a nuevos modelos de
+explotación colectiva de la riqueza que se encuentra
+inscrita en nuestro acervo cultural. Lo interesante sería
+pensar si pueden existir estructuras micro-empresariales sostenibles, que puedan mantenerse y generar rentas
+optimizando en lugar de esquilmando las nuevas tierras
+comunales. Los modelos de negocio propuestos por las
+denominadas industrias creativas se han visto ampliamente superados por otras formas económicas que han
+subvertido los estrictos marcos prescritos por agencias
+gubernamentales y planes de promoción de las industrias creativas. En Brasil, el movimiento del Technobrega
+constituye un magnífico ejemplo de ello. Tan solo en el
+año 2006 se crearon cerca de 6.552 trabajos directos y se
+generaron más de 1.914,868 dólares a través de la venta
+de entradas. En Río de Janeiro el Funky Carioca produjo
+más de cinco millones de dólares en el año 2007. Ambos
+movimientos musicales prescinden completamente de
+los derechos de propiedad intelectual, discográficas u
+otros intermediarios. Han creado redes de complicidad
+en localidades, barrios y ciudades, han sabido entender
+a su público y sus posibilidades económicas y además de
+ser un fenómeno musical sin parangón constituyen un
+fuerte aglutinador social. Han desarrollado un modelo
+60
+
+cultura libre.indd
+
+60
+
+10/10/2012, 10:06
+
+de economía cultural que no solo no expolia el acervo
+cultural, sino que mantiene unido el territorio, favorece
+el acceso a clases desfavorecidas y genera interesantes
+retornos para los productores. Estos movimientos autoorganizados han logrado lo que 200 años de política
+cultural y económica en Europa nunca han conseguido.
+El profesor e investigador cultural Ronaldo Lemos junto
+a otros y otras investigadoras que desarrollan estudios
+para analizar y comprender mejor dichos procesos, denominan a todos estos movimientos bajo el apelativo
+«Periferias Globales» y con ello engloban, entre otros,
+la Cumbia Villera (Argentina), Kuduro (Angola) o en
+impresionante movimiento musical surgido alrededor
+de los Sonideros en México.8
+Por otro lado, la economía social también nos ha
+proporcionado magníficos ejemplos de modelos de
+negocio capaces de conciliar objetivos socioculturales
+con la sostenibilidad económica. En el Reino Unido
+tenemos el Star and Shadow cinema, un cine completamente autogestionado y que rompe con las dinámicas
+impuestas por las grandes distribuidoras que tan solo
+representan los intereses de Hollywood. No hay propietarios, tan solo socios que se distribuyen el trabajo
+
+8. Sobre los Sonideros, recientemente se ha editado un libro a manos
+del grupo de investigación El Proyecto Sonidero que explica con detalle este
+movimiento, tanto sus formas de organización como el impacto local que está
+teniendo. Véase http://elproyectosonidero.wordpress.com/tag/libro-sonidero/.
+
+61
+
+cultura libre.indd
+
+61
+
+10/10/2012, 10:06
+
+y los beneficios entre ellos. Como vemos, establecen una
+relación diferente con el público, entienden que no es
+un ente pasivo o que ha de esperar que el producto se
+introduzca por grandes vías de distribución, y utilizan
+el potencial de Internet para la construcción de públicos
+más pequeños y con ello un mercado sostenible. Es importante en este punto señalar la dimensión social y política que este tipo de proyectos pueden desarrollar como
+en el caso del Instituto Electrocooperativa, una ONG
+ubicada en São Paulo que ha publicado y distribuido la
+música de numerosos grupos que vienen de barrios empobrecidos y conflictivos. Las rentas que generan las giras
+y conciertos de estos grupos proporcionan un sustento
+regular a personas marginadas socialmente.
+Como mostramos en el Manual de Uso para la
+Creatividad Sostenible en la era Digital (presente en esta
+misma publicación) ya podemos señalar infinidad de
+prácticas, proyectos y redes que trabajan en esta dirección en todos los ámbitos de la producción cultural que
+además nos facilitan los diferentes modelos que están
+practicando. Con todo esto estamos en disposición de
+aseverar que existen modelos de negocio en la cultura
+que trasciendan los marcos propuestos por las industrias
+del entretenimiento y que rompen completamente con
+la lógica de los cercamientos que nos alejan de nuestras
+tierras comunales. Las amenazas son continuas pero las
+luchas y las victorias son imparables. Estamos frente a
+todo un reto, un experimento ya in progress world wide,
+un futuro deseable.
+62
+
+cultura libre.indd
+
+62
+
+10/10/2012, 10:06
+
+Bibliografía
+FEDERICI, S. (2010), Calibán y la bruja: mujeres, cuerpo
+y acumulación originaria. Traficantes de Sueños,
+Madrid. Disponible en http://www.traficantes.net/
+index.php/editorial/catalogo/historia/Caliban-y-labruja.-Mujeres-cuerpo-y-acumulacion-originaria2a-Edicion/.
+LESSIG, L. (2005), Por una Cultura Libre. Cómo los grandes grupos de la comunicación utilizan la tecnología y
+la ley para clausurar la cultura y controlar la creatividad. Traficantes de Sueños, Madrid. Disponible en
+http://traficantes.net/index.php/editorial/catalogo/
+coleccion_mapas/por_una_cultura_libre_como_los_
+grandes_grupos_de_comunicacion_utilizan_la_tecnologia_y_la_ley_para_clausurar_la_cultura_y_controlar_la_creatividad.
+OSTROM, E. (1990), Governing the commons: The Evolution of Institutions for Collective Action. Cambridge,
+University Press, Nueva York.
+MARX, K. (2007), El Capital (Sobre cuestiones relativas
+a la acumulación originaria y a los cercamientos de
+los commons ver especialmente el Libro I, Tomo III).
+AKAL, Madrid.
+RODRÍGUEZ , E. (2007), «La riqueza y la ciudad: el
+gobierno de las externalidades y los commons en
+las metrópolis globales» en Producta 50: Algunas
+relaciones entre economía y cultura. YProductions,
+Barcelona. Disponible en http://www.ypsite.net/
+proyecto.php?id=3.
+VV AA (2004), Capitalismo cognitivo, propiedad intelectual
+y creación colectiva. Traficantes de Sueños, Madrid.
+63
+
+cultura libre.indd
+
+63
+
+10/10/2012, 10:06
+
+Disponible en http://traficantes.net/index.php/
+editorial/catalogo/coleccion_mapas/capitalismo_cognitivo_propiedad_intelectual_y_creacion_colectiva.
+YPRODUCTIONS (2010), Innovación en Cultura: Una
+aproximación crítica a la genealogía y usus del concepto. Traficantes de Sueños, Madrid. Disponible
+en www.traficantes.net/index.php/trafis/editorial/
+catalogo/coleccion_mapas/innovacion_en_la_cultura_una_aproximacion_critica_a_la_genealogia_y_
+usos_del_concepto.
+— (2009), Nuevas Economías de la Cultura: Parte 1. Tensiones entre lo económico y lo cultural en las industrias
+creativas. YProductions, Barcelona. Disponible en
+http://www.ypsite.net/investigacion.php?id=3.
+
+64
+
+cultura libre.indd
+
+64
+
+10/10/2012, 10:06
+
+El declive de las industrias culturales
+y la importancia de la cultura libre
+JARON ROWAN
+
+Entre la ola de medidas y recortes de carácter neoliberal que se han estado llevando a cabo en el Estado
+español durante los últimos años casi ha logrado pasar
+desapercibido uno de los cambios más importantes en
+la historia de las políticas culturales contemporáneas:
+la cultura ha dejado de entenderse y gestionarse como
+un derecho para pasar a considerarse un recurso. La
+progresiva desarticulación del Estado de bienestar
+que estamos experimentando se caracteriza por la
+progresiva privatización de servicios y competencias
+públicas, poniendo en mano de los mercados elementos tan necesarios como la salud, la educación o como
+veremos a continuación, la cultura. Es por ello que a
+continuación propongo unas reflexiones en torno a este
+proceso y sobre la necesidad de pensar en mecanismos
+para contrarrestar esta realidad desde movimientos que
+luchan por una cultura libre.
+
+Neoliberalización de la cultura
+Desde la transición democrática, entre las funciones
+asignadas al Ministerio de Cultura y las diferentes ad65
+
+cultura libre.indd
+
+65
+
+10/10/2012, 10:06
+
+ministraciones públicas con competencias en el ámbito
+cultural, estaban la de garantizar el acceso a la cultura
+por parte de la ciudadanía, preservar el patrimonio
+y acervo cultural, velar por la diversidad cultural y
+promover el desarrollo cultural y artístico de la ciudadanía. Todo esto está cambiando paulatinamente con
+la introducción progresiva de un conjunto de políticas
+destinadas a promover una visión estrictamente económica del papel que ha de cumplir la cultura. Bajo el
+paradigma de las denominadas industrias culturales y
+creativas y con la popularización de la figura del emprendedor cultural, comprobamos cómo acontece una
+progresiva privatización de las prácticas y del acervo
+cultural común. Para promover esta realidad se ha ido
+articulando una constelación de medidas, programas
+de promoción e instituciones que, encabezadas por la
+Dirección General de Política e Industrias Culturales
+dependiente del Ministerio de Cultura, están definiendo las prácticas culturales bajo parámetros estrictamente
+económicos.1
+Desde mediados de la década de los ochenta se
+han ido consolidando discursos que, asumido por
+todos los partidos gobernantes, lejos de presentar las
+prácticas culturales como elementos marginales a los
+ciclos de producción económica, sitúan la producción
+cultural en el epicentro de los planes de crecimiento
+
+1. Describo con más atención este proceso en Rowan, 2010.
+
+66
+
+cultura libre.indd
+
+66
+
+10/10/2012, 10:06
+
+económico de las ciudades y naciones occidentales. El
+origen de estos discursos tenemos que buscarlo tanto
+en los Estados Unidos como en el Reino Unido, países
+que comprobaron que, con la llegada al poder de Ronald Reagan y Margaret Thatcher, respectivamente, y
+con el programa neoliberal que estos promovían, sus
+infraestructuras culturales públicas eran desmanteladas y puestas en manos del mercado. En este proceso,
+documentado por Chin-tao Wu en su libro Privatizar
+la cultura, palabras como «desregulación» o «privatización» acompañaban discursos en torno a «emprendizaje
+cultural», «mercados culturales», «turismo cultural» o
+«economía de la cultura». Con la puesta en crisis de «lo
+público», las instituciones y prácticas culturales debían
+de encontrar salidas en el mercado privado, con lo que
+alteraron la relación del Estado con la cultura.
+Junto a las medidas de austeridad y recortes introducidos por estos gobiernos la década de los ochenta
+fueron testigo de cómo «las instituciones de arte con
+financiación pública se vieron obligadas, les gustara o
+no, a exponerse a las fuerzas del mercado y adoptar el
+espíritu competitivo de la libre empresa» (Wu, 2007:
+63). Paradójicamente estas medidas encontraron poca
+oposición por parte de la izquierda, puesto que ya
+desde mediados de la década de los sesenta, tanto desde organizaciones feministas, desde los movimientos
+subculturales como desde las asociaciones y colectivos
+de minorías étnicas, se había criticado el papel central
+del Estado como regulador de lo que debía considerar
+67
+
+cultura libre.indd
+
+67
+
+10/10/2012, 10:06
+
+cultura y del modelo político-cultural que este imponía. Es precisamente con la llegada del neoliberalismo
+al poder que todas aquellas críticas al papel del Estado
+como regulador y administrador de la cultura se verán
+acalladas por una visión que se presenta como la más
+democrática: que sea el mercado el que decida, aunando
+las opiniones y las voces de todos los consumidores
+y posteriormente emitiendo su veredicto. Según el
+analista cultural Jim McGuigan en su obra Rethinking
+Cultural Policy, este efecto se vio magnificado por la
+imposible comunicación entre la derecha neoliberal
+y la izquierda tradicional en temas concernientes a
+la cultura, pues sus posturas estaban completamente
+enfrentadas. Como señala este autor:
+La nueva derecha argumentaba a favor de la soberanía del consumidor; la vieja izquierda buscaba
+proteger al público de sí mismo corrigiendo los
+gustos de los consumidores. La solución de la derecha, la libre competencia, es el problema fundamental de la izquierda. El problema de la derecha,
+el corporativismo, es la solución de la izquierda.
+En estas circunstancias, no extraña que el debate
+haya terminado siendo un diálogo de besugos.
+(McGuigan, 2004: 18)
+Con todo esto la década de los ochenta vio cómo el
+paradigma de las industrias culturales se transformaban
+en el modelo a seguir. En parte, representantes de la
+68
+
+cultura libre.indd
+
+68
+
+10/10/2012, 10:06
+
+izquierda veían en las industrias culturales un modelo de crecimiento económico más social, puesto que
+incluso las clases más desfavorecidas podían poner a
+circular su «capital subcultural», noción desarrollada
+por Sarah Thorton en Club Culture: Music, Media,
+and Subcultural Capital. Otras autoras como Angela
+McRobbie veían en las industrias culturales un nuevo
+mecanismo de ascenso social para los jóvenes de clase trabajadora, de esta forma describió en el artículo
+«La ‘losangelización’ de Londres: tres breves olas de
+microeconomía juvenil de la cultura y la creatividad
+en Gran Bretaña» lo que denomina «la primera oleada
+de empresarios subculturales creados por sí mismos».
+Esta legitimidad académica de las industrias culturales
+facilitó la circulación y consolidación de estas visiones
+económicas de la cultura y los discursos sobre los que
+se sostienen.
+
+Cultura como derecho vs cultura como recurso
+Es serie de factores han permitido que de forma creciente desde la administración pública se hayan fomentado
+planes de promoción de industrias culturales y creativas.
+Se ha promovido la creación de incubadoras y viveros de
+empresas culturales así como la introducción de planes
+de formación para emprendedores, la creación de rutas
+de turismo cultural, las pugnas por obtener el capital
+cultural, etc. Es decir, se han favorecido un conjunto
+de programas y medidas que van definiendo la cultura
+69
+
+cultura libre.indd
+
+69
+
+10/10/2012, 10:06
+
+como un recurso. Esta idea, que ya fue formulada de
+forma clara por el teórico cultural George Yúdice en
+su libro El recurso de la cultura: usos de la cultura en la
+era global, hace hincapié en el uso instrumental que se
+hace de la cultura, que se valora por su capacidad de
+transformar, redefinir o regenerar el espacio urbano o
+en su defecto, de crear riqueza, y con ello desplaza la
+idea de que la cultura tiene un valor intrínseco.
+Para fomentar este cambio se han ido substituyendo
+los mecanismos tradicionales de apoyo a las prácticas
+culturales, con la introducción de créditos en lugar de
+ayudas, y se han criticado a las asociaciones, peñas y
+demás colectivos que tradicionalmente habían sido los
+encargados de mantener vivas las diferentes tradiciones
+culturales, y se han lanzado programas para transformarlas en empresas privadas. Igualmente hemos sido testigos
+de la introducción e implementación de regímenes de
+propiedad intelectual más agresivos, de la denuncia
+pública de los procesos de intercambio entre pares, del
+acoso a las páginas que contienen enlaces (que no contenidos) susceptibles de estar sujetos a derechos de autor
+o de la cesión de competencias culturales a empresas de
+gestión cultural totalmente opacas. Así, las administraciones públicas de forma paulatina han ido perdiendo
+su papel como garantes del acceso a la cultura por parte
+de la ciudadanía para ser instigadoras de un proceso de
+privatización de la cultura. Podemos leer como un paso
+evidente en esta dirección la reciente introducción de
+la Llei Omnibus por parte del gobierno catalán. Una
+70
+
+cultura libre.indd
+
+70
+
+10/10/2012, 10:06
+
+de las modificaciones más notables que presenta esta
+ley es un cambio en la promoción y financiación de las
+prácticas culturales, por lo que los y las artistas, músicos,
+payasos, escritores, etc. ya no se consideran susceptibles
+de recibir apoyo público, y en su lugar deben de apoyarse
+a las empresas culturales y a su figura más carismática: el
+emprendedor cultural. Literalmente la ley dice:
+Se consideran empresas culturales tanto las personas
+físicas como jurídicas dedicadas a la producción,
+distribución o comercialización de productos culturales incorporados en cualquier soporte […] se
+incluyen en este concepto las persona físicas que
+ejercen una actividad económica de creación cultural o artística.
+Los departamentos de cultura ya no legislan para la
+ciudadanía, al contrario, su objeto de gobierno es el empresariado cultural. La administración nos transforma en
+industrias culturales. Estos planes se ven reforzados por
+acciones tomadas a nivel europeo. Por ejemplo, en el Libro
+Verde para las Industrias Culturales 2010 leemos:
+Las «industrias culturales» son las que producen y
+distribuyen bienes o servicios que, en el momento
+en el que se están creando, se considera que tienen
+un atributo, uso o fin específico que incorpora o
+transmite expresiones culturales, con independencia del valor comercial que puedan tener.
+71
+
+cultura libre.indd
+
+71
+
+10/10/2012, 10:06
+
+Reforzando esta idea de que cualquier práctica
+cultural ya es parte de una industria. Estas nociones
+van a entrar y serán pilares del nuevo «Programa Cultura 2014-2020» de la UE, en el que conceptos como
+la diversidad cultural, el acceso o la cooperación, son
+desplazados a un segundo lugar por términos como
+innovación, industrias creativas o desarrollo.
+
+Contradicciones del modelo
+Lo más llamativo de todo este proceso es que se promueve la creación de un sector económico que nunca ha
+demostrado ser viable. No tenemos datos empíricos de
+que se hayan logrado cumplir las cifras de crecimiento o
+empleo que se predijeron hace ya más de 10 años. Pese a
+que desde la UE se diga que las industrias culturales «contribuyen a aproximadamente el 2,6 % del PIB de la UE,
+con un gran potencial de crecimiento, y proporcionan
+empleos de calidad a unos cinco millones de personas en
+la EU-27» la empiria nos demuestra que lejos de crear
+empleo, hasta el momento las industrias culturales se
+han caracterizado por crear formas de autoempleo precario, siempre marcado por la extrema flexibilidad, la
+autoexplotación y la intermitencia económica, y es que
+todos los planes de promoción de las industrias creativas
+y culturales están basados en estimaciones y expectativas
+de crecimiento, nunca hechos reales.
+Un informe aparecido en 2010, producido por la
+Work Foundation, bajo el título «A Creative Block?
+72
+
+cultura libre.indd
+
+72
+
+10/10/2012, 10:06
+
+The Future of the UK Creative Industries», analiza el
+estado presente y el futuro de las industrias creativas
+en el Reino Unido. El trabajo presenta algunas conclusiones que son anómalas en el contexto de este tipo
+de documentos puesto que lejos de caer en los tópicos
+habituales en torno a la fortaleza del sector, su capacidad
+de sobrevivir a las crisis, las tasas crecientes de empleo
+que presenta o su viabilidad económica, destapa algunas
+realidades más crudas y preocupantes. Puede que esto
+sea así puesto que es uno de los primeros documentos
+de este tipo en analizar el sector desde que empezó la
+actual crisis económica.
+El trabajo explora el mito de que las industrias creativas son inmunes a las crisis económicas o que están
+mejor preparadas para afrontarlas. Se indica que:
+Las industrias creativas son especialmente vulnerables a las crisis económicas, en parte porque
+el número desproporcionado de microempresas
+que conforman este sector implica que sea mucho
+más difícil absorber golpes económicos exógenos
+[…] la recesión pos-2008 ha tenido importantes
+consecuencias que se pueden ver tanto en las tasas
+de fracaso económico con en las variaciones de
+empleo. Esta crisis ha tenido un especial impacto
+negativo en este sector en comparación con las dos
+recesiones previas, ya que se ha notado una caída
+importante en la demanda de empresas o trabajadores autónomos. A finales de 2008 un cuarto
+73
+
+cultura libre.indd
+
+73
+
+10/10/2012, 10:06
+
+de las tiendas de música independientes habían
+quebrado. (2010: 20)
+En la misma línea las cifras de desempleo no dejan
+lugar a dudas, «el desempleo directo en las industrias
+creativas se ha doblado, pasando de 43.445 personas
+desempleadas en abril de 2008 a 83.660 en abril de
+2009» (2010: 21) (estos datos no se contrastan con el
+nivel de desempleo general del Reino Unido cuya tasa de
+crecimiento ha sido inferior al mostrado en las industrias
+creativas). Esto desmiente las teorías que sostienen que
+las industrias creativas tienen más capacidad de adaptarse
+a los vaivenes del mercado que otros sectores o que su
+modelo basado en clusters de negocios es refractario a
+las crisis. Lamentablemente no tenemos datos sobre esta
+realidad en el Estado español, en parte porque gran parte
+de los informes sobre la realidad económica de la cultura
+se hacen como encargos para instituciones públicas que
+necesitan validar sus políticas.
+Igualmente en el informe también se indica que
+existe bastante variación en cómo afecta el desempleo
+los diferentes sectores que integran las industrias creativas, puesto que:
+En las artes, el entretenimiento y los servicios recreacionales el desempleo ha sido mucho mayor
+que en otras recesiones, para los sectores centrados
+en la comunicación e información la caída ha sido
+notablemente inferior. (2010: 21)
+74
+
+cultura libre.indd
+
+74
+
+10/10/2012, 10:06
+
+Esto nos indica algo que ya podíamos intuir, es erróneo pensar que las artes funcionan y pueden funcionar
+de la misma forma que los grandes conglomerados de
+la comunicación. En parte esta caída tan notable de las
+artes y el entretenimiento tiene que ver con los recortes de presupuestos públicos, cosa que no han notado
+corporaciones como News Corporation, ITV Plc, etc.
+cuya dependencia de las administraciones públicas es
+mucho menor o nula.
+Se derivan dos importantes reflexiones de este informe, la primera es que por mucho que los modelos
+desarrollados previamente a la crisis demostraran lo
+contrario, las industrias creativas son vulnerables a las
+recesiones y su capacidad de creación de empleo se ve
+seriamente amenazada en momentos en los que no
+hay crecimiento en otros sectores. Es decir, más que
+constituir un motor económico, las industrias creativas
+actúan más como un carro que se deja arrastrar por
+el crecimiento económico de sectores adyacentes. Por
+otro lado, vemos cómo la crisis hace más evidente la
+fisura que se abre entre los medios de comunicación, la
+informática o los grupos editoriales y sectores como las
+artes escénicas, las artes visuales, el diseño gráfico o la artesanía. Esto nos ayuda a comprender que las industrias
+creativas, este sector construido desde arriba mediante
+políticas públicas, conglomera distintas realidades que
+se mueven siguiendo principios económicos y políticos
+muy diferentes. Es el momento de cuestionarse si este
+artificio funciona o es necesario considerar que estas
+75
+
+cultura libre.indd
+
+75
+
+10/10/2012, 10:06
+
+realidades se mueven en escalas de valor, impacto o representan posicionamientos demasiado dispares como
+para ser legislados y tratadas como realidades similares.
+Posiblemente esto contribuiría a reflexionar sobre la
+verdadera dimensión económica de ciertas prácticas
+culturales y su valor social.
+
+Cultura libre
+Es importante que desde movimientos como el de
+la cultura libre se puedan empezar a diseñar nuevos
+modelos productivos e infraestructuras de producción,
+distribución y promoción de las prácticas culturales que
+sean tanto sostenibles económicamente como capaces
+de generar procomún para de estar forma contrarrestar
+estos modelos caducos que además se están mostrando
+inefectivos para la misión que se propusieron. Es necesario trabajar en modelos que en lugar de privatizar
+el acervo cultural común sean capaces de contribuir
+a fortalecerlo. La capacidad de la creación de estas
+nuevas infraestructuras definirá nuestra disposición o
+no de mantener un procomún cultural y del conocimiento vivo y susceptible de ser explotado de forma
+colectiva.
+El movimiento de la cultura libre nació inspirado,
+en parte, por el auge sin precedentes Software Libre
+(que ha demostrado que la militancia y el mercado no
+tienen por qué estar reñidos) y en parte como respuesta
+a la progresiva privatización de la cultura por parte de
+76
+
+cultura libre.indd
+
+76
+
+10/10/2012, 10:06
+
+grandes corporaciones. Estas, tras poner en marcha
+poderosos lobbies, han conseguido de forma progresiva que los diferentes estados secundan sus intereses
+instaurando regímenes de propiedad intelectual cada
+vez más restrictivos cómo hemos comprobado con la
+reciente implementación de la Ley Sinde-Wert. En un
+momento histórico dominado por el crecimiento y hegemonía de los medios digitales y la centralidad del conocimiento como elemento productivo, corporaciones
+del entretenimiento y representantes de las industrias
+culturales han luchado por limitar el uso y acceso a
+sus productos, y de esta manera, como ya hemos visto,
+reivindican de forma exclusiva el valor económico de
+la cultura. De forma paralela hemos experimentado un
+drástico abaratamiento de los medios de producción
+y de las herramientas digitales que han permitido que
+muchos ciudadanos y ciudadanas, que gozan de cierto
+bienestar económico, puedan filmar sus propias películas caseras, grabar sus discos, realizar collages, alterar
+fotografías, etc. dando pie a una auténtica cultura del
+remix cotidiano que pone en crisis la figura tradicional
+del o de la creadora.
+Desde los movimientos que defienden la cultura
+libre se ha venido exigiendo el derecho a compartir y
+acceder a todas estas nuevas manifestaciones culturales.
+Se ha denunciado la creciente privatización del acervo
+cultural. Se han puesto de manifiesto los sistemas de
+control de los usuarios que construyen y navegan en
+Internet o se han denunciado las formas en que ciertas
+77
+
+cultura libre.indd
+
+77
+
+10/10/2012, 10:06
+
+administraciones públicas han secundado los intereses de
+entidades de gestión en detrimento de legislar a favor de
+los intereses generales de la ciudadanía. De forma paralela otra preocupación ha ido imponiéndose en muchos
+de los foros y encuentros promovidos por la cultura libre:
+¿cómo podemos hacer sostenibles estas nuevas prácticas
+culturales? Esta pregunta busca responder a dos realidades, la de los propios creadores y creadoras de contenidos
+que quieren vivir de su trabajo y a las acusaciones de las
+industrias culturales que consideran que el intercambio
+de archivos está empobreciendo a los y a las artistas. La
+voluntad de definir prácticas económicamente sostenibles ha dado pie a una de esas coaliciones estratégicas que
+considero que debemos analizar con más detenimiento.
+Bajo el lema de «nuevos modelos económicos para la
+cultura» los movimientos que defienden la cultura libre
+se han acercado peligrosamente a sujetos e ideologías
+liberales que en su afán por liberarse del Estado y sus
+diferentes administraciones abogan por dejar la cultura
+en manos del mercado.
+De esta forma hemos sido testigos de una proliferación de encuentros y debates centrados en repensar los
+nuevos modelos económicos que sustentan las prácticas
+culturales. La lógica que representan es muy simple, la
+supuesta «piratería» y el fácil acceso a contenidos en
+línea van en detrimento de los y las creadores de contenidos puesto que en este nuevo paradigma nadie los
+remunera por su trabajo. Para solucionar esta situación
+es necesario definir nuevos modelos que garanticen el
+78
+
+cultura libre.indd
+
+78
+
+10/10/2012, 10:06
+
+acceso a contenidos a la par de generar cierta remuneración para sus creadoras. De esta manera somos testigos
+de un desplazamiento de un problema político que se
+presenta como uno meramente técnico. Si el mercado
+es capaz de diseñar dispositivos que faciliten el acceso
+a contenidos previo pago, la ciudadanía se «re-educará»
+y dejará de incurrir en su legítimo derecho a la copia
+privada. De esta manera empiezan a sonar nombres de
+plataformas digitales como Netflix, Spotify, Jamendo,
+Filmin, etc. como soluciones a un problema mucho más
+complejo y multidimensional. En parte esta cercanía
+de posicionamientos se debe a un error lingüístico, que
+voy a pasar a analizar a continuación. Y es que si bien
+es verdad que el acceso a la cultura ha sido uno de los
+pilares del movimiento, acceso no significa lo mismo
+en el entorno del software que en la circulación de
+objetos culturales.
+
+¿Acceso?
+Como bien argumenta Alexander Galloway en su libro
+Protocol. How Control Exists After Decentralization, los
+diferentes lenguajes de programación (Pearl, C++, etc.)
+y los denominados lenguajes naturales (Latin, Griego,
+Japonés, etc.), tienen muchos puntos en común: ambos tienen gramáticas específicas, sintaxis complejas o
+comunidades de hablantes que los sostienen y los hacen
+evolucionar. Pese a esto también tienen una diferencia
+fundamental, y es que el código es el único lenguaje que
+79
+
+cultura libre.indd
+
+79
+
+10/10/2012, 10:06
+
+es ejecutable. No hay ningún otro lenguaje que haga lo
+que diga, el código sí, la línea de código tiene sentido
+cuando se ejecuta. De esta manera las máquinas cuando
+leen el código también lo ejecutan. A diferencia de los
+lenguajes naturales, el código transforma el sentido en
+acciones concretas. Un ser humano puede leer la palabra
+correr y no hacerlo, una máquina no puede leer la línea
+de código «cerrar» sin que se apague.
+Cuando desde el software libre se exigía poder tener
+acceso al código fuente de los programas, no se hacía
+para poder leerlo fuera de las máquinas que lo ejecutan.
+Nadie quería poder leer el código fuente de un sistema
+operativo impreso en papel. Por esta razón tener acceso
+al código implica poder reescribirlo, y con esto, alterar
+sus funciones o cambiar las acciones que desencadena.
+En los lenguajes naturales el acceso es diferente, uno
+puede acceder al visionado de una película pero no por
+ello acceder al metraje que permitiría re-editarla. Uno
+puede escuchar una canción por streaming sin tener
+acceso a las partituras, grabaciones de audio sobre la
+que se interpreta. De esta manera, si en el lenguaje
+de programación el acceso implica la capacidad de
+transformación y de acción, el acceso simple a obras
+en lenguajes naturales no implica lo mismo.
+Esta realidad tiene implicaciones políticas muy
+importantes puesto que cuando se exige acceso, desde
+una óptica liberal, se podría pensar que con poner al
+servicio del usuario los mecanismos de mercado necesarios para que las obras se puedan consultar o visionar,
+80
+
+cultura libre.indd
+
+80
+
+10/10/2012, 10:06
+
+el acceso está garantizado. Una noción más profunda
+de acceso implicaría la capacidad de acceder a la obra
+para poder reinterpretarla, remezclarla y hacer derivados, es decir, darles vida a las obras reintroduciéndolas
+en cadenas de interpretación. Algunas de las empresas
+antes mencionadas permiten cierto acceso restringido a
+obras culturales, desde la cultura libre lo que se exigen
+son repositorios de obras que sean consultables pero
+que estén licenciadas de tal manera que también puedan
+ser transformables. De esta manera vemos dónde hay
+una diferencia fundamental que debido a un problema terminológico, en ocasiones puede dar pie a malos
+entendidos o a cercanías que no lo son tanto.
+
+Valor colectivo
+Con facilidad se acude a la metáfora de la reconversión industrial para negar la realidad política de este
+problema y disfrazarlo de una mera transformación
+económica, cómo si una cosa no supusiera automáticamente la otra. Recientemente se ha discutido mucho
+en torno a nuevas formas de patrocinio, la financiación
+distribuida o la reducción del precio de los productos
+como posibles medidas para facilitar el cambio de
+modelo de producción de cultura. Hemos de tomar
+estas medidas como soluciones temporales y no como
+la meta final, manteniendo abiertos debates de más
+calado que planteen la cultura como un procomún
+o que pongan en crisis la figura del o de la creadora
+81
+
+cultura libre.indd
+
+81
+
+10/10/2012, 10:06
+
+para poner de relevancia la capacidad creativa de la
+sociedad en su conjunto. La necesidad de constituir
+comunidades fuertes con derechos pero también con
+sus consiguientes obligaciones choca de frente con la
+subjetividad liberal que quiere poder interactuar con
+los demás sin constricciones y cuyo deseo de disfrutar
+de bienes culturales se debe saciar al instante.
+Posiblemente sea la hora de cuestionar ciertas
+exigencias individualizadas de los creativos que quieren acceder al valor que genera su obra de una forma
+individual. ¿Cómo serían los sistemas que permitiesen
+capturar este valor de forma colectivo? ¿Cómo podemos medir y redistribuir el valor social de la cultura?
+¿Cómo visibilizamos que el valor de las obras culturales no viene determinado por elementos intrínsecos a
+ellas sino que se deriva de sus usos sociales? Contestar
+a estas preguntas con rigor implicaría repensar el valor
+económico de la cultura no tan solo en términos económicos y por ende, desplazaría el debate de «nuevos
+modelos» a formas completamente nuevas de entender
+las relaciones cultura, economía y sociedad.
+Si en lugar de situar el mercado como solución a
+la presente coyuntura nos plateáramos la importancia
+de defender un procomún cultural caracterizado por
+un dominio público rico y accesible como alternativa
+al modelo impuesto por las industrias culturales el
+presente debate tomaría un cariz completamente diferente. Si en lugar de pensar en nuevos modelos de
+negocio pensáramos en nuevos ecosistemas productivos
+82
+
+cultura libre.indd
+
+82
+
+10/10/2012, 10:06
+
+vertebrados a través de comunidades responsables que
+definen las reglas de acceso y uso del procomún cultural,
+nos veríamos abocados a un debate más complejo que
+no busca tan solo cambiar un modelo productivo sino
+que obliga a repensar la propia base productiva. Es por
+ello que necesitamos desactivar la lógica liberal que en
+estos momentos domina la discusión si realmente queremos pensar en sostenibilidad y en la cultura como un
+conjunto de elementos y valores económicos, sociales
+y culturales.
+
+Bibliografía
+GALLOWAY, A. (2004), Protocol. How Control Exists After
+Decentralization. MIT Press, Cambridge.
+HARVEY, D. (2007), Breve historia del neoliberalismo.
+Akal, Madrid.
+MCGUIGAN, J. (2004), Rethinking Cultural Policy. Open
+University Press, Milton Keynes.
+MCROBBIE, A. (2007), La ‘losangelización’ de Londres:
+tres breves olas de microeconomía juvenil de la cultura
+y la creatividad en Gran Bretaña. Disponible en http:
+//eipcp.net/transversal/0207/mcrobbie/es.
+OAKLEY, K. (2004), «Not so Cool Britannia, The Role
+of Creative Industries in Economic Development»,
+International Journal of Cultural Studies, Special
+Issue.
+ROWAN, J. (2010), Emprendizajes en cultura. Discursos,
+instituciones y contradicciones de la empresarialidad
+cultural. Traficantes de Sueños, Madrid.
+83
+
+cultura libre.indd
+
+83
+
+10/10/2012, 10:06
+
+THORTON, S. (1994), Club Culture: Music, Media, and
+Subcultural Capital. Wesleyan, Londres.
+WORK FOUNDATION (2010), A Creative Block? The
+Future of the UK Creative Industries. Disponible en
+http://www.theworkfoundation.com/assets/docs/
+publications/277_A%20creative%20block.pdf.
+WU, Chin-Tao (2007), Privatizar la cultura. Akal, Madrid
+YÚDICE, G. (2002), El recurso de la cultura: usos de la
+cultura en la era global. Gedisa, Barcelona.
+
+84
+
+cultura libre.indd
+
+84
+
+10/10/2012, 10:06
+
+Tercera parte
+
+FCForum, herramientas
+para responder
+
+El FCForum, Foro internacional de cultural libre que
+X.net organiza en Barcelona desde 2008, es un espacio
+abierto para la elaboración de propuestas desde la sociedad civil sobre los temas de la privatización de la cultura
+y la censura en el uso de Internet. En él convergen las
+líneas de lucha de muchas organizaciones nacionales
+e internacionales, a través del trabajo colectivo y en
+Red, en el se producen herramientas para las reformas
+políticas.
+En 2009 se produjo la Carta para la Innovación, la
+Creatividad y el Acceso al conocimiento, una propuesta
+de reforma de las leyes de copyright que está siendo
+ampliamente utilizada por los «lobbies» ciudadanos.
+En 2010 vio la luz el Manual para la creatividad
+sostenible, How-To, creado con la intención de romper
+con el miedo de la comunidad creativa hacia los nuevos
+modelos de producción y distribución de la cultura.
+
+85
+
+cultura libre.indd
+
+85
+
+10/10/2012, 10:06
+
+Carta para la innovación, la creatividad
+y el acceso al conocimiento*
+FCFORUM
+(Foro para el acceso a la cultura y el conocimiento)
+
+Introducción
+La sociedad de la información y el nuevo contexto digital han supuesto una revolución en la forma de crear
+conocimiento y cultura, y, sobre todo, en la forma de
+acceder a ellos. Ciudadanos, ciudadanas, artistas y consumidores han dejado de ser sujetos pasivos y aislados
+frente a la industria de producción y distribución de
+contenidos. Ahora cada persona colabora, participa y
+decide de forma más directa y democrática.
+La tecnología, como puente, permite que las ideas y
+el conocimiento fluyan; de esta forma acaba con muchas
+de las barreras geográficas y tecnológicas que impedían
+compartir; y proporciona, además, nuevas herramientas
+educativas que propician la aparición de nuevas fórmulas
+de organización sociales, económicas y políticas. Esta revolución es comparable a la que provocó la imprenta.
+* La versión completa de la carta puede consultarse en http://fcforum.net/
+es/charter.
+Licencia dual: Esta Carta está publicada con una licencia dual. Puedes
+volverla a publicar usando cualquiera de estas licencias:
+–Licencia de Documentación Libre de GNU 1.3.
+–Reconocimiento-Compartir bajo la misma licencia 3.0 España.
+
+86
+
+cultura libre.indd
+
+86
+
+10/10/2012, 10:06
+
+A pesar de esto, la industria del entretenimiento, la
+mayoría de los proveedores de servicios de comunicaciones y los centros de poder siguen basando sus beneficios
+y su autoridad en el control de los contenidos, de las herramientas y de los canales de distribución, manteniendo
+una economía de la escasez. Y todo esto violando los
+derechos de los/as ciudadanos/as a la educación, al acceso
+a la información, a la cultura, a la ciencia y la tecnología,
+la libertad de expresión, la inviolabilidad de las comunicaciones y de la privacidad, la libertad de compartir.
+En la regulación del copyright, el interés general debe
+ser priorizado frente a intereses privados.
+Las instituciones, estructuras y convenciones del
+sistema actual no sobrevivirán si no son capaces de
+adaptarse a los nuevos tiempos. Las que sobrevivan se
+verán alteradas y redefinidas por la nueva realidad, y
+es posible que para ello necesiten esquemas de funcionamiento totalmente distintos.
+Implicaciones políticas y económicas de la cultura
+libre
+La cultura libre potencia nuevos modelos de implicación
+ciudadana en la provisión de bienes públicos y de servicios basados en el procomún. El «gobierno del procomún» hace referencia a las reglas y los límites necesarios
+y acordados para gestionar la producción colectiva y el
+acceso a recursos compartidos. El gobierno del procomún reconoce e incorpora la participación, la inclusión,
+la transparencia, el acceso equitativo, y la sostenibilidad
+87
+
+cultura libre.indd
+
+87
+
+10/10/2012, 10:06
+
+como objetivos a conseguir a largo plazo. Reconocemos
+el procomún como una forma distinta y deseable de gobierno, no necesariamente ligada a la forma convencional
+de actuar de las instituciones tradicionales, con lo que
+demuestra la fuerza actual de la sociedad civil.
+Entendemos que la economía social, junto con el
+mercado, constituye una importante fuente de valor.
+La incorporación de una nueva y revitalizada idea del
+procomún a través de la tecnología digital (entre otros
+factores) amplía lo que entendemos por «economía» e
+insta a los gobiernos a respaldar el procomún al igual
+que respalda la economía de mercado. Para poder prosperar, el procomún necesita igualdad de condiciones.
+La actual crisis económica ha mostrado los límites
+de modelos anteriores. Por otro lado, la filosofía de la
+cultura libre, heredada del software libre, es la mayor
+demostración empírica de que una nueva ética y una
+nueva empresa son posibles. Ha demostrado que existe
+una nueva forma de producción que funciona, basada
+en habilidades e intercambios, donde el/la autor/a o
+productor/a no pierde el control de la producción y
+puede liberarse de los mediadores en la producción
+y en la distribución. Y lo ha hecho basándose en la
+iniciativa individual, en la colaboración con otros, con
+mecanismos de intercambio de acuerdo a las posibilidades y habilidades de cada persona, y así, democratizar el conocimiento, la educación, por medio de una
+producción y una distribución justa de los beneficios
+de acuerdo al trabajo realizado.
+88
+
+cultura libre.indd
+
+88
+
+10/10/2012, 10:06
+
+Expresamos nuestra preocupación por el bienestar
+de los/as artistas, investigadores/as, autores/as y otros
+productores/as creativos/as. Entre los proyectos e iniciativas de cultura libre se pueden identificar varias vías para
+conseguir sostenibilidad. Algunas de ellas ya están consolidadas, mientras que otras aún se encuentran en fase
+de pruebas. La combinación de estas opciones supone
+un aumento de la viabilidad de los proyectos, tanto para
+creadores independientes como para la industria.
+Deben existir reglas claras que promuevan el conocimiento común y compartido, protegiéndolo de
+formas de apropiación exclusiva y que prevengan la
+aparición de monopolios u oligopolios a raíz de dichas
+apropiaciones.
+La era digital conlleva implícita la promesa histórica
+de un mundo más justo y beneficioso para todos.
+Por todo lo anterior, nosotros proponemos las
+siguientes acciones:
+
+Demandas legales
+Desde un punto de vista legal, se han identificado lagunas existentes en las regulaciones y tratados nacionales
+e internacionales sobre el acceso a la cultura, tanto en
+el ámbito empresarial privado como en las relaciones
+contractuales o en las políticas culturales públicas. Estas lagunas en las legislaciones vigentes perjudican el
+interés público e impiden el desarrollo de una industria
+cultural democrática y puesta al día.
+89
+
+cultura libre.indd
+
+89
+
+10/10/2012, 10:06
+
+El interés público pasa, sin duda, por respaldar y
+asegurar una creación continua de obras intelectuales,
+debido a su importante valor social, y asegurar que toda
+la ciudadanía pueda acceder a ellas sin trabas, para una
+gran variedad de usos.
+Derechos en contexto digital
+• Derecho de cita con propósitos educativos o científicos, o simplemente informativos, creativos u otros
+cualesquiera.
+• Derecho a copia privada cuando la reproducción
+es para uso privado, sea individual o colectivo, o
+para ser compartida entre iguales y no se obtenga
+ningún beneficio económico (lucro comercial) de
+ella. Poseer una copia privada de un trabajo no debe
+considerarse ilegal.
+• Uso justo: derecho a acceder y a usar obras bajo
+copyright sin necesidad de la autorización de los
+propietarios/as del copyright, con propósito educativo, científico, informativo, de parodia, satírico
+o accesorio al proyecto creativo principal.
+Los pagos de derechos de autor, las royalties y demás
+incentivos similares no deben ser considerados un fin
+en sí mismos.
+•
+
+Los creadores/autores, como todos los trabajadores, deberían recibir una justa compensación por
+trabajo. En los trabajos creativos por cuenta ajena
+donde no se puedan cobrar derechos de autor en
+90
+
+cultura libre.indd
+
+90
+
+10/10/2012, 10:06
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+tiempos o cantidades razonables, el salario debería
+ser garantizado.
+Las desigualdades en la capacidad de negociación
+llevan a situaciones injustas también entre las personas que crean y las entidades de comercialización.
+La abolición de todos los «cánones digitales» injustos que sancionan indiscriminadamente en nombre
+de la «compensación de los/as artistas», y que tratan
+de penalizar actividades que no son criminales en
+modo alguno. De igual modo tiene que abolirse
+todo concepto de «compensación obligatoria».
+Los/as autores/as y creadores/as deberían tener
+siempre la posibilidad de revocar el mandato de
+las entidades de gestión de derechos de autor.
+Las sociedades de gestión deberían administrar
+únicamente las obras que han sido registradas en
+su base de datos, que nunca suponen la totalidad
+de la producción creativa.
+No debería permitirse que la entidades de gestión
+de derechos de autores sean un monopolio, ni que
+estas impidan a los artistas o autores usar licencias
+libres.
+Las sociedades de gestión no deberían poder gestionar impuestos no atribuibles, ni debería existir
+ningún cobro obligatorio de derechos. Las cantidades no atribuibles deberían ser gestionadas por
+el Estado como incentivos a la creación.
+
+91
+
+cultura libre.indd
+
+91
+
+10/10/2012, 10:06
+
+Conocimiento común y dominio público
+• Expansión del dominio público y reducción de los
+períodos de copyright (menos de 50 años).
+• Los resultados de investigaciones y las obras intelectuales y culturales financiadas con fondos
+públicos deberían tener licencias que permitan el
+compartir.
+• El Estado y los organismos subvencionados por él
+que tengan en su poder obras cuyo copyright ha
+expirado, deberán garantizar que sean accesibles al
+público.
+Defensa del acceso a las infraestructuras
+tecnológicas y neutralidad en la Red
+• Los/as ciudadanos/as tienen derecho a una conexión a Internet que les permita enviar y recibir
+el contenido que deseen, usar los servicios y aplicaciones que quieran, conectar el hardware y usar
+el software que deseen, siempre que ello no dañe
+la Red. Los proveedores de servicios de Internet
+tienen que proporcionar toda la información sobre
+los protocolos que utilizan.
+• Los/as ciudadanos/as tienen derecho a una conexión
+a Internet libre de todo tipo de discriminación, ya
+consista esta en bloquear, limitar o priorizar determinados tipos de aplicaciones, servicios o contenidos,
+o basada en la ubicación del emisor o el receptor.
+• No se debería imponer ninguna limitación ni filtrado.
+92
+
+cultura libre.indd
+
+92
+
+10/10/2012, 10:06
+
+Directrices para la educación y el acceso
+al conocimiento
+La imitación es el punto de partida del aprendizaje.
+Copiar y compartir conocimiento son principios fundamentales de cualquier proceso educativo. Entendemos
+la educación como un proceso social que implica un
+amplio abanico de actores no solamente los oficiales
+y formales. Nuestra visión de la educación es la que
+fomenta una cultura de intercambio de conocimientos
+y una innovación educativa que sea eficiente y sostenible.
+Software libre
+El software libre (también llamado de código abierto) facilita estudiar y aprender conceptos en lugar
+de cajas negras, permite la transparencia en procesos de intercambio de información, asegura la competición, posibilita la innovación, proporciona independencia de intereses corporativos y hace crecer la
+autonomía de los/as ciudadanos/as.
+Por todo ello, las instituciones educativas y demás
+lugares en los que se dan procesos educativos deberían
+usar, promover e implementar software libre.
+Recursos educativos que permiten el compartir
+Los recursos educativos son una herramienta básica para
+la educación. Su publicación, que permite el compartir
+en el dominio público o bajo licencias libres, facilita el
+acceso, estimula el progreso y la participación y atiende
+93
+
+cultura libre.indd
+
+93
+
+10/10/2012, 10:06
+
+a la diversidad cultural, al mismo tiempo que maximiza
+la reutilización y la eficiencia.
+Por lo tanto, libros de texto, materiales de clase
+y otros recursos educativos deberían publicarse como
+recursos educativos que permitan el compartir asegurando el derecho a usarlos, copiarlos, adaptarlos,
+traducirlos y redistribuirlos.
+Acceso que permite el compartir
+Las publicaciones de acceso que facilitan el compartir
+aseguran el acceso a los resultados de la investigación
+científica, tanto para usos científicos como para el público en general, potencian las posibilidades de aprendizaje y permiten que distintas disciplinas descubran
+los resultados de las otras.
+Por todo ello, las universidades y centros de investigación deberían adoptar el modelo de acceso que facilita
+el compartir para la publicación de trabajos de investigación. La solicitud de patentes sobre los resultados de
+investigaciones financiadas con fondos públicos debería
+inhibirse. Las patentes cuyos titulares sean instituciones
+públicas deberían ser liberadas de forma irrevocable y
+libres de regalías o cualquier otra restricción.
+Estándares abiertos
+El uso de estándares abiertos y formatos que hacen
+posible el compartir es esencial para asegurar la interoperabilidad técnica, y también proporciona igualdad de
+oportunidades para proveedores/as rivales, permite un
+94
+
+cultura libre.indd
+
+94
+
+10/10/2012, 10:06
+
+acceso sin obstáculos a la información digital y garantiza
+la disponibilidad del conocimiento y la memoria social,
+ahora y en el futuro.
+
+Necesidades estructurales para una sociedad
+del conocimiento
+Privacidad
+Los/as ciudadanos/as tienen derecho a:
+•
+•
+
+•
+
+Navegar por Internet y acceder a sus contenidos de
+manera anónima.
+Decidir en cualquier momento trasladar, modificar
+o cancelar sus datos de usuario de cualquier servicio
+de Internet.
+No sufrir interceptación alguna de sus comunicaciones, y a poder cifrar sus comunicaciones.
+
+Derecho a las redes: libertad de uso, creación
+y conexión
+• La sociedad civil y la administración pública han
+de tener el derecho a proveer e implementar servicios de conexión a redes, incluyendo aquellos
+ofrecidos de manera gratuita y sin condiciones a
+los ciudadanos.
+
+Infraestructuras y regulación del mercado
+•
+
+Neutralidad: la neutralidad de la Red debe ser garantizada (léase demandas legales sección D, para
+una definición más precisa).
+95
+
+cultura libre.indd
+
+95
+
+10/10/2012, 10:06
+
+•
+
+•
+
+Simetría: los proveedores de acceso a Internet deben
+garantizar conexiones simétricas o una proporción
+de carga/descarga razonable. Debería existir un acceso a la banda ancha (ITU-i113) como servicio
+universal para los ciudadanos.
+Diversidad: deberían evitarse los monopolios en las
+infraestructuras y servicios de telecomunicaciones.
+Los ciudadanos tienen derecho a tener acceso a
+más de un proveedor (público o privado) y a que
+la oferta de este servicio de Banda Ancha no esté
+vinculada a la adquisición de otros productos o
+servicios. En todo caso la ciudadanía tiene derecho
+a disponer de sistemas, medios e infraestructuras
+que permita el acceso libre a Internet («dividendo
+digital»).
+
+Administración pública
+• El sector público, los proyectos financiados con
+fondos públicos y aquellos que impliquen a los
+ciudadanos por ley o de manera que afecte sus
+derechos fundamentales, deberían usar siempre
+software libre y estándares abiertos.
+• Cuando no exista una solución libre o estándares
+abiertos, el gobierno o la administración pública
+competente debería promover el desarrollo del
+software que sea necesario.
+• Los gobiernos deben garantizar un acceso gratuito
+a Internet no exclusivo, independiente del lugar de
+residencia de cada ciudadano.
+96
+
+cultura libre.indd
+
+96
+
+10/10/2012, 10:06
+
+Cómo se debería proceder en la administración
+pública en temas de evaluación y compra
+de software
+• La compra pública de software debería evaluar
+el coste total de su uso, incluyendo los costes de
+dejar de usarlo y de migrar a un software alternativo.
+• La contabilidad pública debería distinguir claramente los costes de las licencias de software, el
+mantenimiento, el soporte técnico y el servicio,
+desvinculándolos de los del hardware.
+
+Transparencia
+Se necesita transparencia en los procesos de regulación
+y en las actividades de lobby, hay que incluir información sobre quiénes son las autoridades responsables de
+la aplicación de la ley, los procedimientos obligatorios
+que se han de llevar a cabo, y así evitar la violación
+de cualquier derecho fundamental. Los recursos y herramientas digitales pueden añadir más transparencia
+y credibilidad a los procesos políticos. Asimismo, la
+existencia y acceso de las infraestructuras y de las herramientas digitales han de fundamentarse en procesos
+transparentes.
+Estaríamos encantados de suscribir un sistema de
+tres avisos para aquellos que violen el derecho de la
+ciudadanía a estar informada, si se diseñara uno.
+
+97
+
+cultura libre.indd
+
+97
+
+10/10/2012, 10:06
+
+Manual de uso
+para la creatividad sostenible*
+FCFORUM
+
+Ya no podemos retrasar más repensar las estructuras
+económicas que hasta ahora han estado produciendo
+y financiando la cultura. Muchos de los viejos modelos
+se han quedado anacrónicos y perjudican a la sociedad
+civil. El objetivo de este documento es promover estrategias innovadoras capaces de defender y ampliar el ámbito en el que la creatividad humana y el conocimiento
+pueden prosperar libremente y de forma sostenible.
+Este documento está dirigido a los reformadores
+políticos, a los y las ciudadanas y a los y las activistas
+de la cultura libre para proporcionarles herramientas
+prácticas con las que operar activamente este cambio.
+
+¿Quién genera la cultura?
+La creatividad es una capacidad humana que requiere
+del acceso a la cultura, al conocimiento y a la información existente para poder ser desarrollada. Todo el
+* La versión completa puede consultarse en: http://fcforum.net/es/
+sustainable-models-for-creativity/how-to-manual.
+Licencias: este documento está publicado bajo una doble licencia. Puedes
+republicarlo siempre y cuando respetes una de las siguientes licencias:
+–Creative Commons Attribution-Share Alike 3.0 Unported.
+–GNU Free Documentation License 1.3: http://www.gnu.org/licenses/
+fdl.txt.
+
+98
+
+cultura libre.indd
+
+98
+
+10/10/2012, 10:06
+
+mundo, a diferentes escalas, puede contribuir a producir cultura, valores y riqueza. La escala en la que operan
+estas contribuciones puede consistir en actividades muy
+básicas o muy complejas. Las necesidades y los recursos
+necesarios para el acto creativo pueden variar de escala
+también. Queremos promover formas de liberar tiempo
+y recursos para que este potencial distribuido pueda
+desarrollarse de manera sostenible.
+
+Principios básicos para la creatividad sostenible
+1. La reconversión de las industrias culturales no es
+solo necesario sino también inevitable.
+2. Nunca se ha creado ni ha circulado tanta cultura como
+en la era digital. En este contexto, compartir demuestra ser esencial para la divulgación de la cultura.
+3. Los beneficios que defienden los grupos de presión
+de las industrias culturales se basan en la producción artificial de escasez.
+4. Es necesario reconocer las habilidades y las contribuciones de todos los agentes del ámbito cultural,
+no solo las del productor.
+5. El contexto digital beneficia tanto a los creadores
+y emprendedores como a la sociedad civil. Los
+modelos deseables hacen que sea más fácil para los
+usuarios, los consumidores y los productores relacionarse entre ellos. El papel de los intermediarios
+tiene que ser revisado según la prisma de una idea
+de la colaboración.
+99
+
+cultura libre.indd
+
+99
+
+10/10/2012, 10:06
+
+6. Internet es una herramienta esencial para establecer
+el contacto entre los creadores y el público. Esta es
+una de las razones por las que es necesario garantizar
+el libre acceso a Internet para todos.
+7. Los gobiernos que no promueven las nuevas formas
+de creación y difusión de la cultura están generando
+pérdidas para la sociedad y destruyendo su diversidad cultural.
+8. Como ha puesto de manifiesto el caso de Software
+Libre, la producción y distribución entre pares no
+es incompatible con las estrategias de mercado y la
+distribución comercial.
+
+Modelos económicos para la creatividad
+sostenible
+La siguiente lista comienza con los modelos que son
+más similares a los tradicionalmente aceptados por
+las industrias culturales, hasta llegar a los que más se
+acercan a la idea de compartir propia de nuestra época.
+Muchos de estos modelos ya están aplicándose y están
+en pleno funcionamiento. Tenemos que fomentar las
+condiciones para su desarrollo y eliminar las barreras
+que limitan su crecimiento.
+1. Pagar por lo que se recibe
+Algunos consejos para la reestructuración de las
+industrias culturales. El público está dispuesto a
+pagar por los productos o bienes culturales siempre
+100
+
+cultura libre.indd
+
+100
+
+10/10/2012, 10:06
+
+2.
+
+3.
+
+4.
+
+5.
+
+y cuando considere que el precio es razonable y el
+pago no restringe su libertad. Debe ser fácil, accesible y asequible en vez de obligatorio, estático y
+criminalizado. Hacedlo opcional y ofreced distintas
+opciones. Pagad salarios justos cuando contratáis a
+profesionales.
+Publicidad
+Entre bombardear a los usuarios con publicidad y
+la ausencia total de anuncios hay opciones intermedias y éticas: anuncios selectivos (solo aceptar
+publicidad de proyectos afines; dar a los usuarios
+control sobre el consumo de «anuncios»; permitirles
+solicitar anuncios relacionados con el artículo que
+están leyendo…).
+Pagar por un valor añadido
+Compartir copias es útil para la construcción de
+una reputación, que se convierte en la base para
+cobrar por servicios y otras cosas que no se pueden
+copiar, tales como actuaciones en directo, trabajo
+especializado, complementos llamativos, copias
+físicas atractivas…
+Freemium
+Freemium es un modelo de negocio consistente
+en ofrecer de forma gratuita servicios básicos o
+productos digitales descargables mientras se cobra
+por las características avanzadas o especiales.
+Contribuciones
+Los usuarios contribuyen con sumas de dinero a
+mantener un determinado proyecto o empresa.
+101
+
+cultura libre.indd
+
+101
+
+10/10/2012, 10:06
+
+6.
+
+7.
+
+8.
+
+9.
+
+Cuanto más involucrados y respetados se sientan,
+mejor funcionará este sistema.
+Crowdfunding
+Los ciudadanos o entidades invierten en una empresa cultural, convirtiéndose en accionistas. Esta
+contribución puede ser una inversión previa a la
+creación del trabajo o micro o macro créditos o
+donaciones a obras existentes.
+Estrategias basadas en los bienes comunes y en la
+creación de valor distribuido
+Los proveedores de plataformas comerciales de
+cooperación deben compartir los ingresos con los
+creadores que producen el material que hace valiosos sus servicios, mientras que los «comuneros»
+pueden compartir y explotar libremente los bienes
+comunes.
+Sistema de financiación colectiva
+Una tarifa plana sobre la conexión a Internet no se
+puede tomar en consideración si no implica la creación de un fondo común de recursos equitativo y
+democrático y si reconoce a los ciudadanos el derecho
+a compartir y reutilizar libremente las obras.
+Renta básica
+Al conectar el tema de la cultura libre a visiones
+ligadas con transformaciones sociales a gran escala
+en economías capitalistas, se puede plantear sostener la sociedad como cuerpo productivo y una
+renta básica garantizada sería una manera de evitar
+la precariedad y redistribuir la riqueza.
+102
+
+cultura libre.indd
+
+102
+
+10/10/2012, 10:06
+
+10. Financiación pública / políticas públicas
+Creemos que en el contexto de una sociedad de los
+contribuyentes, la cultura debe recibir una parte
+de la inversión pública debido a su innegable valor
+social. La financiación social no debe verse como
+un sustituto de las responsabilidades públicas en
+relación con la financiación de la cultura, y la
+cultura libre no debe constituir una anomalía.
+1. Las obras financiadas con fondos públicos
+deben ser liberadas después de un tiempo
+razonable una vez agotada su vida comercial,
+para facilitar su circulación y que el público
+que ya pagó por ellas pueda usarlas y reutilizarlas.
+2. Deducciones fiscales para fomentar la microfinanciación y la liberación de las obras con
+licencias no restrictivas.
+3. El público debe tener la opción de contribuir
+a decidir cómo se realiza la inversión pública
+en cultura.
+4. Deben alentarse los canales alternativos de distribución. Las políticas culturales deben tener
+como objetivo fomentar la diversidad cultural
+y dar apoyo a plataformas de colaboración.
+5. Las redes de productores independientes, distribuidores y fabricantes deben ser fortalecidas
+y representadas en la radiodifusión pública.
+6. Necesitamos estudios de impacto para nuevas
+políticas en materia cultural. Debemos analizar
+103
+
+cultura libre.indd
+
+103
+
+10/10/2012, 10:06
+
+los efectos sobre los bienes comunes culturales
+y cognitivos antes de implementar propuestas
+de regulación.
+
+Resultados
+Procomún, dominio público y negocio
+Los nuevos modelos de negocio que entienden la producción colectiva como contexto a nutrir y salvaguardar
+y no como contexto a explotar, toman la cooperación
+como régimen natural del mercado. El ejemplo práctico
+más sugerente deriva de las comunidades de software
+libre. La «obra» se comparte bajo licencias no restictivas, permitiendo a terceros utilizarla y modificarla,
+siempre y cuando la obra derivada permita las mismas
+libertades, creando así un bien común que es mejorado constantemente con contribuciones sucesivas, y sin
+impedir la explotación comercial de los conocimientos
+y las competencias que derivan de ellos y de las propias
+obras.
+El usuario pasa a ser generador de valor, formando
+parte de un ciclo virtuoso de producción y consumo
+del que se beneficia.
+Mientras tanto, en este nuevo contexto, es necesario defender, promover y aplicar las condiciones que
+permiten la colaboración en Red.
+Enzarzadas en otro contexto, las industrias culturales tradicionales, que se muestran incapaces de entender los retos propuestos por la era digital, se nutren
+104
+
+cultura libre.indd
+
+104
+
+10/10/2012, 10:06
+
+de la producción colectiva pero no replican la lógica
+colaborativa, sino que imponen marcos de apropiación
+sobre los bienes comunes. Las industrias culturales se
+asientan sobre la concepción de la cultura propietaria
+(economía de la escasez) lejos de la filosofía de la cultura
+libre (economía de la abundancia).
+
+105
+
+cultura libre.indd
+
+105
+
+10/10/2012, 10:06
+
+cultura libre.indd
+
+106
+
+10/10/2012, 10:06
+
+Cuarta parte
+
+Nociones técnicas básicas
+
+cultura libre.indd
+
+107
+
+10/10/2012, 10:06
+
+Cómo funciona Internet*
+EDRI (European Digital Rights)
+
+Una red de redes de ordenadores
+Internet es un sistema mundial de redes
+de ordenador interconectadas
+Cuando dos o más dispositivos electrónicos (ordenadores, por ejemplo) se conectan entre sí para poder
+comunicarse, pasan a formar parte de una red. Internet es la interconexión a escala mundial de esas redes,
+pertenecientes a empresas, gobiernos y particulares, lo
+que permite que todos los dispositivos conectados a
+ellas puedan comunicarse entre sí.
+Para poder comunicarse, los ordenadores necesitan
+entenderse entre ellos. En Internet esto es posible porque todos los dispositivos emplean el mismo «lenguaje»
+o protocolo, concretamente el Protocolo IP (Internet
+Protocol). Es decir, es un «mercado único», sin barreras
+físicas, técnicas o nacionales. Es la base de todos los
+sistemas de comunicación a través de Internet.
+Enviar información por Internet usando el protocolo IP es como mandar por correo postal las páginas
+de un libro en muchos sobres distintos. Todos los
+* Para consultar la versión completa, véase http://edri.org/files/paper03_
+20120725_02_esp.pdf de EDRI (European Digital Rights), traducido por
+X.net.
+
+108
+
+cultura libre.indd
+
+108
+
+10/10/2012, 10:06
+
+sobres tienen la misma dirección del remitente y la
+misma dirección del destinatario. Aunque algunos sobres viajen por mar y otros por aire, tarde o temprano
+todos llegarán a su destino previsto y el libro podrá ser
+encuadernado de nuevo. Da lo mismo que la página 1
+llegue después que la 47.
+En Internet, el contenido del sobre también sigue
+protocolos (convenciones, formatos consensuados),
+uno para cada tipo de comunicación. Algunas de estas
+convenciones sobre IP son:
+– SMTP para enviar correos electrónicos,
+– HTTP para acceder a sitios web y
+– BitTorrent para compartir archivos por P2P (una
+forma de intercambiar archivos de datos con un
+gran número de personas).
+Cualquiera puede inventarse un protocolo y usarlo
+en Internet, siempre y cuando funcione sobre IP. Dicho
+de otro modo: el único límite es la imaginación y la
+única regla es que la dirección del sobre esté en un formato estándar. Su carácter abierto es lo que ha hecho de
+Internet un fenómeno global y cualquier restricción de
+su transparencia reduciría su potencial de evolución.
+El uso universal de un protocolo único para todas
+las comunicaciones tiene varias ventajas importantes.
+Los routers (aparatos encargados de transportar datos
+a través de Internet) no necesitan ser programados
+en función del tipo de datos. Ni siquiera necesitan
+109
+
+cultura libre.indd
+
+109
+
+10/10/2012, 10:06
+
+tener información sobre los datos que transportan
+siempre y cuando se use el Protocolo IP. Solo tienen
+que leer lo que pone en el sobre para poder entregar
+el mensaje, igual que el cartero que reparte las cartas. Es por esto que es tan importante la neutralidad
+de la Red; solo el autor y el receptor de la comunicación
+pueden decidir qué información debe priorizarse. En
+ningún caso el cartero puede discriminar por el contenido, el destinatario o remitente, el tipo de sobre o
+cualquier otra consideración. Da igual que en el sobre
+haya una factura o una carta de amor (salvo para quien
+lo reciba, claro).
+Esto lleva a:
+– Posibilidades ilimitadas de innovación en materia
+de nuevos protocolos y aplicaciones;
+– «privacy by design» (privacidad desde el diseño):
+no es necesario conocer el contenido de las comunicaciones;
+– flujo de datos rápido y flexible.
+En el fondo, Internet solo ofrece un servicio flexible: llevar datos de un dispositivo a otro independiente
+de la naturaleza de estos, de dónde y cómo se conecten
+a Internet o del tipo o contenido de los datos.
+Este carácter abierto y flexible es la causa principal
+de la innovación en Internet y de su éxito democrático
+y económico.
+
+110
+
+cultura libre.indd
+
+110
+
+10/10/2012, 10:06
+
+La dirección IP
+Una dirección digital
+La dirección IP es una dirección numérica asignada a
+cada uno de los dispositivos conectados a Internet.1
+En muchos casos, las direcciones IP pueden servir
+para identificar a una organización o a un particular
+que ha contratado Internet a través de un Proveedor
+de Servicios de Internet para conectar uno o más dispositivos.
+En otros casos, especialmente en redes de empresa,
+conexiones inalámbricas públicas o desprotegidas y conexiones móviles, la dirección IP no siempre permite
+identificar a la persona que ha llevado a cabo una acción
+rastreable electrónicamente.
+Como la mayoría de routers domésticos y de empresa suelen mostrar una única dirección IP para toda
+la gente conectada a esa red, la IP identificaría a un
+grupo de personas y no a un individuo concreto. Por
+este motivo, a menudo es complicado, si no imposible, saber con seguridad quién hizo exactamente qué
+basándose solo en la IP.
+1. Debido a que la versión actual del protocolo tiene un límite de
+direcciones de red admisibles, es cada vez más frecuente, sobre todo en las
+redes de empresa, compartir una dirección IP (entre todos los ordenadores de
+una oficina, por ejemplo). Esta restricción se solventará con la implantación
+de direcciones IPv6.
+
+111
+
+cultura libre.indd
+
+111
+
+10/10/2012, 10:06
+
+Por otro lado, dado que muy a menudo la dirección
+IP puede identificarte personalmente, como medida
+de precaución hemos de darlo por supuesto, salvo que
+estemos seguros de lo contrario.
+
+El sistema de nombres de dominio
+(DNS)
+La guía telefónica de Internet
+Cuando cuelgas un sitio web en Internet, este será accesible mediante la dirección IP numérica del servidor
+web donde está alojado (por ejemplo, en el momento
+de escribir esta guía, la dirección IP de edri.org es
+217.72.179.7). El problema es que las direcciones IP no
+son fáciles de recordar para los humanos. Usarlas para
+identificar recursos online tampoco es práctico, porque
+en Internet en ocasiones los servicios cambian de IP (si
+cambian de proveedor de servicios, por ejemplo).
+Como el uso de direcciones IP para páginas web no
+es ni práctico ni intuitivo, se crearon los «nombres de
+dominio» (como edri.org). El Sistema de Nombres de
+Dominio (DNS) es en parte el equivalente en Internet
+a la guía telefónica.
+112
+
+cultura libre.indd
+
+112
+
+10/10/2012, 10:06
+
+Si conoces el nombre de dominio del sitio web que
+quieres visitar, el DNS encontrará automáticamente la
+dirección IP del servidor web donde se aloja la página.
+Es decir, si escribes http://edri.org, tu ordenador identifica el dominio con la IP 217.72.179.7 y envía una
+petición a nuestra página web.
+El sistema de búsqueda del nombre de dominio
+sigue una estructura jerárquica de árbol. Al teclear http:
+//edri.org, tu ordenador primero se conecta a un servidor para pedir la dirección IP.1 Por defecto, el servidor
+DNS está gestionado por tu operador de Internet, pero
+se puede utilizar otro.
+Si alguien ha accedido recientemente a http://
+edri.org, el servidor DNS «recuerda» los datos y te facilita la dirección IP correcta. En caso contrario, deriva
+la consulta a un nivel superior de autoridad, donde se
+repetirá el proceso. El máximo nivel de autoridad son
+13 «servidores raíz» que recopilan los servidores DNS.
+Estos 13 servidores son muy estables y tienen una enorme capacidad, tanta que han seguido funcionando sin
+problemas incluso durante ataques graves (los llamados
+«ataques de denegación de servicio»).
+
+1. Si tu ordenador ha accedido recientemente a http://edri.org, ya conoce
+su dirección IP y no necesita comprobarla con el proveedor de servicios.
+
+113
+
+cultura libre.indd
+
+113
+
+10/10/2012, 10:06
+
+¿La? web
+
+Enlazando la sociedad de la información
+La web se basa en HTTP, un protocolo (lenguaje)
+relativamente reciente de nivel superior al Protocolo
+IP. El HTTP (HyperText Transfer Protocol, protocolo de transferencia de hipertexto) permite descargar
+documentos de hipertexto (lo que ahora se conocen
+como «páginas web») y enviar información básica a su
+servidor web.
+Las páginas web están escritas en un lenguaje de
+etiquetas llamado HTML (HyperText Markup Language). El World Wide Web Consortium (W3C)
+define las reglas del lenguaje y especifica marcadores
+especiales para indicar la tipografía y el estilo del texto.
+Por ejemplo, el texto en negrita tendrá <b> antes y
+</b> después.
+Si bien hay varias versiones de la especificación (la
+más reciente es HTML5), el protocolo HTML está
+en desarrollo permanente y abierto a la participación.
+Una vez definidos los estándares, no hay ninguna
+licencia o coste por usar HTML. La ventaja es que
+todos los sistemas informáticos disponibles entienden
+de la misma manera las instrucciones en HTML, por
+lo que cualquiera puede usar este lenguaje (gratis) con
+la seguridad de que todos los dispositivos mostrarán la
+114
+
+cultura libre.indd
+
+114
+
+10/10/2012, 10:06
+
+página web de la misma manera. La web (y el mundo)
+sería bastante peor si la gente tuviera que pagar por
+diseñar páginas en los lenguajes de distintos tipos de
+ordenador.
+Este carácter abierto y gratuito del HTML es imprescindible para garantizar que las páginas webs sean
+compatibles con todo tipo de dispositivos: ordenadores de sobremesa, portátiles, teléfonos móviles,
+tabletas, etc.
+Respetar la especificación HTML al programar
+páginas web también garantiza la accesibilidad de las
+personas con deficiencias visuales —de lo contrario, los
+sistemas de lectura de texto no entenderán las páginas
+visitadas.
+Las páginas web se publican en máquinas conocidas como «servidores web». Un servidor web es un
+ordenador que puede ser localizado por su dirección
+IP única. Normalmente una misma IP es compartida por muchos dominios (como www.edri.org y
+www.bitsoffreedom.nl), porque están almacenados
+(«alojados») en el mismo servidor. Es decir, un servidor, con una dirección IP única, puede alojar muchas
+páginas web. En el caso de las empresas de alojamiento
+web, un único servidor puede contener cientos de
+páginas sin relación entre sí. Por tal motivo, los intentos de «bloquear» páginas web concretas basándose
+en su dirección IP siempre han tenido consecuencias
+nefastas para el resto de páginas alojadas en el mismo
+servidor.
+115
+
+cultura libre.indd
+
+115
+
+10/10/2012, 10:06
+
+Además del HTTP, existe también una variante
+segura llamada HTTPS. Las conexiones HTTP (y,
+por tanto, la información enviada y recibida) no están
+cifradas, y cualquier persona con acceso al hardware de
+red entre el ordenador del usuario final y el servidor web
+podría interceptar la información enviada y recibida.
+El HTTPS incorpora cifrado a esta conexión, de
+forma que (en teoría) solo el usuario final y el servidor
+web pueden descifrar la información enviada y recibida.
+Esto se basa en la confianza: el editor de una página
+web solicita a una entidad de confianza un certificado
+estrictamente personal, firmado electrónicamente para
+confirmar la identidad del editor, de forma parecida a
+los sellos de cera que se usaban hace siglos para sellar
+documentos.
+Cuando te compras un ordenador o instalas un nuevo navegador, incluye por defecto un listado estándar
+de autoridades certificadoras de confianza que pueden
+ser utilizadas por los editores de páginas web. Esta lista
+estándar es el punto débil del sistema: incluye decenas de
+entidades. Con que una de ellas resulte no ser fiable, los
+usuarios estarán confiando en un servicio sin garantías.
+
+116
+
+cultura libre.indd
+
+116
+
+10/10/2012, 10:06
+
+Correo electrónico y seguridad
+Correo en el mundo digital
+Los correos electrónicos, o e-mails, son mensajes enviados por un remitente a uno o más destinatarios. La
+transferencia de estos mensajes se realiza por SMTP
+(Simple Mail Transfer Protocol, Protocolo simple de
+transferencia de correo) que, al igual que el HTTP, es
+un protocolo que funciona en un nivel sobre gastos
+superior sobre IP.
+Cuando enviamos un e-mail desde el correo web
+o a través de un cliente de correo, es transferido a un
+servidor de correo saliente, que a su vez lo transferirá
+a otro servidor, usando siempre SMTP, y así sucesivamente hasta llegar al servidor de destino.
+Para saber adónde tienen que enviar los e-mails,
+los servidores de correo realizan una consulta al DNS
+(como explicamos antes), que responde incluyendo
+información sobre qué servidores son responsables de
+procesar los e-mails de ese dominio. El dominio puede
+extraerse de la parte de la dirección de correo del destinatario que va después de la arroba.
+Una vez que el mensaje llegue al servidor de correo que
+gestiona todos los e-mails del destinatario, permanecerá
+ahí hasta que lo borre. Algunos clientes de correo eliminan
+automáticamente los correos del servidor en cuanto se
+descargan en el ordenador o smartphone del usuario.
+117
+
+cultura libre.indd
+
+117
+
+10/10/2012, 10:06
+
+Peer-to-peer
+De mí para ti sin nadie de por medio
+Las redes Peer-to-Peer o P2P están compuestas por dispositivos (grandes servidores y ordenadores personales)
+que participan en un tipo de comunicación en igualdad
+de condiciones. Cada nodo (dispositivo) puede comunicarse con otros nodos y no hace diferenciación entre
+consumidores y productores, clientes y servidores, etc.
+Sencillamente, son muchos dispositivos comunicándose con muchos dispositivos.
+Es lo contrario al modelo cliente-servidor, en el que
+un ordenador responde a las peticiones de muchos
+clientes. Un ejemplo sería un sitio web que da contenido a muchos usuarios (un dispositivo que se comunica
+con muchos dispositivos).
+En Internet, las aplicaciones P2P usan protocolos
+P2P sobre IP.
+Las redes P2P presentan una serie de ventajas:
+– No tienen punto único de fallo porque no hay entidades centralizadas. En una red cliente-servidor,
+si el servidor falla, el sistema falla. En una red entre
+pares, si uno de los nodos falla, el daño general es
+mínimo.
+– Pueden crecer fácilmente porque cada nuevo nodo añade más recursos (capacidad de tráfico,
+118
+
+cultura libre.indd
+
+118
+
+10/10/2012, 10:06
+
+–
+–
+
+–
+
+–
+
+almacenamiento, capacidad de procesamiento)
+a la Red.
+No están administradas porque no hay una autoridad central.
+Los fallos tienen un impacto mínimo porque los
+recursos están descentralizados y tiende a haber un
+alto nivel de duplicación de recursos.
+Dan libertad a sus usuarios. No solo los dispositivos
+están en igualdad de condiciones, sino también los
+usuarios de la red P2P.
+Una de las tareas más importantes de una aplicación P2P es organizar la Red y localizar recursos
+en ella.
+
+En parte, los servidores de correo electrónico son un
+ejemplo precoz de aplicaciones P2P: cualquier servidor
+que utilice el protocolo SMTP puede enviar un correo
+a otro servidor. El Sistema de Nombres de Dominio
+también puede devolver una lista de servidores capaces
+de procesar el correo entrante de un dominio concreto,
+lo que aumenta la fiabilidad del sistema.
+En las redes de intercambio de archivos, los nodos
+no conocen directamente la dirección IP de los otros
+nodos ni saben qué archivos (o partes) tiene cada nodo.
+Esto se solventa mediante un proceso en el que los
+usuarios comparten información sobre los contenidos
+que tienen. Los archivos se identifican mediante archivos de hash, que básicamente son huellas digitales que
+permiten que cada archivo sea único e identificable.
+119
+
+cultura libre.indd
+
+119
+
+10/10/2012, 10:06
+
+Las Tablas de Hash Distribuidas (DHT) permiten a los
+usuarios saber qué usuarios tienen el archivo (o algunas
+de sus partes) que quieren descargar.
+Los usuarios de la red P2P necesitan conseguir los
+hash de los archivos que buscan. Por ejemplo, las páginas web desde las que se pueden descargar versiones
+del sistema operativo Ubuntu publican estos archivos.
+Existen diccionarios que convierten las huellas hash en
+descripciones comprensibles para los humanos, lo que
+permite buscar archivos en la red P2P.
+Páginas como thepiratebay.org y mininova.org
+proporcionan estos diccionarios, pero las huellas también pueden distribuirse por correo electrónico, chat
+y redes sociales, lo que significa que no hay un sistema
+centralizado.
+Usar redes P2P, por tanto, favorece la promoción
+de los valores nativos de Internet.
+
+El buscador
+Un índice de Internet
+La navegación por la Red se realiza a través de hipervínculos (texto o imágenes que, al hacer clic en ellos,
+llevan a otro sitio web).
+120
+
+cultura libre.indd
+
+120
+
+10/10/2012, 10:06
+
+Cualquiera que cree una página web puede añadir
+enlaces a otros contenidos online. Gracias a esta práctica
+de añadir enlaces, todos los internautas contribuyen a
+organizar la información en una red de recursos interconectados.
+Hay que tener en cuenta que la web no tiene un
+índice centralizado que registre todo lo que está disponible en la Red, por lo que los buscadores se hacen
+indispensables para navegar por Internet de forma más
+eficiente.
+Existen varios tipos de buscadores. El más importante es el buscador jerárquico, que utiliza software (conocido como «robot» o «spider») para buscar contenidos en
+la web e indexarlos sistemáticamente. La complejidad y
+eficacia del robot determina el tamaño y la actualización
+del índice, dos datos importantes para medir la calidad
+de un buscador. Para que nos entendamos: el spider sigue
+todos los enlaces de todas las páginas, indexa las páginas
+enlazadas y luego sigue los enlaces de esas páginas, los
+indexa y así sucesivamente.
+La operación más importante que realiza un buscador es cotejar la búsqueda que realiza el usuario con
+la información indexada. Por lo general, el resultado es
+una lista de referencias ordenadas según su relevancia.
+Suelen incluir un título, un fragmento de información e
+hiperenlaces a las páginas que la tecnología del buscador
+considera que pueden ser relevantes.
+Junto con los «resultados orgánicos» (es decir, las páginas encontradas por el buscador), los buscadores
+121
+
+cultura libre.indd
+
+121
+
+10/10/2012, 10:06
+
+comerciales incluyen resultados patrocinados, determinados por un proceso de subastas de palabras clave a
+los anunciantes. El proceso de búsqueda de resultados
+orgánicos es complejo y los principales buscadores comerciales protegen sus algoritmos de clasificación como
+secretos de empresa. PageRank, propiedad de Google, es
+uno de los algoritmos de posicionamiento más conocidos. Predice la relevancia de las páginas web en el índice
+analizando la estructura de enlaces en la Red (es decir, el
+tipo de páginas que enlazan con esa página).
+Otras técnicas utilizadas para que los resultados
+sean más relevantes para el usuario son el análisis del
+contenido de los sitios web y el análisis de los datos de
+usuario. Los buscadores comerciales utilizan cookies
+para saber las búsquedas que realiza cada usuario, en
+qué enlaces hace clic y mucho más. Esta información
+se guarda en formularios individuales durante largos
+períodos de tiempo.
+Los buscadores «verticales» o temáticos están especializados en búsquedas sobre un tema concreto, como
+viajes, compras, artículos académicos, noticias o música.
+Los grandes buscadores jerárquicos incluyen también
+buscadores especializados como parte de sus servicios.
+Un metabuscador es un motor de búsqueda que no genera su propio índice y resultados de búsqueda sino que
+utiliza los resultados de uno o más buscadores externos.
+Un «directorio» es un repositorio de enlaces clasificados
+por categorías. Ejemplos famosos son el directorio de
+Yahoo! y el Open Directory Project.
+122
+
+cultura libre.indd
+
+122
+
+10/10/2012, 10:06
+
+La nube
+
+Internet se convierte en tu ordenador
+La expresión «en la nube» se ha puesto de moda últimamente. El concepto en sí no es nada nuevo, aunque
+en los últimos tiempos se ha producido un aumento
+espectacular de las aplicaciones disponibles.
+En los diagramas para representar una red de comunicaciones se usa una nube para mostrar la red que
+está fuera de la red del usuario. «Informática en la nube»
+hace referencia a cualquier servicio informático que se
+ejecuta dentro de la Red en vez de en el ordenador del
+usuario final.
+Uno de los primeros ejemplos de computación
+en la nube es el correo web («webmail»). Los usuarios pueden acceder a su correo electrónico desde
+cualquier dispositivo conectado a Internet en vez de
+desde una sola máquina. Correo Yahoo!, Hotmail y
+Gmail son algunos de los servicios de correo web más
+populares.
+Con el aumento constante de la velocidad de
+conexión a Internet, la gama de servicios en la nube
+se ha multiplicado en los últimos años. Ahora, por
+ejemplo, podemos almacenar grandes cantidades de
+datos en la «nube» usando discos duros virtuales como
+dropbox.com o terabox.com.
+123
+
+cultura libre.indd
+
+123
+
+10/10/2012, 10:06
+
+Igualmente, también está creciendo la oferta de
+software de ofimática en la nube, como procesadores
+de texto y bases de datos.
+El proyecto de sistema operativo de Mozilla Firefox
+OS o el Google Chrome son un paso más en la evolución hacia la informática en la nube. El sistema será
+accesible desde el navegador web y planea incorporar
+por defecto tecnologías en la nube, lo que significa
+que los programas que necesitas tener instalados en el
+ordenador serán mínimos, con una fuerte dependencia
+de los servicios disponibles online. Esto es justo lo contrario del modelo tradicional, en el que los programas
+están instalados en el ordenador y la dependencia del
+software en la nube es baja o nula.
+
+Dónde nos juntamos
+Los medios de comunicación sociales son un conjunto
+de herramientas de comunicación online que permiten
+a sus usuarios crear y compartir contenidos.
+Los medios sociales se diferencian de los medios de
+comunicación convencionales en que no solo informan
+sino que interactúan contigo mientras te dan la información. La interacción puede ser algo tan sencillo como
+permitirte escribir comentarios o votar artículos o marcar
+como «Me gusta» o «Ya no me gusta» cualquier acción
+de otros usuarios. El usuario no es un mero espectador,
+sino que forma parte de los medios, ya que otros usuarios
+también pueden leer sus comentarios o reseñas.
+124
+
+cultura libre.indd
+
+124
+
+10/10/2012, 10:06
+
+La gente se está acostumbrando a poder responder
+a lo que otros escriben y a expresar su punto de vista.
+Esto hace que aumente la participación de la comunidad
+en los debates sobre temas de actualidad. El número de
+usuarios de medios sociales no para de crecer y con ello
+su influencia, lo que los hace cada vez más poderosos.
+Cualquier página web que permita a sus visitantes
+interactuar con el sitio y con otros visitantes puede ser
+considerada un medio de comunicación social. En líneas
+generales, los medios sociales pueden dividirse en seis
+tipos:
+1. Proyectos colaborativos (como Wikipedia), donde
+los usuarios interactúan añadiendo artículos o editando artículos existentes.
+2. Blogs y microblogs (como Twitter).
+3. Comunidades de contenidos (como YouTube o
+Flickr), donde los usuarios interactúan compartiendo y comentando fotos o vídeos.
+4. Redes sociales (como Facebook, hi5, google+), en
+las que los usuarios interactúan añadiendo amigos,
+comentando perfiles, uniéndose a grupos y participando en debates.
+5. Mundos de juego virtuales (como World of Warcraft).
+6. Mundos sociales virtuales (como Second Life).
+La protección de los usuarios de los medios sociales
+es otro tema importante, especialmente la protección
+125
+
+cultura libre.indd
+
+125
+
+10/10/2012, 10:06
+
+de la privacidad. Aunque generalmente los usuarios
+pueden decidir si publican datos de carácter personal,
+la configuración predeterminada y la protección de los
+menores de edad no están exentas de polémica. Por
+si fuera poco, algunas páginas, como Facebook, han
+cambiado unilateralmente los ajustes de privacidad de
+sus usuarios en varias ocasiones.
+
+126
+
+cultura libre.indd
+
+126
+
+10/10/2012, 10:06
+
+cultura libre.indd
+
+127
+
+10/10/2012, 10:06
+
+cultura libre.indd
+
+128
+
+10/10/2012, 10:06
+
+

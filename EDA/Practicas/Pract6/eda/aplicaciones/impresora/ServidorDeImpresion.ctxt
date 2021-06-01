@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ServidorDeImpresion
+comment0.text=\ Interfaz\ ServidorDeImpresion\:\ especifica\ la\ velocidad\ de\ la\n\ \ impresora\ asociada\ a\ un\ un\ Servidor\ de\ Impresion\ (print\ server)\n\ \ y\ los\ metodos\ que\ este\ ha\ de\ implementar\ **independientemente**\ \ \ \n\ \ de\ si\ usa\ una\ Cola\ o\ una\ Cola\ de\ Prioridad\ para\ gestionar\ los\n\ \ trabajos\ a\ la\ espera\ de\ ser\ impresos\ que\ almacena.\n\ \ \n\ \ @author\ (EDA-QB)\n\ \ @version\ (Curso\ 2020-2021)\n
+comment1.params=t
+comment1.target=void\ insertar(Trabajo)
+comment1.text=\ Incluye\ un\ nuevo\ Trabajo\ t\ en\ un\ ServidorDeImpresion.\n\ \ @param\ t\ \ \ Trabajo\n
+comment2.params=
+comment2.target=boolean\ hayTrabajos()
+comment2.text=\ Comprueba\ si\ hay\ algun\ Trabajo\ a\ imprimir\ en\ un\ ServidorDeImpresion.\n\ \ @return\ boolean\n
+comment3.params=
+comment3.target=Trabajo\ getTrabajo()
+comment3.text=\ SII\ hayTrabajos()\:\ devuelve\ el\ Trabajo\ de\ un\ ServidorDeImpresion\n\ \ que\ va\ a\ ser\ impreso.\n\ \ @return\ Trabajo\n
+comment4.params=
+comment4.target=int\ imprimirTrabajo()
+comment4.text=\ SII\ hayTrabajos()\:\ elimina\ de\ un\ ServidorDeImpresion\ el\ \n\ \ Trabajo\ que\ va\ a\ ser\ impreso\ y\ devuelve\ el\ tiempo\ que\ \n\ \ este\ tardara\ en\ imprimirse,\ en\ base\ a\ la\ velocidad\ de\ la\ impresora.\n\ \ @return\ int\ (seg.)\n
+numComments=5

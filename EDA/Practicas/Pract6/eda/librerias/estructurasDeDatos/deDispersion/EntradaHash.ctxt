@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=EntradaHash
+comment0.text=\n\ Representa\ un\ elemento\ de\ la\ Lista\ con\ PI\ que\ implementa\ \ \ \n\ una\ cubeta\ de\ una\ TablaHash,\ esto\ es\ una\ Entrada\ o\ par\n\ (clave,\ valor)\n\ \n\ @param\ <C>,\ el\ tipo\ de\ la\ clave\n\ @param\ <V>,\ el\ tipo\ del\ valor\ asociado\ a\ una\ clave\n\ \n\ @author\ (EDA)\n\ @version\ (Curso\ 2018/19)\n
+comment1.params=c\ v
+comment1.target=EntradaHash(java.lang.Object,\ java.lang.Object)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3
