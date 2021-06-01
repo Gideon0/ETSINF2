@@ -107,15 +107,26 @@ public class Communication implements Runnable {
                     // 6.1.6
                     NewChatMessage aux = (NewChatMessage) aux2;
                     ui.API.chatMessageReceived(aux.getSenderName(), 
-                    aux.getText(), aux.getTimestamp());         
+                    aux.getText(), aux.getTimestamp());
+                    
+                    //7.2
+                    Queue queue2 = (Queue) ic.lookup("dynamicQueues/users-" +aux.getSenderName()); 
+        
+                    AckChatMessage ack = new AckChatMessage(ui.API.getMyName(), aux.getTimestamp()); 
+                    
+                    ObjectMessage JMSMessage = jmsContext.createObjectMessage(ack);
+                    
+                    producer.send(queue2, JMSMessage);
+                    
                 }else if (aux2 instanceof NewUser){
                     // 7.1
                     NewUser nUser = (NewUser) aux2;        
                     ui.API.addToUserList(nUser.getName());
                 
                 }else if (aux2 instanceof AckChatMessage){
+                    // 7.2
                     AckChatMessage ack = (AckChatMessage) aux2;
-                    ui.API.changeMessageStatusToDelivered(ack.getSenderName(),ack.getTimestamp() );// 7.2
+                    ui.API.changeMessageStatusToDelivered(ack.getSenderName(),ack.getTimestamp() );
                 
                 }else if (aux2 instanceof ReadedChatMessage){
                     ReadedChatMessage readed = (ReadedChatMessage) aux2;

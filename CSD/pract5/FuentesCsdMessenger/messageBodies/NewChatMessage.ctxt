@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=NewChatMessage
+comment0.text=\n\ @author\ Agust\u00EDn\ Espinosa\ Minguet\ (aespinos@upvnet.upv.es)\n\ \n\ \ \ \ \ \ \ \ \ Mensaje\ que\ A\ env\u00EDa\ a\ otro\ usuario\n
+comment1.params=text\ senderName\ timestamp
+comment1.target=NewChatMessage(java.lang.String,\ java.lang.String,\ long)
+comment1.text=\n\ @param\ text\n\ \ \ \ \ \ \ \ \ \ \ \ El\ texto\ del\ mensaje\n\ @param\ senderName\n\ \ \ \ \ \ \ \ \ \ \ \ El\ usuario\ que\ env\u00EDa\ el\ mensaje\ (A)\n\ @param\ timestamp\n\ \ \ \ \ \ \ \ \ \ \ \ La\ marca\ de\ tiempo\ en\ la\ que\ A\ pulsa\ el\ bot\u00F3n\ de\ env\u00EDo\n
+comment2.params=
+comment2.target=java.lang.String\ getText()
+comment3.params=name
+comment3.target=void\ setText(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getSenderName()
+comment5.params=senderName
+comment5.target=void\ setSenderName(java.lang.String)
+comment6.params=
+comment6.target=long\ getTimestamp()
+comment7.params=timestamp
+comment7.target=void\ setTimestamp(long)
+numComments=8
