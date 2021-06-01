@@ -2,11 +2,20 @@
 
 ## Ejercicio 1
 
-|Tipo de traa IEEE| Dir. destino / Dir. 1| Dir. origen/ Dir. 2| Dir. 3|Dir. IP origen relacionada (si la hay) | Dir. IP destino relacionado (si la hay)| Papel que desempeña la trama| 
-|--|--|--|--|--|--|--|
-|802.11|PA1|A|B|IPA|IPB|Trama ICMP|
-|802.3|B|A|--|IPA|IPB|Trama ICMP| 
-|802.11|B|PA2|A|IPA|IPB|Trama ICMP|
+![](attachment/tabla.png)
+
+|Tipo de traa IEEE| Dir. destino / Dir. 1| Dir. origen/ Dir. 2| Dir. 3|Dir. IP origen relacionada (si la hay) | Dir. IP destino relacionado (si la hay)| Papel que desempeña la trama| Máquinas cuya tarjeta red recibe copia de la trama|
+|--|--|--|--|--|--|--|--|
+|802.11|PA1     |A|Difusión| IPA|IPB|ARP request|PA1|
+|802.11|Difusión|PA1|A|IPA|IPB|ARP request|A|
+|802.3 |Difusión|A|--|IPA|IPB|ARP request|PA2,Router|
+|802.11|Difusión|PA2|A|IPA|IPB|ARP request|B|
+|802.11|PA2     |B|A|IPB|IPA|ARP response|PA2|
+|802.3 |A|B|--|IPB|IPA|ARP response|PA1|
+|802.11|A|PA1|B|IPB|IPA|ARP response|A|
+|802.11|PA1|A|B|IPA|IPB|Trama ICMP|PA1|
+|802.3 |B|A|--|IPA|IPB|Trama ICMP|PA2|
+|802.11|B|PA2|A|IPA|IPB|Trama ICMP|B|
 
 ## Ejercicio 2
 
