@@ -1,6 +1,8 @@
+
+# Resumen IPC
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Resumen IPC](#resumen-ipc)
   - [Tema 4 Diseño Físico](#tema-4-dise%C3%B1o-f%C3%ADsico)
@@ -104,7 +106,6 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Resumen IPC
 
 ## Tema 4 Diseño Físico
 
